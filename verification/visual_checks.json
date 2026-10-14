@@ -1,0 +1,38 @@
+{
+  "passed": 7,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "desktop portrait loads on scroll",
+      "passed": true,
+      "viewport": 1440
+    },
+    {
+      "check": "desktop homepage no horizontal overflow",
+      "passed": true
+    },
+    {
+      "check": "tablet portrait loads on scroll",
+      "passed": true,
+      "viewport": 1024
+    },
+    {
+      "check": "tablet homepage no horizontal overflow",
+      "passed": true
+    },
+    {
+      "check": "mobile portrait loads on scroll",
+      "passed": true,
+      "viewport": 390
+    },
+    {
+      "check": "mobile homepage no horizontal overflow",
+      "passed": true
+    },
+    {
+      "check": "Mobile catalogue search displays F023",
+      "passed": true
+    }
+  ],
+  "method": "Chromium set_content, local assets inlined, responsive viewport simulation; no native Safari or hosted-navigation test"
+}

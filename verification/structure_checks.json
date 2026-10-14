@@ -1,0 +1,896 @@
+{
+  "passed": 176,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "Unique anchors: about.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: about.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: attribution.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: attribution.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/books.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/books.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/chapters.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/chapters.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/chapters/c01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/chapters/c01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/chapters/c02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/chapters/c02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/chapters/c03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/chapters/c03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/chapters/c04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/chapters/c04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/chapters/c05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/chapters/c05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/chapters/c06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/chapters/c06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/chapters/c07.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/chapters/c07.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/chapters/c08.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/chapters/c08.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/chapters/c09.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/chapters/c09.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/chapters/c10.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/chapters/c10.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/chapters/c11.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/chapters/c11.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/chapters/c12.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/chapters/c12.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/chapters/c13.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/chapters/c13.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/fowler.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/fowler.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/occurrences.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/occurrences.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/osmani.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/osmani.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/polimi.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/polimi.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/practices.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/practices.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/pragmatic-engineer.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/pragmatic-engineer.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/streams.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/streams.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/streams/code-quality-security.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/streams/code-quality-security.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/streams/economics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/streams/economics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/streams/engineering-structure.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/streams/engineering-structure.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/streams/jobs-roles.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/streams/jobs-roles.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/streams/productivity.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/streams/productivity.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/streams/skills-learning.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/streams/skills-learning.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/streams/system-knowledge-memory.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/streams/system-knowledge-memory.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/streams/verification-review.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/streams/verification-review.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/streams/what-agents-can-do.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/streams/what-agents-can-do.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/agent-context-and-persistent-memory.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/agent-context-and-persistent-memory.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/agent-failure-and-escalation.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/agent-failure-and-escalation.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/ai-as-reviewer.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/ai-as-reviewer.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/architecture-and-modularity.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/architecture-and-modularity.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/automation-bias-and-trust.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/automation-bias-and-trust.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/benchmarks-and-construct-validity.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/benchmarks-and-construct-validity.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/code-reuse-and-duplication.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/code-reuse-and-duplication.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/cognitive-offloading-and-skill-debt.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/cognitive-offloading-and-skill-debt.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/controlled-productivity-evidence.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/controlled-productivity-evidence.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/dataset-provenance-and-dependency.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/dataset-provenance-and-dependency.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/dependencies-and-agent-supply-chain.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/dependencies-and-agent-supply-chain.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/developer-workflow-and-adoption.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/developer-workflow-and-adoption.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/economic-costs-and-return.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/economic-costs-and-return.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/employment-and-early-career-roles.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/employment-and-early-career-roles.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/evaluation-methodology-and-baselines.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/evaluation-methodology-and-baselines.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/human-agent-collaboration.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/human-agent-collaboration.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/human-cognitive-load.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/human-cognitive-load.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/independent-verification-and-oracles.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/independent-verification-and-oracles.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/long-running-agent-execution.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/long-running-agent-execution.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/onboarding-and-developer-fluency.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/onboarding-and-developer-fluency.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/output-versus-shipped-value.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/output-versus-shipped-value.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/ownership-and-knowledge-transfer.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/ownership-and-knowledge-transfer.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/prompt-injection-and-malicious-tools.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/prompt-injection-and-malicious-tools.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/remote-work-and-apprenticeship.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/remote-work-and-apprenticeship.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/review-capacity-and-maintainers.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/review-capacity-and-maintainers.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/skills-formation-and-teaching.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/skills-formation-and-teaching.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/specifications-and-governance.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/specifications-and-governance.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/system-understanding-and-rationale.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/system-understanding-and-rationale.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/technical-debt-and-complexity.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/technical-debt-and-complexity.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/topics/vulnerability-and-secure-code.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/topics/vulnerability-and-secure-code.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/volumes.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/volumes.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/volumes/v01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/volumes/v01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/volumes/v02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/volumes/v02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/volumes/v03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/volumes/v03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/volumes/v04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/volumes/v04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/volumes/v05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/volumes/v05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: downloads.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: downloads.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: knowledge-atlas.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: knowledge-atlas.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: swe_knowledge_graph.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: swe_knowledge_graph.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: verification/report.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: verification/report.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All local file links and fragment anchors resolve",
+      "passed": true,
+      "detail": {
+        "checked_links": 17175,
+        "errors": []
+      }
+    },
+    {
+      "check": "Entire embedded graph payload retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen original HTML and GraphML/JSON bytes retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All 17 inherited catalogue files retain source bytes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "README and top-level Markdown local links resolve",
+      "passed": true,
+      "detail": {
+        "checked": 21,
+        "errors": []
+      }
+    },
+    {
+      "check": "Static W record IDs complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON W complete attributes preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Static O record IDs complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON O complete attributes preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Static P record IDs complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON P complete attributes preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Static F record IDs complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON F complete attributes preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Static B record IDs complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON B complete attributes preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Static practices IDs complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Static occurrences IDs complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No external runtime dependencies in new pages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original Polimi-only defaultState unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All original core app functions retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "README includes bio and local portrait",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No fonts, third-party full-text PDFs or book manuscripts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": ".nojekyll present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Each site file under 25 MiB",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "internal_links_checked": 17175,
+  "distinct_external_links": 373,
+  "external_urls_live_checked": false,
+  "html_pages_checked": 76
+}

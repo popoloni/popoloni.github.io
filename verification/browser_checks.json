@@ -1,0 +1,458 @@
+{
+  "passed": 88,
+  "failed": 0,
+  "browser": "Playwright Chromium; packaged CSS, JavaScript and images inlined for local set_content rendering because administrator policy blocks HTTP navigation",
+  "navigation_test_boundary": "Static path/fragment validation plus the same catalogue URL handler called with explicit parameters; real hosted navigation not exercised",
+  "native_safari_tested": false,
+  "github_deployed": false,
+  "checks": [
+    {
+      "check": "Embedded page index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Landing page title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Landing has 5 source catalogue links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Landing image loaded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Desktop no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Embedded page catalogues/polimi.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "polimi static record count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "polimi search filters entries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "polimi empty state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "polimi reset restores all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Embedded page catalogues/osmani.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "osmani static record count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "osmani search filters entries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "osmani empty state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "osmani reset restores all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Embedded page catalogues/pragmatic-engineer.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pragmatic-engineer static record count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pragmatic-engineer search filters entries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pragmatic-engineer empty state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pragmatic-engineer reset restores all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Embedded page catalogues/fowler.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "fowler static record count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "fowler search filters entries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "fowler empty state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "fowler reset restores all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Embedded page catalogues/books.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "books static record count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "books search filters entries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "books empty state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "books reset restores all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Embedded page catalogues/practices.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "practices static record count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "practices search filters entries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "practices empty state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "practices reset restores all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Embedded page catalogues/occurrences.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "occurrences static record count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "occurrences search filters entries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "occurrences empty state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "occurrences reset restores all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Embedded page catalogues/polimi.html#W023",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Anchor reveals details",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Embedded page about.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Author photo loaded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "polimi readable without JavaScript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "osmani readable without JavaScript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pragmatic-engineer readable without JavaScript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "fowler readable without JavaScript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "books readable without JavaScript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Embedded page swe_knowledge_graph.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original 193 / 0 / 64 default",
+      "passed": true,
+      "detail": {
+        "W": 193,
+        "O": 0,
+        "P": 0,
+        "B": 0,
+        "F": 0
+      }
+    },
+    {
+      "check": "All 297 relationship switches present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Default uses exact expected edge IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Embedded page swe_knowledge_graph.html?collection=F&node=F023",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Fowler deep link selects F023",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Source inspector links back to static catalogue",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Embedded page swe_knowledge_graph.html?collection=B&grouping=volume&group=V03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Volume deep link selects 36 B records",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Embedded page swe_knowledge_graph.html?node=PAT%3A001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Context record deep link",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Embedded page swe_knowledge_graph.html?collection=invalid&node=NOT_A_NODE",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Invalid deep link leaves default intact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Embedded page swe_knowledge_graph.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All 297 relation switches have exact keyed edges",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Reset after edge tests restores 193 / 64",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Actual mobile viewport width is 390px",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Embedded page index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Mobile viewport index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Mobile no overflow index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Embedded page catalogues/index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Mobile viewport catalogues/index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Mobile no overflow catalogues/index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Embedded page catalogues/polimi.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Mobile viewport catalogues/polimi.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Mobile no overflow catalogues/polimi.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Embedded page catalogues/books.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Mobile viewport catalogues/books.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Mobile no overflow catalogues/books.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Embedded page about.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Mobile viewport about.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Mobile no overflow about.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Embedded page downloads.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Mobile viewport downloads.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Mobile no overflow downloads.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Embedded page swe_knowledge_graph.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Mobile atlas still Polimi-only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No unhandled JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "No external network requests during site navigation",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "page_errors": [],
+  "external_network_requests": []
+}

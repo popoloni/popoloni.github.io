@@ -1,0 +1,104 @@
+[
+  {
+    "file": "data/originals/Osmani_50_Annotated_Bibliography_CANONICAL_v3.md",
+    "source_archive": "AI_SWE_v10_COMPLETE_20261013.zip",
+    "archive_path": "AI_SWE_v10/05_Knowledge_Base/O_Osmani_50/Osmani_50_Annotated_Bibliography_CANONICAL_v3.md",
+    "sha256": "06321bdd189607c4d563213b2ceef80bd2e70f1eb6782e7477362d7440eab57e"
+  },
+  {
+    "file": "data/originals/Osmani_50_Reviewed_O_ID_Crosswalk.csv",
+    "source_archive": "AI_SWE_v10_COMPLETE_20261013.zip",
+    "archive_path": "AI_SWE_v10/05_Knowledge_Base/O_Osmani_50/Osmani_50_Reviewed_O_ID_Crosswalk.csv",
+    "sha256": "62e6cbc7f8ac8b209532d6ac4a5d87b1963c3077109f74f2dd955cc21e24ceab"
+  },
+  {
+    "file": "data/originals/P123_annotated_records_AUDITED_v3.json",
+    "source_archive": "AI_SWE_v10_COMPLETE_20261013.zip",
+    "archive_path": "AI_SWE_v10/05_Knowledge_Base/P_Pragmatic_Engineer_123/P123_annotated_records_AUDITED_v3.json",
+    "sha256": "675db4c1b4adad6cc3fc5068d047727b4d3903385785b0e81f28ba23cc7f8ea1"
+  },
+  {
+    "file": "data/originals/Orosz_P001_P123_Annotated_Bibliography_AUDITED_v3.md",
+    "source_archive": "AI_SWE_v10_COMPLETE_20261013.zip",
+    "archive_path": "AI_SWE_v10/05_Knowledge_Base/P_Pragmatic_Engineer_123/Orosz_P001_P123_Annotated_Bibliography_AUDITED_v3.md",
+    "sha256": "2713c5d3805a8d6545c60603ac80b3e496dfe505a55e50ace266e979a7ecc7af"
+  },
+  {
+    "file": "data/originals/Orosz_P001_P123_AUDITED_v3.bib",
+    "source_archive": "AI_SWE_v10_COMPLETE_20261013.zip",
+    "archive_path": "AI_SWE_v10/05_Knowledge_Base/P_Pragmatic_Engineer_123/Orosz_P001_P123_AUDITED_v3.bib",
+    "sha256": "4a9b07cf5e8e57f049f9047a68e14059483a8283a5e1ef706fc2603cf4715cc2"
+  },
+  {
+    "file": "data/originals/PATTERN_OCCURRENCES.json",
+    "source_archive": "AI_SWE_v10_COMPLETE_20261013.zip",
+    "archive_path": "AI_SWE_v10/05_Knowledge_Base/Series_Practices_v10/PATTERN_OCCURRENCES.json",
+    "sha256": "8268f6e38a25f6d31146217b9a8e7d5fe8f1f638123fcf06c76baec86c35bd6b"
+  },
+  {
+    "file": "data/originals/PRACTICE_CONCEPTS.json",
+    "source_archive": "AI_SWE_v10_COMPLETE_20261013.zip",
+    "archive_path": "AI_SWE_v10/05_Knowledge_Base/Series_Practices_v10/PRACTICE_CONCEPTS.json",
+    "sha256": "ef6450c9519a913c094e2b7b8cf2ad58504f7f0402da25cb0f6e89c8a00cf94b"
+  },
+  {
+    "file": "data/originals/SOURCE_111_DISPOSITIONS.json",
+    "source_archive": "AI_SWE_v10_COMPLETE_20261013.zip",
+    "archive_path": "AI_SWE_v10/05_Knowledge_Base/Series_Practices_v10/SOURCE_111_DISPOSITIONS.json",
+    "sha256": "b091eea991b6b72a3756c4c6f4b00e53639be32b36cc6c413633e420680401b4"
+  },
+  {
+    "file": "data/originals/FAMILIES.json",
+    "source_archive": "AI_SWE_v10_COMPLETE_20261013.zip",
+    "archive_path": "AI_SWE_v10/05_Knowledge_Base/Series_Practices_v10/FAMILIES.json",
+    "sha256": "a7201d53f519bca0132394d2de0fe459ea77a8ccc3e942be05ec0e8300daa2b5"
+  },
+  {
+    "file": "data/originals/CURRENT_RECORD_INDEX.md",
+    "source_archive": "AI_SWE_v10_COMPLETE_20261013.zip",
+    "archive_path": "AI_SWE_v10/05_Knowledge_Base/W_POLIMI_193/CURRENT_RECORD_INDEX.md",
+    "sha256": "6441b04f9920a87fd085ea5587a4cea2b90c1b46a8315856d1dba872e0cd6ac7"
+  },
+  {
+    "file": "data/originals/Research_and_Corrigendum.bib",
+    "source_archive": "AI_SWE_v10_COMPLETE_20261013.zip",
+    "archive_path": "AI_SWE_v10/05_Knowledge_Base/W_POLIMI_193/Research_and_Corrigendum.bib",
+    "sha256": "9bd1ada81466fa61d6cbe18f341a722fd120427e383f2605e63030f94db59da2"
+  },
+  {
+    "file": "data/originals/fowler_additive_overlay.graphml",
+    "source_archive": "Knowledge_Atlas_v12_Fowler_GitHub_Pages_20261013.zip",
+    "archive_path": "Knowledge_Atlas_v12_Fowler/fowler_additive_overlay.graphml",
+    "sha256": "1cd590bf25950c887ba0618a4315aa9c3b4c8af557f886c1472a8a289c1fe0e2"
+  },
+  {
+    "file": "data/originals/fowler_catalogue.csv",
+    "source_archive": "Knowledge_Atlas_v12_Fowler_GitHub_Pages_20261013.zip",
+    "archive_path": "Knowledge_Atlas_v12_Fowler/fowler_catalogue.csv",
+    "sha256": "736e250ed8d3ea28cffd8bb606637b58608001970b9baf7687f25858c1e1132e"
+  },
+  {
+    "file": "data/originals/fowler_catalogue.json",
+    "source_archive": "Knowledge_Atlas_v12_Fowler_GitHub_Pages_20261013.zip",
+    "archive_path": "Knowledge_Atlas_v12_Fowler/fowler_catalogue.json",
+    "sha256": "55925002b6304abbbcf672223450042b2499e5a2d1bcdc6af6b810eaafb48bf4"
+  },
+  {
+    "file": "data/originals/fowler_overlay.json",
+    "source_archive": "Knowledge_Atlas_v12_Fowler_GitHub_Pages_20261013.zip",
+    "archive_path": "Knowledge_Atlas_v12_Fowler/fowler_overlay.json",
+    "sha256": "4154fa5280b5dc0b4d4255db94d3dc3dbe6c0b67c2684d376f96da74499bc089"
+  },
+  {
+    "file": "data/originals/fowler_references.bib",
+    "source_archive": "Knowledge_Atlas_v12_Fowler_GitHub_Pages_20261013.zip",
+    "archive_path": "Knowledge_Atlas_v12_Fowler/fowler_references.bib",
+    "sha256": "691f0c0b4812e98674ae915d9657c3b033efb8364ace4fcd3f31b1878af7ebef"
+  },
+  {
+    "file": "data/originals/fowler_relations.csv",
+    "source_archive": "Knowledge_Atlas_v12_Fowler_GitHub_Pages_20261013.zip",
+    "archive_path": "Knowledge_Atlas_v12_Fowler/fowler_relations.csv",
+    "sha256": "ecf840b97a107b7cd4e54376e16ae093e03af26db349d42695d8b07670344c6b"
+  }
+]

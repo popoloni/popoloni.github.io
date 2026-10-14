@@ -1,0 +1,25 @@
+{
+  "archive_name": "Knowledge_Atlas_v12_Fowler_GitHub_Pages_20261013.zip",
+  "archive_sha256": "2c1d33e839eb52c3f9f22d81b0945153062250a3be01e550eddb56ae822f453b",
+  "frozen_graph_version": "12",
+  "graph_snapshot": "2026-10-13",
+  "site_presentation_version": "12.1",
+  "site_release_date": "2026-10-14",
+  "preserved_files": {
+    "source/atlas_v12_original.html": {
+      "archive_member": "Knowledge_Atlas_v12_Fowler/publish/swe_knowledge_graph.html",
+      "sha256": "c908bfa327cd3ad17dd6aa824ee8f440310f2be25c3d584d2e451e8342fb8dfc",
+      "bytes": 8602174
+    },
+    "data/graph/knowledge_graph_v12.graphml": {
+      "archive_member": "Knowledge_Atlas_v12_Fowler/knowledge_graph_v12.graphml",
+      "sha256": "8ee3d388af8c58017cf53919827d6556728fc18c29918d8ae139b9a5dd32e1ca",
+      "bytes": 7839592
+    },
+    "data/graph/knowledge_graph_v12.json": {
+      "archive_member": "Knowledge_Atlas_v12_Fowler/knowledge_graph_v12.json",
+      "sha256": "aced6df4ebd8c87ca2c023154aba1fc963ec2972bd6b10352a4861d6c0ec39a8",
+      "bytes": 8010826
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "site_version": "12.1",
+  "graph_snapshot": "2026-10-13",
+  "graph_nodes": 1757,
+  "graph_edges": 12188,
+  "graph_relation_types": 297,
+  "source_counts": {
+    "W": 193,
+    "O": 50,
+    "P": 123,
+    "F": 33,
+    "B": 111
+  },
+  "static_source_records": 510,
+  "practice_descriptors": 84,
+  "practice_occurrences": 87,
+  "group_pages": {
+    "streams": 9,
+    "topics": 30,
+    "chapters": 13,
+    "volumes": 5
+  },
+  "html_pages_built": 75,
+  "graph_payload_unchanged": true,
+  "new_empirical_verification": false
+}

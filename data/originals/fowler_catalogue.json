@@ -1,0 +1,1391 @@
+[
+  {
+    "id": "F001",
+    "title": "The toolchain",
+    "authors": [
+      "Birgitta Böckeler"
+    ],
+    "publication_date": "2023-07-26",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/01-tool-landscape.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 33,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Organizes coding-assistance tools by task, interaction style, prompt construction and model or hosting choices. The framework helps separate what a tool does from how a developer supplies its context.",
+    "limitation": "A July 2023 conceptual landscape, not a comparative benchmark or a current product inventory.",
+    "evidence_class": "Conceptual tool taxonomy",
+    "source_locator": "Body: task and interaction categories; prompt composition; models and hosting",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Engineering structure",
+    "streams": [
+      "T:Engineering structure",
+      "T:Productivity"
+    ],
+    "topics": [
+      "K:Developer workflow and adoption",
+      "K:Agent context and persistent memory"
+    ],
+    "mapped": [
+      "C:C01",
+      "C:C03",
+      "C:C09"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F002",
+    "title": "Median - A tale in three functions",
+    "authors": [
+      "Birgitta Böckeler"
+    ],
+    "publication_date": "2023-07-27",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/02-median-tale.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 32,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Examines three generated median implementations and the defects or side effects that a knowledgeable developer must recognize. The example makes the choice of test expectations part of the engineering work.",
+    "limitation": "One small TypeScript example; neither defect prevalence nor a general model-quality comparison was established.",
+    "evidence_class": "Worked programming example",
+    "source_locator": "Body: the three median implementations and the test discussion",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Verification & review",
+    "streams": [
+      "T:Verification & review",
+      "T:Code quality & security"
+    ],
+    "topics": [
+      "K:Independent verification and oracles",
+      "K:Automation bias and trust"
+    ],
+    "mapped": [
+      "C:C05",
+      "C:C07",
+      "C:C10"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F003",
+    "title": "In-line assistance - when is it more useful?",
+    "authors": [
+      "Birgitta Böckeler"
+    ],
+    "publication_date": "2023-08-01",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/03-coding-assistance-when-useful.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 31,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Discusses when inline suggestions help, considering task familiarity, technology, change size, developer experience and the effort of checking or reworking the output.",
+    "limitation": "Experience-based guidance, largely from experienced developers; usefulness is not a measured universal productivity effect.",
+    "evidence_class": "Practitioner experience",
+    "source_locator": "Body: usefulness factors and review/rework effort",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Productivity",
+    "streams": [
+      "T:Productivity",
+      "T:Verification & review"
+    ],
+    "topics": [
+      "K:Developer workflow and adoption",
+      "K:Human cognitive load",
+      "K:Economic costs and return"
+    ],
+    "mapped": [
+      "C:C02",
+      "C:C03",
+      "C:C10",
+      "C:C12"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [
+      2
+    ],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F004",
+    "title": "In-line assistance - how can it get in the way?",
+    "authors": [
+      "Birgitta Böckeler"
+    ],
+    "publication_date": "2023-08-03",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/04-coding-assistance-how-in-the-way.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 30,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Describes assistants repeating poor patterns from their context and the burden of continually judging suggestions. Relates these experiences to automation bias, anchoring and reluctance to discard generated work.",
+    "limitation": "Qualitative examples and interpretive mechanisms, not measured frequencies of bias or review fatigue.",
+    "evidence_class": "Practitioner experience",
+    "source_locator": "Body: reinforcing existing practices; reviewing instead of producing",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Verification & review",
+    "streams": [
+      "T:Verification & review",
+      "T:System knowledge & memory",
+      "T:Code quality & security"
+    ],
+    "topics": [
+      "K:Automation bias and trust",
+      "K:Human cognitive load",
+      "K:Agent context and persistent memory"
+    ],
+    "mapped": [
+      "C:C05",
+      "C:C08",
+      "C:C09"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F005",
+    "title": "Coding assistants do not replace pair programming",
+    "authors": [
+      "Birgitta Böckeler"
+    ],
+    "publication_date": "2023-08-10",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/05-not-your-pair-programmer.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 29,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Argues that code assistance does not replace the human knowledge sharing, collaboration and collective understanding associated with pair programming. Tools can instead be used by a human pair.",
+    "limitation": "An argument about the functions of pairing; not a controlled comparison of pairing arrangements.",
+    "evidence_class": "Conceptual argument",
+    "source_locator": "Body: knowledge sharing, team flow and pairing with assistance",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Skills & learning",
+    "streams": [
+      "T:Skills & learning",
+      "T:Engineering structure",
+      "T:System knowledge & memory"
+    ],
+    "topics": [
+      "K:Human-agent collaboration",
+      "K:Ownership and knowledge transfer",
+      "K:Skills formation and teaching"
+    ],
+    "mapped": [
+      "C:C10",
+      "C:C11"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [
+      4
+    ],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F006",
+    "title": "TDD with GitHub Copilot",
+    "authors": [
+      "Paul Sobocinski"
+    ],
+    "publication_date": "2023-08-17",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/06-tdd-with-coding-assistance.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 28,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Explores assistance during red, green and refactor steps. Human test intent and assertions remain important; suggestions can help implementation while also overproducing code or struggling with refactoring.",
+    "limitation": "Experience with a human-led workflow and an early tool generation; not evidence about fully autonomous TDD or a causal quality gain.",
+    "evidence_class": "Practitioner workflow report",
+    "source_locator": "Body: red, green and refactoring discussions",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Verification & review",
+    "streams": [
+      "T:Verification & review",
+      "T:Skills & learning"
+    ],
+    "topics": [
+      "K:Independent verification and oracles",
+      "K:Human-agent collaboration"
+    ],
+    "mapped": [
+      "C:C03",
+      "C:C07",
+      "C:C10"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F007",
+    "title": "How is GenAI different from other code generators?",
+    "authors": [
+      "Birgitta Böckeler"
+    ],
+    "publication_date": "2023-09-19",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/07-how-is-this-different.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 27,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Contrasts generative assistance with model-driven development and domain-specific code generators. Examines how control and abstraction differ when generation draws on broad learned patterns rather than an explicitly designed transformation.",
+    "limitation": "Conceptual comparison; it does not demonstrate the reliability or economic superiority of either approach.",
+    "evidence_class": "Conceptual argument",
+    "source_locator": "Body: abstraction levels and comparison with traditional generation",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Engineering structure",
+    "streams": [
+      "T:Engineering structure"
+    ],
+    "topics": [
+      "K:Specifications and governance",
+      "K:Architecture and modularity"
+    ],
+    "mapped": [
+      "C:C01",
+      "C:C04",
+      "C:C05"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F008",
+    "title": "How to tackle unreliability of coding assistants",
+    "authors": [
+      "Birgitta Böckeler"
+    ],
+    "publication_date": "2023-11-29",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/08-how-to-tackle-unreliability.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 26,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Frames confidence in assistance around feedback, the developer’s ability to check an answer and the consequences of error. Proposes timeboxing unproductive assistance and retaining responsibility for the result.",
+    "limitation": "Personal heuristics rather than calibrated reliability estimates; informal numerical intuitions are not treated as measured rates.",
+    "evidence_class": "Practitioner guidance",
+    "source_locator": "Body: confidence, timeboxing and assistant persona",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Verification & review",
+    "streams": [
+      "T:Verification & review",
+      "T:What agents can do"
+    ],
+    "topics": [
+      "K:Agent failure and escalation",
+      "K:Independent verification and oracles",
+      "K:Automation bias and trust"
+    ],
+    "mapped": [
+      "C:C03",
+      "C:C07",
+      "C:C08",
+      "C:C13"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [
+      2
+    ],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F009",
+    "title": "Onboarding to a 'legacy' codebase with the help of AI",
+    "authors": [
+      "Birgitta Böckeler"
+    ],
+    "publication_date": "2024-08-15",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/09-ai-help-onboarding-codebase.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 25,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Recounts work on an unfamiliar Bahmni/OpenMRS issue. AI helped with terminology and code navigation, but environment setup, fixtures and mocking remained obstacles, and the issue was not solved in the attempt.",
+    "limitation": "One exploratory onboarding attempt; no measured reduction in onboarding time or demonstrated long-term comprehension.",
+    "evidence_class": "Exploratory case report",
+    "source_locator": "Body: issue exploration, code search, environment and testing attempts",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:System knowledge & memory",
+    "streams": [
+      "T:System knowledge & memory",
+      "T:Skills & learning"
+    ],
+    "topics": [
+      "K:Onboarding and developer fluency",
+      "K:System understanding and rationale"
+    ],
+    "mapped": [
+      "C:C05",
+      "C:C09",
+      "C:C10"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F010",
+    "title": "Building an AI agent application to migrate a tech stack",
+    "authors": [
+      "Birgitta Böckeler"
+    ],
+    "publication_date": "2024-08-20",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/10-ai-for-tech-stack-migration.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 24,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Builds a tool-using agent to migrate tests from Enzyme to React Testing Library. The account exposes file-editing, test-feedback and context-management problems alongside successful transformations.",
+    "limitation": "A bounded migration experiment with substantial failures; not proof of reliable autonomous migration across a codebase.",
+    "evidence_class": "Exploratory implementation experiment",
+    "source_locator": "Body: manually solved baseline, agent setup and migration observations",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:What agents can do",
+    "streams": [
+      "T:What agents can do",
+      "T:Code quality & security",
+      "T:System knowledge & memory"
+    ],
+    "topics": [
+      "K:Agent failure and escalation",
+      "K:Long-running agent execution",
+      "K:Independent verification and oracles"
+    ],
+    "mapped": [
+      "C:C03",
+      "C:C05",
+      "C:C07",
+      "C:C09"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F011",
+    "title": "Expanding the solution size with multi-file editing",
+    "authors": [
+      "Birgitta Böckeler"
+    ],
+    "publication_date": "2024-11-19",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/11-multi-file-editing.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 23,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Examines how multi-file edits enlarge the unit of AI-assisted work. Larger suggestions create new checking demands, including unrelated changes, and motivate layered feedback and comprehensible module boundaries.",
+    "limitation": "A tool-use snapshot and qualitative experience; no comparative defect rate or current feature guarantee.",
+    "evidence_class": "Practitioner tool exploration",
+    "source_locator": "Body: multi-file mode, feedback loops and implications of larger changes",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Code quality & security",
+    "streams": [
+      "T:Code quality & security",
+      "T:Verification & review",
+      "T:What agents can do"
+    ],
+    "topics": [
+      "K:Architecture and modularity",
+      "K:Review capacity and maintainers",
+      "K:Developer workflow and adoption"
+    ],
+    "mapped": [
+      "C:C03",
+      "C:C05",
+      "C:C08"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F012",
+    "title": "What role does LLM reasoning play for software tasks?",
+    "authors": [
+      "Birgitta Böckeler"
+    ],
+    "publication_date": "2025-02-18",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/12-role-of-reasoning.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 22,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Questions where model reasoning adds value to coding tasks compared with supplying repository context and useful tool feedback. Considers debugging and planning as possible settings for investigation.",
+    "limitation": "Tentative analysis from February 2025, not a current model-feature comparison or evidence that reasoning always helps or harms coding.",
+    "evidence_class": "Conceptual analysis",
+    "source_locator": "Body: reasoning models, software tasks and contextual/tool feedback",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:What agents can do",
+    "streams": [
+      "T:What agents can do",
+      "T:System knowledge & memory"
+    ],
+    "topics": [
+      "K:Evaluation methodology and baselines",
+      "K:Agent context and persistent memory"
+    ],
+    "mapped": [
+      "C:C03",
+      "C:C09"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F013",
+    "title": "The role of developer skills in agentic coding",
+    "authors": [
+      "Birgitta Böckeler"
+    ],
+    "publication_date": "2025-03-25",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/13-role-of-developer-skills.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 21,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Uses agent missteps to explain why decomposition, debugging, design judgment and checking remain valuable. Separates immediate completion from team iteration and the lifetime of the codebase.",
+    "limitation": "Experience-based examples, not a measured skills intervention or a forecast of developer employment.",
+    "evidence_class": "Practitioner analysis",
+    "source_locator": "Body: missteps and the time-to-commit, iteration and codebase-lifetime perspectives",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Skills & learning",
+    "streams": [
+      "T:Skills & learning",
+      "T:Code quality & security",
+      "T:Engineering structure"
+    ],
+    "topics": [
+      "K:Skills formation and teaching",
+      "K:Technical debt and complexity",
+      "K:Human-agent collaboration"
+    ],
+    "mapped": [
+      "C:C01",
+      "C:C05",
+      "C:C10",
+      "C:C11"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F014",
+    "title": "Guiding an LLM for Robust Java ByteBuffer Code",
+    "authors": [
+      "Unmesh Joshi"
+    ],
+    "publication_date": "2025-04-17",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/14-guiding-llm-java-bytebuffer.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 20,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Follows a developer–LLM dialogue about Java ByteBuffer header access. The engineer uncovers problems with mutable buffer position and guides the design toward clearer access and encapsulation.",
+    "limitation": "An illustrative dialogue; removing position mutation does not by itself establish thread safety or general performance.",
+    "evidence_class": "Worked programming example",
+    "source_locator": "Body: header reading, position side effects and absolute access",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Code quality & security",
+    "streams": [
+      "T:Code quality & security",
+      "T:Verification & review"
+    ],
+    "topics": [
+      "K:Architecture and modularity",
+      "K:Independent verification and oracles",
+      "K:System understanding and rationale"
+    ],
+    "mapped": [
+      "C:C05",
+      "C:C07",
+      "C:C10"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F015",
+    "title": "Building TMT Mirror Visualization with LLM: A Step-by-Step Journey",
+    "authors": [
+      "Unmesh Joshi"
+    ],
+    "publication_date": "2025-04-30",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/15-building-tmt-mirror-visualization.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 19,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Describes building a telescope-mirror visualization with unfamiliar tools. Small geometric steps, visual checks and domain knowledge guide successive changes while the developer learns the implementation approach.",
+    "limitation": "A personal prototype-building account; neither retained learning nor broader productivity was evaluated.",
+    "evidence_class": "Exploratory learning case",
+    "source_locator": "Body: initial visualization, hexagon geometry and iterative refinement",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Skills & learning",
+    "streams": [
+      "T:Skills & learning",
+      "T:What agents can do"
+    ],
+    "topics": [
+      "K:Skills formation and teaching",
+      "K:Human-agent collaboration",
+      "K:Developer workflow and adoption"
+    ],
+    "mapped": [
+      "C:C03",
+      "C:C04",
+      "C:C10"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F016",
+    "title": "Coding Assistants Threaten the Software Supply Chain",
+    "authors": [
+      "Jim Gumbley",
+      "Lilly Ryan"
+    ],
+    "publication_date": "2025-05-13",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/software-supply-chain-attack-surface.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 18,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Analyzes the attack surface created when coding assistants consume project instructions and invoke tools with developer privileges. Discusses poisoned context, dependency risks and boundaries around execution.",
+    "limitation": "Security analysis rather than an attack-incidence study. Protocol and tool details belong to the May 2025 publication context.",
+    "evidence_class": "Threat analysis",
+    "source_locator": "Body: assistant inputs, tools, supply-chain exposure and defenses",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Code quality & security",
+    "streams": [
+      "T:Code quality & security",
+      "T:Engineering structure"
+    ],
+    "topics": [
+      "K:Prompt injection and malicious tools",
+      "K:Dependencies and agent supply chain"
+    ],
+    "mapped": [
+      "C:C03",
+      "C:C06"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F017",
+    "title": "Building Custom Tooling with LLMs",
+    "authors": [
+      "Unmesh Joshi"
+    ],
+    "publication_date": "2025-05-14",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/16-building-custom-tooling-with-llms.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 17,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Recounts extending PlantUML with custom visualization tooling. The developer uses generation and feedback to build the tool, while shaping abstractions and keeping the resulting code understandable and maintainable.",
+    "limitation": "One custom-tooling case; lower perceived effort is not a controlled productivity estimate.",
+    "evidence_class": "Practitioner implementation case",
+    "source_locator": "Body: PlantUML extension, implementation iterations and code habitability",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Code quality & security",
+    "streams": [
+      "T:Code quality & security",
+      "T:Productivity",
+      "T:System knowledge & memory"
+    ],
+    "topics": [
+      "K:Architecture and modularity",
+      "K:System understanding and rationale",
+      "K:Developer workflow and adoption"
+    ],
+    "mapped": [
+      "C:C03",
+      "C:C05",
+      "C:C09",
+      "C:C10"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F018",
+    "title": "Autonomous coding agents: A Codex example",
+    "authors": [
+      "Birgitta Böckeler"
+    ],
+    "publication_date": "2025-06-04",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/autonomous-agents-codex-example.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 16,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Inspects a background agent making a small Haiven change. The execution trace reveals code-search behavior, missing executable checks and inconsistent reuse across attempts, distinguishing unattended execution from accepted work.",
+    "limitation": "A small dated tool experiment; not a model ranking or a general estimate of autonomous success.",
+    "evidence_class": "Exploratory agent case",
+    "source_locator": "Body: supervised/background distinction, task trace and repeated attempts",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:What agents can do",
+    "streams": [
+      "T:What agents can do",
+      "T:Verification & review"
+    ],
+    "topics": [
+      "K:Agent failure and escalation",
+      "K:Code reuse and duplication",
+      "K:Independent verification and oracles"
+    ],
+    "mapped": [
+      "C:C03",
+      "C:C05",
+      "C:C07",
+      "C:C09"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F019",
+    "title": "I still care about the code",
+    "authors": [
+      "Birgitta Böckeler"
+    ],
+    "publication_date": "2025-07-09",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/i-still-care-about-the-code.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 15,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Argues that responsibility for operational software still requires understanding code and its risks. Contrasts probabilistic generation with designed language translation and relates oversight to possible error consequences.",
+    "limitation": "A professional position, not a calibrated threshold for how much review every change requires.",
+    "evidence_class": "Conceptual argument",
+    "source_locator": "Body: operational responsibility and comparison with compilers",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Verification & review",
+    "streams": [
+      "T:Verification & review",
+      "T:Code quality & security"
+    ],
+    "topics": [
+      "K:Automation bias and trust",
+      "K:System understanding and rationale",
+      "K:Ownership and knowledge transfer"
+    ],
+    "mapped": [
+      "C:C01",
+      "C:C05",
+      "C:C08",
+      "C:C13"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [
+      7
+    ],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F020",
+    "title": "Partner with the AI, throw away the code",
+    "authors": [
+      "Matteo Vaccari"
+    ],
+    "publication_date": "2025-07-31",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/partner-with-ai-and-throw-away-the-code.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 14,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "In a Go/MySQL performance investigation, generated helpers, experiments and unsuccessful rewrites helped the developer understand the problem before rewriting the core solution. Useful assistance can therefore leave little accepted generated code.",
+    "limitation": "A single client case; code-acceptance rate is questioned, but a general AI-caused productivity gain is not measured.",
+    "evidence_class": "Practitioner case report",
+    "source_locator": "Body: diagnosis, experiments, discarded proposals and final rewrite",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Productivity",
+    "streams": [
+      "T:Productivity",
+      "T:Skills & learning",
+      "T:Economics"
+    ],
+    "topics": [
+      "K:Output versus shipped value",
+      "K:Evaluation methodology and baselines",
+      "K:System understanding and rationale"
+    ],
+    "mapped": [
+      "C:C02",
+      "C:C05",
+      "C:C10",
+      "C:C12"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F021",
+    "title": "To vibe or not to vibe",
+    "authors": [
+      "Birgitta Böckeler"
+    ],
+    "publication_date": "2025-09-23",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/to-vibe-or-not-vibe.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 13,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Describes decisions about oversight using the chance of an error, its impact and the ability to detect it. The examples favor situation-dependent attention over a single rule for all generated code.",
+    "limitation": "A qualitative risk heuristic and personal experience; not a statistically calibrated risk model.",
+    "evidence_class": "Practitioner decision heuristic",
+    "source_locator": "Body: risk factors and situational review decisions",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Verification & review",
+    "streams": [
+      "T:Verification & review",
+      "T:Engineering structure"
+    ],
+    "topics": [
+      "K:Automation bias and trust",
+      "K:Human-agent collaboration"
+    ],
+    "mapped": [
+      "C:C01",
+      "C:C08",
+      "C:C13"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F022",
+    "title": "Anchoring AI to a reference application",
+    "authors": [
+      "Birgitta Böckeler"
+    ],
+    "publication_date": "2025-09-25",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/anchoring-to-reference.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 12,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Explores using a runnable reference application to guide changes across services. A scoped comparison and a reviewed change report precede implementation, raising a choice between AI-based propagation and deterministic transformations.",
+    "limitation": "A small reference-update example; consistency and maintainability at organizational scale remain untested.",
+    "evidence_class": "Exploratory workflow example",
+    "source_locator": "Body: reference application, differences, report and update workflow",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:System knowledge & memory",
+    "streams": [
+      "T:System knowledge & memory",
+      "T:Code quality & security",
+      "T:Engineering structure"
+    ],
+    "topics": [
+      "K:Architecture and modularity",
+      "K:Agent context and persistent memory",
+      "K:Specifications and governance"
+    ],
+    "mapped": [
+      "C:C04",
+      "C:C05",
+      "C:C09"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F023",
+    "title": "Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl",
+    "authors": [
+      "Birgitta Böckeler"
+    ],
+    "publication_date": "2025-10-15",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 11,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Distinguishes spec-first, spec-anchored and spec-as-source approaches through three tool explorations. Examines persistent specifications, task sizing, brownfield fit, instruction following and documentation overhead.",
+    "limitation": "A dated exploratory comparison, not controlled evidence for SDD effectiveness. The author’s questions about specification overhead and source-of-truth claims are retained.",
+    "evidence_class": "Practitioner comparative exploration",
+    "source_locator": "Body: definitions of SDD; Kiro, spec-kit and Tessl explorations; reflections",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Engineering structure",
+    "streams": [
+      "T:Engineering structure",
+      "T:System knowledge & memory"
+    ],
+    "topics": [
+      "K:Specifications and governance",
+      "K:Developer workflow and adoption",
+      "K:Agent context and persistent memory"
+    ],
+    "mapped": [
+      "C:C04",
+      "C:C09",
+      "C:C11",
+      "C:C13"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [
+      18
+    ],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F024",
+    "title": "Assessing internal quality while coding with an agent",
+    "authors": [
+      "Erik Doernenburg"
+    ],
+    "publication_date": "2026-01-27",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/ccmenu-quality.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 10,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Uses a CCMenu feature change to inspect internal quality. A fix that compiles can still erode the intended type model, introduce duplication or add unnecessary mechanisms; expert examination exposes those differences.",
+    "limitation": "The author presents an anecdote, not a study; observations do not establish a population-level quality effect.",
+    "evidence_class": "Practitioner code-review case",
+    "source_locator": "Body: GitLab support, optional values, duplication and cache behavior",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Code quality & security",
+    "streams": [
+      "T:Code quality & security",
+      "T:Verification & review"
+    ],
+    "topics": [
+      "K:Technical debt and complexity",
+      "K:Code reuse and duplication",
+      "K:Architecture and modularity"
+    ],
+    "mapped": [
+      "C:C05",
+      "C:C07",
+      "C:C08"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F025",
+    "title": "Context Engineering for Coding Agents",
+    "authors": [
+      "Birgitta Böckeler"
+    ],
+    "publication_date": "2026-02-05",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/context-engineering-coding-agents.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 9,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Organizes context features by who invokes them: a person, the model or agent software. Discusses rules, skills, subagents, external context and hooks as parts of the developer experience.",
+    "limitation": "Feature and practice snapshot, not proof of effectiveness or enforcement. Adding more configuration can produce contradictions or an illusion of control.",
+    "evidence_class": "Practitioner technical taxonomy",
+    "source_locator": "Body: trigger-based feature overview and context configuration",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:System knowledge & memory",
+    "streams": [
+      "T:System knowledge & memory",
+      "T:Engineering structure"
+    ],
+    "topics": [
+      "K:Agent context and persistent memory",
+      "K:Developer workflow and adoption",
+      "K:Specifications and governance"
+    ],
+    "mapped": [
+      "C:C03",
+      "C:C09",
+      "C:C13"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F026",
+    "title": "Harness Engineering - first thoughts",
+    "authors": [
+      "Birgitta Böckeler"
+    ],
+    "publication_date": "2026-02-17",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/harness-engineering-memo.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 8,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Interprets a reported harness through context, architectural constraints and codebase maintenance. Raises questions about reusable harnesses, constrained topologies and the effort of retrofitting existing systems.",
+    "limitation": "A reaction to another organization’s account, not an independent experiment. The author explicitly notes a gap in the reported functional verification.",
+    "evidence_class": "Interpretive practitioner commentary",
+    "source_locator": "Body: three categories; templates; runtime constraints; brownfield retrofit; final thoughts",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Engineering structure",
+    "streams": [
+      "T:Engineering structure",
+      "T:Code quality & security"
+    ],
+    "topics": [
+      "K:Architecture and modularity",
+      "K:Independent verification and oracles",
+      "K:Long-running agent execution"
+    ],
+    "mapped": [
+      "C:C03",
+      "C:C05",
+      "C:C07",
+      "C:C11",
+      "C:C13"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F027",
+    "title": "Humans and Agents in Software Engineering Loops",
+    "authors": [
+      "Kief Morris"
+    ],
+    "publication_date": "2026-03-04",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 7,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Distinguishes the why loop that pursues outcomes from nested how loops that build software. Proposes human work on the loop: improving guidance, checks and workflow rather than only editing individual outputs.",
+    "limitation": "A conceptual operating model. Its proposed agentic improvement flywheel is not a demonstrated organizational or reliability result.",
+    "evidence_class": "Conceptual operating model",
+    "source_locator": "Body: why/how loops; humans outside, in and on the loop; flywheel",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Engineering structure",
+    "streams": [
+      "T:Engineering structure",
+      "T:Jobs & roles"
+    ],
+    "topics": [
+      "K:Human-agent collaboration",
+      "K:Long-running agent execution",
+      "K:Specifications and governance"
+    ],
+    "mapped": [
+      "C:C01",
+      "C:C03",
+      "C:C11",
+      "C:C13"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F028",
+    "title": "Viability of local models for coding",
+    "authors": [
+      "Birgitta Böckeler"
+    ],
+    "publication_date": "2026-07-07",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-factors.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 6,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Frames local agentic coding as a combined hardware, model, runtime, context and tool-calling problem. The account separates being able to run a model from obtaining usable results.",
+    "limitation": "A personal hardware/tool snapshot. Explanations for observed configuration differences are hypotheses; code quality was not systematically evaluated.",
+    "evidence_class": "Practitioner configuration exploration",
+    "source_locator": "Scope; factors influencing viability; context size and harness; conclusions",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:What agents can do",
+    "streams": [
+      "T:What agents can do",
+      "T:Economics",
+      "T:System knowledge & memory"
+    ],
+    "topics": [
+      "K:Agent context and persistent memory",
+      "K:Economic costs and return",
+      "K:Evaluation methodology and baselines"
+    ],
+    "mapped": [
+      "C:C03",
+      "C:C09",
+      "C:C12"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [
+      29
+    ],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F029",
+    "title": "Experiences with local models for coding",
+    "authors": [
+      "Birgitta Böckeler"
+    ],
+    "publication_date": "2026-07-08",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-experiences.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 5,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Presents a viability funnel and compares manual trials, a small automated evaluation and everyday local-model use. Outcome sensitivity to task, context and configuration makes simple capability claims difficult.",
+    "limitation": "Two principal JavaScript/TypeScript tasks and small uneven repeat counts; one-shot automated trials differ from interactive work and do not establish a general ranking.",
+    "evidence_class": "Exploratory task evaluation",
+    "source_locator": "Viability funnel; two task descriptions; manual/automated phases; day-to-day use",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:What agents can do",
+    "streams": [
+      "T:What agents can do",
+      "T:Productivity",
+      "T:System knowledge & memory"
+    ],
+    "topics": [
+      "K:Benchmarks and construct validity",
+      "K:Evaluation methodology and baselines",
+      "K:Agent context and persistent memory"
+    ],
+    "mapped": [
+      "C:C02",
+      "C:C03",
+      "C:C09",
+      "C:C12"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [
+      28,
+      11
+    ],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F030",
+    "title": "The Economic Benefit of Refactoring",
+    "authors": [
+      "Giles Edwards-Alexander"
+    ],
+    "publication_date": "2026-07-30",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 4,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Repeats one representative change as a large Rust data-access module is refactored. Estimated input-token use falls after decomposition permits more selective code reading, connecting architecture to inference work.",
+    "limitation": "One application and change, approximate token counting and incomplete refactoring-cost accounting; this does not establish general ROI or savings for every future task.",
+    "evidence_class": "Exploratory refactoring experiment",
+    "source_locator": "Experiment in refactoring; results table; notes on process; further work",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Economics",
+    "streams": [
+      "T:Economics",
+      "T:Code quality & security"
+    ],
+    "topics": [
+      "K:Economic costs and return",
+      "K:Architecture and modularity",
+      "K:Code reuse and duplication"
+    ],
+    "mapped": [
+      "C:C02",
+      "C:C05",
+      "C:C12"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F031",
+    "title": "TDD inside the agent loop - theater or actual value?",
+    "authors": [
+      "Birgitta Böckeler"
+    ],
+    "publication_date": "2026-08-10",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 3,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Separates human-authored tests, a human review checkpoint and TDD entirely inside an agent loop. The small exploratory comparison found no clear advantage for fully internal TDD in model-judged quality or mutation scores.",
+    "limitation": "Small greenfield tasks, imperfect adherence and an LLM-defined quality rubric. Reported aggregate tokens include cache rereads and are not equivalent to billed cost; no universal conclusion about human-led TDD follows.",
+    "evidence_class": "Small exploratory agent evaluation",
+    "source_locator": "Setup; results; test-first and red-green goals; costs; conclusions",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Verification & review",
+    "streams": [
+      "T:Verification & review",
+      "T:Economics"
+    ],
+    "topics": [
+      "K:Independent verification and oracles",
+      "K:Evaluation methodology and baselines",
+      "K:Economic costs and return"
+    ],
+    "mapped": [
+      "C:C03",
+      "C:C07",
+      "C:C12",
+      "C:C13"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [
+      30
+    ],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F032",
+    "title": "An Accidental Blackboard",
+    "authors": [
+      "Giles Edwards-Alexander"
+    ],
+    "publication_date": "2026-09-02",
+    "url": "https://martinfowler.com/articles/exploring-gen-ai/an-accidental-blackboard.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 2,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "In a simulated airline exercise, shared plans and frequent repository updates became an improvised coordination surface for agents. The account connects this behavior with the blackboard pattern and describes resulting CI pressure.",
+    "limitation": "A practice exercise, not a deployed airline system. The author explicitly questions reproducibility; the coordination mechanism was emergent rather than experimentally isolated.",
+    "evidence_class": "Exploratory team exercise",
+    "source_locator": "Emergent behavior; shared plans; repository as blackboard; CI trade-off",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Engineering structure",
+    "streams": [
+      "T:Engineering structure",
+      "T:System knowledge & memory"
+    ],
+    "topics": [
+      "K:Human-agent collaboration",
+      "K:Agent context and persistent memory",
+      "K:Long-running agent execution"
+    ],
+    "mapped": [
+      "C:C03",
+      "C:C09",
+      "C:C11"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  },
+  {
+    "id": "F033",
+    "title": "Are Harnesses Worth the Cost?",
+    "authors": [
+      "Naresh Jain"
+    ],
+    "publication_date": "2026-10-13",
+    "url": "https://martinfowler.com/articles/are-harnesses-worth-the-cost.html",
+    "series": "Exploring Generative AI",
+    "publisher": "martinfowler.com",
+    "hub_url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+    "hub_order": 1,
+    "accessed_on": "2026-10-13",
+    "date_provenance": "Dated entry on the supplied series index; article date also used where printed",
+    "summary": "Compares development with and without a behavioral harness against a separate acceptance suite. On the selected service, the stronger model passed both conditions; a cost-optimized model passed more consistently with harness feedback, at greater per-attempt effort.",
+    "limitation": "Ten paired runs per model on one unusually detailed greenfield Java brief. Guides and sensors changed together; estimated generation costs omit harness authoring, review and repairs. Final-gate-only use is proposed, not tested.",
+    "evidence_class": "Small repeated-run implementation experiment",
+    "source_locator": "Experiment setup; independent outer evaluation; model comparisons; economics; boundaries",
+    "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
+    "primary_stream": "T:Economics",
+    "streams": [
+      "T:Economics",
+      "T:Verification & review",
+      "T:Engineering structure"
+    ],
+    "topics": [
+      "K:Economic costs and return",
+      "K:Independent verification and oracles",
+      "K:Specifications and governance"
+    ],
+    "mapped": [
+      "C:C02",
+      "C:C03",
+      "C:C04",
+      "C:C07",
+      "C:C12",
+      "C:C13"
+    ],
+    "actual": [],
+    "printed": false,
+    "body_links": [
+      30
+    ],
+    "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+    "book_citation_status": "NOT_ADDED_TO_BOOK",
+    "original_data_replicated": false
+  }
+]

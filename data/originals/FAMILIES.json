@@ -1,0 +1,122 @@
+[
+  {
+    "id": "F01",
+    "title": "Ambito, esplorazione e responsabilità",
+    "chapter": 1,
+    "original_streams": "T:Engineering structure;T:What agents can do",
+    "original_topics": "K:Developer workflow and adoption;K:Human-agent collaboration",
+    "candidate_sources": "W002;W170;O010",
+    "purpose": "Scegliere il regime di lavoro e il confine di delega.",
+    "status": "CLASSIFICAZIONE_EDITORIALE_PROPOSTA"
+  },
+  {
+    "id": "F02",
+    "title": "Misura e apprendimento operativo",
+    "chapter": 2,
+    "original_streams": "T:Productivity;T:Economics",
+    "original_topics": "K:Output versus shipped value;K:Controlled productivity evidence;K:Evaluation methodology and baselines",
+    "candidate_sources": "W003;W010;W023;O029;P061",
+    "purpose": "Misurare output accettato e lavoro complessivo.",
+    "status": "CLASSIFICAZIONE_EDITORIALE_PROPOSTA"
+  },
+  {
+    "id": "F03",
+    "title": "Delega, esecuzione e arresto",
+    "chapter": 3,
+    "original_streams": "T:What agents can do;T:Engineering structure",
+    "original_topics": "K:Long-running agent execution;K:Agent failure and escalation;K:Benchmarks and construct validity",
+    "candidate_sources": "W002;W191;W111;O006;P110",
+    "purpose": "Aggiungere solo il meccanismo necessario al fallimento osservato.",
+    "status": "CLASSIFICAZIONE_EDITORIALE_PROPOSTA"
+  },
+  {
+    "id": "F04",
+    "title": "Intenzione e specifiche",
+    "chapter": 4,
+    "original_streams": "T:Engineering structure;T:Verification & review",
+    "original_topics": "K:Specifications and governance;K:Independent verification and oracles",
+    "candidate_sources": "W011;W099;O018",
+    "purpose": "Comporre pattern SDD mantenendo iterazione e autorità.",
+    "status": "CLASSIFICAZIONE_EDITORIALE_PROPOSTA"
+  },
+  {
+    "id": "F05",
+    "title": "Architettura, evoluzione e manutenzione",
+    "chapter": 5,
+    "original_streams": "T:Code quality & security;T:System knowledge & memory",
+    "original_topics": "K:Architecture and modularity;K:Code reuse and duplication;K:Technical debt and complexity",
+    "candidate_sources": "W004;W101;W175;P084",
+    "purpose": "Valutare un cambiamento anche rispetto al successivo.",
+    "status": "CLASSIFICAZIONE_EDITORIALE_PROPOSTA"
+  },
+  {
+    "id": "F06",
+    "title": "Sicurezza della catena e degli effetti",
+    "chapter": 6,
+    "original_streams": "T:Code quality & security;T:Engineering structure",
+    "original_topics": "K:Vulnerability and secure code;K:Prompt injection and malicious tools;K:Dependencies and agent supply chain",
+    "candidate_sources": "W037;W043;W060;O004",
+    "purpose": "Collegare scanner, policy e contenimento senza garanzie implicite.",
+    "status": "CLASSIFICAZIONE_EDITORIALE_PROPOSTA"
+  },
+  {
+    "id": "F07",
+    "title": "Prove, oracoli e accettazione",
+    "chapter": 7,
+    "original_streams": "T:Verification & review;T:What agents can do",
+    "original_topics": "K:Independent verification and oracles;K:Dataset provenance and dependency",
+    "candidate_sources": "W079;W101;W111;O012",
+    "purpose": "Proteggere attesi e provenienza del dossier.",
+    "status": "CLASSIFICAZIONE_EDITORIALE_PROPOSTA"
+  },
+  {
+    "id": "F08",
+    "title": "Critica, review e fiducia",
+    "chapter": 8,
+    "original_streams": "T:Verification & review;T:Productivity",
+    "original_topics": "K:AI as reviewer;K:Automation bias and trust;K:Review capacity and maintainers",
+    "candidate_sources": "W079;W099;W101;O009",
+    "purpose": "Distinguere critica utile, accordo e accettazione.",
+    "status": "CLASSIFICAZIONE_EDITORIALE_PROPOSTA"
+  },
+  {
+    "id": "F09",
+    "title": "Contesto, memoria e handoff",
+    "chapter": 9,
+    "original_streams": "T:System knowledge & memory;T:Engineering structure",
+    "original_topics": "K:Agent context and persistent memory;K:System understanding and rationale;K:Ownership and knowledge transfer",
+    "candidate_sources": "W155;W157;W160;W171;O013;O031",
+    "purpose": "Conservare informazioni senza far sopravvivere assunzioni obsolete.",
+    "status": "CLASSIFICAZIONE_EDITORIALE_PROPOSTA"
+  },
+  {
+    "id": "F10",
+    "title": "Competenza e mentoring",
+    "chapter": 10,
+    "original_streams": "T:Skills & learning;T:Jobs & roles",
+    "original_topics": "K:Skills formation and teaching;K:Human cognitive load;K:Cognitive offloading and skill debt;K:Onboarding and developer fluency;K:Remote work and apprenticeship",
+    "candidate_sources": "W118;W122;W178;O003",
+    "purpose": "Separare task riuscito e competenza mantenuta.",
+    "status": "CLASSIFICAZIONE_EDITORIALE_PROPOSTA"
+  },
+  {
+    "id": "F11",
+    "title": "Coordinamento e adozione organizzativa",
+    "chapter": 11,
+    "original_streams": "T:Engineering structure;T:Jobs & roles;T:Productivity",
+    "original_topics": "K:Human-agent collaboration;K:Review capacity and maintainers;K:Specifications and governance",
+    "candidate_sources": "W150;W161;O009;P086",
+    "purpose": "Diritti decisionali, limiti del flusso e percorso minimo.",
+    "status": "CLASSIFICAZIONE_EDITORIALE_PROPOSTA"
+  },
+  {
+    "id": "F12",
+    "title": "Economia, infrastruttura e lavoro",
+    "chapter": 12,
+    "original_streams": "T:Economics;T:Jobs & roles",
+    "original_topics": "K:Economic costs and return;K:Employment and early-career roles;K:Evaluation methodology and baselines",
+    "candidate_sources": "W010;W125;P061;P094;P110;P111",
+    "purpose": "Adottare, fermare o semplificare su ipotesi verificabili.",
+    "status": "CLASSIFICAZIONE_EDITORIALE_PROPOSTA"
+  }
+]

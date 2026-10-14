@@ -1,0 +1,442 @@
+{
+  "meta": {
+    "source": "Frozen v12 atlas payload",
+    "snapshot": "2026-10-13",
+    "site_version": "12.1",
+    "count": 12,
+    "note": "Materialized catalogue view; all node fields and attributes retained. No new source verification or empirical validation."
+  },
+  "records": [
+    {
+      "id": "FAMILY:F01",
+      "label": "Ambito, esplorazione e responsabilità",
+      "kind": "practice_family",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C01"
+      ],
+      "mapped": [
+        "C:C01"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "Grouping is not a count of independently validated methods.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Ambito, esplorazione e responsabilità",
+        "kind": "practice_family",
+        "collection": "FAMILY",
+        "family": "F01",
+        "chapter": 1,
+        "status": "EDITORIAL_CLASSIFICATION",
+        "purpose": "Scegliere il regime di lavoro e il confine di delega.",
+        "limitation": "Grouping is not a count of independently validated methods."
+      },
+      "topics": [
+        "K:Developer workflow and adoption",
+        "K:Human-agent collaboration"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "FAMILY:F02",
+      "label": "Misura e apprendimento operativo",
+      "kind": "practice_family",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C02"
+      ],
+      "mapped": [
+        "C:C02"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "Grouping is not a count of independently validated methods.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Misura e apprendimento operativo",
+        "kind": "practice_family",
+        "collection": "FAMILY",
+        "family": "F02",
+        "chapter": 2,
+        "status": "EDITORIAL_CLASSIFICATION",
+        "purpose": "Misurare output accettato e lavoro complessivo.",
+        "limitation": "Grouping is not a count of independently validated methods."
+      },
+      "topics": [
+        "K:Output versus shipped value",
+        "K:Controlled productivity evidence",
+        "K:Evaluation methodology and baselines"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "FAMILY:F03",
+      "label": "Delega, esecuzione e arresto",
+      "kind": "practice_family",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C03"
+      ],
+      "mapped": [
+        "C:C03"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "Grouping is not a count of independently validated methods.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Delega, esecuzione e arresto",
+        "kind": "practice_family",
+        "collection": "FAMILY",
+        "family": "F03",
+        "chapter": 3,
+        "status": "EDITORIAL_CLASSIFICATION",
+        "purpose": "Aggiungere solo il meccanismo necessario al fallimento osservato.",
+        "limitation": "Grouping is not a count of independently validated methods."
+      },
+      "topics": [
+        "K:Long-running agent execution",
+        "K:Agent failure and escalation",
+        "K:Benchmarks and construct validity"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "FAMILY:F04",
+      "label": "Intenzione e specifiche",
+      "kind": "practice_family",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C04"
+      ],
+      "mapped": [
+        "C:C04"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "Grouping is not a count of independently validated methods.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Intenzione e specifiche",
+        "kind": "practice_family",
+        "collection": "FAMILY",
+        "family": "F04",
+        "chapter": 4,
+        "status": "EDITORIAL_CLASSIFICATION",
+        "purpose": "Comporre pattern SDD mantenendo iterazione e autorità.",
+        "limitation": "Grouping is not a count of independently validated methods."
+      },
+      "topics": [
+        "K:Specifications and governance",
+        "K:Independent verification and oracles"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "FAMILY:F05",
+      "label": "Architettura, evoluzione e manutenzione",
+      "kind": "practice_family",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C05"
+      ],
+      "mapped": [
+        "C:C05"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "Grouping is not a count of independently validated methods.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Architettura, evoluzione e manutenzione",
+        "kind": "practice_family",
+        "collection": "FAMILY",
+        "family": "F05",
+        "chapter": 5,
+        "status": "EDITORIAL_CLASSIFICATION",
+        "purpose": "Valutare un cambiamento anche rispetto al successivo.",
+        "limitation": "Grouping is not a count of independently validated methods."
+      },
+      "topics": [
+        "K:Architecture and modularity",
+        "K:Code reuse and duplication",
+        "K:Technical debt and complexity"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "FAMILY:F06",
+      "label": "Sicurezza della catena e degli effetti",
+      "kind": "practice_family",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C06"
+      ],
+      "mapped": [
+        "C:C06"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "Grouping is not a count of independently validated methods.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Sicurezza della catena e degli effetti",
+        "kind": "practice_family",
+        "collection": "FAMILY",
+        "family": "F06",
+        "chapter": 6,
+        "status": "EDITORIAL_CLASSIFICATION",
+        "purpose": "Collegare scanner, policy e contenimento senza garanzie implicite.",
+        "limitation": "Grouping is not a count of independently validated methods."
+      },
+      "topics": [
+        "K:Vulnerability and secure code",
+        "K:Prompt injection and malicious tools",
+        "K:Dependencies and agent supply chain"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "FAMILY:F07",
+      "label": "Prove, oracoli e accettazione",
+      "kind": "practice_family",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C07"
+      ],
+      "mapped": [
+        "C:C07"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "Grouping is not a count of independently validated methods.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Prove, oracoli e accettazione",
+        "kind": "practice_family",
+        "collection": "FAMILY",
+        "family": "F07",
+        "chapter": 7,
+        "status": "EDITORIAL_CLASSIFICATION",
+        "purpose": "Proteggere attesi e provenienza del dossier.",
+        "limitation": "Grouping is not a count of independently validated methods."
+      },
+      "topics": [
+        "K:Independent verification and oracles",
+        "K:Dataset provenance and dependency"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "FAMILY:F08",
+      "label": "Critica, review e fiducia",
+      "kind": "practice_family",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C08"
+      ],
+      "mapped": [
+        "C:C08"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "Grouping is not a count of independently validated methods.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Critica, review e fiducia",
+        "kind": "practice_family",
+        "collection": "FAMILY",
+        "family": "F08",
+        "chapter": 8,
+        "status": "EDITORIAL_CLASSIFICATION",
+        "purpose": "Distinguere critica utile, accordo e accettazione.",
+        "limitation": "Grouping is not a count of independently validated methods."
+      },
+      "topics": [
+        "K:AI as reviewer",
+        "K:Automation bias and trust",
+        "K:Review capacity and maintainers"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "FAMILY:F09",
+      "label": "Contesto, memoria e handoff",
+      "kind": "practice_family",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C09"
+      ],
+      "mapped": [
+        "C:C09"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "Grouping is not a count of independently validated methods.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Contesto, memoria e handoff",
+        "kind": "practice_family",
+        "collection": "FAMILY",
+        "family": "F09",
+        "chapter": 9,
+        "status": "EDITORIAL_CLASSIFICATION",
+        "purpose": "Conservare informazioni senza far sopravvivere assunzioni obsolete.",
+        "limitation": "Grouping is not a count of independently validated methods."
+      },
+      "topics": [
+        "K:Agent context and persistent memory",
+        "K:System understanding and rationale",
+        "K:Ownership and knowledge transfer"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "FAMILY:F10",
+      "label": "Competenza e mentoring",
+      "kind": "practice_family",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C10"
+      ],
+      "mapped": [
+        "C:C10"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "Grouping is not a count of independently validated methods.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Competenza e mentoring",
+        "kind": "practice_family",
+        "collection": "FAMILY",
+        "family": "F10",
+        "chapter": 10,
+        "status": "EDITORIAL_CLASSIFICATION",
+        "purpose": "Separare task riuscito e competenza mantenuta.",
+        "limitation": "Grouping is not a count of independently validated methods."
+      },
+      "topics": [
+        "K:Skills formation and teaching",
+        "K:Human cognitive load",
+        "K:Cognitive offloading and skill debt",
+        "K:Onboarding and developer fluency",
+        "K:Remote work and apprenticeship"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "FAMILY:F11",
+      "label": "Coordinamento e adozione organizzativa",
+      "kind": "practice_family",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C11"
+      ],
+      "mapped": [
+        "C:C11"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "Grouping is not a count of independently validated methods.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Coordinamento e adozione organizzativa",
+        "kind": "practice_family",
+        "collection": "FAMILY",
+        "family": "F11",
+        "chapter": 11,
+        "status": "EDITORIAL_CLASSIFICATION",
+        "purpose": "Diritti decisionali, limiti del flusso e percorso minimo.",
+        "limitation": "Grouping is not a count of independently validated methods."
+      },
+      "topics": [
+        "K:Human-agent collaboration",
+        "K:Review capacity and maintainers",
+        "K:Specifications and governance"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "FAMILY:F12",
+      "label": "Economia, infrastruttura e lavoro",
+      "kind": "practice_family",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C12"
+      ],
+      "mapped": [
+        "C:C12"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "Grouping is not a count of independently validated methods.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Economia, infrastruttura e lavoro",
+        "kind": "practice_family",
+        "collection": "FAMILY",
+        "family": "F12",
+        "chapter": 12,
+        "status": "EDITORIAL_CLASSIFICATION",
+        "purpose": "Adottare, fermare o semplificare su ipotesi verificabili.",
+        "limitation": "Grouping is not a count of independently validated methods."
+      },
+      "topics": [
+        "K:Economic costs and return",
+        "K:Employment and early-career roles",
+        "K:Evaluation methodology and baselines"
+      ],
+      "volumes": []
+    }
+  ]
+}

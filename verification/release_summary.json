@@ -1,0 +1,58 @@
+{
+  "site_release": "12.1",
+  "graph_version": "12",
+  "graph_snapshot": "2026-10-13",
+  "release_date": "2026-10-14",
+  "source_counts": {
+    "W": 193,
+    "O": 50,
+    "P": 123,
+    "F": 33,
+    "B": 111
+  },
+  "nodes": 1757,
+  "keyed_edges": 12188,
+  "edge_types": 297,
+  "default_view": {
+    "W": 193,
+    "other_sources": 0,
+    "context": 0,
+    "edges": 64
+  },
+  "static_html_pages": 76,
+  "group_pages": {
+    "streams": 9,
+    "topics": 30,
+    "chapters": 13,
+    "volumes": 5
+  },
+  "all_catalogue_entries_pre_rendered": true,
+  "source_graph_data_unchanged": true,
+  "photo_source": "Author biography in Non-Deterministic Loop Engineering, PDF277/printed265",
+  "named_checks": {
+    "structure": {
+      "passed": 176,
+      "failed": 0
+    },
+    "browser": {
+      "passed": 88,
+      "failed": 0
+    },
+    "visuals": {
+      "passed": 7,
+      "failed": 0
+    },
+    "reproducibility": {
+      "passed": 101,
+      "failed": 0
+    }
+  },
+  "relationship_switches_individually_checked": 297,
+  "local_html_links_and_fragments_checked": 17175,
+  "source_validation_refreshed": false,
+  "hosted_navigation_tested": false,
+  "github_deployed": false,
+  "native_safari_tested": false,
+  "browser_method": "Playwright Chromium; packaged CSS, JavaScript and images inlined for local set_content rendering because administrator policy blocks HTTP navigation",
+  "navigation_test_boundary": "Static path/fragment validation plus the same catalogue URL handler called with explicit parameters; real hosted navigation not exercised"
+}

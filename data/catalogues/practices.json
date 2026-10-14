@@ -1,0 +1,3189 @@
+{
+  "meta": {
+    "source": "Frozen v12 atlas payload",
+    "snapshot": "2026-10-13",
+    "site_version": "12.1",
+    "count": 84,
+    "note": "Materialized catalogue view; all node fields and attributes retained. No new source verification or empirical validation."
+  },
+  "records": [
+    {
+      "id": "PAT:001",
+      "label": "Plan-Then-Execute",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C03"
+      ],
+      "mapped": [
+        "C:C03"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Plan-Then-Execute",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F03",
+        "chapter": 3,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Piano sostituibile, intenzione modificabile solo con delta autorizzato.",
+        "occurrences": "[\"AGENT:01\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Long-running agent execution",
+        "K:Agent failure and escalation",
+        "K:Benchmarks and construct validity"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:002",
+      "label": "Swarm Migration (Map-Reduce for Agents)",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C05"
+      ],
+      "mapped": [
+        "C:C05"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Swarm Migration (Map-Reduce for Agents)",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F05",
+        "chapter": 5,
+        "disposition": "COMPANION",
+        "required_revision": "Esplorazione opzionale per migrazioni indipendenti; eliminare speedup generici non verificati.",
+        "occurrences": "[\"AGENT:02\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Architecture and modularity",
+        "K:Code reuse and duplication",
+        "K:Technical debt and complexity"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:003",
+      "label": "Background Agent CI",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C11"
+      ],
+      "mapped": [
+        "C:C11"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Background Agent CI",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F11",
+        "chapter": 11,
+        "disposition": "COMPANION",
+        "required_revision": "CI e background come varianti; CI non equivale a produzione e green non significa release.",
+        "occurrences": "[\"AGENT:03\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Human-agent collaboration",
+        "K:Review capacity and maintainers",
+        "K:Specifications and governance"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:004",
+      "label": "Initializer-Maintainer Dual Agent Architecture",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C03"
+      ],
+      "mapped": [
+        "C:C03"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Initializer-Maintainer Dual Agent Architecture",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F03",
+        "chapter": 3,
+        "disposition": "RINVIO_BREVE",
+        "required_revision": "Due configurazioni illustrate, non due agenti obbligatori o permessi ampi per default.",
+        "occurrences": "[\"AGENT:04\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Long-running agent execution",
+        "K:Agent failure and escalation",
+        "K:Benchmarks and construct validity"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:005",
+      "label": "Feature List as Immutable Contract",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C04"
+      ],
+      "mapped": [
+        "C:C04"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Feature List as Immutable Contract",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F04",
+        "chapter": 4,
+        "disposition": "RIVEDERE_CRITICAMENTE",
+        "required_revision": "Contratto immutabile per revisione; campo passes del maker non attesta accettazione.",
+        "occurrences": "[\"AGENT:05\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Specifications and governance",
+        "K:Independent verification and oracles"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:006",
+      "label": "Context Window Anxiety Management",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C09"
+      ],
+      "mapped": [
+        "C:C09"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Context Window Anxiety Management",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F09",
+        "chapter": 9,
+        "disposition": "PRECISARE",
+        "required_revision": "Niente antropomorfismo diagnostico; compaction misurabile e stato persistente.",
+        "occurrences": "[\"AGENT:06\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Agent context and persistent memory",
+        "K:System understanding and rationale",
+        "K:Ownership and knowledge transfer"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:007",
+      "label": "Compounding Engineering",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C09"
+      ],
+      "mapped": [
+        "C:C09"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Compounding Engineering",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F09",
+        "chapter": 9,
+        "disposition": "PRECISARE",
+        "required_revision": "Lezioni candidate con provenienza; riuso di memoria non training né miglioramento garantito.",
+        "occurrences": "[\"AGENT:07\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Agent context and persistent memory",
+        "K:System understanding and rationale",
+        "K:Ownership and knowledge transfer"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:008",
+      "label": "Agent-Powered Codebase Q&A and Onboarding",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C09"
+      ],
+      "mapped": [
+        "C:C09"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Agent-Powered Codebase Q&A and Onboarding",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F09",
+        "chapter": 9,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Risposte rintracciabili, task di comprensione distinti da retrieval.",
+        "occurrences": "[\"AGENT:08\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Agent context and persistent memory",
+        "K:System understanding and rationale",
+        "K:Ownership and knowledge transfer"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:009",
+      "label": "CI-as-Backpressure",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C08"
+      ],
+      "mapped": [
+        "C:C08"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "CI-as-Backpressure",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F11",
+        "chapter": 8,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Un fallimento CI blocca un ramo entro scope e policy; non autorizza riparazioni estranee.",
+        "occurrences": "[\"AGENT:09\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Human-agent collaboration",
+        "K:Review capacity and maintainers",
+        "K:Specifications and governance"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:010",
+      "label": "Inference-Healed Code Review",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C07"
+      ],
+      "mapped": [
+        "C:C07"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Inference-Healed Code Review",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F08",
+        "chapter": 7,
+        "disposition": "PRECISARE",
+        "required_revision": "Riparare da feedback concreto; non fiducia cieca nel reviewer AI.",
+        "occurrences": "[\"AGENT:10\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:AI as reviewer",
+        "K:Automation bias and trust",
+        "K:Review capacity and maintainers"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:011",
+      "label": "Reward Shaping for Tool Use",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C03"
+      ],
+      "mapped": [
+        "C:C03"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Reward Shaping for Tool Use",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F03",
+        "chapter": 3,
+        "disposition": "FUORI_CORPO",
+        "required_revision": "Distinguere reward training e feedback di esecuzione; nessun programma di training nel manuale.",
+        "occurrences": "[\"AGENT:11\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Long-running agent execution",
+        "K:Agent failure and escalation",
+        "K:Benchmarks and construct validity"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:012",
+      "label": "AI-Accelerated Learning and Skill Development",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C10"
+      ],
+      "mapped": [
+        "C:C10"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "AI-Accelerated Learning and Skill Development",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F10",
+        "chapter": 10,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Meccanismi di mentoring, non guadagni generalizzati di apprendimento.",
+        "occurrences": "[\"AGENT:12\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Skills formation and teaching",
+        "K:Human cognitive load",
+        "K:Cognitive offloading and skill debt",
+        "K:Onboarding and developer fluency",
+        "K:Remote work and apprenticeship"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:013",
+      "label": "Agent Reinforcement Fine-Tuning",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [],
+      "mapped": [],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Agent Reinforcement Fine-Tuning",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F03",
+        "chapter": 0,
+        "disposition": "FUORI_CORPO",
+        "required_revision": "RFT è fuori perimetro esecutivo; nota sui limiti del modello senza istruzioni provider.",
+        "occurrences": "[\"AGENT:13\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Long-running agent execution",
+        "K:Agent failure and escalation",
+        "K:Benchmarks and construct validity"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:014",
+      "label": "Deterministic Failure Harness",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C07"
+      ],
+      "mapped": [
+        "C:C07"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Deterministic Failure Harness",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F07",
+        "chapter": 7,
+        "disposition": "RIVEDERE_CRITICAMENTE",
+        "required_revision": "Ripetibilità condizionata a ambiente/oracolo; non completezza né cattura garantita dei difetti.",
+        "occurrences": "[\"AGENT:14\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Independent verification and oracles",
+        "K:Dataset provenance and dependency"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:015",
+      "label": "Regression Safety Net",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C07"
+      ],
+      "mapped": [
+        "C:C07"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Regression Safety Net",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F07",
+        "chapter": 7,
+        "disposition": "PRECISARE",
+        "required_revision": "Regressioni obbligatorie e impatto; i fallimenti preesistenti si classificano senza espandere scope da soli.",
+        "occurrences": "[\"AGENT:15\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Independent verification and oracles",
+        "K:Dataset provenance and dependency"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:016",
+      "label": "Structured Drift Detection",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C09"
+      ],
+      "mapped": [
+        "C:C09"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Structured Drift Detection",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F09",
+        "chapter": 9,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Drift con versione e owner; regole obsolete conservate come storia, non come correnti.",
+        "occurrences": "[\"AGENT:16\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Agent context and persistent memory",
+        "K:System understanding and rationale",
+        "K:Ownership and knowledge transfer"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:017",
+      "label": "Blast Radius Containment",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C06"
+      ],
+      "mapped": [
+        "C:C06"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Blast Radius Containment",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F06",
+        "chapter": 6,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Limitare scritture, effetti e durata fuori dal modello; no sicurezza assoluta.",
+        "occurrences": "[\"AGENT:17\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Vulnerability and secure code",
+        "K:Prompt injection and malicious tools",
+        "K:Dependencies and agent supply chain"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:018",
+      "label": "PII and Secret Scrubbing",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C06"
+      ],
+      "mapped": [
+        "C:C06"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "PII and Secret Scrubbing",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F06",
+        "chapter": 6,
+        "disposition": "PRECISARE",
+        "required_revision": "Scrubbing parziale non autorizza condivisione; log e retention rispettano i confini.",
+        "occurrences": "[\"AGENT:18\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Vulnerability and secure code",
+        "K:Prompt injection and malicious tools",
+        "K:Dependencies and agent supply chain"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:019",
+      "label": "Subagent Spawning and Fan-Out",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C11"
+      ],
+      "mapped": [
+        "C:C11"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Subagent Spawning and Fan-Out",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F11",
+        "chapter": 11,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Fan-out condizionato a dipendenze e capacità, non numero fisso di worker.",
+        "occurrences": "[\"AGENT:19\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Human-agent collaboration",
+        "K:Review capacity and maintainers",
+        "K:Specifications and governance"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:020",
+      "label": "File-System as State Machine",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C09"
+      ],
+      "mapped": [
+        "C:C09"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "File-System as State Machine",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F09",
+        "chapter": 9,
+        "disposition": "PRECISARE",
+        "required_revision": "Stato persistente con scritture controllate; file system da solo non offre atomicità o autenticità.",
+        "occurrences": "[\"AGENT:20\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Agent context and persistent memory",
+        "K:System understanding and rationale",
+        "K:Ownership and knowledge transfer"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:021",
+      "label": "Tool Call Budget",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C03"
+      ],
+      "mapped": [
+        "C:C03"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Tool Call Budget",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F03",
+        "chapter": 3,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Limite delle chiamate è una dimensione del budget D3, non sinonimo di costo massimo.",
+        "occurrences": "[\"AGENT:21\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Long-running agent execution",
+        "K:Agent failure and escalation",
+        "K:Benchmarks and construct validity"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:022",
+      "label": "Trust Calibration",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C08"
+      ],
+      "mapped": [
+        "C:C08"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Trust Calibration",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F08",
+        "chapter": 8,
+        "disposition": "PRECISARE",
+        "required_revision": "Calibrazione richiede confronto fra fiducia e prestazione; nome del pattern non basta.",
+        "occurrences": "[\"AGENT:22\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:AI as reviewer",
+        "K:Automation bias and trust",
+        "K:Review capacity and maintainers"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:023",
+      "label": "The External Bash Loop",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C03"
+      ],
+      "mapped": [
+        "C:C03"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "The External Bash Loop",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F03",
+        "chapter": 3,
+        "disposition": "COMPANION",
+        "required_revision": "Variante Bash esterna, con budget persistente e stato esplicito; nessun codice production-ready copiato.",
+        "occurrences": "[\"LOOP:R1\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Long-running agent execution",
+        "K:Agent failure and escalation",
+        "K:Benchmarks and construct validity"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:024",
+      "label": "The Stop-Hook Loop",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C03"
+      ],
+      "mapped": [
+        "C:C03"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "The Stop-Hook Loop",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F03",
+        "chapter": 3,
+        "disposition": "COMPANION",
+        "required_revision": "Variante stop hook; rientro non autorizza perdita dei budget o modifica dell’oracolo.",
+        "occurrences": "[\"LOOP:R2\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Long-running agent execution",
+        "K:Agent failure and escalation",
+        "K:Benchmarks and construct validity"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:025",
+      "label": "The Editor-Native Manual Loop",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C03"
+      ],
+      "mapped": [
+        "C:C03"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "The Editor-Native Manual Loop",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F03",
+        "chapter": 3,
+        "disposition": "RINVIO_BREVE",
+        "required_revision": "La sessione guidata manualmente è alternativa legittima, non livello inferiore obbligatorio.",
+        "occurrences": "[\"LOOP:R3\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Long-running agent execution",
+        "K:Agent failure and escalation",
+        "K:Benchmarks and construct validity"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:026",
+      "label": "Run Until Done: Retry Against Reality",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C03"
+      ],
+      "mapped": [
+        "C:C03"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Run Until Done: Retry Against Reality",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F03",
+        "chapter": 3,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Retry solo contro diagnosi verificabile con stop; non convergenza garantita.",
+        "occurrences": "[\"LOOP:T01\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Long-running agent execution",
+        "K:Agent failure and escalation",
+        "K:Benchmarks and construct validity"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:027",
+      "label": "Maker–Checker: Separate Production from Acceptance",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C07"
+      ],
+      "mapped": [
+        "C:C07"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Maker–Checker: Separate Production from Acceptance",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F07",
+        "chapter": 7,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Confrontare con C5; separazione dei ruoli non rende automaticamente indipendenti gli errori.",
+        "occurrences": "[\"LOOP:T02\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Independent verification and oracles",
+        "K:Dataset provenance and dependency"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:028",
+      "label": "Skills and Context Engineering: Remove Intent Debt",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C09"
+      ],
+      "mapped": [
+        "C:C09"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Skills and Context Engineering: Remove Intent Debt",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F09",
+        "chapter": 9,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Skill versionata con owner e permessi separati; il contesto non elimina ogni intent debt.",
+        "occurrences": "[\"LOOP:T03\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Agent context and persistent memory",
+        "K:System understanding and rationale",
+        "K:Ownership and knowledge transfer"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:029",
+      "label": "Memory and Retrieval: Read What the Model Could Not Know",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C09"
+      ],
+      "mapped": [
+        "C:C09"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Memory and Retrieval: Read What the Model Could Not Know",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F09",
+        "chapter": 9,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Retrieval con astensione, fonte e validità; memoria non conoscenza approvata per definizione.",
+        "occurrences": "[\"LOOP:T04\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Agent context and persistent memory",
+        "K:System understanding and rationale",
+        "K:Ownership and knowledge transfer"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:030",
+      "label": "Connectors and Tools: Move Exact Work Outside the Weights",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C06"
+      ],
+      "mapped": [
+        "C:C06"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Connectors and Tools: Move Exact Work Outside the Weights",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F06",
+        "chapter": 6,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Exact executor con interfacce e permessi; calcolo esatto non autorizza effetti esterni.",
+        "occurrences": "[\"LOOP:T05\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Vulnerability and secure code",
+        "K:Prompt injection and malicious tools",
+        "K:Dependencies and agent supply chain"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:031",
+      "label": "Worktrees: Isolate the Write Domains",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C11"
+      ],
+      "mapped": [
+        "C:C11"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Worktrees: Isolate the Write Domains",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F11",
+        "chapter": 11,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Isola scritture ma non impedisce duplicazione logica dei task.",
+        "occurrences": "[\"LOOP:T06\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Human-agent collaboration",
+        "K:Review capacity and maintainers",
+        "K:Specifications and governance"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:032",
+      "label": "Multi-Loop Coordination: One Owner per Target",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C11"
+      ],
+      "mapped": [
+        "C:C11"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Multi-Loop Coordination: One Owner per Target",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F11",
+        "chapter": 11,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Ownership del target sopra il livello file e gestione dei lease.",
+        "occurrences": "[\"LOOP:T07\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Human-agent collaboration",
+        "K:Review capacity and maintainers",
+        "K:Specifications and governance"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:033",
+      "label": "Budget and Observability: Price the Next Attempt",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C12"
+      ],
+      "mapped": [
+        "C:C12"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Budget and Observability: Price the Next Attempt",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F12",
+        "chapter": 12,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Costo del passo e totale, setup e tentativi respinti; nessun rendimento trasferito dai benchmark.",
+        "occurrences": "[\"LOOP:T08\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Economic costs and return",
+        "K:Employment and early-career roles",
+        "K:Evaluation methodology and baselines"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:034",
+      "label": "Safety and Guardrails: Verification Is Not Authorization",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C06"
+      ],
+      "mapped": [
+        "C:C06"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Safety and Guardrails: Verification Is Not Authorization",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F06",
+        "chapter": 6,
+        "disposition": "PRECISARE",
+        "required_revision": "Verifica, policy e autorizzazione rimangono decisioni distinte.",
+        "occurrences": "[\"LOOP:T09\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Vulnerability and secure code",
+        "K:Prompt injection and malicious tools",
+        "K:Dependencies and agent supply chain"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:035",
+      "label": "Daily Triage: rank the rare urgent item",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C08"
+      ],
+      "mapped": [
+        "C:C08"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Daily Triage: rank the rare urgent item",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F11",
+        "chapter": 8,
+        "disposition": "COMPANION",
+        "required_revision": "Esempio opzionale di triage; priorità proposta, non cambiamento autorizzato.",
+        "occurrences": "[\"LOOP:T10\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Human-agent collaboration",
+        "K:Review capacity and maintainers",
+        "K:Specifications and governance"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:036",
+      "label": "CI Sweeper: classify before fixing",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C05"
+      ],
+      "mapped": [
+        "C:C05"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "CI Sweeper: classify before fixing",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F05",
+        "chapter": 5,
+        "disposition": "COMPANION",
+        "required_revision": "Classificare build rossa prima di riparare; no garanzia che un classificatore riconosca flakiness.",
+        "occurrences": "[\"LOOP:T11\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Architecture and modularity",
+        "K:Code reuse and duplication",
+        "K:Technical debt and complexity"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:037",
+      "label": "Dependency Sweeper: route by risk",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C06"
+      ],
+      "mapped": [
+        "C:C06"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Dependency Sweeper: route by risk",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F06",
+        "chapter": 6,
+        "disposition": "COMPANION",
+        "required_revision": "Routing degli update per rischio; green CI non autorizza dipendenza o merge.",
+        "occurrences": "[\"LOOP:T12\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Vulnerability and secure code",
+        "K:Prompt injection and malicious tools",
+        "K:Dependencies and agent supply chain"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:038",
+      "label": "Duplicate detection",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C09"
+      ],
+      "mapped": [
+        "C:C09"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Duplicate detection",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F09",
+        "chapter": 9,
+        "disposition": "COMPANION",
+        "required_revision": "Deduplica proposta da retrieval da confermare semanticamente; conservare record storici.",
+        "occurrences": "[\"LOOP:T13\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Agent context and persistent memory",
+        "K:System understanding and rationale",
+        "K:Ownership and knowledge transfer"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:039",
+      "label": "PR babysitter",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C08"
+      ],
+      "mapped": [
+        "C:C08"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "PR babysitter",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F08",
+        "chapter": 8,
+        "disposition": "COMPANION",
+        "required_revision": "Stato PR basato su evidenza della revisione corretta; false-ready come outcome distinto.",
+        "occurrences": "[\"LOOP:T14\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:AI as reviewer",
+        "K:Automation bias and trust",
+        "K:Review capacity and maintainers"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:040",
+      "label": "Post-merge cleanup",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C05"
+      ],
+      "mapped": [
+        "C:C05"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Post-merge cleanup",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F05",
+        "chapter": 5,
+        "disposition": "RINVIO_BREVE",
+        "required_revision": "Fonte di proposte di manutenzione, non autorizzazione automatica a riscrivere.",
+        "occurrences": "[\"LOOP:T15\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Architecture and modularity",
+        "K:Code reuse and duplication",
+        "K:Technical debt and complexity"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:041",
+      "label": "Changelog drafter",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C09"
+      ],
+      "mapped": [
+        "C:C09"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Changelog drafter",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F09",
+        "chapter": 9,
+        "disposition": "COMPANION",
+        "required_revision": "Bozza con fonti e revisione; release notes non prova di completamento.",
+        "occurrences": "[\"LOOP:T16\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Agent context and persistent memory",
+        "K:System understanding and rationale",
+        "K:Ownership and knowledge transfer"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:042",
+      "label": "Capstone orchestra",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C12"
+      ],
+      "mapped": [
+        "C:C12"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Capstone orchestra",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F12",
+        "chapter": 12,
+        "disposition": "RINVIO_BREVE",
+        "required_revision": "Composizione utile soltanto se giustifica costo marginale; dati del corso da verificare prima del riuso.",
+        "occurrences": "[\"LOOP:T17\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Economic costs and return",
+        "K:Employment and early-career roles",
+        "K:Evaluation methodology and baselines"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:043",
+      "label": "Spec-First Generation",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C04"
+      ],
+      "mapped": [
+        "C:C04"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Spec-First Generation",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F04",
+        "chapter": 4,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Intenzione autorizzata e scenari prima del candidato; specifica e piano rimangono diversi.",
+        "occurrences": "[\"NDSE:01\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Specifications and governance",
+        "K:Independent verification and oracles"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:044",
+      "label": "Test-Driven AI Development",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C07"
+      ],
+      "mapped": [
+        "C:C07"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Test-Driven AI Development",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F07",
+        "chapter": 7,
+        "disposition": "PRECISARE",
+        "required_revision": "Test-first richiede attesi con origine indipendente; il verde è locale all’oracolo.",
+        "occurrences": "[\"NDSE:02\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Independent verification and oracles",
+        "K:Dataset provenance and dependency"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:045",
+      "label": "Exploratory Vibe Coding",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C01"
+      ],
+      "mapped": [
+        "C:C01"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Exploratory Vibe Coding",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F01",
+        "chapter": 1,
+        "disposition": "CONSERVARE",
+        "required_revision": "Esplorazione reversibile separata dall’adozione del risultato.",
+        "occurrences": "[\"NDSE:03\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Developer workflow and adoption",
+        "K:Human-agent collaboration"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:046",
+      "label": "Small Verifiable Chunks",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C03"
+      ],
+      "mapped": [
+        "C:C03"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Small Verifiable Chunks",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F03",
+        "chapter": 3,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Piccolo significa semanticamente verificabile; raccordo D1 senza confondere chunk e ciclo.",
+        "occurrences": "[\"NDSE:04\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Long-running agent execution",
+        "K:Agent failure and escalation",
+        "K:Benchmarks and construct validity"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:047",
+      "label": "Context Engineering",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C09"
+      ],
+      "mapped": [
+        "C:C09"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Context Engineering",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F09",
+        "chapter": 9,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Istruzioni, retrieval, stato ed evidenza autorizzata non sono intercambiabili.",
+        "occurrences": "[\"NDSE:05\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Agent context and persistent memory",
+        "K:System understanding and rationale",
+        "K:Ownership and knowledge transfer"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:048",
+      "label": "The Explainability Test",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C10"
+      ],
+      "mapped": [
+        "C:C10"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "The Explainability Test",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F10",
+        "chapter": 10,
+        "disposition": "PRECISARE",
+        "required_revision": "Spiegazione come compito di comprensione; non prova sufficiente di correttezza.",
+        "occurrences": "[\"NDSE:06\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Skills formation and teaching",
+        "K:Human cognitive load",
+        "K:Cognitive offloading and skill debt",
+        "K:Onboarding and developer fluency",
+        "K:Remote work and apprenticeship"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:049",
+      "label": "Runtime-in-the-Loop",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C05"
+      ],
+      "mapped": [
+        "C:C05"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Runtime-in-the-Loop",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F05",
+        "chapter": 5,
+        "disposition": "AMPLIARE",
+        "required_revision": "Collegare osservazione runtime ad atteso e decisione; non attribuire misure non eseguite.",
+        "occurrences": "[\"NDSE:07\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Architecture and modularity",
+        "K:Code reuse and duplication",
+        "K:Technical debt and complexity"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:050",
+      "label": "Learning Loop Preservation",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C10"
+      ],
+      "mapped": [
+        "C:C10"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Learning Loop Preservation",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F10",
+        "chapter": 10,
+        "disposition": "CONSERVARE",
+        "required_revision": "Conservare esercizio cognitivo e valutare trasferimento; niente effetti garantiti.",
+        "occurrences": "[\"NDSE:08\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Skills formation and teaching",
+        "K:Human cognitive load",
+        "K:Cognitive offloading and skill debt",
+        "K:Onboarding and developer fluency",
+        "K:Remote work and apprenticeship"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:051",
+      "label": "Security-First Development",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C06"
+      ],
+      "mapped": [
+        "C:C06"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Security-First Development",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F06",
+        "chapter": 6,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Distinguere prodotto e catena di sviluppo; raccordo al Security Pipeline.",
+        "occurrences": "[\"NDSE:09\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Vulnerability and secure code",
+        "K:Prompt injection and malicious tools",
+        "K:Dependencies and agent supply chain"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:052",
+      "label": "Review Gauntlet",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C08"
+      ],
+      "mapped": [
+        "C:C08"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Review Gauntlet",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F08",
+        "chapter": 8,
+        "disposition": "PRECISARE",
+        "required_revision": "Review selettiva per rischio e capacità; evitare un rito identico per tutte le patch.",
+        "occurrences": "[\"NDSE:10\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:AI as reviewer",
+        "K:Automation bias and trust",
+        "K:Review capacity and maintainers"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:053",
+      "label": "Legacy Code Navigation",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C09"
+      ],
+      "mapped": [
+        "C:C09"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Legacy Code Navigation",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F09",
+        "chapter": 9,
+        "disposition": "CONSERVARE",
+        "required_revision": "Navigazione del legacy distingue comportamento rilevato e intenzione approvata.",
+        "occurrences": "[\"NDSE:11\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Agent context and persistent memory",
+        "K:System understanding and rationale",
+        "K:Ownership and knowledge transfer"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:054",
+      "label": "Migration as Learning",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C05"
+      ],
+      "mapped": [
+        "C:C05"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Migration as Learning",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F05",
+        "chapter": 5,
+        "disposition": "PRECISARE",
+        "required_revision": "Migrazione verificata e apprendimento del maintainer sono due risultati distinti.",
+        "occurrences": "[\"NDSE:12\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Architecture and modularity",
+        "K:Code reuse and duplication",
+        "K:Technical debt and complexity"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:055",
+      "label": "Trio Programming",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C10"
+      ],
+      "mapped": [
+        "C:C10"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Trio Programming",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F10",
+        "chapter": 10,
+        "disposition": "CONSERVARE",
+        "required_revision": "Strutturare senior, junior e assistenza senza postulare beneficio didattico.",
+        "occurrences": "[\"NDSE:13\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Skills formation and teaching",
+        "K:Human cognitive load",
+        "K:Cognitive offloading and skill debt",
+        "K:Onboarding and developer fluency",
+        "K:Remote work and apprenticeship"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:056",
+      "label": "Parallel Work Orchestration",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C11"
+      ],
+      "mapped": [
+        "C:C11"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Parallel Work Orchestration",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F11",
+        "chapter": 11,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Limiti di WIP, ownership e costo di integrazione; non moltiplicare agenti per default.",
+        "occurrences": "[\"NDSE:14\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Human-agent collaboration",
+        "K:Review capacity and maintainers",
+        "K:Specifications and governance"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:057",
+      "label": "Structured Enablement Program",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C11"
+      ],
+      "mapped": [
+        "C:C11"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Structured Enablement Program",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F11",
+        "chapter": 11,
+        "disposition": "PRECISARE",
+        "required_revision": "Adozione per evidenze e competenze, non numero di corsi o calendario universale.",
+        "occurrences": "[\"NDSE:15\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Human-agent collaboration",
+        "K:Review capacity and maintainers",
+        "K:Specifications and governance"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:058",
+      "label": "Acceptable Use Policy",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C06"
+      ],
+      "mapped": [
+        "C:C06"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Acceptable Use Policy",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F06",
+        "chapter": 6,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Policy, enforcement e autorità distinti; regole aggiornabili con responsabilità.",
+        "occurrences": "[\"NDSE:16\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Vulnerability and secure code",
+        "K:Prompt injection and malicious tools",
+        "K:Dependencies and agent supply chain"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:059",
+      "label": "Measurement & Learning",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C02"
+      ],
+      "mapped": [
+        "C:C02"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Measurement & Learning",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F02",
+        "chapter": 2,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Unico registro eventi e denominatori end-to-end, inclusi fallimenti.",
+        "occurrences": "[\"NDSE:17\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Output versus shipped value",
+        "K:Controlled productivity evidence",
+        "K:Evaluation methodology and baselines"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:060",
+      "label": "Cost Management",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C12"
+      ],
+      "mapped": [
+        "C:C12"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Cost Management",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F12",
+        "chapter": 12,
+        "disposition": "AMPLIARE",
+        "required_revision": "Integrare setup, review, rework, tempo e infrastruttura per esito accettato.",
+        "occurrences": "[\"NDSE:18\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Economic costs and return",
+        "K:Employment and early-career roles",
+        "K:Evaluation methodology and baselines"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:061",
+      "label": "Consistency Analysis Gate",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C04"
+      ],
+      "mapped": [
+        "C:C04"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Consistency Analysis Gate",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F04",
+        "chapter": 4,
+        "disposition": "CONSERVARE",
+        "required_revision": "Il controllo di coerenza è un predicato del gate, non equivale a C1 o a completezza.",
+        "occurrences": "[\"SDD1:21\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Specifications and governance",
+        "K:Independent verification and oracles"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:062",
+      "label": "Research Artifact Preservation",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C09"
+      ],
+      "mapped": [
+        "C:C09"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Research Artifact Preservation",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F09",
+        "chapter": 9,
+        "disposition": "CONSERVARE",
+        "required_revision": "Conservare fonti e ragioni oltre il passaggio di consegne; complementare a B1.",
+        "occurrences": "[\"SDD1:22\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Agent context and persistent memory",
+        "K:System understanding and rationale",
+        "K:Ownership and knowledge transfer"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:063",
+      "label": "Parallel Implementation Exploration",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C05"
+      ],
+      "mapped": [
+        "C:C05"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Parallel Implementation Exploration",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F05",
+        "chapter": 5,
+        "disposition": "CONSERVARE",
+        "required_revision": "Alternative implementative isolabili; non fondere con dibattito fra modelli B4.",
+        "occurrences": "[\"SDD1:23\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Architecture and modularity",
+        "K:Code reuse and duplication",
+        "K:Technical debt and complexity"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:064",
+      "label": "Specification Scale Management",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C04"
+      ],
+      "mapped": [
+        "C:C04"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Specification Scale Management",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F04",
+        "chapter": 4,
+        "disposition": "CONSERVARE",
+        "required_revision": "Specifiche a scala governabile con dipendenze e fonte unica; non solo documenti più corti.",
+        "occurrences": "[\"SDD1:24\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Specifications and governance",
+        "K:Independent verification and oracles"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:065",
+      "label": "Model Switching for Regeneration",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C03"
+      ],
+      "mapped": [
+        "C:C03"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Model Switching for Regeneration",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F03",
+        "chapter": 3,
+        "disposition": "PRECISARE",
+        "required_revision": "Cambio modello dopo diagnosi a vincoli invariati; non strategia garantita di recupero.",
+        "occurrences": "[\"SDD1:25\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Long-running agent execution",
+        "K:Agent failure and escalation",
+        "K:Benchmarks and construct validity"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:066",
+      "label": "Constitution-Driven Development",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C04"
+      ],
+      "mapped": [
+        "C:C04"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Constitution-Driven Development",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F04",
+        "chapter": 4,
+        "disposition": "RICONCILIARE",
+        "required_revision": "Raccordo a SDD1:19 mantenendo storia e autorevolezza per revisione.",
+        "occurrences": "[\"SDD1:19\", \"SDD2:A1\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Specifications and governance",
+        "K:Independent verification and oracles"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:067",
+      "label": "Clarify Before Plan",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C04"
+      ],
+      "mapped": [
+        "C:C04"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Clarify Before Plan",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F04",
+        "chapter": 4,
+        "disposition": "RICONCILIARE",
+        "required_revision": "Raccordo a SDD1:20; niente promessa zero ambiguità o risparmio fisso in minuti.",
+        "occurrences": "[\"SDD1:20\", \"SDD2:A2\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Specifications and governance",
+        "K:Independent verification and oracles"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:068",
+      "label": "Progressive Specification",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C04"
+      ],
+      "mapped": [
+        "C:C04"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Progressive Specification",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F04",
+        "chapter": 4,
+        "disposition": "PRECISARE",
+        "required_revision": "Progressione per parti autorizzate, non ripetizione finché lo score sale.",
+        "occurrences": "[\"SDD2:A3\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Specifications and governance",
+        "K:Independent verification and oracles"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:069",
+      "label": "Red-Team Specification",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C04"
+      ],
+      "mapped": [
+        "C:C04"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Red-Team Specification",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F04",
+        "chapter": 4,
+        "disposition": "CONSERVARE",
+        "required_revision": "Cercare controesempi della specifica; distinto da verifica dell’implementazione C5.",
+        "occurrences": "[\"SDD2:A4\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Specifications and governance",
+        "K:Independent verification and oracles"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:070",
+      "label": "Gap-Closure Analysis",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C04"
+      ],
+      "mapped": [
+        "C:C04"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Gap-Closure Analysis",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F04",
+        "chapter": 4,
+        "disposition": "PRECISARE",
+        "required_revision": "Gap e orfani sono candidati da esaminare; legacy non fonte normativa di default.",
+        "occurrences": "[\"SDD2:A5\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Specifications and governance",
+        "K:Independent verification and oracles"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:071",
+      "label": "Ambiguity Scoring",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C04"
+      ],
+      "mapped": [
+        "C:C04"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Ambiguity Scoring",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F04",
+        "chapter": 4,
+        "disposition": "RIVEDERE_CRITICAMENTE",
+        "required_revision": "Rubrica diagnostica; una lacuna critica non è compensata da una media; soglia non validata.",
+        "occurrences": "[\"SDD2:A6\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Specifications and governance",
+        "K:Independent verification and oracles"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:072",
+      "label": "Handoff Chain",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C09"
+      ],
+      "mapped": [
+        "C:C09"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Handoff Chain",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F09",
+        "chapter": 9,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Input/output, versione, dubbi e autorità per ciascun handoff; file presenti non bastano.",
+        "occurrences": "[\"SDD2:B1\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Agent context and persistent memory",
+        "K:System understanding and rationale",
+        "K:Ownership and knowledge transfer"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:073",
+      "label": "Multi-Mode Agent",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C03"
+      ],
+      "mapped": [
+        "C:C03"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Multi-Mode Agent",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F03",
+        "chapter": 3,
+        "disposition": "PRECISARE",
+        "required_revision": "Modalità funzionali e permessi; non maturità certificata o responsabilità autonome.",
+        "occurrences": "[\"SDD2:B2\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Long-running agent execution",
+        "K:Agent failure and escalation",
+        "K:Benchmarks and construct validity"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:074",
+      "label": "Anti-Sycophancy Enforcement",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C08"
+      ],
+      "mapped": [
+        "C:C08"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Anti-Sycophancy Enforcement",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F08",
+        "chapter": 8,
+        "disposition": "RIVEDERE_CRITICAMENTE",
+        "required_revision": "Critica supportata da riscontri; chiedere dissenso non cambia training o incentivi reali.",
+        "occurrences": "[\"SDD2:B3\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:AI as reviewer",
+        "K:Automation bias and trust",
+        "K:Review capacity and maintainers"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:075",
+      "label": "Convergence Review",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C08"
+      ],
+      "mapped": [
+        "C:C08"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Convergence Review",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F08",
+        "chapter": 8,
+        "disposition": "RIVEDERE_CRITICAMENTE",
+        "required_revision": "Conservare ragioni e obiezioni; accordo di due modelli non è calibrazione o prova.",
+        "occurrences": "[\"SDD2:B4\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:AI as reviewer",
+        "K:Automation bias and trust",
+        "K:Review capacity and maintainers"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:076",
+      "label": "Gate-Enforced Progression",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C04"
+      ],
+      "mapped": [
+        "C:C04"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Gate-Enforced Progression",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F04",
+        "chapter": 4,
+        "disposition": "PRECISARE",
+        "required_revision": "Predicati e autorità distinti, gate riapribili e adattatori derivati; non rito waterfall.",
+        "occurrences": "[\"SDD2:C1\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Specifications and governance",
+        "K:Independent verification and oracles"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:077",
+      "label": "Security Pipeline",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C06"
+      ],
+      "mapped": [
+        "C:C06"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Security Pipeline",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F06",
+        "chapter": 6,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Security pipeline come composizione di controlli, non garanzia di sicurezza.",
+        "occurrences": "[\"SDD2:C2\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Vulnerability and secure code",
+        "K:Prompt injection and malicious tools",
+        "K:Dependencies and agent supply chain"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:078",
+      "label": "Prompt Injection Scanning",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C06"
+      ],
+      "mapped": [
+        "C:C06"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Prompt Injection Scanning",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F06",
+        "chapter": 6,
+        "disposition": "RIVEDERE_CRITICAMENTE",
+        "required_revision": "Scansione è segnale; permessi e confini fuori dal modello gestiscono gli effetti.",
+        "occurrences": "[\"SDD2:C3\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Vulnerability and secure code",
+        "K:Prompt injection and malicious tools",
+        "K:Dependencies and agent supply chain"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:079",
+      "label": "Supply-Chain Risk Audit",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C06"
+      ],
+      "mapped": [
+        "C:C06"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Supply-Chain Risk Audit",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F06",
+        "chapter": 6,
+        "disposition": "PRECISARE",
+        "required_revision": "Identità, provenienza, permessi e aggiornamenti; niente elenco fisso di tool sicuri.",
+        "occurrences": "[\"SDD2:C4\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Vulnerability and secure code",
+        "K:Prompt injection and malicious tools",
+        "K:Dependencies and agent supply chain"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:080",
+      "label": "Adversarial Agent Pattern",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C07"
+      ],
+      "mapped": [
+        "C:C07"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Adversarial Agent Pattern",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F07",
+        "chapter": 7,
+        "disposition": "RIVEDERE_CRITICAMENTE",
+        "required_revision": "Separare critica, input indipendenti, read-only e autorità; proteggere l’oracolo anche dal maker.",
+        "occurrences": "[\"SDD2:C5\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Independent verification and oracles",
+        "K:Dataset provenance and dependency"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:081",
+      "label": "One-Item-Per-Cycle",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C03"
+      ],
+      "mapped": [
+        "C:C03"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "One-Item-Per-Cycle",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F03",
+        "chapter": 3,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Specializzazione temporale dei piccoli incrementi NDSE:04; non equivalenza automatica.",
+        "occurrences": "[\"SDD2:D1\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Long-running agent execution",
+        "K:Agent failure and escalation",
+        "K:Benchmarks and construct validity"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:082",
+      "label": "Evidence-Pack Provenance",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C07"
+      ],
+      "mapped": [
+        "C:C07"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Evidence-Pack Provenance",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F07",
+        "chapter": 7,
+        "disposition": "PRECISARE",
+        "required_revision": "Bundle legato a codice, policy, oracle e ambiente; hash diverso da identità o verità.",
+        "occurrences": "[\"SDD2:D2\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Independent verification and oracles",
+        "K:Dataset provenance and dependency"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:083",
+      "label": "Budget-Gated Autonomy",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C03"
+      ],
+      "mapped": [
+        "C:C03"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Budget-Gated Autonomy",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F03",
+        "chapter": 3,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Budget preventivo conservativo di azioni, costo e tempo; storico attraverso i riavvii.",
+        "occurrences": "[\"SDD2:D3\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Long-running agent execution",
+        "K:Agent failure and escalation",
+        "K:Benchmarks and construct validity"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "PAT:084",
+      "label": "Escalation Protocol",
+      "kind": "practice_descriptor",
+      "collection": null,
+      "category": "practices",
+      "streams": [],
+      "actual": [
+        "C:C11"
+      ],
+      "mapped": [
+        "C:C11"
+      ],
+      "printed": false,
+      "summary": "",
+      "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only.",
+      "url": "",
+      "authors": "",
+      "year": "",
+      "attributes": {
+        "label": "Escalation Protocol",
+        "kind": "practice_descriptor",
+        "collection": "PAT",
+        "family": "F11",
+        "chapter": 11,
+        "disposition": "RICOMPORRE",
+        "required_revision": "Esito nominato, autorità, motivo e decisione; budget non abilita accettazione.",
+        "occurrences": "[\"SDD2:D4\", \"AGENT:23\"]",
+        "status": "RECONCILED_EDITORIAL_DESCRIPTOR",
+        "limitation": "A pattern descriptor is not evidence of effectiveness. Specialized variants may remain companion-only."
+      },
+      "topics": [
+        "K:Human-agent collaboration",
+        "K:Review capacity and maintainers",
+        "K:Specifications and governance"
+      ],
+      "volumes": []
+    }
+  ]
+}
