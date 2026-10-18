@@ -2,7 +2,7 @@
 
 An independent, source-traceable map of research and practitioner writing about AI-assisted software development, by **Enrico Papalini**. The graph and static catalogues connect publications, topics, engineering practices and book chapters while retaining their evidence limits.
 
-**[Open the published atlas](https://popoloni.github.io/swe_knowledge_graph.html)** · **[Local atlas](swe_knowledge_graph.html)** · **[Catalogues](catalogues/index.html)** · **[NDSE2 · published second edition](catalogues/ndse2.html)** · **[Downloads](downloads.html)** · **[Update notes](UPDATE_v13_1_20261018.html)**
+**[Open the published atlas](https://popoloni.github.io/swe_knowledge_graph.html)** · **[Local atlas](swe_knowledge_graph.html)** · **[Catalogues](catalogues/index.html)** · **[NDSE2 · published second edition](catalogues/ndse2.html)** · **[Downloads](downloads.html)** · **[Update notes](UPDATE_v13_2_20261018.html)**
 
 ## The starting collection
 
@@ -32,6 +32,19 @@ The **13 chapter records** contain concise English summaries, Italian titles, le
 
 [Read the chapter guides](catalogues/ndse2.html) · [Edition and extraction provenance](source/ndse2_book.json) · [Source-review audit](data/updates/source_review_20261018.json)
 
+## Book covers and Amazon.com links
+
+The [publication registry](source/book_publications.json) keeps series and individual-book destinations together with the paths, descriptions and original dimensions of the supplied artwork in `assets/books/`. This presentation overlay is retained during future article and manuscript rebuilds; bibliographic titles, ISBNs and chapter citations remain in their own source metadata.
+
+After changing the registry or supplied artwork, run from the site root:
+
+```sh
+python source/update_publications.py
+python source/build_site.py
+```
+
+The publication adapter applies book-link and cover metadata. The site builder then renders the catalogues. Cover updates do not require manuscript extraction and do not change chapter citations. See [the publication update guide](source/PUBLICATION_UPDATES.md) for the complete procedure.
+
 ## Authorship and evidence
 
 The Fowler collection credits each article’s actual author and acknowledges **Birgitta Böckeler** as contributor and editor of [Exploring Generative AI](https://martinfowler.com/articles/exploring-gen-ai.html). Its adjacent website additions are labelled separately. The Pragmatic Engineer catalogue preserves guest and interview roles. Collection membership does not establish peer review, causal support or independent replication.
@@ -56,6 +69,6 @@ Use `python source/automation/atlas_cli.py` with the sequence **prepare → disc
 
 `check` performs independent structural verification, real-browser checks and repeatable rebuilds. `package` creates the full archive and a delta containing only file additions or overwrites, and proves that baseline plus delta equals the full package. Neither command publishes to GitHub. [Commands, dependencies and book-update steps](DEPLOYMENT.md).
 
-**Graph v13.1 · 2026-10-18**. **Website v13.1 · 2026-10-18**. The current graph contains **1,931 nodes**, **13,615 keyed relationships** and **309 relation types**. Retained earlier graph exports remain labelled as historical.
+**Graph v13.2 · 2026-10-18**. **Website v13.2 · 2026-10-18**. The current graph contains **1,931 nodes**, **13,615 keyed relationships** and **309 relation types**. Retained earlier graph exports remain labelled as historical.
 
 [Credits and boundaries](attribution.html) · [Validation report](verification/report.html)

@@ -51,6 +51,21 @@ Leave `book_policy` as `unchanged` for article-only updates. Current chapter cit
 
 For a new final bilingual manuscript, `extract-book` can prepare a metadata draft for review. Use `source/automation/atlas_cli.py extract-book --help` for its required source paths. Review the extracted titles, summaries, goals and citation evidence, set `book_policy` to `reconcile`, and pass `--book /path/to/reviewed-book.json` to `build`. Chapter or section identity changes require an explicit migration and are blocked by the routine update workflow.
 
+## Update publication links or supplied covers
+
+Keep book destinations and artwork metadata in `source/book_publications.json`, configured through `book_publications_json` in `source/site_config.json`. Store the original local cover and series images in `assets/books/` and retain their original proportions. The registry records the individual product destinations separately from the series page and author companion links.
+
+After editing that registry or replacing the supplied artwork, run from the site root:
+
+```sh
+python source/update_publications.py
+python source/build_site.py
+```
+
+The publication adapter applies these presentation fields to the current book records. The renderer also reads the retained overlay, so future article and manuscript rebuilds keep the product links and covers. This adapter is separate from manuscript extraction: a cover or storefront-link update does not replace bibliographic titles or ISBNs, create source citations, or change chapter citation evidence. For an ordinary render with no publication changes, run only `python source/build_site.py`.
+
+See [source/PUBLICATION_UPDATES.md](source/PUBLICATION_UPDATES.md) for the registry fields and publication-update procedure.
+
 ## Render the frozen website without refreshing sources
 
 ```sh
@@ -59,5 +74,5 @@ python source/build_site.py
 
 This command rebuilds the static catalogues from the current configured template `source/atlas_v13_current.html`, `source/site_config.json` and `source/ndse2_book.json`. It does not discover articles, alter the graph, run verification or create a new approved package. The reusable `build` command above also performs this rendering step after applying the reviewed graph update.
 
-Current graph downloads are `data/graph/knowledge_graph_v13.json` and `data/graph/knowledge_graph_v13.graphml`. Earlier exports remain historical artifacts. Release notes are `UPDATE_v13_1_20261018.html` and the source audit is `data/updates/source_review_20261018.json`. Use the existing GitHub Pages publishing workflow after reviewing the resulting full or delta package.
+Current graph downloads are `data/graph/knowledge_graph_v13.json` and `data/graph/knowledge_graph_v13.graphml`. Earlier exports remain historical artifacts. Release notes are `UPDATE_v13_2_20261018.html` and the source audit is `data/updates/source_review_20261018.json`. Use the existing GitHub Pages publishing workflow after reviewing the resulting full or delta package.
 
