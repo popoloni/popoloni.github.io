@@ -1,0 +1,580 @@
+{
+  "meta": {
+    "as_of": "2026-10-18",
+    "baseline": "Knowledge_Atlas_v12_1_Complete_GitHub_Pages_20261014.zip",
+    "source_additions": [
+      "O051",
+      "F034",
+      "F035",
+      "P124"
+    ],
+    "scope": "Latest in-scope articles; original IDs preserved. Martin Fowler site extended beyond the original Exploring Generative AI index for the two explicit additions. Original publication and revision dates distinguished. Podcast episodes and The Pulse title-prefix posts remain excluded from P."
+  },
+  "osmani": {
+    "author": "Addy Osmani",
+    "checked_as_of": "2026-10-18",
+    "baseline_status": "Deduplicated by canonical URL against recovered v12.1 catalogue: O001-O050 preserved; one new publication O051.",
+    "scope": "Recent first-party articles about AI and software engineering; author blog and Elevate newsletter checked together because the personal blog omits the two newest newsletter posts.",
+    "coverage_sources": [
+      {
+        "url": "https://addyo.substack.com/archive",
+        "observed_range": "2026-06-16 to 2026-10-14",
+        "status": "First visible archive page read; 12 article entries"
+      },
+      {
+        "url": "https://addyosmani.com/blog/",
+        "observed_range": "2026-04-07 to 2026-09-14",
+        "status": "First blog page read; latest displayed article is Brownfield Agentic Engineering"
+      },
+      {
+        "url": "https://addyosmani.com/blog/page2/",
+        "observed_range": "2025-12-09 to 2026-03-26",
+        "status": "Second blog page read for continuity and older-title matching"
+      },
+      {
+        "url": "https://addyosmani.com/topics/agentic-engineering/",
+        "status": "Author-curated topic guide checked; no later-dated article found"
+      }
+    ],
+    "coverage_caveats": [
+      "No claim of an exhaustive historical archive crawl: the update is incremental against the recovered atlas baseline.",
+      "Searches with date and domain filters were supplementary; the authoritative archive and individual publication datelines determine recency.",
+      "RSS feed retrieval was rejected by the web parser as unsupported XML. Public archive and article pages were used instead.",
+      "Syndicated blog and newsletter editions can have different publication dates. Preserve the baseline node and record alternate editions instead of treating them as new works.",
+      "Publication dates below are original visible datelines, not crawl times. Current pages may have been edited after initial publication; no exact revision timestamp is established.",
+      "The Agentic Skill Decay page has an inconsistent browser title, Mastery Still Comes From Doing the Reps; the archive and visible article heading use Agentic Skill Decay. Treat these as one article."
+    ],
+    "latest_verified": {
+      "title": "Agentic Verification",
+      "publication_date": "2026-10-14",
+      "url": "https://addyo.substack.com/p/agentic-verification"
+    },
+    "recent_archive_audit": [
+      {
+        "title": "Agentic Verification",
+        "date": "2026-10-14",
+        "url": "https://addyo.substack.com/p/agentic-verification",
+        "disposition": "add_new_publication",
+        "baseline_id": null
+      },
+      {
+        "title": "The Code Nobody Reads",
+        "date": "2026-09-28",
+        "url": "https://addyo.substack.com/p/the-code-nobody-reads",
+        "disposition": "already_in_baseline",
+        "baseline_id": "O001",
+        "baseline_dateline_matches": true
+      },
+      {
+        "title": "Brownfield Agentic Engineering",
+        "date": "2026-09-14",
+        "url": "https://addyo.substack.com/p/brownfield-agentic-engineering",
+        "disposition": "already_in_baseline",
+        "baseline_id": "O002",
+        "baseline_dateline_matches": true
+      },
+      {
+        "title": "Agentic Skill Decay",
+        "date": "2026-08-31",
+        "url": "https://addyo.substack.com/p/agentic-skill-decay",
+        "disposition": "already_in_baseline",
+        "title_alias": "Mastery Still Comes From Doing the Reps",
+        "baseline_id": "O003",
+        "baseline_dateline_matches": true
+      },
+      {
+        "title": "Audit your Agent files",
+        "date": "2026-08-27",
+        "url": "https://addyo.substack.com/p/audit-your-agent-files",
+        "disposition": "already_in_baseline",
+        "baseline_id": "O004",
+        "baseline_dateline_matches": true
+      },
+      {
+        "title": "Human judgment doesn't leave the software factory. It relocates.",
+        "date": "2026-08-21",
+        "url": "https://addyo.substack.com/p/human-judgment-doesnt-leave-the-software",
+        "disposition": "already_in_baseline",
+        "baseline_id": "O005",
+        "baseline_dateline_matches": true
+      },
+      {
+        "title": "Practical Loop Engineering",
+        "date": "2026-08-14",
+        "url": "https://addyo.substack.com/p/practical-loop-engineering",
+        "disposition": "already_in_baseline",
+        "baseline_id": "O006",
+        "baseline_dateline_matches": true
+      },
+      {
+        "title": "Agentic Code Quality",
+        "date": "2026-08-08",
+        "url": "https://addyo.substack.com/p/agentic-code-quality",
+        "disposition": "already_in_baseline",
+        "baseline_id": "O007",
+        "baseline_dateline_matches": true
+      },
+      {
+        "title": "Software Factories, Light and Dark",
+        "date": "2026-07-22",
+        "url": "https://addyo.substack.com/p/software-factories-light-and-dark",
+        "disposition": "already_in_baseline",
+        "blog_dateline": "2026-07-20",
+        "baseline_id": "O008",
+        "baseline_dateline_matches": true
+      },
+      {
+        "title": "Own the Outer Loop",
+        "date": "2026-07-09",
+        "url": "https://addyo.substack.com/p/own-the-outer-loop",
+        "disposition": "already_in_baseline",
+        "blog_dateline": "2026-07-15",
+        "baseline_id": "O009",
+        "baseline_dateline_matches": true
+      },
+      {
+        "title": "Agentic Autonomy Levels",
+        "date": "2026-07-03",
+        "url": "https://addyo.substack.com/p/agentic-autonomy-levels",
+        "disposition": "already_in_baseline",
+        "blog_dateline": "2026-07-02",
+        "baseline_id": "O010",
+        "baseline_dateline_matches": true
+      },
+      {
+        "title": "Agentic Code Review",
+        "date": "2026-06-16",
+        "url": "https://addyo.substack.com/p/agentic-code-review",
+        "disposition": "already_in_baseline",
+        "blog_dateline": "2026-06-15",
+        "baseline_id": "O011",
+        "baseline_dateline_matches": true
+      }
+    ],
+    "addition_ids": [
+      "O051"
+    ],
+    "no_change_ids": [
+      "O001",
+      "O002",
+      "O003",
+      "O004",
+      "O005",
+      "O006",
+      "O007",
+      "O008",
+      "O009",
+      "O010",
+      "O011",
+      "O012",
+      "O013",
+      "O014",
+      "O015",
+      "O016",
+      "O017",
+      "O018",
+      "O019",
+      "O020",
+      "O021",
+      "O022",
+      "O023",
+      "O024",
+      "O025",
+      "O026",
+      "O027",
+      "O028",
+      "O029",
+      "O030",
+      "O031",
+      "O032",
+      "O033",
+      "O034",
+      "O035",
+      "O036",
+      "O037",
+      "O038",
+      "O039",
+      "O040",
+      "O041",
+      "O042",
+      "O043",
+      "O044",
+      "O045",
+      "O046",
+      "O047",
+      "O048",
+      "O049",
+      "O050"
+    ],
+    "historical_backfill_note": "The 2026 personal-blog archive contains additional older blog-only titles that were outside the frozen O50 newsletter collection. They are not silently counted as new post-baseline publications in this update."
+  },
+  "fowler": {
+    "meta": {
+      "research_date": "2026-10-18",
+      "publisher_layer": "martinfowler.com",
+      "baseline_version": "12.1",
+      "baseline_snapshot": "2026-10-13",
+      "baseline_count": 33,
+      "recommended_addition_count": 2,
+      "strict_series_new_count": 0,
+      "conclusion": "F033 already includes the latest GenAI series entry. Add only the October 13 revised writing essay and October 15 AI-assisted IoT report as explicit publisher-scope expansions.",
+      "summary_language": "English",
+      "author_rule": "Actual article byline; Martin Fowler is site editor/announcer, not author of these two additions."
+    },
+    "revisions": [
+      {
+        "id": "F026",
+        "action": "Add version metadata only; retain historical title, original URL, publication date, summary, and existing identifiers.",
+        "attributes_patch": {
+          "source_version_status": "EARLIER_MEMO_SUPERSEDED_BY_EXPANDED_ARTICLE",
+          "latest_version_url": "https://martinfowler.com/articles/harness-engineering.html",
+          "latest_version_title": "Harness engineering for coding agent users",
+          "latest_version_publication_date": "2026-04-02",
+          "supersession_verified_date": "2026-10-18",
+          "source_version_note": "The later primary article explicitly supersedes this 17 February memo. Direct retrieval still exposes the historical memo with a pointer to the expansion; an HTTP redirect was not established."
+        },
+        "sources": [
+          {
+            "url": "https://martinfowler.com/articles/exploring-gen-ai/harness-engineering-memo.html",
+            "locator": "Opening update notice"
+          },
+          {
+            "url": "https://martinfowler.com/articles/harness-engineering.html",
+            "locator": "Earlier Memo; Significant Revisions"
+          }
+        ]
+      }
+    ],
+    "retained_verified_duplicates": [
+      {
+        "id": "F033",
+        "url": "https://martinfowler.com/articles/are-harnesses-worth-the-cost.html",
+        "decision": "Keep existing record stable; accurate date, byline, summary and limits verified against primary article. Do not append duplicate.",
+        "date": "2026-10-13",
+        "author": "Naresh Jain",
+        "source_type": "Small practitioner experiment"
+      }
+    ],
+    "source_links": [
+      {
+        "source_id": "F026",
+        "target_id": null,
+        "target_url": "https://martinfowler.com/articles/harness-engineering.html",
+        "relation": "points to superseding expanded version",
+        "locator": "Opening update notice",
+        "status": "Retained as version metadata; no new historical catalogue node."
+      },
+      {
+        "source_id": "F033",
+        "target_id": "F030",
+        "target_url": "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html",
+        "relation": "F_BODY_LINKS_TO",
+        "locator": "Acknowledgements",
+        "status": "Already present as f00357 in baseline; do not duplicate."
+      },
+      {
+        "source_id": "F033",
+        "target_id": null,
+        "target_url": "https://martinfowler.com/articles/harness-engineering.html",
+        "relation": "cites expanded harness framing",
+        "locator": "Experiment setup; Acknowledgements",
+        "status": "Target is the expanded article, not the historical F026 memo; preserve exact version in an external link or version-aware relation."
+      },
+      {
+        "source_id": "F035",
+        "target_id": null,
+        "target_url": "https://martinfowler.com/bliki/SensibleDefault.html",
+        "relation": "builds on a named engineering concept",
+        "locator": "Opening summary; Why call them sensible defaults?",
+        "status": "External source not in baseline; do not invent existing target ID."
+      }
+    ],
+    "primary_sources_for_new_records": [
+      {
+        "id": "F034",
+        "url": "https://martinfowler.com/articles/practitioner-voice.html",
+        "refs": [
+          "turn6view1",
+          "turn12view0",
+          "turn12view1"
+        ],
+        "date_proof": "Significant Revisions: 19 August publication; 13 October craft expansion"
+      },
+      {
+        "id": "F035",
+        "url": "https://martinfowler.com/articles/software-meets-hardware.html",
+        "refs": [
+          "turn14view2",
+          "turn19view0",
+          "turn19view1"
+        ],
+        "date_proof": "Dateline and Significant Revisions: 15 October 2026"
+      }
+    ],
+    "coverage": {
+      "sources": [
+        {
+          "url": "https://martinfowler.com/",
+          "role": "Latest changes through 15 October 2026"
+        },
+        {
+          "url": "https://martinfowler.com/recent-changes.html",
+          "role": "Dated change announcements; distinguishes new articles from additions"
+        },
+        {
+          "url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+          "role": "GenAI series latest item 13 October 2026"
+        },
+        {
+          "url": "https://martinfowler.com/tags/generative%20AI.html",
+          "role": "Cross-check broader GenAI material; not reliably ordered by newest"
+        },
+        {
+          "url": "https://martinfowler.com/tags/2026.html",
+          "role": "2026 content inventory; may lag newest installments"
+        },
+        {
+          "url": "https://martinfowler.com/feed.atom",
+          "role": "Web fetch returned internal error; homepage/recent-changes used instead"
+        }
+      ],
+      "latest_item_seen": "2026-10-15",
+      "newest_direct_AI_experiment": "2026-10-13",
+      "no_claim_of_exhaustiveness_beyond": "Accessible official pages inspected on 2026-10-18.",
+      "exclusions": [
+        {
+          "title": "Build your slide template",
+          "date": "2026-10-14",
+          "reason": "Presentation design guidance; no substantive AI and software engineering contribution identified in official announcement."
+        },
+        {
+          "title": "Principles for effective slides",
+          "date": "2026-09-30",
+          "reason": "Presentation technique; no substantive AI and software engineering contribution identified in official announcement."
+        },
+        {
+          "title": "Healthy Feedback",
+          "date": "2026-09-24",
+          "reason": "General interpersonal feedback guidance; possible foundational item, not part of incremental AI literature refresh."
+        }
+      ],
+      "important_metadata_findings": [
+        "Recent Changes announcements display Martin Fowler as announcer even when the underlying article has a different author. Use article bylines.",
+        "Practitioner Voice was first published 19 August 2026 and revised 13 October 2026, per Significant Revisions.",
+        "The expanded harness article explicitly supersedes the 17 February memo. Direct memo retrieval still returns historical text with an update notice; no HTTP redirect has been independently established."
+      ]
+    },
+    "scope_decisions": [
+      {
+        "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+        "date": "2026-09-17",
+        "decision": "Inspected but not added: earlier than baseline and outside original series; no broad historical backfill in this refresh."
+      },
+      {
+        "url": "https://martinfowler.com/fragments/2026-10-04.html",
+        "date": "2026-10-04",
+        "decision": "Inspected but not added: earlier roundup and outside original series."
+      },
+      {
+        "url": "https://martinfowler.com/fragments/2026-09-29.html",
+        "date": "2026-09-29",
+        "decision": "Inspected but not added: earlier roundup and outside original series."
+      },
+      {
+        "url": "https://martinfowler.com/bliki/SensibleDefault.html",
+        "date": "2026-09-29",
+        "decision": "Read to resolve explicit source link; retained as external link, no historical catalogue backfill."
+      },
+      {
+        "url": "https://martinfowler.com/articles/harness-engineering.html",
+        "date": "2026-04-02",
+        "decision": "Read for F026 supersession/version metadata and exact F033 reference. No new historical catalogue node."
+      }
+    ]
+  },
+  "pragmatic_engineer": {
+    "meta": {
+      "as_of": "2026-10-18",
+      "baseline_cutoff": "2026-10-11",
+      "baseline_catalog_count": 123,
+      "new_count": 1,
+      "resulting_catalog_count": 124,
+      "baseline_catalog_sha256": "bc7490bd4395292fd06fee49dae4aff79aba4519d89a97e2b09664713617e8be",
+      "scope": "Blog plus written newsletter Deepdives; exclude The Pulse title prefix and newsletter podcast episodes; cross-source deduplication.",
+      "scope_basis": [
+        "Baseline graph meta.graphAttributes.orosz_scope",
+        "Baseline annotated bibliography P016: podcast episodes remain outside newsletter Deepdives",
+        "Root confirmed this boundary on 2026-10-18"
+      ],
+      "status": "COMPLETE_FOR_PUBLIC_WINDOW_2026_10_12_TO_18"
+    },
+    "candidate_census": [
+      {
+        "date": "2026-10-15",
+        "title": "The Pulse: OpenAI software engineer accused of spying",
+        "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-openai-software-engineer",
+        "format": "Pulse",
+        "decision": "EXCLUDE_PULSE_TITLE"
+      },
+      {
+        "date": "2026-10-14",
+        "title": "Uber’s AI infra, from the inside",
+        "url": "https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside",
+        "format": "podcast_with_written_takeaways",
+        "decision": "EXCLUDE_PODCAST",
+        "baseline_id": null,
+        "new_id": null,
+        "access": "public_written_episode_notes"
+      },
+      {
+        "date": "2026-10-13",
+        "title": "Building resilient AI-powered software, and planning for when things go wrong",
+        "url": "https://newsletter.pragmaticengineer.com/p/building-resilient-systems",
+        "format": "article_with_authorized_book_excerpt",
+        "decision": "ADD_NEW",
+        "baseline_id": null,
+        "new_id": "P124",
+        "access": "public_article"
+      },
+      {
+        "date": "2026-10-08",
+        "title": "The Pulse: new trend of building “internal vibe-coding apps” at tech companies",
+        "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-new-trend-of-building-internal",
+        "format": "Pulse",
+        "decision": "EXCLUDE_PULSE_TITLE"
+      },
+      {
+        "date": "2026-10-07",
+        "title": "Building resilient systems with Sam Newman",
+        "url": "https://newsletter.pragmaticengineer.com/p/building-resilient-systems-with-sam",
+        "format": "podcast_with_written_takeaways",
+        "decision": "EXCLUDE_PODCAST",
+        "baseline_id": null,
+        "new_id": null,
+        "access": "public_written_episode_notes"
+      },
+      {
+        "date": "2026-10-06",
+        "title": "The state of the tech industry in 2026",
+        "url": "https://newsletter.pragmaticengineer.com/p/the-state-of-the-tech-industry-in",
+        "format": "keynote_summary_with_video",
+        "decision": "RETAIN_EXISTING",
+        "baseline_id": "P122",
+        "new_id": null,
+        "access": "public_main_article_paid_bonus_slides"
+      },
+      {
+        "date": "2026-10-01",
+        "title": "The Pulse: Firebase’s global outage & poor response",
+        "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-firebases-global-outage",
+        "format": "Pulse",
+        "decision": "EXCLUDE_PULSE_TITLE"
+      },
+      {
+        "date": "2026-09-30",
+        "title": "Distributed databases with Peter Mattis",
+        "url": "https://newsletter.pragmaticengineer.com/p/distributed-databases-with-peter",
+        "format": "podcast_with_written_takeaways",
+        "decision": "EXCLUDE_PODCAST",
+        "baseline_id": null,
+        "new_id": null,
+        "access": "public_written_episode_notes"
+      },
+      {
+        "date": "2026-09-29",
+        "title": "Why has Shopify dropped React Native?",
+        "url": "https://newsletter.pragmaticengineer.com/p/shopify-native-mobile",
+        "format": "newsletter_article",
+        "decision": "RETAIN_EXISTING",
+        "baseline_id": "P121",
+        "new_id": null,
+        "access": "paid_article_public_preview"
+      },
+      {
+        "date": "2026-09-24",
+        "title": "The Pulse: RoR creator sparks new “death of coding by hand” debate",
+        "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-end-of-coding-by-hand",
+        "format": "Pulse",
+        "decision": "EXCLUDE_PULSE_TITLE"
+      },
+      {
+        "date": "2026-09-23",
+        "title": "Design Engineering with Maggie Appleton",
+        "url": "https://newsletter.pragmaticengineer.com/p/design-engineering-with-maggie-appleton",
+        "format": "podcast_with_written_takeaways",
+        "decision": "EXCLUDE_PODCAST",
+        "baseline_id": null,
+        "new_id": null,
+        "access": "public_written_episode_notes"
+      },
+      {
+        "date": "2026-09-22",
+        "title": "How will AI change operating systems? Part 2: Windows",
+        "url": "https://newsletter.pragmaticengineer.com/p/windows-and-ai",
+        "format": "newsletter_article",
+        "decision": "RETAIN_EXISTING",
+        "baseline_id": "P120",
+        "new_id": null,
+        "access": "paid_article_public_preview"
+      }
+    ],
+    "additional_blog_check": [
+      {
+        "date": "2026-09-01",
+        "updated": "2026-10-05",
+        "title": "How software engineering is changing: an essay challenge",
+        "url": "https://blog.pragmaticengineer.com/how-software-engineering-is-changing-an-essay-challenge/",
+        "decision": "RETAIN_EXISTING",
+        "baseline_id": "P117",
+        "note": "Updated date is not a new publication. Existing catalogue-context record retained unchanged."
+      }
+    ],
+    "source_refs": [
+      {
+        "url": "https://newsletter.pragmaticengineer.com/p/building-resilient-systems",
+        "refs": [
+          "turn13view1",
+          "turn20view4",
+          "turn25view1",
+          "turn28view0"
+        ]
+      },
+      {
+        "url": "https://newsletter.pragmaticengineer.com/archive",
+        "refs": [
+          "turn11view0"
+        ]
+      },
+      {
+        "url": "https://blog.pragmaticengineer.com/",
+        "refs": [
+          "turn11view1"
+        ]
+      }
+    ],
+    "qa": {
+      "json_valid": true,
+      "record_top_level_schema_matches_baseline": true,
+      "new_id_unique": true,
+      "canonical_url_unique": true,
+      "all_mapping_targets_exist": true,
+      "no_new_actual_manuscript_citations": true,
+      "all_new_publication_dates_at_or_before_cutoff": true,
+      "published_window_in_scope_new_records": 1,
+      "retained_ids_in_overlap": [
+        "P120",
+        "P121",
+        "P122",
+        "P117"
+      ],
+      "podcasts_excluded": 4,
+      "pulse_archive_items_excluded": 4,
+      "baseline_files_modified": false
+    },
+    "coverage_limitations": [
+      "Official archive was examined from September 22 through October 18; this spans the complete update interval after October 11. Hidden, deleted and unindexed publications are not certified.",
+      "Public RSS/API were not readable through available tooling; primary article pages and official HTML archives supplied verification. No paywall workaround was used.",
+      "The latest blog entries are delayed Pulse reprints and remain excluded. No later in-scope standalone article was visible."
+    ]
+  }
+}

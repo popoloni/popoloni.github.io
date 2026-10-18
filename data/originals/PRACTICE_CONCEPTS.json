@@ -1,0 +1,1181 @@
+[
+  {
+    "id": "PAT:001",
+    "label": "Plan-Then-Execute",
+    "kind": "PATTERN_NON_NUMERATO",
+    "occurrences": [
+      "AGENT:01"
+    ],
+    "family": "F03",
+    "canonical_chapter": 3,
+    "intervention": "C03.1",
+    "disposition": "RICOMPORRE",
+    "revision": "Piano sostituibile, intenzione modificabile solo con delta autorizzato.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:002",
+    "label": "Swarm Migration (Map-Reduce for Agents)",
+    "kind": "PATTERN_NON_NUMERATO",
+    "occurrences": [
+      "AGENT:02"
+    ],
+    "family": "F05",
+    "canonical_chapter": 5,
+    "intervention": "C05.2",
+    "disposition": "COMPANION",
+    "revision": "Esplorazione opzionale per migrazioni indipendenti; eliminare speedup generici non verificati.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:003",
+    "label": "Background Agent CI",
+    "kind": "PATTERN_NON_NUMERATO",
+    "occurrences": [
+      "AGENT:03"
+    ],
+    "family": "F11",
+    "canonical_chapter": 11,
+    "intervention": "C11.2",
+    "disposition": "COMPANION",
+    "revision": "CI e background come varianti; CI non equivale a produzione e green non significa release.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:004",
+    "label": "Initializer-Maintainer Dual Agent Architecture",
+    "kind": "PATTERN_NON_NUMERATO",
+    "occurrences": [
+      "AGENT:04"
+    ],
+    "family": "F03",
+    "canonical_chapter": 3,
+    "intervention": "C03.1",
+    "disposition": "RINVIO_BREVE",
+    "revision": "Due configurazioni illustrate, non due agenti obbligatori o permessi ampi per default.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:005",
+    "label": "Feature List as Immutable Contract",
+    "kind": "PATTERN_NON_NUMERATO",
+    "occurrences": [
+      "AGENT:05"
+    ],
+    "family": "F04",
+    "canonical_chapter": 4,
+    "intervention": "C04.3",
+    "disposition": "RIVEDERE_CRITICAMENTE",
+    "revision": "Contratto immutabile per revisione; campo passes del maker non attesta accettazione.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:006",
+    "label": "Context Window Anxiety Management",
+    "kind": "PATTERN_NON_NUMERATO",
+    "occurrences": [
+      "AGENT:06"
+    ],
+    "family": "F09",
+    "canonical_chapter": 9,
+    "intervention": "C09.2",
+    "disposition": "PRECISARE",
+    "revision": "Niente antropomorfismo diagnostico; compaction misurabile e stato persistente.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:007",
+    "label": "Compounding Engineering",
+    "kind": "PATTERN_NON_NUMERATO",
+    "occurrences": [
+      "AGENT:07"
+    ],
+    "family": "F09",
+    "canonical_chapter": 9,
+    "intervention": "C09.2",
+    "disposition": "PRECISARE",
+    "revision": "Lezioni candidate con provenienza; riuso di memoria non training né miglioramento garantito.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:008",
+    "label": "Agent-Powered Codebase Q&A and Onboarding",
+    "kind": "PATTERN_NON_NUMERATO",
+    "occurrences": [
+      "AGENT:08"
+    ],
+    "family": "F09",
+    "canonical_chapter": 9,
+    "intervention": "C09.4",
+    "disposition": "RICOMPORRE",
+    "revision": "Risposte rintracciabili, task di comprensione distinti da retrieval.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:009",
+    "label": "CI-as-Backpressure",
+    "kind": "PATTERN_NON_NUMERATO",
+    "occurrences": [
+      "AGENT:09"
+    ],
+    "family": "F11",
+    "canonical_chapter": 8,
+    "intervention": "C08.3",
+    "disposition": "RICOMPORRE",
+    "revision": "Un fallimento CI blocca un ramo entro scope e policy; non autorizza riparazioni estranee.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:010",
+    "label": "Inference-Healed Code Review",
+    "kind": "PATTERN_NON_NUMERATO",
+    "occurrences": [
+      "AGENT:10"
+    ],
+    "family": "F08",
+    "canonical_chapter": 7,
+    "intervention": "C07.2",
+    "disposition": "PRECISARE",
+    "revision": "Riparare da feedback concreto; non fiducia cieca nel reviewer AI.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:011",
+    "label": "Reward Shaping for Tool Use",
+    "kind": "PATTERN_NON_NUMERATO",
+    "occurrences": [
+      "AGENT:11"
+    ],
+    "family": "F03",
+    "canonical_chapter": 3,
+    "intervention": "C03.1",
+    "disposition": "FUORI_CORPO",
+    "revision": "Distinguere reward training e feedback di esecuzione; nessun programma di training nel manuale.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:012",
+    "label": "AI-Accelerated Learning and Skill Development",
+    "kind": "PATTERN_NON_NUMERATO",
+    "occurrences": [
+      "AGENT:12"
+    ],
+    "family": "F10",
+    "canonical_chapter": 10,
+    "intervention": "C10.2",
+    "disposition": "RICOMPORRE",
+    "revision": "Meccanismi di mentoring, non guadagni generalizzati di apprendimento.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:013",
+    "label": "Agent Reinforcement Fine-Tuning",
+    "kind": "PATTERN_NON_NUMERATO",
+    "occurrences": [
+      "AGENT:13"
+    ],
+    "family": "F03",
+    "canonical_chapter": 0,
+    "intervention": "T07",
+    "disposition": "FUORI_CORPO",
+    "revision": "RFT è fuori perimetro esecutivo; nota sui limiti del modello senza istruzioni provider.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:014",
+    "label": "Deterministic Failure Harness",
+    "kind": "PATTERN_NON_NUMERATO",
+    "occurrences": [
+      "AGENT:14"
+    ],
+    "family": "F07",
+    "canonical_chapter": 7,
+    "intervention": "C07.1",
+    "disposition": "RIVEDERE_CRITICAMENTE",
+    "revision": "Ripetibilità condizionata a ambiente/oracolo; non completezza né cattura garantita dei difetti.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:015",
+    "label": "Regression Safety Net",
+    "kind": "PATTERN_NON_NUMERATO",
+    "occurrences": [
+      "AGENT:15"
+    ],
+    "family": "F07",
+    "canonical_chapter": 7,
+    "intervention": "C07.3",
+    "disposition": "PRECISARE",
+    "revision": "Regressioni obbligatorie e impatto; i fallimenti preesistenti si classificano senza espandere scope da soli.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:016",
+    "label": "Structured Drift Detection",
+    "kind": "PATTERN_NON_NUMERATO",
+    "occurrences": [
+      "AGENT:16"
+    ],
+    "family": "F09",
+    "canonical_chapter": 9,
+    "intervention": "C09.3",
+    "disposition": "RICOMPORRE",
+    "revision": "Drift con versione e owner; regole obsolete conservate come storia, non come correnti.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:017",
+    "label": "Blast Radius Containment",
+    "kind": "PATTERN_NON_NUMERATO",
+    "occurrences": [
+      "AGENT:17"
+    ],
+    "family": "F06",
+    "canonical_chapter": 6,
+    "intervention": "C06.3",
+    "disposition": "RICOMPORRE",
+    "revision": "Limitare scritture, effetti e durata fuori dal modello; no sicurezza assoluta.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:018",
+    "label": "PII and Secret Scrubbing",
+    "kind": "PATTERN_NON_NUMERATO",
+    "occurrences": [
+      "AGENT:18"
+    ],
+    "family": "F06",
+    "canonical_chapter": 6,
+    "intervention": "C06.2",
+    "disposition": "PRECISARE",
+    "revision": "Scrubbing parziale non autorizza condivisione; log e retention rispettano i confini.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:019",
+    "label": "Subagent Spawning and Fan-Out",
+    "kind": "PATTERN_NON_NUMERATO",
+    "occurrences": [
+      "AGENT:19"
+    ],
+    "family": "F11",
+    "canonical_chapter": 11,
+    "intervention": "C11.2",
+    "disposition": "RICOMPORRE",
+    "revision": "Fan-out condizionato a dipendenze e capacità, non numero fisso di worker.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:020",
+    "label": "File-System as State Machine",
+    "kind": "PATTERN_NON_NUMERATO",
+    "occurrences": [
+      "AGENT:20"
+    ],
+    "family": "F09",
+    "canonical_chapter": 9,
+    "intervention": "C09.2",
+    "disposition": "PRECISARE",
+    "revision": "Stato persistente con scritture controllate; file system da solo non offre atomicità o autenticità.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:021",
+    "label": "Tool Call Budget",
+    "kind": "PATTERN_NON_NUMERATO",
+    "occurrences": [
+      "AGENT:21"
+    ],
+    "family": "F03",
+    "canonical_chapter": 3,
+    "intervention": "C03.3",
+    "disposition": "RICOMPORRE",
+    "revision": "Limite delle chiamate è una dimensione del budget D3, non sinonimo di costo massimo.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:022",
+    "label": "Trust Calibration",
+    "kind": "PATTERN_NON_NUMERATO",
+    "occurrences": [
+      "AGENT:22"
+    ],
+    "family": "F08",
+    "canonical_chapter": 8,
+    "intervention": "C08.2",
+    "disposition": "PRECISARE",
+    "revision": "Calibrazione richiede confronto fra fiducia e prestazione; nome del pattern non basta.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:023",
+    "label": "The External Bash Loop",
+    "kind": "VARIANTE_IMPLEMENTATIVA",
+    "occurrences": [
+      "LOOP:R1"
+    ],
+    "family": "F03",
+    "canonical_chapter": 3,
+    "intervention": "C03.2",
+    "disposition": "COMPANION",
+    "revision": "Variante Bash esterna, con budget persistente e stato esplicito; nessun codice production-ready copiato.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:024",
+    "label": "The Stop-Hook Loop",
+    "kind": "VARIANTE_IMPLEMENTATIVA",
+    "occurrences": [
+      "LOOP:R2"
+    ],
+    "family": "F03",
+    "canonical_chapter": 3,
+    "intervention": "C03.2",
+    "disposition": "COMPANION",
+    "revision": "Variante stop hook; rientro non autorizza perdita dei budget o modifica dell’oracolo.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:025",
+    "label": "The Editor-Native Manual Loop",
+    "kind": "VARIANTE_IMPLEMENTATIVA",
+    "occurrences": [
+      "LOOP:R3"
+    ],
+    "family": "F03",
+    "canonical_chapter": 3,
+    "intervention": "C03.1",
+    "disposition": "RINVIO_BREVE",
+    "revision": "La sessione guidata manualmente è alternativa legittima, non livello inferiore obbligatorio.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:026",
+    "label": "Run Until Done: Retry Against Reality",
+    "kind": "TECNICA",
+    "occurrences": [
+      "LOOP:T01"
+    ],
+    "family": "F03",
+    "canonical_chapter": 3,
+    "intervention": "C03.2",
+    "disposition": "RICOMPORRE",
+    "revision": "Retry solo contro diagnosi verificabile con stop; non convergenza garantita.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:027",
+    "label": "Maker–Checker: Separate Production from Acceptance",
+    "kind": "TECNICA",
+    "occurrences": [
+      "LOOP:T02"
+    ],
+    "family": "F07",
+    "canonical_chapter": 7,
+    "intervention": "C07.2",
+    "disposition": "RICOMPORRE",
+    "revision": "Confrontare con C5; separazione dei ruoli non rende automaticamente indipendenti gli errori.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:028",
+    "label": "Skills and Context Engineering: Remove Intent Debt",
+    "kind": "TECNICA",
+    "occurrences": [
+      "LOOP:T03"
+    ],
+    "family": "F09",
+    "canonical_chapter": 9,
+    "intervention": "C09.1",
+    "disposition": "RICOMPORRE",
+    "revision": "Skill versionata con owner e permessi separati; il contesto non elimina ogni intent debt.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:029",
+    "label": "Memory and Retrieval: Read What the Model Could Not Know",
+    "kind": "TECNICA",
+    "occurrences": [
+      "LOOP:T04"
+    ],
+    "family": "F09",
+    "canonical_chapter": 9,
+    "intervention": "C09.3",
+    "disposition": "RICOMPORRE",
+    "revision": "Retrieval con astensione, fonte e validità; memoria non conoscenza approvata per definizione.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:030",
+    "label": "Connectors and Tools: Move Exact Work Outside the Weights",
+    "kind": "TECNICA",
+    "occurrences": [
+      "LOOP:T05"
+    ],
+    "family": "F06",
+    "canonical_chapter": 6,
+    "intervention": "C06.2",
+    "disposition": "RICOMPORRE",
+    "revision": "Exact executor con interfacce e permessi; calcolo esatto non autorizza effetti esterni.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:031",
+    "label": "Worktrees: Isolate the Write Domains",
+    "kind": "TECNICA",
+    "occurrences": [
+      "LOOP:T06"
+    ],
+    "family": "F11",
+    "canonical_chapter": 11,
+    "intervention": "C11.2",
+    "disposition": "RICOMPORRE",
+    "revision": "Isola scritture ma non impedisce duplicazione logica dei task.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:032",
+    "label": "Multi-Loop Coordination: One Owner per Target",
+    "kind": "TECNICA",
+    "occurrences": [
+      "LOOP:T07"
+    ],
+    "family": "F11",
+    "canonical_chapter": 11,
+    "intervention": "C11.2",
+    "disposition": "RICOMPORRE",
+    "revision": "Ownership del target sopra il livello file e gestione dei lease.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:033",
+    "label": "Budget and Observability: Price the Next Attempt",
+    "kind": "TECNICA",
+    "occurrences": [
+      "LOOP:T08"
+    ],
+    "family": "F12",
+    "canonical_chapter": 12,
+    "intervention": "C12.1",
+    "disposition": "RICOMPORRE",
+    "revision": "Costo del passo e totale, setup e tentativi respinti; nessun rendimento trasferito dai benchmark.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:034",
+    "label": "Safety and Guardrails: Verification Is Not Authorization",
+    "kind": "TECNICA",
+    "occurrences": [
+      "LOOP:T09"
+    ],
+    "family": "F06",
+    "canonical_chapter": 6,
+    "intervention": "C06.3",
+    "disposition": "PRECISARE",
+    "revision": "Verifica, policy e autorizzazione rimangono decisioni distinte.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:035",
+    "label": "Daily Triage: rank the rare urgent item",
+    "kind": "PATTERN_PRODUTTIVO",
+    "occurrences": [
+      "LOOP:T10"
+    ],
+    "family": "F11",
+    "canonical_chapter": 8,
+    "intervention": "C08.3",
+    "disposition": "COMPANION",
+    "revision": "Esempio opzionale di triage; priorità proposta, non cambiamento autorizzato.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:036",
+    "label": "CI Sweeper: classify before fixing",
+    "kind": "PATTERN_PRODUTTIVO",
+    "occurrences": [
+      "LOOP:T11"
+    ],
+    "family": "F05",
+    "canonical_chapter": 5,
+    "intervention": "C05.3",
+    "disposition": "COMPANION",
+    "revision": "Classificare build rossa prima di riparare; no garanzia che un classificatore riconosca flakiness.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:037",
+    "label": "Dependency Sweeper: route by risk",
+    "kind": "PATTERN_PRODUTTIVO",
+    "occurrences": [
+      "LOOP:T12"
+    ],
+    "family": "F06",
+    "canonical_chapter": 6,
+    "intervention": "C06.2",
+    "disposition": "COMPANION",
+    "revision": "Routing degli update per rischio; green CI non autorizza dipendenza o merge.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:038",
+    "label": "Duplicate detection",
+    "kind": "TECNICA_IN_TABELLA",
+    "occurrences": [
+      "LOOP:T13"
+    ],
+    "family": "F09",
+    "canonical_chapter": 9,
+    "intervention": "C09.3",
+    "disposition": "COMPANION",
+    "revision": "Deduplica proposta da retrieval da confermare semanticamente; conservare record storici.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:039",
+    "label": "PR babysitter",
+    "kind": "TECNICA_IN_TABELLA",
+    "occurrences": [
+      "LOOP:T14"
+    ],
+    "family": "F08",
+    "canonical_chapter": 8,
+    "intervention": "C08.2",
+    "disposition": "COMPANION",
+    "revision": "Stato PR basato su evidenza della revisione corretta; false-ready come outcome distinto.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:040",
+    "label": "Post-merge cleanup",
+    "kind": "TECNICA_IN_TABELLA",
+    "occurrences": [
+      "LOOP:T15"
+    ],
+    "family": "F05",
+    "canonical_chapter": 5,
+    "intervention": "C05.3",
+    "disposition": "RINVIO_BREVE",
+    "revision": "Fonte di proposte di manutenzione, non autorizzazione automatica a riscrivere.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:041",
+    "label": "Changelog drafter",
+    "kind": "TECNICA_IN_TABELLA",
+    "occurrences": [
+      "LOOP:T16"
+    ],
+    "family": "F09",
+    "canonical_chapter": 9,
+    "intervention": "C09.2",
+    "disposition": "COMPANION",
+    "revision": "Bozza con fonti e revisione; release notes non prova di completamento.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:042",
+    "label": "Capstone orchestra",
+    "kind": "TECNICA_IN_TABELLA",
+    "occurrences": [
+      "LOOP:T17"
+    ],
+    "family": "F12",
+    "canonical_chapter": 12,
+    "intervention": "C12.2",
+    "disposition": "RINVIO_BREVE",
+    "revision": "Composizione utile soltanto se giustifica costo marginale; dati del corso da verificare prima del riuso.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:043",
+    "label": "Spec-First Generation",
+    "kind": "PATTERN",
+    "occurrences": [
+      "NDSE:01"
+    ],
+    "family": "F04",
+    "canonical_chapter": 4,
+    "intervention": "C04.1",
+    "disposition": "RICOMPORRE",
+    "revision": "Intenzione autorizzata e scenari prima del candidato; specifica e piano rimangono diversi.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:044",
+    "label": "Test-Driven AI Development",
+    "kind": "PATTERN",
+    "occurrences": [
+      "NDSE:02"
+    ],
+    "family": "F07",
+    "canonical_chapter": 7,
+    "intervention": "C07.1",
+    "disposition": "PRECISARE",
+    "revision": "Test-first richiede attesi con origine indipendente; il verde è locale all’oracolo.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:045",
+    "label": "Exploratory Vibe Coding",
+    "kind": "PATTERN",
+    "occurrences": [
+      "NDSE:03"
+    ],
+    "family": "F01",
+    "canonical_chapter": 1,
+    "intervention": "C01.2",
+    "disposition": "CONSERVARE",
+    "revision": "Esplorazione reversibile separata dall’adozione del risultato.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:046",
+    "label": "Small Verifiable Chunks",
+    "kind": "PATTERN",
+    "occurrences": [
+      "NDSE:04"
+    ],
+    "family": "F03",
+    "canonical_chapter": 3,
+    "intervention": "C03.2",
+    "disposition": "RICOMPORRE",
+    "revision": "Piccolo significa semanticamente verificabile; raccordo D1 senza confondere chunk e ciclo.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:047",
+    "label": "Context Engineering",
+    "kind": "PATTERN",
+    "occurrences": [
+      "NDSE:05"
+    ],
+    "family": "F09",
+    "canonical_chapter": 9,
+    "intervention": "C09.1",
+    "disposition": "RICOMPORRE",
+    "revision": "Istruzioni, retrieval, stato ed evidenza autorizzata non sono intercambiabili.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:048",
+    "label": "The Explainability Test",
+    "kind": "PATTERN",
+    "occurrences": [
+      "NDSE:06"
+    ],
+    "family": "F10",
+    "canonical_chapter": 10,
+    "intervention": "C10.2",
+    "disposition": "PRECISARE",
+    "revision": "Spiegazione come compito di comprensione; non prova sufficiente di correttezza.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:049",
+    "label": "Runtime-in-the-Loop",
+    "kind": "PATTERN",
+    "occurrences": [
+      "NDSE:07"
+    ],
+    "family": "F05",
+    "canonical_chapter": 5,
+    "intervention": "C05.2",
+    "disposition": "AMPLIARE",
+    "revision": "Collegare osservazione runtime ad atteso e decisione; non attribuire misure non eseguite.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:050",
+    "label": "Learning Loop Preservation",
+    "kind": "PATTERN",
+    "occurrences": [
+      "NDSE:08"
+    ],
+    "family": "F10",
+    "canonical_chapter": 10,
+    "intervention": "C10.2",
+    "disposition": "CONSERVARE",
+    "revision": "Conservare esercizio cognitivo e valutare trasferimento; niente effetti garantiti.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:051",
+    "label": "Security-First Development",
+    "kind": "PATTERN",
+    "occurrences": [
+      "NDSE:09"
+    ],
+    "family": "F06",
+    "canonical_chapter": 6,
+    "intervention": "C06.1",
+    "disposition": "RICOMPORRE",
+    "revision": "Distinguere prodotto e catena di sviluppo; raccordo al Security Pipeline.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:052",
+    "label": "Review Gauntlet",
+    "kind": "PATTERN",
+    "occurrences": [
+      "NDSE:10"
+    ],
+    "family": "F08",
+    "canonical_chapter": 8,
+    "intervention": "C08.2",
+    "disposition": "PRECISARE",
+    "revision": "Review selettiva per rischio e capacità; evitare un rito identico per tutte le patch.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:053",
+    "label": "Legacy Code Navigation",
+    "kind": "PATTERN",
+    "occurrences": [
+      "NDSE:11"
+    ],
+    "family": "F09",
+    "canonical_chapter": 9,
+    "intervention": "C09.1",
+    "disposition": "CONSERVARE",
+    "revision": "Navigazione del legacy distingue comportamento rilevato e intenzione approvata.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:054",
+    "label": "Migration as Learning",
+    "kind": "PATTERN",
+    "occurrences": [
+      "NDSE:12"
+    ],
+    "family": "F05",
+    "canonical_chapter": 5,
+    "intervention": "C05.2",
+    "disposition": "PRECISARE",
+    "revision": "Migrazione verificata e apprendimento del maintainer sono due risultati distinti.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:055",
+    "label": "Trio Programming",
+    "kind": "PATTERN",
+    "occurrences": [
+      "NDSE:13"
+    ],
+    "family": "F10",
+    "canonical_chapter": 10,
+    "intervention": "C10.2",
+    "disposition": "CONSERVARE",
+    "revision": "Strutturare senior, junior e assistenza senza postulare beneficio didattico.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:056",
+    "label": "Parallel Work Orchestration",
+    "kind": "PATTERN",
+    "occurrences": [
+      "NDSE:14"
+    ],
+    "family": "F11",
+    "canonical_chapter": 11,
+    "intervention": "C11.2",
+    "disposition": "RICOMPORRE",
+    "revision": "Limiti di WIP, ownership e costo di integrazione; non moltiplicare agenti per default.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:057",
+    "label": "Structured Enablement Program",
+    "kind": "PATTERN",
+    "occurrences": [
+      "NDSE:15"
+    ],
+    "family": "F11",
+    "canonical_chapter": 11,
+    "intervention": "C11.3",
+    "disposition": "PRECISARE",
+    "revision": "Adozione per evidenze e competenze, non numero di corsi o calendario universale.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:058",
+    "label": "Acceptable Use Policy",
+    "kind": "PATTERN",
+    "occurrences": [
+      "NDSE:16"
+    ],
+    "family": "F06",
+    "canonical_chapter": 6,
+    "intervention": "C06.3",
+    "disposition": "RICOMPORRE",
+    "revision": "Policy, enforcement e autorità distinti; regole aggiornabili con responsabilità.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:059",
+    "label": "Measurement & Learning",
+    "kind": "PATTERN",
+    "occurrences": [
+      "NDSE:17"
+    ],
+    "family": "F02",
+    "canonical_chapter": 2,
+    "intervention": "C02.1",
+    "disposition": "RICOMPORRE",
+    "revision": "Unico registro eventi e denominatori end-to-end, inclusi fallimenti.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:060",
+    "label": "Cost Management",
+    "kind": "PATTERN",
+    "occurrences": [
+      "NDSE:18"
+    ],
+    "family": "F12",
+    "canonical_chapter": 12,
+    "intervention": "C12.1",
+    "disposition": "AMPLIARE",
+    "revision": "Integrare setup, review, rework, tempo e infrastruttura per esito accettato.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:061",
+    "label": "Consistency Analysis Gate",
+    "kind": "PATTERN",
+    "occurrences": [
+      "SDD1:21"
+    ],
+    "family": "F04",
+    "canonical_chapter": 4,
+    "intervention": "C04.2",
+    "disposition": "CONSERVARE",
+    "revision": "Il controllo di coerenza è un predicato del gate, non equivale a C1 o a completezza.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:062",
+    "label": "Research Artifact Preservation",
+    "kind": "PATTERN",
+    "occurrences": [
+      "SDD1:22"
+    ],
+    "family": "F09",
+    "canonical_chapter": 9,
+    "intervention": "C09.2",
+    "disposition": "CONSERVARE",
+    "revision": "Conservare fonti e ragioni oltre il passaggio di consegne; complementare a B1.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:063",
+    "label": "Parallel Implementation Exploration",
+    "kind": "PATTERN",
+    "occurrences": [
+      "SDD1:23"
+    ],
+    "family": "F05",
+    "canonical_chapter": 5,
+    "intervention": "C05.1",
+    "disposition": "CONSERVARE",
+    "revision": "Alternative implementative isolabili; non fondere con dibattito fra modelli B4.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:064",
+    "label": "Specification Scale Management",
+    "kind": "PATTERN",
+    "occurrences": [
+      "SDD1:24"
+    ],
+    "family": "F04",
+    "canonical_chapter": 4,
+    "intervention": "C04.3",
+    "disposition": "CONSERVARE",
+    "revision": "Specifiche a scala governabile con dipendenze e fonte unica; non solo documenti più corti.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:065",
+    "label": "Model Switching for Regeneration",
+    "kind": "PATTERN",
+    "occurrences": [
+      "SDD1:25"
+    ],
+    "family": "F03",
+    "canonical_chapter": 3,
+    "intervention": "C03.4",
+    "disposition": "PRECISARE",
+    "revision": "Cambio modello dopo diagnosi a vincoli invariati; non strategia garantita di recupero.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:066",
+    "label": "Constitution-Driven Development",
+    "kind": "PATTERN",
+    "occurrences": [
+      "SDD1:19",
+      "SDD2:A1"
+    ],
+    "family": "F04",
+    "canonical_chapter": 4,
+    "intervention": "C04.1",
+    "disposition": "RICONCILIARE",
+    "revision": "Raccordo a SDD1:19 mantenendo storia e autorevolezza per revisione.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:067",
+    "label": "Clarify Before Plan",
+    "kind": "PATTERN",
+    "occurrences": [
+      "SDD1:20",
+      "SDD2:A2"
+    ],
+    "family": "F04",
+    "canonical_chapter": 4,
+    "intervention": "C04.1",
+    "disposition": "RICONCILIARE",
+    "revision": "Raccordo a SDD1:20; niente promessa zero ambiguità o risparmio fisso in minuti.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:068",
+    "label": "Progressive Specification",
+    "kind": "PATTERN",
+    "occurrences": [
+      "SDD2:A3"
+    ],
+    "family": "F04",
+    "canonical_chapter": 4,
+    "intervention": "C04.1",
+    "disposition": "PRECISARE",
+    "revision": "Progressione per parti autorizzate, non ripetizione finché lo score sale.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:069",
+    "label": "Red-Team Specification",
+    "kind": "PATTERN",
+    "occurrences": [
+      "SDD2:A4"
+    ],
+    "family": "F04",
+    "canonical_chapter": 4,
+    "intervention": "C04.2",
+    "disposition": "CONSERVARE",
+    "revision": "Cercare controesempi della specifica; distinto da verifica dell’implementazione C5.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:070",
+    "label": "Gap-Closure Analysis",
+    "kind": "PATTERN",
+    "occurrences": [
+      "SDD2:A5"
+    ],
+    "family": "F04",
+    "canonical_chapter": 4,
+    "intervention": "C04.2",
+    "disposition": "PRECISARE",
+    "revision": "Gap e orfani sono candidati da esaminare; legacy non fonte normativa di default.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:071",
+    "label": "Ambiguity Scoring",
+    "kind": "PATTERN",
+    "occurrences": [
+      "SDD2:A6"
+    ],
+    "family": "F04",
+    "canonical_chapter": 4,
+    "intervention": "C04.2",
+    "disposition": "RIVEDERE_CRITICAMENTE",
+    "revision": "Rubrica diagnostica; una lacuna critica non è compensata da una media; soglia non validata.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:072",
+    "label": "Handoff Chain",
+    "kind": "PATTERN",
+    "occurrences": [
+      "SDD2:B1"
+    ],
+    "family": "F09",
+    "canonical_chapter": 9,
+    "intervention": "C09.2",
+    "disposition": "RICOMPORRE",
+    "revision": "Input/output, versione, dubbi e autorità per ciascun handoff; file presenti non bastano.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:073",
+    "label": "Multi-Mode Agent",
+    "kind": "PATTERN",
+    "occurrences": [
+      "SDD2:B2"
+    ],
+    "family": "F03",
+    "canonical_chapter": 3,
+    "intervention": "C03.1",
+    "disposition": "PRECISARE",
+    "revision": "Modalità funzionali e permessi; non maturità certificata o responsabilità autonome.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:074",
+    "label": "Anti-Sycophancy Enforcement",
+    "kind": "PATTERN",
+    "occurrences": [
+      "SDD2:B3"
+    ],
+    "family": "F08",
+    "canonical_chapter": 8,
+    "intervention": "C08.1",
+    "disposition": "RIVEDERE_CRITICAMENTE",
+    "revision": "Critica supportata da riscontri; chiedere dissenso non cambia training o incentivi reali.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:075",
+    "label": "Convergence Review",
+    "kind": "PATTERN",
+    "occurrences": [
+      "SDD2:B4"
+    ],
+    "family": "F08",
+    "canonical_chapter": 8,
+    "intervention": "C08.1",
+    "disposition": "RIVEDERE_CRITICAMENTE",
+    "revision": "Conservare ragioni e obiezioni; accordo di due modelli non è calibrazione o prova.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:076",
+    "label": "Gate-Enforced Progression",
+    "kind": "PATTERN",
+    "occurrences": [
+      "SDD2:C1"
+    ],
+    "family": "F04",
+    "canonical_chapter": 4,
+    "intervention": "C04.3",
+    "disposition": "PRECISARE",
+    "revision": "Predicati e autorità distinti, gate riapribili e adattatori derivati; non rito waterfall.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:077",
+    "label": "Security Pipeline",
+    "kind": "PATTERN",
+    "occurrences": [
+      "SDD2:C2"
+    ],
+    "family": "F06",
+    "canonical_chapter": 6,
+    "intervention": "C06.1",
+    "disposition": "RICOMPORRE",
+    "revision": "Security pipeline come composizione di controlli, non garanzia di sicurezza.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:078",
+    "label": "Prompt Injection Scanning",
+    "kind": "PATTERN",
+    "occurrences": [
+      "SDD2:C3"
+    ],
+    "family": "F06",
+    "canonical_chapter": 6,
+    "intervention": "C06.2",
+    "disposition": "RIVEDERE_CRITICAMENTE",
+    "revision": "Scansione è segnale; permessi e confini fuori dal modello gestiscono gli effetti.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:079",
+    "label": "Supply-Chain Risk Audit",
+    "kind": "PATTERN",
+    "occurrences": [
+      "SDD2:C4"
+    ],
+    "family": "F06",
+    "canonical_chapter": 6,
+    "intervention": "C06.2",
+    "disposition": "PRECISARE",
+    "revision": "Identità, provenienza, permessi e aggiornamenti; niente elenco fisso di tool sicuri.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:080",
+    "label": "Adversarial Agent Pattern",
+    "kind": "PATTERN",
+    "occurrences": [
+      "SDD2:C5"
+    ],
+    "family": "F07",
+    "canonical_chapter": 7,
+    "intervention": "C07.2",
+    "disposition": "RIVEDERE_CRITICAMENTE",
+    "revision": "Separare critica, input indipendenti, read-only e autorità; proteggere l’oracolo anche dal maker.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:081",
+    "label": "One-Item-Per-Cycle",
+    "kind": "PATTERN",
+    "occurrences": [
+      "SDD2:D1"
+    ],
+    "family": "F03",
+    "canonical_chapter": 3,
+    "intervention": "C03.2",
+    "disposition": "RICOMPORRE",
+    "revision": "Specializzazione temporale dei piccoli incrementi NDSE:04; non equivalenza automatica.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:082",
+    "label": "Evidence-Pack Provenance",
+    "kind": "PATTERN",
+    "occurrences": [
+      "SDD2:D2"
+    ],
+    "family": "F07",
+    "canonical_chapter": 7,
+    "intervention": "C07.3",
+    "disposition": "PRECISARE",
+    "revision": "Bundle legato a codice, policy, oracle e ambiente; hash diverso da identità o verità.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:083",
+    "label": "Budget-Gated Autonomy",
+    "kind": "PATTERN",
+    "occurrences": [
+      "SDD2:D3"
+    ],
+    "family": "F03",
+    "canonical_chapter": 3,
+    "intervention": "C03.3",
+    "disposition": "RICOMPORRE",
+    "revision": "Budget preventivo conservativo di azioni, costo e tempo; storico attraverso i riavvii.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  },
+  {
+    "id": "PAT:084",
+    "label": "Escalation Protocol",
+    "kind": "PATTERN",
+    "occurrences": [
+      "SDD2:D4",
+      "AGENT:23"
+    ],
+    "family": "F11",
+    "canonical_chapter": 11,
+    "intervention": "C11.3",
+    "disposition": "RICOMPORRE",
+    "revision": "Esito nominato, autorità, motivo e decisione; budget non abilita accettazione.",
+    "scope": "Editorial organization; not a count of independent validated techniques"
+  }
+]

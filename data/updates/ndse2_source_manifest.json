@@ -1,0 +1,1542 @@
+{
+  "EN": [
+    {
+      "file": "EN/appendices/exercise_launch_map.tex",
+      "sha256": "6f23c3dcd86b9738ab1e897228572563292d7a5ddf2b8f7ad50199d3493fbd89",
+      "physical_lines": 19,
+      "bytes": 1911
+    },
+    {
+      "file": "EN/appendices/methodology.tex",
+      "sha256": "88add9cd9c6939c7f335ed52ecfbd368c7ca08885fb237dc2ec080c3fcaafe29",
+      "physical_lines": 361,
+      "bytes": 67087
+    },
+    {
+      "file": "EN/appendices/solutions.tex",
+      "sha256": "894015fc265d33fc8431a3311f7354dc6d2d30e6669bba78a8dc73b21bd7f9ae",
+      "physical_lines": 362,
+      "bytes": 46669
+    },
+    {
+      "file": "EN/appendices/work_id_index.tex",
+      "sha256": "cc21d8091e9b60e4d295b43603928bef64192a8535da9902c662e062a55739f8",
+      "physical_lines": 76,
+      "bytes": 9414
+    },
+    {
+      "file": "EN/chapters/chapter01.tex",
+      "sha256": "277ec2181a885dfee7268a6d504503c8c039a8cc6c8201bfd2a966515d5b2500",
+      "physical_lines": 160,
+      "bytes": 32198
+    },
+    {
+      "file": "EN/chapters/chapter02.tex",
+      "sha256": "2f513eeed43e6183a3b26ebcebaa19a35ab53dbf561260b015e69357b049a72f",
+      "physical_lines": 196,
+      "bytes": 31441
+    },
+    {
+      "file": "EN/chapters/chapter03.tex",
+      "sha256": "ce0ca41e0ce359c1fd4752f2db1de6b1312c006510fc9c3ba364e3310916c2b1",
+      "physical_lines": 200,
+      "bytes": 29171
+    },
+    {
+      "file": "EN/chapters/chapter04.tex",
+      "sha256": "f9ba7148a44598fb3bb1a59888f37f376faadff0f300dafb908a98168176f7a7",
+      "physical_lines": 233,
+      "bytes": 32548
+    },
+    {
+      "file": "EN/chapters/chapter05.tex",
+      "sha256": "f6e123ae06931297b82554424c5b9b9c4b6bdb00e897814d515d11203e684075",
+      "physical_lines": 161,
+      "bytes": 28302
+    },
+    {
+      "file": "EN/chapters/chapter06.tex",
+      "sha256": "3af782fd4b06529539e8b78e95b77ad3911980472e272fe111ddcfcc82ce777a",
+      "physical_lines": 187,
+      "bytes": 30216
+    },
+    {
+      "file": "EN/chapters/chapter07.tex",
+      "sha256": "0990c2265ce14a6e4f7274c64952b424d7b29678a995352ab6ec2258ca7dfe00",
+      "physical_lines": 170,
+      "bytes": 25951
+    },
+    {
+      "file": "EN/chapters/chapter08.tex",
+      "sha256": "b542b5aa04f66dd3fb402a4780f9ed7dacf076a6f2827d7b083887467b50e92a",
+      "physical_lines": 186,
+      "bytes": 26391
+    },
+    {
+      "file": "EN/chapters/chapter09.tex",
+      "sha256": "ab431c886c607f8a192a36336c3409fa0bf9b828d20ab6d16ffd74c162641029",
+      "physical_lines": 187,
+      "bytes": 26447
+    },
+    {
+      "file": "EN/chapters/chapter10.tex",
+      "sha256": "8c1523efe9ff14e391995db26334a679c629258003f891389e55b9183e57f36f",
+      "physical_lines": 159,
+      "bytes": 24279
+    },
+    {
+      "file": "EN/chapters/chapter11.tex",
+      "sha256": "18eb375b24343b3106d1530b9ca03a4a3dd0b88a58a34459858cd1f93cace300",
+      "physical_lines": 213,
+      "bytes": 34556
+    },
+    {
+      "file": "EN/chapters/chapter12.tex",
+      "sha256": "86c0ede476fd2a1b32d32f4ea86297429dd24aad34db3f6c7540431e1190ccbe",
+      "physical_lines": 199,
+      "bytes": 32954
+    },
+    {
+      "file": "EN/chapters/chapter13.tex",
+      "sha256": "3fc3434f5ac2348bb0e7a15d100650848db78e857201849955543d4b08405bfa",
+      "physical_lines": 80,
+      "bytes": 10220
+    },
+    {
+      "file": "EN/config.tex",
+      "sha256": "694ecbc3caeb63979e43940faf9eaa6c64ed278f79c1c6d43b8eff006777c011",
+      "physical_lines": 9,
+      "bytes": 527
+    },
+    {
+      "file": "EN/didactics/canonical_lifecycle_trace.tex",
+      "sha256": "cab91f6a5299d310b3f6327c64cb32a01391e8bbb37ab230396aa006383a4952",
+      "physical_lines": 21,
+      "bytes": 2290
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch01_01.tex",
+      "sha256": "5424d635072e4c2c124620a0a3d6afbd911acca900397b1bd4f44961a8025202",
+      "physical_lines": 4,
+      "bytes": 466
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch01_02.tex",
+      "sha256": "8ddcfd0245c286a628d4a12fd10ea4123587720a960b8dbb5c57139807ff857c",
+      "physical_lines": 4,
+      "bytes": 452
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch01_03.tex",
+      "sha256": "764985e3fad234784b133abcc8fcbfbb4c8e97c07a22db61b305c8a48509039c",
+      "physical_lines": 4,
+      "bytes": 423
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch02_01.tex",
+      "sha256": "40f50416423ac2a8cad3999ee0515bccbc5b0cfabf423ea301f0e98e7794dc16",
+      "physical_lines": 4,
+      "bytes": 463
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch02_02.tex",
+      "sha256": "4d82164aabf4a97aa97c3152d52fa9d2d42c23eb9b11711a068f7c3f2521d1fb",
+      "physical_lines": 4,
+      "bytes": 425
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch02_03.tex",
+      "sha256": "80b57bc4ce90e659d6889069ce3b1f103f88900f38c0d99cccf85c70c862779c",
+      "physical_lines": 4,
+      "bytes": 468
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch03_01.tex",
+      "sha256": "0d4b60bf3710b406847f4afdb3923dd3727c4cbb675e5e05db5cf0252a7408e8",
+      "physical_lines": 4,
+      "bytes": 445
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch03_02.tex",
+      "sha256": "e439fc5e3d40f6a77c0a2247085ffb78f5d0eba8fffb14b0a6acf0be477ecaa2",
+      "physical_lines": 4,
+      "bytes": 448
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch03_03.tex",
+      "sha256": "28e7a1f8b0ad13a17f0ed93c1cf17bb9c3f22cf02db2c5532c996bd2f0cad273",
+      "physical_lines": 4,
+      "bytes": 417
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch04_01.tex",
+      "sha256": "a29d55e4f25b219bfa3f2f06108af5ca74f0cc65ca76c66675043525f89b4364",
+      "physical_lines": 4,
+      "bytes": 420
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch04_02.tex",
+      "sha256": "fe3ec0b0bcbf7e2817e84d7f7d64c70f57b560f9bab632445e63baadf9c603ac",
+      "physical_lines": 4,
+      "bytes": 483
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch04_03.tex",
+      "sha256": "1ef0bb8e50e4243e6f506048545a45c7cef0e32449a333d1dce4b4d5a189f7b9",
+      "physical_lines": 4,
+      "bytes": 515
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch05_01.tex",
+      "sha256": "0f3d8b33f4217e7b113bdea5e8dc9def7d97c6038ceebf84d0d1f6c263833a25",
+      "physical_lines": 4,
+      "bytes": 442
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch05_02.tex",
+      "sha256": "583419c5265da3217ad87deec643ed7590e80e108f646a7ab7a8a4f30beaf75a",
+      "physical_lines": 4,
+      "bytes": 447
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch05_03.tex",
+      "sha256": "81a907d9bbc77cd1ccbf7abb43ee3bbcf6eba108dbfe3763ad06d56b938b6968",
+      "physical_lines": 4,
+      "bytes": 425
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch06_01.tex",
+      "sha256": "9e3962f935913ee4adb8cb073519737598037f830d70324c8cf0c1817c7670a2",
+      "physical_lines": 4,
+      "bytes": 443
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch06_02.tex",
+      "sha256": "e4c3914d9410fc51216791bd133003bfa9192c39d0184a66f26e6bb7a3959896",
+      "physical_lines": 4,
+      "bytes": 441
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch06_03.tex",
+      "sha256": "d55207060baea459a7c209632a5d63e59e1d19d48b8eb793bc44e6aacd56bffc",
+      "physical_lines": 4,
+      "bytes": 425
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch07_01.tex",
+      "sha256": "9cb2965b7b56fb867043b666dc8f84143568bc0f20be05578125cc78301f711a",
+      "physical_lines": 4,
+      "bytes": 460
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch07_02.tex",
+      "sha256": "6d15a82e4da56f4fc2f888305ddc3c5f82f729d3efad390bd20e29be6c2731cd",
+      "physical_lines": 4,
+      "bytes": 416
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch07_03.tex",
+      "sha256": "3e31da4d1bcaa82697bdf6d5cab9f4e02536a72c36a352a69f8a3167fcc7f926",
+      "physical_lines": 4,
+      "bytes": 437
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch08_01.tex",
+      "sha256": "a1cc4fc44824e75dca829d4a7479c33ef0c5c9d4d8c3d659e8971e35103b0c1c",
+      "physical_lines": 4,
+      "bytes": 414
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch08_02.tex",
+      "sha256": "4e68681a7e6f9a8a64aa0681ce33ef7c5ee1c4302ca8960cd2f960100128d2ae",
+      "physical_lines": 4,
+      "bytes": 406
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch08_03.tex",
+      "sha256": "4949f00cb00fe5875761ab54a0d30aff039a9bb17cdc579cfa18779b89792314",
+      "physical_lines": 4,
+      "bytes": 429
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch09_01.tex",
+      "sha256": "d9fc89462312acac1dbcb9914a218b04adb4222aba3064c06f50a730345c6b96",
+      "physical_lines": 4,
+      "bytes": 424
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch09_02.tex",
+      "sha256": "69d937310026f74c18096646551fd8b23f41ac724e9304aaa4a86c78d6f4f1b1",
+      "physical_lines": 4,
+      "bytes": 436
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch09_03.tex",
+      "sha256": "5e68d91d05bfa697b2150bb90dc0646f5a9b60169380777b5bcfe54fc7214a10",
+      "physical_lines": 4,
+      "bytes": 447
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch10_01.tex",
+      "sha256": "2c7c3d504fe43936241aaf6b5a9e719d37049f9fdfa1b04f72769cad55cef128",
+      "physical_lines": 4,
+      "bytes": 429
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch10_02.tex",
+      "sha256": "d7af2ae0f7dbdf6b3b33a2674eda5c6f96c25f337420885fbbeb451ba2cafbbc",
+      "physical_lines": 4,
+      "bytes": 466
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch10_03.tex",
+      "sha256": "8a57d964871d32af3dcecab1b0f718994f52a194798839d6a9b98d7dc2409deb",
+      "physical_lines": 4,
+      "bytes": 440
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch11_01.tex",
+      "sha256": "c071122d3d7760ad8e795a95b392758b005276edbcccfe942e4550ded5c5bd6e",
+      "physical_lines": 4,
+      "bytes": 478
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch11_02.tex",
+      "sha256": "071207b00b0b3d638075eb9c5543814c68e22296be59408f1436990858b06e35",
+      "physical_lines": 4,
+      "bytes": 475
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch11_03.tex",
+      "sha256": "34ffa8261f2dfb9d715907df05dde442531dca0c43250f2d1407b1ad629562e3",
+      "physical_lines": 4,
+      "bytes": 429
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch12_01.tex",
+      "sha256": "bbfbcead282858d83f6805506ae97396c791bca24bf017b2fb3fd544f5923141",
+      "physical_lines": 4,
+      "bytes": 438
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch12_02.tex",
+      "sha256": "91591d4d2a65f9c79833b15171ff73ee87f9e69ead950e00d52e22da97149f23",
+      "physical_lines": 4,
+      "bytes": 474
+    },
+    {
+      "file": "EN/didactics/key_concepts/key_ch12_03.tex",
+      "sha256": "1ddfc7baad9e2c0ac4ff60b4526e6f113bda77d41244b3ba2ca70b1b11670331",
+      "physical_lines": 4,
+      "bytes": 451
+    },
+    {
+      "file": "EN/didactics/learning01.tex",
+      "sha256": "fd0d0ea4edaee5425697871ef1c7681c8d8c6170465cca64f652177711262a97",
+      "physical_lines": 3,
+      "bytes": 294
+    },
+    {
+      "file": "EN/didactics/learning02.tex",
+      "sha256": "7c62ff415472fc1576174cf84e21496f63b81e4422b7a8f5710c6a748c54a1fb",
+      "physical_lines": 3,
+      "bytes": 321
+    },
+    {
+      "file": "EN/didactics/learning03.tex",
+      "sha256": "94c303b5d07d18cff0f33167f69137d074ed23b45e0ec8a047997dad0765c3f5",
+      "physical_lines": 3,
+      "bytes": 303
+    },
+    {
+      "file": "EN/didactics/learning04.tex",
+      "sha256": "75d226bd148d50b2e8415c6ec03c41dea812df3130658d04e8b0c8d54d6b63bd",
+      "physical_lines": 3,
+      "bytes": 308
+    },
+    {
+      "file": "EN/didactics/learning05.tex",
+      "sha256": "4b3a216a600713b19ac2b73549ae4add74c6a43f9b230532c81b58510afa3fcb",
+      "physical_lines": 3,
+      "bytes": 307
+    },
+    {
+      "file": "EN/didactics/learning06.tex",
+      "sha256": "e06b1014509d0cf6c4a458990f81562355329ffc2be06f8f690ecf94eb6bad67",
+      "physical_lines": 3,
+      "bytes": 311
+    },
+    {
+      "file": "EN/didactics/learning07.tex",
+      "sha256": "0da743ec58c32b13bc02f9af8605fd216a3a982b39f98f0dfd3af30d4cc13bc1",
+      "physical_lines": 3,
+      "bytes": 305
+    },
+    {
+      "file": "EN/didactics/learning08.tex",
+      "sha256": "0b4c3f03c78dc7865f3c46c8a3c825dcb33953fa5f0043a5a8885f7fa2aa8a54",
+      "physical_lines": 3,
+      "bytes": 313
+    },
+    {
+      "file": "EN/didactics/learning09.tex",
+      "sha256": "5eacd3b4a78c9ed8115a1f595b68424af0f040db4a33ee8a2b9542fd32a911ac",
+      "physical_lines": 3,
+      "bytes": 315
+    },
+    {
+      "file": "EN/didactics/learning10.tex",
+      "sha256": "90fb0c74b4ad47620a6ec6c3194f675e74a8750f2239603f3d36cc0eed1339d9",
+      "physical_lines": 3,
+      "bytes": 319
+    },
+    {
+      "file": "EN/didactics/learning11.tex",
+      "sha256": "4fcbda032a45d914dd5479db9e709a518a8342f2ed35580791ef4fed192cf343",
+      "physical_lines": 3,
+      "bytes": 306
+    },
+    {
+      "file": "EN/didactics/learning12.tex",
+      "sha256": "afbf840ee1c0428422c4e0309236f33289d8c16522ecfb394a84ef413aacab60",
+      "physical_lines": 3,
+      "bytes": 297
+    },
+    {
+      "file": "EN/didactics/learning13.tex",
+      "sha256": "7321f332d2d8804f0261501a0e1bdac51e3e986b7bd6abe4ede70165c5b1b08d",
+      "physical_lines": 3,
+      "bytes": 274
+    },
+    {
+      "file": "EN/didactics/series_glossary.tex",
+      "sha256": "434c30c8c2b8e4826fadd679e77dd2888136d92da16bb76905c6965c1b7eb2bd",
+      "physical_lines": 21,
+      "bytes": 2346
+    },
+    {
+      "file": "EN/didactics/worked01.tex",
+      "sha256": "1925d9b1ef430980fca31349b41d9c20d75c55e0e281b66cb213df50f25da64e",
+      "physical_lines": 31,
+      "bytes": 3225
+    },
+    {
+      "file": "EN/didactics/worked02.tex",
+      "sha256": "3bed70ceaaf9f515fc4150d37eaad904c93599a1e940bb60fc768c0e6d51e8fe",
+      "physical_lines": 17,
+      "bytes": 1968
+    },
+    {
+      "file": "EN/didactics/worked03.tex",
+      "sha256": "71d957537f23ca6dc17445d5ad98d2785670d1ea63b1104ae3153119b3ca5887",
+      "physical_lines": 17,
+      "bytes": 1788
+    },
+    {
+      "file": "EN/didactics/worked04.tex",
+      "sha256": "d2c109d282dc74603d2072cf2de3ffd75db3b2859a785600f00ee7ad98eb421e",
+      "physical_lines": 31,
+      "bytes": 2650
+    },
+    {
+      "file": "EN/didactics/worked05.tex",
+      "sha256": "3248a93f4f92911777927ffb2c29fc4493a48c4c499c7a186f6788da0227e058",
+      "physical_lines": 18,
+      "bytes": 2193
+    },
+    {
+      "file": "EN/didactics/worked06.tex",
+      "sha256": "7d763e792837b358e7c6b8692ee0b17e597f636ca52b5917088fa9f45cbb1dbd",
+      "physical_lines": 16,
+      "bytes": 1930
+    },
+    {
+      "file": "EN/didactics/worked07.tex",
+      "sha256": "9e9e6ba0730240be5f7e150066b86a6efb15bd5375f7e17daf7b38c818cc6d00",
+      "physical_lines": 24,
+      "bytes": 2714
+    },
+    {
+      "file": "EN/didactics/worked08.tex",
+      "sha256": "27951d2e98718efe9b76ed038be2354d02437868fae1027897a6bd0b6e3fdc53",
+      "physical_lines": 16,
+      "bytes": 1822
+    },
+    {
+      "file": "EN/didactics/worked09.tex",
+      "sha256": "87b3f7f8e121f320a71b10753db25702074cdcab683d42010f7f9e3d6dc5dde5",
+      "physical_lines": 18,
+      "bytes": 1765
+    },
+    {
+      "file": "EN/didactics/worked10.tex",
+      "sha256": "f35e5088cdb4148aaec6dadf81038a778b72a7754f514bfa9e83ceed6ec4970a",
+      "physical_lines": 17,
+      "bytes": 1902
+    },
+    {
+      "file": "EN/didactics/worked11.tex",
+      "sha256": "6563a013f2efbcfa8c4bb8fed6f3d9046712e3f97127b760ffb7e0223a8dc395",
+      "physical_lines": 17,
+      "bytes": 1804
+    },
+    {
+      "file": "EN/didactics/worked12.tex",
+      "sha256": "8021a2bae2cdf60233fc738f34e3ed74e684d86e7cb440b2f16667a45b4bf19e",
+      "physical_lines": 19,
+      "bytes": 1711
+    },
+    {
+      "file": "EN/didactics/worked13.tex",
+      "sha256": "e35d54e401f7a5b5e9b1a15cff3c8f1248b2129e853b93a319bf121b047a2a93",
+      "physical_lines": 7,
+      "bytes": 1446
+    },
+    {
+      "file": "EN/exercises/exercise01.tex",
+      "sha256": "defc2483c15918c65ffbcc46056376c941da6d9fe01bfae93c3229481f2b1fe3",
+      "physical_lines": 15,
+      "bytes": 2073
+    },
+    {
+      "file": "EN/exercises/exercise02.tex",
+      "sha256": "c9de0f8b0502a4e5d7a7c27d43651020e469efe8b58317f8330ae65754a76aeb",
+      "physical_lines": 27,
+      "bytes": 2727
+    },
+    {
+      "file": "EN/exercises/exercise03.tex",
+      "sha256": "88aaf801ebeedca4d54f0e7787eb6479b4249c69bbc5018f0acc622601ac15d9",
+      "physical_lines": 21,
+      "bytes": 2408
+    },
+    {
+      "file": "EN/exercises/exercise04.tex",
+      "sha256": "4350289709b98b69965d1922ad08c942bb00122f52beec93d0825e30c6630cb2",
+      "physical_lines": 16,
+      "bytes": 2452
+    },
+    {
+      "file": "EN/exercises/exercise05.tex",
+      "sha256": "5e1c5fbea39b9f8157f06cc35da4dab74111794fd6e030726e264254573e6b36",
+      "physical_lines": 15,
+      "bytes": 1999
+    },
+    {
+      "file": "EN/exercises/exercise06.tex",
+      "sha256": "ab9fe6292a08a493719181a1fbd3d5002b4b0c3282b2407037ef673a7223fb66",
+      "physical_lines": 15,
+      "bytes": 2038
+    },
+    {
+      "file": "EN/exercises/exercise07.tex",
+      "sha256": "6e8576e4a38f51718d623062fce3166c18b01a8eb87263c0ae848e9708730ecd",
+      "physical_lines": 16,
+      "bytes": 2401
+    },
+    {
+      "file": "EN/exercises/exercise08.tex",
+      "sha256": "fb32997ff8348983fc45ec21028016f1289305d3fea0fee36eacb11a48513d0a",
+      "physical_lines": 16,
+      "bytes": 2181
+    },
+    {
+      "file": "EN/exercises/exercise09.tex",
+      "sha256": "45ad042feaf898fc949d5532a79bc78ad022afc19241c7805ca5bfbae33c7c03",
+      "physical_lines": 15,
+      "bytes": 2039
+    },
+    {
+      "file": "EN/exercises/exercise10.tex",
+      "sha256": "8388ebea4e525258101dd089808d44b6228b22cbe47a386e64706d027eb1f6b5",
+      "physical_lines": 21,
+      "bytes": 4040
+    },
+    {
+      "file": "EN/exercises/exercise11.tex",
+      "sha256": "94a4e98d922d102a83b5d98591f2b6e3efd509a0608dba6f5bb241632d11e043",
+      "physical_lines": 24,
+      "bytes": 2645
+    },
+    {
+      "file": "EN/exercises/exercise12.tex",
+      "sha256": "83d662bc0b0ab88eb17c145937513fd87727266409d1b10e96be69d9d901825b",
+      "physical_lines": 24,
+      "bytes": 2563
+    },
+    {
+      "file": "EN/exercises/exercise13.tex",
+      "sha256": "4f928cd8f1ac422b071cfebd8965bd25cb48cf6a68c57bc323c331d69d03536c",
+      "physical_lines": 9,
+      "bytes": 1154
+    },
+    {
+      "file": "EN/figures/editorial/figure_agency_orchestration_O010.tex",
+      "sha256": "0651293eb6356978beddde079432a057be8a44cbbd63d6071a0e1afdf7fbfe9c",
+      "physical_lines": 28,
+      "bytes": 2031
+    },
+    {
+      "file": "EN/figures/editorial/figure_controls_execution_P110.tex",
+      "sha256": "8a2d450b72d2e071e3ecd1709bc698487a9993f79c1c540072fa39ffaddea7db",
+      "physical_lines": 40,
+      "bytes": 2613
+    },
+    {
+      "file": "EN/figures/editorial/v13_2_policy_boundary.tex",
+      "sha256": "34a8fc1772c7ea3b15e25a7ff6ea5645e7397fab2ea57a38d048e9517c03f170",
+      "physical_lines": 19,
+      "bytes": 1479
+    },
+    {
+      "file": "EN/figures/editorial/v13_2_practice_selection.tex",
+      "sha256": "8bc3a5047cc90280d00a1352bb86ce394a15961c5df3de05b113e014ab4715f4",
+      "physical_lines": 23,
+      "bytes": 1530
+    },
+    {
+      "file": "EN/figures/editorial/v13_2_review_routing.tex",
+      "sha256": "0a42d258b84515c4939c8ba9a02ef52cfbc71432a0fac81d195aebd52a90113e",
+      "physical_lines": 19,
+      "bytes": 1469
+    },
+    {
+      "file": "EN/figures/source_redraws/figure_ch01_01.tex",
+      "sha256": "9d61bc820bc95683e37f92c176fd237c6197f921ccb59582e69dc211c99ecc28",
+      "physical_lines": 31,
+      "bytes": 2261
+    },
+    {
+      "file": "EN/figures/source_redraws/figure_ch01_02.tex",
+      "sha256": "676154a734c617f4124e70eccedfe4dfb1eb829893fddb27127d75ab9db019b6",
+      "physical_lines": 32,
+      "bytes": 2265
+    },
+    {
+      "file": "EN/figures/source_redraws/figure_ch02_01.tex",
+      "sha256": "c2a5adcc891a393391807a7be08681c19171784189e2d357187708884eba79e2",
+      "physical_lines": 37,
+      "bytes": 2431
+    },
+    {
+      "file": "EN/figures/source_redraws/figure_ch02_02.tex",
+      "sha256": "fab88ed0b52d571a29f84435e472c3cf7433aafdd2fd2c6f2e107501f7f9c6f8",
+      "physical_lines": 30,
+      "bytes": 2235
+    },
+    {
+      "file": "EN/figures/source_redraws/figure_ch03_01.tex",
+      "sha256": "e23454701c00d79ce75fa0976a90c021b27b3103f0a3caf4bc9c0f79a94214ad",
+      "physical_lines": 31,
+      "bytes": 2304
+    },
+    {
+      "file": "EN/figures/source_redraws/figure_ch03_02.tex",
+      "sha256": "94f1034eb9bd54584d4b08879f225c37b9086a2c59ae155459557dfb9f18ebf8",
+      "physical_lines": 31,
+      "bytes": 2135
+    },
+    {
+      "file": "EN/figures/source_redraws/figure_ch04_01.tex",
+      "sha256": "2b40f3b8c4ae2c042d13ebac84d936ee9208d75a9aeb6f5a8f685cf8703dc721",
+      "physical_lines": 32,
+      "bytes": 2143
+    },
+    {
+      "file": "EN/figures/source_redraws/figure_ch04_02.tex",
+      "sha256": "ad5c5734fd19df88d4b35c0f9c3f8de70b83ef5eb42fa589ae7c9b73155b4837",
+      "physical_lines": 33,
+      "bytes": 2231
+    },
+    {
+      "file": "EN/figures/source_redraws/figure_ch05_01.tex",
+      "sha256": "ff5b409178996eb9202fffd6a0186f7fb361c71a49a1c897a2205e70c80521aa",
+      "physical_lines": 29,
+      "bytes": 2073
+    },
+    {
+      "file": "EN/figures/source_redraws/figure_ch05_02.tex",
+      "sha256": "bb57fe10f4f0ea93053091c7a894c4f864d75c1ae5869c2b52aa0279ddf86f48",
+      "physical_lines": 31,
+      "bytes": 2218
+    },
+    {
+      "file": "EN/figures/source_redraws/figure_ch06_01.tex",
+      "sha256": "c169b2c74987addc89260b8a0d5431ce13b9bff587c4a704b3b2744a8603a861",
+      "physical_lines": 31,
+      "bytes": 2028
+    },
+    {
+      "file": "EN/figures/source_redraws/figure_ch06_02.tex",
+      "sha256": "a8a965e3163cf6f3486d596a0b0cba9ecd8ab68fdc72917da225cf9d7b193af9",
+      "physical_lines": 32,
+      "bytes": 2122
+    },
+    {
+      "file": "EN/figures/source_redraws/figure_ch07_01.tex",
+      "sha256": "9747d3d9f49acd2aa50ce24491c43723d397bfcd74bad808bed9a319160d7b5b",
+      "physical_lines": 32,
+      "bytes": 2401
+    },
+    {
+      "file": "EN/figures/source_redraws/figure_ch07_02.tex",
+      "sha256": "4e9c6e19ea6b5d954a53a54b8690090cbce8350eda34ed66360b251c9cb1b999",
+      "physical_lines": 30,
+      "bytes": 2120
+    },
+    {
+      "file": "EN/figures/source_redraws/figure_ch08_01.tex",
+      "sha256": "cc7c709085db4adadfb5a85c9a67121b5a1309c0c4f77c3cb1cc727bf6a22ed7",
+      "physical_lines": 36,
+      "bytes": 2388
+    },
+    {
+      "file": "EN/figures/source_redraws/figure_ch08_02.tex",
+      "sha256": "31cf795ca64993de511526e2126d6a4a44b2158ce9ea5d404fc9323087f34223",
+      "physical_lines": 35,
+      "bytes": 2715
+    },
+    {
+      "file": "EN/figures/source_redraws/figure_ch09_01.tex",
+      "sha256": "49624367700d268ba15ad039852bd990baa1f024cdcbc71c62100a75590b84e1",
+      "physical_lines": 31,
+      "bytes": 2150
+    },
+    {
+      "file": "EN/figures/source_redraws/figure_ch09_02.tex",
+      "sha256": "9e8f99062b8bf63a1d0e1bd3ed12c5852bea89f097f9c7e34289d93979f58b53",
+      "physical_lines": 31,
+      "bytes": 2090
+    },
+    {
+      "file": "EN/figures/source_redraws/figure_ch10_01.tex",
+      "sha256": "502748c4ab193f817af9672dd40b49c3ed42e852630f98fdc8b405894041f59e",
+      "physical_lines": 30,
+      "bytes": 2091
+    },
+    {
+      "file": "EN/figures/source_redraws/figure_ch10_02.tex",
+      "sha256": "d6a319de82e35c2ddba006bd61f6f7bd501145ec36b81d8ebe386e6c3c569b20",
+      "physical_lines": 29,
+      "bytes": 2189
+    },
+    {
+      "file": "EN/figures/source_redraws/figure_ch11_01.tex",
+      "sha256": "0d8e6381194d5abb4c4160c2ff154956cd2f612ee3844eee5cde262380664a6e",
+      "physical_lines": 36,
+      "bytes": 2334
+    },
+    {
+      "file": "EN/figures/source_redraws/figure_ch11_02.tex",
+      "sha256": "bb32489f5b42fc33be2921643664d31e6d37cadadb23a0bc0ae032ba6aba83ff",
+      "physical_lines": 36,
+      "bytes": 2441
+    },
+    {
+      "file": "EN/figures/source_redraws/figure_ch12_01.tex",
+      "sha256": "a0af10854ff0c87aa68d97b8d72a65ab6aea08bd7cbcdc80ebac3da8b1e7f5d3",
+      "physical_lines": 31,
+      "bytes": 2111
+    },
+    {
+      "file": "EN/figures/source_redraws/figure_ch12_02.tex",
+      "sha256": "0de357488def40f4407019af5ca23c73d46881d6ce030d604d2deac1dd68f4fa",
+      "physical_lines": 33,
+      "bytes": 2436
+    },
+    {
+      "file": "EN/frontmatter/hardcover_copyright.tex",
+      "sha256": "770a9c20ebe69e645f70042cc675a8c70785d1bf38fbb0b2c2dda80683c69fbf",
+      "physical_lines": 18,
+      "bytes": 3595
+    },
+    {
+      "file": "EN/frontmatter/introduction.tex",
+      "sha256": "5ba6334523a711693aa22861fd77a83343380eeb7a6e3ed56ba0c70ddf301f2d",
+      "physical_lines": 63,
+      "bytes": 10546
+    },
+    {
+      "file": "EN/main.tex",
+      "sha256": "9832f6646fdc1cd763d513f12dc3ffb1835b0984f918f4c1c1b2754c6cb6bb8b",
+      "physical_lines": 45,
+      "bytes": 1741
+    },
+    {
+      "file": "EN/preamble.tex",
+      "sha256": "c82003b50d82d679868f5d1f0bb27a491cf09853016bd620b46c0d9c46e3778f",
+      "physical_lines": 133,
+      "bytes": 7867
+    }
+  ],
+  "ITA": [
+    {
+      "file": "ITA/appendices/exercise_launch_map.tex",
+      "sha256": "2e79ca5b1f5c4a2df6de00ac4aa87590527d510cf522bd6ddc3d9dd9a0f69118",
+      "physical_lines": 19,
+      "bytes": 2152
+    },
+    {
+      "file": "ITA/appendices/methodology.tex",
+      "sha256": "86f01055ce17320370a7f1b20d5f6a22676e67c5e4565e02f8b051a57d7f5d2a",
+      "physical_lines": 361,
+      "bytes": 75457
+    },
+    {
+      "file": "ITA/appendices/solutions.tex",
+      "sha256": "159c9427b8f6f18855af11c54592789090a25c049edf61ac420175b185c09b3d",
+      "physical_lines": 360,
+      "bytes": 53858
+    },
+    {
+      "file": "ITA/appendices/work_id_index.tex",
+      "sha256": "89411976ce251b3414dd5c0e2aa9322303c69dbc6a6272200f8bb4ece61c570d",
+      "physical_lines": 76,
+      "bytes": 9679
+    },
+    {
+      "file": "ITA/chapters/chapter01.tex",
+      "sha256": "e89175da618cfae5b422e16c8e01fd457d1da8308a5d9359a2b6aac592cf63ca",
+      "physical_lines": 157,
+      "bytes": 37619
+    },
+    {
+      "file": "ITA/chapters/chapter02.tex",
+      "sha256": "2336ccabfd1817c7c21c8f4e06fec37bee109fee2b80718824482abd5f393ddb",
+      "physical_lines": 196,
+      "bytes": 36826
+    },
+    {
+      "file": "ITA/chapters/chapter03.tex",
+      "sha256": "2c1ae14b69644084668fec3494a975a6f6be7822e77d7d96d1b21f654d2aa713",
+      "physical_lines": 200,
+      "bytes": 33607
+    },
+    {
+      "file": "ITA/chapters/chapter04.tex",
+      "sha256": "878773f16a0704f3cb52d7547b3b7959cb5497eadfc30a93ad23816c8ac69ed5",
+      "physical_lines": 233,
+      "bytes": 36682
+    },
+    {
+      "file": "ITA/chapters/chapter05.tex",
+      "sha256": "31ceb5547ea22913089d9eba92093a622b30f98f3052e9a0f793dee86df8938e",
+      "physical_lines": 161,
+      "bytes": 32536
+    },
+    {
+      "file": "ITA/chapters/chapter06.tex",
+      "sha256": "f4a3e1c62eae1528ce10817e76376558b41cdc7a6d337397c394cc5cb840ea9e",
+      "physical_lines": 187,
+      "bytes": 34169
+    },
+    {
+      "file": "ITA/chapters/chapter07.tex",
+      "sha256": "7de646cec6272bbb7bdfb1f1ba7d6aa762680382fd4efac383bc341e8f394739",
+      "physical_lines": 170,
+      "bytes": 29809
+    },
+    {
+      "file": "ITA/chapters/chapter08.tex",
+      "sha256": "698ba9efd6ff328bcf2e7bfeb9f9136b14e933dad466c0b23d1fcbc789928824",
+      "physical_lines": 186,
+      "bytes": 30116
+    },
+    {
+      "file": "ITA/chapters/chapter09.tex",
+      "sha256": "87fbeee59f022f508080e38b413de15ce2b11b53515d7605560ddc60cb5244ea",
+      "physical_lines": 187,
+      "bytes": 30285
+    },
+    {
+      "file": "ITA/chapters/chapter10.tex",
+      "sha256": "6222bf93c5aaff838c33613a03d0e0cbf6bd5a8ac293616b215d9ee5fd534e7f",
+      "physical_lines": 159,
+      "bytes": 28450
+    },
+    {
+      "file": "ITA/chapters/chapter11.tex",
+      "sha256": "d6d2c7ee5c616cbd5012cd7d666e360aaab4413958e73e0e92ef71db50b9edb1",
+      "physical_lines": 213,
+      "bytes": 39591
+    },
+    {
+      "file": "ITA/chapters/chapter12.tex",
+      "sha256": "d1598543866ce040908920e04662bc2ffa6ff1831a4cf984240911bf9cd54924",
+      "physical_lines": 199,
+      "bytes": 38839
+    },
+    {
+      "file": "ITA/chapters/chapter13.tex",
+      "sha256": "fc97b394346165efc6abeeaf66622b340180b38446227e61b7ae9e8bf3c58d0b",
+      "physical_lines": 80,
+      "bytes": 12152
+    },
+    {
+      "file": "ITA/config.tex",
+      "sha256": "d0bce265ca35a1894d61b8d115d56bc12ae6e4da02c6d9d3517d1438d2b44a43",
+      "physical_lines": 9,
+      "bytes": 533
+    },
+    {
+      "file": "ITA/didactics/canonical_lifecycle_trace.tex",
+      "sha256": "6a18e5e22b71ef1987cec8e70997a321512af828a8ee664eef3387d7ca20f1f7",
+      "physical_lines": 21,
+      "bytes": 2747
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch01_01.tex",
+      "sha256": "78f8adcbe0ae51f18969546d5b27a360f4184bfeb7aa231945574e4a0c2f3f58",
+      "physical_lines": 4,
+      "bytes": 563
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch01_02.tex",
+      "sha256": "73de8eefed8f46ae06939195d5c4569b183a2ff2c018980b1104da3e301feeac",
+      "physical_lines": 4,
+      "bytes": 564
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch01_03.tex",
+      "sha256": "9ab62069ac5845a525a2a295726d57f2e6f4183c662538cc40156b89d949803a",
+      "physical_lines": 4,
+      "bytes": 517
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch02_01.tex",
+      "sha256": "78f316799c2dfaa2255924f16bec843e023b85b9bb3440e30bcb37fa1b5b2acd",
+      "physical_lines": 4,
+      "bytes": 547
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch02_02.tex",
+      "sha256": "94b513b8153eef291eb8b525260ede9ec6210aab68dee922767d6ff827e7577c",
+      "physical_lines": 4,
+      "bytes": 489
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch02_03.tex",
+      "sha256": "308bf76a4c128da89e86b68b8407310b814cb678c97fb5fde2cfaea398076ab0",
+      "physical_lines": 4,
+      "bytes": 558
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch03_01.tex",
+      "sha256": "98a7873d2b5eb826dab6779bd32385185948a2bcb3d657db522c4b29dd72a83b",
+      "physical_lines": 4,
+      "bytes": 503
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch03_02.tex",
+      "sha256": "552084e8bb7206f642eb426111310743ed5cfc3bb98e324ac98512eee8158576",
+      "physical_lines": 4,
+      "bytes": 523
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch03_03.tex",
+      "sha256": "f5fd0d2438ba2170d93aee9a1cf4035d8d0c97aa9c92a79a8aafe5520fff161b",
+      "physical_lines": 4,
+      "bytes": 500
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch04_01.tex",
+      "sha256": "0e7cf40b331346cb054765a88f6f0b1671b01d9df9b3fabd8f6293e1aac20090",
+      "physical_lines": 4,
+      "bytes": 499
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch04_02.tex",
+      "sha256": "fcb2caeab6c48835cbcc08f26926ba11853370970d8cb294d8e7ea78fc270bcb",
+      "physical_lines": 4,
+      "bytes": 547
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch04_03.tex",
+      "sha256": "9bc81b8923963501223364e303e3e41a2f9f3eaa72bc04d184203d412cf2f3d1",
+      "physical_lines": 4,
+      "bytes": 626
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch05_01.tex",
+      "sha256": "30e0a689fa81762bcf089ce43d4980a54c50f7a7bdaad83699047b4309ae564c",
+      "physical_lines": 4,
+      "bytes": 519
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch05_02.tex",
+      "sha256": "ca05d4b85fd481f9c7290252862826821da5c84abb114f778cc1f7ccd299f248",
+      "physical_lines": 4,
+      "bytes": 508
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch05_03.tex",
+      "sha256": "d358f804b259f3ea2ef40a64d53a81fb0b1c14b967e04cb13b4493d6e7cec068",
+      "physical_lines": 4,
+      "bytes": 481
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch06_01.tex",
+      "sha256": "71dab2916da97dcae460d1c88be799daa3d614c97da5197a8b807ba6dcd508a8",
+      "physical_lines": 4,
+      "bytes": 468
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch06_02.tex",
+      "sha256": "89ef0fb8ab3cec4fe79db22f59720bb2e5e678f892cdfbdec4497600b16187a6",
+      "physical_lines": 4,
+      "bytes": 529
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch06_03.tex",
+      "sha256": "f66aec595bbce0cebc14ce36b3abe4155fc8103626bd043f6b34bf75316d1629",
+      "physical_lines": 4,
+      "bytes": 501
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch07_01.tex",
+      "sha256": "e432d20d0776a577606f6530fea0636c43f9ce90f3dd0fc9e13490f90eca99e0",
+      "physical_lines": 4,
+      "bytes": 539
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch07_02.tex",
+      "sha256": "8c9b6a28fe76a2043ed1a6107ae452d75cf6953c08ac193faf26f22d926b4b72",
+      "physical_lines": 4,
+      "bytes": 492
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch07_03.tex",
+      "sha256": "6c1cb6b160a74f3e08c5c8f714ad53e795b2f8fa25e718a9370d995379f29ddd",
+      "physical_lines": 4,
+      "bytes": 512
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch08_01.tex",
+      "sha256": "e1cc7c100dfde0076da59e7c4655e9a600cedc501823e2a261f2c4cf1451ef7f",
+      "physical_lines": 4,
+      "bytes": 506
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch08_02.tex",
+      "sha256": "72b4732e1936e99221500336a4a7c6e75264fa4f8e270785f2d037a9707f70a2",
+      "physical_lines": 4,
+      "bytes": 469
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch08_03.tex",
+      "sha256": "8ead90837d3e78ccb7ef337569c29524b97ba4e0aa544b1e43aedc4142186543",
+      "physical_lines": 4,
+      "bytes": 508
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch09_01.tex",
+      "sha256": "052fb334430e125255bb18670446b86c0a5148183971fca46fecb4ed9b4154fa",
+      "physical_lines": 4,
+      "bytes": 487
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch09_02.tex",
+      "sha256": "7c8ebc62fb3e442a8a1859fa4903993ce282b54419e6976c4c0151d4a459f4dd",
+      "physical_lines": 4,
+      "bytes": 528
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch09_03.tex",
+      "sha256": "e1661a41387ae35650fafda3113c89b6b070250a3333f29d325eff5117b0d9cc",
+      "physical_lines": 4,
+      "bytes": 529
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch10_01.tex",
+      "sha256": "8b50a53cc04a11470e4e595729a688ecaa76e111fa416a08fc9c56bf76c22811",
+      "physical_lines": 4,
+      "bytes": 505
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch10_02.tex",
+      "sha256": "2b9bc3fbcce9008e941caee20ea7b7f4d05efc92d13b644c4a55f0a1327c676e",
+      "physical_lines": 4,
+      "bytes": 556
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch10_03.tex",
+      "sha256": "09adb3087859a6a5a8dc2eefef13129fabaa36bf9e442686621ab0cc73bf82fd",
+      "physical_lines": 4,
+      "bytes": 512
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch11_01.tex",
+      "sha256": "8ac75e7be6b7a82adeb68f095f6b5e1dee391527953b350217b4f770ed52a037",
+      "physical_lines": 4,
+      "bytes": 548
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch11_02.tex",
+      "sha256": "ed878141898a7eb14ac5d4b0a6cfd88bba7ad15e3aa12c19f33270c0c89be864",
+      "physical_lines": 4,
+      "bytes": 571
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch11_03.tex",
+      "sha256": "1e8d2ee6f197e196c1692df70d2f4f89846c36e90287d74259d07f1cbd63c2e3",
+      "physical_lines": 4,
+      "bytes": 504
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch12_01.tex",
+      "sha256": "554611cf8bd3e20d4a30ba2a94fa9851a211324bb2a59fe3d3ac8b989879c926",
+      "physical_lines": 4,
+      "bytes": 509
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch12_02.tex",
+      "sha256": "e5659262713b4847dcec58c7365319d8c3c827361276e9f0245a881c54fc07f5",
+      "physical_lines": 4,
+      "bytes": 588
+    },
+    {
+      "file": "ITA/didactics/key_concepts/key_ch12_03.tex",
+      "sha256": "79dda0a8c8076d8b439a2b38f399a8103efe27c07da96ba2cc15d51dce823679",
+      "physical_lines": 4,
+      "bytes": 525
+    },
+    {
+      "file": "ITA/didactics/learning01.tex",
+      "sha256": "e046da9f1b846fc76f9c4354813ffb09b10b2ab1b18fd122df271b56dcf1148b",
+      "physical_lines": 3,
+      "bytes": 353
+    },
+    {
+      "file": "ITA/didactics/learning02.tex",
+      "sha256": "7e861a6577d1b3e95a35d45aee0afc0c2ca5c50624770a54bf296dd92b3718b2",
+      "physical_lines": 3,
+      "bytes": 395
+    },
+    {
+      "file": "ITA/didactics/learning03.tex",
+      "sha256": "835864b0bd8b5690ec4701f3b41e0811abe6a9a460071083dd00c8851029364a",
+      "physical_lines": 3,
+      "bytes": 369
+    },
+    {
+      "file": "ITA/didactics/learning04.tex",
+      "sha256": "478c4d7d4953831297fb430d5a45aab302e43dd46fdeac0407dbb9e6b8715c9f",
+      "physical_lines": 3,
+      "bytes": 350
+    },
+    {
+      "file": "ITA/didactics/learning05.tex",
+      "sha256": "e42607c2e931ad2b40bbca6c3e346a3192c3abf5aaf10b310f7b0a5bec2f8546",
+      "physical_lines": 3,
+      "bytes": 403
+    },
+    {
+      "file": "ITA/didactics/learning06.tex",
+      "sha256": "941b2e0b5927e9fd21a51f1351a3dfd7d9f45e3b7172e0c453b96bf256db9f01",
+      "physical_lines": 3,
+      "bytes": 385
+    },
+    {
+      "file": "ITA/didactics/learning07.tex",
+      "sha256": "ca773c879987897c85d8cf7a282f2fe3564112a7f6ca4d85931edea981be3688",
+      "physical_lines": 3,
+      "bytes": 357
+    },
+    {
+      "file": "ITA/didactics/learning08.tex",
+      "sha256": "1c660d78d675091c430fe82dccb12878dcdfe870c46d52cdd76d22f10900708d",
+      "physical_lines": 3,
+      "bytes": 382
+    },
+    {
+      "file": "ITA/didactics/learning09.tex",
+      "sha256": "e325714d2952a097fa049eb4218376783d676c76de62b90760cc68fa9a192eae",
+      "physical_lines": 3,
+      "bytes": 387
+    },
+    {
+      "file": "ITA/didactics/learning10.tex",
+      "sha256": "039634fd6736c2251600027c7b24e40aad5314398465f2084568fc7c53ba1553",
+      "physical_lines": 3,
+      "bytes": 402
+    },
+    {
+      "file": "ITA/didactics/learning11.tex",
+      "sha256": "770d23883b835329778697aca29bbd464b21934297596601806a94f438d8d760",
+      "physical_lines": 3,
+      "bytes": 352
+    },
+    {
+      "file": "ITA/didactics/learning12.tex",
+      "sha256": "16d0896f7c78f160c0969bb325dafd451418b9807f83f29e736dbc27a9e6ddff",
+      "physical_lines": 3,
+      "bytes": 348
+    },
+    {
+      "file": "ITA/didactics/learning13.tex",
+      "sha256": "98d39a60817911205e002e2d497abde1a4d07f4b5476ef301ac006683e518672",
+      "physical_lines": 3,
+      "bytes": 328
+    },
+    {
+      "file": "ITA/didactics/series_glossary.tex",
+      "sha256": "25145be72dc63e85b2ec9a3efec9ebe4831fb3f596fce3c8a0f820668fa70a95",
+      "physical_lines": 21,
+      "bytes": 2788
+    },
+    {
+      "file": "ITA/didactics/worked01.tex",
+      "sha256": "2441dd7b8a591194488d3229d6c7ab058295c58a0085d9a9956054f35a441ed7",
+      "physical_lines": 30,
+      "bytes": 3596
+    },
+    {
+      "file": "ITA/didactics/worked02.tex",
+      "sha256": "beccc74dbaee10cc982dd92da1d62b9a4a4e670b45272227a8678f9add116c68",
+      "physical_lines": 17,
+      "bytes": 2404
+    },
+    {
+      "file": "ITA/didactics/worked03.tex",
+      "sha256": "a6a1f9bfa83904e27b085e8c6b18504ede3532d9fbeb1c0a2a773e91e2d2a8c6",
+      "physical_lines": 17,
+      "bytes": 2106
+    },
+    {
+      "file": "ITA/didactics/worked04.tex",
+      "sha256": "1299af3f44c6cf4c19c07eb58dafacf3cdb7a98093f6d47f3f0843b380c09fa6",
+      "physical_lines": 31,
+      "bytes": 2887
+    },
+    {
+      "file": "ITA/didactics/worked05.tex",
+      "sha256": "dbdef19bc1754ea50b23827fa3794bc5479d85906a998d8707172c953d5401b4",
+      "physical_lines": 18,
+      "bytes": 2582
+    },
+    {
+      "file": "ITA/didactics/worked06.tex",
+      "sha256": "92978328a0df41169a6571ad52f64859066636f6d21d4639b1720fa732260c61",
+      "physical_lines": 16,
+      "bytes": 2214
+    },
+    {
+      "file": "ITA/didactics/worked07.tex",
+      "sha256": "51bea9ad7924ee0d4315dbaaf96a4cb048d7e83964b2fb0b03f3b1d08a7eb871",
+      "physical_lines": 24,
+      "bytes": 2887
+    },
+    {
+      "file": "ITA/didactics/worked08.tex",
+      "sha256": "e38d022080ed22b8adde173651a497ba2e191da1f5b162efe944a3488bf413f4",
+      "physical_lines": 16,
+      "bytes": 2049
+    },
+    {
+      "file": "ITA/didactics/worked09.tex",
+      "sha256": "8ef689ef3191ef8892c794aedf322d21819b488783fc21d2263c6be94528a795",
+      "physical_lines": 18,
+      "bytes": 2046
+    },
+    {
+      "file": "ITA/didactics/worked10.tex",
+      "sha256": "1e4b480e4035af7467a16075ce8494ee4a769223f49c1cb8b0041fc30bd762fe",
+      "physical_lines": 17,
+      "bytes": 2215
+    },
+    {
+      "file": "ITA/didactics/worked11.tex",
+      "sha256": "8b0c990c4ef63b7b22a4a01290d28f08ab49bc5ff2a0011a9d11a3ff2e3de3c9",
+      "physical_lines": 17,
+      "bytes": 2141
+    },
+    {
+      "file": "ITA/didactics/worked12.tex",
+      "sha256": "d87bb17437ed98c2ca270493a1b1ff4204a04d70f49e2e96d522cfc7074e2d62",
+      "physical_lines": 19,
+      "bytes": 2016
+    },
+    {
+      "file": "ITA/didactics/worked13.tex",
+      "sha256": "aeb18a6cd4a02c96a92917e0a67961ab146a65b5e8c250765b2f8f2ca650fd06",
+      "physical_lines": 7,
+      "bytes": 1838
+    },
+    {
+      "file": "ITA/exercises/exercise01.tex",
+      "sha256": "3f777c71c79fe75a9d975f8b162bfb34cdc4ddb50c204091b9bc0415459817d2",
+      "physical_lines": 15,
+      "bytes": 2453
+    },
+    {
+      "file": "ITA/exercises/exercise02.tex",
+      "sha256": "610f3a9dba858f7723d98075e3ba7851fe61e9e62c5739c0ac2b98e98e5f3b4e",
+      "physical_lines": 27,
+      "bytes": 3105
+    },
+    {
+      "file": "ITA/exercises/exercise03.tex",
+      "sha256": "9009e2c299f67afccd46f0d499602a6db012dcd11cffa38392c70dadf81b3e60",
+      "physical_lines": 21,
+      "bytes": 2808
+    },
+    {
+      "file": "ITA/exercises/exercise04.tex",
+      "sha256": "72e9acf1dc292e99dfdc2846799dbb97be2b4e87a89fb9edaf47bf9d775af539",
+      "physical_lines": 16,
+      "bytes": 2955
+    },
+    {
+      "file": "ITA/exercises/exercise05.tex",
+      "sha256": "f07ece2a3c0dd98c63cff6ad8e70b8fe4cd7e629387a1bab6de03ea2e10d05d3",
+      "physical_lines": 15,
+      "bytes": 2251
+    },
+    {
+      "file": "ITA/exercises/exercise06.tex",
+      "sha256": "fb3cbd905678376593c0c0b0275c898e6672f64f59dacd76aca681ae6cd3e1fd",
+      "physical_lines": 15,
+      "bytes": 2358
+    },
+    {
+      "file": "ITA/exercises/exercise07.tex",
+      "sha256": "36d789eac206af9047fda709b984e732e4ec44857b62194bb92ac6e2603836a9",
+      "physical_lines": 16,
+      "bytes": 2719
+    },
+    {
+      "file": "ITA/exercises/exercise08.tex",
+      "sha256": "eabedccadab16403a48ad7e955e286423de7f77be59678adf037cb57b45a3d4e",
+      "physical_lines": 16,
+      "bytes": 2490
+    },
+    {
+      "file": "ITA/exercises/exercise09.tex",
+      "sha256": "9fe3c5994e7190180bf5421b7773342a38434638cebab4fc2928806ecbcd05a4",
+      "physical_lines": 15,
+      "bytes": 2239
+    },
+    {
+      "file": "ITA/exercises/exercise10.tex",
+      "sha256": "9a79bd1840dbdb69e12dc8263fd293cfe247b65b83727494339f345ac111204f",
+      "physical_lines": 21,
+      "bytes": 4772
+    },
+    {
+      "file": "ITA/exercises/exercise11.tex",
+      "sha256": "0573432cf24ef22f359c19b6b8a575fd3e8dc857b11dc9de841eddfc1fe51229",
+      "physical_lines": 24,
+      "bytes": 3007
+    },
+    {
+      "file": "ITA/exercises/exercise12.tex",
+      "sha256": "d18148be881a6dcb48c89c876a75fed39bc38ea5562c6949a1d8e0873a6d8d9c",
+      "physical_lines": 24,
+      "bytes": 2963
+    },
+    {
+      "file": "ITA/exercises/exercise13.tex",
+      "sha256": "260b71215a149109238101319476774992eecc4e932b15783b5c94c1c3b373f1",
+      "physical_lines": 9,
+      "bytes": 1409
+    },
+    {
+      "file": "ITA/figures/editorial/figure_agency_orchestration_O010.tex",
+      "sha256": "f122184d9c61377bea1b776417203fd2e2c35da96a0dc150171c876b8babaed7",
+      "physical_lines": 28,
+      "bytes": 2054
+    },
+    {
+      "file": "ITA/figures/editorial/figure_controls_execution_P110.tex",
+      "sha256": "56578e70da53e46c1ea2d5bd137436f34089ed49fae68a5e7e37b8bb25b902aa",
+      "physical_lines": 40,
+      "bytes": 2663
+    },
+    {
+      "file": "ITA/figures/editorial/v13_2_policy_boundary.tex",
+      "sha256": "3141bc2f6f1768d65ac73231c2351a1661f70bf3f2b812d0bed4a9184b7af5b1",
+      "physical_lines": 19,
+      "bytes": 1525
+    },
+    {
+      "file": "ITA/figures/editorial/v13_2_practice_selection.tex",
+      "sha256": "2a728e8076cfa79e53aba29972f4ad5858f7a01d6948d67bc6c6c5df288267f1",
+      "physical_lines": 23,
+      "bytes": 1580
+    },
+    {
+      "file": "ITA/figures/editorial/v13_2_review_routing.tex",
+      "sha256": "0ff6cf4db568131312fb06993197c5e8b6bea484e49fb1991bfe38802bf60ac0",
+      "physical_lines": 19,
+      "bytes": 1555
+    },
+    {
+      "file": "ITA/figures/source_redraws/figure_ch01_01.tex",
+      "sha256": "8f927b4b217ac7c8c9b496e1e21bb7c87653a5eb84f88c5558da2525fa1be0c3",
+      "physical_lines": 31,
+      "bytes": 2329
+    },
+    {
+      "file": "ITA/figures/source_redraws/figure_ch01_02.tex",
+      "sha256": "8309829e39107e3455b60bf3549b8f7330eb40c64e43e716f57570a33d8efaa5",
+      "physical_lines": 32,
+      "bytes": 2284
+    },
+    {
+      "file": "ITA/figures/source_redraws/figure_ch02_01.tex",
+      "sha256": "03c848f6494c333e7d1a22b93f55086fe3bfa348c041059d123b0fa1368ba18b",
+      "physical_lines": 37,
+      "bytes": 2482
+    },
+    {
+      "file": "ITA/figures/source_redraws/figure_ch02_02.tex",
+      "sha256": "b9df17a04177149fe3e2196f90d973dab857457acab924b081f2a0989eb6a7d4",
+      "physical_lines": 30,
+      "bytes": 2285
+    },
+    {
+      "file": "ITA/figures/source_redraws/figure_ch03_01.tex",
+      "sha256": "b0b175aa31e441b20ad155b879329ece1fac12d572d314a6d6fcfc547afbb578",
+      "physical_lines": 31,
+      "bytes": 2335
+    },
+    {
+      "file": "ITA/figures/source_redraws/figure_ch03_02.tex",
+      "sha256": "8c72289e46a3c5927ddea2878e19e626964951538aa2679c12a003b5c0dc151c",
+      "physical_lines": 31,
+      "bytes": 2193
+    },
+    {
+      "file": "ITA/figures/source_redraws/figure_ch04_01.tex",
+      "sha256": "502618d5355d0c1bac899a14eee3d04bcf1c21ad41bec9a0a32cc5954a3eb64f",
+      "physical_lines": 32,
+      "bytes": 2183
+    },
+    {
+      "file": "ITA/figures/source_redraws/figure_ch04_02.tex",
+      "sha256": "20df398a38d821c6d34c137ec87f21adbe7f18cfc61aa2228c6326f49f469ae4",
+      "physical_lines": 33,
+      "bytes": 2295
+    },
+    {
+      "file": "ITA/figures/source_redraws/figure_ch05_01.tex",
+      "sha256": "8d4eb9d5947ee7fc56888262204abe06b526572fa3125c51b3e961724066ac37",
+      "physical_lines": 29,
+      "bytes": 2126
+    },
+    {
+      "file": "ITA/figures/source_redraws/figure_ch05_02.tex",
+      "sha256": "6ad16b211757f71bd017705ed47ae626afd002a2a39c0835700b1eabeed85325",
+      "physical_lines": 31,
+      "bytes": 2310
+    },
+    {
+      "file": "ITA/figures/source_redraws/figure_ch06_01.tex",
+      "sha256": "351de4f1685cb330fa6a0b4dcbf83da86ed1a450a30f53214bb9e946a1ce6bb4",
+      "physical_lines": 31,
+      "bytes": 2092
+    },
+    {
+      "file": "ITA/figures/source_redraws/figure_ch06_02.tex",
+      "sha256": "b7f06a6766a9eb5875ea3043fcf58fb6d3d2ded601c39b908a1b2af8d97745d0",
+      "physical_lines": 32,
+      "bytes": 2185
+    },
+    {
+      "file": "ITA/figures/source_redraws/figure_ch07_01.tex",
+      "sha256": "5471cf641e071166dc94c2abb674008f075135b4c79dff6610dcd4b8d41d5631",
+      "physical_lines": 32,
+      "bytes": 2512
+    },
+    {
+      "file": "ITA/figures/source_redraws/figure_ch07_02.tex",
+      "sha256": "f233c77f3f2544d181c7d5808c2b8ad631161528eb9f630354b6da0073f403e2",
+      "physical_lines": 30,
+      "bytes": 2176
+    },
+    {
+      "file": "ITA/figures/source_redraws/figure_ch08_01.tex",
+      "sha256": "bae788cd46a93c29c0d802e39a7a7eea469a4f4a79806bb82c98110cc7532fac",
+      "physical_lines": 36,
+      "bytes": 2448
+    },
+    {
+      "file": "ITA/figures/source_redraws/figure_ch08_02.tex",
+      "sha256": "7553a40c4f3523382e07d8a0277bd836d5067516a8f6c6a1e1e18a99945dd1f9",
+      "physical_lines": 35,
+      "bytes": 2748
+    },
+    {
+      "file": "ITA/figures/source_redraws/figure_ch09_01.tex",
+      "sha256": "ba0149a7b4a51a4ff2abcf451d8a2f720ce1566a6cd7c009ece9a68f02e57e20",
+      "physical_lines": 31,
+      "bytes": 2189
+    },
+    {
+      "file": "ITA/figures/source_redraws/figure_ch09_02.tex",
+      "sha256": "d31c749cf87ace5505b41577b1587f8dcf9499d1f24a6151327c8e5cc8dcbfd8",
+      "physical_lines": 31,
+      "bytes": 2138
+    },
+    {
+      "file": "ITA/figures/source_redraws/figure_ch10_01.tex",
+      "sha256": "21ef69e41824adbd459d5825ed465fba8050f3366c55279d4493710ac5b74371",
+      "physical_lines": 30,
+      "bytes": 2134
+    },
+    {
+      "file": "ITA/figures/source_redraws/figure_ch10_02.tex",
+      "sha256": "c216574e00dea3b4f76e91f018ab3b8a142ba72200e982e6617b2ada5c61efff",
+      "physical_lines": 29,
+      "bytes": 2235
+    },
+    {
+      "file": "ITA/figures/source_redraws/figure_ch11_01.tex",
+      "sha256": "388b10628107430f920dcde8bce44b19c1ab6ebf516b1019fc16db5a6c0f3b4b",
+      "physical_lines": 36,
+      "bytes": 2432
+    },
+    {
+      "file": "ITA/figures/source_redraws/figure_ch11_02.tex",
+      "sha256": "1c442f99531e6b197148d0c16527c25f74223b12fa314c1b443b812da5c44f35",
+      "physical_lines": 36,
+      "bytes": 2536
+    },
+    {
+      "file": "ITA/figures/source_redraws/figure_ch12_01.tex",
+      "sha256": "5439631253de9db5eca12e793670cdb040bbbb8046015e6ebeb21039532e4054",
+      "physical_lines": 31,
+      "bytes": 2143
+    },
+    {
+      "file": "ITA/figures/source_redraws/figure_ch12_02.tex",
+      "sha256": "c7e3b10b0da7e5c122f995d5f86769a874c40ccb610bc6b0fb6220a76a4f0a05",
+      "physical_lines": 33,
+      "bytes": 2522
+    },
+    {
+      "file": "ITA/frontmatter/hardcover_copyright.tex",
+      "sha256": "d7801c0dc23026c0b096df6233f4f888d6518f5dd49c8c6ac2a9d1e8e1ac5487",
+      "physical_lines": 18,
+      "bytes": 3716
+    },
+    {
+      "file": "ITA/frontmatter/introduction.tex",
+      "sha256": "9293bcc2c5b72bf135fb5a7fe762d2c248cb92c5622ba5f31a01168c6059c189",
+      "physical_lines": 64,
+      "bytes": 13144
+    },
+    {
+      "file": "ITA/main.tex",
+      "sha256": "976aee3b047a5875d04f5ea0ef3906194e15b45c7391295ca777c53d47e7cb09",
+      "physical_lines": 45,
+      "bytes": 1738
+    },
+    {
+      "file": "ITA/preamble.tex",
+      "sha256": "88806f3574f9d5b4dee52574b32d6aaba3035f38c81944db35bfcf83482924cb",
+      "physical_lines": 133,
+      "bytes": 8058
+    }
+  ]
+}
