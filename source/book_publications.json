@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "kind": "atlas_publication_assets_update/1",
+  "release": "13.2",
+  "baseline_release": "13.1",
+  "date": "2026-10-18",
+  "reviewed_on": "2026-10-18",
+  "baseline_name": "Knowledge_Atlas_v13_1_Complete_20261018.zip",
+  "baseline_package_sha256": "d7d9b7629ed3daf2897ca9a9e498a2912a6126bd2ee0b61d2ddf9b57fc58b251",
+  "baseline_payload_sha256": "f3b95f313c92c657af42593c4166d0aada0615900fb9ba1fa9572b04b386336d",
+  "series": {
+    "title": "Non-Deterministic series",
+    "amazon_url": "https://www.amazon.com/dp/B0GHCXPBRM",
+    "cover_image": "assets/books/NDseries.png",
+    "cover_alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+    "cover_width": 313,
+    "cover_height": 270,
+    "cover_sha256": "e04c7dff813fe97935c4412c70c837876290a6ab2c578f6669e4fe9ceb159d08",
+    "amazon_verification": "Destination supplied by the author and confirmed through Amazon series indexing and product-page series links.",
+    "amazon_evidence_urls": [
+      "https://www.amazon.com/NON-DETERMINISTIC/dp/B0GHCXPBRM",
+      "https://www.amazon.com/dp/B0G7LPJBTH"
+    ]
+  },
+  "books": [
+    {
+      "volume_id": "V01",
+      "node_id": "PUB:V11:V01",
+      "amazon_asin": "B0G7LPJBTH",
+      "amazon_language": "English",
+      "amazon_verification": "Amazon.com product title and English paperback details inspected on 2026-10-18.",
+      "amazon_evidence_urls": [
+        "https://www.amazon.com/dp/B0G7LPJBTH"
+      ],
+      "companion_url": "https://github.com/popoloni/non_deterministic_sw_eng",
+      "amazon_url": "https://www.amazon.com/dp/B0G7LPJBTH"
+    },
+    {
+      "volume_id": "V02",
+      "node_id": "PUB:V11:V02",
+      "amazon_asin": "B0GHFBNC5Z",
+      "amazon_language": "English",
+      "amazon_verification": "Exact title and destination verified in Amazon.com's related-book link on the original NDSE product; English edition additionally identified by the author's public post. Destination body was unavailable.",
+      "amazon_evidence_urls": [
+        "https://www.amazon.com/dp/B0G7LPJBTH",
+        "https://it.linkedin.com/posts/matteobaccan_tanto%C3%A8gratis-mokabyte-specdriven-activity-7440435375363289088-mKgA"
+      ],
+      "kindle_url": "https://www.amazon.com/dp/B0GGZ44RNX",
+      "amazon_url": "https://www.amazon.com/dp/B0GHFBNC5Z"
+    },
+    {
+      "volume_id": "V03",
+      "node_id": "PUB:V11:V03",
+      "amazon_asin": "B0GZZDFMYF",
+      "amazon_language": "English",
+      "amazon_verification": "Amazon.com product title, author, English language and paperback details inspected on 2026-10-18.",
+      "amazon_evidence_urls": [
+        "https://www.amazon.com/dp/B0GZZDFMYF"
+      ],
+      "amazon_url": "https://www.amazon.com/dp/B0GZZDFMYF"
+    },
+    {
+      "volume_id": "V04",
+      "node_id": "PUB:V11:V04",
+      "amazon_asin": "B0GMCFLH2C",
+      "amazon_language": "English",
+      "amazon_verification": "Amazon.com product title, English language and paperback details inspected on 2026-10-18.",
+      "amazon_evidence_urls": [
+        "https://www.amazon.com/dp/B0GMCFLH2C"
+      ],
+      "amazon_url": "https://www.amazon.com/dp/B0GMCFLH2C"
+    },
+    {
+      "volume_id": "V05",
+      "node_id": "PUB:V11:V05",
+      "amazon_asin": "B0H9W2ST3F",
+      "amazon_language": "English",
+      "amazon_verification": "Amazon.com product title, English language and paperback details inspected on 2026-10-18.",
+      "amazon_evidence_urls": [
+        "https://www.amazon.com/Non-Deterministic-Loop-Engineering-Reliable-Agentic/dp/B0H9W2ST3F"
+      ],
+      "amazon_url": "https://www.amazon.com/dp/B0H9W2ST3F"
+    },
+    {
+      "volume_id": "V06",
+      "node_id": "PUB:NDSE2",
+      "amazon_asin": "B0HN9J7VZG",
+      "amazon_language": "English",
+      "amazon_verification": "Exact Amazon.com product destination supplied by the author on 2026-10-18; product-page body was unavailable to independent retrieval. No format, price, publication date or ISBN is inferred from this URL.",
+      "amazon_evidence_urls": [
+        "https://www.amazon.com/dp/B0HN9J7VZG"
+      ],
+      "companion_url": "https://popoloni.github.io/",
+      "cover_image": "assets/books/NDSE2_cover.jpg",
+      "cover_alt": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini.",
+      "cover_width": 1000,
+      "cover_height": 1499,
+      "amazon_url": "https://www.amazon.com/dp/B0HN9J7VZG"
+    }
+  ],
+  "evidence_note": "Amazon series indexing and individual Amazon product pages were used to recover the existing book destinations. The series-page body could not be retrieved. Cached series counts disagree, so no current Amazon series size or ordering is asserted. Atlas V01–V06 remain the existing local volume identifiers. Bibliographic source ISBNs are retained and are not asserted to describe the linked retail formats.",
+  "cover_provenance": {
+    "origin": "Images supplied by the author for this update on 2026-10-18.",
+    "files": [
+      {
+        "uploaded_name": "NDSE2_cover.jpg",
+        "site_path": "assets/books/NDSE2_cover.jpg",
+        "sha256": "d567a4293c156dcb7060ccc66800897e27c286736460a088c47cce0de016428e"
+      },
+      {
+        "uploaded_name": "NDseries.png",
+        "site_path": "assets/books/NDseries.png",
+        "sha256": "e04c7dff813fe97935c4412c70c837876290a6ab2c578f6669e4fe9ceb159d08"
+      }
+    ],
+    "transformations": "None; original image bytes copied unchanged."
+  }
+}

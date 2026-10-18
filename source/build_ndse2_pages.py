@@ -8,6 +8,7 @@ from __future__ import annotations
 import collections
 import html
 import json
+import posixpath
 from pathlib import Path
 from urllib.parse import urlsplit
 
@@ -24,12 +25,41 @@ def valid_url(value):
         return ""
 
 
+def publication_fields(publication):
+    """Keep storefront presentation separate from bibliographic and citation data."""
+    fields = {"cover_image", "cover_alt", "cover_width", "cover_height", "companion_url", "kindle_url"}
+    return {key: value for key, value in (publication or {}).items()
+            if key.startswith("amazon_") or key in fields}
+
+
+def book_cover(path, link, book, *, caption=""):
+    """Show the supplied local artwork at its original aspect ratio."""
+    source = book.get("cover_image", "")
+    if not source:
+        return ""
+    if not source.startswith("assets/books/") or ".." in source.split("/"):
+        raise ValueError(f"Book artwork must be a local assets/books/ file: {source}")
+    dimensions = ""
+    for key, attribute in [("cover_width", "width"), ("cover_height", "height")]:
+        value = int(book.get(key) or 0)
+        if value > 0:
+            dimensions += f' {attribute}="{value}"'
+    image = (f'<img src="{esc(posixpath.relpath(source, posixpath.dirname(path) or "."))}"'
+             f' alt="{esc(book.get("cover_alt") or book.get("title", "Book cover"))}"'
+             f'{dimensions} loading="lazy" decoding="async">')
+    destination = valid_url(book.get("amazon_url"))
+    if destination:
+        image = link(path, destination, image, "book-cover-link", external=True)
+    return '<figure class="book-cover">' + image + (f'<figcaption>{esc(caption)}</figcaption>' if caption else '') + '</figure>'
+
+
 class BookCompanion:
-    def __init__(self, source: Path, *, required=False, metadata_link="source/ndse2_book.json", collection_path="catalogues/ndse2.html"):
+    def __init__(self, source: Path, *, required=False, metadata_link="source/ndse2_book.json", collection_path="catalogues/ndse2.html", publication=None):
         if required and not source.is_file():
             raise FileNotFoundError(f"NDSE2 chapter metadata is required: {source}")
         self.data = json.loads(source.read_text(encoding="utf-8")) if source.is_file() else {}
-        self.book = self.data.get("book", {})
+        self.book = dict(self.data.get("book", {}))
+        self.book.update(publication_fields(publication))
         self.metadata_link = metadata_link
         self.collection_path = collection_path
         self.volume_id = self.book.get("id", "V06")
@@ -69,13 +99,14 @@ class BookCompanion:
         if not self.chapters:
             return ""
         book = self.book
-        text = '<section class="section">'
-        if heading:
-            text += '<h2>NDSE2 · chapter guides</h2>'
-        text += f'<p><strong>{esc(book.get("title", "Non-Deterministic Software Engineering"))}</strong>'
+        text = '<section class="section book-feature ndse2-feature">'
+        text += book_cover(path, link, book, caption="Non-Deterministic Software Engineering · Second Edition")
+        text += '<div class="book-feature-copy"><p class="eyebrow">NDSE2 · Published second edition</p>'
+        text += f'<h2>{esc(book.get("title", "Non-Deterministic Software Engineering"))}</h2>'
         if book.get("subtitle"):
-            text += f' — {esc(book["subtitle"])}'
-        text += '</p>'
+            text += f'<p class="book-subtitle">{esc(book["subtitle"])}</p>'
+        if book.get("author"):
+            text += f'<p class="book-author">By {esc(book["author"])}</p>'
         if book.get("title_it"):
             text += f'<p lang="it">{esc(book["title_it"])}'
             if book.get("subtitle_it"):
@@ -87,10 +118,14 @@ class BookCompanion:
             'to their cited sources. Each guide includes an outline, learning goals and citation provenance.</p>'
         )
         text += '<div class="actions">'
-        text += link(path, self.collection_path, 'Browse the chapter guides', 'button primary')
-        text += link(path, self.volume_path, 'Edition and source details', 'button')
-        text += link(path, self.metadata_link, 'Book metadata and citation evidence', 'button')
-        text += '</div></section>'
+        destination = valid_url(book.get("amazon_url"))
+        if destination:
+            text += link(path, destination, 'View this book on Amazon.com ↗', 'button primary', external=True)
+        text += link(path, self.collection_path + '#chapter-guides', 'Browse the chapter guides', 'button' if destination else 'button primary')
+        text += '</div><div class="book-reference-links">'
+        text += link(path, self.volume_path, 'Edition and source details')
+        text += link(path, self.metadata_link, 'Book metadata and citation evidence')
+        text += '</div></div></section>'
         return text
 
     @staticmethod
@@ -197,7 +232,7 @@ class BookCompanion:
             ('subtitle', 'English subtitle'), ('subtitle_it', 'Italian subtitle'),
             ('author', 'Author'), ('publisher', 'Publisher'), ('edition', 'Edition'),
             ('publication_status', 'Publication status'), ('publication_date', 'Publication date'),
-            ('isbn', 'ISBN'), ('source_version', 'Source edition version'),
+            ('isbn', 'ISBN, as recorded'), ('source_version', 'Source edition version'),
         ]
         rows = []
         for key, label in fields:

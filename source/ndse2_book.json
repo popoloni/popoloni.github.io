@@ -51,7 +51,19 @@
         "line": 1
       }
     },
-    "metadata_note": "config.tex supplies title, subtitle, author, publisher and year; release-note heading supplies source version. No precise publication date or ISBN inferred."
+    "metadata_note": "config.tex supplies title, subtitle, author, publisher and year; release-note heading supplies source version. No precise publication date or ISBN inferred.",
+    "amazon_asin": "B0HN9J7VZG",
+    "amazon_language": "English",
+    "amazon_verification": "Exact Amazon.com product destination supplied by the author on 2026-10-18; product-page body was unavailable to independent retrieval. No format, price, publication date or ISBN is inferred from this URL.",
+    "amazon_evidence_urls": [
+      "https://www.amazon.com/dp/B0HN9J7VZG"
+    ],
+    "companion_url": "https://popoloni.github.io/",
+    "cover_image": "assets/books/NDSE2_cover.jpg",
+    "cover_alt": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini.",
+    "cover_width": 1000,
+    "cover_height": 1499,
+    "amazon_url": "https://www.amazon.com/dp/B0HN9J7VZG"
   },
   "chapters": [
     {

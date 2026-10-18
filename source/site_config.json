@@ -1,7 +1,7 @@
 {
-  "site_version": "13.1",
+  "site_version": "13.2",
   "build_date": "2026-10-18",
-  "graph_version": "13.1",
+  "graph_version": "13.2",
   "graph_snapshot": "2026-10-18",
   "canonical_atlas": "https://popoloni.github.io/swe_knowledge_graph.html",
   "title": "Knowledge Atlas for AI and Software Engineering",
@@ -71,6 +71,22 @@
   "graph_json": "data/graph/knowledge_graph_v13.json",
   "graph_graphml": "data/graph/knowledge_graph_v13.graphml",
   "payload_json": "data/graph/atlas_payload_v13.json",
-  "release_notes": "UPDATE_v13_1_20261018.html",
-  "practice_content_schema": 1
+  "release_notes": "UPDATE_v13_2_20261018.html",
+  "practice_content_schema": 1,
+  "book_series": {
+    "title": "Non-Deterministic series",
+    "amazon_url": "https://www.amazon.com/dp/B0GHCXPBRM",
+    "cover_image": "assets/books/NDseries.png",
+    "cover_alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+    "cover_width": 313,
+    "cover_height": 270,
+    "cover_sha256": "e04c7dff813fe97935c4412c70c837876290a6ab2c578f6669e4fe9ceb159d08",
+    "amazon_verification": "Destination supplied by the author and confirmed through Amazon series indexing and product-page series links.",
+    "amazon_evidence_urls": [
+      "https://www.amazon.com/NON-DETERMINISTIC/dp/B0GHCXPBRM",
+      "https://www.amazon.com/dp/B0G7LPJBTH"
+    ]
+  },
+  "book_publications_json": "source/book_publications.json",
+  "publications_audit_json": "data/updates/publications_review_v13_2_20261018.json"
 }
