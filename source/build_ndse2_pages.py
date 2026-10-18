@@ -1,0 +1,197 @@
+"""Render concise NDSE2 companion material from extracted, traceable book metadata.
+
+This helper does not parse manuscripts, infer citations or reproduce chapter bodies.
+All HTML remains useful without JavaScript. The caller supplies site-relative links.
+"""
+from __future__ import annotations
+
+import collections
+import html
+import json
+from pathlib import Path
+from urllib.parse import urlsplit
+
+
+def esc(value):
+    return html.escape(str(value if value is not None else ""), quote=True)
+
+
+def valid_url(value):
+    try:
+        parsed = urlsplit(value or "")
+        return value if parsed.scheme in {"http", "https"} and parsed.netloc else ""
+    except (TypeError, ValueError):
+        return ""
+
+
+class BookCompanion:
+    def __init__(self, source: Path, *, required=False):
+        if required and not source.is_file():
+            raise FileNotFoundError(f"NDSE2 chapter metadata is required: {source}")
+        self.data = json.loads(source.read_text(encoding="utf-8")) if source.is_file() else {}
+        self.book = self.data.get("book", {})
+        self.chapters = sorted(self.data.get("chapters", []), key=lambda c: c["number"])
+        self.by_id = {}
+        for chapter in self.chapters:
+            self.by_id[chapter["id"]] = chapter
+            self.by_id[chapter["hub_id"]] = chapter
+        self.bibliography = {}
+        for language, data in self.data.get("bibliography", {}).items():
+            for entry in data.get("entries", []):
+                self.bibliography[(language, entry["bibkey"])] = entry
+
+    def chapter(self, identifier):
+        return self.by_id.get(identifier)
+
+    @staticmethod
+    def chapter_path(chapter):
+        return f'catalogues/chapters/{chapter["hub_id"].split(":")[-1].lower()}.html'
+
+    @staticmethod
+    def cited_ids(chapter):
+        return sorted(set(chapter.get("source_ids", [])) | set(chapter.get("source_ids_it", [])))
+
+    def introduction(self, path, link, *, heading=False):
+        if not self.chapters:
+            return ""
+        book = self.book
+        text = '<section class="section">'
+        if heading:
+            text += '<h2>NDSE2 · published second edition</h2>'
+        text += f'<p><strong>{esc(book.get("title", "Non-Deterministic Software Engineering"))}</strong>'
+        if book.get("subtitle"):
+            text += f' — {esc(book["subtitle"])}'
+        text += '</p>'
+        if book.get("title_it"):
+            text += f'<p lang="it">{esc(book["title_it"])}'
+            if book.get("subtitle_it"):
+                text += f' — {esc(book["subtitle_it"])}'
+            text += '</p>'
+        text += (
+            f'<p class="note">{esc(book.get("publication_status", "Published second edition"))}. '
+            f'{len(self.chapters)} chapter guides connect the English and Italian editions '
+            'to their cited sources. Each guide includes an outline, learning goals and citation provenance.</p>'
+        )
+        text += '<div class="actions">'
+        text += link(path, 'catalogues/ndse2.html', 'Browse the published chapter guides', 'button primary')
+        text += link(path, 'catalogues/volumes/v06.html', 'Edition and source details', 'button')
+        text += link(path, 'source/ndse2_book.json', 'Book metadata and citation evidence', 'button')
+        text += '</div></section>'
+        return text
+
+    @staticmethod
+    def goals(chapter, language="EN"):
+        suffix = "_it" if language == "ITA" else ""
+        goals = chapter.get("learning_goals" + suffix, [])
+        if not goals:
+            return ""
+        title = "Obiettivi di apprendimento" if language == "ITA" else "Learning goals"
+        lang = "it" if language == "ITA" else "en"
+        rendered = []
+        for goal in goals:
+            value = goal.get("text", goal.get("title", "")) if isinstance(goal, dict) else goal
+            if value:
+                rendered.append(f'<li>{esc(value)}</li>')
+        return f'<section lang="{lang}"><h3>{title}</h3><ul>' + ''.join(rendered) + '</ul></section>'
+
+    @staticmethod
+    def outline(chapter, language="EN"):
+        suffix = "_it" if language == "ITA" else ""
+        sections = chapter.get("sections" + suffix, [])
+        if not sections:
+            return ""
+        lang = "it" if language == "ITA" else "en"
+        label = "Struttura del capitolo" if language == "ITA" else "Chapter outline"
+        parts = []
+        for section in sections:
+            number = section.get("number", "")
+            title = section.get("title", "")
+            if not title:
+                continue
+            # Section numbering is copied from the extraction, never recomputed here.
+            prefix = f'<span class="mono">{esc(number)}</span> ' if number else ""
+            parts.append('<li>' + prefix + esc(title) + '</li>')
+        return f'<details lang="{lang}"><summary>{label}</summary><ul class="compact-list">' + ''.join(parts) + '</ul></details>'
+
+    def chapter_content(self, chapter, path, link, by_id, record_file, *, include_summary=True, include_evidence=True):
+        result = ''
+        if include_summary:
+            result += f'<p class="intro">{esc(chapter.get("summary", ""))}</p>'
+            if chapter.get("title_it"):
+                result += f'<p class="byline" lang="it"><strong>{esc(chapter["title_it"])}</strong></p>'
+            if chapter.get("summary_it"):
+                result += f'<details lang="it"><summary>Sintesi in italiano</summary><p>{esc(chapter["summary_it"])}</p></details>'
+        result += self.goals(chapter)
+        if chapter.get("learning_goals_it"):
+            result += '<details><summary lang="it">Obiettivi in italiano</summary>' + self.goals(chapter, 'ITA') + '</details>'
+        result += self.outline(chapter)
+        if chapter.get("sections_it"):
+            result += self.outline(chapter, 'ITA')
+        if include_evidence:
+            result += self.citation_evidence(chapter, path, link, by_id, record_file)
+        return result
+
+    def citation_evidence(self, chapter, path, link, by_id, record_file):
+        grouped = collections.defaultdict(list)
+        for language, key in [('EN', 'citations'), ('ITA', 'citations_it')]:
+            for citation in chapter.get(key, []):
+                # Only the extractor's literal chapter citation list is used here.
+                # Bibliography membership and identifier mentions do not become citations.
+                ident = citation.get('source_id') or 'BIB:' + citation.get('bibkey', '')
+                grouped[ident].append((language, citation))
+        if not grouped:
+            return '<p class="note">No literal source citations were recorded for this chapter.</p>'
+        parts = []
+        for ident, occurrences in sorted(grouped.items()):
+            language, first = occurrences[0]
+            entry = self.bibliography.get((language, first.get('bibkey')), {})
+            node = by_id.get(ident)
+            if node:
+                source = link(path, record_file(node), f'<span class="mono">{esc(ident)}</span> · {esc(node["label"])}')
+            else:
+                title = entry.get('title') or first.get('bibkey') or 'Auxiliary reference'
+                href = valid_url(entry.get('url'))
+                source = link(path, href, esc(title) + ' ↗', external=True) if href else esc(title)
+                source += '<br><span class="micro">Auxiliary bibliography reference; no atlas source ID assigned.</span>'
+            locations = []
+            seen = set()
+            for lang, citation in occurrences:
+                loc = (lang, citation.get('section_title'), citation.get('file'), citation.get('line'), citation.get('macro'), citation.get('container'))
+                if loc in seen:
+                    continue
+                seen.add(loc)
+                section = citation.get('section_title') or 'Chapter text'
+                suffix = ' · figure caption' if citation.get('container') == 'figure_caption' else ''
+                text = f'{lang} · {section}{suffix}'
+                provenance = f'{citation.get("file", "")}:{citation.get("line", "")}'
+                locations.append(f'<li>{esc(text)}<br><span class="micro mono">{esc(provenance)}</span></li>')
+            parts.append('<li>' + source + '<ul class="compact-list">' + ''.join(locations) + '</ul></li>')
+        return (
+            '<details class="section"><summary>Trace literal citations to chapter sections</summary>'
+            '<p class="note">Locations come from the published English and Italian source files. '
+            'Chapter text and figure captions are identified separately; identifier-index references '
+            'and general bibliography membership are not treated as chapter citations.</p>'
+            '<ul class="compact-list">' + ''.join(parts) + '</ul><p>'
+            + link(path, 'source/ndse2_book.json', 'Complete citation locators and source hashes')
+            + '</p></details>'
+        )
+
+    def edition_metadata(self, path, link):
+        book = self.book
+        fields = [
+            ('title', 'English title'), ('title_it', 'Italian title'),
+            ('subtitle', 'English subtitle'), ('subtitle_it', 'Italian subtitle'),
+            ('author', 'Author'), ('publisher', 'Publisher'), ('edition', 'Edition'),
+            ('publication_status', 'Publication status'), ('publication_date', 'Publication date'),
+            ('isbn', 'ISBN'), ('source_version', 'Source edition version'),
+        ]
+        rows = []
+        for key, label in fields:
+            value = book.get(key)
+            if value not in (None, '', [], {}):
+                rows.append(f'<dt>{esc(label)}</dt><dd>{esc(value)}</dd>')
+        result = '<dl class="metadata">' + ''.join(rows) + '</dl>'
+        if not book.get('publication_date'):
+            result += '<p class="micro">The author’s confirmation date records availability; it is not an inferred first-publication date.</p>'
+        result += '<p>' + link(path, 'source/ndse2_book.json', 'Edition sources, manifests and citation extraction') + '</p>'
+        return result

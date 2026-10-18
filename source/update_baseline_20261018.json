@@ -1,0 +1,637 @@
+{
+  "baseline_name": "Knowledge_Atlas_v12_1_Complete_GitHub_Pages_20261014.zip",
+  "baseline_sha256": "128abde74f4b092372e1f6aa0de6e5b71f1cdcb6d0f84a935fe5bd527d99e2cd",
+  "baseline_size": 8360814,
+  "baseline_source": "Author-specified Library package is the version published at popoloni.github.io",
+  "as_of": "2026-10-18",
+  "files": {
+    ".nojekyll": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    "ATTRIBUTION.md": {
+      "sha256": "5dd8adac2e628c65fd4682f8284755187170829fea0074e91beed2b0faafc7bf",
+      "size": 1475
+    },
+    "DEPLOYMENT.md": {
+      "sha256": "aee47ebfe3a2703560c978cb96fbafa03540bc0a75292730a361ca366724195f",
+      "size": 2697
+    },
+    "README.md": {
+      "sha256": "9285304e8c7ecde76db0046a5f86cbb5dc1be9037c0399401cb6761d5894805f",
+      "size": 4680
+    },
+    "SHA256SUMS.txt": {
+      "sha256": "19431fb94bbe5434f9bd2df519ca4292440803be8a5094b8403812ff96420825",
+      "size": 15829
+    },
+    "about.html": {
+      "sha256": "795f12bbed01591c1fe6d1625dacd541973a8ac979a7e81ca237caedaad9de93",
+      "size": 5252
+    },
+    "assets/atlas-preview.webp": {
+      "sha256": "3d8c9c1ee73a5941b6e0a84c38d06d23e6d7bc90c46c5d89eec6ff54c546e4f9",
+      "size": 93680
+    },
+    "assets/catalogues.js": {
+      "sha256": "5a62fcb3d3baa5f578998a41bb55b8bc1a116e09680c7a07495e370c8cfb6154",
+      "size": 1837
+    },
+    "assets/enrico-papalini.jpg": {
+      "sha256": "cecd6882e47da30bc362fa23d367fd0e3755ee81fc80a9b2f601694f801b048f",
+      "size": 78256
+    },
+    "assets/site.css": {
+      "sha256": "9e90e62e4360cda9886f9885f529476a14948d65821de48d6d4237ac9db78c17",
+      "size": 12034
+    },
+    "attribution.html": {
+      "sha256": "0aa7a56cf058cc07c2f76b029d3bbcb91b2ef00d3b8245a7f0bd1fdfdf2780e4",
+      "size": 5728
+    },
+    "catalogues/books.html": {
+      "sha256": "0db44f37f699a47e4af974fdcbd9ca093a4c8452f8c4b53d884d3a839b7fc9ca",
+      "size": 1163003
+    },
+    "catalogues/chapters/c01.html": {
+      "sha256": "1093bd4ccddd08c0f7b406b544040e18861458d5ddda097734891405d88286e9",
+      "size": 19651
+    },
+    "catalogues/chapters/c02.html": {
+      "sha256": "f7f1d62fd620c05f6179c5885817461addc289506b1dd0193f6e2afa5574608b",
+      "size": 24496
+    },
+    "catalogues/chapters/c03.html": {
+      "sha256": "2a1cb973e912c28336e74cd608268266780ae552dd668127a046152ceee8751a",
+      "size": 32253
+    },
+    "catalogues/chapters/c04.html": {
+      "sha256": "fb7dbdefd0c77e1748dc28df9fddfe52af9dc9919e88fd867ce8131ee0ccb040",
+      "size": 21745
+    },
+    "catalogues/chapters/c05.html": {
+      "sha256": "4b6b35aecf2770cae970506d85a662031d298a2ddcffc05702c1959e84cfad1e",
+      "size": 30209
+    },
+    "catalogues/chapters/c06.html": {
+      "sha256": "517f426014e312134784291ca18e2a65828f95acd6e19badc65a73bbf614e3d6",
+      "size": 17934
+    },
+    "catalogues/chapters/c07.html": {
+      "sha256": "40ef3760322c3317cec86b859993fa3163df60eb9c9e700866f23350cbbc865b",
+      "size": 28763
+    },
+    "catalogues/chapters/c08.html": {
+      "sha256": "091f4c5eb46e5550cacc09b24335bfdbed05c8ab4631637d8cda058f09a37fc6",
+      "size": 28384
+    },
+    "catalogues/chapters/c09.html": {
+      "sha256": "ccfa290416d53b60164ba7d19b1b1bfe196413909dc2306a778246e2910a7aeb",
+      "size": 25691
+    },
+    "catalogues/chapters/c10.html": {
+      "sha256": "31501e3ab7cdd03d33226ba8ec2538ff9837c31b0585196bbd478d115dfefa5c",
+      "size": 29217
+    },
+    "catalogues/chapters/c11.html": {
+      "sha256": "c20f31345a33bee4b08e79b486c79c2156f44a3324d76a93c3c1254cc73eeb42",
+      "size": 38338
+    },
+    "catalogues/chapters/c12.html": {
+      "sha256": "890988351963c516f9cbdb200071dea40e69b894e63a755fa403d676f0e317b7",
+      "size": 30662
+    },
+    "catalogues/chapters/c13.html": {
+      "sha256": "ea837989c6fcc612c6e74bdda5ffa63d81cbb3a05040ecd582ee1853a7b4c1cf",
+      "size": 4852
+    },
+    "catalogues/chapters.html": {
+      "sha256": "7ceac8c07539c283f99db68ac23560ab524499f184acb82394f9bc8916e88648",
+      "size": 4720
+    },
+    "catalogues/fowler.html": {
+      "sha256": "70b3abf2f73c207880d08fb5dc9bbf191d4b9482f1bad689a59354a978663725",
+      "size": 209770
+    },
+    "catalogues/index.html": {
+      "sha256": "64eabdb50d8d132333c77604d55cf033231833a117fc2a46a315d1611ef8cac4",
+      "size": 6582
+    },
+    "catalogues/occurrences.html": {
+      "sha256": "e1a2e73100f416b7369f3e5fc56121b1dd3f535bcbe47edde8102b872effd4f0",
+      "size": 248727
+    },
+    "catalogues/osmani.html": {
+      "sha256": "a135718ada4905856ebb20e9dd8f3ec5cd36d2c3a9681b6f8f0ff2d45f74f36d",
+      "size": 492728
+    },
+    "catalogues/polimi.html": {
+      "sha256": "718dd7bdc40ede71225b8a0a8fc012eac7ea3f1a35f8d61cc8406d316c90a2d8",
+      "size": 1454417
+    },
+    "catalogues/practices.html": {
+      "sha256": "3e7f93c8cae1cfcbfdb56ffcba77bff1672d3417d95f6056aeaa1c7c294f72a1",
+      "size": 211830
+    },
+    "catalogues/pragmatic-engineer.html": {
+      "sha256": "c5152ef944780823c28a34e81b7d2dedda506a3c5e8afd0ecdcfb7244c0f7f34",
+      "size": 1234163
+    },
+    "catalogues/streams/code-quality-security.html": {
+      "sha256": "2e189e1b91a3245f80f8f32d05d2a7157f467ac819e87815cfc4d0feb25fccd1",
+      "size": 27251
+    },
+    "catalogues/streams/economics.html": {
+      "sha256": "17e00ebc517e9f30b82d6a24abddc66d4b362671faae061dc8b6e18594be77cb",
+      "size": 14956
+    },
+    "catalogues/streams/engineering-structure.html": {
+      "sha256": "416945d9b8cf24fe82339f7e8bfc0bcecdb34538a4409dc1d8941277ef71211c",
+      "size": 43511
+    },
+    "catalogues/streams/jobs-roles.html": {
+      "sha256": "8ca17f0e1771b502d185ae6e181231bcee1bc005441ba7ea2011285163b6b768",
+      "size": 16055
+    },
+    "catalogues/streams/productivity.html": {
+      "sha256": "cc7644bf0a5e5e5d731257e881a0a50dc02acad89e3a42a95eae88817e0de8ac",
+      "size": 21764
+    },
+    "catalogues/streams/skills-learning.html": {
+      "sha256": "ffccc66b36bc47934b15da7bc59724959d85f4bee36906be64fbcc0f80e2499b",
+      "size": 21894
+    },
+    "catalogues/streams/system-knowledge-memory.html": {
+      "sha256": "795989a12048f38272e05825f2c6d5bd6b85386e0b3f60076853c59ac2c9cd7e",
+      "size": 26260
+    },
+    "catalogues/streams/verification-review.html": {
+      "sha256": "1052304e70ea48e80d84c88c1016b098f5e4aeb60bbead04368dc628475f1ee9",
+      "size": 35687
+    },
+    "catalogues/streams/what-agents-can-do.html": {
+      "sha256": "d907d30b507042c6c3922377f04c04b95db2c0522e32a41aa3fd199c62e01ba7",
+      "size": 24392
+    },
+    "catalogues/streams.html": {
+      "sha256": "22617c8b2d90522a663328a0d336874494c40f60bb8ace852394c0857538f3f8",
+      "size": 3475
+    },
+    "catalogues/topics/agent-context-and-persistent-memory.html": {
+      "sha256": "1c4e481fa4e5bf6eb250ed0e9a6a19d2f1b91d8e53c1f12605113475321b2689",
+      "size": 13365
+    },
+    "catalogues/topics/agent-failure-and-escalation.html": {
+      "sha256": "81ca0dd5c27c38ebc9483a9ac04914a36f1b5f0a3d627fbd53a8e59b4f302a06",
+      "size": 14424
+    },
+    "catalogues/topics/ai-as-reviewer.html": {
+      "sha256": "2685e4e26c6e58df51ef711454d470889c2b1b87e8f38d327b9736794c26f2af",
+      "size": 7357
+    },
+    "catalogues/topics/architecture-and-modularity.html": {
+      "sha256": "15916a5cc78c557120ff3d8e7061aa699f0426faf4307f5c9012e35df57a4da2",
+      "size": 14817
+    },
+    "catalogues/topics/automation-bias-and-trust.html": {
+      "sha256": "866e1c902e452db7c1a065839f00212a497b6da3092901604792c12d0bae2328",
+      "size": 10079
+    },
+    "catalogues/topics/benchmarks-and-construct-validity.html": {
+      "sha256": "7ca07048143e77e854316fe83ba713cde9a1ba249e51deb73e9cc3c09050fd27",
+      "size": 9370
+    },
+    "catalogues/topics/code-reuse-and-duplication.html": {
+      "sha256": "74c2cb2e01310c72967b57f4de84f691402c73f027a3ee35f018a5578193fc9d",
+      "size": 4626
+    },
+    "catalogues/topics/cognitive-offloading-and-skill-debt.html": {
+      "sha256": "a8e010667fa6f0c38be0c730a3b5cfd8c0fda623f0655428589c7063b908c3f6",
+      "size": 6508
+    },
+    "catalogues/topics/controlled-productivity-evidence.html": {
+      "sha256": "2535b3f60de630eb3e29a146f90718d4a7d5e3e31f118ab003304b523524f281",
+      "size": 9941
+    },
+    "catalogues/topics/dataset-provenance-and-dependency.html": {
+      "sha256": "e53c0e6df0d662e22a09cf08f94b37e25bdb879f4a63726d80a9c1f66d89f6f0",
+      "size": 13955
+    },
+    "catalogues/topics/dependencies-and-agent-supply-chain.html": {
+      "sha256": "bf0712b250768a507f57a256a23105e81862f17cff139bd7907db397d9b68ced",
+      "size": 8275
+    },
+    "catalogues/topics/developer-workflow-and-adoption.html": {
+      "sha256": "15e6283bc22e6f349d93a4b02d1d61d1336d68874b8e0a4008c8912fa370276b",
+      "size": 24571
+    },
+    "catalogues/topics/economic-costs-and-return.html": {
+      "sha256": "4336b656461655b588d15e3d278be40bcf4d525890aa12f8330443f13ce31cb2",
+      "size": 12080
+    },
+    "catalogues/topics/employment-and-early-career-roles.html": {
+      "sha256": "2f704b19e445060131fb4f224c5f697eef5f3d4fad6f17a586dbe0f0bab450ad",
+      "size": 16121
+    },
+    "catalogues/topics/evaluation-methodology-and-baselines.html": {
+      "sha256": "4c64c55d57e64656052cb9a0774e2586d0adede8a44d5782e5c1db308ae7a9ab",
+      "size": 32050
+    },
+    "catalogues/topics/human-agent-collaboration.html": {
+      "sha256": "8703d7d2a01809a4be2c328ea47c949310999ce059253080d3e878621a4a4786",
+      "size": 15063
+    },
+    "catalogues/topics/human-cognitive-load.html": {
+      "sha256": "f1cc082f12e760847cae793ba4c75e136b85798b1b378e11acafbee4252e9d78",
+      "size": 10851
+    },
+    "catalogues/topics/independent-verification-and-oracles.html": {
+      "sha256": "c81d80fd761d2f6a89474f18e5bb9986abc76d82e57ff01c896c34952a798223",
+      "size": 23738
+    },
+    "catalogues/topics/long-running-agent-execution.html": {
+      "sha256": "dda8bed6aa090c4c5fec68ed17fdc0681063455545eff9d0aef2f3fa37617a7b",
+      "size": 15854
+    },
+    "catalogues/topics/onboarding-and-developer-fluency.html": {
+      "sha256": "ad8035ee7fcceb9b1472837706333534e44b4ee9e452759e7d4b8461fb29911b",
+      "size": 6220
+    },
+    "catalogues/topics/output-versus-shipped-value.html": {
+      "sha256": "58b67b3eb1a377219c5d29edc9f1942b42c4e5cff97d9a0c97932588288d376c",
+      "size": 16845
+    },
+    "catalogues/topics/ownership-and-knowledge-transfer.html": {
+      "sha256": "9ab417720f5cd71a9b8ca94ed3b26fc45fafc9eff0e5723679d6b23c213bb0bf",
+      "size": 15653
+    },
+    "catalogues/topics/prompt-injection-and-malicious-tools.html": {
+      "sha256": "988fcefc077b3327205dd5969bd6c514666d2cb5dc8d2d85650bd80197943640",
+      "size": 6863
+    },
+    "catalogues/topics/remote-work-and-apprenticeship.html": {
+      "sha256": "2fb88e448d4fac9517f57fd43a50c381e1b111cb5016a34ef8537706e9a50a03",
+      "size": 3588
+    },
+    "catalogues/topics/review-capacity-and-maintainers.html": {
+      "sha256": "182326a57a41bb3d96d809925db7414404fbdc044dd5b7b66aba532c4409c5e2",
+      "size": 14309
+    },
+    "catalogues/topics/skills-formation-and-teaching.html": {
+      "sha256": "979ea8772f2f12e5782c2deedeae8b33cc7362339195facb560200e55b065295",
+      "size": 14346
+    },
+    "catalogues/topics/specifications-and-governance.html": {
+      "sha256": "73cea3cf95246acdacdaf64aa025897ee2dd796ec80851628595680791c87658",
+      "size": 23205
+    },
+    "catalogues/topics/system-understanding-and-rationale.html": {
+      "sha256": "74d3778cb387386e6b3c4da3510a39890cd61f99d765bb03a054f6dac73a5d9f",
+      "size": 19784
+    },
+    "catalogues/topics/technical-debt-and-complexity.html": {
+      "sha256": "0bf2f40c765d179bcc0c2c9fd2473e39a85b985ce805a67265fd82dc3cc70ae5",
+      "size": 10249
+    },
+    "catalogues/topics/vulnerability-and-secure-code.html": {
+      "sha256": "643df45b5ee554907b8f450687f705fdc431a20a73ce4332e422de21aac2ce5d",
+      "size": 9730
+    },
+    "catalogues/topics.html": {
+      "sha256": "655f09ef908e39b25247110fe68760e51c036db3f20a6ef9db823a81f315e3ed",
+      "size": 6911
+    },
+    "catalogues/volumes/v01.html": {
+      "sha256": "6a4ba965e97d983d33bbda346a88436357f46ac397d3796c30abca88c050ebed",
+      "size": 8931
+    },
+    "catalogues/volumes/v02.html": {
+      "sha256": "3f8e2dd43237e606a5919ef50cd37efc20018639479d3a0c3620e1f47a726089",
+      "size": 4956
+    },
+    "catalogues/volumes/v03.html": {
+      "sha256": "512b3966d6abf0a420930c0c16a165b1d4b6b3ac5613897f207863bca144f734",
+      "size": 9044
+    },
+    "catalogues/volumes/v04.html": {
+      "sha256": "c29054dbcbd863e4552ca7e3258f93363742cc3de9c6ce59ea0b48a9c09103a0",
+      "size": 6306
+    },
+    "catalogues/volumes/v05.html": {
+      "sha256": "e73d3844878f45d2ff487a5d7f02b107d59b8b648e069d7c67008bd9283b9763",
+      "size": 4863
+    },
+    "catalogues/volumes.html": {
+      "sha256": "240889fda10a682df153f60a23b2212591d9e6b2b727cb866239bb99f112493e",
+      "size": 3061
+    },
+    "data/catalogue-data.zip": {
+      "sha256": "f0bb637d2205384d0717f17af5b4877fe884376a88d6eb605269721687f0cf8a",
+      "size": 926016
+    },
+    "data/catalogues/all-sources.csv": {
+      "sha256": "4b39bfc78c9997959cad34bf4fbe1a12e4840de5097aa3b036a1614de19c6dbc",
+      "size": 319620
+    },
+    "data/catalogues/all-sources.json": {
+      "sha256": "cfa27ffdd90a7f86f3c5b8f4996a52c4688875a021c07b5a01dd084f169b83e1",
+      "size": 2104910
+    },
+    "data/catalogues/books.csv": {
+      "sha256": "9bee9129fb5846a21218acf181624885eafde6bc1ea493238e39b38a16055b84",
+      "size": 81632
+    },
+    "data/catalogues/books.json": {
+      "sha256": "7a1569751309ede4844fda1e1a69795d6feae804d5f8c8861ebdab15df2ff4e6",
+      "size": 415625
+    },
+    "data/catalogues/fowler.csv": {
+      "sha256": "cc1f23d20534652798f3c175720173a2bd8c6744d42b3813a8122f0360ea938e",
+      "size": 23285
+    },
+    "data/catalogues/fowler.json": {
+      "sha256": "98436fa86e9678257d2e2b4d6e46243d0ed19342fdab93ded04a0eb2cd37d857",
+      "size": 107116
+    },
+    "data/catalogues/occurrences.csv": {
+      "sha256": "6c4de8f7af5f340595340098b417e2396fe5a2049a78609fe02e5df439743844",
+      "size": 25160
+    },
+    "data/catalogues/occurrences.json": {
+      "sha256": "624cc19b718037dd22f8257da56e73256f658cfd18888703b5816c4a58c0b203",
+      "size": 124291
+    },
+    "data/catalogues/osmani.csv": {
+      "sha256": "9f9a065a9c54a7fd9779478535853dee9acb3ea83d87ff31a8c2fa7ed003f740",
+      "size": 25679
+    },
+    "data/catalogues/osmani.json": {
+      "sha256": "ca6d5aff2b96b7a26cb4e580cf8699e9f16db3c8a816b349ee2a7bc94a826976",
+      "size": 242906
+    },
+    "data/catalogues/polimi.csv": {
+      "sha256": "1d1a22831276536a276b730a5e820f0a393cc09e0dcc78615709806e14456735",
+      "size": 96970
+    },
+    "data/catalogues/polimi.json": {
+      "sha256": "3a39784e911ff05150ebb6e9d3abeed4b720f765c559b5f596abe068ce756242",
+      "size": 551459
+    },
+    "data/catalogues/practice-families.csv": {
+      "sha256": "e0e9fe7dc8158649694d6e0a93d533359eb160c9c06463a181420c4bf714c87f",
+      "size": 3065
+    },
+    "data/catalogues/practice-families.json": {
+      "sha256": "3149de0d516b673a0a735f70cc7fe10b5d17621f9c817c8e82ed8b5bcde8323e",
+      "size": 12889
+    },
+    "data/catalogues/practices.csv": {
+      "sha256": "d9153d613c851f0433c30fb9b602e0cb023045865135c38e26a05cd03509f056",
+      "size": 23562
+    },
+    "data/catalogues/practices.json": {
+      "sha256": "d5950c2017749b2db00db3da3a75a7ec555e957f2b9fe74175e53ce2adb96306",
+      "size": 105532
+    },
+    "data/catalogues/pragmatic-engineer.csv": {
+      "sha256": "b537b0285b5217c6525ed8ca70e74f84e7b48a83eb0b52a0144fa1b65a76d0e7",
+      "size": 92818
+    },
+    "data/catalogues/pragmatic-engineer.json": {
+      "sha256": "bc7490bd4395292fd06fee49dae4aff79aba4519d89a97e2b09664713617e8be",
+      "size": 788974
+    },
+    "data/catalogues/published-books.csv": {
+      "sha256": "44e860afd581961e38eff8d7dc75d4d1642897d3410bfbf15024b23ffd38a5af",
+      "size": 1733
+    },
+    "data/catalogues/published-books.json": {
+      "sha256": "355a6828ebc7a745c4898c599064a151e046ee987783e8eb81e972b58f65c509",
+      "size": 9003
+    },
+    "data/graph/knowledge_graph_v12.graphml": {
+      "sha256": "8ee3d388af8c58017cf53919827d6556728fc18c29918d8ae139b9a5dd32e1ca",
+      "size": 7839592
+    },
+    "data/graph/knowledge_graph_v12.json": {
+      "sha256": "aced6df4ebd8c87ca2c023154aba1fc963ec2972bd6b10352a4861d6c0ec39a8",
+      "size": 8010826
+    },
+    "data/originals/CURRENT_RECORD_INDEX.md": {
+      "sha256": "6441b04f9920a87fd085ea5587a4cea2b90c1b46a8315856d1dba872e0cd6ac7",
+      "size": 21807
+    },
+    "data/originals/FAMILIES.json": {
+      "sha256": "a7201d53f519bca0132394d2de0fe459ea77a8ccc3e942be05ec0e8300daa2b5",
+      "size": 5531
+    },
+    "data/originals/Orosz_P001_P123_AUDITED_v3.bib": {
+      "sha256": "4a9b07cf5e8e57f049f9047a68e14059483a8283a5e1ef706fc2603cf4715cc2",
+      "size": 61971
+    },
+    "data/originals/Orosz_P001_P123_Annotated_Bibliography_AUDITED_v3.md": {
+      "sha256": "2713c5d3805a8d6545c60603ac80b3e496dfe505a55e50ace266e979a7ecc7af",
+      "size": 249195
+    },
+    "data/originals/Osmani_50_Annotated_Bibliography_CANONICAL_v3.md": {
+      "sha256": "06321bdd189607c4d563213b2ceef80bd2e70f1eb6782e7477362d7440eab57e",
+      "size": 65773
+    },
+    "data/originals/Osmani_50_Reviewed_O_ID_Crosswalk.csv": {
+      "sha256": "62e6cbc7f8ac8b209532d6ac4a5d87b1963c3077109f74f2dd955cc21e24ceab",
+      "size": 19502
+    },
+    "data/originals/P123_annotated_records_AUDITED_v3.json": {
+      "sha256": "675db4c1b4adad6cc3fc5068d047727b4d3903385785b0e81f28ba23cc7f8ea1",
+      "size": 836547
+    },
+    "data/originals/PATTERN_OCCURRENCES.json": {
+      "sha256": "8268f6e38a25f6d31146217b9a8e7d5fe8f1f638123fcf06c76baec86c35bd6b",
+      "size": 108469
+    },
+    "data/originals/PRACTICE_CONCEPTS.json": {
+      "sha256": "ef6450c9519a913c094e2b7b8cf2ad58504f7f0402da25cb0f6e89c8a00cf94b",
+      "size": 37751
+    },
+    "data/originals/Research_and_Corrigendum.bib": {
+      "sha256": "9bd1ada81466fa61d6cbe18f341a722fd120427e383f2605e63030f94db59da2",
+      "size": 80023
+    },
+    "data/originals/SOURCE_111_DISPOSITIONS.json": {
+      "sha256": "b091eea991b6b72a3756c4c6f4b00e53639be32b36cc6c413633e420680401b4",
+      "size": 103874
+    },
+    "data/originals/fowler_additive_overlay.graphml": {
+      "sha256": "1cd590bf25950c887ba0618a4315aa9c3b4c8af557f886c1472a8a289c1fe0e2",
+      "size": 335754
+    },
+    "data/originals/fowler_catalogue.csv": {
+      "sha256": "736e250ed8d3ea28cffd8bb606637b58608001970b9baf7687f25858c1e1132e",
+      "size": 26055
+    },
+    "data/originals/fowler_catalogue.json": {
+      "sha256": "55925002b6304abbbcf672223450042b2499e5a2d1bcdc6af6b810eaafb48bf4",
+      "size": 61770
+    },
+    "data/originals/fowler_overlay.json": {
+      "sha256": "4154fa5280b5dc0b4d4255db94d3dc3dbe6c0b67c2684d376f96da74499bc089",
+      "size": 341378
+    },
+    "data/originals/fowler_references.bib": {
+      "sha256": "691f0c0b4812e98674ae915d9657c3b033efb8364ace4fcd3f31b1878af7ebef",
+      "size": 12421
+    },
+    "data/originals/fowler_relations.csv": {
+      "sha256": "ecf840b97a107b7cd4e54376e16ae093e03af26db349d42695d8b07670344c6b",
+      "size": 126957
+    },
+    "downloads.html": {
+      "sha256": "13e8a9a822231f58317fa2b5733679d2d16737dc5f39c473714b1461472112db",
+      "size": 7671
+    },
+    "index.html": {
+      "sha256": "2fcdaf0a6ed200a7933175055f9b645d682acefe048c3a56eff9b2206f5f4d7b",
+      "size": 8961
+    },
+    "knowledge-atlas.html": {
+      "sha256": "b8c17d498b1da93083da5afb34c04422bbfa8084899d42d3227f61f3570c04c6",
+      "size": 8907
+    },
+    "source/atlas_navigation_patch.js": {
+      "sha256": "1e6dd09bdbafac9d05bccea2b2a98b0da8b742051e61d380803c6502335a514d",
+      "size": 1868
+    },
+    "source/atlas_v12_original.html": {
+      "sha256": "c908bfa327cd3ad17dd6aa824ee8f440310f2be25c3d584d2e451e8342fb8dfc",
+      "size": 8602174
+    },
+    "source/author_provenance.json": {
+      "sha256": "5ee8f915740c8babdba1c3457f10868afa46b02bf13ad7333b7e6d095aae89be",
+      "size": 740
+    },
+    "source/baseline_provenance.json": {
+      "sha256": "3c38573c12e5f164bbb08eb6995ae296de14faf52bec7a1bf54cf6894768a7bb",
+      "size": 1057
+    },
+    "source/build_site.py": {
+      "sha256": "fc3bede474556e6e6fd6e0a810f535b8252167f1d3939745365ee81c545710f7",
+      "size": 46957
+    },
+    "source/build_summary.json": {
+      "sha256": "09a20b79b5bb75cc06af55aee54c4181ceec26c962d6de2301f88f864c7227fa",
+      "size": 523
+    },
+    "source/check_reproducibility.py": {
+      "sha256": "bf274ef938be57c153bfbc2d5788c12ab31746b0910da940796fbd4792b46639",
+      "size": 1220
+    },
+    "source/check_site.py": {
+      "sha256": "fa9968f7715b8076a3bdc4f73081e6668ede782c6e80a0f327aa3be68526c089",
+      "size": 6052
+    },
+    "source/original_catalogue_provenance.json": {
+      "sha256": "2d35e0b983b6ac6c55202dad2c3a5ef2445d79b1aa42b4268c391bbcdef2ea1a",
+      "size": 5214
+    },
+    "source/page_inventory.json": {
+      "sha256": "7032686b04c0202166ebd6eab3d960a88f571d9aa19be60dc47dd54b6cb24e06",
+      "size": 3281
+    },
+    "source/site_config.json": {
+      "sha256": "b487b5c83a3d94dda41868241c8d6d32948421f00e93fd50736ef6cc5368c47b",
+      "size": 3124
+    },
+    "source/test_browser.py": {
+      "sha256": "efe1e785101093f06eea6040c400654f2f2f47432ebb05e628ded6c3252e72d8",
+      "size": 10265
+    },
+    "source/test_visuals.py": {
+      "sha256": "98a70caa63bc993470bcf011ce4a9c3ff198ec4e5f1abde619bc93fa556b32f4",
+      "size": 2668
+    },
+    "source/write_release_report.py": {
+      "sha256": "4ddcfbe682559c4c9035aae6d5c6c490da57d8eefeaa4430735ae707dc0340ee",
+      "size": 7649
+    },
+    "swe_knowledge_graph.html": {
+      "sha256": "e67bc705c916b3b8e69231a5a58d83fe413e1236efc659fda7d864b597750018",
+      "size": 8604553
+    },
+    "verification/TEST_METHOD.md": {
+      "sha256": "28d8bcee16a94e4e55463591016c3e098401754e0ccf52146d1dcb6cf0a0de36",
+      "size": 2310
+    },
+    "verification/about_desktop.png": {
+      "sha256": "e2d3c3f3452934e170ee1f67afa0e903e138803057e1b483e1633b3d5f630ce3",
+      "size": 291006
+    },
+    "verification/atlas_desktop.png": {
+      "sha256": "9792c7be1c6a22e0d41177ebb1c53959f8cd8eff51344b7e303661b5f0d19e9a",
+      "size": 288598
+    },
+    "verification/atlas_mobile.png": {
+      "sha256": "0ff69c4e939de3314266d25dac2adb9cc138da6767d4e9a0a22dc41ad0bc4697",
+      "size": 97343
+    },
+    "verification/browser_checks.json": {
+      "sha256": "b77fabbf7b23dc410abd54865e9bc0d9fae96917117b26223998d6d606aaeca1",
+      "size": 10115
+    },
+    "verification/catalogue_mobile.png": {
+      "sha256": "6522d1f0d0dcf8969dda39afb07b2ef2db5a23309c0cfd56929b5a0847f25b8d",
+      "size": 58437
+    },
+    "verification/home_desktop.png": {
+      "sha256": "f2e28998836b129de553468932b538e5e637ac2fc34d4c97fcbe4156ff5917ac",
+      "size": 544277
+    },
+    "verification/home_mobile.png": {
+      "sha256": "cac5ac7c7313ad6608e2359c34b839383a0ac9b0742dbf95da16facd69268504",
+      "size": 429692
+    },
+    "verification/home_tablet.png": {
+      "sha256": "02b6f1ab6a607c86e046f1eb0de3bcccd087c848f36a7f87848a5df504497838",
+      "size": 507613
+    },
+    "verification/polimi_record.png": {
+      "sha256": "08982bc9a23ba81b413d08893e782f40adb7b2c1ebbf7294ee3ddca6189b01e0",
+      "size": 130514
+    },
+    "verification/portrait_desktop.png": {
+      "sha256": "864af5a47a090db9d76d4181b3abdb264f8534689338d47ac7d280ddb5633348",
+      "size": 29498
+    },
+    "verification/portrait_mobile.png": {
+      "sha256": "780b91bcf56d2d9d98cdb83adc0c0f02511c4ebc0ff2e8736148ad170a760a9e",
+      "size": 21019
+    },
+    "verification/portrait_tablet.png": {
+      "sha256": "36dc43ab939ec1f2cc9211afeeb7ae5cad770c833dad8044f37a4a4c2833b20a",
+      "size": 29581
+    },
+    "verification/relationship_switch_checks.json": {
+      "sha256": "984089e62b7961586ef11b15e5b0aaf7b4e135b2dcbeea683efff648aac20384",
+      "size": 26852
+    },
+    "verification/release_summary.json": {
+      "sha256": "ea8a3a887083fe85d2acb4dc903bb12e27cb497a378a046c23bbc01f8f74bd7a",
+      "size": 1544
+    },
+    "verification/report.html": {
+      "sha256": "1a3153e61dd5679346eb2d42c628088a82c3261c3addfa7f322a0773065261ec",
+      "size": 7633
+    },
+    "verification/reproducibility.json": {
+      "sha256": "08a71327db24b0e42588836e81d317705eaf0e2c503b239d76a6154807b85f0f",
+      "size": 25854
+    },
+    "verification/structure_checks.json": {
+      "sha256": "043e10f1145e7994d5b390e60dd19e12ee21d17da5362f4beef00ae10d0f7399",
+      "size": 22170
+    },
+    "verification/visual_checks.json": {
+      "sha256": "c0f9494575ed07db4613d7169cd7e69c294fa8d4856b273b610d74e11b1c6b9d",
+      "size": 873
+    }
+  }
+}

@@ -1,0 +1,1157 @@
+{
+  "meta": {
+    "as_of": "2026-10-18",
+    "baseline": "Knowledge_Atlas_v12_1_Complete_GitHub_Pages_20261014.zip",
+    "source_additions": [
+      "O051",
+      "F034",
+      "F035",
+      "P124"
+    ],
+    "scope": "Latest in-scope articles; original IDs preserved. Martin Fowler site extended beyond the original Exploring Generative AI index for the two explicit additions. Original publication and revision dates distinguished. Podcast episodes and The Pulse title-prefix posts remain excluded from P."
+  },
+  "nodes": [
+    {
+      "id": "O051",
+      "label": "Agentic Verification",
+      "kind": "practitioner_article",
+      "collection": "O",
+      "category": null,
+      "streams": [
+        "T:Verification & review",
+        "T:Code quality & security"
+      ],
+      "actual": [],
+      "mapped": [
+        "C:C07",
+        "C:C04",
+        "C:C05",
+        "C:C08"
+      ],
+      "printed": false,
+      "summary": "Reliable agent work depends on executable checks: realistic user flows, explicit properties and differential comparisons, with fast feedback and human-owned success criteria.",
+      "limitation": "Practitioner guidance, not a controlled experiment or proof of universal correctness; generated tests and oracle independence still need scrutiny.",
+      "url": "https://addyo.substack.com/p/agentic-verification",
+      "authors": "Addy Osmani",
+      "year": "2026-10-14",
+      "attributes": {
+        "label": "Agentic Verification",
+        "kind": "practitioner_article",
+        "node_class": "CURATED_PRACTITIONER_NOT_RESEARCH",
+        "group": "Verification & review",
+        "year": "2026",
+        "lead_author": "Addy Osmani",
+        "source": "https://addyo.substack.com/p/agentic-verification",
+        "source_url": "https://addyo.substack.com/p/agentic-verification",
+        "url": "https://addyo.substack.com/p/agentic-verification",
+        "publication_date": "2026-10-14",
+        "evidence_class": "Practitioner essay / technical guidance (not peer-reviewed)",
+        "reviewed_evidence_class": "Practitioner essay / technical guidance (not peer-reviewed)",
+        "original_evidence_class": "Practitioner essay / technical guidance (not peer-reviewed)",
+        "editorial_priority": "A",
+        "full_manuscript_audited": "Full primary article read; no statistical replication performed",
+        "summary": "Osmani recommends autonomous feedback loops using end-to-end checks, property-based testing and old/new behavioral comparisons. Checks should run quickly and deterministically, preserve actionable failures, and be grounded in success criteria the human owns.",
+        "manual_use": "Define the oracle before implementation; retain failing inputs; inspect generated tests; run heavier integration checks before release.",
+        "bibliography_year": "2026",
+        "chapter_id": "C07",
+        "section_id": "",
+        "relevance": "Direct",
+        "method_status": "curated practitioner article (not a research study)",
+        "primary_research": "false",
+        "provenance": "Elevate public archive and full primary article inspected 2026-10-18",
+        "baseline_provenance": "Incremental addition to frozen v12.1 catalogue; O001-O050 unchanged",
+        "original_url_verified": "yes",
+        "publication_source_url": "https://addyo.substack.com/archive",
+        "publication_status_note": "Published practitioner article; online companion update",
+        "review_status": "FULL_TEXT_REVIEWED",
+        "article_is_ai_specific": "true",
+        "review_date": "2026-10-18",
+        "stable_bibliography_id": "O051",
+        "edition_integration": "ONLINE_COMPANION_UPDATE",
+        "manuscript_citation_status": "NOT_ESTABLISHED_FROM_PUBLISHED_MANUSCRIPT",
+        "evidence_is_experimental": "false",
+        "source_access": "Full public text",
+        "research_link_semantics": "Editorial thematic mapping; no assertion of literal citation, causal validation or replication",
+        "limitation": "Practitioner guidance, not a controlled experiment or proof of universal correctness; generated tests and oracle independence still need scrutiny.",
+        "manuscript_citation_basis": "No published-manuscript citation inferred by this source review; reconcile against final NDSE2 sources.",
+        "atlas_added_on": "2026-10-18",
+        "canonical_url": "https://addyo.substack.com/p/agentic-verification",
+        "online_companion_update": true
+      },
+      "topics": [
+        "K:Independent verification and oracles",
+        "K:Evaluation methodology and baselines",
+        "K:Specifications and governance",
+        "K:Long-running agent execution"
+      ],
+      "volumes": []
+    },
+    {
+      "id": "F034",
+      "label": "Practitioner Voice",
+      "kind": "practitioner_essay",
+      "collection": "F",
+      "category": null,
+      "streams": [
+        "T:Skills & learning",
+        "T:System knowledge & memory"
+      ],
+      "actual": [],
+      "mapped": [
+        "C:C09",
+        "C:C10",
+        "C:C11"
+      ],
+      "printed": false,
+      "summary": "The October revision adds practical guidance for writing from experience and using AI while keeping the writer's judgment visible. Highsmith describes cognitive assistance, contrasts different authoring choices, and connects useful prose to lived consequences, audience, storytelling and iterative editing.",
+      "limitation": "Personal experience and editorial guidance; no controlled evaluation of cognition, learning, writing quality or productivity. Do not treat the revision as a newly published October article.",
+      "url": "https://martinfowler.com/articles/practitioner-voice.html",
+      "authors": "Jim Highsmith",
+      "year": "2026-08-19",
+      "topics": [
+        "K:Human cognitive load",
+        "K:Cognitive offloading and skill debt",
+        "K:Ownership and knowledge transfer"
+      ],
+      "volumes": [],
+      "attributes": {
+        "label": "Practitioner Voice",
+        "kind": "practitioner_essay",
+        "collection": "F",
+        "authors": "Jim Highsmith",
+        "authors_json": "[\"Jim Highsmith\"]",
+        "publication_date": "2026-08-19",
+        "updated_date": "2026-10-13",
+        "latest_activity_date": "2026-10-13",
+        "date_provenance": "Primary article Significant Revisions: original publication and later expansion distinguished",
+        "url": "https://martinfowler.com/articles/practitioner-voice.html",
+        "publisher": "martinfowler.com",
+        "series": "",
+        "series_url": "",
+        "source_scope": "Adjacent martinfowler.com article; outside the original Exploring Generative AI series catalogue",
+        "series_member": false,
+        "snapshot_date": "2026-10-18",
+        "contribution": "The October revision adds practical guidance for writing from experience and using AI while keeping the writer's judgment visible. Highsmith describes cognitive assistance, contrasts different authoring choices, and connects useful prose to lived consequences, audience, storytelling and iterative editing.",
+        "limitation": "Personal experience and editorial guidance; no controlled evaluation of cognition, learning, writing quality or productivity. Do not treat the revision as a newly published October article.",
+        "evidence_class": "Practitioner essay and personal experience",
+        "source_locator": "The Craft of Practitioner Voice; How to use AI without losing your voice; Significant Revisions",
+        "verification_scope": "Actual byline, original publication date and October 13 significant revision confirmed. No independent execution, causal evaluation or statistical replication.",
+        "access_status": "FULL_PRIMARY_TEXT",
+        "original_data_replicated": false,
+        "new_manuscript_citation": false,
+        "source_body_archived": false,
+        "primary_stream": "T:Skills & learning",
+        "streams_json": "[\"T:Skills & learning\",\"T:System knowledge & memory\"]",
+        "topics_json": "[\"K:Human cognitive load\",\"K:Cognitive offloading and skill debt\",\"K:Ownership and knowledge transfer\"]",
+        "editorial_chapters_json": "[\"C:C09\",\"C:C10\",\"C:C11\"]",
+        "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+        "book_citation_status": "NOT_ADDED_TO_BOOK",
+        "node_class": "FOWLER_SITE_EXTENSION_20261018",
+        "addition_reason": "October 13 expansion on AI-assisted thinking and writing, absent from the series-only baseline. Scope expansion explicitly retained.",
+        "atlas_added_on": "2026-10-18",
+        "canonical_url": "https://martinfowler.com/articles/practitioner-voice.html",
+        "online_companion_update": true
+      }
+    },
+    {
+      "id": "F035",
+      "label": "When Software Meets Hardware",
+      "kind": "practitioner_essay",
+      "collection": "F",
+      "category": null,
+      "streams": [
+        "T:Engineering structure",
+        "T:Skills & learning",
+        "T:Productivity"
+      ],
+      "actual": [],
+      "mapped": [
+        "C:C02",
+        "C:C05",
+        "C:C09",
+        "C:C10",
+        "C:C13"
+      ],
+      "printed": false,
+      "summary": "An IoT modernization account connects physical test environments, device simulation, observability, recovery and continuous learning. The team used LLMs to explore unfamiliar areas, prototype experiments and develop engineering tools, including dashboards and migration trackers. The proposed benefit is cheaper experimentation and a shorter learning loop.",
+      "limitation": "The article describes one team's practices and perceived benefits. It does not isolate AI's contribution or quantify productivity improvements. Physical-world validation remains part of the reported engineering process.",
+      "url": "https://martinfowler.com/articles/software-meets-hardware.html",
+      "authors": "Kuldeep Singh",
+      "year": "2026-10-15",
+      "topics": [
+        "K:Onboarding and developer fluency",
+        "K:System understanding and rationale",
+        "K:Developer workflow and adoption",
+        "K:Independent verification and oracles"
+      ],
+      "volumes": [],
+      "attributes": {
+        "label": "When Software Meets Hardware",
+        "kind": "practitioner_essay",
+        "collection": "F",
+        "authors": "Kuldeep Singh",
+        "authors_json": "[\"Kuldeep Singh\"]",
+        "publication_date": "2026-10-15",
+        "updated_date": null,
+        "latest_activity_date": "2026-10-15",
+        "date_provenance": "Primary article dateline and Significant Revisions",
+        "url": "https://martinfowler.com/articles/software-meets-hardware.html",
+        "publisher": "martinfowler.com",
+        "series": "",
+        "series_url": "",
+        "source_scope": "Adjacent martinfowler.com article; outside the original Exploring Generative AI series catalogue",
+        "series_member": false,
+        "snapshot_date": "2026-10-18",
+        "contribution": "An IoT modernization account connects physical test environments, device simulation, observability, recovery and continuous learning. The team used LLMs to explore unfamiliar areas, prototype experiments and develop engineering tools, including dashboards and migration trackers. The proposed benefit is cheaper experimentation and a shorter learning loop.",
+        "limitation": "The article describes one team's practices and perceived benefits. It does not isolate AI's contribution or quantify productivity improvements. Physical-world validation remains part of the reported engineering process.",
+        "evidence_class": "Qualitative engineering experience report",
+        "source_locator": "Experimentation environment; physical testing; Use AI to shorten the learning loop; Capture discoveries; Significant Revisions",
+        "verification_scope": "Byline, publication history and AI-specific section inspected. No independent execution, causal evaluation or statistical replication.",
+        "access_status": "FULL_PRIMARY_TEXT",
+        "original_data_replicated": false,
+        "new_manuscript_citation": false,
+        "source_body_archived": false,
+        "primary_stream": "T:Engineering structure",
+        "streams_json": "[\"T:Engineering structure\",\"T:Skills & learning\",\"T:Productivity\"]",
+        "topics_json": "[\"K:Onboarding and developer fluency\",\"K:System understanding and rationale\",\"K:Developer workflow and adoption\",\"K:Independent verification and oracles\"]",
+        "editorial_chapters_json": "[\"C:C02\",\"C:C05\",\"C:C09\",\"C:C10\",\"C:C13\"]",
+        "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+        "book_citation_status": "NOT_ADDED_TO_BOOK",
+        "node_class": "FOWLER_SITE_EXTENSION_20261018",
+        "addition_reason": "New October 15 experience report with an explicit AI-assisted learning and engineering-tooling section, outside the original series.",
+        "atlas_added_on": "2026-10-18",
+        "canonical_url": "https://martinfowler.com/articles/software-meets-hardware.html",
+        "online_companion_update": true
+      }
+    },
+    {
+      "id": "P124",
+      "label": "Building resilient AI-powered software, and planning for when things go wrong",
+      "kind": "practitioner_article",
+      "collection": "P",
+      "category": null,
+      "streams": [
+        "T:Engineering structure",
+        "T:Verification & review",
+        "T:Economics"
+      ],
+      "actual": [],
+      "mapped": [
+        "C:C05",
+        "C:C07",
+        "C:C12"
+      ],
+      "printed": false,
+      "summary": "Authorized Sam Newman excerpts connect disaster recovery with model changes, provider dependence, evaluation, observability and visible AI costs.",
+      "limitation": "Expert guidance, not a controlled experiment. Page byline: Gergely Orosz; excerpt author: Sam Newman. The complete book and underlying numerical claims were not audited. No empirical replication or independent-rater validation was performed.",
+      "url": "https://newsletter.pragmaticengineer.com/p/building-resilient-systems",
+      "authors": "Gergely Orosz (introduction); Sam Newman (excerpts)",
+      "year": "2026-10-13",
+      "attributes": {
+        "label": "Building resilient AI-powered software, and planning for when things go wrong",
+        "kind": "practitioner_article",
+        "node_class": "CURATED_PRACTITIONER_NOT_PEER_REVIEWED_RESEARCH",
+        "group": "Engineering structure",
+        "year": "2026",
+        "authors": "Gergely Orosz (introduction); Sam Newman (excerpts)",
+        "source": "https://newsletter.pragmaticengineer.com/p/building-resilient-systems",
+        "source_url": "https://newsletter.pragmaticengineer.com/p/building-resilient-systems",
+        "url": "https://newsletter.pragmaticengineer.com/p/building-resilient-systems",
+        "publication_date": "2026-10-13",
+        "publication_date_basis": "Date displayed on the primary Deepdive and official archive",
+        "original_publication_date": "2026-10-13",
+        "eligibility_date": "2026-10-13",
+        "series_origin": "NO_PULSE_ORIGIN_IDENTIFIED",
+        "parent_issue_url": "",
+        "strict_non_pulse_derived": "true",
+        "source_platform": "newsletter",
+        "source_section": "Deepdives",
+        "alternate_urls": "",
+        "alternate_publications_json": "[]",
+        "contribution": "Sam Newman’s excerpts outline disaster recovery and resilience for AI-powered systems.",
+        "in_short": "Sam Newman’s excerpts outline disaster recovery and resilience for AI-powered systems.",
+        "summary": "Authorized Sam Newman excerpts connect disaster recovery with model changes, provider dependence, evaluation, observability and visible AI costs.",
+        "main_findings": "Newman recommends recovery planning, provider flexibility and re-evaluation after model changes; composing several vendor dependencies can itself reduce availability.",
+        "findings_basis": "Public article arguments; chapter excerpts and the editor’s closing commentary were distinguished.",
+        "limitation": "Expert guidance, not a controlled experiment. Page byline: Gergely Orosz; excerpt author: Sam Newman. The complete book and underlying numerical claims were not audited. No empirical replication or independent-rater validation was performed.",
+        "manual_use": "Editorial reading for architecture, independent checks and operational economics; these links are not manuscript citations or validation of NDSE2.",
+        "evidence_class": "Industry/practitioner publication — introduced guest book excerpt",
+        "reviewed_evidence_class": "Industry/practitioner publication — introduced guest book excerpt",
+        "access_status": "public_text",
+        "access_note": "Public main article available; classification-bearing passages reviewed. The complete source book was not reviewed.",
+        "classification_status": "REVIEWED_PUBLIC_PASSAGE_CLASSIFICATION",
+        "classification_rationale": "Editorial reading for architecture, independent checks and operational economics; these links are not manuscript citations or validation of NDSE2.",
+        "relevance": "SE_FOR_AI",
+        "peer_review_status": "not_presented_as_peer_reviewed",
+        "controlled_experiment_status": "not_asserted",
+        "source_evidence_origin": "introduced_guest_book_excerpt",
+        "full_manuscript_audited": "NO: public classification-bearing article passages reviewed; complete source book not audited",
+        "method_status": "Editorial classification, not independent-rater or empirical validation",
+        "chapter_id": "C05;C07;C12",
+        "section_id": "",
+        "mapping_role": "PROPOSED_EDITORIAL_USE_NOT_MANUSCRIPT_CITATION",
+        "related_works": "P075;P098;P106",
+        "shared_source_groups": "",
+        "provenance": "Primary-page and official-archive update, 2026-10-18; no raw source article archive",
+        "original_url_verified": "Primary page opened; displayed date, byline and excerpt attribution inspected",
+        "date_accessed": "2026-10-18",
+        "baseline_provenance": "Add-only update to frozen P001–P123; original records and IDs retained",
+        "empirical_replication_status": "NOT_PERFORMED",
+        "manuscript_citation_status": "NOT_ADDED_TO_MANUSCRIPT",
+        "publication_curator": "Gergely Orosz",
+        "author_attribution_note": "Gergely Orosz is the displayed byline and introduction author; Sam Newman authored the explicitly credited excerpts.",
+        "secondary_domains": "GENERAL_SE;AI_FOR_SE",
+        "evidence_origin": "ADAPTED_OR_EXCERPTED_WORK",
+        "source_review_scope": "Primary metadata, attribution, recovery discussion and AI-resilience/cost passages inspected; no hidden text or complete-book audit.",
+        "underlying_research_check": "NOT_INDEPENDENTLY_AUDITED",
+        "review_outcome": "ADDED_NEW_PUBLICATION",
+        "review_reason": "New written Deepdive after the previous 2026-10-11 cutoff; no matching canonical URL or title in P001–P123.",
+        "review_date": "2026-10-18",
+        "id_allocation_note": "P124 appended; P001–P123 unchanged.",
+        "byline_and_contributors": "Gergely Orosz (introduction); Sam Newman (excerpts)",
+        "body_source_dependency_note": "The editor’s closing remarks link a previous Pulse issue underlying P106; this is citation provenance, not a new duplicate Pulse record.",
+        "atlas_added_on": "2026-10-18",
+        "canonical_url": "https://newsletter.pragmaticengineer.com/p/building-resilient-systems",
+        "online_companion_update": true
+      },
+      "topics": [
+        "K:Architecture and modularity",
+        "K:Independent verification and oracles",
+        "K:Dependencies and agent supply chain",
+        "K:Economic costs and return"
+      ],
+      "volumes": []
+    }
+  ],
+  "context_nodes": [
+    {
+      "id": "AUTHOR:MF:jim-highsmith",
+      "label": "Jim Highsmith",
+      "kind": "credited_author",
+      "collection": null,
+      "category": "contributors",
+      "streams": [],
+      "actual": [],
+      "mapped": [],
+      "printed": false,
+      "summary": "Credited contributor to martinfowler.com; authorship follows the primary article byline.",
+      "limitation": "",
+      "url": "https://martinfowler.com/articles/practitioner-voice.html",
+      "authors": "Jim Highsmith",
+      "year": "",
+      "topics": [],
+      "volumes": [],
+      "attributes": {
+        "label": "Jim Highsmith",
+        "kind": "credited_author",
+        "provenance": "Primary article byline inspected 2026-10-18",
+        "source_url": "https://martinfowler.com/articles/practitioner-voice.html"
+      }
+    },
+    {
+      "id": "AUTHOR:MF:kuldeep-singh",
+      "label": "Kuldeep Singh",
+      "kind": "credited_author",
+      "collection": null,
+      "category": "contributors",
+      "streams": [],
+      "actual": [],
+      "mapped": [],
+      "printed": false,
+      "summary": "Credited contributor to martinfowler.com; authorship follows the primary article byline.",
+      "limitation": "",
+      "url": "https://martinfowler.com/articles/software-meets-hardware.html",
+      "authors": "Kuldeep Singh",
+      "year": "",
+      "topics": [],
+      "volumes": [],
+      "attributes": {
+        "label": "Kuldeep Singh",
+        "kind": "credited_author",
+        "provenance": "Primary article byline inspected 2026-10-18",
+        "source_url": "https://martinfowler.com/articles/software-meets-hardware.html"
+      }
+    },
+    {
+      "id": "COLLECTION:MF:SITE",
+      "label": "martinfowler.com · additional AI and engineering articles",
+      "kind": "source_collection",
+      "collection": null,
+      "category": "contributors",
+      "streams": [],
+      "actual": [],
+      "mapped": [],
+      "printed": false,
+      "summary": "Adjacent articles added during the 18 October 2026 refresh. These are separate from the original 33-item Exploring Generative AI series catalogue.",
+      "limitation": "Publisher affiliation is not evidence of empirical validity.",
+      "url": "https://martinfowler.com/",
+      "authors": "",
+      "year": "2026-10-18",
+      "topics": [],
+      "volumes": [],
+      "attributes": {
+        "label": "martinfowler.com · additional AI and engineering articles",
+        "kind": "source_collection",
+        "url": "https://martinfowler.com/",
+        "collection_scope": "Selected adjacent AI and software-engineering articles published or materially revised after the baseline snapshot",
+        "site": "Martin Fowler's website",
+        "source": "Primary article bylines, dates and full text"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "O051",
+      "target": "T:Verification & review",
+      "relation": "PRIMARY_STREAM",
+      "family": "classification",
+      "attributes": {
+        "provenance": "Osmani incremental source review, 2026-10-18",
+        "comparison_scope": "EDITORIAL_THEMATIC",
+        "mapping_confidence": "EDITORIAL_MATCH_UNSCORED",
+        "source_url": "https://addyo.substack.com/p/agentic-verification",
+        "source_verified": "full primary article, byline and dateline inspected",
+        "manuscript_citation": "false",
+        "empirical_validation": "not_established",
+        "relation": "PRIMARY_STREAM",
+        "rationale": "Verification is the central topic."
+      }
+    },
+    {
+      "source": "O051",
+      "target": "T:Code quality & security",
+      "relation": "SECONDARY_STREAM",
+      "family": "classification",
+      "attributes": {
+        "provenance": "Osmani incremental source review, 2026-10-18",
+        "comparison_scope": "EDITORIAL_THEMATIC",
+        "mapping_confidence": "EDITORIAL_MATCH_UNSCORED",
+        "source_url": "https://addyo.substack.com/p/agentic-verification",
+        "source_verified": "full primary article, byline and dateline inspected",
+        "manuscript_citation": "false",
+        "empirical_validation": "not_established",
+        "relation": "SECONDARY_STREAM",
+        "rationale": "Checks constrain code quality."
+      }
+    },
+    {
+      "source": "O051",
+      "target": "K:Independent verification and oracles",
+      "relation": "ADDRESSES_TOPIC",
+      "family": "classification",
+      "attributes": {
+        "provenance": "Osmani incremental source review, 2026-10-18",
+        "comparison_scope": "EDITORIAL_THEMATIC",
+        "mapping_confidence": "EDITORIAL_MATCH_UNSCORED",
+        "source_url": "https://addyo.substack.com/p/agentic-verification",
+        "source_verified": "full primary article, byline and dateline inspected",
+        "manuscript_citation": "false",
+        "empirical_validation": "not_established",
+        "relation": "ADDRESSES_TOPIC",
+        "rationale": "Editorial fit to the existing topic."
+      }
+    },
+    {
+      "source": "O051",
+      "target": "K:Evaluation methodology and baselines",
+      "relation": "ADDRESSES_TOPIC",
+      "family": "classification",
+      "attributes": {
+        "provenance": "Osmani incremental source review, 2026-10-18",
+        "comparison_scope": "EDITORIAL_THEMATIC",
+        "mapping_confidence": "EDITORIAL_MATCH_UNSCORED",
+        "source_url": "https://addyo.substack.com/p/agentic-verification",
+        "source_verified": "full primary article, byline and dateline inspected",
+        "manuscript_citation": "false",
+        "empirical_validation": "not_established",
+        "relation": "ADDRESSES_TOPIC",
+        "rationale": "Editorial fit to the existing topic."
+      }
+    },
+    {
+      "source": "O051",
+      "target": "K:Specifications and governance",
+      "relation": "ADDRESSES_TOPIC",
+      "family": "classification",
+      "attributes": {
+        "provenance": "Osmani incremental source review, 2026-10-18",
+        "comparison_scope": "EDITORIAL_THEMATIC",
+        "mapping_confidence": "EDITORIAL_MATCH_UNSCORED",
+        "source_url": "https://addyo.substack.com/p/agentic-verification",
+        "source_verified": "full primary article, byline and dateline inspected",
+        "manuscript_citation": "false",
+        "empirical_validation": "not_established",
+        "relation": "ADDRESSES_TOPIC",
+        "rationale": "Editorial fit to the existing topic."
+      }
+    },
+    {
+      "source": "O051",
+      "target": "K:Long-running agent execution",
+      "relation": "ADDRESSES_TOPIC",
+      "family": "classification",
+      "attributes": {
+        "provenance": "Osmani incremental source review, 2026-10-18",
+        "comparison_scope": "EDITORIAL_THEMATIC",
+        "mapping_confidence": "EDITORIAL_MATCH_UNSCORED",
+        "source_url": "https://addyo.substack.com/p/agentic-verification",
+        "source_verified": "full primary article, byline and dateline inspected",
+        "manuscript_citation": "false",
+        "empirical_validation": "not_established",
+        "relation": "ADDRESSES_TOPIC",
+        "rationale": "Editorial fit to the existing topic."
+      }
+    },
+    {
+      "source": "O051",
+      "target": "C:C07",
+      "relation": "INFORMS_CHAPTER",
+      "family": "mapping",
+      "attributes": {
+        "provenance": "Osmani incremental source review, 2026-10-18",
+        "comparison_scope": "EDITORIAL_THEMATIC",
+        "mapping_confidence": "EDITORIAL_MATCH_UNSCORED",
+        "source_url": "https://addyo.substack.com/p/agentic-verification",
+        "source_verified": "full primary article, byline and dateline inspected",
+        "manuscript_citation": "false",
+        "empirical_validation": "not_established",
+        "relation": "INFORMS_CHAPTER",
+        "rationale": "Testing and oracle design."
+      }
+    },
+    {
+      "source": "O051",
+      "target": "C:C04",
+      "relation": "INFORMS_CHAPTER",
+      "family": "mapping",
+      "attributes": {
+        "provenance": "Osmani incremental source review, 2026-10-18",
+        "comparison_scope": "EDITORIAL_THEMATIC",
+        "mapping_confidence": "EDITORIAL_MATCH_UNSCORED",
+        "source_url": "https://addyo.substack.com/p/agentic-verification",
+        "source_verified": "full primary article, byline and dateline inspected",
+        "manuscript_citation": "false",
+        "empirical_validation": "not_established",
+        "relation": "INFORMS_CHAPTER",
+        "rationale": "Success criteria before implementation."
+      }
+    },
+    {
+      "source": "O051",
+      "target": "C:C05",
+      "relation": "INFORMS_CHAPTER",
+      "family": "mapping",
+      "attributes": {
+        "provenance": "Osmani incremental source review, 2026-10-18",
+        "comparison_scope": "EDITORIAL_THEMATIC",
+        "mapping_confidence": "EDITORIAL_MATCH_UNSCORED",
+        "source_url": "https://addyo.substack.com/p/agentic-verification",
+        "source_verified": "full primary article, byline and dateline inspected",
+        "manuscript_citation": "false",
+        "empirical_validation": "not_established",
+        "relation": "INFORMS_CHAPTER",
+        "rationale": "Behavioral parity during migrations."
+      }
+    },
+    {
+      "source": "O051",
+      "target": "C:C08",
+      "relation": "INFORMS_CHAPTER",
+      "family": "mapping",
+      "attributes": {
+        "provenance": "Osmani incremental source review, 2026-10-18",
+        "comparison_scope": "EDITORIAL_THEMATIC",
+        "mapping_confidence": "EDITORIAL_MATCH_UNSCORED",
+        "source_url": "https://addyo.substack.com/p/agentic-verification",
+        "source_verified": "full primary article, byline and dateline inspected",
+        "manuscript_citation": "false",
+        "empirical_validation": "not_established",
+        "relation": "INFORMS_CHAPTER",
+        "rationale": "Evidence for human acceptance."
+      }
+    },
+    {
+      "source": "O051",
+      "target": "O001",
+      "relation": "EDITORIAL_COMPARISON_NOT_CITATION",
+      "family": "comparison",
+      "attributes": {
+        "provenance": "Osmani incremental source review, 2026-10-18",
+        "comparison_scope": "EDITORIAL_THEMATIC",
+        "mapping_confidence": "EDITORIAL_MATCH_UNSCORED",
+        "source_url": "https://addyo.substack.com/p/agentic-verification",
+        "source_verified": "full primary article, byline and dateline inspected",
+        "manuscript_citation": "false",
+        "empirical_validation": "not_established",
+        "relation": "EDITORIAL_COMPARISON_NOT_CITATION",
+        "rationale": "Connects selective review to concrete verification techniques."
+      }
+    },
+    {
+      "source": "O051",
+      "target": "O002",
+      "relation": "EDITORIAL_COMPARISON_NOT_CITATION",
+      "family": "comparison",
+      "attributes": {
+        "provenance": "Osmani incremental source review, 2026-10-18",
+        "comparison_scope": "EDITORIAL_THEMATIC",
+        "mapping_confidence": "EDITORIAL_MATCH_UNSCORED",
+        "source_url": "https://addyo.substack.com/p/agentic-verification",
+        "source_verified": "full primary article, byline and dateline inspected",
+        "manuscript_citation": "false",
+        "empirical_validation": "not_established",
+        "relation": "EDITORIAL_COMPARISON_NOT_CITATION",
+        "rationale": "Shared concern with behavioral compatibility in migrations."
+      }
+    },
+    {
+      "source": "O051",
+      "target": "O007",
+      "relation": "EDITORIAL_COMPARISON_NOT_CITATION",
+      "family": "comparison",
+      "attributes": {
+        "provenance": "Osmani incremental source review, 2026-10-18",
+        "comparison_scope": "EDITORIAL_THEMATIC",
+        "mapping_confidence": "EDITORIAL_MATCH_UNSCORED",
+        "source_url": "https://addyo.substack.com/p/agentic-verification",
+        "source_verified": "full primary article, byline and dateline inspected",
+        "manuscript_citation": "false",
+        "empirical_validation": "not_established",
+        "relation": "EDITORIAL_COMPARISON_NOT_CITATION",
+        "rationale": "Concrete testing techniques complement the earlier quality-gates argument."
+      }
+    },
+    {
+      "source": "P124",
+      "target": "T:Engineering structure",
+      "relation": "PRIMARY_STREAM",
+      "family": "classification",
+      "attributes": {
+        "rationale": "Editorial reading for architecture, independent checks and operational economics; these links are not manuscript citations or validation of NDSE2.",
+        "manuscript_citation": false,
+        "empirical_validation": false,
+        "relation": "PRIMARY_STREAM",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18"
+      }
+    },
+    {
+      "source": "P124",
+      "target": "T:Verification & review",
+      "relation": "SECONDARY_STREAM",
+      "family": "classification",
+      "attributes": {
+        "rationale": "Editorial reading for architecture, independent checks and operational economics; these links are not manuscript citations or validation of NDSE2.",
+        "manuscript_citation": false,
+        "empirical_validation": false,
+        "relation": "SECONDARY_STREAM",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18"
+      }
+    },
+    {
+      "source": "P124",
+      "target": "T:Economics",
+      "relation": "SECONDARY_STREAM",
+      "family": "classification",
+      "attributes": {
+        "rationale": "Editorial reading for architecture, independent checks and operational economics; these links are not manuscript citations or validation of NDSE2.",
+        "manuscript_citation": false,
+        "empirical_validation": false,
+        "relation": "SECONDARY_STREAM",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18"
+      }
+    },
+    {
+      "source": "P124",
+      "target": "K:Architecture and modularity",
+      "relation": "ADDRESSES_TOPIC",
+      "family": "classification",
+      "attributes": {
+        "rationale": "Editorial reading for architecture, independent checks and operational economics; these links are not manuscript citations or validation of NDSE2.",
+        "manuscript_citation": false,
+        "empirical_validation": false,
+        "relation": "ADDRESSES_TOPIC",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18"
+      }
+    },
+    {
+      "source": "P124",
+      "target": "K:Independent verification and oracles",
+      "relation": "ADDRESSES_TOPIC",
+      "family": "classification",
+      "attributes": {
+        "rationale": "Editorial reading for architecture, independent checks and operational economics; these links are not manuscript citations or validation of NDSE2.",
+        "manuscript_citation": false,
+        "empirical_validation": false,
+        "relation": "ADDRESSES_TOPIC",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18"
+      }
+    },
+    {
+      "source": "P124",
+      "target": "K:Dependencies and agent supply chain",
+      "relation": "ADDRESSES_TOPIC",
+      "family": "classification",
+      "attributes": {
+        "rationale": "Editorial reading for architecture, independent checks and operational economics; these links are not manuscript citations or validation of NDSE2.",
+        "manuscript_citation": false,
+        "empirical_validation": false,
+        "relation": "ADDRESSES_TOPIC",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18"
+      }
+    },
+    {
+      "source": "P124",
+      "target": "K:Economic costs and return",
+      "relation": "ADDRESSES_TOPIC",
+      "family": "classification",
+      "attributes": {
+        "rationale": "Editorial reading for architecture, independent checks and operational economics; these links are not manuscript citations or validation of NDSE2.",
+        "manuscript_citation": false,
+        "empirical_validation": false,
+        "relation": "ADDRESSES_TOPIC",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18"
+      }
+    },
+    {
+      "source": "P124",
+      "target": "C:C05",
+      "relation": "INFORMS_CHAPTER_PROPOSAL",
+      "family": "mapping",
+      "attributes": {
+        "rationale": "Editorial reading for architecture, independent checks and operational economics; these links are not manuscript citations or validation of NDSE2.",
+        "manuscript_citation": false,
+        "empirical_validation": false,
+        "relation": "INFORMS_CHAPTER_PROPOSAL",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18"
+      }
+    },
+    {
+      "source": "P124",
+      "target": "C:C07",
+      "relation": "INFORMS_CHAPTER_PROPOSAL",
+      "family": "mapping",
+      "attributes": {
+        "rationale": "Editorial reading for architecture, independent checks and operational economics; these links are not manuscript citations or validation of NDSE2.",
+        "manuscript_citation": false,
+        "empirical_validation": false,
+        "relation": "INFORMS_CHAPTER_PROPOSAL",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18"
+      }
+    },
+    {
+      "source": "P124",
+      "target": "C:C12",
+      "relation": "INFORMS_CHAPTER_PROPOSAL",
+      "family": "mapping",
+      "attributes": {
+        "rationale": "Editorial reading for architecture, independent checks and operational economics; these links are not manuscript citations or validation of NDSE2.",
+        "manuscript_citation": false,
+        "empirical_validation": false,
+        "relation": "INFORMS_CHAPTER_PROPOSAL",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18"
+      }
+    },
+    {
+      "source": "P124",
+      "target": "P075",
+      "relation": "EDITORIAL_COMPARISON",
+      "family": "comparison",
+      "attributes": {
+        "rationale": "Editorial comparison of AI evaluation guidance; distinct publications, no claim of independent corroboration.",
+        "manuscript_citation": false,
+        "empirical_validation": false,
+        "relation": "EDITORIAL_COMPARISON",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18"
+      }
+    },
+    {
+      "source": "P124",
+      "target": "P098",
+      "relation": "EDITORIAL_COMPARISON",
+      "family": "comparison",
+      "attributes": {
+        "rationale": "Editorial comparison of operational architecture and cost tradeoffs in guest book excerpts; distinct book authors and source works.",
+        "manuscript_citation": false,
+        "empirical_validation": false,
+        "relation": "EDITORIAL_COMPARISON",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18"
+      }
+    },
+    {
+      "source": "P124",
+      "target": "P106",
+      "relation": "CITES_PARENT_ISSUE_OF",
+      "family": "dependency",
+      "attributes": {
+        "original_href": "https://newsletter.pragmaticengineer.com/i/201622200/3-reliability-fail-no-automated-zone-failover-for-coinbases-global-trading-service",
+        "resolved_url": "https://newsletter.pragmaticengineer.com/p/did-anthropics-new-model-just-boost?open=false",
+        "matched_field": "attributes.parent_issue_url",
+        "source_locator": "Closing Takeaways: the Coinbase outage discussion",
+        "rationale": "The article links the Pulse parent issue of the retained blog excerpt P106. It does not directly link the blog URL and does not provide an independent second incident report.",
+        "manuscript_citation": false,
+        "empirical_validation": false,
+        "relation": "CITES_PARENT_ISSUE_OF",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18"
+      }
+    },
+    {
+      "source": "F034",
+      "target": "AUTHOR:MF:jim-highsmith",
+      "relation": "F_AUTHORED_BY",
+      "family": "provenance",
+      "attributes": {
+        "relation": "F_AUTHORED_BY",
+        "rationale": "Published byline; hosting on martinfowler.com does not assign authorship to Martin Fowler.",
+        "provenance": "Primary source inspected 2026-10-18",
+        "empirical_validation": false,
+        "source_url": "https://martinfowler.com/articles/practitioner-voice.html",
+        "source_locator": "Primary article byline"
+      }
+    },
+    {
+      "source": "F034",
+      "target": "COLLECTION:MF:SITE",
+      "relation": "F_PUBLISHED_ON_SITE",
+      "family": "provenance",
+      "attributes": {
+        "relation": "F_PUBLISHED_ON_SITE",
+        "rationale": "Article published on martinfowler.com; not asserted to belong to the Exploring Generative AI series.",
+        "provenance": "Primary source inspected 2026-10-18",
+        "empirical_validation": false,
+        "source_url": "https://martinfowler.com/articles/practitioner-voice.html",
+        "source_locator": "Primary canonical URL"
+      }
+    },
+    {
+      "source": "F035",
+      "target": "AUTHOR:MF:kuldeep-singh",
+      "relation": "F_AUTHORED_BY",
+      "family": "provenance",
+      "attributes": {
+        "relation": "F_AUTHORED_BY",
+        "rationale": "Published byline; hosting on martinfowler.com does not assign authorship to Martin Fowler.",
+        "provenance": "Primary source inspected 2026-10-18",
+        "empirical_validation": false,
+        "source_url": "https://martinfowler.com/articles/software-meets-hardware.html",
+        "source_locator": "Primary article byline"
+      }
+    },
+    {
+      "source": "F035",
+      "target": "COLLECTION:MF:SITE",
+      "relation": "F_PUBLISHED_ON_SITE",
+      "family": "provenance",
+      "attributes": {
+        "relation": "F_PUBLISHED_ON_SITE",
+        "rationale": "Article published on martinfowler.com; not asserted to belong to the Exploring Generative AI series.",
+        "provenance": "Primary source inspected 2026-10-18",
+        "empirical_validation": false,
+        "source_url": "https://martinfowler.com/articles/software-meets-hardware.html",
+        "source_locator": "Primary canonical URL"
+      }
+    },
+    {
+      "source": "F034",
+      "target": "F020",
+      "relation": "F_EDITORIAL_COMPARISON",
+      "family": "comparison",
+      "attributes": {
+        "rationale": "Both invite attention to human thinking and learning beyond retained AI output; this is an editorial comparison, not a source citation or causal validation.",
+        "source_published_link": false,
+        "empirical_validation": false,
+        "relation": "F_EDITORIAL_COMPARISON",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18"
+      }
+    },
+    {
+      "source": "F035",
+      "target": "F009",
+      "relation": "F_EDITORIAL_COMPARISON",
+      "family": "comparison",
+      "attributes": {
+        "rationale": "Both discuss using AI while learning an unfamiliar existing system; engineering observations still need validation in that system.",
+        "source_published_link": false,
+        "empirical_validation": false,
+        "relation": "F_EDITORIAL_COMPARISON",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18"
+      }
+    },
+    {
+      "source": "F035",
+      "target": "F017",
+      "relation": "F_EDITORIAL_COMPARISON",
+      "family": "comparison",
+      "attributes": {
+        "rationale": "Both describe AI-assisted construction of supporting engineering tools; the comparison does not establish a general productivity effect.",
+        "source_published_link": false,
+        "empirical_validation": false,
+        "relation": "F_EDITORIAL_COMPARISON",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18"
+      }
+    },
+    {
+      "source": "F034",
+      "target": "T:Skills & learning",
+      "relation": "PRIMARY_STREAM",
+      "family": "classification",
+      "attributes": {
+        "rationale": "Independent thematic classification from the reviewed primary article.",
+        "relation": "PRIMARY_STREAM",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18",
+        "empirical_validation": false
+      }
+    },
+    {
+      "source": "F034",
+      "target": "T:System knowledge & memory",
+      "relation": "SECONDARY_STREAM",
+      "family": "classification",
+      "attributes": {
+        "rationale": "Independent thematic classification from the reviewed primary article.",
+        "relation": "SECONDARY_STREAM",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18",
+        "empirical_validation": false
+      }
+    },
+    {
+      "source": "F034",
+      "target": "K:Human cognitive load",
+      "relation": "ADDRESSES_TOPIC",
+      "family": "classification",
+      "attributes": {
+        "rationale": "Independent thematic classification from the reviewed primary article.",
+        "relation": "ADDRESSES_TOPIC",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18",
+        "empirical_validation": false
+      }
+    },
+    {
+      "source": "F034",
+      "target": "K:Cognitive offloading and skill debt",
+      "relation": "ADDRESSES_TOPIC",
+      "family": "classification",
+      "attributes": {
+        "rationale": "Independent thematic classification from the reviewed primary article.",
+        "relation": "ADDRESSES_TOPIC",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18",
+        "empirical_validation": false
+      }
+    },
+    {
+      "source": "F034",
+      "target": "K:Ownership and knowledge transfer",
+      "relation": "ADDRESSES_TOPIC",
+      "family": "classification",
+      "attributes": {
+        "rationale": "Independent thematic classification from the reviewed primary article.",
+        "relation": "ADDRESSES_TOPIC",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18",
+        "empirical_validation": false
+      }
+    },
+    {
+      "source": "F034",
+      "target": "C:C09",
+      "relation": "INFORMS_CHAPTER",
+      "family": "mapping",
+      "attributes": {
+        "rationale": "Suggested companion reading; not an assertion of citation in the published book.",
+        "relation": "INFORMS_CHAPTER",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18",
+        "empirical_validation": false
+      }
+    },
+    {
+      "source": "F034",
+      "target": "C:C10",
+      "relation": "INFORMS_CHAPTER",
+      "family": "mapping",
+      "attributes": {
+        "rationale": "Suggested companion reading; not an assertion of citation in the published book.",
+        "relation": "INFORMS_CHAPTER",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18",
+        "empirical_validation": false
+      }
+    },
+    {
+      "source": "F034",
+      "target": "C:C11",
+      "relation": "INFORMS_CHAPTER",
+      "family": "mapping",
+      "attributes": {
+        "rationale": "Suggested companion reading; not an assertion of citation in the published book.",
+        "relation": "INFORMS_CHAPTER",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18",
+        "empirical_validation": false
+      }
+    },
+    {
+      "source": "F035",
+      "target": "T:Engineering structure",
+      "relation": "PRIMARY_STREAM",
+      "family": "classification",
+      "attributes": {
+        "rationale": "Independent thematic classification from the reviewed primary article.",
+        "relation": "PRIMARY_STREAM",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18",
+        "empirical_validation": false
+      }
+    },
+    {
+      "source": "F035",
+      "target": "T:Skills & learning",
+      "relation": "SECONDARY_STREAM",
+      "family": "classification",
+      "attributes": {
+        "rationale": "Independent thematic classification from the reviewed primary article.",
+        "relation": "SECONDARY_STREAM",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18",
+        "empirical_validation": false
+      }
+    },
+    {
+      "source": "F035",
+      "target": "T:Productivity",
+      "relation": "SECONDARY_STREAM",
+      "family": "classification",
+      "attributes": {
+        "rationale": "Independent thematic classification from the reviewed primary article.",
+        "relation": "SECONDARY_STREAM",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18",
+        "empirical_validation": false
+      }
+    },
+    {
+      "source": "F035",
+      "target": "K:Onboarding and developer fluency",
+      "relation": "ADDRESSES_TOPIC",
+      "family": "classification",
+      "attributes": {
+        "rationale": "Independent thematic classification from the reviewed primary article.",
+        "relation": "ADDRESSES_TOPIC",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18",
+        "empirical_validation": false
+      }
+    },
+    {
+      "source": "F035",
+      "target": "K:System understanding and rationale",
+      "relation": "ADDRESSES_TOPIC",
+      "family": "classification",
+      "attributes": {
+        "rationale": "Independent thematic classification from the reviewed primary article.",
+        "relation": "ADDRESSES_TOPIC",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18",
+        "empirical_validation": false
+      }
+    },
+    {
+      "source": "F035",
+      "target": "K:Developer workflow and adoption",
+      "relation": "ADDRESSES_TOPIC",
+      "family": "classification",
+      "attributes": {
+        "rationale": "Independent thematic classification from the reviewed primary article.",
+        "relation": "ADDRESSES_TOPIC",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18",
+        "empirical_validation": false
+      }
+    },
+    {
+      "source": "F035",
+      "target": "K:Independent verification and oracles",
+      "relation": "ADDRESSES_TOPIC",
+      "family": "classification",
+      "attributes": {
+        "rationale": "Independent thematic classification from the reviewed primary article.",
+        "relation": "ADDRESSES_TOPIC",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18",
+        "empirical_validation": false
+      }
+    },
+    {
+      "source": "F035",
+      "target": "C:C02",
+      "relation": "INFORMS_CHAPTER",
+      "family": "mapping",
+      "attributes": {
+        "rationale": "Suggested companion reading; not an assertion of citation in the published book.",
+        "relation": "INFORMS_CHAPTER",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18",
+        "empirical_validation": false
+      }
+    },
+    {
+      "source": "F035",
+      "target": "C:C05",
+      "relation": "INFORMS_CHAPTER",
+      "family": "mapping",
+      "attributes": {
+        "rationale": "Suggested companion reading; not an assertion of citation in the published book.",
+        "relation": "INFORMS_CHAPTER",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18",
+        "empirical_validation": false
+      }
+    },
+    {
+      "source": "F035",
+      "target": "C:C09",
+      "relation": "INFORMS_CHAPTER",
+      "family": "mapping",
+      "attributes": {
+        "rationale": "Suggested companion reading; not an assertion of citation in the published book.",
+        "relation": "INFORMS_CHAPTER",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18",
+        "empirical_validation": false
+      }
+    },
+    {
+      "source": "F035",
+      "target": "C:C10",
+      "relation": "INFORMS_CHAPTER",
+      "family": "mapping",
+      "attributes": {
+        "rationale": "Suggested companion reading; not an assertion of citation in the published book.",
+        "relation": "INFORMS_CHAPTER",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18",
+        "empirical_validation": false
+      }
+    },
+    {
+      "source": "F035",
+      "target": "C:C13",
+      "relation": "INFORMS_CHAPTER",
+      "family": "mapping",
+      "attributes": {
+        "rationale": "Suggested companion reading; not an assertion of citation in the published book.",
+        "relation": "INFORMS_CHAPTER",
+        "provenance": "Primary-source review and independent atlas mapping, 2026-10-18",
+        "empirical_validation": false
+      }
+    }
+  ],
+  "metadata_updates": [
+    {
+      "id": "F026",
+      "action": "Add version metadata only; retain historical title, original URL, publication date, summary, and existing identifiers.",
+      "attributes_patch": {
+        "source_version_status": "EARLIER_MEMO_SUPERSEDED_BY_EXPANDED_ARTICLE",
+        "latest_version_url": "https://martinfowler.com/articles/harness-engineering.html",
+        "latest_version_title": "Harness engineering for coding agent users",
+        "latest_version_publication_date": "2026-04-02",
+        "supersession_verified_date": "2026-10-18",
+        "source_version_note": "The later primary article explicitly supersedes this 17 February memo. Direct retrieval still exposes the historical memo with a pointer to the expansion; an HTTP redirect was not established."
+      },
+      "sources": [
+        {
+          "url": "https://martinfowler.com/articles/exploring-gen-ai/harness-engineering-memo.html",
+          "locator": "Opening update notice"
+        },
+        {
+          "url": "https://martinfowler.com/articles/harness-engineering.html",
+          "locator": "Earlier Memo; Significant Revisions"
+        }
+      ]
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
-  "site_version": "12.1",
-  "build_date": "2026-10-14",
-  "graph_version": "12",
-  "graph_snapshot": "2026-10-13",
+  "site_version": "13.0",
+  "build_date": "2026-10-18",
+  "graph_version": "13",
+  "graph_snapshot": "2026-10-18",
   "canonical_atlas": "https://popoloni.github.io/swe_knowledge_graph.html",
   "title": "Knowledge Atlas for AI and Software Engineering",
   "author": "Enrico Papalini",
@@ -22,7 +22,7 @@
       "slug": "osmani",
       "title": "Addy Osmani",
       "short": "Osmani",
-      "description": "50 practitioner articles. Keep the author’s argument separate from independently established research outcomes; preserve the scope and caveats recorded in the atlas.",
+      "description": "51 practitioner articles by Addy Osmani, including Agentic Verification (14 October 2026). Source arguments remain distinct from controlled evidence and independent validation.",
       "source_url": "https://addyo.substack.com/"
     },
     {
@@ -30,7 +30,7 @@
       "slug": "pragmatic-engineer",
       "title": "The Pragmatic Engineer",
       "short": "Pragmatic Engineer",
-      "description": "123 publications with individual bylines and contributor credits. Public, restricted and preview-based records remain distinguishable. Collection membership does not imply peer review or access to the complete article.",
+      "description": "124 written publications with individual bylines and contributor credits. Blog and newsletter Deepdives are deduplicated; podcast episodes and titles beginning The Pulse remain outside the collection. Public text and restricted previews are identified.",
       "source_url": "https://newsletter.pragmaticengineer.com/"
     },
     {
@@ -38,7 +38,7 @@
       "slug": "fowler",
       "title": "Martin Fowler’s website",
       "short": "Fowler website",
-      "description": "33 essays and memos from Exploring Generative AI, in the 13 October 2026 snapshot. Each byline is credited individually; Birgitta Böckeler’s editorial contribution is acknowledged. F is a source-collection ID, not an authorship claim.",
+      "description": "35 essays and memos on martinfowler.com: 33 records from Exploring Generative AI plus two explicitly identified adjacent articles updated or published in October 2026. Each credited byline and publication or revision date is retained.",
       "source_url": "https://martinfowler.com/articles/exploring-gen-ai.html"
     },
     {
@@ -48,6 +48,17 @@
       "short": "Earlier books",
       "description": "111 informative chapter/file records from five earlier volumes by Enrico Papalini. These are source-genealogy and editorial records, not 111 independent research studies. Original English and Italian catalogue wording is retained.",
       "source_url": ""
+    },
+    {
+      "code": "N",
+      "slug": "ndse2",
+      "title": "NDSE2 · Published second edition",
+      "short": "NDSE2 chapters",
+      "description": "13 chapters from the published Non-Deterministic Software Engineering, Second Edition. English and Italian titles, section outlines and literal source citations are reconciled to the author-supplied final 13.7.1 sources.",
+      "source_url": "https://popoloni.github.io/"
     }
-  ]
+  ],
+  "atlas_source": "atlas_v13_current.html",
+  "graph_json": "data/graph/knowledge_graph_v13.json",
+  "graph_graphml": "data/graph/knowledge_graph_v13.graphml"
 }

@@ -1,26 +1,32 @@
 {
-  "site_version": "12.1",
-  "graph_snapshot": "2026-10-13",
-  "graph_nodes": 1757,
-  "graph_edges": 12188,
-  "graph_relation_types": 297,
+  "site_version": "13.0",
+  "graph_snapshot": "2026-10-18",
+  "graph_source": "atlas_v13_current.html",
+  "graph_nodes": 1931,
+  "graph_edges": 13615,
+  "graph_relation_types": 309,
   "source_counts": {
     "W": 193,
-    "O": 50,
-    "P": 123,
-    "F": 33,
-    "B": 111
+    "O": 51,
+    "P": 124,
+    "B": 111,
+    "F": 35,
+    "N": 13
   },
-  "static_source_records": 510,
+  "static_source_records": 527,
+  "external_source_records": 403,
   "practice_descriptors": 84,
   "practice_occurrences": 87,
+  "published_books": 6,
+  "ndse2_chapters": 13,
   "group_pages": {
     "streams": 9,
     "topics": 30,
     "chapters": 13,
-    "volumes": 5
+    "volumes": 6
   },
-  "html_pages_built": 75,
+  "html_pages_built": 77,
   "graph_payload_unchanged": true,
+  "graph_payload_matches_current_source": true,
   "new_empirical_verification": false
 }
