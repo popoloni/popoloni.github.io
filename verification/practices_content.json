@@ -1,0 +1,520 @@
+{
+  "schema_version": 1,
+  "kind": "atlas_practices_validation",
+  "applicable": true,
+  "passed": 16,
+  "failed": 0,
+  "summary": {
+    "records": 84,
+    "families": 12,
+    "historical_occurrences": 87,
+    "words_min": 337,
+    "words_max": 427,
+    "words_total": 32076,
+    "by_family": {
+      "F01": 1,
+      "F02": 1,
+      "F03": 14,
+      "F04": 11,
+      "F05": 6,
+      "F06": 10,
+      "F07": 6,
+      "F08": 6,
+      "F09": 13,
+      "F10": 4,
+      "F11": 9,
+      "F12": 3
+    }
+  },
+  "per_practice": [
+    {
+      "id": "PAT:001",
+      "words": 386,
+      "family": "F03"
+    },
+    {
+      "id": "PAT:002",
+      "words": 383,
+      "family": "F05"
+    },
+    {
+      "id": "PAT:003",
+      "words": 385,
+      "family": "F11"
+    },
+    {
+      "id": "PAT:004",
+      "words": 374,
+      "family": "F03"
+    },
+    {
+      "id": "PAT:005",
+      "words": 387,
+      "family": "F04"
+    },
+    {
+      "id": "PAT:006",
+      "words": 398,
+      "family": "F09"
+    },
+    {
+      "id": "PAT:007",
+      "words": 394,
+      "family": "F09"
+    },
+    {
+      "id": "PAT:008",
+      "words": 407,
+      "family": "F09"
+    },
+    {
+      "id": "PAT:009",
+      "words": 397,
+      "family": "F11"
+    },
+    {
+      "id": "PAT:010",
+      "words": 399,
+      "family": "F08"
+    },
+    {
+      "id": "PAT:011",
+      "words": 427,
+      "family": "F03"
+    },
+    {
+      "id": "PAT:012",
+      "words": 408,
+      "family": "F10"
+    },
+    {
+      "id": "PAT:013",
+      "words": 406,
+      "family": "F03"
+    },
+    {
+      "id": "PAT:014",
+      "words": 408,
+      "family": "F07"
+    },
+    {
+      "id": "PAT:015",
+      "words": 392,
+      "family": "F07"
+    },
+    {
+      "id": "PAT:016",
+      "words": 395,
+      "family": "F09"
+    },
+    {
+      "id": "PAT:017",
+      "words": 404,
+      "family": "F06"
+    },
+    {
+      "id": "PAT:018",
+      "words": 409,
+      "family": "F06"
+    },
+    {
+      "id": "PAT:019",
+      "words": 391,
+      "family": "F11"
+    },
+    {
+      "id": "PAT:020",
+      "words": 406,
+      "family": "F09"
+    },
+    {
+      "id": "PAT:021",
+      "words": 400,
+      "family": "F03"
+    },
+    {
+      "id": "PAT:022",
+      "words": 410,
+      "family": "F08"
+    },
+    {
+      "id": "PAT:023",
+      "words": 416,
+      "family": "F03"
+    },
+    {
+      "id": "PAT:024",
+      "words": 412,
+      "family": "F03"
+    },
+    {
+      "id": "PAT:025",
+      "words": 398,
+      "family": "F03"
+    },
+    {
+      "id": "PAT:026",
+      "words": 407,
+      "family": "F03"
+    },
+    {
+      "id": "PAT:027",
+      "words": 407,
+      "family": "F07"
+    },
+    {
+      "id": "PAT:028",
+      "words": 408,
+      "family": "F09"
+    },
+    {
+      "id": "PAT:029",
+      "words": 402,
+      "family": "F09"
+    },
+    {
+      "id": "PAT:030",
+      "words": 401,
+      "family": "F06"
+    },
+    {
+      "id": "PAT:031",
+      "words": 382,
+      "family": "F11"
+    },
+    {
+      "id": "PAT:032",
+      "words": 408,
+      "family": "F11"
+    },
+    {
+      "id": "PAT:033",
+      "words": 406,
+      "family": "F12"
+    },
+    {
+      "id": "PAT:034",
+      "words": 400,
+      "family": "F06"
+    },
+    {
+      "id": "PAT:035",
+      "words": 418,
+      "family": "F11"
+    },
+    {
+      "id": "PAT:036",
+      "words": 413,
+      "family": "F05"
+    },
+    {
+      "id": "PAT:037",
+      "words": 411,
+      "family": "F06"
+    },
+    {
+      "id": "PAT:038",
+      "words": 390,
+      "family": "F09"
+    },
+    {
+      "id": "PAT:039",
+      "words": 404,
+      "family": "F08"
+    },
+    {
+      "id": "PAT:040",
+      "words": 406,
+      "family": "F05"
+    },
+    {
+      "id": "PAT:041",
+      "words": 411,
+      "family": "F09"
+    },
+    {
+      "id": "PAT:042",
+      "words": 427,
+      "family": "F12"
+    },
+    {
+      "id": "PAT:043",
+      "words": 337,
+      "family": "F04"
+    },
+    {
+      "id": "PAT:044",
+      "words": 350,
+      "family": "F07"
+    },
+    {
+      "id": "PAT:045",
+      "words": 341,
+      "family": "F01"
+    },
+    {
+      "id": "PAT:046",
+      "words": 354,
+      "family": "F03"
+    },
+    {
+      "id": "PAT:047",
+      "words": 348,
+      "family": "F09"
+    },
+    {
+      "id": "PAT:048",
+      "words": 359,
+      "family": "F10"
+    },
+    {
+      "id": "PAT:049",
+      "words": 353,
+      "family": "F05"
+    },
+    {
+      "id": "PAT:050",
+      "words": 375,
+      "family": "F10"
+    },
+    {
+      "id": "PAT:051",
+      "words": 353,
+      "family": "F06"
+    },
+    {
+      "id": "PAT:052",
+      "words": 347,
+      "family": "F08"
+    },
+    {
+      "id": "PAT:053",
+      "words": 364,
+      "family": "F09"
+    },
+    {
+      "id": "PAT:054",
+      "words": 359,
+      "family": "F05"
+    },
+    {
+      "id": "PAT:055",
+      "words": 364,
+      "family": "F10"
+    },
+    {
+      "id": "PAT:056",
+      "words": 347,
+      "family": "F11"
+    },
+    {
+      "id": "PAT:057",
+      "words": 369,
+      "family": "F11"
+    },
+    {
+      "id": "PAT:058",
+      "words": 367,
+      "family": "F06"
+    },
+    {
+      "id": "PAT:059",
+      "words": 357,
+      "family": "F02"
+    },
+    {
+      "id": "PAT:060",
+      "words": 356,
+      "family": "F12"
+    },
+    {
+      "id": "PAT:061",
+      "words": 357,
+      "family": "F04"
+    },
+    {
+      "id": "PAT:062",
+      "words": 364,
+      "family": "F09"
+    },
+    {
+      "id": "PAT:063",
+      "words": 349,
+      "family": "F05"
+    },
+    {
+      "id": "PAT:064",
+      "words": 361,
+      "family": "F04"
+    },
+    {
+      "id": "PAT:065",
+      "words": 385,
+      "family": "F03"
+    },
+    {
+      "id": "PAT:066",
+      "words": 355,
+      "family": "F04"
+    },
+    {
+      "id": "PAT:067",
+      "words": 353,
+      "family": "F04"
+    },
+    {
+      "id": "PAT:068",
+      "words": 347,
+      "family": "F04"
+    },
+    {
+      "id": "PAT:069",
+      "words": 350,
+      "family": "F04"
+    },
+    {
+      "id": "PAT:070",
+      "words": 366,
+      "family": "F04"
+    },
+    {
+      "id": "PAT:071",
+      "words": 361,
+      "family": "F04"
+    },
+    {
+      "id": "PAT:072",
+      "words": 372,
+      "family": "F09"
+    },
+    {
+      "id": "PAT:073",
+      "words": 358,
+      "family": "F03"
+    },
+    {
+      "id": "PAT:074",
+      "words": 363,
+      "family": "F08"
+    },
+    {
+      "id": "PAT:075",
+      "words": 361,
+      "family": "F08"
+    },
+    {
+      "id": "PAT:076",
+      "words": 368,
+      "family": "F04"
+    },
+    {
+      "id": "PAT:077",
+      "words": 369,
+      "family": "F06"
+    },
+    {
+      "id": "PAT:078",
+      "words": 369,
+      "family": "F06"
+    },
+    {
+      "id": "PAT:079",
+      "words": 369,
+      "family": "F06"
+    },
+    {
+      "id": "PAT:080",
+      "words": 374,
+      "family": "F07"
+    },
+    {
+      "id": "PAT:081",
+      "words": 379,
+      "family": "F03"
+    },
+    {
+      "id": "PAT:082",
+      "words": 383,
+      "family": "F07"
+    },
+    {
+      "id": "PAT:083",
+      "words": 371,
+      "family": "F03"
+    },
+    {
+      "id": "PAT:084",
+      "words": 399,
+      "family": "F11"
+    }
+  ],
+  "checks": [
+    {
+      "check": "The expected PAT collection is present",
+      "passed": true
+    },
+    {
+      "check": "Every practice descriptor belongs to PAT",
+      "passed": true
+    },
+    {
+      "check": "PAT contains only practice descriptors",
+      "passed": true
+    },
+    {
+      "check": "Families and historical occurrences remain contextual records",
+      "passed": true
+    },
+    {
+      "check": "All historical IDs retained: practice_descriptor",
+      "passed": true
+    },
+    {
+      "check": "All historical IDs retained: practice_family",
+      "passed": true
+    },
+    {
+      "check": "All historical IDs retained: practice_occurrence",
+      "passed": true
+    },
+    {
+      "check": "Every family has an English label, purpose and explanation",
+      "passed": true
+    },
+    {
+      "check": "All practice-layer nodes have one valid family",
+      "passed": true
+    },
+    {
+      "check": "Every descriptor has explicit stream and topic classification",
+      "passed": true
+    },
+    {
+      "check": "Practices do not masquerade as literal bibliography citations",
+      "passed": true
+    },
+    {
+      "check": "Every practice has complete substantive operational content",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Practice summaries are distinct",
+      "passed": true
+    },
+    {
+      "check": "Illustrative examples are distinct",
+      "passed": true
+    },
+    {
+      "check": "All historical occurrences resolve to a current descriptor",
+      "passed": true
+    },
+    {
+      "check": "Thematic source locators match the current supplied published book",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "editorial_boundary": "Depth gates check content completeness and provenance. The examples and steps are editorial guidance, not new empirical findings."
+}

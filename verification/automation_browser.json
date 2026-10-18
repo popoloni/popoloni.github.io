@@ -1,0 +1,3967 @@
+{
+  "schema_version": 1,
+  "kind": "atlas_browser_validation",
+  "started": "2026-10-18T12:03:39.959Z",
+  "finished": "2026-10-18T12:04:31.601Z",
+  "passed": 336,
+  "failed": 0,
+  "complete": true,
+  "browser": "155.0.8059.84",
+  "navigation": "real local HTTP navigation and real DOM controls",
+  "nativeSafariTested": false,
+  "githubDeployed": false,
+  "siteSourceModified": false,
+  "graph_html_sha256": "60d71aa148b3f43a9375c52a2f55a191edcd58edf8a2d51c36d25a2d34cd7d80",
+  "graphHTMLSHA256": "60d71aa148b3f43a9375c52a2f55a191edcd58edf8a2d51c36d25a2d34cd7d80",
+  "artifact_sha256": "20793a88dc1d136565a396b852f6a948255f8254b450698ebe61a67aae981986",
+  "artifact_scope": "All site file paths, SHA-256 and sizes except verification/, SHA256SUMS.txt and development caches.",
+  "baseline_default": {
+    "source_ids": [
+      "W001",
+      "W002",
+      "W003",
+      "W004",
+      "W005",
+      "W006",
+      "W007",
+      "W008",
+      "W009",
+      "W010",
+      "W011",
+      "W012",
+      "W013",
+      "W014",
+      "W015",
+      "W016",
+      "W017",
+      "W018",
+      "W019",
+      "W020",
+      "W021",
+      "W022",
+      "W023",
+      "W024",
+      "W025",
+      "W026",
+      "W027",
+      "W028",
+      "W029",
+      "W030",
+      "W031",
+      "W032",
+      "W033",
+      "W034",
+      "W035",
+      "W036",
+      "W037",
+      "W038",
+      "W039",
+      "W040",
+      "W041",
+      "W042",
+      "W043",
+      "W044",
+      "W045",
+      "W046",
+      "W047",
+      "W048",
+      "W049",
+      "W050",
+      "W051",
+      "W052",
+      "W053",
+      "W054",
+      "W055",
+      "W056",
+      "W057",
+      "W058",
+      "W059",
+      "W060",
+      "W061",
+      "W062",
+      "W063",
+      "W064",
+      "W065",
+      "W066",
+      "W067",
+      "W068",
+      "W069",
+      "W070",
+      "W071",
+      "W072",
+      "W073",
+      "W074",
+      "W075",
+      "W076",
+      "W077",
+      "W078",
+      "W079",
+      "W080",
+      "W081",
+      "W082",
+      "W083",
+      "W084",
+      "W085",
+      "W086",
+      "W087",
+      "W088",
+      "W089",
+      "W090",
+      "W091",
+      "W092",
+      "W093",
+      "W094",
+      "W095",
+      "W096",
+      "W097",
+      "W098",
+      "W099",
+      "W100",
+      "W101",
+      "W102",
+      "W103",
+      "W104",
+      "W105",
+      "W106",
+      "W107",
+      "W108",
+      "W109",
+      "W110",
+      "W111",
+      "W112",
+      "W113",
+      "W114",
+      "W115",
+      "W116",
+      "W117",
+      "W118",
+      "W119",
+      "W120",
+      "W121",
+      "W122",
+      "W123",
+      "W124",
+      "W125",
+      "W126",
+      "W127",
+      "W128",
+      "W129",
+      "W130",
+      "W131",
+      "W132",
+      "W133",
+      "W134",
+      "W135",
+      "W136",
+      "W137",
+      "W138",
+      "W139",
+      "W140",
+      "W141",
+      "W142",
+      "W143",
+      "W144",
+      "W145",
+      "W146",
+      "W147",
+      "W148",
+      "W149",
+      "W150",
+      "W151",
+      "W152",
+      "W153",
+      "W154",
+      "W155",
+      "W156",
+      "W157",
+      "W158",
+      "W159",
+      "W160",
+      "W161",
+      "W162",
+      "W163",
+      "W164",
+      "W165",
+      "W166",
+      "W167",
+      "W168",
+      "W169",
+      "W170",
+      "W171",
+      "W172",
+      "W173",
+      "W174",
+      "W175",
+      "W176",
+      "W177",
+      "W178",
+      "W179",
+      "W180",
+      "W181",
+      "W182",
+      "W183",
+      "W184",
+      "W185",
+      "W186",
+      "W187",
+      "W188",
+      "W189",
+      "W190",
+      "W191",
+      "W192",
+      "W193"
+    ],
+    "edge_ids": [
+      "e00012",
+      "e00014",
+      "e00029",
+      "e00074",
+      "e00076",
+      "e00077",
+      "e00115",
+      "e00117",
+      "e00226",
+      "e00227",
+      "e00451",
+      "e00452",
+      "e00511",
+      "e00614",
+      "e00691",
+      "e00725",
+      "e00745",
+      "e00764",
+      "e00786",
+      "e00846",
+      "e00879",
+      "e00962",
+      "e00989",
+      "e01022",
+      "e01152",
+      "e01169",
+      "e01184",
+      "e01186",
+      "e01240",
+      "e01244",
+      "e01245",
+      "e01303",
+      "e01310",
+      "e01358",
+      "e01359",
+      "e01373",
+      "e01390",
+      "e01392",
+      "e01394",
+      "e01453",
+      "e01502",
+      "e01671",
+      "e01727",
+      "e01992",
+      "e02079",
+      "e02097",
+      "e02099",
+      "e02200",
+      "e02233",
+      "e02235",
+      "e02271",
+      "e02286",
+      "e02547",
+      "e02569",
+      "e02595",
+      "e02690",
+      "e02781",
+      "e02805",
+      "e02807",
+      "e02867",
+      "e02981",
+      "e03016",
+      "e03091",
+      "e03123"
+    ]
+  },
+  "relationship_switch_checks": [
+    {
+      "relation": "ACCESS_BLOCKER_REQUIRES_AUTHOR_OR_DATA_EXPORT",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "ADAPTS_WITH_EDITORIAL_COMMENTARY",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "ADDRESSES_TOPIC",
+      "passed": true,
+      "actual": 927,
+      "expected": 927
+    },
+    {
+      "relation": "AFFECTS_SOURCE",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "relation": "ANCHORED_TO_PAPER_ABSTRACT",
+      "passed": true,
+      "actual": 26,
+      "expected": 26
+    },
+    {
+      "relation": "APPLIES_TO_BROWNFIELD",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "ARXIV_TIMESTAMP_VS_INTERNAL_MANUSCRIPT_DATE",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "AUDITED_METHOD_CLASS",
+      "passed": true,
+      "actual": 6,
+      "expected": 6
+    },
+    {
+      "relation": "AUDITS_PAPER",
+      "passed": true,
+      "actual": 18,
+      "expected": 18
+    },
+    {
+      "relation": "AUDIT_ISSUE_RECONCILES_CELL",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "relation": "AUDIT_SCOPE",
+      "passed": true,
+      "actual": 53,
+      "expected": 53
+    },
+    {
+      "relation": "AUTHOR_PREPRINT_TABLES_CHECKED_FINAL_PUBLICATION_OPEN",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "BENCHMARK_VERSION_CHANGED",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "BIBLIOGRAPHY_LINK",
+      "passed": true,
+      "actual": 15,
+      "expected": 15
+    },
+    {
+      "relation": "BOUNDARIES_HISTORICAL_COMPREHENSION_RATE",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "CANDIDATE_FOR_SECTION",
+      "passed": true,
+      "actual": 26,
+      "expected": 26
+    },
+    {
+      "relation": "CANNOT_ASSUME_RAW_DATA_OBTAINED",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "CHAPTER_HAS_SECTION",
+      "passed": true,
+      "actual": 108,
+      "expected": 108
+    },
+    {
+      "relation": "CHILD_OF_ISSUE",
+      "passed": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "relation": "CITED_IN_CHAPTER_BUNDLE_V6",
+      "passed": true,
+      "actual": 208,
+      "expected": 208
+    },
+    {
+      "relation": "CITED_IN_MANUSCRIPT_OROSZ_CORE",
+      "passed": true,
+      "actual": 9,
+      "expected": 9
+    },
+    {
+      "relation": "CITED_IN_MANUSCRIPT_OSMANI_CORE",
+      "passed": true,
+      "actual": 16,
+      "expected": 16
+    },
+    {
+      "relation": "CITED_IN_READER_DOCUMENT_V9",
+      "passed": true,
+      "actual": 89,
+      "expected": 89
+    },
+    {
+      "relation": "CITES_PARENT_ISSUE_OF",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "CLAIM_APPLIED_IN_CHAPTER",
+      "passed": true,
+      "actual": 18,
+      "expected": 18
+    },
+    {
+      "relation": "CLOSES_LOCATOR_SUBTASK_ONLY",
+      "passed": true,
+      "actual": 6,
+      "expected": 6
+    },
+    {
+      "relation": "CLOSES_SOURCE_COMPARISON",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "relation": "COHORT_DERIVED_FROM",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "relation": "CONCERNS_PRIMARY_WORK",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "relation": "CONCERNS_WORK",
+      "passed": true,
+      "actual": 24,
+      "expected": 24
+    },
+    {
+      "relation": "CONTAINS_PUBLISHED_TABLE",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "CONTEXTUAL_TOPIC_MAPPING",
+      "passed": true,
+      "actual": 136,
+      "expected": 136
+    },
+    {
+      "relation": "CONTRADICTS_PUBLISHED_PER_PROJECT_SUM",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "CORRECTED_BY",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "COUNT_CHECK_NOT_ORIGINAL_DATA_REPLICATION",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "CRITICAL_DISCUSSION_OF_EXISTING_PRACTITIONER_WORK",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "CURRENT_EDITION_CHAPTER",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "relation": "DATASET_INTRODUCED_BY",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "DATASET_LOCATOR_NOT_REPLICATION",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "DERIVED_FROM",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "relation": "DEVELOPS_PRIOR_ARTICLE",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "DISCUSSED_IN_APPENDIX_B_OROSZ",
+      "passed": true,
+      "actual": 14,
+      "expected": 14
+    },
+    {
+      "relation": "DISCUSSED_IN_APPENDIX_B_PRACTITIONER",
+      "passed": true,
+      "actual": 16,
+      "expected": 16
+    },
+    {
+      "relation": "DOCUMENTED_EDITORIAL_EXTENSION",
+      "passed": true,
+      "actual": 51,
+      "expected": 51
+    },
+    {
+      "relation": "DOCUMENTS_FINAL_PUBLISHED_SAMPLE",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "DOCUMENT_IN_BOOK",
+      "passed": true,
+      "actual": 15,
+      "expected": 15
+    },
+    {
+      "relation": "DOI_LOCATED",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "EDITORIAL_CANDIDATE_FOR_SECTION",
+      "passed": true,
+      "actual": 201,
+      "expected": 201
+    },
+    {
+      "relation": "EDITORIAL_COMPARISON",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "relation": "EDITORIAL_COMPARISON_NOT_CITATION",
+      "passed": true,
+      "actual": 188,
+      "expected": 188
+    },
+    {
+      "relation": "EDITORIAL_METHOD_COMPARISON",
+      "passed": true,
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "relation": "EDITORIAL_REVISION_OF",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "EDITORIAL_SUPPORTS_SECTION",
+      "passed": true,
+      "actual": 426,
+      "expected": 426
+    },
+    {
+      "relation": "EVIDENCE_CLASS",
+      "passed": true,
+      "actual": 193,
+      "expected": 193
+    },
+    {
+      "relation": "EVIDENCE_NOTE_FOR_CHAPTER",
+      "passed": true,
+      "actual": 110,
+      "expected": 110
+    },
+    {
+      "relation": "EXPLAINED_IN_CHAPTER",
+      "passed": true,
+      "actual": 9,
+      "expected": 9
+    },
+    {
+      "relation": "EXPLAINS_VERSION_COHORT_DIFFERENCE",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "EXTENDS_EARLIER_DISCUSSION",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "relation": "FIGURE_EXPLAINED_IN_READER_PROSE_V8",
+      "passed": true,
+      "actual": 30,
+      "expected": 30
+    },
+    {
+      "relation": "FIGURE_EXPLAINED_IN_READER_PROSE_V9",
+      "passed": true,
+      "actual": 30,
+      "expected": 30
+    },
+    {
+      "relation": "FOUR_LOW_HOUR_EXCLUSIONS",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "F_AUTHORED_BY",
+      "passed": true,
+      "actual": 36,
+      "expected": 36
+    },
+    {
+      "relation": "F_BODY_LINKS_TO",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "relation": "F_EDITORIAL_CHAPTER_MAPPING",
+      "passed": true,
+      "actual": 113,
+      "expected": 113
+    },
+    {
+      "relation": "F_EDITORIAL_COMPARISON",
+      "passed": true,
+      "actual": 49,
+      "expected": 49
+    },
+    {
+      "relation": "F_EDITORIAL_STREAM_MAPPING",
+      "passed": true,
+      "actual": 76,
+      "expected": 76
+    },
+    {
+      "relation": "F_EDITORIAL_TOPIC_MAPPING",
+      "passed": true,
+      "actual": 91,
+      "expected": 91
+    },
+    {
+      "relation": "F_INCLUDED_IN_SERIES",
+      "passed": true,
+      "actual": 33,
+      "expected": 33
+    },
+    {
+      "relation": "F_PUBLISHED_ON_SITE",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "relation": "F_SERIES_EDITED_BY",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "GOVERNANCE_EXTENSION",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "HAS_ARCHIVED_VERSION",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "relation": "HAS_AUDITED_CLAIM",
+      "passed": true,
+      "actual": 9,
+      "expected": 9
+    },
+    {
+      "relation": "HAS_DISTINCT_SOURCE_VERSION",
+      "passed": true,
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "relation": "HAS_EVIDENCE_COMMENTARY",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "relation": "HAS_JPG_RENDITION",
+      "passed": true,
+      "actual": 30,
+      "expected": 30
+    },
+    {
+      "relation": "HAS_LEARNING_OUTCOMES",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "relation": "HAS_LOCATED_PRIMARY_ORIGINAL_SOURCE",
+      "passed": true,
+      "actual": 41,
+      "expected": 41
+    },
+    {
+      "relation": "HAS_PUBLICATION_VERSION",
+      "passed": true,
+      "actual": 14,
+      "expected": 14
+    },
+    {
+      "relation": "HAS_PUBLISHED_OR_INFERRED_CELL",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "relation": "HAS_READER_DOCUMENT",
+      "passed": true,
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "relation": "HAS_READING_NOTE",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "relation": "HAS_RENDERED_VERSION_WARNING",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "HAS_SCOPED_CHILD_AUDIT",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "relation": "HAS_UNRECONCILED_NUMERICAL_TABLE",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "HAS_VERIFIED_DIRECT_LOCATOR",
+      "passed": true,
+      "actual": 6,
+      "expected": 6
+    },
+    {
+      "relation": "HAS_VERSION",
+      "passed": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "relation": "HAS_VERSIONED_PRIMARY_EVIDENCE_OR_CHECK",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "relation": "HAS_WORKED_EXAMPLE",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "relation": "HTML_PDF_INTERNAL_DATE_DISAGREEMENT",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "ILLUSTRATES_SECTION",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "INFERENCE_NOT_VALIDATED_CORRECTION",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "INFORMS_AUTHOR_CONCEPTUAL_FIGURE_NOT_VALIDATION",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "relation": "INFORMS_CHAPTER",
+      "passed": true,
+      "actual": 638,
+      "expected": 638
+    },
+    {
+      "relation": "INFORMS_CHAPTER_PROPOSAL",
+      "passed": true,
+      "actual": 192,
+      "expected": 192
+    },
+    {
+      "relation": "INFORMS_REVIEW_EVIDENCE",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "INFORMS_UNIQUE_PR_DENOMINATOR",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "ISSUE_RELEVANT_TO_CHAPTER",
+      "passed": true,
+      "actual": 52,
+      "expected": 52
+    },
+    {
+      "relation": "ISSUE_SCOPED_BY_CLAIM",
+      "passed": true,
+      "actual": 24,
+      "expected": 24
+    },
+    {
+      "relation": "LIMITS_CHECKER_EVIDENCE",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "LIMITS_INTERPRETATION_OF",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "relation": "LOCATOR_SUBTASK_CLOSED_PARENT_METHOD_GATE_OPEN",
+      "passed": true,
+      "actual": 41,
+      "expected": 41
+    },
+    {
+      "relation": "MEMBER_OF_COLLECTION",
+      "passed": true,
+      "actual": 123,
+      "expected": 123
+    },
+    {
+      "relation": "NDSE2_CHAPTER_CITES",
+      "passed": true,
+      "actual": 446,
+      "expected": 446
+    },
+    {
+      "relation": "NDSE2_DOCUMENT_CITES",
+      "passed": true,
+      "actual": 216,
+      "expected": 216
+    },
+    {
+      "relation": "NDSE2_EDITION_OF",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "NDSE2_HAS_CHAPTER",
+      "passed": true,
+      "actual": 13,
+      "expected": 13
+    },
+    {
+      "relation": "NDSE2_HAS_DOCUMENT",
+      "passed": true,
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "relation": "NDSE2_HAS_SECTION",
+      "passed": true,
+      "actual": 149,
+      "expected": 149
+    },
+    {
+      "relation": "NDSE2_PUBLISHED_VOLUME",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "NDSE2_REPRESENTS_CHAPTER",
+      "passed": true,
+      "actual": 13,
+      "expected": 13
+    },
+    {
+      "relation": "NDSE2_SECTION_CITES",
+      "passed": true,
+      "actual": 532,
+      "expected": 532
+    },
+    {
+      "relation": "ND_ADDRESSES_TOPIC",
+      "passed": true,
+      "actual": 550,
+      "expected": 550
+    },
+    {
+      "relation": "ND_CITES_ALTERNATE_EDITION",
+      "passed": true,
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "relation": "ND_CITES_SOURCE",
+      "passed": true,
+      "actual": 6,
+      "expected": 6
+    },
+    {
+      "relation": "ND_CRITICALLY_REFINES",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "relation": "ND_CRITICAL_COMPARISON",
+      "passed": true,
+      "actual": 6,
+      "expected": 6
+    },
+    {
+      "relation": "ND_CRITICAL_TENSION",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "ND_EDITORIAL_COMPARISON",
+      "passed": true,
+      "actual": 578,
+      "expected": 578
+    },
+    {
+      "relation": "ND_EDITORIAL_INFORMS_CHAPTER",
+      "passed": true,
+      "actual": 283,
+      "expected": 283
+    },
+    {
+      "relation": "ND_EXPANDS_EARLIER_TREATMENT",
+      "passed": true,
+      "actual": 9,
+      "expected": 9
+    },
+    {
+      "relation": "ND_EXPLICIT_CROSS_REFERENCE",
+      "passed": true,
+      "actual": 597,
+      "expected": 597
+    },
+    {
+      "relation": "ND_EXTENDS_PATTERN_CATALOGUE",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "ND_LISTS_SOURCE",
+      "passed": true,
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "relation": "ND_OPERATIONALIZES",
+      "passed": true,
+      "actual": 6,
+      "expected": 6
+    },
+    {
+      "relation": "ND_PART_OF_VOLUME",
+      "passed": true,
+      "actual": 111,
+      "expected": 111
+    },
+    {
+      "relation": "ND_PRIMARY_STREAM",
+      "passed": true,
+      "actual": 111,
+      "expected": 111
+    },
+    {
+      "relation": "ND_REFERENCES_ALTERNATE_EDITION",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "ND_REFERENCE_COMPANION",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "ND_REWORKS_EARLIER_TREATMENT",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "relation": "ND_SCOPED_POLICY_TENSION",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "ND_SECONDARY_STREAM",
+      "passed": true,
+      "actual": 328,
+      "expected": 328
+    },
+    {
+      "relation": "ND_SECOND_EDITION_OF",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "relation": "ND_SHARED_METHOD_DIFFERENT_SCOPE",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "relation": "ND_SPECIALIZES",
+      "passed": true,
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "relation": "ND_TEX_INCLUDES",
+      "passed": true,
+      "actual": 97,
+      "expected": 97
+    },
+    {
+      "relation": "OBSERVED_COHORT_COUNT_DISCREPANCY",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "OFFICIAL_SUPPLEMENT",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "ONE_ADDITIONAL_96_HOUR_OUTLIER_EXCLUSION",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "OPEN_NUMERICAL_DISCREPANCY",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "OPERATIONALIZES_EARLIER_GUIDANCE",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "ORIGINAL_COUNTS_NEEDED",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "ORIGINAL_DATA_REQUIRED_PROPORTION_PARITY_OPEN",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "ORIGINAL_RECORDS_REQUIRED_TABLE_INCONSISTENCY_OPEN",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "PARTIAL_DATA_OVERLAP_NOT_INDEPENDENT",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "relation": "PASS2_EVIDENCE_BOUNDARY",
+      "passed": true,
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "relation": "PASS2_SCOPED_INSPECTION",
+      "passed": true,
+      "actual": 20,
+      "expected": 20
+    },
+    {
+      "relation": "PASS4_SCOPED_PRIMARY_LINK",
+      "passed": true,
+      "actual": 40,
+      "expected": 40
+    },
+    {
+      "relation": "PASS5_SCOPED_PRIMARY_RELEVANT_TO_CHAPTER",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "relation": "PASS6_SOURCE_VERIFICATION_RELEVANCE",
+      "passed": true,
+      "actual": 9,
+      "expected": 9
+    },
+    {
+      "relation": "PIN_MANUSCRIPT_SAMPLE_VERSION_BEFORE_QUANTITATIVE_COMPARISON",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "POTENTIALLY_OVERLAPPING_STUDY_POPULATIONS",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "PRACTICED_BY",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "relation": "PRIMARY_STREAM",
+      "passed": true,
+      "actual": 357,
+      "expected": 357
+    },
+    {
+      "relation": "PRINTED_PROSE_TABLE_SCOPE_INCONSISTENCY",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "PROPOSED_FOR_CHAPTER",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "relation": "PUBLICATION_TABLE_PARITY_UNCHECKED",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "PUBLISHED_ARITHMETIC_RECHECK_NOT_RAW_REPLICATION",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "QUALIFIED_IN_APPENDIX_B",
+      "passed": true,
+      "actual": 75,
+      "expected": 75
+    },
+    {
+      "relation": "QUALIFIED_IN_CURRENT_EDITION",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "QUALIFIED_IN_MANUSCRIPT",
+      "passed": true,
+      "actual": 31,
+      "expected": 31
+    },
+    {
+      "relation": "QUALIFIES_AGENT_BENCHMARK",
+      "passed": true,
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "relation": "QUALIFIES_CHAPTER",
+      "passed": true,
+      "actual": 21,
+      "expected": 21
+    },
+    {
+      "relation": "QUALIFIES_ECONOMIC_EVIDENCE",
+      "passed": true,
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "relation": "QUALIFIES_POLICY_SURVEY",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "relation": "QUALIFIES_PRIOR_REPORTING",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "QUALIFIES_PRODUCTIVITY_EVIDENCE",
+      "passed": true,
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "relation": "QUALIFIES_RETENTION_BASELINE_CLAIM",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "QUALIFIES_SOURCE_INTERPRETATION",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "QUALIFIES_SOURCE_SAMPLE_CLAIM",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "RAW_ESTIMAND_NEEDED",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "READER_REVISION_OF",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "RECOMMENDS_READING",
+      "passed": true,
+      "actual": 17,
+      "expected": 17
+    },
+    {
+      "relation": "RECRUITS_FOR_SOURCE_DATA",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "REFINES_PRACTITIONER_HEURISTIC",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "REMAINS_HYPOTHESIS_NOT_CORRECTION",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "REPLICATION_ACCESS_UNAVAILABLE",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "REPORTED_AGGREGATE_SUPPORTS_ARITHMETIC_CHECK",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "REPORTS",
+      "passed": true,
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "relation": "REPORTS_CLASSIFICATION_METHOD",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "relation": "REPORTS_COHORT",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "relation": "REPORTS_EXISTING_RESEARCH",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "REPORTS_INFERENCE_NOT_REPLICATED",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "REPORTS_ORIGINAL_FINDING",
+      "passed": true,
+      "actual": 13,
+      "expected": 13
+    },
+    {
+      "relation": "REPORTS_TABLE",
+      "passed": true,
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "relation": "REQUIRES_CATEGORICAL_MICRODATA",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "RESOLVED_DENOMINATOR_CLARIFICATION",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "REUSES_DATASET",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "REUSES_INTERVIEW_MATERIAL",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "REUSES_REPORTED_CASE",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "REUSES_STUDY_NOT_INDEPENDENT_REPLICATION",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "REVISES_EARLIER_ADVICE",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "REVISITS_SAME_REPORTED_INCIDENT",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "SAMPLE_AND_ESTIMATES_CHANGED",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "SAMPLE_COUNT_VERSION_DISCREPANCY",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "SCALE_UP_CONCEPT",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "SCOPED_CITATION_RESOLVED_EXTERNAL_DISCREPANCY_OPEN",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "SCOPED_SUBTASK_COHORT_EXCLUSION_REASON_CLOSED",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "SCOPE_VERIFIED",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "relation": "SECONDARY_ACCOUNT_OF_EXISTING_RESEARCH",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "SECONDARY_STREAM",
+      "passed": true,
+      "actual": 259,
+      "expected": 259
+    },
+    {
+      "relation": "SHARED_DATASET",
+      "passed": true,
+      "actual": 11,
+      "expected": 11
+    },
+    {
+      "relation": "SHARES_AIDEV_BASE_CORPUS",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "SHARES_REPORTED_EVENT_CONTEXT",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "SHARES_RESEARCHER_AND_DID_APPROACH",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "SOURCE_ATTRIBUTION_FOR_RENDITION",
+      "passed": true,
+      "actual": 27,
+      "expected": 27
+    },
+    {
+      "relation": "SOURCE_DEPENDENCY_CONTEXT",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "relation": "SOURCE_INACCESSIBLE",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "STILL_TRACKS_RESEARCH_VERIFICATION",
+      "passed": true,
+      "actual": 9,
+      "expected": 9
+    },
+    {
+      "relation": "SUBSEQUENT_PUBLISHED_TITLE_DESIGN_LABEL",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "SUPERSEDED_BY_DIFFERENT_BENCHMARK",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "SUPPORTS_CLAIM_AT_RECORDED_DEPTH",
+      "passed": true,
+      "actual": 9,
+      "expected": 9
+    },
+    {
+      "relation": "SUPPORTS_SCOPED_CLAIM",
+      "passed": true,
+      "actual": 14,
+      "expected": 14
+    },
+    {
+      "relation": "SUPPORTS_SOURCE_SCOPED_CLAIM",
+      "passed": true,
+      "actual": 32,
+      "expected": 32
+    },
+    {
+      "relation": "SUPPORTS_VERSION_SCOPED_CLAIM",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "relation": "SYNTHESIZES_PRIOR_REPORTING",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "relation": "THEORETICAL_FORMULATION_REVISED",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "TRACKS_AUDIT_CLAIM",
+      "passed": true,
+      "actual": 44,
+      "expected": 44
+    },
+    {
+      "relation": "TRACKS_CLAIM_NO_PREMATURE_CLOSURE",
+      "passed": true,
+      "actual": 14,
+      "expected": 14
+    },
+    {
+      "relation": "TRACKS_OPEN_SOURCE_ISSUE",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "TRACKS_VERSION_DISCREPANCY",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "relation": "UPDATES_PRIOR_REPORTING",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "USES_SHARED_SOURCE_DATA",
+      "passed": true,
+      "actual": 14,
+      "expected": 14
+    },
+    {
+      "relation": "V10_ADAPTED_IN_TEXT",
+      "passed": true,
+      "actual": 72,
+      "expected": 72
+    },
+    {
+      "relation": "V10_CATALOGUED_IN_VOLUME",
+      "passed": true,
+      "actual": 84,
+      "expected": 84
+    },
+    {
+      "relation": "V10_CHAPTER_IN_VOLUME",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "relation": "V10_CLASSIFIED_IN_FAMILY",
+      "passed": true,
+      "actual": 84,
+      "expected": 84
+    },
+    {
+      "relation": "V10_DESCRIBES_RECONCILED_PRACTICE",
+      "passed": true,
+      "actual": 87,
+      "expected": 87
+    },
+    {
+      "relation": "V10_EDITION_OF",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "V10_EDITORIAL_RELATION",
+      "passed": true,
+      "actual": 14,
+      "expected": 14
+    },
+    {
+      "relation": "V10_EXPLICIT_SOURCE_USE",
+      "passed": true,
+      "actual": 416,
+      "expected": 416
+    },
+    {
+      "relation": "V10_FAMILY_HOME",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "relation": "V10_FILE_IN_CHAPTER",
+      "passed": true,
+      "actual": 84,
+      "expected": 84
+    },
+    {
+      "relation": "V10_FILE_IN_VOLUME",
+      "passed": true,
+      "actual": 120,
+      "expected": 120
+    },
+    {
+      "relation": "V10_OCCURRENCE_IN_FILE",
+      "passed": true,
+      "actual": 87,
+      "expected": 87
+    },
+    {
+      "relation": "V10_OCCURRENCE_IN_VOLUME",
+      "passed": true,
+      "actual": 87,
+      "expected": 87
+    },
+    {
+      "relation": "V10_PASSAGE_IN_FILE",
+      "passed": true,
+      "actual": 230,
+      "expected": 230
+    },
+    {
+      "relation": "V10_PRIMARY_THEME_CLASSIFICATION",
+      "passed": true,
+      "actual": 25,
+      "expected": 25
+    },
+    {
+      "relation": "V10_SAME_PRACTICE_LINEAGE",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "relation": "V10_THEME_CLASSIFICATION",
+      "passed": true,
+      "actual": 177,
+      "expected": 177
+    },
+    {
+      "relation": "V10_TOPIC_CLASSIFICATION",
+      "passed": true,
+      "actual": 277,
+      "expected": 277
+    },
+    {
+      "relation": "V11_ACTIVE_SOURCE_IN_EDITION",
+      "passed": true,
+      "actual": 123,
+      "expected": 123
+    },
+    {
+      "relation": "V11_CHAPTER_IN_EDITION",
+      "passed": true,
+      "actual": 13,
+      "expected": 13
+    },
+    {
+      "relation": "V11_EDITION_OF",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "V11_EXPLICIT_PREVIOUS_CHAPTER_REFERENCE",
+      "passed": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "relation": "V11_FILE_IN_APPENDICES",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "relation": "V11_FILE_IN_CHAPTER",
+      "passed": true,
+      "actual": 89,
+      "expected": 89
+    },
+    {
+      "relation": "V11_INDEXED_IN_SYNTHESIS",
+      "passed": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "relation": "V11_LITERAL_CITATION",
+      "passed": true,
+      "actual": 422,
+      "expected": 422
+    },
+    {
+      "relation": "V11_PRACTICE_CATALOGUE_NAVIGATION",
+      "passed": true,
+      "actual": 84,
+      "expected": 84
+    },
+    {
+      "relation": "V11_PRACTICE_CURRENT_TEXT_LOCATOR",
+      "passed": true,
+      "actual": 72,
+      "expected": 72
+    },
+    {
+      "relation": "V11_PROMOTED_FROM_APPENDIX",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "V11_PUBLICATION_IDENTIFIES_SOURCE_VOLUME",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "relation": "V11_REVISES_EDITION",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "V11_REVISES_SOURCE_FILE",
+      "passed": true,
+      "actual": 118,
+      "expected": 118
+    },
+    {
+      "relation": "V11_SOURCE_FILE_IN_IDENTIFIED_BOOK",
+      "passed": true,
+      "actual": 111,
+      "expected": 111
+    },
+    {
+      "relation": "V11_SYNTHESIS_THEME",
+      "passed": true,
+      "actual": 9,
+      "expected": 9
+    },
+    {
+      "relation": "VERSION_OF",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "relation": "VISUAL_REVISION_OF",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "alternative causal mechanism",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "analogy with different domain",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "apparent hiring tension",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "apparently conflicting measurements",
+      "passed": true,
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "relation": "assumption challenge",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "bounded alternative",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "capability-to-externality link",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "causal timing caution",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "claims require measurement",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "complementary attack surfaces",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "complementary memory patterns",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "complementary memory representations",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "complementary research agenda",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "complementary supply-chain risks",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "concept and measured learning",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "context-dependent tension",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "relation": "controlled study comparison",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "convergent benchmark findings",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "convergent finding",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "relation": "convergent review usefulness",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "country-method tension",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "cross-domain convergence",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "design response to prior evidence",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "different evaluation endpoint",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "relation": "distinct merge endpoints",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "empirical challenge to vision",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "empirical test of theory",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "financial model versus measured cost",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "governance taxonomy and prevalence",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "historical capability extension",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "historical convergence",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "independent oracle lesson",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "inferred_topic_similarity",
+      "passed": true,
+      "actual": 637,
+      "expected": 637
+    },
+    {
+      "relation": "limits model independence",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "methodological refinement",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "metric validity challenge",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "mitigation to threat",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "multi-country convergence",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "observational convergence",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "observational evaluation of practice",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "outcome proxy triangulation",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "partial replication with changed metric",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "process-constrained agent convergence",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "qualitative and empirical complement",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "repeated measurement with shifts",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "replication",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "replication and temporal update",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "replication with disagreement",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "relation": "same research substrate",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "relation": "temporal refinement",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    }
+  ],
+  "graphNodes": 1931,
+  "graphEdges": 13615,
+  "graphRelations": 309,
+  "dynamicSourceCounts": {
+    "B": 111,
+    "F": 35,
+    "N": 13,
+    "O": 51,
+    "P": 124,
+    "PAT": 84,
+    "W": 193
+  },
+  "checks": [
+    {
+      "check": "Every selected new or revised source ID exists",
+      "passed": true,
+      "detail": [
+        "O051",
+        "P124",
+        "F035"
+      ]
+    },
+    {
+      "check": "NDSE2 chapters follow the supplied manuscript metadata",
+      "passed": true,
+      "detail": {
+        "B": 111,
+        "F": 35,
+        "N": 13,
+        "O": 51,
+        "P": 124,
+        "PAT": 84,
+        "W": 193
+      }
+    },
+    {
+      "check": "Baseline defaultState code is unchanged",
+      "passed": true
+    },
+    {
+      "check": "Every graph source collection has a static catalogue",
+      "passed": true,
+      "detail": {
+        "W": "polimi",
+        "O": "osmani",
+        "P": "pragmatic-engineer",
+        "F": "fowler",
+        "B": "books",
+        "N": "ndse2",
+        "PAT": "practices"
+      }
+    },
+    {
+      "check": "Relationship metadata covers the exact graph relation set",
+      "passed": true
+    },
+    {
+      "check": "Local page index.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "Landing title identifies the Knowledge Atlas",
+      "passed": true
+    },
+    {
+      "check": "Landing B count follows graph data",
+      "passed": true
+    },
+    {
+      "check": "Landing F count follows graph data",
+      "passed": true
+    },
+    {
+      "check": "Landing N count follows graph data",
+      "passed": true
+    },
+    {
+      "check": "Landing O count follows graph data",
+      "passed": true
+    },
+    {
+      "check": "Landing P count follows graph data",
+      "passed": true
+    },
+    {
+      "check": "Landing PAT count follows graph data",
+      "passed": true
+    },
+    {
+      "check": "Landing W count follows graph data",
+      "passed": true
+    },
+    {
+      "check": "Desktop home image loads",
+      "passed": true
+    },
+    {
+      "check": "Desktop home has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page catalogues/polimi.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "polimi renders the dynamic record count",
+      "passed": true,
+      "detail": 193
+    },
+    {
+      "check": "polimi search includes its named record",
+      "passed": true
+    },
+    {
+      "check": "polimi empty state works",
+      "passed": true
+    },
+    {
+      "check": "polimi clear restores all records",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/osmani.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "osmani renders the dynamic record count",
+      "passed": true,
+      "detail": 51
+    },
+    {
+      "check": "osmani search includes its named record",
+      "passed": true
+    },
+    {
+      "check": "osmani empty state works",
+      "passed": true
+    },
+    {
+      "check": "osmani clear restores all records",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/pragmatic-engineer.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "pragmatic-engineer renders the dynamic record count",
+      "passed": true,
+      "detail": 124
+    },
+    {
+      "check": "pragmatic-engineer search includes its named record",
+      "passed": true
+    },
+    {
+      "check": "pragmatic-engineer empty state works",
+      "passed": true
+    },
+    {
+      "check": "pragmatic-engineer clear restores all records",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/fowler.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "fowler renders the dynamic record count",
+      "passed": true,
+      "detail": 35
+    },
+    {
+      "check": "fowler search includes its named record",
+      "passed": true
+    },
+    {
+      "check": "fowler empty state works",
+      "passed": true
+    },
+    {
+      "check": "fowler clear restores all records",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/books.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "books renders the dynamic record count",
+      "passed": true,
+      "detail": 111
+    },
+    {
+      "check": "books search includes its named record",
+      "passed": true
+    },
+    {
+      "check": "books empty state works",
+      "passed": true
+    },
+    {
+      "check": "books clear restores all records",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "ndse2 renders the dynamic record count",
+      "passed": true,
+      "detail": 13
+    },
+    {
+      "check": "ndse2 search includes its named record",
+      "passed": true
+    },
+    {
+      "check": "ndse2 empty state works",
+      "passed": true
+    },
+    {
+      "check": "ndse2 clear restores all records",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/practices.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "practices renders the dynamic record count",
+      "passed": true,
+      "detail": 84
+    },
+    {
+      "check": "practices search includes its named record",
+      "passed": true
+    },
+    {
+      "check": "practices empty state works",
+      "passed": true
+    },
+    {
+      "check": "practices clear restores all records",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/occurrences.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "occurrences renders the dynamic record count",
+      "passed": true,
+      "detail": 87
+    },
+    {
+      "check": "occurrences search includes its named record",
+      "passed": true
+    },
+    {
+      "check": "occurrences empty state works",
+      "passed": true
+    },
+    {
+      "check": "occurrences clear restores all records",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/practices.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "All English practice guides render complete operational content and correct Atlas links",
+      "passed": true,
+      "detail": {
+        "practices": 84,
+        "errors": []
+      }
+    },
+    {
+      "check": "Every practice-family catalogue filter selects its exact members",
+      "passed": true,
+      "detail": {
+        "families": 12,
+        "errors": []
+      }
+    },
+    {
+      "check": "Practice search includes operational details inside the expanded guide",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/practices.html#PAT%3A001",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "Local page catalogues/practices.html#PAT%3A001",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "PAT:001 direct catalogue entry expands its operational guide",
+      "passed": true
+    },
+    {
+      "check": "PAT:001 catalogue-to-Atlas opens PAT with complete guidance",
+      "passed": true
+    },
+    {
+      "check": "PAT:001 complete inspector fits the viewport and wraps its content",
+      "passed": true,
+      "detail": {
+        "left": 1090,
+        "right": 1440,
+        "viewport": 1440,
+        "bodyWidth": 349,
+        "bodyScrollWidth": 349
+      }
+    },
+    {
+      "check": "PAT:001 inspector has a permanent catalogue return link",
+      "passed": true
+    },
+    {
+      "check": "PAT:001 Atlas-to-catalogue returns to the expanded entry",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/practices.html#PAT%3A084",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "PAT:084 direct catalogue entry expands its operational guide",
+      "passed": true
+    },
+    {
+      "check": "PAT:084 catalogue-to-Atlas opens PAT with complete guidance",
+      "passed": true
+    },
+    {
+      "check": "PAT:084 complete inspector fits the viewport and wraps its content",
+      "passed": true,
+      "detail": {
+        "left": 1090,
+        "right": 1440,
+        "viewport": 1440,
+        "bodyWidth": 349,
+        "bodyScrollWidth": 349
+      }
+    },
+    {
+      "check": "PAT:084 inspector has a permanent catalogue return link",
+      "passed": true
+    },
+    {
+      "check": "PAT:084 Atlas-to-catalogue returns to the expanded entry",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/practices.html#PAT%3A045",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "PAT:045 direct catalogue entry expands its operational guide",
+      "passed": true
+    },
+    {
+      "check": "PAT:045 catalogue-to-Atlas opens PAT with complete guidance",
+      "passed": true
+    },
+    {
+      "check": "PAT:045 complete inspector fits the viewport and wraps its content",
+      "passed": true,
+      "detail": {
+        "left": 1090,
+        "right": 1440,
+        "viewport": 1440,
+        "bodyWidth": 349,
+        "bodyScrollWidth": 349
+      }
+    },
+    {
+      "check": "PAT:045 inspector has a permanent catalogue return link",
+      "passed": true
+    },
+    {
+      "check": "PAT:045 Atlas-to-catalogue returns to the expanded entry",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/practices.html#PAT%3A059",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "PAT:059 direct catalogue entry expands its operational guide",
+      "passed": true
+    },
+    {
+      "check": "PAT:059 catalogue-to-Atlas opens PAT with complete guidance",
+      "passed": true
+    },
+    {
+      "check": "PAT:059 complete inspector fits the viewport and wraps its content",
+      "passed": true,
+      "detail": {
+        "left": 1090,
+        "right": 1440,
+        "viewport": 1440,
+        "bodyWidth": 349,
+        "bodyScrollWidth": 349
+      }
+    },
+    {
+      "check": "PAT:059 inspector has a permanent catalogue return link",
+      "passed": true
+    },
+    {
+      "check": "PAT:059 Atlas-to-catalogue returns to the expanded entry",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/practices.html#PAT%3A005",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "PAT:005 direct catalogue entry expands its operational guide",
+      "passed": true
+    },
+    {
+      "check": "PAT:005 catalogue-to-Atlas opens PAT with complete guidance",
+      "passed": true
+    },
+    {
+      "check": "PAT:005 complete inspector fits the viewport and wraps its content",
+      "passed": true,
+      "detail": {
+        "left": 1090,
+        "right": 1440,
+        "viewport": 1440,
+        "bodyWidth": 349,
+        "bodyScrollWidth": 349
+      }
+    },
+    {
+      "check": "PAT:005 inspector has a permanent catalogue return link",
+      "passed": true
+    },
+    {
+      "check": "PAT:005 Atlas-to-catalogue returns to the expanded entry",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/practices.html#PAT%3A002",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "PAT:002 direct catalogue entry expands its operational guide",
+      "passed": true
+    },
+    {
+      "check": "PAT:002 catalogue-to-Atlas opens PAT with complete guidance",
+      "passed": true
+    },
+    {
+      "check": "PAT:002 complete inspector fits the viewport and wraps its content",
+      "passed": true,
+      "detail": {
+        "left": 1090,
+        "right": 1440,
+        "viewport": 1440,
+        "bodyWidth": 349,
+        "bodyScrollWidth": 349
+      }
+    },
+    {
+      "check": "PAT:002 inspector has a permanent catalogue return link",
+      "passed": true
+    },
+    {
+      "check": "PAT:002 Atlas-to-catalogue returns to the expanded entry",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/practices.html#PAT%3A017",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "PAT:017 direct catalogue entry expands its operational guide",
+      "passed": true
+    },
+    {
+      "check": "PAT:017 catalogue-to-Atlas opens PAT with complete guidance",
+      "passed": true
+    },
+    {
+      "check": "PAT:017 complete inspector fits the viewport and wraps its content",
+      "passed": true,
+      "detail": {
+        "left": 1090,
+        "right": 1440,
+        "viewport": 1440,
+        "bodyWidth": 349,
+        "bodyScrollWidth": 349
+      }
+    },
+    {
+      "check": "PAT:017 inspector has a permanent catalogue return link",
+      "passed": true
+    },
+    {
+      "check": "PAT:017 Atlas-to-catalogue returns to the expanded entry",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/practices.html#PAT%3A014",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "PAT:014 direct catalogue entry expands its operational guide",
+      "passed": true
+    },
+    {
+      "check": "PAT:014 catalogue-to-Atlas opens PAT with complete guidance",
+      "passed": true
+    },
+    {
+      "check": "PAT:014 complete inspector fits the viewport and wraps its content",
+      "passed": true,
+      "detail": {
+        "left": 1090,
+        "right": 1440,
+        "viewport": 1440,
+        "bodyWidth": 349,
+        "bodyScrollWidth": 349
+      }
+    },
+    {
+      "check": "PAT:014 inspector has a permanent catalogue return link",
+      "passed": true
+    },
+    {
+      "check": "PAT:014 Atlas-to-catalogue returns to the expanded entry",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/practices.html#PAT%3A010",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "PAT:010 direct catalogue entry expands its operational guide",
+      "passed": true
+    },
+    {
+      "check": "PAT:010 catalogue-to-Atlas opens PAT with complete guidance",
+      "passed": true
+    },
+    {
+      "check": "PAT:010 complete inspector fits the viewport and wraps its content",
+      "passed": true,
+      "detail": {
+        "left": 1090,
+        "right": 1440,
+        "viewport": 1440,
+        "bodyWidth": 349,
+        "bodyScrollWidth": 349
+      }
+    },
+    {
+      "check": "PAT:010 inspector has a permanent catalogue return link",
+      "passed": true
+    },
+    {
+      "check": "PAT:010 Atlas-to-catalogue returns to the expanded entry",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/practices.html#PAT%3A006",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "PAT:006 direct catalogue entry expands its operational guide",
+      "passed": true
+    },
+    {
+      "check": "PAT:006 catalogue-to-Atlas opens PAT with complete guidance",
+      "passed": true
+    },
+    {
+      "check": "PAT:006 complete inspector fits the viewport and wraps its content",
+      "passed": true,
+      "detail": {
+        "left": 1090,
+        "right": 1440,
+        "viewport": 1440,
+        "bodyWidth": 349,
+        "bodyScrollWidth": 349
+      }
+    },
+    {
+      "check": "PAT:006 inspector has a permanent catalogue return link",
+      "passed": true
+    },
+    {
+      "check": "PAT:006 Atlas-to-catalogue returns to the expanded entry",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/practices.html#PAT%3A012",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "PAT:012 direct catalogue entry expands its operational guide",
+      "passed": true
+    },
+    {
+      "check": "PAT:012 catalogue-to-Atlas opens PAT with complete guidance",
+      "passed": true
+    },
+    {
+      "check": "PAT:012 complete inspector fits the viewport and wraps its content",
+      "passed": true,
+      "detail": {
+        "left": 1090,
+        "right": 1440,
+        "viewport": 1440,
+        "bodyWidth": 349,
+        "bodyScrollWidth": 349
+      }
+    },
+    {
+      "check": "PAT:012 inspector has a permanent catalogue return link",
+      "passed": true
+    },
+    {
+      "check": "PAT:012 Atlas-to-catalogue returns to the expanded entry",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/practices.html#PAT%3A003",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "PAT:003 direct catalogue entry expands its operational guide",
+      "passed": true
+    },
+    {
+      "check": "PAT:003 catalogue-to-Atlas opens PAT with complete guidance",
+      "passed": true
+    },
+    {
+      "check": "PAT:003 complete inspector fits the viewport and wraps its content",
+      "passed": true,
+      "detail": {
+        "left": 1090,
+        "right": 1440,
+        "viewport": 1440,
+        "bodyWidth": 349,
+        "bodyScrollWidth": 349
+      }
+    },
+    {
+      "check": "PAT:003 inspector has a permanent catalogue return link",
+      "passed": true
+    },
+    {
+      "check": "PAT:003 Atlas-to-catalogue returns to the expanded entry",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/practices.html#PAT%3A033",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "PAT:033 direct catalogue entry expands its operational guide",
+      "passed": true
+    },
+    {
+      "check": "PAT:033 catalogue-to-Atlas opens PAT with complete guidance",
+      "passed": true
+    },
+    {
+      "check": "PAT:033 complete inspector fits the viewport and wraps its content",
+      "passed": true,
+      "detail": {
+        "left": 1090,
+        "right": 1440,
+        "viewport": 1440,
+        "bodyWidth": 349,
+        "bodyScrollWidth": 349
+      }
+    },
+    {
+      "check": "PAT:033 inspector has a permanent catalogue return link",
+      "passed": true
+    },
+    {
+      "check": "PAT:033 Atlas-to-catalogue returns to the expanded entry",
+      "passed": true
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html?node=PAT%3A001",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "Legacy practice node-only links now select the PAT collection",
+      "passed": true
+    },
+    {
+      "check": "Practices preset selects all descriptors in family view",
+      "passed": true
+    },
+    {
+      "check": "FAMILY:F01 Atlas family filter selects exact practice members",
+      "passed": true
+    },
+    {
+      "check": "FAMILY:F02 Atlas family filter selects exact practice members",
+      "passed": true
+    },
+    {
+      "check": "FAMILY:F03 Atlas family filter selects exact practice members",
+      "passed": true
+    },
+    {
+      "check": "FAMILY:F04 Atlas family filter selects exact practice members",
+      "passed": true
+    },
+    {
+      "check": "FAMILY:F05 Atlas family filter selects exact practice members",
+      "passed": true
+    },
+    {
+      "check": "FAMILY:F06 Atlas family filter selects exact practice members",
+      "passed": true
+    },
+    {
+      "check": "FAMILY:F07 Atlas family filter selects exact practice members",
+      "passed": true
+    },
+    {
+      "check": "FAMILY:F08 Atlas family filter selects exact practice members",
+      "passed": true
+    },
+    {
+      "check": "FAMILY:F09 Atlas family filter selects exact practice members",
+      "passed": true
+    },
+    {
+      "check": "FAMILY:F10 Atlas family filter selects exact practice members",
+      "passed": true
+    },
+    {
+      "check": "FAMILY:F11 Atlas family filter selects exact practice members",
+      "passed": true
+    },
+    {
+      "check": "FAMILY:F12 Atlas family filter selects exact practice members",
+      "passed": true
+    },
+    {
+      "check": "Reset from the Practices collection restores the exact Polimi view",
+      "passed": true
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "Bare atlas preserves baseline W sources and visible edges",
+      "passed": true,
+      "detail": {
+        "sources": 193,
+        "context": 0,
+        "edges": 64
+      }
+    },
+    {
+      "check": "Bare atlas preserves exact W IDs",
+      "passed": true
+    },
+    {
+      "check": "Bare atlas preserves exact original edge IDs",
+      "passed": true
+    },
+    {
+      "check": "Atlas diagnostics report current totals",
+      "passed": true,
+      "detail": {
+        "nodes": 1931,
+        "edges": 13615,
+        "relationships": 309
+      }
+    },
+    {
+      "check": "Every current relation has a switch",
+      "passed": true
+    },
+    {
+      "check": "B source-control label shows the current total",
+      "passed": true
+    },
+    {
+      "check": "F source-control label shows the current total",
+      "passed": true
+    },
+    {
+      "check": "N source-control label shows the current total",
+      "passed": true
+    },
+    {
+      "check": "O source-control label shows the current total",
+      "passed": true
+    },
+    {
+      "check": "P source-control label shows the current total",
+      "passed": true
+    },
+    {
+      "check": "PAT source-control label shows the current total",
+      "passed": true
+    },
+    {
+      "check": "W source-control label shows the current total",
+      "passed": true
+    },
+    {
+      "check": "NDSE2 preset shows exactly the supplied chapter records",
+      "passed": true,
+      "detail": {
+        "actual": 13,
+        "expected": 13,
+        "missing": [],
+        "unexpected": []
+      }
+    },
+    {
+      "check": "NDSE2 canvas hover identifies the chapter and its published provenance",
+      "passed": true,
+      "detail": "NDSE2:C10 · Published NDSE2 chapter\nDeveloper Learning, Mentoring and Comprehension Debt\nEnrico Papalini\nClick to inspect · drag to position"
+    },
+    {
+      "check": "Reset from NDSE2 restores the Polimi-only preset",
+      "passed": true
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html?collection=B",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "B collection deep link selects exact current records",
+      "passed": true,
+      "detail": {
+        "actual": 111,
+        "expected": 111,
+        "missing": [],
+        "unexpected": []
+      }
+    },
+    {
+      "check": "B diagnostics expose its dynamic count",
+      "passed": true,
+      "detail": {
+        "W": 0,
+        "O": 0,
+        "P": 0,
+        "B": 111,
+        "PAT": 0,
+        "F": 0,
+        "N": 0
+      }
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html?collection=F",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "F collection deep link selects exact current records",
+      "passed": true,
+      "detail": {
+        "actual": 35,
+        "expected": 35,
+        "missing": [],
+        "unexpected": []
+      }
+    },
+    {
+      "check": "F diagnostics expose its dynamic count",
+      "passed": true,
+      "detail": {
+        "W": 0,
+        "O": 0,
+        "P": 0,
+        "B": 0,
+        "PAT": 0,
+        "F": 35,
+        "N": 0
+      }
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html?collection=N",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "N collection deep link selects exact current records",
+      "passed": true,
+      "detail": {
+        "actual": 13,
+        "expected": 13,
+        "missing": [],
+        "unexpected": []
+      }
+    },
+    {
+      "check": "N diagnostics expose its dynamic count",
+      "passed": true,
+      "detail": {
+        "W": 0,
+        "O": 0,
+        "P": 0,
+        "B": 0,
+        "PAT": 0,
+        "F": 0,
+        "N": 13
+      }
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html?collection=O",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "O collection deep link selects exact current records",
+      "passed": true,
+      "detail": {
+        "actual": 51,
+        "expected": 51,
+        "missing": [],
+        "unexpected": []
+      }
+    },
+    {
+      "check": "O diagnostics expose its dynamic count",
+      "passed": true,
+      "detail": {
+        "W": 0,
+        "O": 51,
+        "P": 0,
+        "B": 0,
+        "PAT": 0,
+        "F": 0,
+        "N": 0
+      }
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html?collection=P",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "P collection deep link selects exact current records",
+      "passed": true,
+      "detail": {
+        "actual": 124,
+        "expected": 124,
+        "missing": [],
+        "unexpected": []
+      }
+    },
+    {
+      "check": "P diagnostics expose its dynamic count",
+      "passed": true,
+      "detail": {
+        "W": 0,
+        "O": 0,
+        "P": 124,
+        "B": 0,
+        "PAT": 0,
+        "F": 0,
+        "N": 0
+      }
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html?collection=PAT",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "PAT collection deep link selects exact current records",
+      "passed": true,
+      "detail": {
+        "actual": 84,
+        "expected": 84,
+        "missing": [],
+        "unexpected": []
+      }
+    },
+    {
+      "check": "PAT diagnostics expose its dynamic count",
+      "passed": true,
+      "detail": {
+        "W": 0,
+        "O": 0,
+        "P": 0,
+        "B": 0,
+        "PAT": 84,
+        "F": 0,
+        "N": 0
+      }
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html?collection=W",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "W collection deep link selects exact current records",
+      "passed": true,
+      "detail": {
+        "actual": 193,
+        "expected": 193,
+        "missing": [],
+        "unexpected": []
+      }
+    },
+    {
+      "check": "W diagnostics expose its dynamic count",
+      "passed": true,
+      "detail": {
+        "W": 193,
+        "O": 0,
+        "P": 0,
+        "B": 0,
+        "PAT": 0,
+        "F": 0,
+        "N": 0
+      }
+    },
+    {
+      "check": "Local page catalogues/osmani.html#O051",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "O051 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "O051 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "O051 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "O051 real static-to-graph navigation selects the record",
+      "passed": true
+    },
+    {
+      "check": "O051 inspector links back to static record",
+      "passed": true
+    },
+    {
+      "check": "O051 real graph-to-static navigation retains the anchor",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/pragmatic-engineer.html#P124",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "P124 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "P124 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "P124 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "P124 real static-to-graph navigation selects the record",
+      "passed": true
+    },
+    {
+      "check": "P124 inspector links back to static record",
+      "passed": true
+    },
+    {
+      "check": "P124 real graph-to-static navigation retains the anchor",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/fowler.html#F035",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "F035 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "F035 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "F035 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "F035 real static-to-graph navigation selects the record",
+      "passed": true
+    },
+    {
+      "check": "F035 inspector links back to static record",
+      "passed": true
+    },
+    {
+      "check": "F035 real graph-to-static navigation retains the anchor",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC01",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "NDSE2:C01 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C01 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C01 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C01 real static-to-graph navigation selects the record",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C01 inspector links back to static record",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C01 real graph-to-static navigation retains the anchor",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC02",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "NDSE2:C02 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C02 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C02 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC03",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "NDSE2:C03 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C03 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C03 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC04",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "NDSE2:C04 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C04 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C04 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC05",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "NDSE2:C05 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C05 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C05 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC06",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "NDSE2:C06 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C06 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C06 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC07",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "NDSE2:C07 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C07 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C07 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC08",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "NDSE2:C08 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C08 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C08 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC09",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "NDSE2:C09 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C09 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C09 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC10",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "NDSE2:C10 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C10 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C10 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC11",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "NDSE2:C11 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C11 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C11 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC12",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "NDSE2:C12 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C12 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C12 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC13",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "NDSE2:C13 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C13 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C13 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C13 real static-to-graph navigation selects the record",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C13 inspector links back to static record",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C13 real graph-to-static navigation retains the anchor",
+      "passed": true
+    },
+    {
+      "check": "Current citation layer has a chapter with source citations",
+      "passed": true
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html?collection=B,F,O,P,W&grouping=chapter",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "Actual-citation UI selects exactly current chapter citations",
+      "passed": true,
+      "detail": {
+        "actual": 12,
+        "expected": 12,
+        "missing": [],
+        "unexpected": []
+      }
+    },
+    {
+      "check": "Actual-citation control no longer describes the historical v11 layer",
+      "passed": true,
+      "detail": "Actual citations · published NDSE2"
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html?collection=B,F,O,P,W&grouping=chapter&group=C%3AC01&chapterBasis=actual",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "Actual-citation deep link preserves the selected basis and exact records",
+      "passed": true,
+      "detail": {
+        "basis": "actual",
+        "actual": 12,
+        "expected": 12,
+        "missing": [],
+        "unexpected": []
+      }
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html?collection=invalid&node=NOT_A_NODE",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "Invalid deep link preserves the original starting view",
+      "passed": true
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "Full graph includes every source and context node",
+      "passed": true,
+      "detail": {
+        "nodes": 1931,
+        "edges": 13615
+      }
+    },
+    {
+      "check": "Every relationship switch exposes exact keyed edges and fully disables them",
+      "passed": true,
+      "detail": {
+        "tested": 309,
+        "failures": []
+      }
+    },
+    {
+      "check": "Reset after all-switch verification restores exact baseline nodes and edges",
+      "passed": true
+    },
+    {
+      "check": "B catalogue is complete without JavaScript",
+      "passed": true
+    },
+    {
+      "check": "F catalogue is complete without JavaScript",
+      "passed": true
+    },
+    {
+      "check": "N catalogue is complete without JavaScript",
+      "passed": true
+    },
+    {
+      "check": "O catalogue is complete without JavaScript",
+      "passed": true
+    },
+    {
+      "check": "P catalogue is complete without JavaScript",
+      "passed": true
+    },
+    {
+      "check": "PAT catalogue is complete without JavaScript",
+      "passed": true
+    },
+    {
+      "check": "W catalogue is complete without JavaScript",
+      "passed": true
+    },
+    {
+      "check": "Local page index.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "1440px responsive layout: index.html",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page catalogues/index.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "1440px responsive layout: catalogues/index.html",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page catalogues/ndse2.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "1440px responsive layout: catalogues/ndse2.html",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page catalogues/chapters.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "1440px responsive layout: catalogues/chapters.html",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page catalogues/fowler.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "1440px responsive layout: catalogues/fowler.html",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page about.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "1440px responsive layout: about.html",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page downloads.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "1440px responsive layout: downloads.html",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page catalogues/practices.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "1440px responsive layout: catalogues/practices.html",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "1440px atlas has no page overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "check": "1440px atlas retains the original preset",
+      "passed": true
+    },
+    {
+      "check": "Local page index.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "390px responsive layout: index.html",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page catalogues/index.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "390px responsive layout: catalogues/index.html",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page catalogues/ndse2.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "390px responsive layout: catalogues/ndse2.html",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page catalogues/chapters.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "390px responsive layout: catalogues/chapters.html",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page catalogues/fowler.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "390px responsive layout: catalogues/fowler.html",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page about.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "390px responsive layout: about.html",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page downloads.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "390px responsive layout: downloads.html",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page catalogues/practices.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "390px responsive layout: catalogues/practices.html",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "390px atlas has no page overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "overflow": false
+      }
+    },
+    {
+      "check": "390px atlas retains the original preset",
+      "passed": true
+    },
+    {
+      "check": "Mobile source controls can be opened",
+      "passed": true
+    },
+    {
+      "check": "Mobile NDSE2 collection control is reachable",
+      "passed": true
+    },
+    {
+      "check": "Mobile backdrop closes source controls",
+      "passed": true
+    },
+    {
+      "check": "The tested site file inventory remains unchanged",
+      "passed": true
+    },
+    {
+      "check": "No unhandled JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "No browser console errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "No failed local resource requests",
+      "passed": true,
+      "detail": {
+        "failedRequests": [],
+        "localHTTPFailures": []
+      }
+    },
+    {
+      "check": "Local site navigation makes no external network requests",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "localHTTPFailures": [],
+  "externalNetworkRequests": [],
+  "fatalError": null
+}
