@@ -1,58 +1,174 @@
 {
-  "site_release": "12.1",
-  "graph_version": "12",
-  "graph_snapshot": "2026-10-13",
-  "release_date": "2026-10-14",
+  "site_release": "13.0",
+  "graph_version": "13",
+  "graph_snapshot": "2026-10-18",
+  "release_date": "2026-10-18",
+  "verification_status": "passed",
+  "baseline": {
+    "archive_name": "Knowledge_Atlas_v12_1_Complete_GitHub_Pages_20261014.zip",
+    "sha256": "128abde74f4b092372e1f6aa0de6e5b71f1cdcb6d0f84a935fe5bd527d99e2cd",
+    "missing_paths": []
+  },
   "source_counts": {
     "W": 193,
-    "O": 50,
-    "P": 123,
-    "F": 33,
-    "B": 111
+    "O": 51,
+    "P": 124,
+    "B": 111,
+    "F": 35,
+    "N": 13
   },
-  "nodes": 1757,
-  "keyed_edges": 12188,
-  "edge_types": 297,
-  "default_view": {
-    "W": 193,
-    "other_sources": 0,
-    "context": 0,
-    "edges": 64
-  },
-  "static_html_pages": 76,
+  "nodes": 1931,
+  "keyed_edges": 13615,
+  "edge_types": 309,
+  "static_html_pages_built": 77,
+  "supplemental_release_pages": 2,
   "group_pages": {
     "streams": 9,
     "topics": 30,
     "chapters": 13,
-    "volumes": 5
+    "volumes": 6
   },
-  "all_catalogue_entries_pre_rendered": true,
-  "source_graph_data_unchanged": true,
-  "photo_source": "Author biography in Non-Deterministic Loop Engineering, PDF277/printed265",
+  "article_additions": [
+    {
+      "id": "O051",
+      "title": "Agentic Verification",
+      "authors": "Addy Osmani",
+      "publication_date": "2026-10-14",
+      "updated_date": null,
+      "url": "https://addyo.substack.com/p/agentic-verification",
+      "manuscript_citation": false
+    },
+    {
+      "id": "F034",
+      "title": "Practitioner Voice",
+      "authors": "Jim Highsmith",
+      "publication_date": "2026-08-19",
+      "updated_date": "2026-10-13",
+      "url": "https://martinfowler.com/articles/practitioner-voice.html",
+      "manuscript_citation": false
+    },
+    {
+      "id": "F035",
+      "title": "When Software Meets Hardware",
+      "authors": "Kuldeep Singh",
+      "publication_date": "2026-10-15",
+      "updated_date": null,
+      "url": "https://martinfowler.com/articles/software-meets-hardware.html",
+      "manuscript_citation": false
+    },
+    {
+      "id": "P124",
+      "title": "Building resilient AI-powered software, and planning for when things go wrong",
+      "authors": "Gergely Orosz (introduction); Sam Newman (excerpts)",
+      "publication_date": "2026-10-13",
+      "updated_date": null,
+      "url": "https://newsletter.pragmaticengineer.com/p/building-resilient-systems",
+      "manuscript_citation": false
+    }
+  ],
+  "ndse2": {
+    "source_version": "13.7.1",
+    "published": true,
+    "publication_confirmation_date": "2026-10-18",
+    "publication_date": null,
+    "isbn": null,
+    "chapters": 13,
+    "section_headings_per_language": 149,
+    "numbered_section_headings": 147,
+    "chapter_citation_occurrences_per_language": 302,
+    "distinct_cited_chapter_sources": 158,
+    "auxiliary_chapter_sources": 1,
+    "chapter_source_pairs": 223,
+    "all_scope_literal_occurrences_both_languages": 882
+  },
+  "all_original_node_ids_retained": true,
+  "all_original_keyed_edges_identical": true,
+  "source_graph_data_unchanged": false,
+  "current_graph_payload_matches_current_source": true,
+  "default_view": {
+    "sources": 193,
+    "context": 0,
+    "edges": 64,
+    "current_browser_verified": true
+  },
   "named_checks": {
+    "graph": {
+      "status": "passed",
+      "current": true,
+      "passed": 6,
+      "failed": 0,
+      "reason": ""
+    },
     "structure": {
-      "passed": 176,
-      "failed": 0
+      "status": "passed",
+      "current": true,
+      "passed": 210,
+      "failed": 0,
+      "reason": ""
     },
     "browser": {
-      "passed": 88,
-      "failed": 0
-    },
-    "visuals": {
-      "passed": 7,
-      "failed": 0
+      "status": "passed",
+      "current": true,
+      "passed": 232,
+      "failed": 0,
+      "reason": ""
     },
     "reproducibility": {
-      "passed": 101,
-      "failed": 0
+      "status": "passed",
+      "current": true,
+      "passed": 115,
+      "failed": 0,
+      "reason": ""
     }
   },
-  "relationship_switches_individually_checked": 297,
-  "local_html_links_and_fragments_checked": 17175,
-  "source_validation_refreshed": false,
-  "hosted_navigation_tested": false,
+  "graph_reconciliation_checks": [
+    {
+      "check": "Current graph counts match static build",
+      "passed": true
+    },
+    {
+      "check": "All original node IDs retained",
+      "passed": true
+    },
+    {
+      "check": "All original keyed edges identical",
+      "passed": true
+    },
+    {
+      "check": "No unresolved literal citations",
+      "passed": true
+    },
+    {
+      "check": "English and Italian chapter source sets align",
+      "passed": true
+    },
+    {
+      "check": "English and Italian chapter occurrence counts align",
+      "passed": true
+    }
+  ],
+  "relationship_switches_individually_checked": 309,
+  "local_html_links_and_fragments_checked": 18680,
+  "source_validation_refreshed": true,
+  "source_review_scope": "Primary metadata and documented accessible passages; no empirical replication",
+  "local_http_navigation_tested": true,
   "github_deployed": false,
   "native_safari_tested": false,
-  "browser_method": "Playwright Chromium; packaged CSS, JavaScript and images inlined for local set_content rendering because administrator policy blocks HTTP navigation",
-  "navigation_test_boundary": "Static path/fragment validation plus the same catalogue URL handler called with explicit parameters; real hosted navigation not exercised"
+  "responsive_viewport_widths_current": [
+    390,
+    1440
+  ],
+  "historical_visual_evidence": {
+    "release": "12.1",
+    "date": "2026-10-14",
+    "files": [
+      "visual_checks.json",
+      "home_desktop.png",
+      "home_tablet.png",
+      "atlas_mobile.png",
+      "catalogue_mobile.png"
+    ],
+    "included_in_current_pass_counts": false
+  },
+  "report_generator_executes_tests": false
 }

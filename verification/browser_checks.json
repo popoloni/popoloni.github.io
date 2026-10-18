@@ -1,446 +1,1240 @@
 {
-  "passed": 88,
+  "started": "2026-10-18T09:08:59.810Z",
+  "finished": "2026-10-18T09:09:28.624Z",
+  "passed": 232,
   "failed": 0,
-  "browser": "Playwright Chromium; packaged CSS, JavaScript and images inlined for local set_content rendering because administrator policy blocks HTTP navigation",
-  "navigation_test_boundary": "Static path/fragment validation plus the same catalogue URL handler called with explicit parameters; real hosted navigation not exercised",
-  "native_safari_tested": false,
-  "github_deployed": false,
+  "complete": true,
+  "browser": "155.0.8059.84",
+  "navigation": "real local HTTP navigation and real DOM controls",
+  "nativeSafariTested": false,
+  "githubDeployed": false,
+  "siteSourceModified": false,
+  "graphHTMLSHA256": "401b923c12e8e5d78c091e11e163aea00c012470418e8ae7026f23589fdcfb58",
+  "graphNodes": 1931,
+  "graphEdges": 13615,
+  "graphRelations": 309,
+  "dynamicSourceCounts": {
+    "B": 111,
+    "F": 35,
+    "N": 13,
+    "O": 51,
+    "P": 124,
+    "W": 193
+  },
   "checks": [
     {
-      "check": "Embedded page index.html",
-      "passed": true,
-      "detail": null
+      "check": "New Orosz, Osmani and Fowler IDs exist",
+      "passed": true
     },
     {
-      "check": "Landing page title",
+      "check": "NDSE2 has exactly 13 N chapter records",
       "passed": true,
-      "detail": null
+      "detail": {
+        "B": 111,
+        "F": 35,
+        "N": 13,
+        "O": 51,
+        "P": 124,
+        "W": 193
+      }
     },
     {
-      "check": "Landing has 5 source catalogue links",
+      "check": "Every graph source collection has a static catalogue",
       "passed": true,
-      "detail": null
+      "detail": {
+        "W": "polimi",
+        "O": "osmani",
+        "P": "pragmatic-engineer",
+        "F": "fowler",
+        "B": "books",
+        "N": "ndse2"
+      }
     },
     {
-      "check": "Landing image loaded",
-      "passed": true,
-      "detail": null
+      "check": "Relationship metadata covers the exact graph relation set",
+      "passed": true
     },
     {
-      "check": "Desktop no horizontal overflow",
+      "check": "Local page index.html",
       "passed": true,
-      "detail": null
+      "detail": 200
     },
     {
-      "check": "Embedded page catalogues/polimi.html",
-      "passed": true,
-      "detail": null
+      "check": "Landing title identifies the Knowledge Atlas",
+      "passed": true
     },
     {
-      "check": "polimi static record count",
-      "passed": true,
-      "detail": null
+      "check": "Landing B count follows graph data",
+      "passed": true
     },
     {
-      "check": "polimi search filters entries",
-      "passed": true,
-      "detail": null
+      "check": "Landing F count follows graph data",
+      "passed": true
     },
     {
-      "check": "polimi empty state",
-      "passed": true,
-      "detail": null
+      "check": "Landing N count follows graph data",
+      "passed": true
     },
     {
-      "check": "polimi reset restores all",
-      "passed": true,
-      "detail": null
+      "check": "Landing O count follows graph data",
+      "passed": true
     },
     {
-      "check": "Embedded page catalogues/osmani.html",
-      "passed": true,
-      "detail": null
+      "check": "Landing P count follows graph data",
+      "passed": true
     },
     {
-      "check": "osmani static record count",
-      "passed": true,
-      "detail": null
+      "check": "Landing W count follows graph data",
+      "passed": true
     },
     {
-      "check": "osmani search filters entries",
-      "passed": true,
-      "detail": null
+      "check": "Desktop home image loads",
+      "passed": true
     },
     {
-      "check": "osmani empty state",
+      "check": "Desktop home has no horizontal overflow",
       "passed": true,
-      "detail": null
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": false
+      }
     },
     {
-      "check": "osmani reset restores all",
+      "check": "Local page catalogues/polimi.html",
       "passed": true,
-      "detail": null
+      "detail": 200
     },
     {
-      "check": "Embedded page catalogues/pragmatic-engineer.html",
+      "check": "polimi renders the dynamic record count",
       "passed": true,
-      "detail": null
+      "detail": 193
     },
     {
-      "check": "pragmatic-engineer static record count",
-      "passed": true,
-      "detail": null
+      "check": "polimi search includes its named record",
+      "passed": true
     },
     {
-      "check": "pragmatic-engineer search filters entries",
-      "passed": true,
-      "detail": null
+      "check": "polimi empty state works",
+      "passed": true
     },
     {
-      "check": "pragmatic-engineer empty state",
-      "passed": true,
-      "detail": null
+      "check": "polimi clear restores all records",
+      "passed": true
     },
     {
-      "check": "pragmatic-engineer reset restores all",
+      "check": "Local page catalogues/osmani.html",
       "passed": true,
-      "detail": null
+      "detail": 200
     },
     {
-      "check": "Embedded page catalogues/fowler.html",
+      "check": "osmani renders the dynamic record count",
       "passed": true,
-      "detail": null
+      "detail": 51
     },
     {
-      "check": "fowler static record count",
-      "passed": true,
-      "detail": null
+      "check": "osmani search includes its named record",
+      "passed": true
     },
     {
-      "check": "fowler search filters entries",
-      "passed": true,
-      "detail": null
+      "check": "osmani empty state works",
+      "passed": true
     },
     {
-      "check": "fowler empty state",
-      "passed": true,
-      "detail": null
+      "check": "osmani clear restores all records",
+      "passed": true
     },
     {
-      "check": "fowler reset restores all",
+      "check": "Local page catalogues/pragmatic-engineer.html",
       "passed": true,
-      "detail": null
+      "detail": 200
     },
     {
-      "check": "Embedded page catalogues/books.html",
+      "check": "pragmatic-engineer renders the dynamic record count",
       "passed": true,
-      "detail": null
+      "detail": 124
     },
     {
-      "check": "books static record count",
-      "passed": true,
-      "detail": null
+      "check": "pragmatic-engineer search includes its named record",
+      "passed": true
     },
     {
-      "check": "books search filters entries",
-      "passed": true,
-      "detail": null
+      "check": "pragmatic-engineer empty state works",
+      "passed": true
     },
     {
-      "check": "books empty state",
-      "passed": true,
-      "detail": null
+      "check": "pragmatic-engineer clear restores all records",
+      "passed": true
     },
     {
-      "check": "books reset restores all",
+      "check": "Local page catalogues/fowler.html",
       "passed": true,
-      "detail": null
+      "detail": 200
     },
     {
-      "check": "Embedded page catalogues/practices.html",
+      "check": "fowler renders the dynamic record count",
       "passed": true,
-      "detail": null
+      "detail": 35
     },
     {
-      "check": "practices static record count",
-      "passed": true,
-      "detail": null
+      "check": "fowler search includes its named record",
+      "passed": true
     },
     {
-      "check": "practices search filters entries",
-      "passed": true,
-      "detail": null
+      "check": "fowler empty state works",
+      "passed": true
     },
     {
-      "check": "practices empty state",
-      "passed": true,
-      "detail": null
+      "check": "fowler clear restores all records",
+      "passed": true
     },
     {
-      "check": "practices reset restores all",
+      "check": "Local page catalogues/books.html",
       "passed": true,
-      "detail": null
+      "detail": 200
     },
     {
-      "check": "Embedded page catalogues/occurrences.html",
+      "check": "books renders the dynamic record count",
       "passed": true,
-      "detail": null
+      "detail": 111
     },
     {
-      "check": "occurrences static record count",
-      "passed": true,
-      "detail": null
+      "check": "books search includes its named record",
+      "passed": true
     },
     {
-      "check": "occurrences search filters entries",
-      "passed": true,
-      "detail": null
+      "check": "books empty state works",
+      "passed": true
     },
     {
-      "check": "occurrences empty state",
-      "passed": true,
-      "detail": null
+      "check": "books clear restores all records",
+      "passed": true
     },
     {
-      "check": "occurrences reset restores all",
+      "check": "Local page catalogues/ndse2.html",
       "passed": true,
-      "detail": null
+      "detail": 200
     },
     {
-      "check": "Embedded page catalogues/polimi.html#W023",
+      "check": "ndse2 renders the dynamic record count",
       "passed": true,
-      "detail": null
+      "detail": 13
     },
     {
-      "check": "Anchor reveals details",
-      "passed": true,
-      "detail": null
+      "check": "ndse2 search includes its named record",
+      "passed": true
     },
     {
-      "check": "Embedded page about.html",
-      "passed": true,
-      "detail": null
+      "check": "ndse2 empty state works",
+      "passed": true
     },
     {
-      "check": "Author photo loaded",
-      "passed": true,
-      "detail": null
+      "check": "ndse2 clear restores all records",
+      "passed": true
     },
     {
-      "check": "polimi readable without JavaScript",
+      "check": "Local page catalogues/practices.html",
       "passed": true,
-      "detail": null
+      "detail": 200
     },
     {
-      "check": "osmani readable without JavaScript",
+      "check": "practices renders the dynamic record count",
       "passed": true,
-      "detail": null
+      "detail": 84
     },
     {
-      "check": "pragmatic-engineer readable without JavaScript",
-      "passed": true,
-      "detail": null
+      "check": "practices search includes its named record",
+      "passed": true
     },
     {
-      "check": "fowler readable without JavaScript",
-      "passed": true,
-      "detail": null
+      "check": "practices empty state works",
+      "passed": true
     },
     {
-      "check": "books readable without JavaScript",
-      "passed": true,
-      "detail": null
+      "check": "practices clear restores all records",
+      "passed": true
     },
     {
-      "check": "Embedded page swe_knowledge_graph.html",
+      "check": "Local page catalogues/occurrences.html",
       "passed": true,
-      "detail": null
+      "detail": 200
     },
     {
-      "check": "Original 193 / 0 / 64 default",
+      "check": "occurrences renders the dynamic record count",
+      "passed": true,
+      "detail": 87
+    },
+    {
+      "check": "occurrences search includes its named record",
+      "passed": true
+    },
+    {
+      "check": "occurrences empty state works",
+      "passed": true
+    },
+    {
+      "check": "occurrences clear restores all records",
+      "passed": true
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "Bare atlas preserves W193 / 0 context / 64 edges",
+      "passed": true,
+      "detail": {
+        "sources": 193,
+        "context": 0,
+        "edges": 64
+      }
+    },
+    {
+      "check": "Bare atlas preserves exact W IDs",
+      "passed": true
+    },
+    {
+      "check": "Bare atlas preserves exact original edge IDs",
+      "passed": true
+    },
+    {
+      "check": "Atlas diagnostics report current totals",
+      "passed": true,
+      "detail": {
+        "nodes": 1931,
+        "edges": 13615,
+        "relationships": 309
+      }
+    },
+    {
+      "check": "Every current relation has a switch",
+      "passed": true
+    },
+    {
+      "check": "B source-control label shows the current total",
+      "passed": true
+    },
+    {
+      "check": "F source-control label shows the current total",
+      "passed": true
+    },
+    {
+      "check": "N source-control label shows the current total",
+      "passed": true
+    },
+    {
+      "check": "O source-control label shows the current total",
+      "passed": true
+    },
+    {
+      "check": "P source-control label shows the current total",
+      "passed": true
+    },
+    {
+      "check": "W source-control label shows the current total",
+      "passed": true
+    },
+    {
+      "check": "NDSE2 preset shows exactly its 13 chapters",
+      "passed": true,
+      "detail": {
+        "actual": 13,
+        "expected": 13,
+        "missing": [],
+        "unexpected": []
+      }
+    },
+    {
+      "check": "NDSE2 canvas hover identifies the chapter and its published provenance",
+      "passed": true,
+      "detail": "NDSE2:C10 · Published NDSE2 chapter\nDeveloper Learning, Mentoring and Comprehension Debt\nEnrico Papalini\nClick to inspect · drag to position"
+    },
+    {
+      "check": "Reset from NDSE2 restores the Polimi-only preset",
+      "passed": true
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html?collection=B",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "B collection deep link selects exact current records",
+      "passed": true,
+      "detail": {
+        "actual": 111,
+        "expected": 111,
+        "missing": [],
+        "unexpected": []
+      }
+    },
+    {
+      "check": "B diagnostics expose its dynamic count",
+      "passed": true,
+      "detail": {
+        "W": 0,
+        "O": 0,
+        "P": 0,
+        "B": 111,
+        "F": 0,
+        "N": 0
+      }
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html?collection=F",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "F collection deep link selects exact current records",
+      "passed": true,
+      "detail": {
+        "actual": 35,
+        "expected": 35,
+        "missing": [],
+        "unexpected": []
+      }
+    },
+    {
+      "check": "F diagnostics expose its dynamic count",
+      "passed": true,
+      "detail": {
+        "W": 0,
+        "O": 0,
+        "P": 0,
+        "B": 0,
+        "F": 35,
+        "N": 0
+      }
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html?collection=N",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "N collection deep link selects exact current records",
+      "passed": true,
+      "detail": {
+        "actual": 13,
+        "expected": 13,
+        "missing": [],
+        "unexpected": []
+      }
+    },
+    {
+      "check": "N diagnostics expose its dynamic count",
+      "passed": true,
+      "detail": {
+        "W": 0,
+        "O": 0,
+        "P": 0,
+        "B": 0,
+        "F": 0,
+        "N": 13
+      }
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html?collection=O",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "O collection deep link selects exact current records",
+      "passed": true,
+      "detail": {
+        "actual": 51,
+        "expected": 51,
+        "missing": [],
+        "unexpected": []
+      }
+    },
+    {
+      "check": "O diagnostics expose its dynamic count",
+      "passed": true,
+      "detail": {
+        "W": 0,
+        "O": 51,
+        "P": 0,
+        "B": 0,
+        "F": 0,
+        "N": 0
+      }
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html?collection=P",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "P collection deep link selects exact current records",
+      "passed": true,
+      "detail": {
+        "actual": 124,
+        "expected": 124,
+        "missing": [],
+        "unexpected": []
+      }
+    },
+    {
+      "check": "P diagnostics expose its dynamic count",
+      "passed": true,
+      "detail": {
+        "W": 0,
+        "O": 0,
+        "P": 124,
+        "B": 0,
+        "F": 0,
+        "N": 0
+      }
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html?collection=W",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "W collection deep link selects exact current records",
+      "passed": true,
+      "detail": {
+        "actual": 193,
+        "expected": 193,
+        "missing": [],
+        "unexpected": []
+      }
+    },
+    {
+      "check": "W diagnostics expose its dynamic count",
       "passed": true,
       "detail": {
         "W": 193,
         "O": 0,
         "P": 0,
         "B": 0,
-        "F": 0
+        "F": 0,
+        "N": 0
       }
     },
     {
-      "check": "All 297 relationship switches present",
+      "check": "Local page catalogues/osmani.html#O051",
       "passed": true,
-      "detail": null
+      "detail": 200
     },
     {
-      "check": "Default uses exact expected edge IDs",
-      "passed": true,
-      "detail": null
+      "check": "O051 static anchor opens its details",
+      "passed": true
     },
     {
-      "check": "Embedded page swe_knowledge_graph.html?collection=F&node=F023",
-      "passed": true,
-      "detail": null
+      "check": "O051 static record links to the graph",
+      "passed": true
     },
     {
-      "check": "Fowler deep link selects F023",
-      "passed": true,
-      "detail": null
+      "check": "O051 graph link carries the correct record and collection",
+      "passed": true
     },
     {
-      "check": "Source inspector links back to static catalogue",
-      "passed": true,
-      "detail": null
+      "check": "O051 real static-to-graph navigation selects the record",
+      "passed": true
     },
     {
-      "check": "Embedded page swe_knowledge_graph.html?collection=B&grouping=volume&group=V03",
-      "passed": true,
-      "detail": null
+      "check": "O051 inspector links back to static record",
+      "passed": true
     },
     {
-      "check": "Volume deep link selects 36 B records",
-      "passed": true,
-      "detail": null
+      "check": "O051 real graph-to-static navigation retains the anchor",
+      "passed": true
     },
     {
-      "check": "Embedded page swe_knowledge_graph.html?node=PAT%3A001",
+      "check": "Local page catalogues/fowler.html#F034",
       "passed": true,
-      "detail": null
+      "detail": 200
     },
     {
-      "check": "Context record deep link",
-      "passed": true,
-      "detail": null
+      "check": "F034 static anchor opens its details",
+      "passed": true
     },
     {
-      "check": "Embedded page swe_knowledge_graph.html?collection=invalid&node=NOT_A_NODE",
-      "passed": true,
-      "detail": null
+      "check": "F034 static record links to the graph",
+      "passed": true
     },
     {
-      "check": "Invalid deep link leaves default intact",
-      "passed": true,
-      "detail": null
+      "check": "F034 graph link carries the correct record and collection",
+      "passed": true
     },
     {
-      "check": "Embedded page swe_knowledge_graph.html",
-      "passed": true,
-      "detail": null
+      "check": "F034 real static-to-graph navigation selects the record",
+      "passed": true
     },
     {
-      "check": "All 297 relation switches have exact keyed edges",
-      "passed": true,
-      "detail": null
+      "check": "F034 inspector links back to static record",
+      "passed": true
     },
     {
-      "check": "Reset after edge tests restores 193 / 64",
-      "passed": true,
-      "detail": null
+      "check": "F034 real graph-to-static navigation retains the anchor",
+      "passed": true
     },
     {
-      "check": "Actual mobile viewport width is 390px",
+      "check": "Local page catalogues/fowler.html#F035",
       "passed": true,
-      "detail": null
+      "detail": "same-document fragment navigation"
     },
     {
-      "check": "Embedded page index.html",
-      "passed": true,
-      "detail": null
+      "check": "F035 static anchor opens its details",
+      "passed": true
     },
     {
-      "check": "Mobile viewport index.html",
-      "passed": true,
-      "detail": null
+      "check": "F035 static record links to the graph",
+      "passed": true
     },
     {
-      "check": "Mobile no overflow index.html",
-      "passed": true,
-      "detail": null
+      "check": "F035 graph link carries the correct record and collection",
+      "passed": true
     },
     {
-      "check": "Embedded page catalogues/index.html",
-      "passed": true,
-      "detail": null
+      "check": "F035 real static-to-graph navigation selects the record",
+      "passed": true
     },
     {
-      "check": "Mobile viewport catalogues/index.html",
-      "passed": true,
-      "detail": null
+      "check": "F035 inspector links back to static record",
+      "passed": true
     },
     {
-      "check": "Mobile no overflow catalogues/index.html",
-      "passed": true,
-      "detail": null
+      "check": "F035 real graph-to-static navigation retains the anchor",
+      "passed": true
     },
     {
-      "check": "Embedded page catalogues/polimi.html",
+      "check": "Local page catalogues/pragmatic-engineer.html#P124",
       "passed": true,
-      "detail": null
+      "detail": 200
     },
     {
-      "check": "Mobile viewport catalogues/polimi.html",
-      "passed": true,
-      "detail": null
+      "check": "P124 static anchor opens its details",
+      "passed": true
     },
     {
-      "check": "Mobile no overflow catalogues/polimi.html",
-      "passed": true,
-      "detail": null
+      "check": "P124 static record links to the graph",
+      "passed": true
     },
     {
-      "check": "Embedded page catalogues/books.html",
-      "passed": true,
-      "detail": null
+      "check": "P124 graph link carries the correct record and collection",
+      "passed": true
     },
     {
-      "check": "Mobile viewport catalogues/books.html",
-      "passed": true,
-      "detail": null
+      "check": "P124 real static-to-graph navigation selects the record",
+      "passed": true
     },
     {
-      "check": "Mobile no overflow catalogues/books.html",
-      "passed": true,
-      "detail": null
+      "check": "P124 inspector links back to static record",
+      "passed": true
     },
     {
-      "check": "Embedded page about.html",
-      "passed": true,
-      "detail": null
+      "check": "P124 real graph-to-static navigation retains the anchor",
+      "passed": true
     },
     {
-      "check": "Mobile viewport about.html",
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC01",
       "passed": true,
-      "detail": null
+      "detail": 200
     },
     {
-      "check": "Mobile no overflow about.html",
-      "passed": true,
-      "detail": null
+      "check": "NDSE2:C01 static anchor opens its details",
+      "passed": true
     },
     {
-      "check": "Embedded page downloads.html",
-      "passed": true,
-      "detail": null
+      "check": "NDSE2:C01 static record links to the graph",
+      "passed": true
     },
     {
-      "check": "Mobile viewport downloads.html",
-      "passed": true,
-      "detail": null
+      "check": "NDSE2:C01 graph link carries the correct record and collection",
+      "passed": true
     },
     {
-      "check": "Mobile no overflow downloads.html",
-      "passed": true,
-      "detail": null
+      "check": "NDSE2:C01 real static-to-graph navigation selects the record",
+      "passed": true
     },
     {
-      "check": "Embedded page swe_knowledge_graph.html",
-      "passed": true,
-      "detail": null
+      "check": "NDSE2:C01 inspector links back to static record",
+      "passed": true
     },
     {
-      "check": "Mobile atlas still Polimi-only",
+      "check": "NDSE2:C01 real graph-to-static navigation retains the anchor",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC02",
       "passed": true,
-      "detail": null
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "NDSE2:C02 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C02 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C02 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC03",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "NDSE2:C03 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C03 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C03 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC04",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "NDSE2:C04 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C04 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C04 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC05",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "NDSE2:C05 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C05 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C05 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC06",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "NDSE2:C06 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C06 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C06 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC07",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "NDSE2:C07 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C07 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C07 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC08",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "NDSE2:C08 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C08 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C08 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC09",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "NDSE2:C09 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C09 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C09 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC10",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "NDSE2:C10 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C10 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C10 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC11",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "NDSE2:C11 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C11 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C11 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC12",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "NDSE2:C12 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C12 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C12 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC13",
+      "passed": true,
+      "detail": "same-document fragment navigation"
+    },
+    {
+      "check": "NDSE2:C13 static anchor opens its details",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C13 static record links to the graph",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C13 graph link carries the correct record and collection",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C13 real static-to-graph navigation selects the record",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C13 inspector links back to static record",
+      "passed": true
+    },
+    {
+      "check": "NDSE2:C13 real graph-to-static navigation retains the anchor",
+      "passed": true
+    },
+    {
+      "check": "Current citation layer has a chapter with source citations",
+      "passed": true
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html?collection=B,F,O,P,W&grouping=chapter",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "Actual-citation UI selects exactly current chapter citations",
+      "passed": true,
+      "detail": {
+        "actual": 12,
+        "expected": 12,
+        "missing": [],
+        "unexpected": []
+      }
+    },
+    {
+      "check": "Actual-citation control no longer describes the historical v11 layer",
+      "passed": true,
+      "detail": "Actual citations · published NDSE2"
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html?collection=B,F,O,P,W&grouping=chapter&group=C%3AC01&chapterBasis=actual",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "Actual-citation deep link preserves the selected basis and exact records",
+      "passed": true,
+      "detail": {
+        "basis": "actual",
+        "actual": 12,
+        "expected": 12,
+        "missing": [],
+        "unexpected": []
+      }
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html?collection=invalid&node=NOT_A_NODE",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "Invalid deep link preserves the original starting view",
+      "passed": true
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "Full graph includes every source and context node",
+      "passed": true,
+      "detail": {
+        "nodes": 1931,
+        "edges": 13615
+      }
+    },
+    {
+      "check": "Every relationship switch exposes exact keyed edges and fully disables them",
+      "passed": true,
+      "detail": {
+        "tested": 309,
+        "failures": []
+      }
+    },
+    {
+      "check": "Reset after all-switch verification restores W193 / 0 / 64",
+      "passed": true
+    },
+    {
+      "check": "B catalogue is complete without JavaScript",
+      "passed": true
+    },
+    {
+      "check": "F catalogue is complete without JavaScript",
+      "passed": true
+    },
+    {
+      "check": "N catalogue is complete without JavaScript",
+      "passed": true
+    },
+    {
+      "check": "O catalogue is complete without JavaScript",
+      "passed": true
+    },
+    {
+      "check": "P catalogue is complete without JavaScript",
+      "passed": true
+    },
+    {
+      "check": "W catalogue is complete without JavaScript",
+      "passed": true
+    },
+    {
+      "check": "Local page index.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "1440px responsive layout: index.html",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page catalogues/index.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "1440px responsive layout: catalogues/index.html",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page catalogues/ndse2.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "1440px responsive layout: catalogues/ndse2.html",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page catalogues/chapters.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "1440px responsive layout: catalogues/chapters.html",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page catalogues/fowler.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "1440px responsive layout: catalogues/fowler.html",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page about.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "1440px responsive layout: about.html",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page downloads.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "1440px responsive layout: downloads.html",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "1440px atlas has no page overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "check": "1440px atlas retains the original preset",
+      "passed": true
+    },
+    {
+      "check": "Local page index.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "390px responsive layout: index.html",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page catalogues/index.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "390px responsive layout: catalogues/index.html",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page catalogues/ndse2.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "390px responsive layout: catalogues/ndse2.html",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page catalogues/chapters.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "390px responsive layout: catalogues/chapters.html",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page catalogues/fowler.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "390px responsive layout: catalogues/fowler.html",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page about.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "390px responsive layout: about.html",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page downloads.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "390px responsive layout: downloads.html",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "390px atlas has no page overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "overflow": false
+      }
+    },
+    {
+      "check": "390px atlas retains the original preset",
+      "passed": true
+    },
+    {
+      "check": "Mobile source controls can be opened",
+      "passed": true
+    },
+    {
+      "check": "Mobile NDSE2 collection control is reachable",
+      "passed": true
+    },
+    {
+      "check": "Mobile backdrop closes source controls",
+      "passed": true
     },
     {
       "check": "No unhandled JavaScript errors",
@@ -448,11 +1242,28 @@
       "detail": []
     },
     {
-      "check": "No external network requests during site navigation",
+      "check": "No browser console errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "No failed local resource requests",
+      "passed": true,
+      "detail": {
+        "failedRequests": [],
+        "localHTTPFailures": []
+      }
+    },
+    {
+      "check": "Local site navigation makes no external network requests",
       "passed": true,
       "detail": []
     }
   ],
-  "page_errors": [],
-  "external_network_requests": []
+  "pageErrors": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "localHTTPFailures": [],
+  "externalNetworkRequests": [],
+  "fatalError": null
 }

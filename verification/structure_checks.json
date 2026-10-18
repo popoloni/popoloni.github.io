@@ -1,5 +1,12 @@
 {
-  "passed": 176,
+  "as_of": "2026-10-18",
+  "site_version": "13.0",
+  "graph_snapshot": "2026-10-18",
+  "graph_nodes": 1931,
+  "graph_edges": 13615,
+  "graph_html_sha256": "401b923c12e8e5d78c091e11e163aea00c012470418e8ae7026f23589fdcfb58",
+  "baseline_zip_sha256": "128abde74f4b092372e1f6aa0de6e5b71f1cdcb6d0f84a935fe5bd527d99e2cd",
+  "passed": 210,
   "failed": 0,
   "checks": [
     {
@@ -189,6 +196,16 @@
     },
     {
       "check": "Image alt text: catalogues/index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique anchors: catalogues/ndse2.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/ndse2.html",
       "passed": true,
       "detail": ""
     },
@@ -713,6 +730,16 @@
       "detail": ""
     },
     {
+      "check": "Unique anchors: catalogues/volumes/v06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: catalogues/volumes/v06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
       "check": "Unique anchors: downloads.html",
       "passed": true,
       "detail": ""
@@ -753,6 +780,16 @@
       "detail": ""
     },
     {
+      "check": "Unique anchors: UPDATE_20261018.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image alt text: UPDATE_20261018.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
       "check": "Unique anchors: verification/report.html",
       "passed": true,
       "detail": ""
@@ -766,12 +803,27 @@
       "check": "All local file links and fragment anchors resolve",
       "passed": true,
       "detail": {
-        "checked_links": 17175,
+        "checked_links": 18680,
         "errors": []
       }
     },
     {
-      "check": "Entire embedded graph payload retained",
+      "check": "All original node IDs retain their positions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All 12,188 original keyed relationships remain identical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Current payload export equals embedded graph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Current template embeds the delivered payload",
       "passed": true,
       "detail": ""
     },
@@ -789,7 +841,7 @@
       "check": "README and top-level Markdown local links resolve",
       "passed": true,
       "detail": {
-        "checked": 21,
+        "checked": 28,
         "errors": []
       }
     },
@@ -844,6 +896,16 @@
       "detail": ""
     },
     {
+      "check": "Static N record IDs complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON N complete attributes preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
       "check": "Static practices IDs complete",
       "passed": true,
       "detail": ""
@@ -887,10 +949,147 @@
       "check": "Each site file under 25 MiB",
       "passed": true,
       "detail": ""
+    },
+    {
+      "check": "No duplicate node or keyed-edge IDs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All edge endpoints resolve",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Thirteen published chapters retain stable hub associations",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All 149 final headings have edition-specific section nodes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English and Italian chapter source sets and heading IDs align",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "302 chapter citation occurrences per language and 158 distinct cited sources",
+      "passed": true,
+      "detail": {
+        "occurrences_by_language": {
+          "EN": 302,
+          "ITA": 302
+        },
+        "unique_sources": 158
+      }
+    },
+    {
+      "check": "Every current actual membership equals literal manuscript use",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All 241 loaded bibliography entries, including auxiliaries, retain correct printed flags",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Literal current citations remain in the broader mapped reading view",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Fowler bibliography and actual chapter use remain distinct",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Four online additions are not falsely cited in the published book",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Publication records author confirmation without an invented date or ISBN",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "NDSE2_CHAPTER_CITES exact endpoints, languages, occurrence counts and locators",
+      "passed": true,
+      "detail": {
+        "edges": 446,
+        "expected_edges": 446,
+        "errors": []
+      }
+    },
+    {
+      "check": "NDSE2_SECTION_CITES exact endpoints, languages, occurrence counts and locators",
+      "passed": true,
+      "detail": {
+        "edges": 532,
+        "expected_edges": 532,
+        "errors": []
+      }
+    },
+    {
+      "check": "NDSE2_DOCUMENT_CITES exact endpoints, languages, occurrence counts and locators",
+      "passed": true,
+      "detail": {
+        "edges": 216,
+        "expected_edges": 216,
+        "errors": []
+      }
+    },
+    {
+      "check": "All 882 bilingual body occurrences match; index, nocite and workref excluded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Delivered extractor matches the parser hash recorded in book metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Raw JSON reconstructs every normalized current node and its raw attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Raw JSON retains every keyed edge, endpoint, family and attribute",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Current relation counts are exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GraphML preserves all graph, node and edge data and mixed multiedge keys",
+      "passed": true,
+      "detail": {
+        "nodes": 1931,
+        "edges": 13615,
+        "errors": []
+      }
+    },
+    {
+      "check": "Graph metadata contains the exact current GraphML SHA-256",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Copy-only update retains all 157 baseline file paths",
+      "passed": true,
+      "detail": ""
     }
   ],
-  "internal_links_checked": 17175,
-  "distinct_external_links": 373,
+  "internal_links_checked": 18680,
+  "distinct_external_links": 378,
   "external_urls_live_checked": false,
-  "html_pages_checked": 76
+  "html_pages_checked": 79
 }
