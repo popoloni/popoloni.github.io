@@ -1,0 +1,550 @@
+{
+  "kind": "atlas_practices_update/1",
+  "date": "2026-10-18",
+  "release": "13.1",
+  "baseline_sha256": "dcd17771f673270d4f8227087d6b342b6c0594a446f273d8b8119c1055654003",
+  "baseline_payload_sha256": "515e68b92ea52a1eb77de54fdde50316171aaad90238f8c8f7a6a5fe0eca7390",
+  "result_payload_sha256": "f3b95f313c92c657af42593c4166d0aada0615900fb9ba1fa9572b04b386336d",
+  "source_additions": [],
+  "changed_source_ids": [],
+  "practice_ids": [
+    "PAT:001",
+    "PAT:002",
+    "PAT:003",
+    "PAT:004",
+    "PAT:005",
+    "PAT:006",
+    "PAT:007",
+    "PAT:008",
+    "PAT:009",
+    "PAT:010",
+    "PAT:011",
+    "PAT:012",
+    "PAT:013",
+    "PAT:014",
+    "PAT:015",
+    "PAT:016",
+    "PAT:017",
+    "PAT:018",
+    "PAT:019",
+    "PAT:020",
+    "PAT:021",
+    "PAT:022",
+    "PAT:023",
+    "PAT:024",
+    "PAT:025",
+    "PAT:026",
+    "PAT:027",
+    "PAT:028",
+    "PAT:029",
+    "PAT:030",
+    "PAT:031",
+    "PAT:032",
+    "PAT:033",
+    "PAT:034",
+    "PAT:035",
+    "PAT:036",
+    "PAT:037",
+    "PAT:038",
+    "PAT:039",
+    "PAT:040",
+    "PAT:041",
+    "PAT:042",
+    "PAT:043",
+    "PAT:044",
+    "PAT:045",
+    "PAT:046",
+    "PAT:047",
+    "PAT:048",
+    "PAT:049",
+    "PAT:050",
+    "PAT:051",
+    "PAT:052",
+    "PAT:053",
+    "PAT:054",
+    "PAT:055",
+    "PAT:056",
+    "PAT:057",
+    "PAT:058",
+    "PAT:059",
+    "PAT:060",
+    "PAT:061",
+    "PAT:062",
+    "PAT:063",
+    "PAT:064",
+    "PAT:065",
+    "PAT:066",
+    "PAT:067",
+    "PAT:068",
+    "PAT:069",
+    "PAT:070",
+    "PAT:071",
+    "PAT:072",
+    "PAT:073",
+    "PAT:074",
+    "PAT:075",
+    "PAT:076",
+    "PAT:077",
+    "PAT:078",
+    "PAT:079",
+    "PAT:080",
+    "PAT:081",
+    "PAT:082",
+    "PAT:083",
+    "PAT:084"
+  ],
+  "no_changes": false,
+  "book_source_version": "13.7.1",
+  "all_nonpractice_nodes_unchanged": true,
+  "all_keyed_edges_unchanged": true,
+  "counts": {
+    "records": 84,
+    "families": 12,
+    "historical_occurrences": 87,
+    "words_min": 337,
+    "words_max": 427,
+    "words_total": 32076,
+    "by_family": {
+      "F01": 1,
+      "F02": 1,
+      "F03": 14,
+      "F04": 11,
+      "F05": 6,
+      "F06": 10,
+      "F07": 6,
+      "F08": 6,
+      "F09": 13,
+      "F10": 4,
+      "F11": 9,
+      "F12": 3
+    }
+  },
+  "editorial_review": {
+    "status": "complete",
+    "reviewer": "OpenAI assistant under the author’s direction",
+    "scope": "English translation and operational expansion of all 84 existing practice descriptors; the 12 families, navigation and provenance were reviewed. All cards have specific use conditions, steps, illustrative examples, checks and limits. No new empirical findings are claimed.",
+    "secondary_review": "Independent review of 12 representative and critical cards, plus root review of 17 cards; clarified PAT027 alias and corrected PAT034 avoid-conditions. Also expanded the PAT021 budget alias for clarity."
+  },
+  "historical_revisions": [
+    {
+      "id": "PAT:001",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Piano sostituibile, intenzione modificabile solo con delta autorizzato."
+    },
+    {
+      "id": "PAT:002",
+      "disposition": "COMPANION",
+      "required_revision": "Esplorazione opzionale per migrazioni indipendenti; eliminare speedup generici non verificati."
+    },
+    {
+      "id": "PAT:003",
+      "disposition": "COMPANION",
+      "required_revision": "CI e background come varianti; CI non equivale a produzione e green non significa release."
+    },
+    {
+      "id": "PAT:004",
+      "disposition": "RINVIO_BREVE",
+      "required_revision": "Due configurazioni illustrate, non due agenti obbligatori o permessi ampi per default."
+    },
+    {
+      "id": "PAT:005",
+      "disposition": "RIVEDERE_CRITICAMENTE",
+      "required_revision": "Contratto immutabile per revisione; campo passes del maker non attesta accettazione."
+    },
+    {
+      "id": "PAT:006",
+      "disposition": "PRECISARE",
+      "required_revision": "Niente antropomorfismo diagnostico; compaction misurabile e stato persistente."
+    },
+    {
+      "id": "PAT:007",
+      "disposition": "PRECISARE",
+      "required_revision": "Lezioni candidate con provenienza; riuso di memoria non training né miglioramento garantito."
+    },
+    {
+      "id": "PAT:008",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Risposte rintracciabili, task di comprensione distinti da retrieval."
+    },
+    {
+      "id": "PAT:009",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Un fallimento CI blocca un ramo entro scope e policy; non autorizza riparazioni estranee."
+    },
+    {
+      "id": "PAT:010",
+      "disposition": "PRECISARE",
+      "required_revision": "Riparare da feedback concreto; non fiducia cieca nel reviewer AI."
+    },
+    {
+      "id": "PAT:011",
+      "disposition": "FUORI_CORPO",
+      "required_revision": "Distinguere reward training e feedback di esecuzione; nessun programma di training nel manuale."
+    },
+    {
+      "id": "PAT:012",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Meccanismi di mentoring, non guadagni generalizzati di apprendimento."
+    },
+    {
+      "id": "PAT:013",
+      "disposition": "FUORI_CORPO",
+      "required_revision": "RFT è fuori perimetro esecutivo; nota sui limiti del modello senza istruzioni provider."
+    },
+    {
+      "id": "PAT:014",
+      "disposition": "RIVEDERE_CRITICAMENTE",
+      "required_revision": "Ripetibilità condizionata a ambiente/oracolo; non completezza né cattura garantita dei difetti."
+    },
+    {
+      "id": "PAT:015",
+      "disposition": "PRECISARE",
+      "required_revision": "Regressioni obbligatorie e impatto; i fallimenti preesistenti si classificano senza espandere scope da soli."
+    },
+    {
+      "id": "PAT:016",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Drift con versione e owner; regole obsolete conservate come storia, non come correnti."
+    },
+    {
+      "id": "PAT:017",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Limitare scritture, effetti e durata fuori dal modello; no sicurezza assoluta."
+    },
+    {
+      "id": "PAT:018",
+      "disposition": "PRECISARE",
+      "required_revision": "Scrubbing parziale non autorizza condivisione; log e retention rispettano i confini."
+    },
+    {
+      "id": "PAT:019",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Fan-out condizionato a dipendenze e capacità, non numero fisso di worker."
+    },
+    {
+      "id": "PAT:020",
+      "disposition": "PRECISARE",
+      "required_revision": "Stato persistente con scritture controllate; file system da solo non offre atomicità o autenticità."
+    },
+    {
+      "id": "PAT:021",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Limite delle chiamate è una dimensione del budget D3, non sinonimo di costo massimo."
+    },
+    {
+      "id": "PAT:022",
+      "disposition": "PRECISARE",
+      "required_revision": "Calibrazione richiede confronto fra fiducia e prestazione; nome del pattern non basta."
+    },
+    {
+      "id": "PAT:023",
+      "disposition": "COMPANION",
+      "required_revision": "Variante Bash esterna, con budget persistente e stato esplicito; nessun codice production-ready copiato."
+    },
+    {
+      "id": "PAT:024",
+      "disposition": "COMPANION",
+      "required_revision": "Variante stop hook; rientro non autorizza perdita dei budget o modifica dell’oracolo."
+    },
+    {
+      "id": "PAT:025",
+      "disposition": "RINVIO_BREVE",
+      "required_revision": "La sessione guidata manualmente è alternativa legittima, non livello inferiore obbligatorio."
+    },
+    {
+      "id": "PAT:026",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Retry solo contro diagnosi verificabile con stop; non convergenza garantita."
+    },
+    {
+      "id": "PAT:027",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Confrontare con C5; separazione dei ruoli non rende automaticamente indipendenti gli errori."
+    },
+    {
+      "id": "PAT:028",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Skill versionata con owner e permessi separati; il contesto non elimina ogni intent debt."
+    },
+    {
+      "id": "PAT:029",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Retrieval con astensione, fonte e validità; memoria non conoscenza approvata per definizione."
+    },
+    {
+      "id": "PAT:030",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Exact executor con interfacce e permessi; calcolo esatto non autorizza effetti esterni."
+    },
+    {
+      "id": "PAT:031",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Isola scritture ma non impedisce duplicazione logica dei task."
+    },
+    {
+      "id": "PAT:032",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Ownership del target sopra il livello file e gestione dei lease."
+    },
+    {
+      "id": "PAT:033",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Costo del passo e totale, setup e tentativi respinti; nessun rendimento trasferito dai benchmark."
+    },
+    {
+      "id": "PAT:034",
+      "disposition": "PRECISARE",
+      "required_revision": "Verifica, policy e autorizzazione rimangono decisioni distinte."
+    },
+    {
+      "id": "PAT:035",
+      "disposition": "COMPANION",
+      "required_revision": "Esempio opzionale di triage; priorità proposta, non cambiamento autorizzato."
+    },
+    {
+      "id": "PAT:036",
+      "disposition": "COMPANION",
+      "required_revision": "Classificare build rossa prima di riparare; no garanzia che un classificatore riconosca flakiness."
+    },
+    {
+      "id": "PAT:037",
+      "disposition": "COMPANION",
+      "required_revision": "Routing degli update per rischio; green CI non autorizza dipendenza o merge."
+    },
+    {
+      "id": "PAT:038",
+      "disposition": "COMPANION",
+      "required_revision": "Deduplica proposta da retrieval da confermare semanticamente; conservare record storici."
+    },
+    {
+      "id": "PAT:039",
+      "disposition": "COMPANION",
+      "required_revision": "Stato PR basato su evidenza della revisione corretta; false-ready come outcome distinto."
+    },
+    {
+      "id": "PAT:040",
+      "disposition": "RINVIO_BREVE",
+      "required_revision": "Fonte di proposte di manutenzione, non autorizzazione automatica a riscrivere."
+    },
+    {
+      "id": "PAT:041",
+      "disposition": "COMPANION",
+      "required_revision": "Bozza con fonti e revisione; release notes non prova di completamento."
+    },
+    {
+      "id": "PAT:042",
+      "disposition": "RINVIO_BREVE",
+      "required_revision": "Composizione utile soltanto se giustifica costo marginale; dati del corso da verificare prima del riuso."
+    },
+    {
+      "id": "PAT:043",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Intenzione autorizzata e scenari prima del candidato; specifica e piano rimangono diversi."
+    },
+    {
+      "id": "PAT:044",
+      "disposition": "PRECISARE",
+      "required_revision": "Test-first richiede attesi con origine indipendente; il verde è locale all’oracolo."
+    },
+    {
+      "id": "PAT:045",
+      "disposition": "CONSERVARE",
+      "required_revision": "Esplorazione reversibile separata dall’adozione del risultato."
+    },
+    {
+      "id": "PAT:046",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Piccolo significa semanticamente verificabile; raccordo D1 senza confondere chunk e ciclo."
+    },
+    {
+      "id": "PAT:047",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Istruzioni, retrieval, stato ed evidenza autorizzata non sono intercambiabili."
+    },
+    {
+      "id": "PAT:048",
+      "disposition": "PRECISARE",
+      "required_revision": "Spiegazione come compito di comprensione; non prova sufficiente di correttezza."
+    },
+    {
+      "id": "PAT:049",
+      "disposition": "AMPLIARE",
+      "required_revision": "Collegare osservazione runtime ad atteso e decisione; non attribuire misure non eseguite."
+    },
+    {
+      "id": "PAT:050",
+      "disposition": "CONSERVARE",
+      "required_revision": "Conservare esercizio cognitivo e valutare trasferimento; niente effetti garantiti."
+    },
+    {
+      "id": "PAT:051",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Distinguere prodotto e catena di sviluppo; raccordo al Security Pipeline."
+    },
+    {
+      "id": "PAT:052",
+      "disposition": "PRECISARE",
+      "required_revision": "Review selettiva per rischio e capacità; evitare un rito identico per tutte le patch."
+    },
+    {
+      "id": "PAT:053",
+      "disposition": "CONSERVARE",
+      "required_revision": "Navigazione del legacy distingue comportamento rilevato e intenzione approvata."
+    },
+    {
+      "id": "PAT:054",
+      "disposition": "PRECISARE",
+      "required_revision": "Migrazione verificata e apprendimento del maintainer sono due risultati distinti."
+    },
+    {
+      "id": "PAT:055",
+      "disposition": "CONSERVARE",
+      "required_revision": "Strutturare senior, junior e assistenza senza postulare beneficio didattico."
+    },
+    {
+      "id": "PAT:056",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Limiti di WIP, ownership e costo di integrazione; non moltiplicare agenti per default."
+    },
+    {
+      "id": "PAT:057",
+      "disposition": "PRECISARE",
+      "required_revision": "Adozione per evidenze e competenze, non numero di corsi o calendario universale."
+    },
+    {
+      "id": "PAT:058",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Policy, enforcement e autorità distinti; regole aggiornabili con responsabilità."
+    },
+    {
+      "id": "PAT:059",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Unico registro eventi e denominatori end-to-end, inclusi fallimenti."
+    },
+    {
+      "id": "PAT:060",
+      "disposition": "AMPLIARE",
+      "required_revision": "Integrare setup, review, rework, tempo e infrastruttura per esito accettato."
+    },
+    {
+      "id": "PAT:061",
+      "disposition": "CONSERVARE",
+      "required_revision": "Il controllo di coerenza è un predicato del gate, non equivale a C1 o a completezza."
+    },
+    {
+      "id": "PAT:062",
+      "disposition": "CONSERVARE",
+      "required_revision": "Conservare fonti e ragioni oltre il passaggio di consegne; complementare a B1."
+    },
+    {
+      "id": "PAT:063",
+      "disposition": "CONSERVARE",
+      "required_revision": "Alternative implementative isolabili; non fondere con dibattito fra modelli B4."
+    },
+    {
+      "id": "PAT:064",
+      "disposition": "CONSERVARE",
+      "required_revision": "Specifiche a scala governabile con dipendenze e fonte unica; non solo documenti più corti."
+    },
+    {
+      "id": "PAT:065",
+      "disposition": "PRECISARE",
+      "required_revision": "Cambio modello dopo diagnosi a vincoli invariati; non strategia garantita di recupero."
+    },
+    {
+      "id": "PAT:066",
+      "disposition": "RICONCILIARE",
+      "required_revision": "Raccordo a SDD1:19 mantenendo storia e autorevolezza per revisione."
+    },
+    {
+      "id": "PAT:067",
+      "disposition": "RICONCILIARE",
+      "required_revision": "Raccordo a SDD1:20; niente promessa zero ambiguità o risparmio fisso in minuti."
+    },
+    {
+      "id": "PAT:068",
+      "disposition": "PRECISARE",
+      "required_revision": "Progressione per parti autorizzate, non ripetizione finché lo score sale."
+    },
+    {
+      "id": "PAT:069",
+      "disposition": "CONSERVARE",
+      "required_revision": "Cercare controesempi della specifica; distinto da verifica dell’implementazione C5."
+    },
+    {
+      "id": "PAT:070",
+      "disposition": "PRECISARE",
+      "required_revision": "Gap e orfani sono candidati da esaminare; legacy non fonte normativa di default."
+    },
+    {
+      "id": "PAT:071",
+      "disposition": "RIVEDERE_CRITICAMENTE",
+      "required_revision": "Rubrica diagnostica; una lacuna critica non è compensata da una media; soglia non validata."
+    },
+    {
+      "id": "PAT:072",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Input/output, versione, dubbi e autorità per ciascun handoff; file presenti non bastano."
+    },
+    {
+      "id": "PAT:073",
+      "disposition": "PRECISARE",
+      "required_revision": "Modalità funzionali e permessi; non maturità certificata o responsabilità autonome."
+    },
+    {
+      "id": "PAT:074",
+      "disposition": "RIVEDERE_CRITICAMENTE",
+      "required_revision": "Critica supportata da riscontri; chiedere dissenso non cambia training o incentivi reali."
+    },
+    {
+      "id": "PAT:075",
+      "disposition": "RIVEDERE_CRITICAMENTE",
+      "required_revision": "Conservare ragioni e obiezioni; accordo di due modelli non è calibrazione o prova."
+    },
+    {
+      "id": "PAT:076",
+      "disposition": "PRECISARE",
+      "required_revision": "Predicati e autorità distinti, gate riapribili e adattatori derivati; non rito waterfall."
+    },
+    {
+      "id": "PAT:077",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Security pipeline come composizione di controlli, non garanzia di sicurezza."
+    },
+    {
+      "id": "PAT:078",
+      "disposition": "RIVEDERE_CRITICAMENTE",
+      "required_revision": "Scansione è segnale; permessi e confini fuori dal modello gestiscono gli effetti."
+    },
+    {
+      "id": "PAT:079",
+      "disposition": "PRECISARE",
+      "required_revision": "Identità, provenienza, permessi e aggiornamenti; niente elenco fisso di tool sicuri."
+    },
+    {
+      "id": "PAT:080",
+      "disposition": "RIVEDERE_CRITICAMENTE",
+      "required_revision": "Separare critica, input indipendenti, read-only e autorità; proteggere l’oracolo anche dal maker."
+    },
+    {
+      "id": "PAT:081",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Specializzazione temporale dei piccoli incrementi NDSE:04; non equivalenza automatica."
+    },
+    {
+      "id": "PAT:082",
+      "disposition": "PRECISARE",
+      "required_revision": "Bundle legato a codice, policy, oracle e ambiente; hash diverso da identità o verità."
+    },
+    {
+      "id": "PAT:083",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Budget preventivo conservativo di azioni, costo e tempo; storico attraverso i riavvii."
+    },
+    {
+      "id": "PAT:084",
+      "disposition": "RICOMPORRE",
+      "required_revision": "Esito nominato, autorità, motivo e decisione; budget non abilita accettazione."
+    }
+  ]
+}
