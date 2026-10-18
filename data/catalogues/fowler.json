@@ -1,10 +1,10 @@
 {
   "meta": {
-    "source": "Frozen v12 atlas payload",
-    "snapshot": "2026-10-13",
-    "site_version": "12.1",
-    "count": 33,
-    "note": "Materialized catalogue view; all node fields and attributes retained. No new source verification or empirical validation."
+    "source": "atlas_v13_current.html",
+    "snapshot": "2026-10-18",
+    "site_version": "13.0",
+    "count": 35,
+    "note": "Materialized view of the current audited graph; complete node fields retained. Source inspection and publication status are recorded per item. The builder performs no new empirical validation."
   },
   "records": [
     {
@@ -60,8 +60,12 @@
         "topics_json": "[\"K:Developer workflow and adoption\", \"K:Agent context and persistent memory\"]",
         "editorial_chapters_json": "[\"C:C01\", \"C:C03\", \"C:C09\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
+        "book_citation_status": "COMPANION_READING_NOT_IN_BOOK",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK"
       }
     },
     {
@@ -117,8 +121,12 @@
         "topics_json": "[\"K:Independent verification and oracles\", \"K:Automation bias and trust\"]",
         "editorial_chapters_json": "[\"C:C05\", \"C:C07\", \"C:C10\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
+        "book_citation_status": "COMPANION_READING_NOT_IN_BOOK",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK"
       }
     },
     {
@@ -176,8 +184,12 @@
         "topics_json": "[\"K:Developer workflow and adoption\", \"K:Human cognitive load\", \"K:Economic costs and return\"]",
         "editorial_chapters_json": "[\"C:C02\", \"C:C03\", \"C:C10\", \"C:C12\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
+        "book_citation_status": "COMPANION_READING_NOT_IN_BOOK",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK"
       }
     },
     {
@@ -235,8 +247,12 @@
         "topics_json": "[\"K:Automation bias and trust\", \"K:Human cognitive load\", \"K:Agent context and persistent memory\"]",
         "editorial_chapters_json": "[\"C:C05\", \"C:C08\", \"C:C09\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
+        "book_citation_status": "COMPANION_READING_NOT_IN_BOOK",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK"
       }
     },
     {
@@ -293,8 +309,12 @@
         "topics_json": "[\"K:Human-agent collaboration\", \"K:Ownership and knowledge transfer\", \"K:Skills formation and teaching\"]",
         "editorial_chapters_json": "[\"C:C10\", \"C:C11\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
+        "book_citation_status": "COMPANION_READING_NOT_IN_BOOK",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK"
       }
     },
     {
@@ -350,8 +370,12 @@
         "topics_json": "[\"K:Independent verification and oracles\", \"K:Human-agent collaboration\"]",
         "editorial_chapters_json": "[\"C:C03\", \"C:C07\", \"C:C10\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
+        "book_citation_status": "COMPANION_READING_NOT_IN_BOOK",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK"
       }
     },
     {
@@ -406,8 +430,12 @@
         "topics_json": "[\"K:Specifications and governance\", \"K:Architecture and modularity\"]",
         "editorial_chapters_json": "[\"C:C01\", \"C:C04\", \"C:C05\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
+        "book_citation_status": "COMPANION_READING_NOT_IN_BOOK",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK"
       }
     },
     {
@@ -420,14 +448,16 @@
         "T:Verification & review",
         "T:What agents can do"
       ],
-      "actual": [],
+      "actual": [
+        "C:C03"
+      ],
       "mapped": [
         "C:C03",
         "C:C07",
         "C:C08",
         "C:C13"
       ],
-      "printed": false,
+      "printed": true,
       "summary": "Frames confidence in assistance around feedback, the developer’s ability to check an answer and the consequences of error. Proposes timeboxing unproductive assistance and retaining responsibility for the result.",
       "limitation": "Personal heuristics rather than calibrated reliability estimates; informal numerical intuitions are not treated as measured rates.",
       "url": "https://martinfowler.com/articles/exploring-gen-ai/08-how-to-tackle-unreliability.html",
@@ -458,16 +488,23 @@
         "source_locator": "Body: confidence, timeboxing and assistant persona",
         "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
         "original_data_replicated": false,
-        "new_manuscript_citation": false,
+        "new_manuscript_citation": true,
         "source_body_archived": false,
         "primary_stream": "T:Verification & review",
         "streams_json": "[\"T:Verification & review\", \"T:What agents can do\"]",
         "topics_json": "[\"K:Agent failure and escalation\", \"K:Independent verification and oracles\", \"K:Automation bias and trust\"]",
         "editorial_chapters_json": "[\"C:C03\", \"C:C07\", \"C:C08\", \"C:C13\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
-      }
+        "book_citation_status": "IN_PUBLISHED_NDSE2_BIBLIOGRAPHY",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[\"C:C03\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK",
+        "historical_v12_new_manuscript_citation": false
+      },
+      "historical_v12_actual": [],
+      "historical_v12_printed": false
     },
     {
       "id": "F009",
@@ -522,8 +559,12 @@
         "topics_json": "[\"K:Onboarding and developer fluency\", \"K:System understanding and rationale\"]",
         "editorial_chapters_json": "[\"C:C05\", \"C:C09\", \"C:C10\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
+        "book_citation_status": "COMPANION_READING_NOT_IN_BOOK",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK"
       }
     },
     {
@@ -582,8 +623,12 @@
         "topics_json": "[\"K:Agent failure and escalation\", \"K:Long-running agent execution\", \"K:Independent verification and oracles\"]",
         "editorial_chapters_json": "[\"C:C03\", \"C:C05\", \"C:C07\", \"C:C09\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
+        "book_citation_status": "COMPANION_READING_NOT_IN_BOOK",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK"
       }
     },
     {
@@ -641,8 +686,12 @@
         "topics_json": "[\"K:Architecture and modularity\", \"K:Review capacity and maintainers\", \"K:Developer workflow and adoption\"]",
         "editorial_chapters_json": "[\"C:C03\", \"C:C05\", \"C:C08\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
+        "book_citation_status": "COMPANION_READING_NOT_IN_BOOK",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK"
       }
     },
     {
@@ -697,8 +746,12 @@
         "topics_json": "[\"K:Evaluation methodology and baselines\", \"K:Agent context and persistent memory\"]",
         "editorial_chapters_json": "[\"C:C03\", \"C:C09\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
+        "book_citation_status": "COMPANION_READING_NOT_IN_BOOK",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK"
       }
     },
     {
@@ -712,14 +765,16 @@
         "T:Code quality & security",
         "T:Engineering structure"
       ],
-      "actual": [],
+      "actual": [
+        "C:C10"
+      ],
       "mapped": [
         "C:C01",
         "C:C05",
         "C:C10",
         "C:C11"
       ],
-      "printed": false,
+      "printed": true,
       "summary": "Uses agent missteps to explain why decomposition, debugging, design judgment and checking remain valuable. Separates immediate completion from team iteration and the lifetime of the codebase.",
       "limitation": "Experience-based examples, not a measured skills intervention or a forecast of developer employment.",
       "url": "https://martinfowler.com/articles/exploring-gen-ai/13-role-of-developer-skills.html",
@@ -750,16 +805,23 @@
         "source_locator": "Body: missteps and the time-to-commit, iteration and codebase-lifetime perspectives",
         "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
         "original_data_replicated": false,
-        "new_manuscript_citation": false,
+        "new_manuscript_citation": true,
         "source_body_archived": false,
         "primary_stream": "T:Skills & learning",
         "streams_json": "[\"T:Skills & learning\", \"T:Code quality & security\", \"T:Engineering structure\"]",
         "topics_json": "[\"K:Skills formation and teaching\", \"K:Technical debt and complexity\", \"K:Human-agent collaboration\"]",
         "editorial_chapters_json": "[\"C:C01\", \"C:C05\", \"C:C10\", \"C:C11\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
-      }
+        "book_citation_status": "IN_PUBLISHED_NDSE2_BIBLIOGRAPHY",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[\"C:C10\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK",
+        "historical_v12_new_manuscript_citation": false
+      },
+      "historical_v12_actual": [],
+      "historical_v12_printed": false
     },
     {
       "id": "F014",
@@ -815,8 +877,12 @@
         "topics_json": "[\"K:Architecture and modularity\", \"K:Independent verification and oracles\", \"K:System understanding and rationale\"]",
         "editorial_chapters_json": "[\"C:C05\", \"C:C07\", \"C:C10\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
+        "book_citation_status": "COMPANION_READING_NOT_IN_BOOK",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK"
       }
     },
     {
@@ -873,8 +939,12 @@
         "topics_json": "[\"K:Skills formation and teaching\", \"K:Human-agent collaboration\", \"K:Developer workflow and adoption\"]",
         "editorial_chapters_json": "[\"C:C03\", \"C:C04\", \"C:C10\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
+        "book_citation_status": "COMPANION_READING_NOT_IN_BOOK",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK"
       }
     },
     {
@@ -887,12 +957,14 @@
         "T:Code quality & security",
         "T:Engineering structure"
       ],
-      "actual": [],
+      "actual": [
+        "C:C06"
+      ],
       "mapped": [
         "C:C03",
         "C:C06"
       ],
-      "printed": false,
+      "printed": true,
       "summary": "Analyzes the attack surface created when coding assistants consume project instructions and invoke tools with developer privileges. Discusses poisoned context, dependency risks and boundaries around execution.",
       "limitation": "Security analysis rather than an attack-incidence study. Protocol and tool details belong to the May 2025 publication context.",
       "url": "https://martinfowler.com/articles/exploring-gen-ai/software-supply-chain-attack-surface.html",
@@ -922,16 +994,23 @@
         "source_locator": "Body: assistant inputs, tools, supply-chain exposure and defenses",
         "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
         "original_data_replicated": false,
-        "new_manuscript_citation": false,
+        "new_manuscript_citation": true,
         "source_body_archived": false,
         "primary_stream": "T:Code quality & security",
         "streams_json": "[\"T:Code quality & security\", \"T:Engineering structure\"]",
         "topics_json": "[\"K:Prompt injection and malicious tools\", \"K:Dependencies and agent supply chain\"]",
         "editorial_chapters_json": "[\"C:C03\", \"C:C06\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
-      }
+        "book_citation_status": "IN_PUBLISHED_NDSE2_BIBLIOGRAPHY",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[\"C:C06\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK",
+        "historical_v12_new_manuscript_citation": false
+      },
+      "historical_v12_actual": [],
+      "historical_v12_printed": false
     },
     {
       "id": "F017",
@@ -989,8 +1068,12 @@
         "topics_json": "[\"K:Architecture and modularity\", \"K:System understanding and rationale\", \"K:Developer workflow and adoption\"]",
         "editorial_chapters_json": "[\"C:C03\", \"C:C05\", \"C:C09\", \"C:C10\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
+        "book_citation_status": "COMPANION_READING_NOT_IN_BOOK",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK"
       }
     },
     {
@@ -1048,8 +1131,12 @@
         "topics_json": "[\"K:Agent failure and escalation\", \"K:Code reuse and duplication\", \"K:Independent verification and oracles\"]",
         "editorial_chapters_json": "[\"C:C03\", \"C:C05\", \"C:C07\", \"C:C09\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
+        "book_citation_status": "COMPANION_READING_NOT_IN_BOOK",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK"
       }
     },
     {
@@ -1107,8 +1194,12 @@
         "topics_json": "[\"K:Automation bias and trust\", \"K:System understanding and rationale\", \"K:Ownership and knowledge transfer\"]",
         "editorial_chapters_json": "[\"C:C01\", \"C:C05\", \"C:C08\", \"C:C13\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
+        "book_citation_status": "COMPANION_READING_NOT_IN_BOOK",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK"
       }
     },
     {
@@ -1167,8 +1258,12 @@
         "topics_json": "[\"K:Output versus shipped value\", \"K:Evaluation methodology and baselines\", \"K:System understanding and rationale\"]",
         "editorial_chapters_json": "[\"C:C02\", \"C:C05\", \"C:C10\", \"C:C12\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
+        "book_citation_status": "COMPANION_READING_NOT_IN_BOOK",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK"
       }
     },
     {
@@ -1224,8 +1319,12 @@
         "topics_json": "[\"K:Automation bias and trust\", \"K:Human-agent collaboration\"]",
         "editorial_chapters_json": "[\"C:C01\", \"C:C08\", \"C:C13\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
+        "book_citation_status": "COMPANION_READING_NOT_IN_BOOK",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK"
       }
     },
     {
@@ -1283,8 +1382,12 @@
         "topics_json": "[\"K:Architecture and modularity\", \"K:Agent context and persistent memory\", \"K:Specifications and governance\"]",
         "editorial_chapters_json": "[\"C:C04\", \"C:C05\", \"C:C09\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
+        "book_citation_status": "COMPANION_READING_NOT_IN_BOOK",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK"
       }
     },
     {
@@ -1297,14 +1400,16 @@
         "T:Engineering structure",
         "T:System knowledge & memory"
       ],
-      "actual": [],
+      "actual": [
+        "C:C04"
+      ],
       "mapped": [
         "C:C04",
         "C:C09",
         "C:C11",
         "C:C13"
       ],
-      "printed": false,
+      "printed": true,
       "summary": "Distinguishes spec-first, spec-anchored and spec-as-source approaches through three tool explorations. Examines persistent specifications, task sizing, brownfield fit, instruction following and documentation overhead.",
       "limitation": "A dated exploratory comparison, not controlled evidence for SDD effectiveness. The author’s questions about specification overhead and source-of-truth claims are retained.",
       "url": "https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html",
@@ -1335,16 +1440,23 @@
         "source_locator": "Body: definitions of SDD; Kiro, spec-kit and Tessl explorations; reflections",
         "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
         "original_data_replicated": false,
-        "new_manuscript_citation": false,
+        "new_manuscript_citation": true,
         "source_body_archived": false,
         "primary_stream": "T:Engineering structure",
         "streams_json": "[\"T:Engineering structure\", \"T:System knowledge & memory\"]",
         "topics_json": "[\"K:Specifications and governance\", \"K:Developer workflow and adoption\", \"K:Agent context and persistent memory\"]",
         "editorial_chapters_json": "[\"C:C04\", \"C:C09\", \"C:C11\", \"C:C13\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
-      }
+        "book_citation_status": "IN_PUBLISHED_NDSE2_BIBLIOGRAPHY",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[\"C:C04\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK",
+        "historical_v12_new_manuscript_citation": false
+      },
+      "historical_v12_actual": [],
+      "historical_v12_printed": false
     },
     {
       "id": "F024",
@@ -1356,13 +1468,15 @@
         "T:Code quality & security",
         "T:Verification & review"
       ],
-      "actual": [],
+      "actual": [
+        "C:C05"
+      ],
       "mapped": [
         "C:C05",
         "C:C07",
         "C:C08"
       ],
-      "printed": false,
+      "printed": true,
       "summary": "Uses a CCMenu feature change to inspect internal quality. A fix that compiles can still erode the intended type model, introduce duplication or add unnecessary mechanisms; expert examination exposes those differences.",
       "limitation": "The author presents an anecdote, not a study; observations do not establish a population-level quality effect.",
       "url": "https://martinfowler.com/articles/exploring-gen-ai/ccmenu-quality.html",
@@ -1393,16 +1507,23 @@
         "source_locator": "Body: GitLab support, optional values, duplication and cache behavior",
         "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
         "original_data_replicated": false,
-        "new_manuscript_citation": false,
+        "new_manuscript_citation": true,
         "source_body_archived": false,
         "primary_stream": "T:Code quality & security",
         "streams_json": "[\"T:Code quality & security\", \"T:Verification & review\"]",
         "topics_json": "[\"K:Technical debt and complexity\", \"K:Code reuse and duplication\", \"K:Architecture and modularity\"]",
         "editorial_chapters_json": "[\"C:C05\", \"C:C07\", \"C:C08\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
-      }
+        "book_citation_status": "IN_PUBLISHED_NDSE2_BIBLIOGRAPHY",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[\"C:C05\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK",
+        "historical_v12_new_manuscript_citation": false
+      },
+      "historical_v12_actual": [],
+      "historical_v12_printed": false
     },
     {
       "id": "F025",
@@ -1414,13 +1535,15 @@
         "T:System knowledge & memory",
         "T:Engineering structure"
       ],
-      "actual": [],
+      "actual": [
+        "C:C09"
+      ],
       "mapped": [
         "C:C03",
         "C:C09",
         "C:C13"
       ],
-      "printed": false,
+      "printed": true,
       "summary": "Organizes context features by who invokes them: a person, the model or agent software. Discusses rules, skills, subagents, external context and hooks as parts of the developer experience.",
       "limitation": "Feature and practice snapshot, not proof of effectiveness or enforcement. Adding more configuration can produce contradictions or an illusion of control.",
       "url": "https://martinfowler.com/articles/exploring-gen-ai/context-engineering-coding-agents.html",
@@ -1451,16 +1574,23 @@
         "source_locator": "Body: trigger-based feature overview and context configuration",
         "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
         "original_data_replicated": false,
-        "new_manuscript_citation": false,
+        "new_manuscript_citation": true,
         "source_body_archived": false,
         "primary_stream": "T:System knowledge & memory",
         "streams_json": "[\"T:System knowledge & memory\", \"T:Engineering structure\"]",
         "topics_json": "[\"K:Agent context and persistent memory\", \"K:Developer workflow and adoption\", \"K:Specifications and governance\"]",
         "editorial_chapters_json": "[\"C:C03\", \"C:C09\", \"C:C13\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
-      }
+        "book_citation_status": "IN_PUBLISHED_NDSE2_BIBLIOGRAPHY",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[\"C:C09\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK",
+        "historical_v12_new_manuscript_citation": false
+      },
+      "historical_v12_actual": [],
+      "historical_v12_printed": false
     },
     {
       "id": "F026",
@@ -1472,7 +1602,9 @@
         "T:Engineering structure",
         "T:Code quality & security"
       ],
-      "actual": [],
+      "actual": [
+        "C:C13"
+      ],
       "mapped": [
         "C:C03",
         "C:C05",
@@ -1480,7 +1612,7 @@
         "C:C11",
         "C:C13"
       ],
-      "printed": false,
+      "printed": true,
       "summary": "Interprets a reported harness through context, architectural constraints and codebase maintenance. Raises questions about reusable harnesses, constrained topologies and the effort of retrofitting existing systems.",
       "limitation": "A reaction to another organization’s account, not an independent experiment. The author explicitly notes a gap in the reported functional verification.",
       "url": "https://martinfowler.com/articles/exploring-gen-ai/harness-engineering-memo.html",
@@ -1511,16 +1643,29 @@
         "source_locator": "Body: three categories; templates; runtime constraints; brownfield retrofit; final thoughts",
         "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
         "original_data_replicated": false,
-        "new_manuscript_citation": false,
+        "new_manuscript_citation": true,
         "source_body_archived": false,
         "primary_stream": "T:Engineering structure",
         "streams_json": "[\"T:Engineering structure\", \"T:Code quality & security\"]",
         "topics_json": "[\"K:Architecture and modularity\", \"K:Independent verification and oracles\", \"K:Long-running agent execution\"]",
         "editorial_chapters_json": "[\"C:C03\", \"C:C05\", \"C:C07\", \"C:C11\", \"C:C13\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
-      }
+        "book_citation_status": "IN_PUBLISHED_NDSE2_BIBLIOGRAPHY",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "source_version_status": "EARLIER_MEMO_SUPERSEDED_BY_EXPANDED_ARTICLE",
+        "latest_version_url": "https://martinfowler.com/articles/harness-engineering.html",
+        "latest_version_title": "Harness engineering for coding agent users",
+        "latest_version_publication_date": "2026-04-02",
+        "supersession_verified_date": "2026-10-18",
+        "source_version_note": "The later primary article explicitly supersedes this 17 February memo. Direct retrieval still exposes the historical memo with a pointer to the expansion; an HTTP redirect was not established.",
+        "ndse2_actual_chapters_json": "[\"C:C13\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK",
+        "historical_v12_new_manuscript_citation": false
+      },
+      "historical_v12_actual": [],
+      "historical_v12_printed": false
     },
     {
       "id": "F027",
@@ -1532,14 +1677,16 @@
         "T:Engineering structure",
         "T:Jobs & roles"
       ],
-      "actual": [],
+      "actual": [
+        "C:C11"
+      ],
       "mapped": [
         "C:C01",
         "C:C03",
         "C:C11",
         "C:C13"
       ],
-      "printed": false,
+      "printed": true,
       "summary": "Distinguishes the why loop that pursues outcomes from nested how loops that build software. Proposes human work on the loop: improving guidance, checks and workflow rather than only editing individual outputs.",
       "limitation": "A conceptual operating model. Its proposed agentic improvement flywheel is not a demonstrated organizational or reliability result.",
       "url": "https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html",
@@ -1570,16 +1717,23 @@
         "source_locator": "Body: why/how loops; humans outside, in and on the loop; flywheel",
         "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
         "original_data_replicated": false,
-        "new_manuscript_citation": false,
+        "new_manuscript_citation": true,
         "source_body_archived": false,
         "primary_stream": "T:Engineering structure",
         "streams_json": "[\"T:Engineering structure\", \"T:Jobs & roles\"]",
         "topics_json": "[\"K:Human-agent collaboration\", \"K:Long-running agent execution\", \"K:Specifications and governance\"]",
         "editorial_chapters_json": "[\"C:C01\", \"C:C03\", \"C:C11\", \"C:C13\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
-      }
+        "book_citation_status": "IN_PUBLISHED_NDSE2_BIBLIOGRAPHY",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[\"C:C11\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK",
+        "historical_v12_new_manuscript_citation": false
+      },
+      "historical_v12_actual": [],
+      "historical_v12_printed": false
     },
     {
       "id": "F028",
@@ -1636,8 +1790,12 @@
         "topics_json": "[\"K:Agent context and persistent memory\", \"K:Economic costs and return\", \"K:Evaluation methodology and baselines\"]",
         "editorial_chapters_json": "[\"C:C03\", \"C:C09\", \"C:C12\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
+        "book_citation_status": "COMPANION_READING_NOT_IN_BOOK",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK"
       }
     },
     {
@@ -1696,8 +1854,12 @@
         "topics_json": "[\"K:Benchmarks and construct validity\", \"K:Evaluation methodology and baselines\", \"K:Agent context and persistent memory\"]",
         "editorial_chapters_json": "[\"C:C02\", \"C:C03\", \"C:C09\", \"C:C12\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
+        "book_citation_status": "COMPANION_READING_NOT_IN_BOOK",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK"
       }
     },
     {
@@ -1716,7 +1878,7 @@
         "C:C05",
         "C:C12"
       ],
-      "printed": false,
+      "printed": true,
       "summary": "Repeats one representative change as a large Rust data-access module is refactored. Estimated input-token use falls after decomposition permits more selective code reading, connecting architecture to inference work.",
       "limitation": "One application and change, approximate token counting and incomplete refactoring-cost accounting; this does not establish general ROI or savings for every future task.",
       "url": "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html",
@@ -1754,9 +1916,14 @@
         "topics_json": "[\"K:Economic costs and return\", \"K:Architecture and modularity\", \"K:Code reuse and duplication\"]",
         "editorial_chapters_json": "[\"C:C02\", \"C:C05\", \"C:C12\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
-      }
+        "book_citation_status": "IN_PUBLISHED_NDSE2_BIBLIOGRAPHY",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK"
+      },
+      "historical_v12_printed": false
     },
     {
       "id": "F031",
@@ -1775,7 +1942,7 @@
         "C:C12",
         "C:C13"
       ],
-      "printed": false,
+      "printed": true,
       "summary": "Separates human-authored tests, a human review checkpoint and TDD entirely inside an agent loop. The small exploratory comparison found no clear advantage for fully internal TDD in model-judged quality or mutation scores.",
       "limitation": "Small greenfield tasks, imperfect adherence and an LLM-defined quality rubric. Reported aggregate tokens include cache rereads and are not equivalent to billed cost; no universal conclusion about human-led TDD follows.",
       "url": "https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html",
@@ -1813,9 +1980,14 @@
         "topics_json": "[\"K:Independent verification and oracles\", \"K:Evaluation methodology and baselines\", \"K:Economic costs and return\"]",
         "editorial_chapters_json": "[\"C:C03\", \"C:C07\", \"C:C12\", \"C:C13\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
-      }
+        "book_citation_status": "IN_PUBLISHED_NDSE2_BIBLIOGRAPHY",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK"
+      },
+      "historical_v12_printed": false
     },
     {
       "id": "F032",
@@ -1871,8 +2043,12 @@
         "topics_json": "[\"K:Human-agent collaboration\", \"K:Agent context and persistent memory\", \"K:Long-running agent execution\"]",
         "editorial_chapters_json": "[\"C:C03\", \"C:C09\", \"C:C11\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
+        "book_citation_status": "COMPANION_READING_NOT_IN_BOOK",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK"
       }
     },
     {
@@ -1886,7 +2062,9 @@
         "T:Verification & review",
         "T:Engineering structure"
       ],
-      "actual": [],
+      "actual": [
+        "C:C12"
+      ],
       "mapped": [
         "C:C02",
         "C:C03",
@@ -1895,7 +2073,7 @@
         "C:C12",
         "C:C13"
       ],
-      "printed": false,
+      "printed": true,
       "summary": "Compares development with and without a behavioral harness against a separate acceptance suite. On the selected service, the stronger model passed both conditions; a cost-optimized model passed more consistently with harness feedback, at greater per-attempt effort.",
       "limitation": "Ten paired runs per model on one unusually detailed greenfield Java brief. Guides and sensors changed together; estimated generation costs omit harness authoring, review and repairs. Final-gate-only use is proposed, not tested.",
       "url": "https://martinfowler.com/articles/are-harnesses-worth-the-cost.html",
@@ -1926,15 +2104,172 @@
         "source_locator": "Experiment setup; independent outer evaluation; model comparisons; economics; boundaries",
         "verification_scope": "Primary article byline and selected body passages inspected; no independent execution or statistical replication",
         "original_data_replicated": false,
-        "new_manuscript_citation": false,
+        "new_manuscript_citation": true,
         "source_body_archived": false,
         "primary_stream": "T:Economics",
         "streams_json": "[\"T:Economics\", \"T:Verification & review\", \"T:Engineering structure\"]",
         "topics_json": "[\"K:Economic costs and return\", \"K:Independent verification and oracles\", \"K:Specifications and governance\"]",
         "editorial_chapters_json": "[\"C:C02\", \"C:C03\", \"C:C04\", \"C:C07\", \"C:C12\", \"C:C13\"]",
         "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
-        "book_citation_status": "NOT_ADDED_TO_BOOK",
-        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12"
+        "book_citation_status": "IN_PUBLISHED_NDSE2_BIBLIOGRAPHY",
+        "node_class": "FOWLER_SERIES_ADDITIVE_OVERLAY_V12",
+        "ndse2_actual_chapters_json": "[\"C:C12\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "historical_v12_book_citation_status": "NOT_ADDED_TO_BOOK",
+        "historical_v12_new_manuscript_citation": false
+      },
+      "historical_v12_actual": [],
+      "historical_v12_printed": false
+    },
+    {
+      "id": "F034",
+      "label": "Practitioner Voice",
+      "kind": "practitioner_essay",
+      "collection": "F",
+      "category": null,
+      "streams": [
+        "T:Skills & learning",
+        "T:System knowledge & memory"
+      ],
+      "actual": [],
+      "mapped": [
+        "C:C09",
+        "C:C10",
+        "C:C11"
+      ],
+      "printed": false,
+      "summary": "The October revision adds practical guidance for writing from experience and using AI while keeping the writer's judgment visible. Highsmith describes cognitive assistance, contrasts different authoring choices, and connects useful prose to lived consequences, audience, storytelling and iterative editing.",
+      "limitation": "Personal experience and editorial guidance; no controlled evaluation of cognition, learning, writing quality or productivity. Do not treat the revision as a newly published October article.",
+      "url": "https://martinfowler.com/articles/practitioner-voice.html",
+      "authors": "Jim Highsmith",
+      "year": "2026-08-19",
+      "topics": [
+        "K:Human cognitive load",
+        "K:Cognitive offloading and skill debt",
+        "K:Ownership and knowledge transfer"
+      ],
+      "volumes": [],
+      "attributes": {
+        "label": "Practitioner Voice",
+        "kind": "practitioner_essay",
+        "collection": "F",
+        "authors": "Jim Highsmith",
+        "authors_json": "[\"Jim Highsmith\"]",
+        "publication_date": "2026-08-19",
+        "updated_date": "2026-10-13",
+        "latest_activity_date": "2026-10-13",
+        "date_provenance": "Primary article Significant Revisions: original publication and later expansion distinguished",
+        "url": "https://martinfowler.com/articles/practitioner-voice.html",
+        "publisher": "martinfowler.com",
+        "series": "",
+        "series_url": "",
+        "source_scope": "Adjacent martinfowler.com article; outside the original Exploring Generative AI series catalogue",
+        "series_member": false,
+        "snapshot_date": "2026-10-18",
+        "contribution": "The October revision adds practical guidance for writing from experience and using AI while keeping the writer's judgment visible. Highsmith describes cognitive assistance, contrasts different authoring choices, and connects useful prose to lived consequences, audience, storytelling and iterative editing.",
+        "limitation": "Personal experience and editorial guidance; no controlled evaluation of cognition, learning, writing quality or productivity. Do not treat the revision as a newly published October article.",
+        "evidence_class": "Practitioner essay and personal experience",
+        "source_locator": "The Craft of Practitioner Voice; How to use AI without losing your voice; Significant Revisions",
+        "verification_scope": "Actual byline, original publication date and October 13 significant revision confirmed. No independent execution, causal evaluation or statistical replication.",
+        "access_status": "FULL_PRIMARY_TEXT",
+        "original_data_replicated": false,
+        "new_manuscript_citation": false,
+        "source_body_archived": false,
+        "primary_stream": "T:Skills & learning",
+        "streams_json": "[\"T:Skills & learning\",\"T:System knowledge & memory\"]",
+        "topics_json": "[\"K:Human cognitive load\",\"K:Cognitive offloading and skill debt\",\"K:Ownership and knowledge transfer\"]",
+        "editorial_chapters_json": "[\"C:C09\",\"C:C10\",\"C:C11\"]",
+        "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+        "book_citation_status": "COMPANION_READING_NOT_IN_BOOK",
+        "node_class": "FOWLER_SITE_EXTENSION_20261018",
+        "addition_reason": "October 13 expansion on AI-assisted thinking and writing, absent from the series-only baseline. Scope expansion explicitly retained.",
+        "atlas_added_on": "2026-10-18",
+        "canonical_url": "https://martinfowler.com/articles/practitioner-voice.html",
+        "online_companion_update": true,
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "pre_reconciliation_book_citation_status": "NOT_ADDED_TO_BOOK",
+        "manuscript_citation_status": "NOT_CITED_IN_PUBLISHED_NDSE2_13_7_1",
+        "manuscript_citation_basis": "Absent from the final published NDSE2 13.7.1 active EN/ITA source tree and loaded bibliography"
+      }
+    },
+    {
+      "id": "F035",
+      "label": "When Software Meets Hardware",
+      "kind": "practitioner_essay",
+      "collection": "F",
+      "category": null,
+      "streams": [
+        "T:Engineering structure",
+        "T:Skills & learning",
+        "T:Productivity"
+      ],
+      "actual": [],
+      "mapped": [
+        "C:C02",
+        "C:C05",
+        "C:C09",
+        "C:C10",
+        "C:C13"
+      ],
+      "printed": false,
+      "summary": "An IoT modernization account connects physical test environments, device simulation, observability, recovery and continuous learning. The team used LLMs to explore unfamiliar areas, prototype experiments and develop engineering tools, including dashboards and migration trackers. The proposed benefit is cheaper experimentation and a shorter learning loop.",
+      "limitation": "The article describes one team's practices and perceived benefits. It does not isolate AI's contribution or quantify productivity improvements. Physical-world validation remains part of the reported engineering process.",
+      "url": "https://martinfowler.com/articles/software-meets-hardware.html",
+      "authors": "Kuldeep Singh",
+      "year": "2026-10-15",
+      "topics": [
+        "K:Onboarding and developer fluency",
+        "K:System understanding and rationale",
+        "K:Developer workflow and adoption",
+        "K:Independent verification and oracles"
+      ],
+      "volumes": [],
+      "attributes": {
+        "label": "When Software Meets Hardware",
+        "kind": "practitioner_essay",
+        "collection": "F",
+        "authors": "Kuldeep Singh",
+        "authors_json": "[\"Kuldeep Singh\"]",
+        "publication_date": "2026-10-15",
+        "updated_date": null,
+        "latest_activity_date": "2026-10-15",
+        "date_provenance": "Primary article dateline and Significant Revisions",
+        "url": "https://martinfowler.com/articles/software-meets-hardware.html",
+        "publisher": "martinfowler.com",
+        "series": "",
+        "series_url": "",
+        "source_scope": "Adjacent martinfowler.com article; outside the original Exploring Generative AI series catalogue",
+        "series_member": false,
+        "snapshot_date": "2026-10-18",
+        "contribution": "An IoT modernization account connects physical test environments, device simulation, observability, recovery and continuous learning. The team used LLMs to explore unfamiliar areas, prototype experiments and develop engineering tools, including dashboards and migration trackers. The proposed benefit is cheaper experimentation and a shorter learning loop.",
+        "limitation": "The article describes one team's practices and perceived benefits. It does not isolate AI's contribution or quantify productivity improvements. Physical-world validation remains part of the reported engineering process.",
+        "evidence_class": "Qualitative engineering experience report",
+        "source_locator": "Experimentation environment; physical testing; Use AI to shorten the learning loop; Capture discoveries; Significant Revisions",
+        "verification_scope": "Byline, publication history and AI-specific section inspected. No independent execution, causal evaluation or statistical replication.",
+        "access_status": "FULL_PRIMARY_TEXT",
+        "original_data_replicated": false,
+        "new_manuscript_citation": false,
+        "source_body_archived": false,
+        "primary_stream": "T:Engineering structure",
+        "streams_json": "[\"T:Engineering structure\",\"T:Skills & learning\",\"T:Productivity\"]",
+        "topics_json": "[\"K:Onboarding and developer fluency\",\"K:System understanding and rationale\",\"K:Developer workflow and adoption\",\"K:Independent verification and oracles\"]",
+        "editorial_chapters_json": "[\"C:C02\",\"C:C05\",\"C:C09\",\"C:C10\",\"C:C13\"]",
+        "mapping_status": "Independent editorial mapping, not classification by the article authors or SE@PoliMi",
+        "book_citation_status": "COMPANION_READING_NOT_IN_BOOK",
+        "node_class": "FOWLER_SITE_EXTENSION_20261018",
+        "addition_reason": "New October 15 experience report with an explicit AI-assisted learning and engineering-tooling section, outside the original series.",
+        "atlas_added_on": "2026-10-18",
+        "canonical_url": "https://martinfowler.com/articles/software-meets-hardware.html",
+        "online_companion_update": true,
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "pre_reconciliation_book_citation_status": "NOT_ADDED_TO_BOOK",
+        "manuscript_citation_status": "NOT_CITED_IN_PUBLISHED_NDSE2_13_7_1",
+        "manuscript_citation_basis": "Absent from the final published NDSE2 13.7.1 active EN/ITA source tree and loaded bibliography"
       }
     }
   ]

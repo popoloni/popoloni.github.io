@@ -1,0 +1,2983 @@
+{
+  "records": [
+    {
+      "id": "NDSE2:S01.01",
+      "level": "section",
+      "number": "1.1",
+      "title": "Software engineering begins before the code",
+      "label": "ch01-software-engineering-begins-before-the-code",
+      "labels": [
+        "ch01-software-engineering-begins-before-the-code"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter01.tex",
+      "line": 13,
+      "sha256": "277ec2181a885dfee7268a6d504503c8c039a8cc6c8201bfd2a966515d5b2500",
+      "chapter_id": "NDSE2:C01",
+      "chapter_hub": "C:C01",
+      "title_it": "La software engineering comincia prima del codice",
+      "file_it": "ITA/chapters/chapter01.tex",
+      "line_it": 14,
+      "sha256_it": "e89175da618cfae5b422e16c8e01fd457d1da8308a5d9359a2b6aac592cf63ca"
+    },
+    {
+      "id": "NDSE2:S01.02",
+      "level": "section",
+      "number": "1.2",
+      "title": "From autocomplete to delegated execution",
+      "label": "ch01-from-autocomplete-to-delegated-execution",
+      "labels": [
+        "ch01-from-autocomplete-to-delegated-execution"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter01.tex",
+      "line": 29,
+      "sha256": "277ec2181a885dfee7268a6d504503c8c039a8cc6c8201bfd2a966515d5b2500",
+      "chapter_id": "NDSE2:C01",
+      "chapter_hub": "C:C01",
+      "title_it": "Dall'autocomplete all'esecuzione delegata",
+      "file_it": "ITA/chapters/chapter01.tex",
+      "line_it": 29,
+      "sha256_it": "e89175da618cfae5b422e16c8e01fd457d1da8308a5d9359a2b6aac592cf63ca"
+    },
+    {
+      "id": "NDSE2:S01.03",
+      "level": "section",
+      "number": "1.3",
+      "title": "The engineer's work before and after AI",
+      "label": "ch01-the-engineers-work-before-and-after-ai",
+      "labels": [
+        "ch01-the-engineers-work-before-and-after-ai"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter01.tex",
+      "line": 49,
+      "sha256": "277ec2181a885dfee7268a6d504503c8c039a8cc6c8201bfd2a966515d5b2500",
+      "chapter_id": "NDSE2:C01",
+      "chapter_hub": "C:C01",
+      "title_it": "Il lavoro dell'ingegnere prima e dopo l'AI",
+      "file_it": "ITA/chapters/chapter01.tex",
+      "line_it": 49,
+      "sha256_it": "e89175da618cfae5b422e16c8e01fd457d1da8308a5d9359a2b6aac592cf63ca"
+    },
+    {
+      "id": "NDSE2:S01.04",
+      "level": "section",
+      "number": "1.4",
+      "title": "The lifecycle of a trustworthy change",
+      "label": "ch01-the-lifecycle-of-a-trustworthy-change",
+      "labels": [
+        "ch01-the-lifecycle-of-a-trustworthy-change"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter01.tex",
+      "line": 65,
+      "sha256": "277ec2181a885dfee7268a6d504503c8c039a8cc6c8201bfd2a966515d5b2500",
+      "chapter_id": "NDSE2:C01",
+      "chapter_hub": "C:C01",
+      "title_it": "Il ciclo di vita di una modifica affidabile",
+      "file_it": "ITA/chapters/chapter01.tex",
+      "line_it": 64,
+      "sha256_it": "e89175da618cfae5b422e16c8e01fd457d1da8308a5d9359a2b6aac592cf63ca"
+    },
+    {
+      "id": "NDSE2:S01.05",
+      "level": "section",
+      "number": "1.5",
+      "title": "The autonomy–accountability boundary",
+      "label": "ch01-the-autonomyaccountability-boundary",
+      "labels": [
+        "ch01-the-autonomyaccountability-boundary"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter01.tex",
+      "line": 82,
+      "sha256": "277ec2181a885dfee7268a6d504503c8c039a8cc6c8201bfd2a966515d5b2500",
+      "chapter_id": "NDSE2:C01",
+      "chapter_hub": "C:C01",
+      "title_it": "Il confine fra autonomia e accountability",
+      "file_it": "ITA/chapters/chapter01.tex",
+      "line_it": 80,
+      "sha256_it": "e89175da618cfae5b422e16c8e01fd457d1da8308a5d9359a2b6aac592cf63ca"
+    },
+    {
+      "id": "NDSE2:S01.06",
+      "level": "section",
+      "number": "1.6",
+      "title": "Why brownfield change starts with system comprehension",
+      "label": "ch01-why-brownfield-change-starts-with-system-comprehension",
+      "labels": [
+        "ch01-why-brownfield-change-starts-with-system-comprehension"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter01.tex",
+      "line": 94,
+      "sha256": "277ec2181a885dfee7268a6d504503c8c039a8cc6c8201bfd2a966515d5b2500",
+      "chapter_id": "NDSE2:C01",
+      "chapter_hub": "C:C01",
+      "title_it": "Perché una modifica brownfield parte dalla comprensione del sistema",
+      "file_it": "ITA/chapters/chapter01.tex",
+      "line_it": 92,
+      "sha256_it": "e89175da618cfae5b422e16c8e01fd457d1da8308a5d9359a2b6aac592cf63ca"
+    },
+    {
+      "id": "NDSE2:S01.07",
+      "level": "section",
+      "number": "1.7",
+      "title": "What the research can and cannot tell us",
+      "label": "ch01-what-the-research-can-and-cannot-tell-us",
+      "labels": [
+        "ch01-what-the-research-can-and-cannot-tell-us"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter01.tex",
+      "line": 114,
+      "sha256": "277ec2181a885dfee7268a6d504503c8c039a8cc6c8201bfd2a966515d5b2500",
+      "chapter_id": "NDSE2:C01",
+      "chapter_hub": "C:C01",
+      "title_it": "Che cosa può e non può dirci la ricerca",
+      "file_it": "ITA/chapters/chapter01.tex",
+      "line_it": 112,
+      "sha256_it": "e89175da618cfae5b422e16c8e01fd457d1da8308a5d9359a2b6aac592cf63ca"
+    },
+    {
+      "id": "NDSE2:S01.08",
+      "level": "section",
+      "number": "1.8",
+      "title": "A teaching case, not a reported field experiment",
+      "label": "ch01-a-teaching-case-not-a-reported-field-experiment",
+      "labels": [
+        "ch01-a-teaching-case-not-a-reported-field-experiment"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter01.tex",
+      "line": 126,
+      "sha256": "277ec2181a885dfee7268a6d504503c8c039a8cc6c8201bfd2a966515d5b2500",
+      "chapter_id": "NDSE2:C01",
+      "chapter_hub": "C:C01",
+      "title_it": "Un caso didattico, non un esperimento sul campo",
+      "file_it": "ITA/chapters/chapter01.tex",
+      "line_it": 124,
+      "sha256_it": "e89175da618cfae5b422e16c8e01fd457d1da8308a5d9359a2b6aac592cf63ca"
+    },
+    {
+      "id": "NDSE2:S01.09",
+      "level": "section",
+      "number": "1.9",
+      "title": "From generated output to an evidence question",
+      "label": "ch01-from-generated-output-to-an-evidence-question",
+      "labels": [
+        "ch01-from-generated-output-to-an-evidence-question"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter01.tex",
+      "line": 144,
+      "sha256": "277ec2181a885dfee7268a6d504503c8c039a8cc6c8201bfd2a966515d5b2500",
+      "chapter_id": "NDSE2:C01",
+      "chapter_hub": "C:C01",
+      "title_it": "Dall'output generato alla domanda sulle evidenze",
+      "file_it": "ITA/chapters/chapter01.tex",
+      "line_it": 141,
+      "sha256_it": "e89175da618cfae5b422e16c8e01fd457d1da8308a5d9359a2b6aac592cf63ca"
+    },
+    {
+      "id": "NDSE2:S01.10",
+      "level": "section",
+      "number": "1.10",
+      "title": "Worked engineering example: where does a change become acceptable?",
+      "label": "ch01:worked-example",
+      "labels": [
+        "ch01:worked-example"
+      ],
+      "starred": false,
+      "file": "EN/didactics/worked01.tex",
+      "line": 1,
+      "sha256": "1925d9b1ef430980fca31349b41d9c20d75c55e0e281b66cb213df50f25da64e",
+      "chapter_id": "NDSE2:C01",
+      "chapter_hub": "C:C01",
+      "title_it": "Esempio ingegneristico svolto: quando una modifica diventa accettabile?",
+      "file_it": "ITA/didactics/worked01.tex",
+      "line_it": 1,
+      "sha256_it": "2441dd7b8a591194488d3229d6c7ab058295c58a0085d9a9956054f35a441ed7"
+    },
+    {
+      "id": "NDSE2:S01.11",
+      "level": "section",
+      "number": "1.11",
+      "title": "Practice exercise: define the unit of trustworthy work",
+      "label": "ex:ch01",
+      "labels": [
+        "ex:ch01"
+      ],
+      "starred": false,
+      "file": "EN/exercises/exercise01.tex",
+      "line": 2,
+      "sha256": "defc2483c15918c65ffbcc46056376c941da6d9fe01bfae93c3229481f2b1fe3",
+      "chapter_id": "NDSE2:C01",
+      "chapter_hub": "C:C01",
+      "title_it": "Esercizio pratico: definire l'unità di lavoro affidabile",
+      "file_it": "ITA/exercises/exercise01.tex",
+      "line_it": 2,
+      "sha256_it": "3f777c71c79fe75a9d975f8b162bfb34cdc4ddb50c204091b9bc0415459817d2"
+    },
+    {
+      "id": "NDSE2:S02.01",
+      "level": "section",
+      "number": "2.1",
+      "title": "The productivity denominator problem",
+      "label": "ch02-the-productivity-denominator-problem",
+      "labels": [
+        "ch02-the-productivity-denominator-problem"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter02.tex",
+      "line": 11,
+      "sha256": "2f513eeed43e6183a3b26ebcebaa19a35ab53dbf561260b015e69357b049a72f",
+      "chapter_id": "NDSE2:C02",
+      "chapter_hub": "C:C02",
+      "title_it": "Il problema del denominatore nella produttività",
+      "file_it": "ITA/chapters/chapter02.tex",
+      "line_it": 11,
+      "sha256_it": "2336ccabfd1817c7c21c8f4e06fec37bee109fee2b80718824482abd5f393ddb"
+    },
+    {
+      "id": "NDSE2:S02.02",
+      "level": "section",
+      "number": "2.2",
+      "title": "How to read causal evidence",
+      "label": "ch02-how-to-read-causal-evidence",
+      "labels": [
+        "ch02-how-to-read-causal-evidence"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter02.tex",
+      "line": 28,
+      "sha256": "2f513eeed43e6183a3b26ebcebaa19a35ab53dbf561260b015e69357b049a72f",
+      "chapter_id": "NDSE2:C02",
+      "chapter_hub": "C:C02",
+      "title_it": "Come leggere le evidenze causali",
+      "file_it": "ITA/chapters/chapter02.tex",
+      "line_it": 28,
+      "sha256_it": "2336ccabfd1817c7c21c8f4e06fec37bee109fee2b80718824482abd5f393ddb"
+    },
+    {
+      "id": "NDSE2:S02.03",
+      "level": "section",
+      "number": "2.3",
+      "title": "Why controlled studies disagree",
+      "label": "ch02-why-controlled-studies-disagree",
+      "labels": [
+        "ch02-why-controlled-studies-disagree"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter02.tex",
+      "line": 43,
+      "sha256": "2f513eeed43e6183a3b26ebcebaa19a35ab53dbf561260b015e69357b049a72f",
+      "chapter_id": "NDSE2:C02",
+      "chapter_hub": "C:C02",
+      "title_it": "Perché gli studi controllati possono essere in disaccordo",
+      "file_it": "ITA/chapters/chapter02.tex",
+      "line_it": 43,
+      "sha256_it": "2336ccabfd1817c7c21c8f4e06fec37bee109fee2b80718824482abd5f393ddb"
+    },
+    {
+      "id": "NDSE2:S02.04",
+      "level": "section",
+      "number": "2.4",
+      "title": "Observational adoption and its confounders",
+      "label": "ch02-observational-adoption-and-its-confounders",
+      "labels": [
+        "ch02-observational-adoption-and-its-confounders"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter02.tex",
+      "line": 70,
+      "sha256": "2f513eeed43e6183a3b26ebcebaa19a35ab53dbf561260b015e69357b049a72f",
+      "chapter_id": "NDSE2:C02",
+      "chapter_hub": "C:C02",
+      "title_it": "L'adozione osservazionale e i fattori confondenti",
+      "file_it": "ITA/chapters/chapter02.tex",
+      "line_it": 70,
+      "sha256_it": "2336ccabfd1817c7c21c8f4e06fec37bee109fee2b80718824482abd5f393ddb"
+    },
+    {
+      "id": "NDSE2:S02.05",
+      "level": "section",
+      "number": "2.5",
+      "title": "Writing code versus shipping code",
+      "label": "ch02-writing-code-versus-shipping-code",
+      "labels": [
+        "ch02-writing-code-versus-shipping-code"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter02.tex",
+      "line": 86,
+      "sha256": "2f513eeed43e6183a3b26ebcebaa19a35ab53dbf561260b015e69357b049a72f",
+      "chapter_id": "NDSE2:C02",
+      "chapter_hub": "C:C02",
+      "title_it": "Scrivere codice non significa rilasciarlo",
+      "file_it": "ITA/chapters/chapter02.tex",
+      "line_it": 86,
+      "sha256_it": "2336ccabfd1817c7c21c8f4e06fec37bee109fee2b80718824482abd5f393ddb"
+    },
+    {
+      "id": "NDSE2:S02.06",
+      "level": "section",
+      "number": "2.6",
+      "title": "Quality-adjusted productivity",
+      "label": "ch02-quality-adjusted-productivity",
+      "labels": [
+        "ch02-quality-adjusted-productivity"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter02.tex",
+      "line": 105,
+      "sha256": "2f513eeed43e6183a3b26ebcebaa19a35ab53dbf561260b015e69357b049a72f",
+      "chapter_id": "NDSE2:C02",
+      "chapter_hub": "C:C02",
+      "title_it": "Produttività corretta per la qualità",
+      "file_it": "ITA/chapters/chapter02.tex",
+      "line_it": 105,
+      "sha256_it": "2336ccabfd1817c7c21c8f4e06fec37bee109fee2b80718824482abd5f393ddb"
+    },
+    {
+      "id": "NDSE2:S02.07",
+      "level": "section",
+      "number": "2.7",
+      "title": "Developer experience and hidden time",
+      "label": "ch02-developer-experience-and-hidden-time",
+      "labels": [
+        "ch02-developer-experience-and-hidden-time"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter02.tex",
+      "line": 123,
+      "sha256": "2f513eeed43e6183a3b26ebcebaa19a35ab53dbf561260b015e69357b049a72f",
+      "chapter_id": "NDSE2:C02",
+      "chapter_hub": "C:C02",
+      "title_it": "Developer experience e tempo nascosto",
+      "file_it": "ITA/chapters/chapter02.tex",
+      "line_it": 123,
+      "sha256_it": "2336ccabfd1817c7c21c8f4e06fec37bee109fee2b80718824482abd5f393ddb"
+    },
+    {
+      "id": "NDSE2:S02.08",
+      "level": "section",
+      "number": "2.8",
+      "title": "Designing a coding-specific field pilot",
+      "label": "ch02-designing-a-coding-specific-field-pilot",
+      "labels": [
+        "ch02-designing-a-coding-specific-field-pilot"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter02.tex",
+      "line": 142,
+      "sha256": "2f513eeed43e6183a3b26ebcebaa19a35ab53dbf561260b015e69357b049a72f",
+      "chapter_id": "NDSE2:C02",
+      "chapter_hub": "C:C02",
+      "title_it": "Progettare un pilot sul campo per task di coding",
+      "file_it": "ITA/chapters/chapter02.tex",
+      "line_it": 142,
+      "sha256_it": "2336ccabfd1817c7c21c8f4e06fec37bee109fee2b80718824482abd5f393ddb"
+    },
+    {
+      "id": "NDSE2:S02.09",
+      "level": "section",
+      "number": "2.9",
+      "title": "From metrics to an evidence-based pilot decision",
+      "label": "ch02-from-metrics-to-an-evidence-based-pilot-decision",
+      "labels": [
+        "ch02-from-metrics-to-an-evidence-based-pilot-decision"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter02.tex",
+      "line": 182,
+      "sha256": "2f513eeed43e6183a3b26ebcebaa19a35ab53dbf561260b015e69357b049a72f",
+      "chapter_id": "NDSE2:C02",
+      "chapter_hub": "C:C02",
+      "title_it": "Dalle metriche a una decisione sul pilot basata sulle evidenze",
+      "file_it": "ITA/chapters/chapter02.tex",
+      "line_it": 182,
+      "sha256_it": "2336ccabfd1817c7c21c8f4e06fec37bee109fee2b80718824482abd5f393ddb"
+    },
+    {
+      "id": "NDSE2:S02.10",
+      "level": "section",
+      "number": "2.10",
+      "title": "Worked engineering example: pick the denominator before the tool",
+      "label": "ch02:worked-example",
+      "labels": [
+        "ch02:worked-example"
+      ],
+      "starred": false,
+      "file": "EN/didactics/worked02.tex",
+      "line": 1,
+      "sha256": "3bed70ceaaf9f515fc4150d37eaad904c93599a1e940bb60fc768c0e6d51e8fe",
+      "chapter_id": "NDSE2:C02",
+      "chapter_hub": "C:C02",
+      "title_it": "Esempio ingegneristico svolto: scegliere il denominatore prima dello strumento",
+      "file_it": "ITA/didactics/worked02.tex",
+      "line_it": 1,
+      "sha256_it": "beccc74dbaee10cc982dd92da1d62b9a4a4e670b45272227a8678f9add116c68"
+    },
+    {
+      "id": "NDSE2:S02.11",
+      "level": "section",
+      "number": "2.11",
+      "title": "Practice exercise: measure accepted throughput, not generated output",
+      "label": "ex:ch02",
+      "labels": [
+        "ex:ch02"
+      ],
+      "starred": false,
+      "file": "EN/exercises/exercise02.tex",
+      "line": 2,
+      "sha256": "c9de0f8b0502a4e5d7a7c27d43651020e469efe8b58317f8330ae65754a76aeb",
+      "chapter_id": "NDSE2:C02",
+      "chapter_hub": "C:C02",
+      "title_it": "Esercizio pratico: misurare il throughput accettato, non l'output generato",
+      "file_it": "ITA/exercises/exercise02.tex",
+      "line_it": 2,
+      "sha256_it": "610f3a9dba858f7723d98075e3ba7851fe61e9e62c5739c0ac2b98e98e5f3b4e"
+    },
+    {
+      "id": "NDSE2:S03.01",
+      "level": "section",
+      "number": "3.1",
+      "title": "From suggestion to a permission-bounded agent",
+      "label": "ch03-from-suggestion-to-a-permission-bounded-agent",
+      "labels": [
+        "ch03-from-suggestion-to-a-permission-bounded-agent"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter03.tex",
+      "line": 11,
+      "sha256": "ce0ca41e0ce359c1fd4752f2db1de6b1312c006510fc9c3ba364e3310916c2b1",
+      "chapter_id": "NDSE2:C03",
+      "chapter_hub": "C:C03",
+      "title_it": "Dal suggerimento a un agent con permessi delimitati",
+      "file_it": "ITA/chapters/chapter03.tex",
+      "line_it": 11,
+      "sha256_it": "2c1ae14b69644084668fec3494a975a6f6be7822e77d7d96d1b21f654d2aa713"
+    },
+    {
+      "id": "NDSE2:S03.02",
+      "level": "section",
+      "number": "3.2",
+      "title": "What an agent actually observes",
+      "label": "ch03-what-an-agent-actually-observes",
+      "labels": [
+        "ch03-what-an-agent-actually-observes"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter03.tex",
+      "line": 27,
+      "sha256": "ce0ca41e0ce359c1fd4752f2db1de6b1312c006510fc9c3ba364e3310916c2b1",
+      "chapter_id": "NDSE2:C03",
+      "chapter_hub": "C:C03",
+      "title_it": "Che cosa osserva realmente un agent",
+      "file_it": "ITA/chapters/chapter03.tex",
+      "line_it": 27,
+      "sha256_it": "2c1ae14b69644084668fec3494a975a6f6be7822e77d7d96d1b21f654d2aa713"
+    },
+    {
+      "id": "NDSE2:S03.03",
+      "level": "section",
+      "number": "3.3",
+      "title": "The task envelope",
+      "label": "ch03-the-task-envelope",
+      "labels": [
+        "ch03-the-task-envelope"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter03.tex",
+      "line": 35,
+      "sha256": "ce0ca41e0ce359c1fd4752f2db1de6b1312c006510fc9c3ba364e3310916c2b1",
+      "chapter_id": "NDSE2:C03",
+      "chapter_hub": "C:C03",
+      "title_it": "Il perimetro del task",
+      "file_it": "ITA/chapters/chapter03.tex",
+      "line_it": 35,
+      "sha256_it": "2c1ae14b69644084668fec3494a975a6f6be7822e77d7d96d1b21f654d2aa713"
+    },
+    {
+      "id": "NDSE2:S03.04",
+      "level": "section",
+      "number": "3.4",
+      "title": "Agent benchmarks and observed pull requests",
+      "label": "ch03-agent-benchmarks-and-observed-pull-requests",
+      "labels": [
+        "ch03-agent-benchmarks-and-observed-pull-requests"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter03.tex",
+      "line": 57,
+      "sha256": "ce0ca41e0ce359c1fd4752f2db1de6b1312c006510fc9c3ba364e3310916c2b1",
+      "chapter_id": "NDSE2:C03",
+      "chapter_hub": "C:C03",
+      "title_it": "Benchmark degli agent e pull request osservate",
+      "file_it": "ITA/chapters/chapter03.tex",
+      "line_it": 57,
+      "sha256_it": "2c1ae14b69644084668fec3494a975a6f6be7822e77d7d96d1b21f654d2aa713"
+    },
+    {
+      "id": "NDSE2:S03.05",
+      "level": "section",
+      "number": "3.5",
+      "title": "Common failure modes in real changes",
+      "label": "ch03-common-failure-modes-in-real-changes",
+      "labels": [
+        "ch03-common-failure-modes-in-real-changes"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter03.tex",
+      "line": 70,
+      "sha256": "ce0ca41e0ce359c1fd4752f2db1de6b1312c006510fc9c3ba364e3310916c2b1",
+      "chapter_id": "NDSE2:C03",
+      "chapter_hub": "C:C03",
+      "title_it": "Modalità di fallimento frequenti nelle modifiche reali",
+      "file_it": "ITA/chapters/chapter03.tex",
+      "line_it": 70,
+      "sha256_it": "2c1ae14b69644084668fec3494a975a6f6be7822e77d7d96d1b21f654d2aa713"
+    },
+    {
+      "id": "NDSE2:S03.06",
+      "level": "section",
+      "number": "3.6",
+      "title": "A bounded propose–act–observe loop",
+      "label": "ch03-a-bounded-proposeactobserve-loop",
+      "labels": [
+        "ch03-a-bounded-proposeactobserve-loop"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter03.tex",
+      "line": 78,
+      "sha256": "ce0ca41e0ce359c1fd4752f2db1de6b1312c006510fc9c3ba364e3310916c2b1",
+      "chapter_id": "NDSE2:C03",
+      "chapter_hub": "C:C03",
+      "title_it": "Un loop delimitato propose–act–observe",
+      "file_it": "ITA/chapters/chapter03.tex",
+      "line_it": 78,
+      "sha256_it": "2c1ae14b69644084668fec3494a975a6f6be7822e77d7d96d1b21f654d2aa713"
+    },
+    {
+      "id": "NDSE2:S03.07",
+      "level": "section",
+      "number": "3.7",
+      "title": "The minimum sufficient execution route",
+      "label": "ch03:execution-routes",
+      "labels": [
+        "ch03:execution-routes"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter03.tex",
+      "line": 127,
+      "sha256": "ce0ca41e0ce359c1fd4752f2db1de6b1312c006510fc9c3ba364e3310916c2b1",
+      "chapter_id": "NDSE2:C03",
+      "chapter_hub": "C:C03",
+      "title_it": "Scegliere il percorso minimo di esecuzione sufficiente",
+      "file_it": "ITA/chapters/chapter03.tex",
+      "line_it": 127,
+      "sha256_it": "2c1ae14b69644084668fec3494a975a6f6be7822e77d7d96d1b21f654d2aa713"
+    },
+    {
+      "id": "NDSE2:S03.08",
+      "level": "section",
+      "number": "3.8",
+      "title": "When parallel agents help and hurt",
+      "label": "ch03-when-parallel-agents-help-and-hurt",
+      "labels": [
+        "ch03-when-parallel-agents-help-and-hurt"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter03.tex",
+      "line": 143,
+      "sha256": "ce0ca41e0ce359c1fd4752f2db1de6b1312c006510fc9c3ba364e3310916c2b1",
+      "chapter_id": "NDSE2:C03",
+      "chapter_hub": "C:C03",
+      "title_it": "Quando gli agent paralleli aiutano e quando peggiorano il risultato",
+      "file_it": "ITA/chapters/chapter03.tex",
+      "line_it": 143,
+      "sha256_it": "2c1ae14b69644084668fec3494a975a6f6be7822e77d7d96d1b21f654d2aa713"
+    },
+    {
+      "id": "NDSE2:S03.09",
+      "level": "section",
+      "number": "3.9",
+      "title": "Stopping rules versus acceptance authority",
+      "label": "ch03-stopping-rules-versus-acceptance-authority",
+      "labels": [
+        "ch03-stopping-rules-versus-acceptance-authority"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter03.tex",
+      "line": 153,
+      "sha256": "ce0ca41e0ce359c1fd4752f2db1de6b1312c006510fc9c3ba364e3310916c2b1",
+      "chapter_id": "NDSE2:C03",
+      "chapter_hub": "C:C03",
+      "title_it": "Regole di arresto e autorità di accettazione",
+      "file_it": "ITA/chapters/chapter03.tex",
+      "line_it": 153,
+      "sha256_it": "2c1ae14b69644084668fec3494a975a6f6be7822e77d7d96d1b21f654d2aa713"
+    },
+    {
+      "id": "NDSE2:S03.10",
+      "level": "section",
+      "number": "3.10",
+      "title": "Agent capability as a testable hypothesis",
+      "label": "ch03-agent-capability-as-a-testable-hypothesis",
+      "labels": [
+        "ch03-agent-capability-as-a-testable-hypothesis"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter03.tex",
+      "line": 173,
+      "sha256": "ce0ca41e0ce359c1fd4752f2db1de6b1312c006510fc9c3ba364e3310916c2b1",
+      "chapter_id": "NDSE2:C03",
+      "chapter_hub": "C:C03",
+      "title_it": "Le capacità dell'agent come ipotesi verificabili",
+      "file_it": "ITA/chapters/chapter03.tex",
+      "line_it": 173,
+      "sha256_it": "2c1ae14b69644084668fec3494a975a6f6be7822e77d7d96d1b21f654d2aa713"
+    },
+    {
+      "id": "NDSE2:S03.s11",
+      "level": "section",
+      "number": null,
+      "title": "Technical laboratory — A permission-bounded candidate, not an autonomous release",
+      "label": "ch03-technical-laboratory-a-permission-bounded-candidate-not-an-autonomous-release",
+      "labels": [
+        "ch03-technical-laboratory-a-permission-bounded-candidate-not-an-autonomous-release"
+      ],
+      "starred": true,
+      "file": "EN/chapters/chapter03.tex",
+      "line": 181,
+      "sha256": "ce0ca41e0ce359c1fd4752f2db1de6b1312c006510fc9c3ba364e3310916c2b1",
+      "chapter_id": "NDSE2:C03",
+      "chapter_hub": "C:C03",
+      "title_it": "Laboratorio tecnico — Una candidata con permessi delimitati, non una release autonoma",
+      "file_it": "ITA/chapters/chapter03.tex",
+      "line_it": 181,
+      "sha256_it": "2c1ae14b69644084668fec3494a975a6f6be7822e77d7d96d1b21f654d2aa713"
+    },
+    {
+      "id": "NDSE2:S03.11",
+      "level": "section",
+      "number": "3.11",
+      "title": "Worked engineering example: permission is a state-machine input",
+      "label": "ch03:worked-example",
+      "labels": [
+        "ch03:worked-example"
+      ],
+      "starred": false,
+      "file": "EN/didactics/worked03.tex",
+      "line": 1,
+      "sha256": "71d957537f23ca6dc17445d5ad98d2785670d1ea63b1104ae3153119b3ca5887",
+      "chapter_id": "NDSE2:C03",
+      "chapter_hub": "C:C03",
+      "title_it": "Esempio ingegneristico svolto: i permessi sono input della macchina a stati",
+      "file_it": "ITA/didactics/worked03.tex",
+      "line_it": 1,
+      "sha256_it": "a6a1f9bfa83904e27b085e8c6b18504ede3532d9fbeb1c0a2a773e91e2d2a8c6"
+    },
+    {
+      "id": "NDSE2:S03.12",
+      "level": "section",
+      "number": "3.12",
+      "title": "Practice exercise: define an agent's actual authority",
+      "label": "ex:ch03",
+      "labels": [
+        "ex:ch03"
+      ],
+      "starred": false,
+      "file": "EN/exercises/exercise03.tex",
+      "line": 2,
+      "sha256": "88aaf801ebeedca4d54f0e7787eb6479b4249c69bbc5018f0acc622601ac15d9",
+      "chapter_id": "NDSE2:C03",
+      "chapter_hub": "C:C03",
+      "title_it": "Esercizio pratico: definire l'autorità effettiva di un agent",
+      "file_it": "ITA/exercises/exercise03.tex",
+      "line_it": 2,
+      "sha256_it": "9009e2c299f67afccd46f0d499602a6db012dcd11cffa38392c70dadf81b3e60"
+    },
+    {
+      "id": "NDSE2:S04.01",
+      "level": "section",
+      "number": "4.1",
+      "title": "Separate intention determination from design",
+      "label": "ch04-separate-intention-determination-from-design",
+      "labels": [
+        "ch04-separate-intention-determination-from-design"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter04.tex",
+      "line": 11,
+      "sha256": "f9ba7148a44598fb3bb1a59888f37f376faadff0f300dafb908a98168176f7a7",
+      "chapter_id": "NDSE2:C04",
+      "chapter_hub": "C:C04",
+      "title_it": "Separare la definizione dell'intenzione dal design",
+      "file_it": "ITA/chapters/chapter04.tex",
+      "line_it": 11,
+      "sha256_it": "878773f16a0704f3cb52d7547b3b7959cb5497eadfc30a93ad23816c8ac69ed5"
+    },
+    {
+      "id": "NDSE2:S04.02",
+      "level": "section",
+      "number": "4.2",
+      "title": "From a request to a versioned intention ledger",
+      "label": "ch04-from-a-request-to-a-versioned-intention-ledger",
+      "labels": [
+        "ch04-from-a-request-to-a-versioned-intention-ledger"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter04.tex",
+      "line": 50,
+      "sha256": "f9ba7148a44598fb3bb1a59888f37f376faadff0f300dafb908a98168176f7a7",
+      "chapter_id": "NDSE2:C04",
+      "chapter_hub": "C:C04",
+      "title_it": "Dalla richiesta a un registro versionato delle intenzioni",
+      "file_it": "ITA/chapters/chapter04.tex",
+      "line_it": 50,
+      "sha256_it": "878773f16a0704f3cb52d7547b3b7959cb5497eadfc30a93ad23816c8ac69ed5"
+    },
+    {
+      "id": "NDSE2:S04.03",
+      "level": "section",
+      "number": "4.3",
+      "title": "Write behavioral examples before implementation",
+      "label": "ch04-write-behavioral-examples-before-implementation",
+      "labels": [
+        "ch04-write-behavioral-examples-before-implementation"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter04.tex",
+      "line": 74,
+      "sha256": "f9ba7148a44598fb3bb1a59888f37f376faadff0f300dafb908a98168176f7a7",
+      "chapter_id": "NDSE2:C04",
+      "chapter_hub": "C:C04",
+      "title_it": "Scrivere esempi comportamentali prima dell'implementazione",
+      "file_it": "ITA/chapters/chapter04.tex",
+      "line_it": 74,
+      "sha256_it": "878773f16a0704f3cb52d7547b3b7959cb5497eadfc30a93ad23816c8ac69ed5"
+    },
+    {
+      "id": "NDSE2:S04.04",
+      "level": "section",
+      "number": "4.4",
+      "title": "The smallest native intention bundle",
+      "label": "ch04:minimal-bundle",
+      "labels": [
+        "ch04:minimal-bundle"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter04.tex",
+      "line": 102,
+      "sha256": "f9ba7148a44598fb3bb1a59888f37f376faadff0f300dafb908a98168176f7a7",
+      "chapter_id": "NDSE2:C04",
+      "chapter_hub": "C:C04",
+      "title_it": "Il più piccolo insieme di artefatti nativi dell'intenzione",
+      "file_it": "ITA/chapters/chapter04.tex",
+      "line_it": 102,
+      "sha256_it": "878773f16a0704f3cb52d7547b3b7959cb5497eadfc30a93ad23816c8ac69ed5"
+    },
+    {
+      "id": "NDSE2:S04.05",
+      "level": "section",
+      "number": "4.5",
+      "title": "Executable contracts without circular oracles",
+      "label": "ch04-executable-contracts-without-circular-oracles",
+      "labels": [
+        "ch04-executable-contracts-without-circular-oracles"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter04.tex",
+      "line": 130,
+      "sha256": "f9ba7148a44598fb3bb1a59888f37f376faadff0f300dafb908a98168176f7a7",
+      "chapter_id": "NDSE2:C04",
+      "chapter_hub": "C:C04",
+      "title_it": "Contratti eseguibili senza oracle circolari",
+      "file_it": "ITA/chapters/chapter04.tex",
+      "line_it": 130,
+      "sha256_it": "878773f16a0704f3cb52d7547b3b7959cb5497eadfc30a93ad23816c8ac69ed5"
+    },
+    {
+      "id": "NDSE2:S04.06",
+      "level": "section",
+      "number": "4.6",
+      "title": "Architecture decision versus acceptance contract",
+      "label": "ch04-architecture-decision-versus-acceptance-contract",
+      "labels": [
+        "ch04-architecture-decision-versus-acceptance-contract"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter04.tex",
+      "line": 145,
+      "sha256": "f9ba7148a44598fb3bb1a59888f37f376faadff0f300dafb908a98168176f7a7",
+      "chapter_id": "NDSE2:C04",
+      "chapter_hub": "C:C04",
+      "title_it": "Decisione architetturale e contratto di accettazione",
+      "file_it": "ITA/chapters/chapter04.tex",
+      "line_it": 145,
+      "sha256_it": "878773f16a0704f3cb52d7547b3b7959cb5497eadfc30a93ad23816c8ac69ed5"
+    },
+    {
+      "id": "NDSE2:S04.07",
+      "level": "section",
+      "number": "4.7",
+      "title": "One canonical change-and-evidence trace",
+      "label": "ch04:canonical-trace",
+      "labels": [
+        "ch04:canonical-trace"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter04.tex",
+      "line": 153,
+      "sha256": "f9ba7148a44598fb3bb1a59888f37f376faadff0f300dafb908a98168176f7a7",
+      "chapter_id": "NDSE2:C04",
+      "chapter_hub": "C:C04",
+      "title_it": "Una traccia canonica di modifica ed evidenze",
+      "file_it": "ITA/chapters/chapter04.tex",
+      "line_it": 153,
+      "sha256_it": "878773f16a0704f3cb52d7547b3b7959cb5497eadfc30a93ad23816c8ac69ed5"
+    },
+    {
+      "id": "NDSE2:S04.08",
+      "level": "section",
+      "number": "4.8",
+      "title": "A delta-driven iterative brownfield lifecycle",
+      "label": "ch04-a-delta-driven-iterative-brownfield-lifecycle",
+      "labels": [
+        "ch04-a-delta-driven-iterative-brownfield-lifecycle"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter04.tex",
+      "line": 160,
+      "sha256": "f9ba7148a44598fb3bb1a59888f37f376faadff0f300dafb908a98168176f7a7",
+      "chapter_id": "NDSE2:C04",
+      "chapter_hub": "C:C04",
+      "title_it": "Un ciclo di vita brownfield iterativo, guidato dai delta",
+      "file_it": "ITA/chapters/chapter04.tex",
+      "line_it": 160,
+      "sha256_it": "878773f16a0704f3cb52d7547b3b7959cb5497eadfc30a93ad23816c8ac69ed5"
+    },
+    {
+      "id": "NDSE2:S04.09",
+      "level": "section",
+      "number": "4.9",
+      "title": "Late intentions and explicit impact analysis",
+      "label": "ch04-late-intentions-and-explicit-impact-analysis",
+      "labels": [
+        "ch04-late-intentions-and-explicit-impact-analysis"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter04.tex",
+      "line": 175,
+      "sha256": "f9ba7148a44598fb3bb1a59888f37f376faadff0f300dafb908a98168176f7a7",
+      "chapter_id": "NDSE2:C04",
+      "chapter_hub": "C:C04",
+      "title_it": "Intenzioni sopraggiunte e analisi d'impatto esplicita",
+      "file_it": "ITA/chapters/chapter04.tex",
+      "line_it": 175,
+      "sha256_it": "878773f16a0704f3cb52d7547b3b7959cb5497eadfc30a93ad23816c8ac69ed5"
+    },
+    {
+      "id": "NDSE2:S04.10",
+      "level": "section",
+      "number": "4.10",
+      "title": "Native intent gates and optional compatibility adapters",
+      "label": "ch04-native-intent-gates-and-optional-compatibility-adapters",
+      "labels": [
+        "ch04-native-intent-gates-and-optional-compatibility-adapters"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter04.tex",
+      "line": 183,
+      "sha256": "f9ba7148a44598fb3bb1a59888f37f376faadff0f300dafb908a98168176f7a7",
+      "chapter_id": "NDSE2:C04",
+      "chapter_hub": "C:C04",
+      "title_it": "Gate nativi dell'intenzione e adapter di compatibilità opzionali",
+      "file_it": "ITA/chapters/chapter04.tex",
+      "line_it": 183,
+      "sha256_it": "878773f16a0704f3cb52d7547b3b7959cb5497eadfc30a93ad23816c8ac69ed5"
+    },
+    {
+      "id": "NDSE2:S04.11",
+      "level": "section",
+      "number": "4.11",
+      "title": "The approval-rule contract across two iterations",
+      "label": "ch04-the-approval-rule-contract-across-two-iterations",
+      "labels": [
+        "ch04-the-approval-rule-contract-across-two-iterations"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter04.tex",
+      "line": 219,
+      "sha256": "f9ba7148a44598fb3bb1a59888f37f376faadff0f300dafb908a98168176f7a7",
+      "chapter_id": "NDSE2:C04",
+      "chapter_hub": "C:C04",
+      "title_it": "Il contratto delle regole di approvazione attraverso due iterazioni",
+      "file_it": "ITA/chapters/chapter04.tex",
+      "line_it": 219,
+      "sha256_it": "878773f16a0704f3cb52d7547b3b7959cb5497eadfc30a93ad23816c8ac69ed5"
+    },
+    {
+      "id": "NDSE2:S04.12",
+      "level": "section",
+      "number": "4.12",
+      "title": "Worked engineering example: a late requirement need not restart the project",
+      "label": "ch04:worked-example",
+      "labels": [
+        "ch04:worked-example"
+      ],
+      "starred": false,
+      "file": "EN/didactics/worked04.tex",
+      "line": 1,
+      "sha256": "d2c109d282dc74603d2072cf2de3ffd75db3b2859a785600f00ee7ad98eb421e",
+      "chapter_id": "NDSE2:C04",
+      "chapter_hub": "C:C04",
+      "title_it": "Esempio svolto: un requisito tardivo non deve far ripartire il progetto",
+      "file_it": "ITA/didactics/worked04.tex",
+      "line_it": 1,
+      "sha256_it": "1299af3f44c6cf4c19c07eb58dafacf3cdb7a98093f6d47f3f0843b380c09fa6"
+    },
+    {
+      "id": "NDSE2:S04.13",
+      "level": "section",
+      "number": "4.13",
+      "title": "Practice exercise: absorb a late intention without a waterfall restart",
+      "label": "ex:ch04",
+      "labels": [
+        "ex:ch04"
+      ],
+      "starred": false,
+      "file": "EN/exercises/exercise04.tex",
+      "line": 2,
+      "sha256": "4350289709b98b69965d1922ad08c942bb00122f52beec93d0825e30c6630cb2",
+      "chapter_id": "NDSE2:C04",
+      "chapter_hub": "C:C04",
+      "title_it": "Esercizio pratico: integrare un'intenzione tardiva senza ricominciare in waterfall",
+      "file_it": "ITA/exercises/exercise04.tex",
+      "line_it": 2,
+      "sha256_it": "72e9acf1dc292e99dfdc2846799dbb97be2b4e87a89fb9edaf47bf9d775af539"
+    },
+    {
+      "id": "NDSE2:S05.01",
+      "level": "section",
+      "number": "5.1",
+      "title": "What counts as code quality?",
+      "label": "ch05-what-counts-as-code-quality",
+      "labels": [
+        "ch05-what-counts-as-code-quality"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter05.tex",
+      "line": 11,
+      "sha256": "f6e123ae06931297b82554424c5b9b9c4b6bdb00e897814d515d11203e684075",
+      "chapter_id": "NDSE2:C05",
+      "chapter_hub": "C:C05",
+      "title_it": "Che cosa significa qualità del codice?",
+      "file_it": "ITA/chapters/chapter05.tex",
+      "line_it": 11,
+      "sha256_it": "31ceb5547ea22913089d9eba92093a622b30f98f3052e9a0f793dee86df8938e"
+    },
+    {
+      "id": "NDSE2:S05.02",
+      "level": "section",
+      "number": "5.2",
+      "title": "Reading AI-versus-human studies correctly",
+      "label": "ch05-reading-ai-versus-human-studies-correctly",
+      "labels": [
+        "ch05-reading-ai-versus-human-studies-correctly"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter05.tex",
+      "line": 26,
+      "sha256": "f6e123ae06931297b82554424c5b9b9c4b6bdb00e897814d515d11203e684075",
+      "chapter_id": "NDSE2:C05",
+      "chapter_hub": "C:C05",
+      "title_it": "Come leggere correttamente gli studi che confrontano AI e sviluppatori",
+      "file_it": "ITA/chapters/chapter05.tex",
+      "line_it": 26,
+      "sha256_it": "31ceb5547ea22913089d9eba92093a622b30f98f3052e9a0f793dee86df8938e"
+    },
+    {
+      "id": "NDSE2:S05.03",
+      "level": "section",
+      "number": "5.3",
+      "title": "Code smells are signals, not incidents",
+      "label": "ch05-code-smells-are-signals-not-incidents",
+      "labels": [
+        "ch05-code-smells-are-signals-not-incidents"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter05.tex",
+      "line": 42,
+      "sha256": "f6e123ae06931297b82554424c5b9b9c4b6bdb00e897814d515d11203e684075",
+      "chapter_id": "NDSE2:C05",
+      "chapter_hub": "C:C05",
+      "title_it": "I code smell sono segnali, non incidenti",
+      "file_it": "ITA/chapters/chapter05.tex",
+      "line_it": 42,
+      "sha256_it": "31ceb5547ea22913089d9eba92093a622b30f98f3052e9a0f793dee86df8938e"
+    },
+    {
+      "id": "NDSE2:S05.04",
+      "level": "section",
+      "number": "5.4",
+      "title": "Generated duplication and missed reuse",
+      "label": "ch05-generated-duplication-and-missed-reuse",
+      "labels": [
+        "ch05-generated-duplication-and-missed-reuse"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter05.tex",
+      "line": 50,
+      "sha256": "f6e123ae06931297b82554424c5b9b9c4b6bdb00e897814d515d11203e684075",
+      "chapter_id": "NDSE2:C05",
+      "chapter_hub": "C:C05",
+      "title_it": "Duplicazioni generate e riuso trascurato",
+      "file_it": "ITA/chapters/chapter05.tex",
+      "line_it": 50,
+      "sha256_it": "31ceb5547ea22913089d9eba92093a622b30f98f3052e9a0f793dee86df8938e"
+    },
+    {
+      "id": "NDSE2:S05.05",
+      "level": "section",
+      "number": "5.5",
+      "title": "Architectural fit in a living codebase",
+      "label": "ch05-architectural-fit-in-a-living-codebase",
+      "labels": [
+        "ch05-architectural-fit-in-a-living-codebase"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter05.tex",
+      "line": 62,
+      "sha256": "f6e123ae06931297b82554424c5b9b9c4b6bdb00e897814d515d11203e684075",
+      "chapter_id": "NDSE2:C05",
+      "chapter_hub": "C:C05",
+      "title_it": "Coerenza architetturale in un codebase in evoluzione",
+      "file_it": "ITA/chapters/chapter05.tex",
+      "line_it": 62,
+      "sha256_it": "31ceb5547ea22913089d9eba92093a622b30f98f3052e9a0f793dee86df8938e"
+    },
+    {
+      "id": "NDSE2:S05.06",
+      "level": "section",
+      "number": "5.6",
+      "title": "Post-merge evolution and maintenance burden",
+      "label": "ch05-post-merge-evolution-and-maintenance-burden",
+      "labels": [
+        "ch05-post-merge-evolution-and-maintenance-burden"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter05.tex",
+      "line": 76,
+      "sha256": "f6e123ae06931297b82554424c5b9b9c4b6bdb00e897814d515d11203e684075",
+      "chapter_id": "NDSE2:C05",
+      "chapter_hub": "C:C05",
+      "title_it": "Evoluzione dopo il merge e onere della manutenzione",
+      "file_it": "ITA/chapters/chapter05.tex",
+      "line_it": 76,
+      "sha256_it": "31ceb5547ea22913089d9eba92093a622b30f98f3052e9a0f793dee86df8938e"
+    },
+    {
+      "id": "NDSE2:S05.07",
+      "level": "section",
+      "number": "5.7",
+      "title": "Tracing quality across agents and projects",
+      "label": "ch05-tracing-quality-across-agents-and-projects",
+      "labels": [
+        "ch05-tracing-quality-across-agents-and-projects"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter05.tex",
+      "line": 101,
+      "sha256": "f6e123ae06931297b82554424c5b9b9c4b6bdb00e897814d515d11203e684075",
+      "chapter_id": "NDSE2:C05",
+      "chapter_hub": "C:C05",
+      "title_it": "Seguire la qualità tra agent e progetti",
+      "file_it": "ITA/chapters/chapter05.tex",
+      "line_it": 101,
+      "sha256_it": "31ceb5547ea22913089d9eba92093a622b30f98f3052e9a0f793dee86df8938e"
+    },
+    {
+      "id": "NDSE2:S05.08",
+      "level": "section",
+      "number": "5.8",
+      "title": "Authorship is not stewardship",
+      "label": "ch05-authorship-is-not-stewardship",
+      "labels": [
+        "ch05-authorship-is-not-stewardship"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter05.tex",
+      "line": 113,
+      "sha256": "f6e123ae06931297b82554424c5b9b9c4b6bdb00e897814d515d11203e684075",
+      "chapter_id": "NDSE2:C05",
+      "chapter_hub": "C:C05",
+      "title_it": "Scrivere il codice non significa esserne responsabili",
+      "file_it": "ITA/chapters/chapter05.tex",
+      "line_it": 113,
+      "sha256_it": "31ceb5547ea22913089d9eba92093a622b30f98f3052e9a0f793dee86df8938e"
+    },
+    {
+      "id": "NDSE2:S05.09",
+      "level": "section",
+      "number": "5.9",
+      "title": "A second change exposes the difference",
+      "label": "ch05:second-change-example",
+      "labels": [
+        "ch05:second-change-example"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter05.tex",
+      "line": 131,
+      "sha256": "f6e123ae06931297b82554424c5b9b9c4b6bdb00e897814d515d11203e684075",
+      "chapter_id": "NDSE2:C05",
+      "chapter_hub": "C:C05",
+      "title_it": "È la seconda modifica a far emergere la differenza",
+      "file_it": "ITA/chapters/chapter05.tex",
+      "line_it": 131,
+      "sha256_it": "31ceb5547ea22913089d9eba92093a622b30f98f3052e9a0f793dee86df8938e"
+    },
+    {
+      "id": "NDSE2:S05.10",
+      "level": "section",
+      "number": "5.10",
+      "title": "Architecture fitness in the approval service",
+      "label": "ch05-architecture-fitness-in-the-approval-service",
+      "labels": [
+        "ch05-architecture-fitness-in-the-approval-service"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter05.tex",
+      "line": 151,
+      "sha256": "f6e123ae06931297b82554424c5b9b9c4b6bdb00e897814d515d11203e684075",
+      "chapter_id": "NDSE2:C05",
+      "chapter_hub": "C:C05",
+      "title_it": "Verificare l'architecture fitness nel servizio di approvazione",
+      "file_it": "ITA/chapters/chapter05.tex",
+      "line_it": 151,
+      "sha256_it": "31ceb5547ea22913089d9eba92093a622b30f98f3052e9a0f793dee86df8938e"
+    },
+    {
+      "id": "NDSE2:S05.11",
+      "level": "section",
+      "number": "5.11",
+      "title": "Worked engineering example: test the architecture, not just the output",
+      "label": "ch05:worked-example",
+      "labels": [
+        "ch05:worked-example"
+      ],
+      "starred": false,
+      "file": "EN/didactics/worked05.tex",
+      "line": 1,
+      "sha256": "3248a93f4f92911777927ffb2c29fc4493a48c4c499c7a186f6788da0227e058",
+      "chapter_id": "NDSE2:C05",
+      "chapter_hub": "C:C05",
+      "title_it": "Esempio ingegneristico svolto: verificare l'architettura, non soltanto l'output",
+      "file_it": "ITA/didactics/worked05.tex",
+      "line_it": 1,
+      "sha256_it": "dbdef19bc1754ea50b23827fa3794bc5479d85906a998d8707172c953d5401b4"
+    },
+    {
+      "id": "NDSE2:S05.12",
+      "level": "section",
+      "number": "5.12",
+      "title": "Practice exercise: choose a maintainable implementation",
+      "label": "ex:ch05",
+      "labels": [
+        "ex:ch05"
+      ],
+      "starred": false,
+      "file": "EN/exercises/exercise05.tex",
+      "line": 2,
+      "sha256": "5e1c5fbea39b9f8157f06cc35da4dab74111794fd6e030726e264254573e6b36",
+      "chapter_id": "NDSE2:C05",
+      "chapter_hub": "C:C05",
+      "title_it": "Esercizio pratico: scegliere un'implementazione manutenibile",
+      "file_it": "ITA/exercises/exercise05.tex",
+      "line_it": 2,
+      "sha256_it": "f07ece2a3c0dd98c63cff6ad8e70b8fe4cd7e629387a1bab6de03ea2e10d05d3"
+    },
+    {
+      "id": "NDSE2:S06.01",
+      "level": "section",
+      "number": "6.1",
+      "title": "Two attack surfaces, two threat models",
+      "label": "ch06-two-attack-surfaces-two-threat-models",
+      "labels": [
+        "ch06-two-attack-surfaces-two-threat-models"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter06.tex",
+      "line": 10,
+      "sha256": "3af782fd4b06529539e8b78e95b77ad3911980472e272fe111ddcfcc82ce777a",
+      "chapter_id": "NDSE2:C06",
+      "chapter_hub": "C:C06",
+      "title_it": "Due superfici di attacco, due threat model",
+      "file_it": "ITA/chapters/chapter06.tex",
+      "line_it": 10,
+      "sha256_it": "f4a3e1c62eae1528ce10817e76376558b41cdc7a6d337397c394cc5cb840ea9e"
+    },
+    {
+      "id": "NDSE2:S06.02",
+      "level": "section",
+      "number": "6.2",
+      "title": "Functional correctness is not security",
+      "label": "ch06-functional-correctness-is-not-security",
+      "labels": [
+        "ch06-functional-correctness-is-not-security"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter06.tex",
+      "line": 36,
+      "sha256": "3af782fd4b06529539e8b78e95b77ad3911980472e272fe111ddcfcc82ce777a",
+      "chapter_id": "NDSE2:C06",
+      "chapter_hub": "C:C06",
+      "title_it": "La correttezza funzionale non basta per la sicurezza",
+      "file_it": "ITA/chapters/chapter06.tex",
+      "line_it": 36,
+      "sha256_it": "f4a3e1c62eae1528ce10817e76376558b41cdc7a6d337397c394cc5cb840ea9e"
+    },
+    {
+      "id": "NDSE2:S06.03",
+      "level": "section",
+      "number": "6.3",
+      "title": "What vulnerability studies actually measure",
+      "label": "ch06-what-vulnerability-studies-actually-measure",
+      "labels": [
+        "ch06-what-vulnerability-studies-actually-measure"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter06.tex",
+      "line": 48,
+      "sha256": "3af782fd4b06529539e8b78e95b77ad3911980472e272fe111ddcfcc82ce777a",
+      "chapter_id": "NDSE2:C06",
+      "chapter_hub": "C:C06",
+      "title_it": "Che cosa misurano davvero gli studi sulle vulnerabilità",
+      "file_it": "ITA/chapters/chapter06.tex",
+      "line_it": 48,
+      "sha256_it": "f4a3e1c62eae1528ce10817e76376558b41cdc7a6d337397c394cc5cb840ea9e"
+    },
+    {
+      "id": "NDSE2:S06.04",
+      "level": "section",
+      "number": "6.4",
+      "title": "Security-directed generation and remediation",
+      "label": "ch06-security-directed-generation-and-remediation",
+      "labels": [
+        "ch06-security-directed-generation-and-remediation"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter06.tex",
+      "line": 60,
+      "sha256": "3af782fd4b06529539e8b78e95b77ad3911980472e272fe111ddcfcc82ce777a",
+      "chapter_id": "NDSE2:C06",
+      "chapter_hub": "C:C06",
+      "title_it": "Generazione e remediation guidate dalla sicurezza",
+      "file_it": "ITA/chapters/chapter06.tex",
+      "line_it": 60,
+      "sha256_it": "f4a3e1c62eae1528ce10817e76376558b41cdc7a6d337397c394cc5cb840ea9e"
+    },
+    {
+      "id": "NDSE2:S06.05",
+      "level": "section",
+      "number": "6.5",
+      "title": "Dependency provenance and hallucinated packages",
+      "label": "ch06-dependency-provenance-and-hallucinated-packages",
+      "labels": [
+        "ch06-dependency-provenance-and-hallucinated-packages"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter06.tex",
+      "line": 76,
+      "sha256": "3af782fd4b06529539e8b78e95b77ad3911980472e272fe111ddcfcc82ce777a",
+      "chapter_id": "NDSE2:C06",
+      "chapter_hub": "C:C06",
+      "title_it": "Provenienza delle dipendenze e package inventati",
+      "file_it": "ITA/chapters/chapter06.tex",
+      "line_it": 76,
+      "sha256_it": "f4a3e1c62eae1528ce10817e76376558b41cdc7a6d337397c394cc5cb840ea9e"
+    },
+    {
+      "id": "NDSE2:S06.06",
+      "level": "section",
+      "number": "6.6",
+      "title": "Prompt injection through repository and tools",
+      "label": "ch06-prompt-injection-through-repository-and-tools",
+      "labels": [
+        "ch06-prompt-injection-through-repository-and-tools"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter06.tex",
+      "line": 92,
+      "sha256": "3af782fd4b06529539e8b78e95b77ad3911980472e272fe111ddcfcc82ce777a",
+      "chapter_id": "NDSE2:C06",
+      "chapter_hub": "C:C06",
+      "title_it": "Prompt injection attraverso repository e tool",
+      "file_it": "ITA/chapters/chapter06.tex",
+      "line_it": 92,
+      "sha256_it": "f4a3e1c62eae1528ce10817e76376558b41cdc7a6d337397c394cc5cb840ea9e"
+    },
+    {
+      "id": "NDSE2:S06.07",
+      "level": "section",
+      "number": "6.7",
+      "title": "Harness configuration, skills and external services",
+      "label": "ch06-harness-configuration-skills-and-external-services",
+      "labels": [
+        "ch06-harness-configuration-skills-and-external-services"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter06.tex",
+      "line": 104,
+      "sha256": "3af782fd4b06529539e8b78e95b77ad3911980472e272fe111ddcfcc82ce777a",
+      "chapter_id": "NDSE2:C06",
+      "chapter_hub": "C:C06",
+      "title_it": "Configurazione dell'harness, skill e servizi esterni",
+      "file_it": "ITA/chapters/chapter06.tex",
+      "line_it": 104,
+      "sha256_it": "f4a3e1c62eae1528ce10817e76376558b41cdc7a6d337397c394cc5cb840ea9e"
+    },
+    {
+      "id": "NDSE2:S06.08",
+      "level": "section",
+      "number": "6.8",
+      "title": "A secure agent execution profile",
+      "label": "ch06-a-secure-agent-execution-profile",
+      "labels": [
+        "ch06-a-secure-agent-execution-profile"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter06.tex",
+      "line": 126,
+      "sha256": "3af782fd4b06529539e8b78e95b77ad3911980472e272fe111ddcfcc82ce777a",
+      "chapter_id": "NDSE2:C06",
+      "chapter_hub": "C:C06",
+      "title_it": "Un profilo di esecuzione sicura per gli agent",
+      "file_it": "ITA/chapters/chapter06.tex",
+      "line_it": 126,
+      "sha256_it": "f4a3e1c62eae1528ce10817e76376558b41cdc7a6d337397c394cc5cb840ea9e"
+    },
+    {
+      "id": "NDSE2:S06.09",
+      "level": "section",
+      "number": "6.9",
+      "title": "Threats turned into enforceable boundaries",
+      "label": "ch06:threat-control-matrix",
+      "labels": [
+        "ch06:threat-control-matrix"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter06.tex",
+      "line": 150,
+      "sha256": "3af782fd4b06529539e8b78e95b77ad3911980472e272fe111ddcfcc82ce777a",
+      "chapter_id": "NDSE2:C06",
+      "chapter_hub": "C:C06",
+      "title_it": "Dalle minacce ai confini applicabili",
+      "file_it": "ITA/chapters/chapter06.tex",
+      "line_it": 150,
+      "sha256_it": "f4a3e1c62eae1528ce10817e76376558b41cdc7a6d337397c394cc5cb840ea9e"
+    },
+    {
+      "id": "NDSE2:S06.10",
+      "level": "section",
+      "number": "6.10",
+      "title": "Security evidence and release decision",
+      "label": "ch06-security-evidence-and-release-decision",
+      "labels": [
+        "ch06-security-evidence-and-release-decision"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter06.tex",
+      "line": 167,
+      "sha256": "3af782fd4b06529539e8b78e95b77ad3911980472e272fe111ddcfcc82ce777a",
+      "chapter_id": "NDSE2:C06",
+      "chapter_hub": "C:C06",
+      "title_it": "Evidenze di sicurezza e decisione di release",
+      "file_it": "ITA/chapters/chapter06.tex",
+      "line_it": 167,
+      "sha256_it": "f4a3e1c62eae1528ce10817e76376558b41cdc7a6d337397c394cc5cb840ea9e"
+    },
+    {
+      "id": "NDSE2:S06.11",
+      "level": "section",
+      "number": "6.11",
+      "title": "Worked engineering example: two threats, two defenses",
+      "label": "ch06:worked-example",
+      "labels": [
+        "ch06:worked-example"
+      ],
+      "starred": false,
+      "file": "EN/didactics/worked06.tex",
+      "line": 1,
+      "sha256": "7d763e792837b358e7c6b8692ee0b17e597f636ca52b5917088fa9f45cbb1dbd",
+      "chapter_id": "NDSE2:C06",
+      "chapter_hub": "C:C06",
+      "title_it": "Esempio ingegneristico svolto: due minacce, due difese",
+      "file_it": "ITA/didactics/worked06.tex",
+      "line_it": 1,
+      "sha256_it": "92978328a0df41169a6571ad52f64859066636f6d21d4639b1720fa732260c61"
+    },
+    {
+      "id": "NDSE2:S06.12",
+      "level": "section",
+      "number": "6.12",
+      "title": "Practice exercise: threat-model both the product and the agent",
+      "label": "ex:ch06",
+      "labels": [
+        "ex:ch06"
+      ],
+      "starred": false,
+      "file": "EN/exercises/exercise06.tex",
+      "line": 2,
+      "sha256": "ab9fe6292a08a493719181a1fbd3d5002b4b0c3282b2407037ef673a7223fb66",
+      "chapter_id": "NDSE2:C06",
+      "chapter_hub": "C:C06",
+      "title_it": "Esercizio pratico: costruire due threat model, per prodotto e agent",
+      "file_it": "ITA/exercises/exercise06.tex",
+      "line_it": 2,
+      "sha256_it": "fb3cbd905678376593c0c0b0275c898e6672f64f59dacd76aca681ae6cd3e1fd"
+    },
+    {
+      "id": "NDSE2:S07.01",
+      "level": "section",
+      "number": "7.1",
+      "title": "The oracle problem in AI-generated software",
+      "label": "ch07-the-oracle-problem-in-ai-generated-software",
+      "labels": [
+        "ch07-the-oracle-problem-in-ai-generated-software"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter07.tex",
+      "line": 11,
+      "sha256": "0990c2265ce14a6e4f7274c64952b424d7b29678a995352ab6ec2258ca7dfe00",
+      "chapter_id": "NDSE2:C07",
+      "chapter_hub": "C:C07",
+      "title_it": "Il problema dell'oracle nel software generato dall'AI",
+      "file_it": "ITA/chapters/chapter07.tex",
+      "line_it": 11,
+      "sha256_it": "7de646cec6272bbb7bdfb1f1ba7d6aa762680382fd4efac383bc341e8f394739"
+    },
+    {
+      "id": "NDSE2:S07.02",
+      "level": "section",
+      "number": "7.2",
+      "title": "A hierarchy of evidence",
+      "label": "ch07-a-hierarchy-of-evidence",
+      "labels": [
+        "ch07-a-hierarchy-of-evidence"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter07.tex",
+      "line": 25,
+      "sha256": "0990c2265ce14a6e4f7274c64952b424d7b29678a995352ab6ec2258ca7dfe00",
+      "chapter_id": "NDSE2:C07",
+      "chapter_hub": "C:C07",
+      "title_it": "Una gerarchia delle evidenze",
+      "file_it": "ITA/chapters/chapter07.tex",
+      "line_it": 25,
+      "sha256_it": "7de646cec6272bbb7bdfb1f1ba7d6aa762680382fd4efac383bc341e8f394739"
+    },
+    {
+      "id": "NDSE2:S07.03",
+      "level": "section",
+      "number": "7.3",
+      "title": "Preventing bug-shaped test generation",
+      "label": "ch07-preventing-bug-shaped-test-generation",
+      "labels": [
+        "ch07-preventing-bug-shaped-test-generation"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter07.tex",
+      "line": 35,
+      "sha256": "0990c2265ce14a6e4f7274c64952b424d7b29678a995352ab6ec2258ca7dfe00",
+      "chapter_id": "NDSE2:C07",
+      "chapter_hub": "C:C07",
+      "title_it": "Evitare test modellati sui bug",
+      "file_it": "ITA/chapters/chapter07.tex",
+      "line_it": 35,
+      "sha256_it": "7de646cec6272bbb7bdfb1f1ba7d6aa762680382fd4efac383bc341e8f394739"
+    },
+    {
+      "id": "NDSE2:S07.04",
+      "level": "section",
+      "number": "7.4",
+      "title": "Regression tests for existing and changed behavior",
+      "label": "ch07-regression-tests-for-existing-and-changed-behavior",
+      "labels": [
+        "ch07-regression-tests-for-existing-and-changed-behavior"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter07.tex",
+      "line": 51,
+      "sha256": "0990c2265ce14a6e4f7274c64952b424d7b29678a995352ab6ec2258ca7dfe00",
+      "chapter_id": "NDSE2:C07",
+      "chapter_hub": "C:C07",
+      "title_it": "Regression test per comportamenti esistenti e modificati",
+      "file_it": "ITA/chapters/chapter07.tex",
+      "line_it": 51,
+      "sha256_it": "7de646cec6272bbb7bdfb1f1ba7d6aa762680382fd4efac383bc341e8f394739"
+    },
+    {
+      "id": "NDSE2:S07.05",
+      "level": "section",
+      "number": "7.5",
+      "title": "Properties and adversarial counterexamples",
+      "label": "ch07-properties-and-adversarial-counterexamples",
+      "labels": [
+        "ch07-properties-and-adversarial-counterexamples"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter07.tex",
+      "line": 65,
+      "sha256": "0990c2265ce14a6e4f7274c64952b424d7b29678a995352ab6ec2258ca7dfe00",
+      "chapter_id": "NDSE2:C07",
+      "chapter_hub": "C:C07",
+      "title_it": "Proprietà e controesempi avversariali",
+      "file_it": "ITA/chapters/chapter07.tex",
+      "line_it": 65,
+      "sha256_it": "7de646cec6272bbb7bdfb1f1ba7d6aa762680382fd4efac383bc341e8f394739"
+    },
+    {
+      "id": "NDSE2:S07.06",
+      "level": "section",
+      "number": "7.6",
+      "title": "Benchmark success versus merge readiness",
+      "label": "ch07-benchmark-success-versus-merge-readiness",
+      "labels": [
+        "ch07-benchmark-success-versus-merge-readiness"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter07.tex",
+      "line": 83,
+      "sha256": "0990c2265ce14a6e4f7274c64952b424d7b29678a995352ab6ec2258ca7dfe00",
+      "chapter_id": "NDSE2:C07",
+      "chapter_hub": "C:C07",
+      "title_it": "Successo nei benchmark e prontezza al merge",
+      "file_it": "ITA/chapters/chapter07.tex",
+      "line_it": 83,
+      "sha256_it": "7de646cec6272bbb7bdfb1f1ba7d6aa762680382fd4efac383bc341e8f394739"
+    },
+    {
+      "id": "NDSE2:S07.07",
+      "level": "section",
+      "number": "7.7",
+      "title": "Independent checkers and correlated error",
+      "label": "ch07-independent-checkers-and-correlated-error",
+      "labels": [
+        "ch07-independent-checkers-and-correlated-error"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter07.tex",
+      "line": 94,
+      "sha256": "0990c2265ce14a6e4f7274c64952b424d7b29678a995352ab6ec2258ca7dfe00",
+      "chapter_id": "NDSE2:C07",
+      "chapter_hub": "C:C07",
+      "title_it": "Checker indipendenti ed errori correlati",
+      "file_it": "ITA/chapters/chapter07.tex",
+      "line_it": 94,
+      "sha256_it": "7de646cec6272bbb7bdfb1f1ba7d6aa762680382fd4efac383bc341e8f394739"
+    },
+    {
+      "id": "NDSE2:S07.08",
+      "level": "section",
+      "number": "7.8",
+      "title": "Bounded repair versus independent acceptance",
+      "label": "ch07-bounded-repair-versus-independent-acceptance",
+      "labels": [
+        "ch07-bounded-repair-versus-independent-acceptance"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter07.tex",
+      "line": 128,
+      "sha256": "0990c2265ce14a6e4f7274c64952b424d7b29678a995352ab6ec2258ca7dfe00",
+      "chapter_id": "NDSE2:C07",
+      "chapter_hub": "C:C07",
+      "title_it": "Correzione delimitata e accettazione indipendente",
+      "file_it": "ITA/chapters/chapter07.tex",
+      "line_it": 128,
+      "sha256_it": "7de646cec6272bbb7bdfb1f1ba7d6aa762680382fd4efac383bc341e8f394739"
+    },
+    {
+      "id": "NDSE2:S07.09",
+      "level": "section",
+      "number": "7.9",
+      "title": "The acceptance evidence dossier",
+      "label": "ch07-the-acceptance-evidence-dossier",
+      "labels": [
+        "ch07-the-acceptance-evidence-dossier"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter07.tex",
+      "line": 145,
+      "sha256": "0990c2265ce14a6e4f7274c64952b424d7b29678a995352ab6ec2258ca7dfe00",
+      "chapter_id": "NDSE2:C07",
+      "chapter_hub": "C:C07",
+      "title_it": "Il dossier delle evidenze per l'accettazione",
+      "file_it": "ITA/chapters/chapter07.tex",
+      "line_it": 145,
+      "sha256_it": "7de646cec6272bbb7bdfb1f1ba7d6aa762680382fd4efac383bc341e8f394739"
+    },
+    {
+      "id": "NDSE2:S07.10",
+      "level": "section",
+      "number": "7.10",
+      "title": "Worked engineering example: make wrong behavior fail independently",
+      "label": "ch07:worked-example",
+      "labels": [
+        "ch07:worked-example"
+      ],
+      "starred": false,
+      "file": "EN/didactics/worked07.tex",
+      "line": 1,
+      "sha256": "9e9e6ba0730240be5f7e150066b86a6efb15bd5375f7e17daf7b38c818cc6d00",
+      "chapter_id": "NDSE2:C07",
+      "chapter_hub": "C:C07",
+      "title_it": "Esempio svolto: far fallire autonomamente il comportamento errato",
+      "file_it": "ITA/didactics/worked07.tex",
+      "line_it": 1,
+      "sha256_it": "51bea9ad7924ee0d4315dbaaf96a4cb048d7e83964b2fb0b03f3b1d08a7eb871"
+    },
+    {
+      "id": "NDSE2:S07.11",
+      "level": "section",
+      "number": "7.11",
+      "title": "Practice exercise: build an oracle the maker does not control",
+      "label": "ex:ch07",
+      "labels": [
+        "ex:ch07"
+      ],
+      "starred": false,
+      "file": "EN/exercises/exercise07.tex",
+      "line": 2,
+      "sha256": "6e8576e4a38f51718d623062fce3166c18b01a8eb87263c0ae848e9708730ecd",
+      "chapter_id": "NDSE2:C07",
+      "chapter_hub": "C:C07",
+      "title_it": "Esercizio: costruire un oracle che il maker non controlla",
+      "file_it": "ITA/exercises/exercise07.tex",
+      "line_it": 2,
+      "sha256_it": "36d789eac206af9047fda709b984e732e4ec44857b62194bb92ac6e2603836a9"
+    },
+    {
+      "id": "NDSE2:S08.01",
+      "level": "section",
+      "number": "8.1",
+      "title": "Why review becomes the scarce resource",
+      "label": "ch08-why-review-becomes-the-scarce-resource",
+      "labels": [
+        "ch08-why-review-becomes-the-scarce-resource"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter08.tex",
+      "line": 11,
+      "sha256": "b542b5aa04f66dd3fb402a4780f9ed7dacf076a6f2827d7b083887467b50e92a",
+      "chapter_id": "NDSE2:C08",
+      "chapter_hub": "C:C08",
+      "title_it": "Perché la review diventa la risorsa scarsa",
+      "file_it": "ITA/chapters/chapter08.tex",
+      "line_it": 11,
+      "sha256_it": "698ba9efd6ff328bcf2e7bfeb9f9136b14e933dad466c0b23d1fcbc789928824"
+    },
+    {
+      "id": "NDSE2:S08.02",
+      "level": "section",
+      "number": "8.2",
+      "title": "The influence of code complexity and provenance",
+      "label": "ch08-the-influence-of-code-complexity-and-provenance",
+      "labels": [
+        "ch08-the-influence-of-code-complexity-and-provenance"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter08.tex",
+      "line": 29,
+      "sha256": "b542b5aa04f66dd3fb402a4780f9ed7dacf076a6f2827d7b083887467b50e92a",
+      "chapter_id": "NDSE2:C08",
+      "chapter_hub": "C:C08",
+      "title_it": "L'impatto della complessità e della provenienza del codice",
+      "file_it": "ITA/chapters/chapter08.tex",
+      "line_it": 29,
+      "sha256_it": "698ba9efd6ff328bcf2e7bfeb9f9136b14e933dad466c0b23d1fcbc789928824"
+    },
+    {
+      "id": "NDSE2:S08.03",
+      "level": "section",
+      "number": "8.3",
+      "title": "Human intervention in agent pull requests",
+      "label": "ch08-human-intervention-in-agent-pull-requests",
+      "labels": [
+        "ch08-human-intervention-in-agent-pull-requests"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter08.tex",
+      "line": 39,
+      "sha256": "b542b5aa04f66dd3fb402a4780f9ed7dacf076a6f2827d7b083887467b50e92a",
+      "chapter_id": "NDSE2:C08",
+      "chapter_hub": "C:C08",
+      "title_it": "Interventi umani nelle pull request degli agent",
+      "file_it": "ITA/chapters/chapter08.tex",
+      "line_it": 39,
+      "sha256_it": "698ba9efd6ff328bcf2e7bfeb9f9136b14e933dad466c0b23d1fcbc789928824"
+    },
+    {
+      "id": "NDSE2:S08.04",
+      "level": "section",
+      "number": "8.4",
+      "title": "What AI reviewers catch—and miss",
+      "label": "ch08-what-ai-reviewers-catchand-miss",
+      "labels": [
+        "ch08-what-ai-reviewers-catchand-miss"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter08.tex",
+      "line": 47,
+      "sha256": "b542b5aa04f66dd3fb402a4780f9ed7dacf076a6f2827d7b083887467b50e92a",
+      "chapter_id": "NDSE2:C08",
+      "chapter_hub": "C:C08",
+      "title_it": "Che cosa trovano, e che cosa non trovano, gli AI reviewer",
+      "file_it": "ITA/chapters/chapter08.tex",
+      "line_it": 47,
+      "sha256_it": "698ba9efd6ff328bcf2e7bfeb9f9136b14e933dad466c0b23d1fcbc789928824"
+    },
+    {
+      "id": "NDSE2:S08.05",
+      "level": "section",
+      "number": "8.5",
+      "title": "False positives, verbosity and developer response",
+      "label": "ch08-false-positives-verbosity-and-developer-response",
+      "labels": [
+        "ch08-false-positives-verbosity-and-developer-response"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter08.tex",
+      "line": 61,
+      "sha256": "b542b5aa04f66dd3fb402a4780f9ed7dacf076a6f2827d7b083887467b50e92a",
+      "chapter_id": "NDSE2:C08",
+      "chapter_hub": "C:C08",
+      "title_it": "Falsi positivi, verbosità e risposta degli sviluppatori",
+      "file_it": "ITA/chapters/chapter08.tex",
+      "line_it": 61,
+      "sha256_it": "698ba9efd6ff328bcf2e7bfeb9f9136b14e933dad466c0b23d1fcbc789928824"
+    },
+    {
+      "id": "NDSE2:S08.06",
+      "level": "section",
+      "number": "8.6",
+      "title": "Self-review, cross-model review and shared blind spots",
+      "label": "ch08-self-review-cross-model-review-and-shared-blind-spots",
+      "labels": [
+        "ch08-self-review-cross-model-review-and-shared-blind-spots"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter08.tex",
+      "line": 89,
+      "sha256": "b542b5aa04f66dd3fb402a4780f9ed7dacf076a6f2827d7b083887467b50e92a",
+      "chapter_id": "NDSE2:C08",
+      "chapter_hub": "C:C08",
+      "title_it": "Self-review, review tra modelli diversi e punti ciechi condivisi",
+      "file_it": "ITA/chapters/chapter08.tex",
+      "line_it": 89,
+      "sha256_it": "698ba9efd6ff328bcf2e7bfeb9f9136b14e933dad466c0b23d1fcbc789928824"
+    },
+    {
+      "id": "NDSE2:S08.07",
+      "level": "section",
+      "number": "8.7",
+      "title": "Automation bias in software review",
+      "label": "ch08-automation-bias-in-software-review",
+      "labels": [
+        "ch08-automation-bias-in-software-review"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter08.tex",
+      "line": 115,
+      "sha256": "b542b5aa04f66dd3fb402a4780f9ed7dacf076a6f2827d7b083887467b50e92a",
+      "chapter_id": "NDSE2:C08",
+      "chapter_hub": "C:C08",
+      "title_it": "Automation bias nella code review",
+      "file_it": "ITA/chapters/chapter08.tex",
+      "line_it": 115,
+      "sha256_it": "698ba9efd6ff328bcf2e7bfeb9f9136b14e933dad466c0b23d1fcbc789928824"
+    },
+    {
+      "id": "NDSE2:S08.08",
+      "level": "section",
+      "number": "8.8",
+      "title": "Risk-based review allocation",
+      "label": "ch08-risk-based-review-allocation",
+      "labels": [
+        "ch08-risk-based-review-allocation"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter08.tex",
+      "line": 127,
+      "sha256": "b542b5aa04f66dd3fb402a4780f9ed7dacf076a6f2827d7b083887467b50e92a",
+      "chapter_id": "NDSE2:C08",
+      "chapter_hub": "C:C08",
+      "title_it": "Assegnare la review in base al rischio",
+      "file_it": "ITA/chapters/chapter08.tex",
+      "line_it": 127,
+      "sha256_it": "698ba9efd6ff328bcf2e7bfeb9f9136b14e933dad466c0b23d1fcbc789928824"
+    },
+    {
+      "id": "NDSE2:S08.09",
+      "level": "section",
+      "number": "8.9",
+      "title": "The review verdict is an artifact, not a comment count",
+      "label": "ch08:verdict-card",
+      "labels": [
+        "ch08:verdict-card"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter08.tex",
+      "line": 155,
+      "sha256": "b542b5aa04f66dd3fb402a4780f9ed7dacf076a6f2827d7b083887467b50e92a",
+      "chapter_id": "NDSE2:C08",
+      "chapter_hub": "C:C08",
+      "title_it": "Il verdetto della review è un artefatto, non un conteggio di commenti",
+      "file_it": "ITA/chapters/chapter08.tex",
+      "line_it": 155,
+      "sha256_it": "698ba9efd6ff328bcf2e7bfeb9f9136b14e933dad466c0b23d1fcbc789928824"
+    },
+    {
+      "id": "NDSE2:S08.10",
+      "level": "section",
+      "number": "8.10",
+      "title": "From comments to accountable acceptance",
+      "label": "ch08-from-comments-to-accountable-acceptance",
+      "labels": [
+        "ch08-from-comments-to-accountable-acceptance"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter08.tex",
+      "line": 175,
+      "sha256": "b542b5aa04f66dd3fb402a4780f9ed7dacf076a6f2827d7b083887467b50e92a",
+      "chapter_id": "NDSE2:C08",
+      "chapter_hub": "C:C08",
+      "title_it": "Dai commenti all'accettazione responsabile",
+      "file_it": "ITA/chapters/chapter08.tex",
+      "line_it": 175,
+      "sha256_it": "698ba9efd6ff328bcf2e7bfeb9f9136b14e933dad466c0b23d1fcbc789928824"
+    },
+    {
+      "id": "NDSE2:S08.11",
+      "level": "section",
+      "number": "8.11",
+      "title": "Worked engineering example: review the riskiest uncertainty first",
+      "label": "ch08:worked-example",
+      "labels": [
+        "ch08:worked-example"
+      ],
+      "starred": false,
+      "file": "EN/didactics/worked08.tex",
+      "line": 1,
+      "sha256": "27951d2e98718efe9b76ed038be2354d02437868fae1027897a6bd0b6e3fdc53",
+      "chapter_id": "NDSE2:C08",
+      "chapter_hub": "C:C08",
+      "title_it": "Esempio svolto: esaminare prima l'incertezza più rischiosa",
+      "file_it": "ITA/didactics/worked08.tex",
+      "line_it": 1,
+      "sha256_it": "e38d022080ed22b8adde173651a497ba2e191da1f5b162efe944a3488bf413f4"
+    },
+    {
+      "id": "NDSE2:S08.12",
+      "level": "section",
+      "number": "8.12",
+      "title": "Practice exercise: review two plausible agent pull requests",
+      "label": "ex:ch08",
+      "labels": [
+        "ex:ch08"
+      ],
+      "starred": false,
+      "file": "EN/exercises/exercise08.tex",
+      "line": 2,
+      "sha256": "fb32997ff8348983fc45ec21028016f1289305d3fea0fee36eacb11a48513d0a",
+      "chapter_id": "NDSE2:C08",
+      "chapter_hub": "C:C08",
+      "title_it": "Esercizio: esaminare due pull request plausibili create da agent",
+      "file_it": "ITA/exercises/exercise08.tex",
+      "line_it": 2,
+      "sha256_it": "eabedccadab16403a48ad7e955e286423de7f77be59678adf037cb57b45a3d4e"
+    },
+    {
+      "id": "NDSE2:S09.01",
+      "level": "section",
+      "number": "9.1",
+      "title": "Why comprehension dominates brownfield work",
+      "label": null,
+      "labels": [],
+      "starred": false,
+      "file": "EN/chapters/chapter09.tex",
+      "line": 11,
+      "sha256": "ab431c886c607f8a192a36336c3409fa0bf9b828d20ab6d16ffd74c162641029",
+      "chapter_id": "NDSE2:C09",
+      "chapter_hub": "C:C09",
+      "title_it": "Perché la comprensione del sistema è centrale nel lavoro brownfield",
+      "file_it": "ITA/chapters/chapter09.tex",
+      "line_it": 11,
+      "sha256_it": "87fbeee59f022f508080e38b413de15ce2b11b53515d7605560ddc60cb5244ea"
+    },
+    {
+      "id": "NDSE2:S09.02",
+      "level": "section",
+      "number": "9.2",
+      "title": "Mental models, rationale and cognitive load",
+      "label": "ch09-mental-models-rationale-and-cognitive-load",
+      "labels": [
+        "ch09-mental-models-rationale-and-cognitive-load"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter09.tex",
+      "line": 57,
+      "sha256": "ab431c886c607f8a192a36336c3409fa0bf9b828d20ab6d16ffd74c162641029",
+      "chapter_id": "NDSE2:C09",
+      "chapter_hub": "C:C09",
+      "title_it": "Modelli mentali, rationale e carico cognitivo",
+      "file_it": "ITA/chapters/chapter09.tex",
+      "line_it": 57,
+      "sha256_it": "87fbeee59f022f508080e38b413de15ce2b11b53515d7605560ddc60cb5244ea"
+    },
+    {
+      "id": "NDSE2:S09.03",
+      "level": "section",
+      "number": "9.3",
+      "title": "Authorship, ownership and stewardship",
+      "label": "ch09-authorship-ownership-and-stewardship",
+      "labels": [
+        "ch09-authorship-ownership-and-stewardship"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter09.tex",
+      "line": 65,
+      "sha256": "ab431c886c607f8a192a36336c3409fa0bf9b828d20ab6d16ffd74c162641029",
+      "chapter_id": "NDSE2:C09",
+      "chapter_hub": "C:C09",
+      "title_it": "Authorship, ownership e stewardship",
+      "file_it": "ITA/chapters/chapter09.tex",
+      "line_it": 65,
+      "sha256_it": "87fbeee59f022f508080e38b413de15ce2b11b53515d7605560ddc60cb5244ea"
+    },
+    {
+      "id": "NDSE2:S09.04",
+      "level": "section",
+      "number": "9.4",
+      "title": "Context assembly for an agent",
+      "label": "ch09-context-assembly-for-an-agent",
+      "labels": [
+        "ch09-context-assembly-for-an-agent"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter09.tex",
+      "line": 73,
+      "sha256": "ab431c886c607f8a192a36336c3409fa0bf9b828d20ab6d16ffd74c162641029",
+      "chapter_id": "NDSE2:C09",
+      "chapter_hub": "C:C09",
+      "title_it": "Comporre il context di un agent",
+      "file_it": "ITA/chapters/chapter09.tex",
+      "line_it": 73,
+      "sha256_it": "87fbeee59f022f508080e38b413de15ce2b11b53515d7605560ddc60cb5244ea"
+    },
+    {
+      "id": "NDSE2:S09.05",
+      "level": "section",
+      "number": "9.5",
+      "title": "Different forms of persistent memory",
+      "label": "ch09-different-forms-of-persistent-memory",
+      "labels": [
+        "ch09-different-forms-of-persistent-memory"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter09.tex",
+      "line": 90,
+      "sha256": "ab431c886c607f8a192a36336c3409fa0bf9b828d20ab6d16ffd74c162641029",
+      "chapter_id": "NDSE2:C09",
+      "chapter_hub": "C:C09",
+      "title_it": "Le diverse forme di memoria persistente",
+      "file_it": "ITA/chapters/chapter09.tex",
+      "line_it": 90,
+      "sha256_it": "87fbeee59f022f508080e38b413de15ce2b11b53515d7605560ddc60cb5244ea"
+    },
+    {
+      "id": "NDSE2:S09.06",
+      "level": "section",
+      "number": "9.6",
+      "title": "Memory consistency, decay and invalidation",
+      "label": "ch09-memory-consistency-decay-and-invalidation",
+      "labels": [
+        "ch09-memory-consistency-decay-and-invalidation"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter09.tex",
+      "line": 104,
+      "sha256": "ab431c886c607f8a192a36336c3409fa0bf9b828d20ab6d16ffd74c162641029",
+      "chapter_id": "NDSE2:C09",
+      "chapter_hub": "C:C09",
+      "title_it": "Coerenza, decadimento e invalidation della memoria",
+      "file_it": "ITA/chapters/chapter09.tex",
+      "line_it": 104,
+      "sha256_it": "87fbeee59f022f508080e38b413de15ce2b11b53515d7605560ddc60cb5244ea"
+    },
+    {
+      "id": "NDSE2:S09.07",
+      "level": "section",
+      "number": "9.7",
+      "title": "A typed graph for software-specific knowledge",
+      "label": "ch09-a-typed-graph-for-software-specific-knowledge",
+      "labels": [
+        "ch09-a-typed-graph-for-software-specific-knowledge"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter09.tex",
+      "line": 138,
+      "sha256": "ab431c886c607f8a192a36336c3409fa0bf9b828d20ab6d16ffd74c162641029",
+      "chapter_id": "NDSE2:C09",
+      "chapter_hub": "C:C09",
+      "title_it": "Un grafo tipizzato per la conoscenza del software",
+      "file_it": "ITA/chapters/chapter09.tex",
+      "line_it": 138,
+      "sha256_it": "87fbeee59f022f508080e38b413de15ce2b11b53515d7605560ddc60cb5244ea"
+    },
+    {
+      "id": "NDSE2:S09.08",
+      "level": "section",
+      "number": "9.8",
+      "title": "Turnover, succession and long-term maintenance",
+      "label": "ch09-turnover-succession-and-long-term-maintenance",
+      "labels": [
+        "ch09-turnover-succession-and-long-term-maintenance"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter09.tex",
+      "line": 152,
+      "sha256": "ab431c886c607f8a192a36336c3409fa0bf9b828d20ab6d16ffd74c162641029",
+      "chapter_id": "NDSE2:C09",
+      "chapter_hub": "C:C09",
+      "title_it": "Turnover, successione e manutenzione di lungo periodo",
+      "file_it": "ITA/chapters/chapter09.tex",
+      "line_it": 152,
+      "sha256_it": "87fbeee59f022f508080e38b413de15ce2b11b53515d7605560ddc60cb5244ea"
+    },
+    {
+      "id": "NDSE2:S09.09",
+      "level": "section",
+      "number": "9.9",
+      "title": "A verified memory handoff",
+      "label": "ch09-a-verified-memory-handoff",
+      "labels": [
+        "ch09-a-verified-memory-handoff"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter09.tex",
+      "line": 164,
+      "sha256": "ab431c886c607f8a192a36336c3409fa0bf9b828d20ab6d16ffd74c162641029",
+      "chapter_id": "NDSE2:C09",
+      "chapter_hub": "C:C09",
+      "title_it": "Un handoff della memoria sottoposto a verifica",
+      "file_it": "ITA/chapters/chapter09.tex",
+      "line_it": 164,
+      "sha256_it": "87fbeee59f022f508080e38b413de15ce2b11b53515d7605560ddc60cb5244ea"
+    },
+    {
+      "id": "NDSE2:S09.09.01",
+      "level": "subsection",
+      "number": "9.9.1",
+      "title": "A scripted evidence-retrieval comparison, not a comprehension experiment",
+      "label": "ch09-a-scripted-evidence-retrieval-comparison-not-a-comprehension-experiment",
+      "labels": [
+        "ch09-a-scripted-evidence-retrieval-comparison-not-a-comprehension-experiment"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter09.tex",
+      "line": 171,
+      "sha256": "ab431c886c607f8a192a36336c3409fa0bf9b828d20ab6d16ffd74c162641029",
+      "chapter_id": "NDSE2:C09",
+      "chapter_hub": "C:C09",
+      "title_it": "Un confronto di retrieval delle evidenze eseguito via script, non un esperimento sulla comprensione",
+      "file_it": "ITA/chapters/chapter09.tex",
+      "line_it": 171,
+      "sha256_it": "87fbeee59f022f508080e38b413de15ce2b11b53515d7605560ddc60cb5244ea"
+    },
+    {
+      "id": "NDSE2:S09.10",
+      "level": "section",
+      "number": "9.10",
+      "title": "Worked engineering example: a memory fact needs a validity condition",
+      "label": "ch09:worked-example",
+      "labels": [
+        "ch09:worked-example"
+      ],
+      "starred": false,
+      "file": "EN/didactics/worked09.tex",
+      "line": 1,
+      "sha256": "87b3f7f8e121f320a71b10753db25702074cdcab683d42010f7f9e3d6dc5dde5",
+      "chapter_id": "NDSE2:C09",
+      "chapter_hub": "C:C09",
+      "title_it": "Esempio svolto: un fatto di memoria richiede una condizione di validità",
+      "file_it": "ITA/didactics/worked09.tex",
+      "line_it": 1,
+      "sha256_it": "8ef689ef3191ef8892c794aedf322d21819b488783fc21d2263c6be94528a795"
+    },
+    {
+      "id": "NDSE2:S09.11",
+      "level": "section",
+      "number": "9.11",
+      "title": "Practice exercise: build a memory that can be invalidated",
+      "label": "ex:ch09",
+      "labels": [
+        "ex:ch09"
+      ],
+      "starred": false,
+      "file": "EN/exercises/exercise09.tex",
+      "line": 2,
+      "sha256": "45ad042feaf898fc949d5532a79bc78ad022afc19241c7805ca5bfbae33c7c03",
+      "chapter_id": "NDSE2:C09",
+      "chapter_hub": "C:C09",
+      "title_it": "Esercizio pratico: costruire una memoria che possa essere invalidata",
+      "file_it": "ITA/exercises/exercise09.tex",
+      "line_it": 2,
+      "sha256_it": "9fe3c5994e7190180bf5421b7773342a38434638cebab4fc2928806ecbcd05a4"
+    },
+    {
+      "id": "NDSE2:S10.01",
+      "level": "section",
+      "number": "10.1",
+      "title": "Short-term task success versus retained understanding",
+      "label": "ch10-short-term-task-success-versus-retained-understanding",
+      "labels": [
+        "ch10-short-term-task-success-versus-retained-understanding"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter10.tex",
+      "line": 11,
+      "sha256": "8c1523efe9ff14e391995db26334a679c629258003f891389e55b9183e57f36f",
+      "chapter_id": "NDSE2:C10",
+      "chapter_hub": "C:C10",
+      "title_it": "Completare un task non significa conservarne la comprensione",
+      "file_it": "ITA/chapters/chapter10.tex",
+      "line_it": 11,
+      "sha256_it": "6222bf93c5aaff838c33613a03d0e0cbf6bd5a8ac293616b215d9ee5fd534e7f"
+    },
+    {
+      "id": "NDSE2:S10.02",
+      "level": "section",
+      "number": "10.2",
+      "title": "Comprehension debt is distinct from technical debt",
+      "label": "ch10-comprehension-debt-is-distinct-from-technical-debt",
+      "labels": [
+        "ch10-comprehension-debt-is-distinct-from-technical-debt"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter10.tex",
+      "line": 28,
+      "sha256": "8c1523efe9ff14e391995db26334a679c629258003f891389e55b9183e57f36f",
+      "chapter_id": "NDSE2:C10",
+      "chapter_hub": "C:C10",
+      "title_it": "Il debito di comprensione è diverso dal debito tecnico",
+      "file_it": "ITA/chapters/chapter10.tex",
+      "line_it": 28,
+      "sha256_it": "6222bf93c5aaff838c33613a03d0e0cbf6bd5a8ac293616b215d9ee5fd534e7f"
+    },
+    {
+      "id": "NDSE2:S10.03",
+      "level": "section",
+      "number": "10.3",
+      "title": "Novices, misconceptions and verification difficulty",
+      "label": "ch10-novices-misconceptions-and-verification-difficulty",
+      "labels": [
+        "ch10-novices-misconceptions-and-verification-difficulty"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter10.tex",
+      "line": 44,
+      "sha256": "8c1523efe9ff14e391995db26334a679c629258003f891389e55b9183e57f36f",
+      "chapter_id": "NDSE2:C10",
+      "chapter_hub": "C:C10",
+      "title_it": "Principianti, fraintendimenti e difficoltà di verifica",
+      "file_it": "ITA/chapters/chapter10.tex",
+      "line_it": 44,
+      "sha256_it": "6222bf93c5aaff838c33613a03d0e0cbf6bd5a8ac293616b215d9ee5fd534e7f"
+    },
+    {
+      "id": "NDSE2:S10.04",
+      "level": "section",
+      "number": "10.4",
+      "title": "Cognitive offloading, physiology and limitations",
+      "label": "ch10-cognitive-offloading-physiology-and-limitations",
+      "labels": [
+        "ch10-cognitive-offloading-physiology-and-limitations"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter10.tex",
+      "line": 55,
+      "sha256": "8c1523efe9ff14e391995db26334a679c629258003f891389e55b9183e57f36f",
+      "chapter_id": "NDSE2:C10",
+      "chapter_hub": "C:C10",
+      "title_it": "Cognitive offloading, fisiologia e limiti",
+      "file_it": "ITA/chapters/chapter10.tex",
+      "line_it": 55,
+      "sha256_it": "6222bf93c5aaff838c33613a03d0e0cbf6bd5a8ac293616b215d9ee5fd534e7f"
+    },
+    {
+      "id": "NDSE2:S10.05",
+      "level": "section",
+      "number": "10.5",
+      "title": "Learning through explanations, repairs and code tours",
+      "label": "ch10-learning-through-explanations-repairs-and-code-tours",
+      "labels": [
+        "ch10-learning-through-explanations-repairs-and-code-tours"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter10.tex",
+      "line": 66,
+      "sha256": "8c1523efe9ff14e391995db26334a679c629258003f891389e55b9183e57f36f",
+      "chapter_id": "NDSE2:C10",
+      "chapter_hub": "C:C10",
+      "title_it": "Imparare attraverso spiegazioni, correzioni e code tour",
+      "file_it": "ITA/chapters/chapter10.tex",
+      "line_it": 66,
+      "sha256_it": "6222bf93c5aaff838c33613a03d0e0cbf6bd5a8ac293616b215d9ee5fd534e7f"
+    },
+    {
+      "id": "NDSE2:S10.06",
+      "level": "section",
+      "number": "10.6",
+      "title": "Onboarding is a long process, not a first PR",
+      "label": "ch10-onboarding-is-a-long-process-not-a-first-pr",
+      "labels": [
+        "ch10-onboarding-is-a-long-process-not-a-first-pr"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter10.tex",
+      "line": 79,
+      "sha256": "8c1523efe9ff14e391995db26334a679c629258003f891389e55b9183e57f36f",
+      "chapter_id": "NDSE2:C10",
+      "chapter_hub": "C:C10",
+      "title_it": "Onboarding: un percorso, non la prima PR",
+      "file_it": "ITA/chapters/chapter10.tex",
+      "line_it": 79,
+      "sha256_it": "6222bf93c5aaff838c33613a03d0e0cbf6bd5a8ac293616b215d9ee5fd534e7f"
+    },
+    {
+      "id": "NDSE2:S10.07",
+      "level": "section",
+      "number": "10.7",
+      "title": "Mentoring and apprenticeship in a team with agents",
+      "label": "ch10-mentoring-and-apprenticeship-in-a-team-with-agents",
+      "labels": [
+        "ch10-mentoring-and-apprenticeship-in-a-team-with-agents"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter10.tex",
+      "line": 88,
+      "sha256": "8c1523efe9ff14e391995db26334a679c629258003f891389e55b9183e57f36f",
+      "chapter_id": "NDSE2:C10",
+      "chapter_hub": "C:C10",
+      "title_it": "Mentoring e apprendistato in un team con agent",
+      "file_it": "ITA/chapters/chapter10.tex",
+      "line_it": 88,
+      "sha256_it": "6222bf93c5aaff838c33613a03d0e0cbf6bd5a8ac293616b215d9ee5fd534e7f"
+    },
+    {
+      "id": "NDSE2:S10.08",
+      "level": "section",
+      "number": "10.8",
+      "title": "Measuring retention and engineering fluency",
+      "label": "ch10-measuring-retention-and-engineering-fluency",
+      "labels": [
+        "ch10-measuring-retention-and-engineering-fluency"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter10.tex",
+      "line": 106,
+      "sha256": "8c1523efe9ff14e391995db26334a679c629258003f891389e55b9183e57f36f",
+      "chapter_id": "NDSE2:C10",
+      "chapter_hub": "C:C10",
+      "title_it": "Misurare retention e padronanza ingegneristica",
+      "file_it": "ITA/chapters/chapter10.tex",
+      "line_it": 106,
+      "sha256_it": "6222bf93c5aaff838c33613a03d0e0cbf6bd5a8ac293616b215d9ee5fd534e7f"
+    },
+    {
+      "id": "NDSE2:S10.09",
+      "level": "section",
+      "number": "10.9",
+      "title": "A practical capability-development contract",
+      "label": "ch10-a-practical-capability-development-contract",
+      "labels": [
+        "ch10-a-practical-capability-development-contract"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter10.tex",
+      "line": 136,
+      "sha256": "8c1523efe9ff14e391995db26334a679c629258003f891389e55b9183e57f36f",
+      "chapter_id": "NDSE2:C10",
+      "chapter_hub": "C:C10",
+      "title_it": "Un contratto pratico per lo sviluppo delle competenze",
+      "file_it": "ITA/chapters/chapter10.tex",
+      "line_it": 136,
+      "sha256_it": "6222bf93c5aaff838c33613a03d0e0cbf6bd5a8ac293616b215d9ee5fd534e7f"
+    },
+    {
+      "id": "NDSE2:S10.10",
+      "level": "section",
+      "number": "10.10",
+      "title": "Worked engineering example: measure what the engineer remembers",
+      "label": "ch10:worked-example",
+      "labels": [
+        "ch10:worked-example"
+      ],
+      "starred": false,
+      "file": "EN/didactics/worked10.tex",
+      "line": 1,
+      "sha256": "f35e5088cdb4148aaec6dadf81038a778b72a7754f514bfa9e83ceed6ec4970a",
+      "chapter_id": "NDSE2:C10",
+      "chapter_hub": "C:C10",
+      "title_it": "Esempio svolto: misurare ciò che l'ingegnere ricorda",
+      "file_it": "ITA/didactics/worked10.tex",
+      "line_it": 1,
+      "sha256_it": "1e4b480e4035af7467a16075ce8494ee4a769223f49c1cb8b0041fc30bd762fe"
+    },
+    {
+      "id": "NDSE2:S10.11",
+      "level": "section",
+      "number": "10.11",
+      "title": "Practice exercise: test whether competence survives the assistant",
+      "label": "ex:ch10",
+      "labels": [
+        "ex:ch10"
+      ],
+      "starred": false,
+      "file": "EN/exercises/exercise10.tex",
+      "line": 2,
+      "sha256": "8388ebea4e525258101dd089808d44b6228b22cbe47a386e64706d027eb1f6b5",
+      "chapter_id": "NDSE2:C10",
+      "chapter_hub": "C:C10",
+      "title_it": "Esercizio: verifica se la competenza rimane quando l'assistente non c'è",
+      "file_it": "ITA/exercises/exercise10.tex",
+      "line_it": 2,
+      "sha256_it": "9a79bd1840dbdb69e12dc8263fd293cfe247b65b83727494339f345ac111204f"
+    },
+    {
+      "id": "NDSE2:S11.01",
+      "level": "section",
+      "number": "11.1",
+      "title": "From individual productivity to team throughput",
+      "label": "ch11-from-individual-productivity-to-team-throughput",
+      "labels": [
+        "ch11-from-individual-productivity-to-team-throughput"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter11.tex",
+      "line": 13,
+      "sha256": "18eb375b24343b3106d1530b9ca03a4a3dd0b88a58a34459858cd1f93cace300",
+      "chapter_id": "NDSE2:C11",
+      "chapter_hub": "C:C11",
+      "title_it": "Dalla produttività individuale al throughput del team",
+      "file_it": "ITA/chapters/chapter11.tex",
+      "line_it": 13,
+      "sha256_it": "d6d2c7ee5c616cbd5012cd7d666e360aaab4413958e73e0e92ef71db50b9edb1"
+    },
+    {
+      "id": "NDSE2:S11.02",
+      "level": "section",
+      "number": "11.2",
+      "title": "New division of labor in engineering teams",
+      "label": "ch11-new-division-of-labor-in-engineering-teams",
+      "labels": [
+        "ch11-new-division-of-labor-in-engineering-teams"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter11.tex",
+      "line": 50,
+      "sha256": "18eb375b24343b3106d1530b9ca03a4a3dd0b88a58a34459858cd1f93cace300",
+      "chapter_id": "NDSE2:C11",
+      "chapter_hub": "C:C11",
+      "title_it": "Una nuova divisione del lavoro nei team di ingegneria",
+      "file_it": "ITA/chapters/chapter11.tex",
+      "line_it": 50,
+      "sha256_it": "d6d2c7ee5c616cbd5012cd7d666e360aaab4413958e73e0e92ef71db50b9edb1"
+    },
+    {
+      "id": "NDSE2:S11.03",
+      "level": "section",
+      "number": "11.3",
+      "title": "Policies that make expectations visible",
+      "label": "ch11-policies-that-make-expectations-visible",
+      "labels": [
+        "ch11-policies-that-make-expectations-visible"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter11.tex",
+      "line": 79,
+      "sha256": "18eb375b24343b3106d1530b9ca03a4a3dd0b88a58a34459858cd1f93cace300",
+      "chapter_id": "NDSE2:C11",
+      "chapter_hub": "C:C11",
+      "title_it": "Policy che rendono esplicite le aspettative",
+      "file_it": "ITA/chapters/chapter11.tex",
+      "line_it": 79,
+      "sha256_it": "d6d2c7ee5c616cbd5012cd7d666e360aaab4413958e73e0e92ef71db50b9edb1"
+    },
+    {
+      "id": "NDSE2:S11.04",
+      "level": "section",
+      "number": "11.4",
+      "title": "Executable policy as an engineering proposal",
+      "label": "ch11-executable-policy-as-an-engineering-proposal",
+      "labels": [
+        "ch11-executable-policy-as-an-engineering-proposal"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter11.tex",
+      "line": 100,
+      "sha256": "18eb375b24343b3106d1530b9ca03a4a3dd0b88a58a34459858cd1f93cace300",
+      "chapter_id": "NDSE2:C11",
+      "chapter_hub": "C:C11",
+      "title_it": "Una policy eseguibile come proposta ingegneristica",
+      "file_it": "ITA/chapters/chapter11.tex",
+      "line_it": 100,
+      "sha256_it": "d6d2c7ee5c616cbd5012cd7d666e360aaab4413958e73e0e92ef71db50b9edb1"
+    },
+    {
+      "id": "NDSE2:S11.05",
+      "level": "section",
+      "number": "11.5",
+      "title": "Agile team work with agent-produced increments",
+      "label": "ch11-agile-team-work-with-agent-produced-increments",
+      "labels": [
+        "ch11-agile-team-work-with-agent-produced-increments"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter11.tex",
+      "line": 121,
+      "sha256": "18eb375b24343b3106d1530b9ca03a4a3dd0b88a58a34459858cd1f93cace300",
+      "chapter_id": "NDSE2:C11",
+      "chapter_hub": "C:C11",
+      "title_it": "Lavoro agile con incrementi prodotti dagli agent",
+      "file_it": "ITA/chapters/chapter11.tex",
+      "line_it": 121,
+      "sha256_it": "d6d2c7ee5c616cbd5012cd7d666e360aaab4413958e73e0e92ef71db50b9edb1"
+    },
+    {
+      "id": "NDSE2:S11.06",
+      "level": "section",
+      "number": "11.6",
+      "title": "Human accountability, conflicts and escalation",
+      "label": "ch11-human-accountability-conflicts-and-escalation",
+      "labels": [
+        "ch11-human-accountability-conflicts-and-escalation"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter11.tex",
+      "line": 152,
+      "sha256": "18eb375b24343b3106d1530b9ca03a4a3dd0b88a58a34459858cd1f93cace300",
+      "chapter_id": "NDSE2:C11",
+      "chapter_hub": "C:C11",
+      "title_it": "Responsabilità umana, conflitti ed escalation",
+      "file_it": "ITA/chapters/chapter11.tex",
+      "line_it": 152,
+      "sha256_it": "d6d2c7ee5c616cbd5012cd7d666e360aaab4413958e73e0e92ef71db50b9edb1"
+    },
+    {
+      "id": "NDSE2:S11.07",
+      "level": "section",
+      "number": "11.7",
+      "title": "Maintainer load and newcomer participation",
+      "label": "ch11-maintainer-load-and-newcomer-participation",
+      "labels": [
+        "ch11-maintainer-load-and-newcomer-participation"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter11.tex",
+      "line": 172,
+      "sha256": "18eb375b24343b3106d1530b9ca03a4a3dd0b88a58a34459858cd1f93cace300",
+      "chapter_id": "NDSE2:C11",
+      "chapter_hub": "C:C11",
+      "title_it": "Carico dei maintainer e partecipazione dei nuovi contributori",
+      "file_it": "ITA/chapters/chapter11.tex",
+      "line_it": 172,
+      "sha256_it": "d6d2c7ee5c616cbd5012cd7d666e360aaab4413958e73e0e92ef71db50b9edb1"
+    },
+    {
+      "id": "NDSE2:S11.08",
+      "level": "section",
+      "number": "11.8",
+      "title": "Knowledge handoff and stewardship rights",
+      "label": "ch11-knowledge-handoff-and-stewardship-rights",
+      "labels": [
+        "ch11-knowledge-handoff-and-stewardship-rights"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter11.tex",
+      "line": 184,
+      "sha256": "18eb375b24343b3106d1530b9ca03a4a3dd0b88a58a34459858cd1f93cace300",
+      "chapter_id": "NDSE2:C11",
+      "chapter_hub": "C:C11",
+      "title_it": "Handoff della conoscenza e diritti di stewardship",
+      "file_it": "ITA/chapters/chapter11.tex",
+      "line_it": 184,
+      "sha256_it": "d6d2c7ee5c616cbd5012cd7d666e360aaab4413958e73e0e92ef71db50b9edb1"
+    },
+    {
+      "id": "NDSE2:S11.09",
+      "level": "section",
+      "number": "11.9",
+      "title": "Staged deployment gates, not a guaranteed ROI",
+      "label": "ch11-staged-deployment-gates-not-a-guaranteed-roi",
+      "labels": [
+        "ch11-staged-deployment-gates-not-a-guaranteed-roi"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter11.tex",
+      "line": 193,
+      "sha256": "18eb375b24343b3106d1530b9ca03a4a3dd0b88a58a34459858cd1f93cace300",
+      "chapter_id": "NDSE2:C11",
+      "chapter_hub": "C:C11",
+      "title_it": "Gate di deployment graduali, non un ROI garantito",
+      "file_it": "ITA/chapters/chapter11.tex",
+      "line_it": 193,
+      "sha256_it": "d6d2c7ee5c616cbd5012cd7d666e360aaab4413958e73e0e92ef71db50b9edb1"
+    },
+    {
+      "id": "NDSE2:S11.10",
+      "level": "section",
+      "number": "11.10",
+      "title": "Worked engineering example: coordinate parallel work under a new policy",
+      "label": "ch11:worked-example",
+      "labels": [
+        "ch11:worked-example"
+      ],
+      "starred": false,
+      "file": "EN/didactics/worked11.tex",
+      "line": 1,
+      "sha256": "6563a013f2efbcfa8c4bb8fed6f3d9046712e3f97127b760ffb7e0223a8dc395",
+      "chapter_id": "NDSE2:C11",
+      "chapter_hub": "C:C11",
+      "title_it": "Esempio ingegneristico svolto: coordinare il lavoro parallelo dopo una nuova policy",
+      "file_it": "ITA/didactics/worked11.tex",
+      "line_it": 1,
+      "sha256_it": "8b0c990c4ef63b7b22a4a01290d28f08ab49bc5ff2a0011a9d11a3ff2e3de3c9"
+    },
+    {
+      "id": "NDSE2:S11.11",
+      "level": "section",
+      "number": "11.11",
+      "title": "Practice exercise: govern concurrent agents after intention changes",
+      "label": "ex:ch11",
+      "labels": [
+        "ex:ch11"
+      ],
+      "starred": false,
+      "file": "EN/exercises/exercise11.tex",
+      "line": 2,
+      "sha256": "94a4e98d922d102a83b5d98591f2b6e3efd509a0608dba6f5bb241632d11e043",
+      "chapter_id": "NDSE2:C11",
+      "chapter_hub": "C:C11",
+      "title_it": "Esercizio pratico: governare agent concorrenti dopo un cambiamento dell'intenzione",
+      "file_it": "ITA/exercises/exercise11.tex",
+      "line_it": 2,
+      "sha256_it": "0573432cf24ef22f359c19b6b8a575fd3e8dc857b11dc9de841eddfc1fe51229"
+    },
+    {
+      "id": "NDSE2:S12.01",
+      "level": "section",
+      "number": "12.1",
+      "title": "Economics of the entire engineering loop",
+      "label": "ch12-economics-of-the-entire-engineering-loop",
+      "labels": [
+        "ch12-economics-of-the-entire-engineering-loop"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter12.tex",
+      "line": 16,
+      "sha256": "86c0ede476fd2a1b32d32f4ea86297429dd24aad34db3f6c7540431e1190ccbe",
+      "chapter_id": "NDSE2:C12",
+      "chapter_hub": "C:C12",
+      "title_it": "L'economia dell'intero loop ingegneristico",
+      "file_it": "ITA/chapters/chapter12.tex",
+      "line_it": 16,
+      "sha256_it": "d1598543866ce040908920e04662bc2ffa6ff1831a4cf984240911bf9cd54924"
+    },
+    {
+      "id": "NDSE2:S12.02",
+      "level": "section",
+      "number": "12.2",
+      "title": "Why cheap generation may increase total cost",
+      "label": "ch12-why-cheap-generation-may-increase-total-cost",
+      "labels": [
+        "ch12-why-cheap-generation-may-increase-total-cost"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter12.tex",
+      "line": 48,
+      "sha256": "86c0ede476fd2a1b32d32f4ea86297429dd24aad34db3f6c7540431e1190ccbe",
+      "chapter_id": "NDSE2:C12",
+      "chapter_hub": "C:C12",
+      "title_it": "Perché una generazione economica può aumentare il costo totale",
+      "file_it": "ITA/chapters/chapter12.tex",
+      "line_it": 48,
+      "sha256_it": "d1598543866ce040908920e04662bc2ffa6ff1831a4cf984240911bf9cd54924"
+    },
+    {
+      "id": "NDSE2:S12.03",
+      "level": "section",
+      "number": "12.3",
+      "title": "Choosing the least-cost adequate level of autonomy",
+      "label": "ch12-choosing-the-least-cost-adequate-level-of-autonomy",
+      "labels": [
+        "ch12-choosing-the-least-cost-adequate-level-of-autonomy"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter12.tex",
+      "line": 64,
+      "sha256": "86c0ede476fd2a1b32d32f4ea86297429dd24aad34db3f6c7540431e1190ccbe",
+      "chapter_id": "NDSE2:C12",
+      "chapter_hub": "C:C12",
+      "title_it": "Scegliere il livello di autonomia adeguato al costo minimo",
+      "file_it": "ITA/chapters/chapter12.tex",
+      "line_it": 64,
+      "sha256_it": "d1598543866ce040908920e04662bc2ffa6ff1831a4cf984240911bf9cd54924"
+    },
+    {
+      "id": "NDSE2:S12.04",
+      "level": "section",
+      "number": "12.4",
+      "title": "Estimating return without fabricated certainty",
+      "label": "ch12-estimating-return-without-fabricated-certainty",
+      "labels": [
+        "ch12-estimating-return-without-fabricated-certainty"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter12.tex",
+      "line": 86,
+      "sha256": "86c0ede476fd2a1b32d32f4ea86297429dd24aad34db3f6c7540431e1190ccbe",
+      "chapter_id": "NDSE2:C12",
+      "chapter_hub": "C:C12",
+      "title_it": "Stimare il ritorno senza inventare certezze",
+      "file_it": "ITA/chapters/chapter12.tex",
+      "line_it": 86,
+      "sha256_it": "d1598543866ce040908920e04662bc2ffa6ff1831a4cf984240911bf9cd54924"
+    },
+    {
+      "id": "NDSE2:S12.05",
+      "level": "section",
+      "number": "12.5",
+      "title": "Jobs, hiring, vacancy flows and unequal cohorts",
+      "label": "ch12-jobs-hiring-vacancy-flows-and-unequal-cohorts",
+      "labels": [
+        "ch12-jobs-hiring-vacancy-flows-and-unequal-cohorts"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter12.tex",
+      "line": 126,
+      "sha256": "86c0ede476fd2a1b32d32f4ea86297429dd24aad34db3f6c7540431e1190ccbe",
+      "chapter_id": "NDSE2:C12",
+      "chapter_hub": "C:C12",
+      "title_it": "Occupazione, assunzioni, flussi di vacancy e coorti differenti",
+      "file_it": "ITA/chapters/chapter12.tex",
+      "line_it": 126,
+      "sha256_it": "d1598543866ce040908920e04662bc2ffa6ff1831a4cf984240911bf9cd54924"
+    },
+    {
+      "id": "NDSE2:S12.06",
+      "level": "section",
+      "number": "12.6",
+      "title": "Alternative causes of junior-market change",
+      "label": "ch12-alternative-causes-of-junior-market-change",
+      "labels": [
+        "ch12-alternative-causes-of-junior-market-change"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter12.tex",
+      "line": 138,
+      "sha256": "86c0ede476fd2a1b32d32f4ea86297429dd24aad34db3f6c7540431e1190ccbe",
+      "chapter_id": "NDSE2:C12",
+      "chapter_hub": "C:C12",
+      "title_it": "Cause alternative del cambiamento nel mercato junior",
+      "file_it": "ITA/chapters/chapter12.tex",
+      "line_it": 138,
+      "sha256_it": "d1598543866ce040908920e04662bc2ffa6ff1831a4cf984240911bf9cd54924"
+    },
+    {
+      "id": "NDSE2:S12.07",
+      "level": "section",
+      "number": "12.7",
+      "title": "The apprenticeship and long-term skill economy",
+      "label": "ch12-the-apprenticeship-and-long-term-skill-economy",
+      "labels": [
+        "ch12-the-apprenticeship-and-long-term-skill-economy"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter12.tex",
+      "line": 150,
+      "sha256": "86c0ede476fd2a1b32d32f4ea86297429dd24aad34db3f6c7540431e1190ccbe",
+      "chapter_id": "NDSE2:C12",
+      "chapter_hub": "C:C12",
+      "title_it": "L'apprendistato e l'economia delle competenze nel lungo periodo",
+      "file_it": "ITA/chapters/chapter12.tex",
+      "line_it": 150,
+      "sha256_it": "d1598543866ce040908920e04662bc2ffa6ff1831a4cf984240911bf9cd54924"
+    },
+    {
+      "id": "NDSE2:S12.08",
+      "level": "section",
+      "number": "12.8",
+      "title": "Distributional effects and quality of forecasts",
+      "label": "ch12-distributional-effects-and-quality-of-forecasts",
+      "labels": [
+        "ch12-distributional-effects-and-quality-of-forecasts"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter12.tex",
+      "line": 166,
+      "sha256": "86c0ede476fd2a1b32d32f4ea86297429dd24aad34db3f6c7540431e1190ccbe",
+      "chapter_id": "NDSE2:C12",
+      "chapter_hub": "C:C12",
+      "title_it": "Effetti distributivi e qualità delle previsioni",
+      "file_it": "ITA/chapters/chapter12.tex",
+      "line_it": 166,
+      "sha256_it": "d1598543866ce040908920e04662bc2ffa6ff1831a4cf984240911bf9cd54924"
+    },
+    {
+      "id": "NDSE2:S12.09",
+      "level": "section",
+      "number": "12.9",
+      "title": "A reversible, risk-adjusted adoption decision",
+      "label": "ch12-a-reversible-risk-adjusted-adoption-decision",
+      "labels": [
+        "ch12-a-reversible-risk-adjusted-adoption-decision"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter12.tex",
+      "line": 178,
+      "sha256": "86c0ede476fd2a1b32d32f4ea86297429dd24aad34db3f6c7540431e1190ccbe",
+      "chapter_id": "NDSE2:C12",
+      "chapter_hub": "C:C12",
+      "title_it": "Una decisione di adozione reversibile e corretta per il rischio",
+      "file_it": "ITA/chapters/chapter12.tex",
+      "line_it": 178,
+      "sha256_it": "d1598543866ce040908920e04662bc2ffa6ff1831a4cf984240911bf9cd54924"
+    },
+    {
+      "id": "NDSE2:S12.10",
+      "level": "section",
+      "number": "12.10",
+      "title": "Worked engineering example: calculate a reversible adoption choice",
+      "label": "ch12:worked-example",
+      "labels": [
+        "ch12:worked-example"
+      ],
+      "starred": false,
+      "file": "EN/didactics/worked12.tex",
+      "line": 1,
+      "sha256": "8021a2bae2cdf60233fc738f34e3ed74e684d86e7cb440b2f16667a45b4bf19e",
+      "chapter_id": "NDSE2:C12",
+      "chapter_hub": "C:C12",
+      "title_it": "Esempio ingegneristico svolto: calcolare una scelta di adozione reversibile",
+      "file_it": "ITA/didactics/worked12.tex",
+      "line_it": 1,
+      "sha256_it": "d87bb17437ed98c2ca270493a1b1ff4204a04d70f49e2e96d522cfc7074e2d62"
+    },
+    {
+      "id": "NDSE2:S12.11",
+      "level": "section",
+      "number": "12.11",
+      "title": "Practice exercise: write the adoption decision, not an ROI slogan",
+      "label": "ex:ch12",
+      "labels": [
+        "ex:ch12"
+      ],
+      "starred": false,
+      "file": "EN/exercises/exercise12.tex",
+      "line": 2,
+      "sha256": "83d662bc0b0ab88eb17c145937513fd87727266409d1b10e96be69d9d901825b",
+      "chapter_id": "NDSE2:C12",
+      "chapter_hub": "C:C12",
+      "title_it": "Esercizio pratico: scrivere una decisione di adozione, non uno slogan sul ROI",
+      "file_it": "ITA/exercises/exercise12.tex",
+      "line_it": 2,
+      "sha256_it": "d18148be881a6dcb48c89c876a75fed39bc38ea5562c6949a1d8e0873a6d8d9c"
+    },
+    {
+      "id": "NDSE2:S13.01",
+      "level": "section",
+      "number": "13.1",
+      "title": "Five decisions, one accountable outcome",
+      "label": "ch13:composition",
+      "labels": [
+        "ch13:composition",
+        "ch13:depth"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter13.tex",
+      "line": 7,
+      "sha256": "3fc3434f5ac2348bb0e7a15d100650848db78e857201849955543d4b08405bfa",
+      "chapter_id": "NDSE2:C13",
+      "chapter_hub": "C:C13",
+      "title_it": "Cinque decisioni, un unico risultato di cui rispondere",
+      "file_it": "ITA/chapters/chapter13.tex",
+      "line_it": 7,
+      "sha256_it": "fc97b394346165efc6abeeaf66622b340180b38446227e61b7ae9e8bf3c58d0b"
+    },
+    {
+      "id": "NDSE2:S13.02",
+      "level": "section",
+      "number": "13.2",
+      "title": "Compare two changes before building a workflow",
+      "label": "ch13:practice-map",
+      "labels": [
+        "ch13:practice-map"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter13.tex",
+      "line": 24,
+      "sha256": "3fc3434f5ac2348bb0e7a15d100650848db78e857201849955543d4b08405bfa",
+      "chapter_id": "NDSE2:C13",
+      "chapter_hub": "C:C13",
+      "title_it": "Confrontare due modifiche prima di costruire un workflow",
+      "file_it": "ITA/chapters/chapter13.tex",
+      "line_it": 24,
+      "sha256_it": "fc97b394346165efc6abeeaf66622b340180b38446227e61b7ae9e8bf3c58d0b"
+    },
+    {
+      "id": "NDSE2:S13.03",
+      "level": "section",
+      "number": "13.3",
+      "title": "A compact symptom-to-action map",
+      "label": "ch13:selection-map",
+      "labels": [
+        "ch13:selection-map"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter13.tex",
+      "line": 41,
+      "sha256": "3fc3434f5ac2348bb0e7a15d100650848db78e857201849955543d4b08405bfa",
+      "chapter_id": "NDSE2:C13",
+      "chapter_hub": "C:C13",
+      "title_it": "Una mappa sintetica dai sintomi alle azioni",
+      "file_it": "ITA/chapters/chapter13.tex",
+      "line_it": 41,
+      "sha256_it": "fc97b394346165efc6abeeaf66622b340180b38446227e61b7ae9e8bf3c58d0b"
+    },
+    {
+      "id": "NDSE2:S13.04",
+      "level": "section",
+      "number": "13.4",
+      "title": "Recognize over-engineering and unsafe shortcuts",
+      "label": "ch13:anti-cases",
+      "labels": [
+        "ch13:anti-cases"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter13.tex",
+      "line": 60,
+      "sha256": "3fc3434f5ac2348bb0e7a15d100650848db78e857201849955543d4b08405bfa",
+      "chapter_id": "NDSE2:C13",
+      "chapter_hub": "C:C13",
+      "title_it": "Riconoscere l'over-engineering e le scorciatoie insicure",
+      "file_it": "ITA/chapters/chapter13.tex",
+      "line_it": 60,
+      "sha256_it": "fc97b394346165efc6abeeaf66622b340180b38446227e61b7ae9e8bf3c58d0b"
+    },
+    {
+      "id": "NDSE2:S13.05",
+      "level": "section",
+      "number": "13.5",
+      "title": "Working vocabulary",
+      "label": "app:series-vocabulary",
+      "labels": [
+        "app:series-vocabulary"
+      ],
+      "starred": false,
+      "file": "EN/didactics/series_glossary.tex",
+      "line": 1,
+      "sha256": "434c30c8c2b8e4826fadd679e77dd2888136d92da16bb76905c6965c1b7eb2bd",
+      "chapter_id": "NDSE2:C13",
+      "chapter_hub": "C:C13",
+      "title_it": "Vocabolario operativo",
+      "file_it": "ITA/didactics/series_glossary.tex",
+      "line_it": 1,
+      "sha256_it": "25145be72dc63e85b2ec9a3efec9ebe4831fb3f596fce3c8a0f820668fa70a95"
+    },
+    {
+      "id": "NDSE2:S13.06",
+      "level": "section",
+      "number": "13.6",
+      "title": "Further reading through the Non-Deterministic series",
+      "label": "ch13:series-reading",
+      "labels": [
+        "ch13:series-reading"
+      ],
+      "starred": false,
+      "file": "EN/chapters/chapter13.tex",
+      "line": 70,
+      "sha256": "3fc3434f5ac2348bb0e7a15d100650848db78e857201849955543d4b08405bfa",
+      "chapter_id": "NDSE2:C13",
+      "chapter_hub": "C:C13",
+      "title_it": "Per approfondire: la serie Non-Deterministic",
+      "file_it": "ITA/chapters/chapter13.tex",
+      "line_it": 70,
+      "sha256_it": "fc97b394346165efc6abeeaf66622b340180b38446227e61b7ae9e8bf3c58d0b"
+    },
+    {
+      "id": "NDSE2:S13.07",
+      "level": "section",
+      "number": "13.7",
+      "title": "Worked engineering example: leave out what the change does not need",
+      "label": "ch13:worked-example",
+      "labels": [
+        "ch13:worked-example"
+      ],
+      "starred": false,
+      "file": "EN/didactics/worked13.tex",
+      "line": 1,
+      "sha256": "e35d54e401f7a5b5e9b1a15cff3c8f1248b2129e853b93a319bf121b047a2a93",
+      "chapter_id": "NDSE2:C13",
+      "chapter_hub": "C:C13",
+      "title_it": "Esempio ingegneristico svolto: lasciare fuori ciò che non serve alla modifica",
+      "file_it": "ITA/didactics/worked13.tex",
+      "line_it": 1,
+      "sha256_it": "aeb18a6cd4a02c96a92917e0a67961ab146a65b5e8c250765b2f8f2ca650fd06"
+    },
+    {
+      "id": "NDSE2:S13.08",
+      "level": "section",
+      "number": "13.8",
+      "title": "Practice exercise: design the smallest adequate workflow",
+      "label": "ex:ch13",
+      "labels": [
+        "ex:ch13"
+      ],
+      "starred": false,
+      "file": "EN/exercises/exercise13.tex",
+      "line": 1,
+      "sha256": "4f928cd8f1ac422b071cfebd8965bd25cb48cf6a68c57bc323c331d69d03536c",
+      "chapter_id": "NDSE2:C13",
+      "chapter_hub": "C:C13",
+      "title_it": "Esercizio pratico: progettare il workflow minimo adeguato",
+      "file_it": "ITA/exercises/exercise13.tex",
+      "line_it": 1,
+      "sha256_it": "260b71215a149109238101319476774992eecc4e932b15783b5c94c1c3b373f1"
+    },
+    {
+      "id": "NDSE2:S13.s09",
+      "level": "section",
+      "number": null,
+      "title": "The last engineering decision: what can safely be left out?",
+      "label": "ch13:closing",
+      "labels": [
+        "ch13:closing"
+      ],
+      "starred": true,
+      "file": "EN/chapters/chapter13.tex",
+      "line": 78,
+      "sha256": "3fc3434f5ac2348bb0e7a15d100650848db78e857201849955543d4b08405bfa",
+      "chapter_id": "NDSE2:C13",
+      "chapter_hub": "C:C13",
+      "title_it": "L'ultima decisione ingegneristica: che cosa possiamo lasciare fuori senza rischi?",
+      "file_it": "ITA/chapters/chapter13.tex",
+      "line_it": 78,
+      "sha256_it": "fc97b394346165efc6abeeaf66622b340180b38446227e61b7ae9e8bf3c58d0b"
+    }
+  ]
+}

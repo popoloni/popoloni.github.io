@@ -1,10 +1,10 @@
 {
   "meta": {
-    "source": "Frozen v12 atlas payload",
-    "snapshot": "2026-10-13",
-    "site_version": "12.1",
-    "count": 50,
-    "note": "Materialized catalogue view; all node fields and attributes retained. No new source verification or empirical validation."
+    "source": "atlas_v13_current.html",
+    "snapshot": "2026-10-18",
+    "site_version": "13.0",
+    "count": 51,
+    "note": "Materialized view of the current audited graph; complete node fields retained. Source inspection and publication status are recorded per item. The builder performs no new empirical validation."
   },
   "records": [
     {
@@ -77,7 +77,10 @@
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
         "evidence_is_experimental": "false",
         "manuscript_section_id": "8.8",
-        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review"
+        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review",
+        "ndse2_actual_chapters_json": "[\"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -158,7 +161,10 @@
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
         "evidence_is_experimental": "false",
         "manuscript_section_id": "9.1",
-        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review"
+        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review",
+        "ndse2_actual_chapters_json": "[\"C:C09\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:System understanding and rationale",
@@ -241,7 +247,10 @@
         "title_correction_note": "Publisher page H1: Agentic Skill Decay; browser/SEO metadata: Mastery Still Comes From Doing the Reps; canonicalize on page H1.",
         "manuscript_section_id": "10.8",
         "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review",
-        "alternate_browser_title": "Mastery Still Comes From Doing the Reps"
+        "alternate_browser_title": "Mastery Still Comes From Doing the Reps",
+        "ndse2_actual_chapters_json": "[\"C:C10\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Cognitive offloading and skill debt",
@@ -322,7 +331,10 @@
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
         "evidence_is_experimental": "false",
         "manuscript_section_id": "9.6",
-        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review"
+        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review",
+        "ndse2_actual_chapters_json": "[\"C:C09\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Agent context and persistent memory",
@@ -399,7 +411,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Human-agent collaboration",
@@ -479,7 +494,10 @@
         "evidence_is_experimental": "false",
         "original_editorial_section_id": "3.8",
         "manuscript_section_id": "3.6",
-        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review"
+        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review",
+        "ndse2_actual_chapters_json": "[\"C:C03\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Long-running agent execution",
@@ -556,7 +574,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Technical debt and complexity",
@@ -631,7 +652,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Human-agent collaboration",
@@ -710,7 +734,10 @@
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
         "evidence_is_experimental": "false",
         "manuscript_section_id": "11.6",
-        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review"
+        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review",
+        "ndse2_actual_chapters_json": "[\"C:C11\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Ownership and knowledge transfer",
@@ -791,7 +818,10 @@
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
         "evidence_is_experimental": "false",
         "manuscript_section_id": "3.3",
-        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review"
+        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review",
+        "ndse2_actual_chapters_json": "[\"C:C03\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Long-running agent execution",
@@ -868,7 +898,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -947,7 +980,10 @@
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
         "evidence_is_experimental": "false",
         "manuscript_section_id": "3.6",
-        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review"
+        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review",
+        "ndse2_actual_chapters_json": "[\"C:C03\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Long-running agent execution",
@@ -1030,7 +1066,10 @@
         "evidence_is_experimental": "false",
         "original_editorial_section_id": "9.5",
         "manuscript_section_id": "9.6",
-        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review"
+        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review",
+        "ndse2_actual_chapters_json": "[\"C:C09\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Long-running agent execution",
@@ -1107,7 +1146,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Prompt injection and malicious tools",
@@ -1182,7 +1224,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -1257,7 +1302,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Ownership and knowledge transfer",
@@ -1337,7 +1385,10 @@
         "evidence_is_experimental": "false",
         "original_editorial_section_id": "10.2",
         "manuscript_section_id": "10.8",
-        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review"
+        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review",
+        "ndse2_actual_chapters_json": "[\"C:C10\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Cognitive offloading and skill debt",
@@ -1419,7 +1470,10 @@
         "evidence_is_experimental": "false",
         "original_editorial_section_id": "4.3",
         "manuscript_section_id": "4.1",
-        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review"
+        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review",
+        "ndse2_actual_chapters_json": "[\"C:C04\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Specifications and governance",
@@ -1496,7 +1550,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -1571,7 +1628,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Benchmarks and construct validity",
@@ -1646,7 +1706,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Specifications and governance",
@@ -1721,7 +1784,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Ownership and knowledge transfer",
@@ -1801,7 +1867,10 @@
         "evidence_is_experimental": "false",
         "original_editorial_section_id": "8.7",
         "manuscript_section_id": "8.8",
-        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review"
+        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review",
+        "ndse2_actual_chapters_json": "[\"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Independent verification and oracles",
@@ -1878,7 +1947,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Human cognitive load",
@@ -1953,7 +2025,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Human-agent collaboration",
@@ -2028,7 +2103,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Agent context and persistent memory",
@@ -2102,7 +2180,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Architecture and modularity",
@@ -2181,7 +2262,10 @@
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
         "evidence_is_experimental": "false",
         "manuscript_section_id": "4.1",
-        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review"
+        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review",
+        "ndse2_actual_chapters_json": "[\"C:C04\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Specifications and governance",
@@ -2263,7 +2347,10 @@
         "evidence_is_experimental": "false",
         "original_editorial_section_id": "2.3",
         "manuscript_section_id": "2.5",
-        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review"
+        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review",
+        "ndse2_actual_chapters_json": "[\"C:C02\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Controlled productivity evidence",
@@ -2340,7 +2427,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -2420,7 +2510,10 @@
         "evidence_is_experimental": "false",
         "original_editorial_section_id": "9.4",
         "manuscript_section_id": "9.6",
-        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review"
+        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review",
+        "ndse2_actual_chapters_json": "[\"C:C09\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Agent context and persistent memory",
@@ -2497,7 +2590,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -2572,7 +2668,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Independent verification and oracles",
@@ -2647,7 +2746,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Specifications and governance",
@@ -2722,7 +2824,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles",
@@ -2797,7 +2902,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Cognitive offloading and skill debt",
@@ -2872,7 +2980,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Technical debt and complexity",
@@ -2947,7 +3058,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Agent failure and escalation",
@@ -3022,7 +3136,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Vulnerability and secure code",
@@ -3097,7 +3214,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Dependencies and agent supply chain",
@@ -3172,7 +3292,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Human-agent collaboration",
@@ -3247,7 +3370,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:System understanding and rationale",
@@ -3322,7 +3448,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Independent verification and oracles",
@@ -3397,7 +3526,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -3472,7 +3604,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Economic costs and return",
@@ -3547,7 +3682,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -3622,7 +3760,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -3697,7 +3838,10 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Skills formation and teaching",
@@ -3776,7 +3920,10 @@
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
         "evidence_is_experimental": "false",
         "manuscript_section_id": "2.5",
-        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review"
+        "manuscript_citation_basis": "LaTeX \\osmanicite parsed within containing \\section, Oct 10 edition integrity review",
+        "ndse2_actual_chapters_json": "[\"C:C02\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -3852,13 +3999,102 @@
         "edition_integration": "CATALOGUE_ONLY",
         "manuscript_citation_status": "NOT_CITED_IN_MAIN_TEXT",
         "provenance_base": "Oct 10 2026 694-node graph (not 9 Oct graph)",
-        "evidence_is_experimental": "false"
+        "evidence_is_experimental": "false",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Specifications and governance",
         "K:Output versus shipped value"
       ],
       "volumes": []
+    },
+    {
+      "id": "O051",
+      "label": "Agentic Verification",
+      "kind": "practitioner_article",
+      "collection": "O",
+      "category": null,
+      "streams": [
+        "T:Verification & review",
+        "T:Code quality & security"
+      ],
+      "actual": [],
+      "mapped": [
+        "C:C04",
+        "C:C05",
+        "C:C07",
+        "C:C08"
+      ],
+      "printed": false,
+      "summary": "Reliable agent work depends on executable checks: realistic user flows, explicit properties and differential comparisons, with fast feedback and human-owned success criteria.",
+      "limitation": "Practitioner guidance, not a controlled experiment or proof of universal correctness; generated tests and oracle independence still need scrutiny.",
+      "url": "https://addyo.substack.com/p/agentic-verification",
+      "authors": "Addy Osmani",
+      "year": "2026-10-14",
+      "attributes": {
+        "label": "Agentic Verification",
+        "kind": "practitioner_article",
+        "node_class": "CURATED_PRACTITIONER_NOT_RESEARCH",
+        "group": "Verification & review",
+        "year": "2026",
+        "lead_author": "Addy Osmani",
+        "source": "https://addyo.substack.com/p/agentic-verification",
+        "source_url": "https://addyo.substack.com/p/agentic-verification",
+        "url": "https://addyo.substack.com/p/agentic-verification",
+        "publication_date": "2026-10-14",
+        "evidence_class": "Practitioner essay / technical guidance (not peer-reviewed)",
+        "reviewed_evidence_class": "Practitioner essay / technical guidance (not peer-reviewed)",
+        "original_evidence_class": "Practitioner essay / technical guidance (not peer-reviewed)",
+        "editorial_priority": "A",
+        "full_manuscript_audited": "Full primary article read; no statistical replication performed",
+        "summary": "Osmani recommends autonomous feedback loops using end-to-end checks, property-based testing and old/new behavioral comparisons. Checks should run quickly and deterministically, preserve actionable failures, and be grounded in success criteria the human owns.",
+        "manual_use": "Define the oracle before implementation; retain failing inputs; inspect generated tests; run heavier integration checks before release.",
+        "bibliography_year": "2026",
+        "chapter_id": "C07",
+        "section_id": "",
+        "relevance": "Direct",
+        "method_status": "curated practitioner article (not a research study)",
+        "primary_research": "false",
+        "provenance": "Elevate public archive and full primary article inspected 2026-10-18",
+        "baseline_provenance": "Incremental addition to frozen v12.1 catalogue; O001-O050 unchanged",
+        "original_url_verified": "yes",
+        "publication_source_url": "https://addyo.substack.com/archive",
+        "publication_status_note": "Published practitioner article; online companion update",
+        "review_status": "FULL_TEXT_REVIEWED",
+        "article_is_ai_specific": "true",
+        "review_date": "2026-10-18",
+        "stable_bibliography_id": "O051",
+        "edition_integration": "ONLINE_COMPANION_UPDATE",
+        "manuscript_citation_status": "NOT_CITED_IN_PUBLISHED_NDSE2_13_7_1",
+        "evidence_is_experimental": "false",
+        "source_access": "Full public text",
+        "research_link_semantics": "Editorial thematic mapping; no assertion of literal citation, causal validation or replication",
+        "limitation": "Practitioner guidance, not a controlled experiment or proof of universal correctness; generated tests and oracle independence still need scrutiny.",
+        "manuscript_citation_basis": "Absent from the final published NDSE2 13.7.1 active EN/ITA source tree and loaded bibliography",
+        "atlas_added_on": "2026-10-18",
+        "canonical_url": "https://addyo.substack.com/p/agentic-verification",
+        "online_companion_update": true,
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "pre_reconciliation_manuscript_citation_status": "NOT_ESTABLISHED_FROM_PUBLISHED_MANUSCRIPT",
+        "pre_reconciliation_manuscript_citation_basis": "No published-manuscript citation inferred by this source review; reconcile against final NDSE2 sources."
+      },
+      "topics": [
+        "K:Independent verification and oracles",
+        "K:Evaluation methodology and baselines",
+        "K:Specifications and governance",
+        "K:Long-running agent execution"
+      ],
+      "volumes": [],
+      "pre_reconciliation_mapped": [
+        "C:C07",
+        "C:C04",
+        "C:C05",
+        "C:C08"
+      ]
     }
   ]
 }

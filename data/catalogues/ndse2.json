@@ -1,0 +1,648 @@
+{
+  "meta": {
+    "source": "atlas_v13_current.html",
+    "snapshot": "2026-10-18",
+    "site_version": "13.0",
+    "count": 13,
+    "note": "Materialized view of the current audited graph; complete node fields retained. Source inspection and publication status are recorded per item. The builder performs no new empirical validation."
+  },
+  "records": [
+    {
+      "id": "NDSE2:C01",
+      "label": "AI Changes the Unit of Software Work",
+      "kind": "published_book_chapter",
+      "collection": "N",
+      "category": null,
+      "streams": [],
+      "actual": [
+        "C:C01"
+      ],
+      "mapped": [
+        "C:C01"
+      ],
+      "printed": false,
+      "summary": "Defines an accepted, operable change as the unit of engineering work. The approval-routing case separates business intention, implementation, verification and acceptance, showing why brownfield understanding and explicit decision rights still matter when an AI agent generates the patch.",
+      "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+      "url": "",
+      "authors": "Enrico Papalini",
+      "year": "2026",
+      "topics": [],
+      "volumes": [
+        "V06"
+      ],
+      "attributes": {
+        "chapter_number": 1,
+        "chapter_hub": "C:C01",
+        "title": "AI Changes the Unit of Software Work",
+        "title_it": "L'AI cambia l'unità di lavoro della software engineering",
+        "summary": "Defines an accepted, operable change as the unit of engineering work. The approval-routing case separates business intention, implementation, verification and acceptance, showing why brownfield understanding and explicit decision rights still matter when an AI agent generates the patch.",
+        "summary_it": "Definisce il cambiamento accettato e gestibile come unità del lavoro ingegneristico. Il caso di instradamento delle approvazioni distingue intenzione di business, implementazione, verifica e accettazione, mostrando il ruolo della comprensione del sistema e delle responsabilità decisionali anche quando la patch viene generata da un agent.",
+        "author": "Enrico Papalini",
+        "volume_id": "V06",
+        "edition_id": "EDITION:NDSE2:13.7.1",
+        "source_version": "13.7.1",
+        "source_file": "EN/chapters/chapter01.tex",
+        "source_sha256": "277ec2181a885dfee7268a6d504503c8c039a8cc6c8201bfd2a966515d5b2500",
+        "source_file_it": "ITA/chapters/chapter01.tex",
+        "source_sha256_it": "e89175da618cfae5b422e16c8e01fd457d1da8308a5d9359a2b6aac592cf63ca",
+        "learning_goals_json": "[\"distinguish an implementation artifact from an accepted change\", \"name the people and evidence required between a request and release\", \"scope an AI assistant's task without delegating business authority\"]",
+        "learning_goals_it_json": "[\"distinguere un artefatto di implementazione da una modifica accettata\", \"identificare le persone e le evidenze necessarie tra la richiesta e la release\", \"delimitare il task affidato a un assistente AI senza delegargli l'autorità sulle decisioni di business\"]",
+        "publication_status": "PUBLISHED_AUTHOR_CONFIRMED",
+        "provenance": "Author-supplied final EN/ITA 13.7.1 LaTeX sources; publication confirmed by the author on 2026-10-18.",
+        "evidence_class": "Published author chapter; engineering synthesis",
+        "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+        "label": "AI Changes the Unit of Software Work",
+        "kind": "published_book_chapter",
+        "node_class": "NDSE2_PUBLISHED_EDITION_20261018"
+      }
+    },
+    {
+      "id": "NDSE2:C02",
+      "label": "Measuring Productivity from Code to Production",
+      "kind": "published_book_chapter",
+      "collection": "N",
+      "category": null,
+      "streams": [],
+      "actual": [
+        "C:C02"
+      ],
+      "mapped": [
+        "C:C02"
+      ],
+      "printed": false,
+      "summary": "Examines productivity measures from generated output to accepted releases. It distinguishes randomized evidence from observational comparisons and develops a pilot that records review, rework, quality and hidden human effort before an adoption decision.",
+      "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+      "url": "",
+      "authors": "Enrico Papalini",
+      "year": "2026",
+      "topics": [],
+      "volumes": [
+        "V06"
+      ],
+      "attributes": {
+        "chapter_number": 2,
+        "chapter_hub": "C:C02",
+        "title": "Measuring Productivity from Code to Production",
+        "title_it": "Misurare la produttività: dal codice alla produzione",
+        "summary": "Examines productivity measures from generated output to accepted releases. It distinguishes randomized evidence from observational comparisons and develops a pilot that records review, rework, quality and hidden human effort before an adoption decision.",
+        "summary_it": "Esamina la produttività dal codice generato ai rilasci accettati. Distingue le evidenze randomizzate dai confronti osservazionali e sviluppa un progetto pilota che misura revisione, rilavorazione, qualità e lavoro umano poco visibile prima di decidere sull'adozione.",
+        "author": "Enrico Papalini",
+        "volume_id": "V06",
+        "edition_id": "EDITION:NDSE2:13.7.1",
+        "source_version": "13.7.1",
+        "source_file": "EN/chapters/chapter02.tex",
+        "source_sha256": "2f513eeed43e6183a3b26ebcebaa19a35ab53dbf561260b015e69357b049a72f",
+        "source_file_it": "ITA/chapters/chapter02.tex",
+        "source_sha256_it": "2336ccabfd1817c7c21c8f4e06fec37bee109fee2b80718824482abd5f393ddb",
+        "learning_goals_json": "[\"choose a productivity denominator that includes review and rework\", \"distinguish measured acceptance from reported speed and generated output\", \"design a comparison that protects against selection bias and missing quality outcomes\"]",
+        "learning_goals_it_json": "[\"scegliere un denominatore di produttività che comprenda review e rework\", \"distinguere l'accettazione effettivamente misurata dalla velocità dichiarata e dall'output generato\", \"progettare un confronto che protegga dalle distorsioni di selezione e dagli esiti di qualità non osservati\"]",
+        "publication_status": "PUBLISHED_AUTHOR_CONFIRMED",
+        "provenance": "Author-supplied final EN/ITA 13.7.1 LaTeX sources; publication confirmed by the author on 2026-10-18.",
+        "evidence_class": "Published author chapter; engineering synthesis",
+        "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+        "label": "Measuring Productivity from Code to Production",
+        "kind": "published_book_chapter",
+        "node_class": "NDSE2_PUBLISHED_EDITION_20261018"
+      }
+    },
+    {
+      "id": "NDSE2:C03",
+      "label": "Limits and Capability of Coding Agents",
+      "kind": "published_book_chapter",
+      "collection": "N",
+      "category": null,
+      "streams": [],
+      "actual": [
+        "C:C03"
+      ],
+      "mapped": [
+        "C:C03"
+      ],
+      "printed": false,
+      "summary": "Turns agent capability into a bounded engineering hypothesis. Permissions, tools, budgets, stopping rules and escalation constrain execution; the chapter compares execution routes and parallel work while keeping technical completion separate from authorized acceptance.",
+      "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+      "url": "",
+      "authors": "Enrico Papalini",
+      "year": "2026",
+      "topics": [],
+      "volumes": [
+        "V06"
+      ],
+      "attributes": {
+        "chapter_number": 3,
+        "chapter_hub": "C:C03",
+        "title": "Limits and Capability of Coding Agents",
+        "title_it": "Limiti e capacità dei coding agent",
+        "summary": "Turns agent capability into a bounded engineering hypothesis. Permissions, tools, budgets, stopping rules and escalation constrain execution; the chapter compares execution routes and parallel work while keeping technical completion separate from authorized acceptance.",
+        "summary_it": "Trasforma la capacità degli agent in un'ipotesi ingegneristica delimitata. Permessi, strumenti, budget, condizioni di arresto ed escalation vincolano l'esecuzione; il capitolo confronta percorsi operativi e lavoro parallelo distinguendo il completamento tecnico dall'accettazione autorizzata.",
+        "author": "Enrico Papalini",
+        "volume_id": "V06",
+        "edition_id": "EDITION:NDSE2:13.7.1",
+        "source_version": "13.7.1",
+        "source_file": "EN/chapters/chapter03.tex",
+        "source_sha256": "ce0ca41e0ce359c1fd4752f2db1de6b1312c006510fc9c3ba364e3310916c2b1",
+        "source_file_it": "ITA/chapters/chapter03.tex",
+        "source_sha256_it": "2c1ae14b69644084668fec3494a975a6f6be7822e77d7d96d1b21f654d2aa713",
+        "learning_goals_json": "[\"translate a task request into a permission and budget envelope\", \"tell a model suggestion from an orchestrator-authorized action\", \"stop or escalate an agent without confusing technical completion with acceptance\"]",
+        "learning_goals_it_json": "[\"tradurre una richiesta di lavoro in un envelope di permessi e budget\", \"distinguere un suggerimento del modello da un'azione autorizzata dall'orchestrator\", \"fermare un agent o portare un caso in escalation, senza confondere completamento tecnico e accettazione\"]",
+        "publication_status": "PUBLISHED_AUTHOR_CONFIRMED",
+        "provenance": "Author-supplied final EN/ITA 13.7.1 LaTeX sources; publication confirmed by the author on 2026-10-18.",
+        "evidence_class": "Published author chapter; engineering synthesis",
+        "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+        "label": "Limits and Capability of Coding Agents",
+        "kind": "published_book_chapter",
+        "node_class": "NDSE2_PUBLISHED_EDITION_20261018"
+      }
+    },
+    {
+      "id": "NDSE2:C04",
+      "label": "Intentions, Contracts and Iterative Change",
+      "kind": "published_book_chapter",
+      "collection": "N",
+      "category": null,
+      "streams": [],
+      "actual": [
+        "C:C04"
+      ],
+      "mapped": [
+        "C:C04"
+      ],
+      "printed": false,
+      "summary": "Develops a versioned intention contract for an existing service. Behavioral examples and acceptance rules are established independently of implementation, while late policy changes trigger targeted impact analysis and invalidate only the decisions and evidence they affect.",
+      "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+      "url": "",
+      "authors": "Enrico Papalini",
+      "year": "2026",
+      "topics": [],
+      "volumes": [
+        "V06"
+      ],
+      "attributes": {
+        "chapter_number": 4,
+        "chapter_hub": "C:C04",
+        "title": "Intentions, Contracts and Iterative Change",
+        "title_it": "Intenzioni, contratti e cambiamento iterativo",
+        "summary": "Develops a versioned intention contract for an existing service. Behavioral examples and acceptance rules are established independently of implementation, while late policy changes trigger targeted impact analysis and invalidate only the decisions and evidence they affect.",
+        "summary_it": "Sviluppa un contratto di intenzione versionato per un servizio esistente. Esempi comportamentali e regole di accettazione vengono stabiliti indipendentemente dall'implementazione; le modifiche tardive della policy richiedono un'analisi d'impatto e invalidano solo decisioni ed evidenze coinvolte.",
+        "author": "Enrico Papalini",
+        "volume_id": "V06",
+        "edition_id": "EDITION:NDSE2:13.7.1",
+        "source_version": "13.7.1",
+        "source_file": "EN/chapters/chapter04.tex",
+        "source_sha256": "f9ba7148a44598fb3bb1a59888f37f376faadff0f300dafb908a98168176f7a7",
+        "source_file_it": "ITA/chapters/chapter04.tex",
+        "source_sha256_it": "878773f16a0704f3cb52d7547b3b7959cb5497eadfc30a93ad23816c8ac69ed5",
+        "learning_goals_json": "[\"separate intention approval from implementation design\", \"derive independent behavioral examples from a versioned contract\", \"incorporate late intention changes by invalidating only the affected decisions and evidence\"]",
+        "learning_goals_it_json": "[\"separare l'approvazione dell'intenzione dal design dell'implementazione\", \"ricavare esempi comportamentali indipendenti da un contratto versionato\", \"integrare cambiamenti tardivi dell'intenzione invalidando soltanto le decisioni e le evidenze interessate\"]",
+        "publication_status": "PUBLISHED_AUTHOR_CONFIRMED",
+        "provenance": "Author-supplied final EN/ITA 13.7.1 LaTeX sources; publication confirmed by the author on 2026-10-18.",
+        "evidence_class": "Published author chapter; engineering synthesis",
+        "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+        "label": "Intentions, Contracts and Iterative Change",
+        "kind": "published_book_chapter",
+        "node_class": "NDSE2_PUBLISHED_EDITION_20261018"
+      }
+    },
+    {
+      "id": "NDSE2:C05",
+      "label": "Quality, Architecture and Maintainability",
+      "kind": "published_book_chapter",
+      "collection": "N",
+      "category": null,
+      "streams": [],
+      "actual": [
+        "C:C05"
+      ],
+      "mapped": [
+        "C:C05"
+      ],
+      "printed": false,
+      "summary": "Separates immediate correctness from architectural fit and maintenance obligations. Through duplication, post-merge evidence and a second change to the running service, it develops fitness checks and explicit stewardship instead of treating a passing test suite as complete quality assurance.",
+      "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+      "url": "",
+      "authors": "Enrico Papalini",
+      "year": "2026",
+      "topics": [],
+      "volumes": [
+        "V06"
+      ],
+      "attributes": {
+        "chapter_number": 5,
+        "chapter_hub": "C:C05",
+        "title": "Quality, Architecture and Maintainability",
+        "title_it": "Qualità, architettura e manutenibilità",
+        "summary": "Separates immediate correctness from architectural fit and maintenance obligations. Through duplication, post-merge evidence and a second change to the running service, it develops fitness checks and explicit stewardship instead of treating a passing test suite as complete quality assurance.",
+        "summary_it": "Distingue la correttezza immediata dalla coerenza architetturale e dagli obblighi di manutenzione. Duplicazioni, evidenze successive al merge e un secondo cambiamento al servizio guidano controlli di adeguatezza e responsabilità di manutenzione esplicite.",
+        "author": "Enrico Papalini",
+        "volume_id": "V06",
+        "edition_id": "EDITION:NDSE2:13.7.1",
+        "source_version": "13.7.1",
+        "source_file": "EN/chapters/chapter05.tex",
+        "source_sha256": "f6e123ae06931297b82554424c5b9b9c4b6bdb00e897814d515d11203e684075",
+        "source_file_it": "ITA/chapters/chapter05.tex",
+        "source_sha256_it": "31ceb5547ea22913089d9eba92093a622b30f98f3052e9a0f793dee86df8938e",
+        "learning_goals_json": "[\"review generated code for architectural fit as well as immediate correctness\", \"write fitness checks for critical system invariants\", \"locate who will maintain the result when the original agent and reviewer are gone\"]",
+        "learning_goals_it_json": "[\"sottoporre il codice generato a review non solo per la correttezza immediata, ma anche per la coerenza architetturale\", \"scrivere controlli di fitness per gli invarianti critici del sistema\", \"individuare chi si occuperà della manutenzione quando l'agent e il reviewer originari non saranno più disponibili\"]",
+        "publication_status": "PUBLISHED_AUTHOR_CONFIRMED",
+        "provenance": "Author-supplied final EN/ITA 13.7.1 LaTeX sources; publication confirmed by the author on 2026-10-18.",
+        "evidence_class": "Published author chapter; engineering synthesis",
+        "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+        "label": "Quality, Architecture and Maintainability",
+        "kind": "published_book_chapter",
+        "node_class": "NDSE2_PUBLISHED_EDITION_20261018"
+      }
+    },
+    {
+      "id": "NDSE2:C06",
+      "label": "Securing Generated Code and Agent Runtimes",
+      "kind": "published_book_chapter",
+      "collection": "N",
+      "category": null,
+      "streams": [],
+      "actual": [
+        "C:C06"
+      ],
+      "mapped": [
+        "C:C06"
+      ],
+      "printed": false,
+      "summary": "Threat-models two distinct surfaces: the generated application and the agent runtime. Dependency provenance, prompt injection, tool permissions and external services become enforceable boundaries, with security evidence tied to the release decision.",
+      "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+      "url": "",
+      "authors": "Enrico Papalini",
+      "year": "2026",
+      "topics": [],
+      "volumes": [
+        "V06"
+      ],
+      "attributes": {
+        "chapter_number": 6,
+        "chapter_hub": "C:C06",
+        "title": "Securing Generated Code and Agent Runtimes",
+        "title_it": "Mettere in sicurezza il codice generato e i runtime degli agent",
+        "summary": "Threat-models two distinct surfaces: the generated application and the agent runtime. Dependency provenance, prompt injection, tool permissions and external services become enforceable boundaries, with security evidence tied to the release decision.",
+        "summary_it": "Analizza due superfici di attacco distinte: l'applicazione generata e il runtime dell'agent. Provenienza delle dipendenze, prompt injection, permessi degli strumenti e servizi esterni diventano vincoli applicabili, collegando le evidenze di sicurezza alla decisione di rilascio.",
+        "author": "Enrico Papalini",
+        "volume_id": "V06",
+        "edition_id": "EDITION:NDSE2:13.7.1",
+        "source_version": "13.7.1",
+        "source_file": "EN/chapters/chapter06.tex",
+        "source_sha256": "3af782fd4b06529539e8b78e95b77ad3911980472e272fe111ddcfcc82ce777a",
+        "source_file_it": "ITA/chapters/chapter06.tex",
+        "source_sha256_it": "f4a3e1c62eae1528ce10817e76376558b41cdc7a6d337397c394cc5cb840ea9e",
+        "learning_goals_json": "[\"threat-model the generated product and the agent runtime separately\", \"enforce tool permissions independently of instructions embedded in files\", \"specify the evidence required before accepting a security-sensitive patch\"]",
+        "learning_goals_it_json": "[\"costruire threat model distinti per il prodotto generato e per il runtime dell'agent\", \"far rispettare i permessi dei tool indipendentemente dalle istruzioni incorporate nei file\", \"specificare le evidenze necessarie prima di accettare una patch sensibile dal punto di vista della sicurezza\"]",
+        "publication_status": "PUBLISHED_AUTHOR_CONFIRMED",
+        "provenance": "Author-supplied final EN/ITA 13.7.1 LaTeX sources; publication confirmed by the author on 2026-10-18.",
+        "evidence_class": "Published author chapter; engineering synthesis",
+        "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+        "label": "Securing Generated Code and Agent Runtimes",
+        "kind": "published_book_chapter",
+        "node_class": "NDSE2_PUBLISHED_EDITION_20261018"
+      }
+    },
+    {
+      "id": "NDSE2:C07",
+      "label": "Independent Verification and the Oracle Problem",
+      "kind": "published_book_chapter",
+      "collection": "N",
+      "category": null,
+      "streams": [],
+      "actual": [
+        "C:C07"
+      ],
+      "mapped": [
+        "C:C07"
+      ],
+      "printed": false,
+      "summary": "Builds independent verification around authorized behavior. Regression cases, properties, counterexamples and mutants expose circular testing; correlated checker errors and benchmark limits motivate an evidence dossier that supports review without granting the maker acceptance authority.",
+      "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+      "url": "",
+      "authors": "Enrico Papalini",
+      "year": "2026",
+      "topics": [],
+      "volumes": [
+        "V06"
+      ],
+      "attributes": {
+        "chapter_number": 7,
+        "chapter_hub": "C:C07",
+        "title": "Independent Verification and the Oracle Problem",
+        "title_it": "Verifica indipendente e problema dell'oracle",
+        "summary": "Builds independent verification around authorized behavior. Regression cases, properties, counterexamples and mutants expose circular testing; correlated checker errors and benchmark limits motivate an evidence dossier that supports review without granting the maker acceptance authority.",
+        "summary_it": "Costruisce la verifica indipendente a partire dal comportamento autorizzato. Regressioni, proprietà, controesempi e mutanti rivelano i test circolari; errori correlati dei checker e limiti dei benchmark motivano un dossier di evidenze senza attribuire al maker l'autorità di accettazione.",
+        "author": "Enrico Papalini",
+        "volume_id": "V06",
+        "edition_id": "EDITION:NDSE2:13.7.1",
+        "source_version": "13.7.1",
+        "source_file": "EN/chapters/chapter07.tex",
+        "source_sha256": "0990c2265ce14a6e4f7274c64952b424d7b29678a995352ab6ec2258ca7dfe00",
+        "source_file_it": "ITA/chapters/chapter07.tex",
+        "source_sha256_it": "7de646cec6272bbb7bdfb1f1ba7d6aa762680382fd4efac383bc341e8f394739",
+        "learning_goals_json": "[\"derive an independent oracle from authorized behavior\", \"use counterexamples and mutants to reveal circular testing\", \"assemble a dossier that allows another person to decide whether a candidate is ready for review\"]",
+        "learning_goals_it_json": "[\"ricavare un oracle indipendente dal comportamento autorizzato\", \"usare controesempi e mutant per smascherare i test circolari\", \"preparare un dossier di evidenze che consenta a un'altra persona di decidere se una modifica candidata sia pronta per la review\"]",
+        "publication_status": "PUBLISHED_AUTHOR_CONFIRMED",
+        "provenance": "Author-supplied final EN/ITA 13.7.1 LaTeX sources; publication confirmed by the author on 2026-10-18.",
+        "evidence_class": "Published author chapter; engineering synthesis",
+        "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+        "label": "Independent Verification and the Oracle Problem",
+        "kind": "published_book_chapter",
+        "node_class": "NDSE2_PUBLISHED_EDITION_20261018"
+      }
+    },
+    {
+      "id": "NDSE2:C08",
+      "label": "Code Review and Trust Calibration",
+      "kind": "published_book_chapter",
+      "collection": "N",
+      "category": null,
+      "streams": [],
+      "actual": [
+        "C:C08"
+      ],
+      "mapped": [
+        "C:C08"
+      ],
+      "printed": false,
+      "summary": "Allocates review effort by consequence and uncertainty. It examines human and AI reviewers, false positives, shared blind spots and automation bias, then separates finding disposition, coverage of acceptance obligations and the accountable release verdict.",
+      "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+      "url": "",
+      "authors": "Enrico Papalini",
+      "year": "2026",
+      "topics": [],
+      "volumes": [
+        "V06"
+      ],
+      "attributes": {
+        "chapter_number": 8,
+        "chapter_hub": "C:C08",
+        "title": "Code Review and Trust Calibration",
+        "title_it": "Code review e calibrazione della fiducia",
+        "summary": "Allocates review effort by consequence and uncertainty. It examines human and AI reviewers, false positives, shared blind spots and automation bias, then separates finding disposition, coverage of acceptance obligations and the accountable release verdict.",
+        "summary_it": "Distribuisce il lavoro di revisione in base a conseguenze e incertezza. Esamina reviewer umani e AI, falsi positivi, punti ciechi condivisi e automation bias, distinguendo la gestione delle osservazioni, la copertura degli obblighi di accettazione e il verdetto di rilascio.",
+        "author": "Enrico Papalini",
+        "volume_id": "V06",
+        "edition_id": "EDITION:NDSE2:13.7.1",
+        "source_version": "13.7.1",
+        "source_file": "EN/chapters/chapter08.tex",
+        "source_sha256": "b542b5aa04f66dd3fb402a4780f9ed7dacf076a6f2827d7b083887467b50e92a",
+        "source_file_it": "ITA/chapters/chapter08.tex",
+        "source_sha256_it": "698ba9efd6ff328bcf2e7bfeb9f9136b14e933dad466c0b23d1fcbc789928824",
+        "learning_goals_json": "[\"allocate review effort by consequence and uncertainty\", \"recognize when two reviewers share the same error source\", \"distinguish the disposition of a review finding, coverage of acceptance obligations and release authority\"]",
+        "learning_goals_it_json": "[\"distribuire l'impegno della review in base alle conseguenze e all'incertezza\", \"riconoscere quando due reviewer condividono la stessa fonte di errore\", \"distinguere l'esito di un finding di review, la copertura degli obblighi di accettazione e l'autorità necessaria per la release\"]",
+        "publication_status": "PUBLISHED_AUTHOR_CONFIRMED",
+        "provenance": "Author-supplied final EN/ITA 13.7.1 LaTeX sources; publication confirmed by the author on 2026-10-18.",
+        "evidence_class": "Published author chapter; engineering synthesis",
+        "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+        "label": "Code Review and Trust Calibration",
+        "kind": "published_book_chapter",
+        "node_class": "NDSE2_PUBLISHED_EDITION_20261018"
+      }
+    },
+    {
+      "id": "NDSE2:C09",
+      "label": "System Understanding, Context and Persistent Memory",
+      "kind": "published_book_chapter",
+      "collection": "N",
+      "category": null,
+      "streams": [],
+      "actual": [
+        "C:C09"
+      ],
+      "mapped": [
+        "C:C09"
+      ],
+      "printed": false,
+      "summary": "Treats context and persistent memory as claims with provenance, ownership and expiry. It develops software-specific knowledge records and invalidation rules, then uses a handoff and an explicitly limited retrieval comparison to test what a successor can reconstruct.",
+      "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+      "url": "",
+      "authors": "Enrico Papalini",
+      "year": "2026",
+      "topics": [],
+      "volumes": [
+        "V06"
+      ],
+      "attributes": {
+        "chapter_number": 9,
+        "chapter_hub": "C:C09",
+        "title": "System Understanding, Context and Persistent Memory",
+        "title_it": "Comprensione del sistema, context e memoria persistente",
+        "summary": "Treats context and persistent memory as claims with provenance, ownership and expiry. It develops software-specific knowledge records and invalidation rules, then uses a handoff and an explicitly limited retrieval comparison to test what a successor can reconstruct.",
+        "summary_it": "Tratta context e memoria persistente come affermazioni con provenienza, responsabilità e validità. Sviluppa registrazioni della conoscenza software e regole di invalidazione, usando un passaggio di consegne e un confronto di recupero esplicitamente limitato per verificare ciò che un successore può ricostruire.",
+        "author": "Enrico Papalini",
+        "volume_id": "V06",
+        "edition_id": "EDITION:NDSE2:13.7.1",
+        "source_version": "13.7.1",
+        "source_file": "EN/chapters/chapter09.tex",
+        "source_sha256": "ab431c886c607f8a192a36336c3409fa0bf9b828d20ab6d16ffd74c162641029",
+        "source_file_it": "ITA/chapters/chapter09.tex",
+        "source_sha256_it": "87fbeee59f022f508080e38b413de15ce2b11b53515d7605560ddc60cb5244ea",
+        "learning_goals_json": "[\"distinguish retrieved context from trusted system knowledge\", \"design versioned memory with explicit invalidation rules\", \"test a handoff by asking a new maintainer to reconstruct an operational decision from stored evidence\"]",
+        "learning_goals_it_json": "[\"distinguere il context recuperato dalle conoscenze affidabili sul sistema\", \"progettare una memoria versionata con regole esplicite di invalidation\", \"verificare un handoff chiedendo a un nuovo maintainer di ricostruire una decisione operativa a partire dalle evidenze conservate\"]",
+        "publication_status": "PUBLISHED_AUTHOR_CONFIRMED",
+        "provenance": "Author-supplied final EN/ITA 13.7.1 LaTeX sources; publication confirmed by the author on 2026-10-18.",
+        "evidence_class": "Published author chapter; engineering synthesis",
+        "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+        "label": "System Understanding, Context and Persistent Memory",
+        "kind": "published_book_chapter",
+        "node_class": "NDSE2_PUBLISHED_EDITION_20261018"
+      }
+    },
+    {
+      "id": "NDSE2:C10",
+      "label": "Developer Learning, Mentoring and Comprehension Debt",
+      "kind": "published_book_chapter",
+      "collection": "N",
+      "category": null,
+      "streams": [],
+      "actual": [
+        "C:C10"
+      ],
+      "mapped": [
+        "C:C10"
+      ],
+      "printed": false,
+      "summary": "Distinguishes assisted task completion from retained competence. Mentoring, explanations, repairs and deliberate practice lead to delayed retention and transfer checks; proposed competence measures remain instruments to validate rather than established scores.",
+      "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+      "url": "",
+      "authors": "Enrico Papalini",
+      "year": "2026",
+      "topics": [],
+      "volumes": [
+        "V06"
+      ],
+      "attributes": {
+        "chapter_number": 10,
+        "chapter_hub": "C:C10",
+        "title": "Developer Learning, Mentoring and Comprehension Debt",
+        "title_it": "Apprendimento, mentoring e debito di comprensione degli sviluppatori",
+        "summary": "Distinguishes assisted task completion from retained competence. Mentoring, explanations, repairs and deliberate practice lead to delayed retention and transfer checks; proposed competence measures remain instruments to validate rather than established scores.",
+        "summary_it": "Distingue il completamento assistito di un compito dalla competenza conservata. Mentoring, spiegazioni, correzioni e pratica deliberata conducono a verifiche differite di ritenzione e trasferimento; le misure di competenza proposte restano strumenti da validare.",
+        "author": "Enrico Papalini",
+        "volume_id": "V06",
+        "edition_id": "EDITION:NDSE2:13.7.1",
+        "source_version": "13.7.1",
+        "source_file": "EN/chapters/chapter10.tex",
+        "source_sha256": "8c1523efe9ff14e391995db26334a679c629258003f891389e55b9183e57f36f",
+        "source_file_it": "ITA/chapters/chapter10.tex",
+        "source_sha256_it": "6222bf93c5aaff838c33613a03d0e0cbf6bd5a8ac293616b215d9ee5fd534e7f",
+        "learning_goals_json": "[\"distinguish finishing a task from learning to maintain it\", \"design delayed retention and transfer checks\", \"give junior developers meaningful responsibility without treating unvalidated competence scores as established measures\"]",
+        "learning_goals_it_json": "[\"distinguere il completamento di un task dall'apprendimento necessario per mantenerlo\", \"progettare verifiche differite della retention e del transfer\", \"assegnare responsabilità significative agli sviluppatori junior senza presentare punteggi di competenza non validati come misure consolidate\"]",
+        "publication_status": "PUBLISHED_AUTHOR_CONFIRMED",
+        "provenance": "Author-supplied final EN/ITA 13.7.1 LaTeX sources; publication confirmed by the author on 2026-10-18.",
+        "evidence_class": "Published author chapter; engineering synthesis",
+        "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+        "label": "Developer Learning, Mentoring and Comprehension Debt",
+        "kind": "published_book_chapter",
+        "node_class": "NDSE2_PUBLISHED_EDITION_20261018"
+      }
+    },
+    {
+      "id": "NDSE2:C11",
+      "label": "Teams, Governance and the Engineering Organization",
+      "kind": "published_book_chapter",
+      "collection": "N",
+      "category": null,
+      "streams": [],
+      "actual": [
+        "C:C11"
+      ],
+      "mapped": [
+        "C:C11"
+      ],
+      "printed": false,
+      "summary": "Moves from individual output to team throughput and decision rights. Policy owners, makers, checkers and release authorities coordinate parallel work and late intention changes, with operational feedback and review capacity governing staged, reversible adoption.",
+      "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+      "url": "",
+      "authors": "Enrico Papalini",
+      "year": "2026",
+      "topics": [],
+      "volumes": [
+        "V06"
+      ],
+      "attributes": {
+        "chapter_number": 11,
+        "chapter_hub": "C:C11",
+        "title": "Teams, Governance and the Engineering Organization",
+        "title_it": "Team, governance e organizzazione dell'ingegneria del software",
+        "summary": "Moves from individual output to team throughput and decision rights. Policy owners, makers, checkers and release authorities coordinate parallel work and late intention changes, with operational feedback and review capacity governing staged, reversible adoption.",
+        "summary_it": "Passa dall'output individuale alla capacità di consegna del team e ai diritti decisionali. Responsabili delle policy, maker, checker e autorità di rilascio coordinano lavoro parallelo e cambiamenti tardivi delle intenzioni, governando un'adozione graduale e reversibile con feedback operativo e capacità di revisione.",
+        "author": "Enrico Papalini",
+        "volume_id": "V06",
+        "edition_id": "EDITION:NDSE2:13.7.1",
+        "source_version": "13.7.1",
+        "source_file": "EN/chapters/chapter11.tex",
+        "source_sha256": "18eb375b24343b3106d1530b9ca03a4a3dd0b88a58a34459858cd1f93cace300",
+        "source_file_it": "ITA/chapters/chapter11.tex",
+        "source_sha256_it": "d6d2c7ee5c616cbd5012cd7d666e360aaab4413958e73e0e92ef71db50b9edb1",
+        "learning_goals_json": "[\"assign policy, maker, checker and release responsibilities\", \"coordinate parallel agents and late policy revisions safely\", \"choose a reversible team-level adoption gate based on review load and operational outcomes\"]",
+        "learning_goals_it_json": "[\"assegnare responsabilità su policy, maker, checker e release\", \"coordinare in sicurezza agent paralleli e revisioni tardive della policy\", \"scegliere un gate di adozione reversibile a livello di team in base al carico di review e agli esiti operativi\"]",
+        "publication_status": "PUBLISHED_AUTHOR_CONFIRMED",
+        "provenance": "Author-supplied final EN/ITA 13.7.1 LaTeX sources; publication confirmed by the author on 2026-10-18.",
+        "evidence_class": "Published author chapter; engineering synthesis",
+        "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+        "label": "Teams, Governance and the Engineering Organization",
+        "kind": "published_book_chapter",
+        "node_class": "NDSE2_PUBLISHED_EDITION_20261018"
+      }
+    },
+    {
+      "id": "NDSE2:C12",
+      "label": "Economics, Jobs, Risk and Evidence-Based Adoption",
+      "kind": "published_book_chapter",
+      "collection": "N",
+      "category": null,
+      "streams": [],
+      "actual": [
+        "C:C12"
+      ],
+      "mapped": [
+        "C:C12"
+      ],
+      "printed": false,
+      "summary": "Evaluates the economics of the whole engineering loop, including human effort, failed attempts, maintenance and risk. Employment evidence and alternative explanations remain separate from forecasts; adoption requires a counterfactual, uncertainty bounds and a reversal condition.",
+      "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+      "url": "",
+      "authors": "Enrico Papalini",
+      "year": "2026",
+      "topics": [],
+      "volumes": [
+        "V06"
+      ],
+      "attributes": {
+        "chapter_number": 12,
+        "chapter_hub": "C:C12",
+        "title": "Economics, Jobs, Risk and Evidence-Based Adoption",
+        "title_it": "Economia, lavoro, rischio e adozione basata sulle evidenze",
+        "summary": "Evaluates the economics of the whole engineering loop, including human effort, failed attempts, maintenance and risk. Employment evidence and alternative explanations remain separate from forecasts; adoption requires a counterfactual, uncertainty bounds and a reversal condition.",
+        "summary_it": "Valuta l'economia dell'intero ciclo ingegneristico, includendo lavoro umano, tentativi falliti, manutenzione e rischio. Mantiene separate evidenze sul lavoro, spiegazioni alternative e previsioni; l'adozione richiede un controfattuale, limiti d'incertezza e una condizione di reversibilità.",
+        "author": "Enrico Papalini",
+        "volume_id": "V06",
+        "edition_id": "EDITION:NDSE2:13.7.1",
+        "source_version": "13.7.1",
+        "source_file": "EN/chapters/chapter12.tex",
+        "source_sha256": "86c0ede476fd2a1b32d32f4ea86297429dd24aad34db3f6c7540431e1190ccbe",
+        "source_file_it": "ITA/chapters/chapter12.tex",
+        "source_sha256_it": "d1598543866ce040908920e04662bc2ffa6ff1831a4cf984240911bf9cd54924",
+        "learning_goals_json": "[\"calculate full-loop rather than token-only cost\", \"separate employment observations from causal forecasts\", \"frame an AI adoption decision with an explicit counterfactual, uncertainty and rollback condition\"]",
+        "learning_goals_it_json": "[\"calcolare il costo dell'intero loop, e non soltanto quello dei token\", \"distinguere le osservazioni sull'occupazione dalle previsioni causali\", \"formulare una decisione di adozione dell'AI con controfattuale, incertezza e condizione di rollback espliciti\"]",
+        "publication_status": "PUBLISHED_AUTHOR_CONFIRMED",
+        "provenance": "Author-supplied final EN/ITA 13.7.1 LaTeX sources; publication confirmed by the author on 2026-10-18.",
+        "evidence_class": "Published author chapter; engineering synthesis",
+        "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+        "label": "Economics, Jobs, Risk and Evidence-Based Adoption",
+        "kind": "published_book_chapter",
+        "node_class": "NDSE2_PUBLISHED_EDITION_20261018"
+      }
+    },
+    {
+      "id": "NDSE2:C13",
+      "label": "Choosing Practices and Recognizing Their Limits",
+      "kind": "published_book_chapter",
+      "collection": "N",
+      "category": null,
+      "streams": [],
+      "actual": [
+        "C:C13"
+      ],
+      "mapped": [
+        "C:C13"
+      ],
+      "printed": false,
+      "summary": "Selects and combines practices from the observed problem rather than a fixed workflow. It compares proportionate responses, exposes over-engineering and unsafe shortcuts, and connects earlier volumes while asking which mechanisms can be omitted without losing the change obligations.",
+      "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+      "url": "",
+      "authors": "Enrico Papalini",
+      "year": "2026",
+      "topics": [],
+      "volumes": [
+        "V06"
+      ],
+      "attributes": {
+        "chapter_number": 13,
+        "chapter_hub": "C:C13",
+        "title": "Choosing Practices and Recognizing Their Limits",
+        "title_it": "Scegliere le pratiche e riconoscerne i limiti",
+        "summary": "Selects and combines practices from the observed problem rather than a fixed workflow. It compares proportionate responses, exposes over-engineering and unsafe shortcuts, and connects earlier volumes while asking which mechanisms can be omitted without losing the change obligations.",
+        "summary_it": "Seleziona e combina le pratiche a partire dal problema osservato. Confronta risposte proporzionate, rende visibili sovraingegnerizzazione e scorciatoie rischiose e collega i volumi precedenti, chiedendo quali meccanismi si possano omettere preservando gli obblighi del cambiamento.",
+        "author": "Enrico Papalini",
+        "volume_id": "V06",
+        "edition_id": "EDITION:NDSE2:13.7.1",
+        "source_version": "13.7.1",
+        "source_file": "EN/chapters/chapter13.tex",
+        "source_sha256": "3fc3434f5ac2348bb0e7a15d100650848db78e857201849955543d4b08405bfa",
+        "source_file_it": "ITA/chapters/chapter13.tex",
+        "source_sha256_it": "fc97b394346165efc6abeeaf66622b340180b38446227e61b7ae9e8bf3c58d0b",
+        "learning_goals_json": "[\"select a practice from an observed problem\", \"combine practices without conflicting authority or stale evidence\", \"justify omitting a mechanism while preserving the task's obligations\"]",
+        "learning_goals_it_json": "[\"scegliere una pratica a partire da un problema osservato\", \"combinare pratiche senza creare conflitti di autorità o usare evidenze obsolete\", \"giustificare l'omissione di un meccanismo, preservando gli obblighi del task\"]",
+        "publication_status": "PUBLISHED_AUTHOR_CONFIRMED",
+        "provenance": "Author-supplied final EN/ITA 13.7.1 LaTeX sources; publication confirmed by the author on 2026-10-18.",
+        "evidence_class": "Published author chapter; engineering synthesis",
+        "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+        "label": "Choosing Practices and Recognizing Their Limits",
+        "kind": "published_book_chapter",
+        "node_class": "NDSE2_PUBLISHED_EDITION_20261018"
+      }
+    }
+  ]
+}

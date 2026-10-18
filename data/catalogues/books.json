@@ -1,10 +1,10 @@
 {
   "meta": {
-    "source": "Frozen v12 atlas payload",
-    "snapshot": "2026-10-13",
-    "site_version": "12.1",
+    "source": "atlas_v13_current.html",
+    "snapshot": "2026-10-18",
+    "site_version": "13.0",
     "count": 111,
-    "note": "Materialized catalogue view; all node fields and attributes retained. No new source verification or empirical validation."
+    "note": "Materialized view of the current audited graph; complete node fields retained. Source inspection and publication status are recorded per item. The builder performs no new empirical validation."
   },
   "records": [
     {

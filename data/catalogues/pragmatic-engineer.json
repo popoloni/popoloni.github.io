@@ -1,10 +1,10 @@
 {
   "meta": {
-    "source": "Frozen v12 atlas payload",
-    "snapshot": "2026-10-13",
-    "site_version": "12.1",
-    "count": 123,
-    "note": "Materialized catalogue view; all node fields and attributes retained. No new source verification or empirical validation."
+    "source": "atlas_v13_current.html",
+    "snapshot": "2026-10-18",
+    "site_version": "13.0",
+    "count": 124,
+    "note": "Materialized view of the current audited graph; complete node fields retained. Source inspection and publication status are recorded per item. The builder performs no new empirical validation."
   },
   "records": [
     {
@@ -88,7 +88,10 @@
         "review_reason": "Career-transition interviews support organizational context, not a measured effect of AI on retention.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles"
@@ -177,7 +180,10 @@
         "review_reason": "WordPress/Automattic dispute is attributed governance reporting; not an independently adjudicated legal conclusion.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Dependencies and agent supply chain",
@@ -266,7 +272,10 @@
         "review_reason": "Employment and vacancy providers cover different populations; do not equate job listings, total employment and AI displacement.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles",
@@ -356,7 +365,10 @@
         "review_reason": "Principal subject is hiring/recruiting; harmonize with other hiring records rather than a general-engineering catch-all. Retain engineering-practice relevance as a non-exclusive secondary facet.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles",
@@ -445,7 +457,10 @@
         "review_reason": "Explicitly revised 2024 guest edition of a 2022 essay is eligible; retain original-author credit and prior-version provenance.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Cindy Sridharan"
+        "byline_and_contributors": "Gergely Orosz; Cindy Sridharan",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Ownership and knowledge transfer"
@@ -539,7 +554,10 @@
         "book_integration_version": "v5_20261011",
         "book_actual_sections": "7.5",
         "book_appendix_anchor": "app:orosz-practitioner",
-        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged"
+        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged",
+        "ndse2_actual_chapters_json": "[\"C:C07\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Independent verification and oracles",
@@ -630,7 +648,10 @@
         "review_reason": "Principal subject is hiring/recruiting; harmonize with other hiring records rather than a general-engineering catch-all. Retain engineering-practice relevance as a non-exclusive secondary facet.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles",
@@ -719,7 +740,10 @@
         "review_reason": "Canonical 155 responses and public-excerpt limitation remain; the inconsistent 145 in the blog is not an independently validated total.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -803,7 +827,10 @@
         "review_reason": "Publication retrospective remains catalogue-only, not engineering effectiveness evidence.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Dataset provenance and dependency"
@@ -886,7 +913,10 @@
         "review_reason": "Sales promotion remains in the blog inventory without artificial research or thematic links.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [],
       "volumes": []
@@ -972,7 +1002,10 @@
         "review_reason": "Employer/interview reports concern recruiting and AI use in applications; no representative prevalence estimate.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Elin Nilsson"
+        "byline_and_contributors": "Gergely Orosz; Elin Nilsson",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles",
@@ -1056,7 +1089,10 @@
         "review_reason": "Audible availability update is dated separately; historical title is not a current distribution claim.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [],
       "volumes": []
@@ -1142,7 +1178,10 @@
         "review_reason": "Shopify visualization is a product-engineering case, not an experiment on AI-assisted productivity.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Specifications and governance",
@@ -1237,7 +1276,10 @@
         "book_integration_version": "v5_20261011",
         "book_actual_sections": "",
         "book_appendix_anchor": "app:orosz-practitioner",
-        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged"
+        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Independent verification and oracles",
@@ -1328,7 +1370,10 @@
         "review_reason": "Bug-management team practices support quality and workflow mapping; continuation does not imply a second independent dataset.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Elin Nilsson"
+        "byline_and_contributors": "Gergely Orosz; Elin Nilsson",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Ownership and knowledge transfer",
@@ -1412,7 +1457,10 @@
         "review_reason": "Blog podcast-directory article is in scope as a blog publication; podcast episodes themselves remain outside newsletter Deepdives.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [],
       "volumes": []
@@ -1498,7 +1546,10 @@
         "review_reason": "Cross-platform tradeoffs support architecture and engineering structure; tool popularity is not a controlled quality comparison.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Elin Nilsson; Fatos Morina"
+        "byline_and_contributors": "Gergely Orosz; Elin Nilsson; Fatos Morina",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Architecture and modularity",
@@ -1588,7 +1639,10 @@
         "review_reason": "Question activity and site relevance are different constructs; AI causation and shutdown predictions remain author interpretations.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:System understanding and rationale",
@@ -1678,7 +1732,10 @@
         "review_reason": "Developer-tool history and distribution strategy support economic/organizational context, not antitrust adjudication.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Economic costs and return",
@@ -1768,7 +1825,10 @@
         "review_reason": "Search-product architecture is engineering AI systems; promotions and vendor descriptions are not benchmark validation.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Architecture and modularity",
@@ -1858,7 +1918,10 @@
         "review_reason": "Expo team case supports mobile architecture; contemporary adoption claims are historical reports, not current recommendations.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Elin Nilsson"
+        "byline_and_contributors": "Gergely Orosz; Elin Nilsson",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Architecture and modularity",
@@ -1942,7 +2005,10 @@
         "review_reason": "Channel milestone and giveaway remain catalogue-only.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [],
       "volumes": []
@@ -2027,7 +2093,10 @@
         "review_reason": "Employee-movement provider data does not establish motives for switching employers.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles",
@@ -2117,7 +2186,10 @@
         "review_reason": "Performance-management reporting concerns organizational incentives; evidence does not identify an isolated AI effect.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles",
@@ -2206,7 +2278,10 @@
         "review_reason": "Two recruiting businesses report segment-specific hiring; do not generalize their client mix to the entire labor market.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles",
@@ -2295,7 +2370,10 @@
         "review_reason": "Indeed/FRED vacancy indices are not employment totals; article itself acknowledges incomplete coverage and causal ambiguity.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles",
@@ -2385,7 +2463,10 @@
         "review_reason": "Robotics domain is adjacent engineering; retain Sandor Felber credit and avoid coding-agent efficacy claims.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Sandor Felber"
+        "byline_and_contributors": "Gergely Orosz; Sandor Felber",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Skills formation and teaching",
@@ -2474,7 +2555,10 @@
         "review_reason": "Compensation tiers are a practitioner labor-market framework, not a universal causal salary model.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Economic costs and return",
@@ -2564,7 +2648,10 @@
         "review_reason": "Recruitment-fraud case is employer-reported; no population fraud rate or independently tested detection protocol.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles",
@@ -2648,7 +2735,10 @@
         "review_reason": "Survey invitation is recruitment/provenance, not results; plans to publish in May are not actual result dates.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Elin Nilsson"
+        "byline_and_contributors": "Gergely Orosz; Elin Nilsson",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Dataset provenance and dependency",
@@ -2738,7 +2828,10 @@
         "review_reason": "Growth engineering concerns experiments and product outcomes; guest guidance is not an AI development trial.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Alexey Komissarouk"
+        "byline_and_contributors": "Gergely Orosz; Alexey Komissarouk",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Specifications and governance",
@@ -2829,7 +2922,10 @@
         "review_reason": "Seven AI-product cases address evaluation, privacy and latency; principal domain remains engineering AI systems.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Architecture and modularity",
@@ -2918,7 +3014,10 @@
         "review_reason": "Principal subject is hiring/recruiting; harmonize with other hiring records rather than a general-engineering catch-all. Retain engineering-practice relevance as a non-exclusive secondary facet. Interview-format and hiring-market observations do not evaluate delayed retention or engineering-fluency measures. Locate interview-selection methods in recruitment without implying validation of retained-skill measurement.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Evan King; Stefan Mai"
+        "byline_and_contributors": "Gergely Orosz; Evan King; Stefan Mai",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles",
@@ -3008,7 +3107,10 @@
         "review_reason": "Developer-tool integration focus supports AI-assisted development; the protocol does not itself confer authorization or safety.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Architecture and modularity",
@@ -3098,7 +3200,10 @@
         "review_reason": "Employer account of application volume and AI-assisted interviews is contextual, not causal labor-market estimation.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles",
@@ -3182,7 +3287,10 @@
         "review_reason": "Subscriber milestone gives publication provenance, not evidence of engineering outcomes or representative survey sampling.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Dataset provenance and dependency"
@@ -3271,7 +3379,10 @@
         "review_reason": "Humanoid hardware/control challenges belong to adjacent robotics, not direct coding-agent research.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Sandor Felber"
+        "byline_and_contributors": "Gergely Orosz; Sandor Felber",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Skills formation and teaching",
@@ -3361,7 +3472,10 @@
         "review_reason": "Modern rereading of Brooks is distinct 2025 commentary; original book is older and not a new experiment.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -3450,7 +3564,10 @@
         "review_reason": "Team interview describes AI-product rollout and architecture; launch/scaling claims remain attributed.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Architecture and modularity",
@@ -3540,7 +3657,10 @@
         "review_reason": "Question-count decline is not equivalent to company closure or independently identified AI causation.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:System understanding and rationale",
@@ -3630,7 +3750,10 @@
         "review_reason": "Chip Huyen book material addresses AI-application architecture; distinguish source-book authorship from editorial introduction.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Chip Huyen"
+        "byline_and_contributors": "Gergely Orosz; Chip Huyen",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Architecture and modularity",
@@ -3720,7 +3843,10 @@
         "review_reason": "Conference observations and demonstrations are not measured deployment productivity.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -3810,7 +3936,10 @@
         "review_reason": "Vibe coding versus inspected AI-assisted coding is an operational distinction; no validated universal outcome comparison.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Elin Nilsson"
+        "byline_and_contributors": "Gergely Orosz; Elin Nilsson",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Independent verification and oracles",
@@ -3900,7 +4029,10 @@
         "review_reason": "Cursor infrastructure is principally engineering an AI product; prior IDE survey reuse must not count as new respondents.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Architecture and modularity",
@@ -3988,7 +4120,10 @@
         "review_reason": "Corrective reporting challenges a specific fake-AI narrative; it does not independently settle every allegation about the company.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Human-agent collaboration",
@@ -4078,7 +4213,10 @@
         "review_reason": "Intrapreneurship is career/product practice, not an AI automation experiment.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Chaitali Narla"
+        "byline_and_contributors": "Gergely Orosz; Chaitali Narla",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Ownership and knowledge transfer",
@@ -4168,7 +4306,10 @@
         "review_reason": "Böckeler's accumulated practitioner experience is not a two-year longitudinal controlled study.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Birgitta Böckeler"
+        "byline_and_contributors": "Gergely Orosz; Birgitta Böckeler",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -4259,7 +4400,10 @@
         "review_reason": "Written keynote is Deepdives and distinct from the embedded video; cross-post alias remains consolidated.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -4349,7 +4493,10 @@
         "review_reason": "Third robotics skills installment retains source dependency and adjacent-domain classification.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Sandor Felber"
+        "byline_and_contributors": "Gergely Orosz; Sandor Felber",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Skills formation and teaching",
@@ -4439,7 +4586,10 @@
         "review_reason": "The reported gross 3,000-plus submissions and cleaned 2,997 retained responses refer to stages of the same reader survey, not separate datasets. No microdata recount was performed.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Elin Nilsson"
+        "byline_and_contributors": "Gergely Orosz; Elin Nilsson",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Architecture and modularity",
@@ -4530,7 +4680,10 @@
         "review_reason": "Incident synthesis is reliability context; repeated failure mechanisms are not an estimated industry failure rate.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Architecture and modularity",
@@ -4622,7 +4775,10 @@
         "book_integration_version": "v5_20261011",
         "book_actual_sections": "",
         "book_appendix_anchor": "app:orosz-practitioner",
-        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged"
+        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Controlled productivity evidence",
@@ -4712,7 +4868,10 @@
         "review_reason": "SDK-maintainer guidance supports API quality and compatibility, not AI-tool productivity claims.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Quentin Pradet"
+        "byline_and_contributors": "Gergely Orosz; Quentin Pradet",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Architecture and modularity",
@@ -4803,7 +4962,10 @@
         "review_reason": "FDE role includes customer integration beyond AI; AI-ecosystem framing is valid but not exclusive.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles",
@@ -4893,7 +5055,10 @@
         "review_reason": "Long-hours accounts and burnout arguments are selected reporting, not a measured hours-to-output function.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Human cognitive load",
@@ -4983,7 +5148,10 @@
         "review_reason": "The reported gross 3,000-plus submissions and cleaned 2,997 retained responses refer to stages of the same reader survey, not separate datasets. No microdata recount was performed.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Elin Nilsson"
+        "byline_and_contributors": "Gergely Orosz; Elin Nilsson",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -5073,7 +5241,10 @@
         "review_reason": "OSS sustainability examples are financing practices, not randomized economic comparisons.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Economic costs and return",
@@ -5163,7 +5334,10 @@
         "review_reason": "Interview problem-solving guidance remains general skills; avoid treating coaching advice as validated hiring outcomes.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Mike Mroczka"
+        "byline_and_contributors": "Gergely Orosz; Mike Mroczka",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Skills formation and teaching",
@@ -5252,7 +5426,10 @@
         "review_reason": "Provider-specific vacancy and employment data have distinct denominators and selection mechanisms.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles",
@@ -5342,7 +5519,10 @@
         "review_reason": "Company culture overview explicitly cannot represent all teams; retain sampling and within-company variation caveats.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Elin Nilsson"
+        "byline_and_contributors": "Gergely Orosz; Elin Nilsson",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Ownership and knowledge transfer",
@@ -5438,7 +5618,10 @@
         "book_integration_version": "v5_20261011",
         "book_actual_sections": "2.8",
         "book_appendix_anchor": "app:orosz-practitioner",
-        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged"
+        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged",
+        "ndse2_actual_chapters_json": "[\"C:C02\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -5531,7 +5714,10 @@
         "review_reason": "Mixed product/tool-building and internal AI-first workflow account; add AI-product engineering as a secondary facet.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Long-running agent execution",
@@ -5621,7 +5807,10 @@
         "review_reason": "Google's internal stack is a company-specific case; no automatic transfer to smaller teams.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Elin Nilsson"
+        "byline_and_contributors": "Gergely Orosz; Elin Nilsson",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Architecture and modularity",
@@ -5710,7 +5899,10 @@
         "review_reason": "Hiring managers' accounts are contextual and selected; article does not isolate AI as the market's cause.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles"
@@ -5797,7 +5989,10 @@
         "review_reason": "The reported gross 3,000-plus submissions and cleaned 2,997 retained responses refer to stages of the same reader survey, not separate datasets. No microdata recount was performed.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Elin Nilsson"
+        "byline_and_contributors": "Gergely Orosz; Elin Nilsson",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -5886,7 +6081,10 @@
         "review_reason": "Hawthorne's architectural guidance is experience-based, not a validated universal architecture ranking.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Matthew Hawthorne"
+        "byline_and_contributors": "Gergely Orosz; Matthew Hawthorne",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Architecture and modularity",
@@ -5976,7 +6174,10 @@
         "review_reason": "Secondary interpretation of AWS postmortem; incident-specific chronology is not a general failure probability.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Architecture and modularity",
@@ -6065,7 +6266,10 @@
         "review_reason": "Site visits support AI-ecosystem context; geographic dominance and growth remain attributed interpretations.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles",
@@ -6155,7 +6359,10 @@
         "review_reason": "One candidate's multi-company comparison supports interview-context illustration, not company-level representative estimates.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Evaluation methodology and baselines",
@@ -6245,7 +6452,10 @@
         "review_reason": "Article explicitly leaves parallel-agent productivity unresolved; retain review-capacity and selection caveats.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Long-running agent execution",
@@ -6334,7 +6544,10 @@
         "review_reason": "Job-seeker accounts and platform statistics are distinct sources; not an isolated AI displacement estimate.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles"
@@ -6417,7 +6630,10 @@
         "review_reason": "Publishing retrospective remains catalogue-only; historical experiences do not change article publication eligibility.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [],
       "volumes": []
@@ -6504,7 +6720,10 @@
         "review_reason": "Promotion advice based on one former executive's experience is not validated career-outcome evidence.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Ethan Evans"
+        "byline_and_contributors": "Gergely Orosz; Ethan Evans",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles",
@@ -6588,7 +6807,10 @@
         "review_reason": "Book translation/travel account remains catalogue-only.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [],
       "volumes": []
@@ -6674,7 +6896,10 @@
         "review_reason": "LLM evals guidance primarily concerns AI applications; not a coding-agent acceptance experiment.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Hamel Husain"
+        "byline_and_contributors": "Gergely Orosz; Hamel Husain",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Independent verification and oracles",
@@ -6765,7 +6990,10 @@
         "review_reason": "Pulse-derived excerpt explicitly preserved; multi-cloud architecture can retain a common upstream dependency.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Economic costs and return",
@@ -6856,7 +7084,10 @@
         "review_reason": "46 developer contributors and expert interviews are reported practice; protocol adoption is not proof of secure deployment.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Elin Nilsson"
+        "byline_and_contributors": "Gergely Orosz; Elin Nilsson",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Architecture and modularity",
@@ -6953,7 +7184,10 @@
         "book_integration_version": "v5_20261011",
         "book_actual_sections": "11.1",
         "book_appendix_anchor": "app:orosz-practitioner",
-        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged"
+        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged",
+        "ndse2_actual_chapters_json": "[\"C:C11\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -7046,7 +7280,10 @@
         "review_reason": "Named incident responder's account adds perspective to P067, not an independent incident sample.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Specifications and governance",
@@ -7136,7 +7373,10 @@
         "review_reason": "First-person production example includes review and tests; it does not measure universal autonomous-code reliability.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Human-agent collaboration",
@@ -7226,7 +7466,10 @@
         "review_reason": "Design-system guidance is principally general engineering with an AI facet; do not force AI-only classification.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Michael Abernethy"
+        "byline_and_contributors": "Gergely Orosz; Michael Abernethy",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Architecture and modularity",
@@ -7323,7 +7566,10 @@
         "book_integration_version": "v5_20261011",
         "book_actual_sections": "4.3",
         "book_appendix_anchor": "app:orosz-practitioner",
-        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged"
+        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged",
+        "ndse2_actual_chapters_json": "[\"C:C04\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Specifications and governance",
@@ -7415,7 +7661,10 @@
         "review_reason": "A June 27, 2026 access/acquisition update is separate from the January 2026 edition date; later promotional context must not be retroactively dated to the original article.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -7510,7 +7759,10 @@
         "book_integration_version": "v5_20261011",
         "book_actual_sections": "12.4",
         "book_appendix_anchor": "app:orosz-practitioner",
-        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged"
+        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged",
+        "ndse2_actual_chapters_json": "[\"C:C12\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Economic costs and return",
@@ -7602,7 +7854,10 @@
         "review_reason": "Selected company interviews, including anonymous contributors, describe procurement choices; not a randomized vendor comparison.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Evaluation methodology and baselines",
@@ -7692,7 +7947,10 @@
         "review_reason": "Yegge's stages are an interviewee framework, distinct from Osmani's agency/orchestration axes and not validated maturity levels.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Long-running agent execution",
@@ -7782,7 +8040,10 @@
         "review_reason": "Codex interviews mix agent-product architecture and internal development workflow; retain both subject facets and separate them from measured effects.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Long-running agent execution",
@@ -7872,7 +8133,10 @@
         "review_reason": "Reporting draws on the Pragmatic Summit and a separate roughly 50-person workshop; selected participants are not an industry-wide consensus sample.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Human-agent collaboration",
@@ -7966,7 +8230,10 @@
         "book_integration_version": "v5_20261011",
         "book_actual_sections": "",
         "book_appendix_anchor": "app:orosz-practitioner",
-        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged"
+        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -8056,7 +8323,10 @@
         "review_reason": "Replace a causal-sounding platform claim with an attributed company observation. An author correction in the March 12, 2026 Pulse distinguishes the IDE-generated-code share from an earlier erroneous percentage. Original date, updated text and company-level denominators remain separate.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Agent context and persistent memory",
@@ -8146,7 +8416,10 @@
         "review_reason": "Reuses the Uber account and contrasts PR activity with quality; observational comparisons do not identify agent-caused changes.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -8237,7 +8510,10 @@
         "review_reason": "An anonymous engineer profile and former-manager account do not operationally measure a tenfold productivity effect.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:System understanding and rationale",
@@ -8327,7 +8603,10 @@
         "review_reason": "Retitled Pulse-derived discussion concerns the trade-offs and desirability of the FDE role; not a representative hiring-rate estimate.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles",
@@ -8417,7 +8696,10 @@
         "review_reason": "Philip Kiely's book excerpt is inference-engineering guidance; preserve original author and distinguish vendor context from benchmark evidence.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz (introduction); Philip Kiely (guest excerpt)"
+        "byline_and_contributors": "Gergely Orosz (introduction); Philip Kiely (guest excerpt)",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Architecture and modularity",
@@ -8512,7 +8794,10 @@
         "book_integration_version": "v5_20261011",
         "book_actual_sections": "",
         "book_appendix_anchor": "app:orosz-practitioner",
-        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged"
+        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Economic costs and return",
@@ -8603,7 +8888,10 @@
         "review_reason": "Steve Huynh's interview experience supports practical coaching, not a controlled study with one thousand independent research participants.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Steve Huynh"
+        "byline_and_contributors": "Gergely Orosz; Steve Huynh",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Evaluation methodology and baselines",
@@ -8693,7 +8981,10 @@
         "review_reason": "Canonical executive interview addresses operating-system permissions and agent execution, not an AI-assisted coding productivity experiment.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Dependencies and agent supply chain",
@@ -8783,7 +9074,10 @@
         "review_reason": "The 2026 second-edition excerpt credits Martin Kleppmann and Chris Riccomini; edition date, original book history and Orosz introduction remain distinct.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz (introduction); Martin Kleppmann; Chris Riccomini (excerpts)"
+        "byline_and_contributors": "Gergely Orosz (introduction); Martin Kleppmann; Chris Riccomini (excerpts)",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Economic costs and return",
@@ -8868,7 +9162,10 @@
         "review_reason": "First-person TechPays acquisition announcement is catalogue context; it does not supply a new compensation dataset.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Dataset provenance and dependency"
@@ -8957,7 +9254,10 @@
         "review_reason": "Reinterprets Brooks' argument in the AI context; analogy is not proof of a universal productivity ceiling or gain.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -9051,7 +9351,10 @@
         "book_integration_version": "v5_20261011",
         "book_actual_sections": "",
         "book_appendix_anchor": "app:orosz-practitioner",
-        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged"
+        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Cognitive offloading and skill debt",
@@ -9141,7 +9444,10 @@
         "review_reason": "Job postings and employment datasets use different coverage and denominators; do not infer AI displacement from their juxtaposition.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Jessica Salmon"
+        "byline_and_contributors": "Gergely Orosz; Jessica Salmon",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles",
@@ -9227,7 +9533,10 @@
         "review_reason": "Minimal public scheduling/conference introduction does not expose the substantive argument; retain metadata-only status and unresolved overlap with P107.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [],
       "volumes": []
@@ -9313,7 +9622,10 @@
         "review_reason": "Provider and interview observations concern jobs and company differences; no isolated causal AI employment effect is established.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Jessica Salmon"
+        "byline_and_contributors": "Gergely Orosz; Jessica Salmon",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles",
@@ -9403,7 +9715,10 @@
         "review_reason": "Reported Meta organizational problems and motives require attribution to accounts and editorial interpretation, not treatment as independently adjudicated facts.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Specifications and governance",
@@ -9494,7 +9809,10 @@
         "review_reason": "Incident analysis concerns infrastructure concentration and trading interruption; business valuation or theoretical exposure is not realized financial loss.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Architecture and modularity",
@@ -9584,7 +9902,10 @@
         "review_reason": "Public keynote explicitly develops the earlier P103 draft and reader feedback; full overlap remains unresolved because P103 is restricted.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -9669,7 +9990,10 @@
         "review_reason": "Copyright-dispute reporting does not establish a complainant identity merely through an accusatory article title.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Dataset provenance and dependency"
@@ -9756,7 +10080,10 @@
         "review_reason": "More than fifty contributed accounts remain a selected reporting pool, not a probability sample of employed engineers.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles"
@@ -9851,7 +10178,10 @@
         "book_integration_version": "v5_20261011",
         "book_actual_sections": "3.6",
         "book_appendix_anchor": "app:orosz-practitioner",
-        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged"
+        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged",
+        "ndse2_actual_chapters_json": "[\"C:C03\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Long-running agent execution",
@@ -9951,7 +10281,10 @@
         "book_integration_version": "v5_20261011",
         "book_actual_sections": "12.4",
         "book_appendix_anchor": "app:orosz-practitioner",
-        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged"
+        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged",
+        "ndse2_actual_chapters_json": "[\"C:C12\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Economic costs and return",
@@ -10044,7 +10377,10 @@
         "review_reason": "Anthropic team interviews are context-specific company reporting; selection and internal resources limit transferability.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Human-agent collaboration",
@@ -10134,7 +10470,10 @@
         "review_reason": "High-stakes trading-engineering practices contextualize quality and systems work; they are not causal AI-tool evidence.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Ivan Klaric; Jesse Spevack"
+        "byline_and_contributors": "Gergely Orosz; Ivan Klaric; Jesse Spevack",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Architecture and modularity",
@@ -10224,7 +10563,10 @@
         "review_reason": "Roughly twenty leadership interviews explain individual breaks; they do not estimate industry attrition or knowledge loss.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles",
@@ -10314,7 +10656,10 @@
         "review_reason": "Ramp case retains Jessica Salmon and Ivan Klaric contributor credit; internal context and infrastructure are not generic evidence of agent success.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Jessica Salmon; Ivan Klaric"
+        "byline_and_contributors": "Gergely Orosz; Jessica Salmon; Ivan Klaric",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Agent context and persistent memory",
@@ -10398,7 +10743,10 @@
         "review_reason": "Podcast-pitch blog post is publishing context, not a coding-agent effectiveness study.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [],
       "volumes": []
@@ -10479,7 +10827,10 @@
         "review_reason": "Essay competition is a recruitment/methods artifact; incentives and future submissions do not count as completed findings.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Dataset provenance and dependency"
@@ -10573,7 +10924,10 @@
         "book_integration_version": "v5_20261011",
         "book_actual_sections": "8.5",
         "book_appendix_anchor": "app:orosz-practitioner",
-        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged"
+        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged",
+        "ndse2_actual_chapters_json": "[\"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -10666,7 +11020,10 @@
         "review_reason": "Seven named interviewees and generous internal tool access characterize a company case, not an independently controlled software-factory benchmark.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Human-agent collaboration",
@@ -10757,7 +11114,10 @@
         "review_reason": "Windows runtime discussion separates agent-product engineering and roadmap ideas from demonstrated AI-assisted development effects; preserve contributor attribution.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz; Ivan Klaric"
+        "byline_and_contributors": "Gergely Orosz; Ivan Klaric",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Architecture and modularity",
@@ -10847,7 +11207,10 @@
         "review_reason": "Shopify's reported migration and AI tooling are a company-specific case, not proof that cross-platform frameworks are generally obsolete.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Architecture and modularity",
@@ -10937,7 +11300,10 @@
         "review_reason": "The main keynote is public with paid extras; its October 2025/2026 reference remains inconsistent and its PR-volume estimate is not independently verified.",
         "review_date": "2026-10-11",
         "id_allocation_note": "Identifier frozen from the previous catalogue; not renumbered.",
-        "byline_and_contributors": "Gergely Orosz"
+        "byline_and_contributors": "Gergely Orosz",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -11035,7 +11401,10 @@
         "book_integration_version": "v5_20261011",
         "book_actual_sections": "10.8",
         "book_appendix_anchor": "app:orosz-practitioner",
-        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged"
+        "book_use_access_boundary": "Inspected public passages only; corpus-level full-text restrictions unchanged",
+        "ndse2_actual_chapters_json": "[\"C:C10\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -11045,6 +11414,109 @@
       "volumes": [
         "V06"
       ]
+    },
+    {
+      "id": "P124",
+      "label": "Building resilient AI-powered software, and planning for when things go wrong",
+      "kind": "practitioner_article",
+      "collection": "P",
+      "category": null,
+      "streams": [
+        "T:Engineering structure",
+        "T:Verification & review",
+        "T:Economics"
+      ],
+      "actual": [],
+      "mapped": [
+        "C:C05",
+        "C:C07",
+        "C:C12"
+      ],
+      "printed": false,
+      "summary": "Authorized Sam Newman excerpts connect disaster recovery with model changes, provider dependence, evaluation, observability and visible AI costs.",
+      "limitation": "Expert guidance, not a controlled experiment. Page byline: Gergely Orosz; excerpt author: Sam Newman. The complete book and underlying numerical claims were not audited. No empirical replication or independent-rater validation was performed.",
+      "url": "https://newsletter.pragmaticengineer.com/p/building-resilient-systems",
+      "authors": "Gergely Orosz (introduction); Sam Newman (excerpts)",
+      "year": "2026-10-13",
+      "attributes": {
+        "label": "Building resilient AI-powered software, and planning for when things go wrong",
+        "kind": "practitioner_article",
+        "node_class": "CURATED_PRACTITIONER_NOT_PEER_REVIEWED_RESEARCH",
+        "group": "Engineering structure",
+        "year": "2026",
+        "authors": "Gergely Orosz (introduction); Sam Newman (excerpts)",
+        "source": "https://newsletter.pragmaticengineer.com/p/building-resilient-systems",
+        "source_url": "https://newsletter.pragmaticengineer.com/p/building-resilient-systems",
+        "url": "https://newsletter.pragmaticengineer.com/p/building-resilient-systems",
+        "publication_date": "2026-10-13",
+        "publication_date_basis": "Date displayed on the primary Deepdive and official archive",
+        "original_publication_date": "2026-10-13",
+        "eligibility_date": "2026-10-13",
+        "series_origin": "NO_PULSE_ORIGIN_IDENTIFIED",
+        "parent_issue_url": "",
+        "strict_non_pulse_derived": "true",
+        "source_platform": "newsletter",
+        "source_section": "Deepdives",
+        "alternate_urls": "",
+        "alternate_publications_json": "[]",
+        "contribution": "Sam Newman’s excerpts outline disaster recovery and resilience for AI-powered systems.",
+        "in_short": "Sam Newman’s excerpts outline disaster recovery and resilience for AI-powered systems.",
+        "summary": "Authorized Sam Newman excerpts connect disaster recovery with model changes, provider dependence, evaluation, observability and visible AI costs.",
+        "main_findings": "Newman recommends recovery planning, provider flexibility and re-evaluation after model changes; composing several vendor dependencies can itself reduce availability.",
+        "findings_basis": "Public article arguments; chapter excerpts and the editor’s closing commentary were distinguished.",
+        "limitation": "Expert guidance, not a controlled experiment. Page byline: Gergely Orosz; excerpt author: Sam Newman. The complete book and underlying numerical claims were not audited. No empirical replication or independent-rater validation was performed.",
+        "manual_use": "Editorial reading for architecture, independent checks and operational economics; these links are not manuscript citations or validation of NDSE2.",
+        "evidence_class": "Industry/practitioner publication — introduced guest book excerpt",
+        "reviewed_evidence_class": "Industry/practitioner publication — introduced guest book excerpt",
+        "access_status": "public_text",
+        "access_note": "Public main article available; classification-bearing passages reviewed. The complete source book was not reviewed.",
+        "classification_status": "REVIEWED_PUBLIC_PASSAGE_CLASSIFICATION",
+        "classification_rationale": "Editorial reading for architecture, independent checks and operational economics; these links are not manuscript citations or validation of NDSE2.",
+        "relevance": "SE_FOR_AI",
+        "peer_review_status": "not_presented_as_peer_reviewed",
+        "controlled_experiment_status": "not_asserted",
+        "source_evidence_origin": "introduced_guest_book_excerpt",
+        "full_manuscript_audited": "NO: public classification-bearing article passages reviewed; complete source book not audited",
+        "method_status": "Editorial classification, not independent-rater or empirical validation",
+        "chapter_id": "C05;C07;C12",
+        "section_id": "",
+        "mapping_role": "PROPOSED_EDITORIAL_USE_NOT_MANUSCRIPT_CITATION",
+        "related_works": "P075;P098;P106",
+        "shared_source_groups": "",
+        "provenance": "Primary-page and official-archive update, 2026-10-18; no raw source article archive",
+        "original_url_verified": "Primary page opened; displayed date, byline and excerpt attribution inspected",
+        "date_accessed": "2026-10-18",
+        "baseline_provenance": "Add-only update to frozen P001–P123; original records and IDs retained",
+        "empirical_replication_status": "NOT_PERFORMED",
+        "manuscript_citation_status": "NOT_CITED_IN_PUBLISHED_NDSE2_13_7_1",
+        "publication_curator": "Gergely Orosz",
+        "author_attribution_note": "Gergely Orosz is the displayed byline and introduction author; Sam Newman authored the explicitly credited excerpts.",
+        "secondary_domains": "GENERAL_SE;AI_FOR_SE",
+        "evidence_origin": "ADAPTED_OR_EXCERPTED_WORK",
+        "source_review_scope": "Primary metadata, attribution, recovery discussion and AI-resilience/cost passages inspected; no hidden text or complete-book audit.",
+        "underlying_research_check": "NOT_INDEPENDENTLY_AUDITED",
+        "review_outcome": "ADDED_NEW_PUBLICATION",
+        "review_reason": "New written Deepdive after the previous 2026-10-11 cutoff; no matching canonical URL or title in P001–P123.",
+        "review_date": "2026-10-18",
+        "id_allocation_note": "P124 appended; P001–P123 unchanged.",
+        "byline_and_contributors": "Gergely Orosz (introduction); Sam Newman (excerpts)",
+        "body_source_dependency_note": "The editor’s closing remarks link a previous Pulse issue underlying P106; this is citation provenance, not a new duplicate Pulse record.",
+        "atlas_added_on": "2026-10-18",
+        "canonical_url": "https://newsletter.pragmaticengineer.com/p/building-resilient-systems",
+        "online_companion_update": true,
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": false,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "pre_reconciliation_manuscript_citation_status": "NOT_ADDED_TO_MANUSCRIPT",
+        "manuscript_citation_basis": "Absent from the final published NDSE2 13.7.1 active EN/ITA source tree and loaded bibliography"
+      },
+      "topics": [
+        "K:Architecture and modularity",
+        "K:Independent verification and oracles",
+        "K:Dependencies and agent supply chain",
+        "K:Economic costs and return"
+      ],
+      "volumes": []
     }
   ]
 }

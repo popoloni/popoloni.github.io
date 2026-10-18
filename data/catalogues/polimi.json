@@ -1,10 +1,10 @@
 {
   "meta": {
-    "source": "Frozen v12 atlas payload",
-    "snapshot": "2026-10-13",
-    "site_version": "12.1",
+    "source": "atlas_v13_current.html",
+    "snapshot": "2026-10-18",
+    "site_version": "13.0",
     "count": 193,
-    "note": "Materialized catalogue view; all node fields and attributes retained. No new source verification or empirical validation."
+    "note": "Materialized view of the current audited graph; complete node fields retained. Source inspection and publication status are recorded per item. The builder performs no new empirical validation."
   },
   "records": [
     {
@@ -70,7 +70,10 @@
         "pass2_replication_status": "NO",
         "pass2_research_design": "Staggered DiD matched observables using AIDev v3",
         "pass2_critical_limitation": "No randomized adoption; selective repositories and adoption attribution; warning IDE-first effect not statistically significant",
-        "pass2_audit_date": "2026-10-10"
+        "pass2_audit_date": "2026-10-10",
+        "ndse2_actual_chapters_json": "[\"C:C02\", \"C:C05\", \"C:C12\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -137,7 +140,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH03:NOT_INDEPENDENTLY_INSPECTED; CH04:ABSTRACT",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C01\", \"C:C03\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -211,7 +217,10 @@
         "pass3_audit_original_data_replication": "NO",
         "pass3_audit_provenance": "PASS3_PRINTED_EDITION_RECONSTRUCTED_2026-10-10",
         "pass3_audit_date": "2026-10-10",
-        "pass9_scope": "publisher official 15-page online supplement pp24-25,28; sample+ITT checked; no regressions refit"
+        "pass9_scope": "publisher official 15-page online supplement pp24-25,28; sample+ITT checked; no regressions refit",
+        "ndse2_actual_chapters_json": "[\"C:C01\", \"C:C02\", \"C:C12\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -287,7 +296,10 @@
         "pass2_replication_status": "NO",
         "pass2_research_design": "Matched staggered DiD with three nonidentical estimators",
         "pass2_critical_limitation": "Estimator choices materially change quality findings; config-file use not exact agent activity; nonrandom treatment",
-        "pass2_audit_date": "2026-10-10"
+        "pass2_audit_date": "2026-10-10",
+        "ndse2_actual_chapters_json": "[\"C:C02\", \"C:C05\", \"C:C12\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -351,7 +363,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH03:NOT_INDEPENDENTLY_INSPECTED",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -405,7 +420,10 @@
         "method_status": "",
         "provenance": "",
         "node_class": "LEGACY_EDITORIAL_GRAPH",
-        "baseline_provenance": "2026-10-09 corrected editorial crosswalk"
+        "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption"
@@ -461,7 +479,10 @@
         "pass7_verified_primary_locator": "https://arxiv.org/abs/2601.20112",
         "pass7_identity_source_class": "author_preprint",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-productivity"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-productivity",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -516,7 +537,10 @@
         "method_status": "",
         "provenance": "",
         "node_class": "LEGACY_EDITORIAL_GRAPH",
-        "baseline_provenance": "2026-10-09 corrected editorial crosswalk"
+        "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
+        "ndse2_actual_chapters_json": "[\"C:C02\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -576,7 +600,10 @@
         "method_status": "",
         "provenance": "",
         "node_class": "LEGACY_EDITORIAL_GRAPH",
-        "baseline_provenance": "2026-10-09 corrected editorial crosswalk"
+        "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
+        "ndse2_actual_chapters_json": "[\"C:C02\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -669,7 +696,10 @@
         "pass6_page_scope": "NBER September 2026 revision abstract and author disclosures",
         "pass6_finding": "500k plus developer sample; 30/180/240% commit estimates; declared paid Microsoft consulting for two authors",
         "pass6_limitation": "SEPT_134PAGE_PDF_UNAVAILABLE",
-        "pass6_original_data_replicated": "NO"
+        "pass6_original_data_replicated": "NO",
+        "ndse2_actual_chapters_json": "[\"C:C01\", \"C:C02\", \"C:C08\", \"C:C11\", \"C:C12\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -745,7 +775,10 @@
         "pass2_replication_status": "NO",
         "pass2_research_design": "Multivocal literature review plus nonrandom illustrative before-after exercise",
         "pass2_critical_limitation": "Self-selected synthetic/illustrative case with no randomized control and no credible causal estimate",
-        "pass2_audit_date": "2026-10-10"
+        "pass2_audit_date": "2026-10-10",
+        "ndse2_actual_chapters_json": "[\"C:C01\", \"C:C03\", \"C:C04\", \"C:C11\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -809,7 +842,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH03:NOT_INDEPENDENTLY_INSPECTED",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C01\", \"C:C03\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -875,7 +911,10 @@
         "audit_locator": "Primary publication record; page-level study audit pending",
         "previous_chapter_audit_registers": "CH03:NOT_INDEPENDENTLY_INSPECTED",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C03\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -934,7 +973,10 @@
         "method_status": "",
         "provenance": "",
         "node_class": "LEGACY_EDITORIAL_GRAPH",
-        "baseline_provenance": "2026-10-09 corrected editorial crosswalk"
+        "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -998,7 +1040,10 @@
         "pass7_verified_primary_locator": "https://arxiv.org/abs/2605.25438",
         "pass7_identity_source_class": "author_preprint",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-productivity"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-productivity",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -1053,7 +1098,10 @@
         "method_status": "",
         "provenance": "",
         "node_class": "LEGACY_EDITORIAL_GRAPH",
-        "baseline_provenance": "2026-10-09 corrected editorial crosswalk"
+        "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -1110,7 +1158,10 @@
         "method_status": "",
         "provenance": "",
         "node_class": "LEGACY_EDITORIAL_GRAPH",
-        "baseline_provenance": "2026-10-09 corrected editorial crosswalk"
+        "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
+        "ndse2_actual_chapters_json": "[\"C:C12\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -1172,7 +1223,10 @@
         "pass7_verified_primary_locator": "https://arxiv.org/abs/2509.19708",
         "pass7_identity_source_class": "author_preprint",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-productivity"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-productivity",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -1231,7 +1285,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "pass6_primary_locator": "https://www.bis.org/publications/working-paper-1208-generative-ai-and-labour-productivity-field-experiment-coding",
         "pass6_metadata_depth": "PRIMARY_WORKING_PAPER_AND_LATER_JOURNAL",
-        "pass6_supporting_locator": "https://www.sciencedirect.com/science/article/pii/S1572308926000458"
+        "pass6_supporting_locator": "https://www.sciencedirect.com/science/article/pii/S1572308926000458",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -1303,7 +1360,10 @@
         "pass5_main_finding": "Median self-reported value multiplier 1.4–2x and speed multiplier ~3x; retrospective 2025 1.3x, 2027 prediction 2.5x; these are beliefs and cannot be compared as experimental gains.",
         "pass5_residual_limitation": "No independent observation-based validation, raw respondent-level data not rerun; four listed occupational counts total 335 not the full retained 349, without proof of discrepancy.",
         "pass5_original_data_replicated": "NO",
-        "pass5_provenance": "PASS5_2026-10-10_SCOPED_PRIMARY_AND_VERSIONED_ABSTRACT"
+        "pass5_provenance": "PASS5_2026-10-10_SCOPED_PRIMARY_AND_VERSIONED_ABSTRACT",
+        "ndse2_actual_chapters_json": "[\"C:C02\", \"C:C12\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -1365,7 +1425,10 @@
         "pass7_verified_primary_locator": "https://www.faros.ai/blog/ai-acceleration-whiplash-takeaways",
         "pass7_identity_source_class": "producer_primary_report",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-productivity"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-productivity",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -1422,7 +1485,10 @@
         "pass7_verified_primary_locator": "https://blog.jetbrains.com/research/2026/08/ai-coding-agent-adoption-2026/",
         "pass7_identity_source_class": "producer_primary_survey",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-productivity"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-productivity",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -1480,7 +1546,10 @@
         "method_status": "",
         "provenance": "",
         "node_class": "LEGACY_EDITORIAL_GRAPH",
-        "baseline_provenance": "2026-10-09 corrected editorial crosswalk"
+        "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
+        "ndse2_actual_chapters_json": "[\"C:C01\", \"C:C02\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -1544,7 +1613,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "pass6_primary_locator": "https://dora.dev/research/2025/dora-report/",
         "pass6_metadata_depth": "OFFICIAL_REPORT_INDEX",
-        "pass6_supporting_locator": "https://dora.dev/research/2025/errata/"
+        "pass6_supporting_locator": "https://dora.dev/research/2025/errata/",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -1603,7 +1675,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "pass6_primary_locator": "https://www.anthropic.com/research/estimating-productivity-gains",
         "pass6_metadata_depth": "PRIMARY_RESEARCH_NOTE_AND_PDF",
-        "pass6_supporting_locator": "https://assets.anthropic.com/m/28fda2ad148e2bf5/original/Estimating-AI-productivity-gains-from-Claude-conversations.pdf"
+        "pass6_supporting_locator": "https://assets.anthropic.com/m/28fda2ad148e2bf5/original/Estimating-AI-productivity-gains-from-Claude-conversations.pdf",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -1662,7 +1737,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "pass6_primary_locator": "https://dora.dev/research/2024/dora-report/",
         "pass6_metadata_depth": "OFFICIAL_REPORT_INDEX",
-        "pass6_supporting_locator": "https://dora.dev/research/2024/errata/"
+        "pass6_supporting_locator": "https://dora.dev/research/2024/errata/",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -1723,7 +1801,10 @@
         "pass7_verified_primary_locator": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/beyond-the-copilot-scaling-the-agentic-product-development-life-cycle",
         "pass7_identity_source_class": "producer_primary_report",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-productivity"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-productivity",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -1800,7 +1881,10 @@
         "pass5_main_finding": "20x figure describes next-frontier potential; text describes Level 4 as largely experimental; top-quintile 16–30% and 31–45% claim comes from separately cited cross-company material, not the same 20x trial.",
         "pass5_residual_limitation": "No linked raw implementation metrics, confidence intervals or independent observational validation in this nine-page excerpt; must not call 20x a measured population mean.",
         "pass5_original_data_replicated": "NO",
-        "pass5_provenance": "PASS5_2026-10-10_SCOPED_PRIMARY_AND_VERSIONED_ABSTRACT"
+        "pass5_provenance": "PASS5_2026-10-10_SCOPED_PRIMARY_AND_VERSIONED_ABSTRACT",
+        "ndse2_actual_chapters_json": "[\"C:C12\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Controlled productivity evidence",
@@ -1863,7 +1947,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH05:TARGETED_FULL_TEXT_PAGES_CHECKED",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C05\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Technical debt and complexity"
@@ -1924,7 +2011,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH06:SOURCE_LOCATOR_ONLY",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C06\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -1990,7 +2080,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH05:TARGETED_FULL_TEXT_PAGES_CHECKED",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C05\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -2052,7 +2145,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH06:SOURCE_LOCATOR_ONLY",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -2114,7 +2210,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH05:FULL_TEXT_OPENED_METHODS_LOCATED",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -2177,7 +2276,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH03:NOT_INDEPENDENTLY_INSPECTED; CH05:FULL_TEXT_OPENED_METHODS_PENDING",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C03\", \"C:C05\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Evaluation methodology and baselines",
@@ -2237,7 +2339,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH06:SOURCE_LOCATOR_ONLY",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Technical debt and complexity",
@@ -2298,7 +2403,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH05:TARGETED_FULL_TEXT_PAGES_CHECKED; CH08:FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C05\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -2358,7 +2466,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH06:SOURCE_LOCATOR_ONLY",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Benchmarks and construct validity",
@@ -2424,7 +2535,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH06:PDF_PAGE_RELEVANT; CH07:FULLTEXT_HTML",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C06\", \"C:C07\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Benchmarks and construct validity",
@@ -2486,7 +2600,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH05:TARGETED_FULL_TEXT_PAGES_CHECKED",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C05\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Technical debt and complexity",
@@ -2547,7 +2664,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH06:SOURCE_LOCATOR_ONLY",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -2607,7 +2727,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH06:PDF_PAGE_RELEVANT",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C06\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Benchmarks and construct validity",
@@ -2669,7 +2792,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH06:SOURCE_LOCATOR_ONLY",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Vulnerability and secure code",
@@ -2729,7 +2855,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH06:PDF_PAGE_RELEVANT",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C06\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -2798,7 +2927,10 @@
         "doi": "10.1145/3729397",
         "previous_chapter_audit_registers": "CH05:PUBLISHER_FULL_HTML_LOCATED",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C05\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -2863,7 +2995,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH06:PDF_PAGE_RELEVANT; CH07:FULLTEXT_HTML",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C06\", \"C:C07\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Independent verification and oracles",
@@ -2927,7 +3062,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH06:PDF_PAGE_RELEVANT",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C06\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Controlled productivity evidence",
@@ -2990,7 +3128,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH06:SOURCE_LOCATOR_ONLY",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -3049,7 +3190,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH06:SOURCE_LOCATOR_ONLY",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -3107,7 +3251,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH06:SOURCE_LOCATOR_ONLY",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Benchmarks and construct validity",
@@ -3165,7 +3312,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH06:SOURCE_LOCATOR_ONLY",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Vulnerability and secure code",
@@ -3224,7 +3374,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH05:FULL_TEXT_OPENED_METHODS_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -3284,7 +3437,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH05:TARGETED_FULL_TEXT_PAGES_CHECKED",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C05\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Benchmarks and construct validity",
@@ -3348,7 +3504,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH06:PDF_PAGE_RELEVANT",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C06\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Prompt injection and malicious tools",
@@ -3411,7 +3570,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH05:TARGETED_FULL_TEXT_PAGES_CHECKED",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C02\", \"C:C05\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Vulnerability and secure code",
@@ -3474,7 +3636,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH05:FULL_TEXT_OPENED_METHODS_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C05\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -3535,7 +3700,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH05:FULL_TEXT_OPENED_METHODS_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Benchmarks and construct validity",
@@ -3596,7 +3764,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH05:FULL_TEXT_OPENED_METHODS_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C05\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -3663,7 +3834,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH05:FULL_TEXT_OPENED_METHODS_PENDING; CH11:FULL_TEXT_PENDING",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C05\", \"C:C11\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Controlled productivity evidence",
@@ -3729,7 +3903,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH05:NOT_FULL_TEXT_VERIFIED",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C05\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -3796,7 +3973,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH03:ARXIV_ABSTRACT_VERIFIED; CH06:PRIMARY_ABSTRACT_ONLY",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C03\", \"C:C06\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Benchmarks and construct validity",
@@ -3860,7 +4040,10 @@
         "pass7_verified_primary_locator": "https://www.veracode.com/wp-content/uploads/2025_GenAI_Code_Security_Report_Final.pdf",
         "pass7_identity_source_class": "original_report_pdf",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-code-quality-security"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-code-quality-security",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Independent verification and oracles",
@@ -3924,7 +4107,10 @@
         "pass7_verified_primary_locator": "https://github.com/HQ1995/vibe-security-radar",
         "pass7_identity_source_class": "author_software_repository",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-code-quality-security"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-code-quality-security",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Independent verification and oracles",
@@ -3988,7 +4174,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH08:FULL_TEXT_AUDIT_PENDING; CH11:FULL_TEXT_PENDING",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -4049,7 +4238,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH08:FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers"
@@ -4108,7 +4300,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH08:FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Dataset provenance and dependency"
@@ -4169,7 +4364,10 @@
         "pass7_verified_primary_locator": "https://arxiv.org/abs/2607.24601",
         "pass7_identity_source_class": "author_preprint",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-verification-review"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-verification-review",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -4232,7 +4430,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH10:FULL_TEXT_REVIEW_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C10\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Automation bias and trust",
@@ -4317,7 +4518,10 @@
         "pass6_page_scope": "p2 Table1 and p1 methods",
         "pass6_finding": "HPR 5853 printed vs 5869 described; arithmetic-inferred final cell 261; 52.17/83.59% intervention margins",
         "pass6_limitation": "RAW_OBSERVATIONS_NOT_AVAILABLE",
-        "pass6_original_data_replicated": "NO"
+        "pass6_original_data_replicated": "NO",
+        "ndse2_actual_chapters_json": "[\"C:C07\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Agent failure and escalation",
@@ -4379,7 +4583,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH08:PRIMARY_ABSTRACT_CHECKED",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Controlled productivity evidence",
@@ -4439,7 +4646,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH08:FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -4510,7 +4720,10 @@
         "data_snapshot_warning": "Uses AIDev PR records (MSR 2026 Sect. 3), 9799 human-reviewed filtered PRs, 717 stratified manually assessed.",
         "previous_chapter_audit_registers": "CH03:NOT_INDEPENDENTLY_INSPECTED; CH11:FULL_TEXT_PENDING",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C03\", \"C:C04\", \"C:C07\", \"C:C11\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -4574,7 +4787,10 @@
         "pass7_verified_primary_locator": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ESEM.2026.75",
         "pass7_identity_source_class": "peer_reviewed_open_access",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-verification-review"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-verification-review",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -4634,7 +4850,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH08:FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Controlled productivity evidence",
@@ -4698,7 +4917,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH08:PRIMARY_ABSTRACT_CHECKED",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers"
@@ -4756,7 +4978,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH07:FULLTEXT_HTML",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Independent verification and oracles",
@@ -4818,7 +5043,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH08:PRIMARY_ABSTRACT_CHECKED",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -4885,7 +5113,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH04:ABSTRACT_AND_REPOSITORY; CH07:PRIMARY_PDF_PAGE_CHECKED",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C04\", \"C:C07\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Independent verification and oracles",
@@ -4946,7 +5177,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH07:FULLTEXT_HTML_PUBLISHER",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -5019,7 +5253,10 @@
         "pass3_audit_boundary": "Not code-review or defect co-detection; cannot set checker correlation rate",
         "pass3_audit_original_data_replication": "NO",
         "pass3_audit_provenance": "PASS3_PRINTED_EDITION_RECONSTRUCTED_2026-10-10",
-        "pass3_audit_date": "2026-10-10"
+        "pass3_audit_date": "2026-10-10",
+        "ndse2_actual_chapters_json": "[\"C:C03\", \"C:C07\", \"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Independent verification and oracles",
@@ -5081,7 +5318,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH07:FULLTEXT_HTML_PUBLISHER",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C07\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Independent verification and oracles",
@@ -5142,7 +5382,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH08:FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -5205,7 +5448,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH07:FULLTEXT_HTML",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C07\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:AI as reviewer",
@@ -5267,7 +5513,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH08:FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Controlled productivity evidence",
@@ -5328,7 +5577,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH08:FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -5389,7 +5641,10 @@
         "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
         "pass6_primary_locator": "https://pubs.rsna.org/doi/10.1148/radiol.222176",
         "pass6_metadata_depth": "PUBLISHED_PEER_REVIEWED_JOURNAL_DOI",
-        "pass6_supporting_locator": "https://pubmed.ncbi.nlm.nih.gov/37129490/"
+        "pass6_supporting_locator": "https://pubmed.ncbi.nlm.nih.gov/37129490/",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Automation bias and trust"
@@ -5451,7 +5706,10 @@
         "pass7_verified_primary_locator": "https://doi.org/10.1109/TSE.2022.3158543",
         "pass7_identity_source_class": "publisher_doi",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-verification-review"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-verification-review",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -5513,7 +5771,10 @@
         "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
         "pass6_primary_locator": "https://www.nature.com/articles/s41746-021-00385-9",
         "pass6_metadata_depth": "PUBLISHED_PEER_REVIEWED_JOURNAL_DOI",
-        "pass6_supporting_locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7896064/"
+        "pass6_supporting_locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7896064/",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -5572,7 +5833,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH08:FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Controlled productivity evidence",
@@ -5640,7 +5904,10 @@
         "pass7_verified_primary_locator": "https://ojs.aaai.org/index.php/HCOMP/article/view/7469",
         "pass7_identity_source_class": "publisher_record",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-verification-review"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-verification-review",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Automation bias and trust",
@@ -5703,7 +5970,10 @@
         "pass7_verified_primary_locator": "https://doi.org/10.1109/ICSE.2017.24",
         "pass7_identity_source_class": "publisher_doi",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-verification-review"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-verification-review",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -5770,7 +6040,10 @@
         "doi": "10.1093/jamia/ocw105",
         "previous_chapter_audit_registers": "CH08:FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Automation bias and trust",
@@ -5833,7 +6106,10 @@
         "pass7_verified_primary_locator": "https://doi.org/10.1177/0018720810376055",
         "pass7_identity_source_class": "publisher_doi",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-verification-review"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-verification-review",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Independent verification and oracles",
@@ -5897,7 +6173,10 @@
         "audit_locator": "Primary publication record; page-level study audit pending",
         "previous_chapter_audit_registers": "CH08:FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -5963,7 +6242,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH08:FULL_TEXT_AUDIT_PENDING; CH11:ORIGINAL_PDF_METHODS_AND_TABLES",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C08\", \"C:C11\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Agent failure and escalation",
@@ -6044,7 +6326,10 @@
         "pass3_audit_boundary": "Synthesis cannot become an independent replication of W003",
         "pass3_audit_original_data_replication": "NO",
         "pass3_audit_provenance": "PASS3_PRINTED_EDITION_RECONSTRUCTED_2026-10-10",
-        "pass3_audit_date": "2026-10-10"
+        "pass3_audit_date": "2026-10-10",
+        "ndse2_actual_chapters_json": "[\"C:C03\", \"C:C07\", \"C:C12\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Independent verification and oracles",
@@ -6107,7 +6392,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH08:FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -6172,7 +6460,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH04:ABSTRACT; CH07:PRIMARY_PDF_ABSTRACT_PAGE_CHECKED",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C04\", \"C:C07\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:AI as reviewer",
@@ -6234,7 +6525,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH08:FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -6310,7 +6604,10 @@
         "pass3_audit_boundary": "Selected self-attesting cohort not randomized; differing outcomes and sample sizes",
         "pass3_audit_original_data_replication": "NO",
         "pass3_audit_provenance": "PASS3_PRINTED_EDITION_RECONSTRUCTED_2026-10-10",
-        "pass3_audit_date": "2026-10-10"
+        "pass3_audit_date": "2026-10-10",
+        "ndse2_actual_chapters_json": "[\"C:C04\", \"C:C07\", \"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -6371,7 +6668,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH08:FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -6434,7 +6734,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH03:NOT_INDEPENDENTLY_INSPECTED; CH07:FULLTEXT_HTML",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C03\", \"C:C07\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:AI as reviewer",
@@ -6506,7 +6809,10 @@
         "pass2_replication_status": "NO",
         "pass2_research_design": "Controlled benchmark with complete-case task selection",
         "pass2_critical_limitation": "No human review; model cannot run tests during review; complete cases and specific model pricing; not repo representative",
-        "pass2_audit_date": "2026-10-10"
+        "pass2_audit_date": "2026-10-10",
+        "ndse2_actual_chapters_json": "[\"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -6568,7 +6874,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH08:FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -6634,7 +6943,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH06:SOURCE_LOCATOR_ONLY; CH08:FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C06\", \"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Agent failure and escalation",
@@ -6695,7 +7007,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH08:FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -6760,7 +7075,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH08:FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -6821,7 +7139,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH08:FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -6881,7 +7202,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH08:FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -6943,7 +7267,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH08:FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:AI as reviewer",
@@ -7005,7 +7332,10 @@
         "pass7_verified_primary_locator": "https://www.microsoft.com/en-us/research/publication/overreliance-on-ai-literature-review/",
         "pass7_identity_source_class": "institutional_technical_report",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-verification-review"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-verification-review",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Automation bias and trust"
@@ -7077,7 +7407,10 @@
         "pass4_audit_boundary": "Review hypothetically in historical repos, no CI or iterative developer feedback; cluster/generalization limits",
         "pass4_audit_original_data_replication": "NO",
         "pass4_audit_provenance": "PASS4_SELECTED_PRIMARY_2026-10-10",
-        "pass4_audit_date": "2026-10-10"
+        "pass4_audit_date": "2026-10-10",
+        "ndse2_actual_chapters_json": "[\"C:C03\", \"C:C07\", \"C:C08\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -7141,7 +7474,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH10:FULL_TEXT_REVIEW_PENDING; CH11:FULL_TEXT_PENDING",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C10\", \"C:C11\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Controlled productivity evidence",
@@ -7206,7 +7542,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH10:ARXIV_PDF_PAGES_VERIFIED",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C10\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Specifications and governance",
@@ -7275,7 +7614,10 @@
         "doi": "10.1145/3540250.3549084",
         "previous_chapter_audit_registers": "CH10:FULL_TEXT_REVIEW_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C10\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Human cognitive load",
@@ -7341,7 +7683,10 @@
         "doi": "10.1145/1404520.1404522",
         "previous_chapter_audit_registers": "CH10:FULL_TEXT_REVIEW_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Skills formation and teaching",
@@ -7402,7 +7747,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH10:FULL_TEXT_REVIEW_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C10\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Independent verification and oracles",
@@ -7472,7 +7820,10 @@
         "audit_locator": "Primary publication record; page-level study audit pending",
         "previous_chapter_audit_registers": "CH10:FULL_TEXT_REVIEW_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C10\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -7537,7 +7888,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH10:ARXIV_V2_PDF_PAGES_VERIFIED",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C10\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -7603,7 +7957,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH10:AUTHOR_INSTITUTIONAL_METADATA_ABSTRACT",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C10\", \"C:C12\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Skills formation and teaching",
@@ -7698,7 +8055,10 @@
         "pass6_page_scope": "arxiv history line34, v9 PDF p0, HTML lines70 and 1087",
         "pass6_finding": "v9 upload June 8; PDF cover June 9; experimental HTML internal August24",
         "pass6_limitation": "HTML_TRANSFORMATION_DATE_CAUSE_UNKNOWN",
-        "pass6_original_data_replicated": "NO"
+        "pass6_original_data_replicated": "NO",
+        "ndse2_actual_chapters_json": "[\"C:C12\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Independent verification and oracles",
@@ -7769,7 +8129,10 @@
         "audit_locator": "Primary publication record; page-level study audit pending",
         "previous_chapter_audit_registers": "CH10:FULL_TEXT_REVIEW_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C10\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Controlled productivity evidence",
@@ -7837,7 +8200,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH10:FULL_TEXT_REVIEW_PENDING; CH11:FULL_TEXT_PENDING",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C01\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Human cognitive load",
@@ -7895,7 +8261,10 @@
         "method_status": "",
         "provenance": "",
         "node_class": "LEGACY_EDITORIAL_GRAPH",
-        "baseline_provenance": "2026-10-09 corrected editorial crosswalk"
+        "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
+        "ndse2_actual_chapters_json": "[\"C:C12\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Controlled productivity evidence",
@@ -7958,7 +8327,10 @@
         "pass7_verified_primary_locator": "https://www.nber.org/papers/w34984",
         "pass7_identity_source_class": "institutional_working_paper",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-jobs-roles"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-jobs-roles",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -8014,7 +8386,10 @@
         "method_status": "",
         "provenance": "",
         "node_class": "LEGACY_EDITORIAL_GRAPH",
-        "baseline_provenance": "2026-10-09 corrected editorial crosswalk"
+        "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
+        "ndse2_actual_chapters_json": "[\"C:C12\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles",
@@ -8083,7 +8458,10 @@
         "pass2_replication_status": "NO",
         "pass2_research_design": "Instrumented matched foreign multinational affiliate adoption/event study",
         "pass2_critical_limitation": "Junior share is not junior headcount; observed treatment via AI job-posting proxy and exclusion restrictions",
-        "pass2_audit_date": "2026-10-10"
+        "pass2_audit_date": "2026-10-10",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles"
@@ -8142,7 +8520,10 @@
         "pass7_verified_primary_locator": "https://libertystreeteconomics.newyorkfed.org/2026/06/remote-work-leaves-younger-workers-sidelined/",
         "pass7_identity_source_class": "institutional_primary_commentary",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-jobs-roles"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-jobs-roles",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Controlled productivity evidence",
@@ -8201,7 +8582,10 @@
         "method_status": "",
         "provenance": "",
         "node_class": "LEGACY_EDITORIAL_GRAPH",
-        "baseline_provenance": "2026-10-09 corrected editorial crosswalk"
+        "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
+        "ndse2_actual_chapters_json": "[\"C:C12\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -8271,7 +8655,10 @@
         "pass2_replication_status": "NO",
         "pass2_research_design": "Registry headcounts and exposure quantile descriptive plus firm fixed effect contrasts",
         "pass2_critical_limitation": "No controlled experiment assigning chatbot use; negative detectable exposure gradient not proof no AI effect",
-        "pass2_audit_date": "2026-10-10"
+        "pass2_audit_date": "2026-10-10",
+        "ndse2_actual_chapters_json": "[\"C:C12\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles"
@@ -8326,7 +8713,10 @@
         "method_status": "",
         "provenance": "",
         "node_class": "LEGACY_EDITORIAL_GRAPH",
-        "baseline_provenance": "2026-10-09 corrected editorial crosswalk"
+        "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles",
@@ -8395,7 +8785,10 @@
         "pass2_replication_status": "NO",
         "pass2_research_design": "Observational continuous-exposure difference in differences with WFH co-treatment controls",
         "pass2_critical_limitation": "AI and WFH exposure rank correlation 0.77 and strong parallel exposure trend conditions; remote work not randomized",
-        "pass2_audit_date": "2026-10-10"
+        "pass2_audit_date": "2026-10-10",
+        "ndse2_actual_chapters_json": "[\"C:C12\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Specifications and governance",
@@ -8457,7 +8850,10 @@
         "pass7_verified_primary_locator": "https://cepr.org/voxeu/columns/new-jobs-140-years-data-why-ai-displacement-fear-overstated-and-what-worry-about",
         "pass7_identity_source_class": "author_primary_analysis",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-jobs-roles"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-jobs-roles",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Vulnerability and secure code",
@@ -8517,7 +8913,10 @@
         "pass7_verified_primary_locator": "https://www.nber.org/papers/w34836",
         "pass7_identity_source_class": "institutional_working_paper",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-jobs-roles"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-jobs-roles",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles"
@@ -8574,7 +8973,10 @@
         "pass7_verified_primary_locator": "https://www.nber.org/papers/w33509",
         "pass7_identity_source_class": "institutional_working_paper",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-jobs-roles"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-jobs-roles",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles"
@@ -8632,7 +9034,10 @@
         "pass7_verified_primary_locator": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5425555",
         "pass7_identity_source_class": "primary_versioned_manuscript",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-jobs-roles"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-jobs-roles",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -8722,7 +9127,10 @@
         "pass6_page_scope": "PDF p24-25; printed p22-23",
         "pass6_finding": "Eq2 dynamic/eq3 pooled; 9/4% pre-adoption earnings premiums; 3/2% different confidence intervals",
         "pass6_limitation": "LICENSED_DENMARK_MICRODATA_UNAVAILABLE",
-        "pass6_original_data_replicated": "NO"
+        "pass6_original_data_replicated": "NO",
+        "ndse2_actual_chapters_json": "[\"C:C12\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -8783,7 +9191,10 @@
         "pass7_verified_primary_locator": "https://hiringlab.indeed.com/2026/07/23/the-labor-market-is-tilting-toward-seniority/",
         "pass7_identity_source_class": "producer_primary_report",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-jobs-roles"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-jobs-roles",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles",
@@ -8841,7 +9252,10 @@
         "pass7_verified_primary_locator": "https://libertystreeteconomics.newyorkfed.org/2026/08/ais-impact-on-labor-and-hiring/",
         "pass7_identity_source_class": "institutional_primary_commentary",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-jobs-roles"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-jobs-roles",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Specifications and governance",
@@ -8896,7 +9310,10 @@
         "method_status": "",
         "provenance": "",
         "node_class": "LEGACY_EDITORIAL_GRAPH",
-        "baseline_provenance": "2026-10-09 corrected editorial crosswalk"
+        "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
+        "ndse2_actual_chapters_json": "[\"C:C12\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Controlled productivity evidence",
@@ -8954,7 +9371,10 @@
         "method_status": "",
         "provenance": "",
         "node_class": "LEGACY_EDITORIAL_GRAPH",
-        "baseline_provenance": "2026-10-09 corrected editorial crosswalk"
+        "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
+        "ndse2_actual_chapters_json": "[\"C:C12\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Controlled productivity evidence",
@@ -9014,7 +9434,10 @@
         "pass7_verified_primary_locator": "https://arxiv.org/abs/2608.00038",
         "pass7_identity_source_class": "author_preprint",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-jobs-roles"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-jobs-roles",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -9071,7 +9494,10 @@
         "method_status": "",
         "provenance": "",
         "node_class": "LEGACY_EDITORIAL_GRAPH",
-        "baseline_provenance": "2026-10-09 corrected editorial crosswalk"
+        "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
+        "ndse2_actual_chapters_json": "[\"C:C12\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Benchmarks and construct validity",
@@ -9132,7 +9558,10 @@
         "pass7_verified_primary_locator": "https://www.brookings.edu/articles/new-data-show-no-ai-jobs-apocalypse-for-now/",
         "pass7_identity_source_class": "institutional_primary_commentary",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-jobs-roles"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-jobs-roles",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Employment and early-career roles",
@@ -9191,7 +9620,10 @@
         "pass7_verified_primary_locator": "https://www.pwc.com/gx/en/issues/artificial-intelligence/publications/artificial-intelligence-study.html",
         "pass7_identity_source_class": "producer_primary_report",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-jobs-roles"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-jobs-roles",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Controlled productivity evidence",
@@ -9253,7 +9685,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH11:FULL_TEXT_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C12\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -9321,7 +9756,10 @@
         "pass7_verified_primary_locator": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-top-trends-in-tech",
         "pass7_identity_source_class": "producer_primary_report",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-economics"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-economics",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -9387,7 +9825,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH11:ORIGINAL_PDF_METHODS_AND_TABLES",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C11\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Specifications and governance",
@@ -9463,7 +9904,10 @@
         "pass4_audit_boundary": "Final ICSE PDF tables not compared with author v2; reported p-values not recomputed from run-level outputs; no human team rollout evidence",
         "pass4_audit_original_data_replication": "NO",
         "pass4_audit_provenance": "PASS4_SELECTED_PRIMARY_2026-10-10",
-        "pass4_audit_date": "2026-10-10"
+        "pass4_audit_date": "2026-10-10",
+        "ndse2_actual_chapters_json": "[\"C:C04\", \"C:C07\", \"C:C11\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Independent verification and oracles",
@@ -9527,7 +9971,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH05:FULL_TEXT_OPENED_METHODS_PENDING; CH11:ORIGINAL_PDF_METHODS_AND_TABLES",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C11\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -9607,7 +10054,10 @@
         "pass4_audit_original_data_replication": "NO",
         "pass4_audit_provenance": "PASS4_SELECTED_PRIMARY_2026-10-10",
         "pass4_audit_date": "2026-10-10",
-        "pass9_scope": "original HTML cited Zenodo DOI located, unadjusted coder agreement, no source-record download"
+        "pass9_scope": "original HTML cited Zenodo DOI located, unadjusted coder agreement, no source-record download",
+        "ndse2_actual_chapters_json": "[\"C:C04\", \"C:C07\", \"C:C11\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Specifications and governance",
@@ -9685,7 +10135,10 @@
         "pass3_audit_original_data_replication": "NO",
         "pass3_audit_provenance": "PASS3_PRINTED_EDITION_RECONSTRUCTED_2026-10-10",
         "pass3_audit_date": "2026-10-10",
-        "pass9_scope": "v1/v2 original HTML Table 1/I-II; McNemar from continuous mean not verifiable"
+        "pass9_scope": "v1/v2 original HTML Table 1/I-II; McNemar from continuous mean not verifiable",
+        "ndse2_actual_chapters_json": "[\"C:C03\", \"C:C04\", \"C:C07\", \"C:C11\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -9770,7 +10223,10 @@
         "pass4_audit_boundary": "Design proposal not validated impact on multi-agent team performance",
         "pass4_audit_original_data_replication": "NO",
         "pass4_audit_provenance": "PASS4_SELECTED_PRIMARY_2026-10-10",
-        "pass4_audit_date": "2026-10-10"
+        "pass4_audit_date": "2026-10-10",
+        "ndse2_actual_chapters_json": "[\"C:C03\", \"C:C04\", \"C:C11\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Architecture and modularity",
@@ -9845,7 +10301,10 @@
         "pass4_audit_boundary": "Normative framework not empirical proof of organizational effects",
         "pass4_audit_original_data_replication": "NO",
         "pass4_audit_provenance": "PASS4_SELECTED_PRIMARY_2026-10-10",
-        "pass4_audit_date": "2026-10-10"
+        "pass4_audit_date": "2026-10-10",
+        "ndse2_actual_chapters_json": "[\"C:C01\", \"C:C04\", \"C:C11\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Evaluation methodology and baselines"
@@ -9906,7 +10365,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH09:PRIMARY_FULL_TEXT_AUDIT_PENDING; CH10:ARXIV_PDF_PAGES_VERIFIED",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C10\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Technical debt and complexity",
@@ -9973,7 +10435,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH09:PRIMARY_FULL_TEXT_AUDIT_PENDING; CH10:ARXIV_PDF_PAGES_VERIFIED",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C09\", \"C:C10\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Independent verification and oracles",
@@ -10036,7 +10501,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH09:PRIMARY_FULL_TEXT_AUDIT_PENDING; CH10:ARXIV_PDF_PAGES_VERIFIED_PUBLISHER_METADATA_CONFIRMED",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C10\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Independent verification and oracles",
@@ -10102,7 +10570,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH09:ORIGINAL_PDF_VERIFIED",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C09\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Benchmarks and construct validity",
@@ -10171,7 +10642,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH03:NOT_INDEPENDENTLY_INSPECTED; CH09:PRIMARY_FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C03\", \"C:C09\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -10239,7 +10713,10 @@
         "audit_locator": "Primary publication record; page-level study audit pending",
         "previous_chapter_audit_registers": "CH09:PRIMARY_FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C09\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Benchmarks and construct validity",
@@ -10305,7 +10782,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH09:PUBLISHED_PDF_VERIFIED",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C09\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Benchmarks and construct validity",
@@ -10371,7 +10851,10 @@
         "pass7_verified_primary_locator": "https://doi.org/10.1007/s10664-024-10538-5",
         "pass7_identity_source_class": "publisher_doi",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Ownership and knowledge transfer",
@@ -10439,7 +10922,10 @@
         "correction_warning": "2026 corrigendum DOI 10.1145/3838282: primary studies S1–S95 formerly mismatched; use corrected IDs only.",
         "previous_chapter_audit_registers": "CH10:FULL_TEXT_REVIEW_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C10\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Independent verification and oracles",
@@ -10507,7 +10993,10 @@
         "doi": "10.1109/ICSE43902.2021.00063",
         "previous_chapter_audit_registers": "CH10:FULL_TEXT_REVIEW_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C10\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -10573,7 +11062,10 @@
         "pass7_verified_primary_locator": "https://github.com/brains-on-code/fMRI-complexity-metrics-icse2021",
         "pass7_identity_source_class": "author_software_repository",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Technical debt and complexity",
@@ -10631,7 +11123,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH10:FULL_TEXT_REVIEW_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Onboarding and developer fluency",
@@ -10692,7 +11187,10 @@
         "pass7_verified_primary_locator": "https://doi.org/10.7554/eLife.58906",
         "pass7_identity_source_class": "publisher_doi",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Human cognitive load",
@@ -10753,7 +11251,10 @@
         "pass7_verified_primary_locator": "https://doi.org/10.1109/TSE.2018.2863303",
         "pass7_identity_source_class": "publisher_doi",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Human cognitive load",
@@ -10816,7 +11317,10 @@
         "doi": "10.1145/3180155.3180215",
         "previous_chapter_audit_registers": "CH09:PRIMARY_FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C09\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Automation bias and trust"
@@ -10877,7 +11381,10 @@
         "pass7_verified_primary_locator": "https://github.com/brains-on-code/simultaneous-fmri-and-eyetracking",
         "pass7_identity_source_class": "author_software_repository",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Human cognitive load",
@@ -10958,7 +11465,10 @@
         "pass6_limitation": "FINAL_JOURNAL_NUMERICAL_TABLES_UNAVAILABLE",
         "pass6_original_data_replicated": "NO",
         "pass8_primary_final_published_url": "https://xin-xia.github.io/publication/TSE17.pdf",
-        "pass8_methods": "IEEE final p954 confirms explicit 96-hour excluded participant; journal Table1 p954 still sums 79; Table5 p959 same prior rates"
+        "pass8_methods": "IEEE final p954 confirms explicit 96-hour excluded participant; journal Table1 p954 still sums 79; Table5 p959 same prior rates",
+        "ndse2_actual_chapters_json": "[\"C:C01\", \"C:C09\", \"C:C10\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Human cognitive load",
@@ -11024,7 +11534,10 @@
         "pass7_verified_primary_locator": "https://doi.org/10.1109/ICSME.2017.64",
         "pass7_identity_source_class": "publisher_doi",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Agent failure and escalation",
@@ -11087,7 +11600,10 @@
         "pass7_verified_primary_locator": "https://doi.org/10.1145/3106237.3106268",
         "pass7_identity_source_class": "publisher_doi",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Human cognitive load",
@@ -11152,7 +11668,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH09:ORIGINAL_PDF_VERIFIED; CH11:FULL_TEXT_PENDING",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C09\", \"C:C11\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Vulnerability and secure code",
@@ -11216,7 +11735,10 @@
         "pass7_verified_primary_locator": "https://doi.org/10.1145/2786805.2786870",
         "pass7_identity_source_class": "publisher_doi",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Ownership and knowledge transfer"
@@ -11278,7 +11800,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH05:AUTHOR_CAMERA_READY_PDF_LOCATED; CH09:PRIMARY_FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C01\", \"C:C05\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Specifications and governance",
@@ -11342,7 +11867,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH09:PRIMARY_FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C01\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Skills formation and teaching",
@@ -11404,7 +11932,10 @@
         "pass7_verified_primary_locator": "https://doi.org/10.1109/ICSE.2015.334",
         "pass7_identity_source_class": "publisher_doi",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -11471,7 +12002,10 @@
         "doi": "10.1109/ESEM.2015.7321212",
         "previous_chapter_audit_registers": "CH10:FULL_TEXT_REVIEW_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C10\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Onboarding and developer fluency",
@@ -11533,7 +12067,10 @@
         "pass7_verified_primary_locator": "https://doi.org/10.1016/j.infsof.2015.06.008",
         "pass7_identity_source_class": "publisher_doi",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Developer workflow and adoption",
@@ -11595,7 +12132,10 @@
         "pass7_verified_primary_locator": "https://www.microsoft.com/en-us/research/publication/using-psycho-physiological-measures-to-assess-task-difficulty-in-software-development/",
         "pass7_identity_source_class": "institutional_publication_record",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Human cognitive load",
@@ -11656,7 +12196,10 @@
         "pass7_verified_primary_locator": "https://doi.org/10.1145/2568225.2568252",
         "pass7_identity_source_class": "publisher_doi",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Human cognitive load",
@@ -11718,7 +12261,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH05:PUBLISHER_RECORD_AND_AUTHOR_SOURCE_LOCATED; CH09:ORIGINAL_PDF_VERIFIED",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C05\", \"C:C09\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -11781,7 +12327,10 @@
         "pass7_verified_primary_locator": "https://research.ibm.com/publications/moving-into-a-new-software-project-landscape",
         "pass7_identity_source_class": "institutional_publication_record",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Onboarding and developer fluency",
@@ -11847,7 +12396,10 @@
         "doi": "10.1145/1882291.1882313",
         "previous_chapter_audit_registers": "CH10:FULL_TEXT_REVIEW_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C10\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Onboarding and developer fluency",
@@ -11915,7 +12467,10 @@
         "doi": "10.1109/ICSE.2009.5070509",
         "previous_chapter_audit_registers": "CH09:ORIGINAL_ABSTRACT_AND_METADATA_VERIFIED; CH10:FULL_TEXT_REVIEW_PENDING; CH11:FULL_TEXT_PENDING",
         "previous_chapter_audit_count": "3",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C09\", \"C:C11\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -11983,7 +12538,10 @@
         "doi": "10.1145/1134285.1134355",
         "previous_chapter_audit_registers": "CH09:AUTHOR_INSTITUTIONAL_ABSTRACT_VERIFIED",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C01\", \"C:C09\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Automation bias and trust",
@@ -12052,7 +12610,10 @@
         "doi": "10.1109/52.914737",
         "previous_chapter_audit_registers": "CH10:FULL_TEXT_REVIEW_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C10\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -12116,7 +12677,10 @@
         "pass7_verified_primary_locator": "https://dl.acm.org/doi/10.5555/302163.302199",
         "pass7_identity_source_class": "publisher_record",
         "pass7_methods_replicated": "NO",
-        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory"
+        "legacy_editorial_source": "https://www.sepolimi.com/p/se-ai-bibliography-system-knowledge-memory",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Output versus shipped value",
@@ -12192,7 +12756,10 @@
         "pass4_audit_boundary": "Argument is plausible but does not statistically prove invalidity for every repository",
         "pass4_audit_original_data_replication": "NO",
         "pass4_audit_provenance": "PASS4_SELECTED_PRIMARY_2026-10-10",
-        "pass4_audit_date": "2026-10-10"
+        "pass4_audit_date": "2026-10-10",
+        "ndse2_actual_chapters_json": "[\"C:C05\", \"C:C09\", \"C:C11\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Skills formation and teaching",
@@ -12251,7 +12818,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH09:PRIMARY_FULL_TEXT_AUDIT_PENDING",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Code reuse and duplication",
@@ -12316,7 +12886,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH03:ARXIV_ABSTRACT_VERIFIED",
         "previous_chapter_audit_count": "1",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C03\", \"C:C04\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Review capacity and maintainers",
@@ -12382,7 +12955,10 @@
         "data_snapshot_warning": "Dataset observational and shared by W068/W071; overlapping observations are not independent replication.",
         "previous_chapter_audit_registers": "CH03:ARXIV_ABSTRACT_VERIFIED; CH07:FULLTEXT_HTML_DATASET",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C07\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Independent verification and oracles",
@@ -12444,7 +13020,10 @@
         "baseline_provenance": "2026-10-09 corrected editorial crosswalk",
         "previous_chapter_audit_registers": "CH03:NOT_INDEPENDENTLY_INSPECTED; CH07:FULLTEXT_INSTITUTIONAL",
         "previous_chapter_audit_count": "2",
-        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass."
+        "previous_audit_warning": "Archived self-reported inspection depth; no independent reinspection from these archive records in 2026-10-10 pass.",
+        "ndse2_actual_chapters_json": "[\"C:C03\", \"C:C07\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [
         "K:Controlled productivity evidence",

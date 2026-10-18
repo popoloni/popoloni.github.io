@@ -1,10 +1,10 @@
 {
   "meta": {
-    "source": "Frozen v12 atlas payload",
-    "snapshot": "2026-10-13",
-    "site_version": "12.1",
-    "count": 5,
-    "note": "Materialized catalogue view; all node fields and attributes retained. No new source verification or empirical validation."
+    "source": "atlas_v13_current.html",
+    "snapshot": "2026-10-18",
+    "site_version": "13.0",
+    "count": 6,
+    "note": "Materialized view of the current audited graph; complete node fields retained. Source inspection and publication status are recorded per item. The builder performs no new empirical validation."
   },
   "records": [
     {
@@ -14,9 +14,13 @@
       "collection": null,
       "category": "volumes",
       "streams": [],
-      "actual": [],
-      "mapped": [],
-      "printed": false,
+      "actual": [
+        "C:C13"
+      ],
+      "mapped": [
+        "C:C13"
+      ],
+      "printed": true,
       "summary": "",
       "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods.",
       "url": "https://github.com/popoloni/non_deterministic_sw_eng",
@@ -39,12 +43,18 @@
         "metadata_source": "AI_SW_ENG/config.tex",
         "metadata_verification": "Author-owned public companion metadata agrees with supplied title/year/ISBN.",
         "status": "PUBLISHED_BOOK_METADATA",
-        "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods."
+        "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods.",
+        "ndse2_actual_chapters_json": "[\"C:C13\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [],
       "volumes": [
         "V01"
-      ]
+      ],
+      "historical_v12_actual": [],
+      "historical_v12_mapped": [],
+      "historical_v12_printed": false
     },
     {
       "id": "PUB:V11:V02",
@@ -53,9 +63,13 @@
       "collection": null,
       "category": "volumes",
       "streams": [],
-      "actual": [],
-      "mapped": [],
-      "printed": false,
+      "actual": [
+        "C:C13"
+      ],
+      "mapped": [
+        "C:C13"
+      ],
+      "printed": true,
       "summary": "",
       "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods.",
       "url": "https://www.amazon.com/dp/B0GGZ44RNX",
@@ -78,12 +92,18 @@
         "metadata_source": "AI_SDD_ENG/config.tex",
         "metadata_verification": "Title/year/active print ISBN from supplied author config; author public post identifies B0GGZ44RNX. Alternate paperback ISBN is not substituted for the supplied print ISBN.",
         "status": "PUBLISHED_BOOK_METADATA",
-        "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods."
+        "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods.",
+        "ndse2_actual_chapters_json": "[\"C:C13\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [],
       "volumes": [
         "V02"
-      ]
+      ],
+      "historical_v12_actual": [],
+      "historical_v12_mapped": [],
+      "historical_v12_printed": false
     },
     {
       "id": "PUB:V11:V03",
@@ -92,9 +112,13 @@
       "collection": null,
       "category": "volumes",
       "streams": [],
-      "actual": [],
-      "mapped": [],
-      "printed": false,
+      "actual": [
+        "C:C13"
+      ],
+      "mapped": [
+        "C:C13"
+      ],
+      "printed": true,
       "summary": "",
       "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods.",
       "url": "https://www.amazon.it/dp/B0GZZDFMYF",
@@ -117,12 +141,18 @@
         "metadata_source": "AI_SDD_ENG_V2/config.tex",
         "metadata_verification": "Amazon English Enterprise Edition product page confirms title, publisher, 2026 and ISBN. Source revision 1.1 is preserved as snapshot metadata, not confused with public edition number.",
         "status": "PUBLISHED_BOOK_METADATA",
-        "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods."
+        "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods.",
+        "ndse2_actual_chapters_json": "[\"C:C13\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [],
       "volumes": [
         "V03"
-      ]
+      ],
+      "historical_v12_actual": [],
+      "historical_v12_mapped": [],
+      "historical_v12_printed": false
     },
     {
       "id": "PUB:V11:V04",
@@ -131,9 +161,13 @@
       "collection": null,
       "category": "volumes",
       "streams": [],
-      "actual": [],
-      "mapped": [],
-      "printed": false,
+      "actual": [
+        "C:C13"
+      ],
+      "mapped": [
+        "C:C13"
+      ],
+      "printed": true,
       "summary": "",
       "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods.",
       "url": "https://www.amazon.com/dp/B0GHCXPBRM",
@@ -156,12 +190,18 @@
         "metadata_source": "ai-auto_eng/AI_AUTO_ENG/config.tex",
         "metadata_verification": "Title/year/active print ISBN from author-supplied config; no independently fetched format-specific product details. Series URL is explicitly a series locator.",
         "status": "PUBLISHED_BOOK_METADATA",
-        "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods."
+        "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods.",
+        "ndse2_actual_chapters_json": "[\"C:C13\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [],
       "volumes": [
         "V04"
-      ]
+      ],
+      "historical_v12_actual": [],
+      "historical_v12_mapped": [],
+      "historical_v12_printed": false
     },
     {
       "id": "PUB:V11:V05",
@@ -170,9 +210,13 @@
       "collection": null,
       "category": "volumes",
       "streams": [],
-      "actual": [],
-      "mapped": [],
-      "printed": false,
+      "actual": [
+        "C:C13"
+      ],
+      "mapped": [
+        "C:C13"
+      ],
+      "printed": true,
       "summary": "",
       "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods.",
       "url": "https://www.amazon.com/dp/B0GHCXPBRM",
@@ -195,12 +239,61 @@
         "metadata_source": "NDLE/config.tex",
         "metadata_verification": "Title/subtitle/year/ISBN from author-supplied English config; no substitution from Italian print catalogue. Series URL is explicitly a series locator.",
         "status": "PUBLISHED_BOOK_METADATA",
-        "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods."
+        "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods.",
+        "ndse2_actual_chapters_json": "[\"C:C13\"]",
+        "ndse2_in_bibliography": true,
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
       },
       "topics": [],
       "volumes": [
         "V05"
-      ]
+      ],
+      "historical_v12_actual": [],
+      "historical_v12_mapped": [],
+      "historical_v12_printed": false
+    },
+    {
+      "id": "PUB:NDSE2",
+      "label": "Non-Deterministic Software Engineering, Second Edition",
+      "kind": "published_book",
+      "collection": null,
+      "category": "volumes",
+      "streams": [],
+      "actual": [],
+      "mapped": [],
+      "printed": false,
+      "summary": "Published second edition: 13 chapters, with the Knowledge Atlas as its companion.",
+      "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+      "url": "https://popoloni.github.io/",
+      "authors": "Enrico Papalini",
+      "year": "2026",
+      "topics": [],
+      "volumes": [
+        "V06"
+      ],
+      "attributes": {
+        "volume_id": "V06",
+        "author": "Enrico Papalini",
+        "title": "Non-Deterministic Software Engineering, Second Edition",
+        "subtitle": "Engineering Trustworthy Change in the Age of AI and Coding Agents",
+        "title_it": "Non-Deterministic Software Engineering, Seconda edizione",
+        "subtitle_it": "Progettare cambiamenti affidabili nell'era dell'AI e dei coding agent",
+        "year": "2026",
+        "edition_number": "2",
+        "publisher": "Independently Published",
+        "status": "PUBLISHED_AUTHOR_CONFIRMED",
+        "publication_status": "Published; confirmed by author 2026-10-18",
+        "publication_date": "Not asserted; 2026-10-18 is the confirmation date",
+        "source_version": "13.7.1",
+        "chapter_count": 13,
+        "metadata_verification": "Author-supplied final EN/ITA 13.7.1 LaTeX sources; publication confirmed by the author on 2026-10-18.",
+        "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
+        "url": "https://popoloni.github.io/",
+        "url_role": "author_companion",
+        "label": "Non-Deterministic Software Engineering, Second Edition",
+        "kind": "published_book",
+        "node_class": "NDSE2_PUBLISHED_EDITION_20261018"
+      }
     }
   ]
 }
