@@ -25,11 +25,15 @@ def valid_url(value):
 
 
 class BookCompanion:
-    def __init__(self, source: Path, *, required=False):
+    def __init__(self, source: Path, *, required=False, metadata_link="source/ndse2_book.json", collection_path="catalogues/ndse2.html"):
         if required and not source.is_file():
             raise FileNotFoundError(f"NDSE2 chapter metadata is required: {source}")
         self.data = json.loads(source.read_text(encoding="utf-8")) if source.is_file() else {}
         self.book = self.data.get("book", {})
+        self.metadata_link = metadata_link
+        self.collection_path = collection_path
+        self.volume_id = self.book.get("id", "V06")
+        self.volume_path = f"catalogues/volumes/{self.volume_id.lower()}.html"
         self.chapters = sorted(self.data.get("chapters", []), key=lambda c: c["number"])
         self.by_id = {}
         for chapter in self.chapters:
@@ -39,6 +43,16 @@ class BookCompanion:
         for language, data in self.data.get("bibliography", {}).items():
             for entry in data.get("entries", []):
                 self.bibliography[(language, entry["bibkey"])] = entry
+
+    def publication_note(self):
+        """Describe supplied metadata without inventing a confirmation or date."""
+        status = self.book.get("publication_status")
+        parts = [f"Publication status as recorded: {str(status).rstrip('.')}."] if status else ["Publication status is not recorded in the supplied metadata."]
+        if self.book.get("source_version"):
+            parts.append(f"Source edition version: {self.book['source_version']}.")
+        if self.book.get("publication_date"):
+            parts.append(f"Publication date as recorded: {self.book['publication_date']}.")
+        return " ".join(parts)
 
     def chapter(self, identifier):
         return self.by_id.get(identifier)
@@ -57,7 +71,7 @@ class BookCompanion:
         book = self.book
         text = '<section class="section">'
         if heading:
-            text += '<h2>NDSE2 · published second edition</h2>'
+            text += '<h2>NDSE2 · chapter guides</h2>'
         text += f'<p><strong>{esc(book.get("title", "Non-Deterministic Software Engineering"))}</strong>'
         if book.get("subtitle"):
             text += f' — {esc(book["subtitle"])}'
@@ -68,14 +82,14 @@ class BookCompanion:
                 text += f' — {esc(book["subtitle_it"])}'
             text += '</p>'
         text += (
-            f'<p class="note">{esc(book.get("publication_status", "Published second edition"))}. '
+            f'<p class="note">{esc(self.publication_note())} '
             f'{len(self.chapters)} chapter guides connect the English and Italian editions '
             'to their cited sources. Each guide includes an outline, learning goals and citation provenance.</p>'
         )
         text += '<div class="actions">'
-        text += link(path, 'catalogues/ndse2.html', 'Browse the published chapter guides', 'button primary')
-        text += link(path, 'catalogues/volumes/v06.html', 'Edition and source details', 'button')
-        text += link(path, 'source/ndse2_book.json', 'Book metadata and citation evidence', 'button')
+        text += link(path, self.collection_path, 'Browse the chapter guides', 'button primary')
+        text += link(path, self.volume_path, 'Edition and source details', 'button')
+        text += link(path, self.metadata_link, 'Book metadata and citation evidence', 'button')
         text += '</div></section>'
         return text
 
@@ -168,11 +182,11 @@ class BookCompanion:
             parts.append('<li>' + source + '<ul class="compact-list">' + ''.join(locations) + '</ul></li>')
         return (
             '<details class="section"><summary>Trace literal citations to chapter sections</summary>'
-            '<p class="note">Locations come from the published English and Italian source files. '
+            '<p class="note">Locations come from the supplied English and Italian source files. '
             'Chapter text and figure captions are identified separately; identifier-index references '
             'and general bibliography membership are not treated as chapter citations.</p>'
             '<ul class="compact-list">' + ''.join(parts) + '</ul><p>'
-            + link(path, 'source/ndse2_book.json', 'Complete citation locators and source hashes')
+            + link(path, self.metadata_link, 'Complete citation locators and source hashes')
             + '</p></details>'
         )
 
@@ -192,6 +206,6 @@ class BookCompanion:
                 rows.append(f'<dt>{esc(label)}</dt><dd>{esc(value)}</dd>')
         result = '<dl class="metadata">' + ''.join(rows) + '</dl>'
         if not book.get('publication_date'):
-            result += '<p class="micro">The author’s confirmation date records availability; it is not an inferred first-publication date.</p>'
-        result += '<p>' + link(path, 'source/ndse2_book.json', 'Edition sources, manifests and citation extraction') + '</p>'
+            result += '<p class="micro">No first-publication date is recorded in the supplied metadata.</p>'
+        result += '<p>' + link(path, self.metadata_link, 'Edition sources, manifests and citation extraction') + '</p>'
         return result

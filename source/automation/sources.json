@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "endpoint_review_date": "2026-10-18",
+  "timeout_seconds": 20,
+  "allowed_fetch_hosts": [
+    "addyosmani.com",
+    "addyo.substack.com",
+    "martinfowler.com",
+    "newsletter.pragmaticengineer.com",
+    "blog.pragmaticengineer.com"
+  ],
+  "scope_notes": {
+    "O": "Addy Osmani personal blog and Elevate newsletter; AI/software-engineering relevance is editorially reviewed. Do not create duplicate works for syndication.",
+    "F": "Exploring Generative AI index plus relevant articles on martinfowler.com. Site-wide discoveries are scope-extension candidates. Use actual article bylines, not the feed announcer.",
+    "P": "Pragmatic Engineer blog and written newsletter Deepdives. Exclude a literal The Pulse title prefix, case-insensitively. Exclude podcasts only with explicit format evidence; an article mentioning a podcast or an audio narration is insufficient."
+  },
+  "endpoints": [
+    {
+      "id": "osmani_blog_feed",
+      "collection": "O",
+      "kind": "rss",
+      "url": "https://addyosmani.com/feed.xml",
+      "allowed_article_hosts": ["addyosmani.com", "addyo.substack.com"],
+      "scope": "Personal blog; relevance and syndication require review",
+      "manual_fallback_urls": ["https://addyosmani.com/blog/", "https://addyo.substack.com/archive"],
+      "endpoint_verification": "Public HTTP 200 XML observed on 2026-10-18. The /blog/feed.xml path is not the feed."
+    },
+    {
+      "id": "osmani_newsletter_feed",
+      "collection": "O",
+      "kind": "rss",
+      "url": "https://addyo.substack.com/feed",
+      "allowed_article_hosts": ["addyo.substack.com", "addyosmani.com"],
+      "scope": "Elevate newsletter; relevance and syndication require review",
+      "manual_fallback_urls": ["https://addyo.substack.com/archive", "https://addyo.substack.com/"],
+      "endpoint_verification": "Endpoint recognized as application/xml by public web retrieval; direct fetch served HTTP 200 HTML Site Unavailable on 2026-10-18. Treat this as failed coverage, never as an empty feed."
+    },
+    {
+      "id": "osmani_newsletter_archive",
+      "collection": "O",
+      "kind": "link_index",
+      "url": "https://addyo.substack.com/archive",
+      "article_path_prefixes": ["/p/"],
+      "allowed_article_hosts": ["addyo.substack.com"],
+      "scope": "Visible archive links; article metadata and archive pagination require review",
+      "manual_fallback_urls": ["https://addyo.substack.com/archive"],
+      "endpoint_verification": "Official archive with article links publicly observed on 2026-10-18; dynamic rendering may prevent HTML extraction in other environments."
+    },
+    {
+      "id": "fowler_feed",
+      "collection": "F",
+      "kind": "atom",
+      "url": "https://martinfowler.com/feed.atom",
+      "allowed_article_hosts": ["martinfowler.com"],
+      "scope": "Site-wide announcements; relevance and series membership must be reviewed",
+      "manual_fallback_urls": ["https://martinfowler.com/", "https://martinfowler.com/articles/exploring-gen-ai.html"],
+      "endpoint_verification": "Official RSS navigation links to this Atom feed; HTTP 200 Atom observed on 2026-10-18. Entries can supply only updated, and titles can refer to individual sections."
+    },
+    {
+      "id": "fowler_genai_index",
+      "collection": "F",
+      "kind": "fowler_index",
+      "url": "https://martinfowler.com/articles/exploring-gen-ai.html",
+      "article_path_prefixes": ["/articles/"],
+      "allowed_article_hosts": ["martinfowler.com"],
+      "scope": "Exploring Generative AI series index",
+      "manual_fallback_urls": ["https://martinfowler.com/articles/exploring-gen-ai.html"],
+      "endpoint_verification": "Official index and div.page / title / byline / date structure observed on 2026-10-18. Use the .html URL, not the /exploring-gen-ai/ directory."
+    },
+    {
+      "id": "orosz_newsletter_feed",
+      "collection": "P",
+      "kind": "rss",
+      "url": "https://newsletter.pragmaticengineer.com/feed",
+      "allowed_article_hosts": ["newsletter.pragmaticengineer.com", "blog.pragmaticengineer.com"],
+      "scope": "Mixed newsletter feed: Deepdives, Pulse and podcast formats require separation",
+      "manual_fallback_urls": ["https://newsletter.pragmaticengineer.com/s/deepdives", "https://newsletter.pragmaticengineer.com/archive"],
+      "endpoint_verification": "HTTP 200 RSS observed on 2026-10-18. Pulse and podcast entries appear alongside written articles. Audio enclosure alone remains an editorial format flag."
+    },
+    {
+      "id": "orosz_blog_feed",
+      "collection": "P",
+      "kind": "rss",
+      "url": "https://blog.pragmaticengineer.com/feed/",
+      "allowed_article_hosts": ["blog.pragmaticengineer.com", "newsletter.pragmaticengineer.com"],
+      "scope": "Blog; exclude literal Pulse title prefix and review syndication/parent issue evidence",
+      "manual_fallback_urls": ["https://blog.pragmaticengineer.com/"],
+      "endpoint_verification": "Official blog RSS Feed link points to /feed/; HTTP 200 RSS observed on 2026-10-18. The /rss/ alias was also readable."
+    },
+    {
+      "id": "orosz_deepdives_index",
+      "collection": "P",
+      "kind": "link_index",
+      "url": "https://newsletter.pragmaticengineer.com/s/deepdives",
+      "article_path_prefixes": ["/p/"],
+      "allowed_article_hosts": ["newsletter.pragmaticengineer.com"],
+      "scope": "Deepdives section links; listed-page context is not conclusive format evidence",
+      "manual_fallback_urls": ["https://newsletter.pragmaticengineer.com/s/deepdives", "https://newsletter.pragmaticengineer.com/archive"],
+      "endpoint_verification": "Official page title Deepdives and public HTTP 200 observed on 2026-10-18. HTML may not expose post links without JavaScript; this is reported as a coverage gap."
+    }
+  ]
+}

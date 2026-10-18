@@ -1,0 +1,110 @@
+KNOWLEDGE ATLAS — PROCEDURA 1.1.0
+Aggiornamenti delle practice e conservazione durante gli aggiornamenti delle fonti
+
+La v13.1 aggiunge la collection PAT per gli 84 descrittori, mantenendo 12 famiglie
+e 87 occorrenze come contesto. Le schede operative sono in inglese. La collezione
+di fonti bibliografiche e capitoli resta distinta dalle guide editoriali.
+
+AGGIORNAMENTO ORDINARIO DI OSMANI, FOWLER, PRAGMATIC ENGINEER O NDSE2
+
+Usare atlas_cli.py o il programma autonomo atlas_update_v1_1.py:
+
+  python3 atlas_update_v1_1.py prepare --baseline FULL_PUBBLICATO.zip --run aggiornamento --date AAAA-MM-GG --release 13.2
+  python3 atlas_update_v1_1.py discover --run aggiornamento
+
+Revisionare aggiornamento/review.json secondo le regole già documentate:
+identità, fonti primarie, data verificata, copertura dei tre indici, deduplica,
+accesso al testo, contenuti editoriali e mappature. Per una nuova edizione del
+libro, estrarre e controllare i suoi metadati e passare --book con book_policy
+uguale a reconcile. I nomi e i numeri delle versioni qui sono esempi.
+
+  python3 atlas_update_v1_1.py finish --run aggiornamento --playwright /percorso/playwright --browser /percorso/chromium
+
+Il programma congela il full effettivamente pubblicato e gli input revisionati,
+genera il candidato, verifica grafo, citazioni e browser, esegue due rebuild e
+produce full, delta, manifest e istruzioni. Non pubblica il sito. La ricerca
+automatica propone candidati; la verifica editoriale non viene simulata.
+
+Le practice esistenti sono conservate automaticamente dall'aggiornamento delle
+fonti. Le nuove verifiche impediscono di perdere PAT, schede, famiglia, esempi,
+passi operativi, criteri di verifica e provenienza. Il controllo nel browser
+prova le 12 famiglie, i percorsi di andata e ritorno e i link storici node-only.
+
+SE CAMBIANO I CAPITOLI DI NDSE2
+
+La procedura confronta ID, titolo, file e SHA-256 dei capitoli usati come letture
+tematiche dalle practice. Se cambiano soltanto i metadati di versione e i byte
+dei capitoli sono identici, conserva le guide e registra la continuità della
+fonte. Se un capitolo cambia o scompare, indica gli ID delle practice interessate
+e richiede di registrarne la revisione editoriale in review.json. Aggiungere:
+
+  "practice_context_review": {
+    "status": "complete",
+    "reviewer": "Nome del revisore effettivo",
+    "scope": "Contenuti e mappature realmente verificati",
+    "source_version": "VERSIONE_NUOVA",
+    "records": [
+      {
+        "id": "PAT:043",
+        "action": "retain",
+        "chapter_ids": ["NDSE2:C04", "NDSE2:C13"],
+        "editorial_note": "Updated English note explaining the reviewed context."
+      }
+    ]
+  }
+
+Gli ID e la versione nell'esempio vanno sostituiti con quelli correnti. Includere
+tutte le practice segnalate. retain mantiene la guida dopo il controllo delle
+fonti; revise richiede anche content con la scheda completa descritta sotto.
+Gli input non dichiarano nuove citazioni letterali. La provenienza precedente
+resta nello storico. Errori o revisioni incomplete lasciano il payload invariato.
+Poi eseguire finish con --book PERCORSO_METADATI_LIBRO.json e book_policy=reconcile.
+
+AGGIORNAMENTO EDITORIALE DELLE PRACTICE
+
+Per riprodurre la migrazione v13.0 -> v13.1, preparare una nuova cartella usando
+il full v13.0. Usare poi source/practices_review.json della v13.1 come --review:
+
+  python3 source/automation/atlas_cli.py prepare --baseline Knowledge_Atlas_v13_0_Complete_20261018.zip --run riproduzione --date 2026-10-18 --release 13.1
+  python3 source/automation/atlas_cli.py build --run riproduzione --review source/practices_review.json
+  python3 source/automation/atlas_cli.py check --run riproduzione --playwright /percorso/playwright --browser /percorso/chromium
+  python3 source/automation/atlas_cli.py package --run riproduzione
+
+La review include tutti i testi e i quattro file della migrazione di interfaccia.
+Il renderer corrente e i moduli della procedura sono inclusi nello stesso full.
+Il confronto di riproducibilità riguarda gli artefatti del sito; i report di
+verifica hanno date di esecuzione proprie e non fanno parte di quel confronto.
+
+Per revisioni successive delle stesse practice, creare prima un nuovo prepare
+dal full effettivamente pubblicato, poi usare una COPIA della review di tipo
+atlas_practices_update/1. Aggiornare baseline_sha256, baseline_payload_sha256,
+baseline_release, date e release con i valori di run.json, revisionare tutte
+le schede e le famiglie, conservare gli ID e registrare reviewer, status e scope.
+Aggiornare gli eventuali cambiamenti al frontend in modo esplicito e verificato.
+L'adattatore richiede una review completa e non può nascondere modifiche ad
+articoli, aggiunte di nodi o modifiche agli archi. Una nuova tassonomia o nuovi
+ID richiedono una migrazione di schema esplicita e una verifica delle relazioni.
+
+SCHEMA DI UNA SCHEDA
+
+id, summary, limitation, required_revision e oggetto practice con:
+schema_version=1, language=en, purpose, when_to_use, when_not_to_use,
+prerequisites, steps, example, verification, outputs, risks,
+related_practices, editorial_note.
+
+Usare almeno 4 passi operativi e 3 criteri di verifica distinti. L'esempio deve
+iniziare con 'Illustrative example:'. La profondità minima automatica è 260
+parole operative; è un controllo di incompletezza, non un obiettivo di stile.
+Le schede v13.1 sono più estese. Il revisore deve controllare specificità,
+utilità, correttezza delle qualificazioni e assenza di riempitivi ripetuti.
+L'adattatore deriva famiglia, stream, argomenti e volumi dalle relazioni
+esistenti. Registra i capitoli del libro come letture tematiche e conserva le
+occorrenze storiche; non crea citazioni letterali né prove di efficacia.
+
+PUBBLICAZIONE E DELTA
+
+Usare il delta solo sulla baseline indicata nel suo nome e manifest. Estrarre
+il contenuto nella radice del sito conservando i percorsi. Il package verifica
+materialmente che baseline + delta ricostruisca il full, byte per byte, e non
+consente eliminazioni. Dopo la pubblicazione riuscita, il nuovo full diventa
+la baseline per il prossimo aggiornamento.

@@ -1,5 +1,5 @@
 // Static catalogue navigation. A bare URL preserves the original W001-W193 view.
-const catalogueFiles={W:'polimi',O:'osmani',P:'pragmatic-engineer',F:'fowler',B:'books',N:'ndse2'};
+const catalogueFiles={W:'polimi',O:'osmani',P:'pragmatic-engineer',F:'fowler',B:'books',N:'ndse2',PAT:'practices'};
 const originalNodeDetails=renderNodeDetails;
 renderNodeDetails=function(n,resetScroll=true){
  originalNodeDetails(n,resetScroll);
@@ -7,7 +7,7 @@ renderNodeDetails=function(n,resetScroll=true){
  if(slug){
   const a=document.createElement('a');
   a.className='external-link';
-  a.textContent=n.r.collection==='N'?'Read published chapter guide':'Read static catalogue entry';
+  a.textContent=n.r.collection==='N'?'Read published chapter guide':n.r.collection==='PAT'?'Read the complete practice guide':'Read static catalogue entry';
   a.href='catalogues/'+slug+'.html#'+encodeURIComponent(n.id);
   $('inspectorBody').appendChild(a);
  }
@@ -40,16 +40,20 @@ function applyCatalogueURL(search=location.search){
   const validCollections=(urlParams.get('collection')||'').split(',').filter(c=>Object.hasOwn(catalogueFiles,c));
   if(validCollections.length)S.collections=new Set(validCollections);
   const grouping=urlParams.get('grouping');
-  if(['theme','chapter','topic','volume','collection','none'].includes(grouping))S.grouping=grouping;
+  if(['theme','chapter','topic','volume','family','collection','none'].includes(grouping))S.grouping=grouping;
+  else if(validCollections.length===1&&validCollections[0]==='PAT')S.grouping='family';
   const basis=urlParams.get('chapterBasis');
   if(['mapped','actual'].includes(basis))S.chapterBasis=basis;
   const group=urlParams.get('group');
-  const groupLists={theme:allThemeIDs,chapter:allChapterIDs,topic:allTopicIDs,volume:allVolumeIDs};
-  const groupKeys={theme:'themeFilters',chapter:'chapterFilters',topic:'topicFilters',volume:'volumeFilters'};
+  const groupLists={theme:allThemeIDs,chapter:allChapterIDs,topic:allTopicIDs,volume:allVolumeIDs,family:allFamilyIDs};
+  const groupKeys={theme:'themeFilters',chapter:'chapterFilters',topic:'topicFilters',volume:'volumeFilters',family:'familyFilters'};
   if(groupLists[S.grouping]?.includes(group))S[groupKeys[S.grouping]]=new Set([group]);
   const contexts=(urlParams.get('context')||'').split(',').filter(c=>D.nodeGroups.some(g=>g.id===c));
   if(contexts.length)S.context=new Set(contexts);
   const n=byID.get(urlParams.get('node'));
+  // Legacy v13 practice URLs omitted their collection. Upgrade those links to
+  // the dedicated practice view without leaving the original W corpus active.
+  if(n?.r.collection==='PAT'&&!validCollections.length){S.collections=new Set(['PAT']);S.context=new Set();if(!grouping)S.grouping='family';}
   if(n){if(n.r.collection)S.collections.add(n.r.collection);else S.context.add(n.r.category);}
   rebuild({run:false});
   if(n){if(!visibleSet.has(n.i))revealNode(n);else selectNode(n,true);}

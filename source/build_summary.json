@@ -1,10 +1,19 @@
 {
-  "site_version": "13.0",
+  "site_version": "13.1",
   "graph_snapshot": "2026-10-18",
   "graph_source": "atlas_v13_current.html",
   "graph_nodes": 1931,
   "graph_edges": 13615,
   "graph_relation_types": 309,
+  "collection_counts": {
+    "W": 193,
+    "O": 51,
+    "P": 124,
+    "B": 111,
+    "PAT": 84,
+    "F": 35,
+    "N": 13
+  },
   "source_counts": {
     "W": 193,
     "O": 51,
@@ -14,6 +23,8 @@
     "N": 13
   },
   "static_source_records": 527,
+  "static_collection_records": 611,
+  "practice_records": 84,
   "external_source_records": 403,
   "practice_descriptors": 84,
   "practice_occurrences": 87,

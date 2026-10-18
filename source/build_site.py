@@ -19,19 +19,22 @@ D=json.loads(re.search(r'<script id="graph-data" type="application/json">(.*?)</
 BY={n['id']:n for n in D['nodes']}
 COLS={c['code']:c for c in C['collections']}
 SOURCES=[n for n in D['nodes'] if n.get('collection') in COLS]
+CITABLE_RECORDS=[n for n in SOURCES if n.get('collection')!='PAT']
 PRACTICES=[n for n in D['nodes'] if n['kind']=='practice_descriptor']
 OCCURRENCES=[n for n in D['nodes'] if n['kind']=='practice_occurrence']
 FAMILIES=[n for n in D['nodes'] if n['kind']=='practice_family']
 BOOKS=[n for n in D['nodes'] if n['kind']=='published_book']
 COUNTS=collections.Counter(n.get('collection') for n in SOURCES)
-EXTERNAL_COUNT=sum(v for k,v in COUNTS.items() if k not in {'B','N'})
+EXTERNAL_COUNT=sum(v for k,v in COUNTS.items() if k not in {'B','N','PAT'})
 BOOK_VOLUME_IDS={n.get('attributes',{}).get('volume_id') for n in BOOKS}
 VOLUMES=[g for g in D['volumes'] if g['id'] in BOOK_VOLUME_IDS]
 EARLIER_VOLUME_IDS={v for n in SOURCES if n.get('collection')=='B' for v in n.get('volumes',[])}
 EARLIER_VOLUMES=[g for g in VOLUMES if g['id'] in EARLIER_VOLUME_IDS]
-NDSE2=BookCompanion(SOURCE/'ndse2_book.json',required='N' in COLS)
-RELEASE_NOTES='UPDATE_20261018.html'
-RESEARCH_AUDIT='data/updates/source_review_20261018.json'
+BOOK_METADATA=C.get('book_json','source/ndse2_book.json')
+NDSE2=BookCompanion(ROOT/BOOK_METADATA,required='N' in COLS,metadata_link=BOOK_METADATA,
+ collection_path='catalogues/'+COLS.get('N',{}).get('slug','ndse2')+'.html')
+RELEASE_NOTES=C.get('release_notes','UPDATE_20261018.html')
+RESEARCH_AUDIT=C.get('research_audit','data/updates/source_review_20261018.json')
 NAMES={n['id']:n['label'] for n in D['nodes']}
 NAMES.update({g['id']:g['label'] for k in ['themes','chapters','topics','volumes'] for g in D[k]})
 ADJ=collections.defaultdict(list)
@@ -63,6 +66,7 @@ def record_file(n):
   if g:return groupfile('volumes',g)
  if n['kind']=='practice_descriptor':return 'catalogues/practices.html#'+quote(n['id'],safe='')
  if n['kind']=='practice_occurrence':return 'catalogues/occurrences.html#'+quote(n['id'],safe='')
+ if n['kind']=='practice_family':return atlasurl(collection='PAT',context='practices',grouping='family',node=n['id'])
  return atlasurl(node=n['id'])
 def groupfile(kind,g):
  return 'catalogues/'+kind+'/'+(g['id'].split(':')[-1].lower() if kind=='chapters' else g['id'].lower() if kind=='volumes' else slug(g['label']))+'.html'
@@ -84,7 +88,7 @@ def page(path,title,body,description='',active='Catalogues',wide=False):
 def heading(title,kicker='Static catalogues',description=''):
  return f'<p class="eyebrow">{esc(kicker)}</p><h1>{esc(title)}</h1>'+ (f'<p class="intro">{esc(description)}</p>' if description else '')
 def collection_nav(path,code=None):
- return '<nav class="collection-nav" aria-label="Source collections">'+''.join(f'<a href="{esc(rel(path,collection_file(c)))}"'+(' aria-current="page"' if c==code else '')+f'>{esc(c)} · {esc(v["short"])}</a>' for c,v in COLS.items())+'</nav>'
+ return '<nav class="collection-nav" aria-label="Atlas collections">'+''.join(f'<a href="{esc(rel(path,collection_file(c)))}"'+(' aria-current="page"' if c==code else '')+f'>{esc(c)} · {esc(v["short"])}</a>' for c,v in COLS.items())+'</nav>'
 def filter_bar(path,count,groups=None,field='streams',group_title='Stream'):
  opts=''
  if groups:opts=f'<label>{esc(group_title)}<select name="group"><option value="">All</option>'+''.join(f'<option value="{esc(g["id"])}">{esc(g["label"])}</option>' for g in groups)+'</select></label>'
@@ -96,6 +100,7 @@ def fmt_meta(a,keys):
   if v not in (None,'',[],{}):vals.append(f'<dt>{esc(title)}</dt><dd>{esc(v if not isinstance(v,(dict,list)) else json.dumps(v,ensure_ascii=False))}</dd>')
  return '<dl class="metadata">'+''.join(vals)+'</dl>' if vals else ''
 def record(n,path):
+ if n['kind']=='practice_descriptor':return practice_record(n,path)
  c=n.get('collection');a=n.get('attributes',{});col=COLS.get(c,{})
  tone=f'var(--{c.lower()})' if c in COLS else 'var(--accent)'
  dat=' '.join(f'data-{key}=\'{esc(json.dumps(n.get(key,[]),ensure_ascii=False))}\'' for key in ['streams','topics','volumes','mapped','actual'])
@@ -137,7 +142,7 @@ def record(n,path):
    if oid in BY:more+='<p>Historical occurrence: '+link(path,record_file(BY[oid]),esc(occ)+' — '+esc(BY[oid]['label']))+'</p>'
  more+=fmt_meta(a,[('source_scope','Collection scope'),('publication_status','Publication status'),('source_version_note','Source version'),('source_locator','Inspected passage'),('verification_scope','Inspection scope'),('source_review_scope','Review scope'),('review_scope','Mapping scope'),('access_note','Access note'),('source_path','Original source path'),('source_file','Original source file'),('source_line','Start line'),('source_end_line','End line'),('source_sha256','Original SHA-256'),('provenance','Provenance')])
  if safeurl(a.get('latest_version_url','')):more+='<p>'+link(path,a['latest_version_url'],'Read the expanded source version ↗',external=True)+'</p>'
- if c in COLS and c!='N':
+ if c in COLS and c not in {'N','PAT'}:
   actual=n.get('actual',[]);mapped=n.get('mapped',[])
   more+='<div class="mapping"><h3>Cited in published NDSE2 chapters</h3>'+ ('<br>'.join(named_group_link(path,x,'chapters') for x in actual) if actual else '<span class="muted">No literal chapter citation recorded in the published edition.</span>')
   more+='<h3>Editorial chapter mappings</h3>'+ ('<br>'.join(named_group_link(path,x,'chapters') for x in mapped) if mapped else '<span class="muted">None recorded.</span>')+'<p class="micro">Editorial reading suggestions can extend beyond the published citations. Chapter guides show the outline and traceable source references.</p></div>'
@@ -155,20 +160,113 @@ def record(n,path):
   actions.append(link(path,href,lab,external=True))
  args={'node':n['id']}
  if c in COLS:args={'collection':c,**args}
+ elif n['kind']=='practice_occurrence':args={'collection':'PAT','context':'practices','grouping':'family',**args}
  actions.append(link(path,atlasurl(**args),'View in atlas →'))
  actions.append(link(path,record_file(n),'Permanent entry link'))
  return f'<article class="record" id="{esc(n["id"])}" data-record {dat} style="--tone:{tone}">{top}<details><summary>Evidence, context &amp; provenance</summary>{more}</details><div class="record-links">'+''.join(actions)+'</div></article>'
 def parsejson(x):
  try:return json.loads(x) if isinstance(x,str) else x
  except:return []
+
+def practice_family_id(n):
+ families=n.get('families',[])
+ if families:return families[0]
+ family=n.get('attributes',{}).get('family','')
+ return family if family.startswith('FAMILY:') else 'FAMILY:'+family if family else ''
+
+def practice_list(title,values,ordered=False):
+ if not values:return ''
+ tag='ol' if ordered else 'ul'
+ return f'<section class="practice-section"><h3>{esc(title)}</h3><{tag}>'+''.join('<li>'+esc(v)+'</li>' for v in values)+f'</{tag}></section>'
+
+def practice_record(n,path):
+ """Render operational guidance without turning a descriptor into a cited article."""
+ a=n.get('attributes',{});p=a.get('practice',{});family=practice_family_id(n)
+ family_node=BY.get(family,{})
+ family_name=a.get('family_name') or family_node.get('label') or family
+ dat=' '.join(f'data-{key}=\'{esc(json.dumps(n.get(key,[]),ensure_ascii=False))}\'' for key in ['streams','topics','volumes','mapped','actual'])
+ dat+=f' data-families=\'{esc(json.dumps([family] if family else []))}\''
+ top=f'<div class="record-top"><span class="code">{esc(n["id"])}</span><span class="pill">PAT · Practices</span><span class="pill">English guidance</span></div>'
+ top+=f'<h2><a href="#{quote(n["id"],safe="")}">{esc(n["label"])}</a></h2>'
+ top+=f'<p class="practice-family"><strong>Family.</strong> '+link(path,'catalogues/practices.html#family-'+family.split(':')[-1],esc(family_name))+'</p>'
+ if n.get('summary'):top+=f'<p class="summary">{esc(n["summary"])}</p>'
+ detail=''
+ if p.get('purpose'):detail+=f'<section class="practice-section"><h3>Purpose</h3><p>{esc(p["purpose"])}</p></section>'
+ detail+='<div class="practice-grid">'+practice_list('When to use it',p.get('when_to_use',[]))+practice_list('When to avoid it',p.get('when_not_to_use',[]))+'</div>'
+ detail+=practice_list('Before you start',p.get('prerequisites',[]))
+ detail+=practice_list('How to apply it',p.get('steps',[]),ordered=True)
+ if p.get('example'):
+  example=re.sub(r'^Illustrative example:\s*','',p['example'],flags=re.I)
+  detail+=f'<section class="practice-example"><h3>Illustrative example</h3><p>{esc(example)}</p></section>'
+ detail+='<div class="practice-grid">'+practice_list('What to check',p.get('verification',[]))+practice_list('Expected outputs',p.get('outputs',[]))+'</div>'
+ detail+=practice_list('Risks and failure modes',p.get('risks',[]))
+ chapters=[r for r in p.get('chapter_references',[]) if r.get('id') in BY]
+ if chapters:
+  detail+='<section class="practice-section"><h3>Read with the published NDSE2 chapters</h3><ul>'
+  for ref in chapters:
+   detail+='<li>'+link(path,record_file(BY[ref['id']]),esc(ref.get('title') or BY[ref['id']]['label']))+(' <span class="micro">— '+esc(ref['role'])+'</span>' if ref.get('role') else '')+'</li>'
+  detail+='</ul><p class="micro">These are editorial reading guides. A practice descriptor does not represent a literal source citation or an independent study.</p></section>'
+ related=[BY[rid] for rid in p.get('related_practices',[]) if rid in BY and BY[rid]['kind']=='practice_descriptor' and rid!=n['id']]
+ if related:
+  detail+='<section class="practice-section"><h3>Related practices</h3><ul>'+''.join('<li>'+link(path,record_file(other),esc(other['id'])+' · '+esc(other['label']))+'</li>' for other in related)+'</ul><p class="micro">Suggested companion techniques for comparison or combination; these links do not assert validated effectiveness.</p></section>'
+ if p.get('editorial_note'):detail+=f'<p class="practice-editorial-note"><strong>Editorial scope.</strong> {esc(p["editorial_note"])}</p>'
+ operational='<details class="practice-details"><summary>Apply this practice: steps, example and verification</summary>'+detail+'</details>'
+ limit=f'<div class="caution"><strong>Limits and evidence</strong>{esc(n.get("limitation",""))}</div>' if n.get('limitation') else ''
+ provenance='<p class="note">The English guide expands the reconciled practice record. The example illustrates a possible application; it is not a reported experiment or an observed result. Historical occurrences trace the idea through the author’s books.</p>'
+ provenance+=fmt_meta(a,[('required_revision','Editorial qualification'),('family_name','Practice family'),('practice_scope','Practice scope'),('source_scope','Source scope'),('source_version_note','Source version'),('source_locator','Source locator'),('source_path','Original source path'),('source_file','Original source file'),('source_line','Start line'),('source_end_line','End line'),('source_sha256','Original SHA-256'),('provenance','Provenance')])
+ occs=[]
+ for raw in parsejson(a.get('occurrences','[]')):
+  oid=raw if raw.startswith('OCC:') else 'OCC:'+raw
+  if oid in BY:occs.append(BY[oid])
+ if occs:
+  provenance+='<h3>Historical occurrences</h3><ul class="compact-list">'+''.join('<li>'+link(path,record_file(o),esc(o['id'])+' · '+esc(o['label']))+'</li>' for o in occs)+'</ul>'
+ if n.get('streams'):provenance+='<p><strong>Editorial stream mappings.</strong> '+' · '.join(named_group_link(path,g,'streams') for g in n['streams'])+'</p>'
+ if n.get('topics'):provenance+='<p><strong>Topics.</strong> '+' · '.join(named_group_link(path,g,'topics') for g in n['topics'])+'</p>'
+ if a.get('historical_structural_chapters'):provenance+='<p><strong>Historical catalogue locators.</strong> '+esc(', '.join(a['historical_structural_chapters']))+'<br><span class="micro">Retained structural IDs from the earlier catalogue; these are not literal citations in the current NDSE2 edition.</span></p>'
+ provenance+='<details><summary>Complete graph attributes and retained history</summary><pre>'+esc(json.dumps(a,ensure_ascii=False,indent=2))+'</pre></details>'
+ actions=link(path,atlasurl(collection='PAT',grouping='family',node=n['id']),'View in atlas →')+link(path,record_file(n),'Permanent entry link')
+ return f'<article class="record practice-record" id="{esc(n["id"])}" data-record {dat} style="--tone:var(--pat)">{top}{operational}{limit}<details class="practice-provenance"><summary>Sources, scope and historical provenance</summary>{provenance}</details><div class="record-links">{actions}</div></article>'
+
+def practice_family_overview(path):
+ out=f'<details class="practice-family-overview"><summary><h2 id="practice-families-heading">Explore {len(FAMILIES)} practice families</h2></summary><p class="note">Choose a family to focus the catalogue, then open a practice for its procedure, example and checks. All entries remain readable without JavaScript.</p><div class="practice-family-grid">'
+ for family in FAMILIES:
+  records=[n for n in PRACTICES if practice_family_id(n)==family['id']]
+  first=records[0]['id'] if records else ''
+  purpose=family.get('summary') or family.get('attributes',{}).get('purpose','')
+  out+=f'<article class="practice-family-card" id="family-{esc(family["id"].split(":")[-1])}"><div class="card-top"><span class="code">{esc(family["id"].split(":")[-1])}</span><span class="pill">{len(records)} practices</span></div><h3>{esc(family["label"])}</h3><p>{esc(purpose)}</p>'
+  if records:out+=f'<a class="card-link" href="#{quote(first,safe="")}" data-family-filter="{esc(family["id"])}">Explore this family →</a>'
+  out+='</article>'
+ return out+'</div></details>'
+
+def build_practice_catalogue():
+ path='catalogues/practices.html';c=COLS.get('PAT',{})
+ title=c.get('title','Software Engineering Practices')
+ desc=c.get('description',f'{len(PRACTICES)} English practice guides organized into {len(FAMILIES)} families, with practical steps, examples, checks, limits and traceable origins.')
+ body='<div class="crumbs">'+link(path,'index.html','Home')+' / '+link(path,'catalogues/index.html','Catalogues')+' / Practices</div>'
+ body+=heading(title,f'PAT collection · {len(PRACTICES)} practices · {len(FAMILIES)} families',desc)+collection_nav(path,'PAT')
+ body+='<p class="note">Each practice is an editorial engineering guide. Select a technique that addresses an observed need, adapt it to the available authority and environment, and use its verification criteria to judge the local result. Related techniques and repeated historical occurrences do not establish independent evidence of effectiveness.</p>'
+ body+='<div class="actions">'+link(path,atlasurl(collection='PAT',grouping='family'),'Explore the Practices collection','button primary')+link(path,'data/catalogues/practices.json','Complete JSON catalogue','button')+link(path,'data/catalogues/practices.csv','Detailed CSV catalogue','button')+link(path,'catalogues/occurrences.html','Historical occurrences','button')+'</div>'
+ body+=practice_family_overview(path)
+ body+='<section id="practice-catalogue-records" aria-label="Practice guides">'+filter_bar(path,len(PRACTICES),FAMILIES,'families','Practice family')+'<div class="records">'+''.join(practice_record(n,path) for n in PRACTICES)+'</div></section>'
+ page(path,title,body,desc)
 def write_dataset(name,records):
  obj={'meta':{'source':ATLAS_SOURCE.name,'snapshot':C['graph_snapshot'],'site_version':C['site_version'],'count':len(records),'note':'Materialized view of the current audited graph; complete node fields retained. Source inspection and publication status are recorded per item. The builder performs no new empirical validation.'},'records':records}
  p=ROOT/f'data/catalogues/{name}.json';p.write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
  keys=['id','title','authors_as_recorded','date_as_recorded','collection','kind','summary','limitation','recorded_url','streams','topics','actual_chapter_citations','editorial_chapter_mappings','source_path','source_sha256','title_it','publication_date','updated_date','publication_status','parent_volume']
+ practice_keys=['practice_family','practice_family_name','practice_language','purpose','when_to_use','when_not_to_use','prerequisites','steps','example','verification','outputs','risks','related_practices','editorial_note','chapter_references','historical_structural_chapters']
+ if any(n['kind']=='practice_descriptor' for n in records):keys+=practice_keys
  with (ROOT/f'data/catalogues/{name}.csv').open('w',encoding='utf-8-sig',newline='') as f:
   w=csv.DictWriter(f,fieldnames=keys);w.writeheader()
   for n in records:
    a=n.get('attributes',{});row=dict(zip(keys,[n['id'],n['label'],n.get('authors',''),n.get('year',''),n.get('collection',''),n['kind'],n.get('summary',''),n.get('limitation',''),n.get('url',''),'; '.join(n.get('streams',[])),'; '.join(n.get('topics',[])),'; '.join(n.get('actual',[])),'; '.join(n.get('mapped',[])),a.get('source_path',a.get('source_file','')),a.get('source_sha256',''),a.get('title_it',''),a.get('publication_date',''),a.get('updated_date',a.get('revision_date','')),a.get('publication_status',''),a.get('volume_id','')]))
+   if n['kind']=='practice_descriptor':
+    practice=a.get('practice',{})
+    row.update(practice_family=practice_family_id(n),practice_family_name=a.get('family_name',''),practice_language=practice.get('language',''))
+    for key in ['purpose','when_to_use','when_not_to_use','prerequisites','steps','example','verification','outputs','risks','related_practices','editorial_note']:
+     value=practice.get(key,'')
+     row[key]='\n'.join(f'{i+1}. {v}' for i,v in enumerate(value)) if isinstance(value,list) else value
+    row['chapter_references']='\n'.join(' · '.join(str(ref.get(k,'')) for k in ['id','title','role']) for ref in practice.get('chapter_references',[]))
+    row['historical_structural_chapters']='; '.join(a.get('historical_structural_chapters',[]))
    # Protect spreadsheet users against formula interpretation; JSON is byte-faithful semantically.
    for k,v in row.items():
     if isinstance(v,str) and v.startswith(('=','+','-','@','\t','\r')):row[k]="'"+v
@@ -198,8 +296,8 @@ def grouped_sources(path,records,kind=None):
 def actual_sources_for_chapter(group):
  chapter=NDSE2.chapter(group['id'])
  if chapter:
-  return [BY[sid] for sid in NDSE2.cited_ids(chapter) if sid in BY and BY[sid].get('collection')!='N']
- return [n for n in SOURCES if n.get('collection')!='N' and group['id'] in n.get('actual',[])]
+  return [BY[sid] for sid in NDSE2.cited_ids(chapter) if sid in BY and BY[sid].get('collection') not in {'N','PAT'}]
+ return [n for n in CITABLE_RECORDS if n.get('collection')!='N' and group['id'] in n.get('actual',[])]
 
 def build_group_pages():
  for kind,payloadkey,title in [
@@ -225,7 +323,7 @@ def build_group_pages():
     count_text=f'{len(actual)} cited atlas references · {len(mapped)} editorial reading mappings'
    elif kind=='volumes':
     count_text=f'{len(records)} chapter or file records'
-    count_text+=' · Published second edition' if g['id']=='V06' else ' · Earlier volume'
+    count_text+=' · NDSE2 edition' if g['id']==NDSE2.volume_id else ' · Earlier volume'
    else:
     count_text=f'{len(records)} mapped records'
    cards+='<article class="group-item"><h3>'+link(index,path,esc(display))+'</h3>'
@@ -246,7 +344,7 @@ def build_group_pages():
     b+=link(path,record_file(BY[chapter['id']]),'Chapter catalogue entry','button')
    b+='</div>'
    if kind=='volumes':
-    if g['id']=='V06' and NDSE2.chapters:
+    if g['id']==NDSE2.volume_id and NDSE2.chapters:
      b+=NDSE2.edition_metadata(path,link)
      b+='<p>'+link(path,collection_file('N'),'NDSE2 · published second edition →','card-link')+'</p>'
     else:
@@ -282,33 +380,31 @@ def build_landing_pages():
  hero+='</div><p class="micro">Starts with the original PoliMi source collection. Select the other collections to expand the view.</p></div>'
  hero+='<figure class="hero-visual">'+link(path,'swe_knowledge_graph.html',f'<img src="{esc(rel(path,"assets/atlas-preview.webp"))}" width="1280" height="800" alt="Knowledge Atlas with its original PoliMi starting collection">')+'<figcaption>Explore the connections or read each source in a static catalogue.</figcaption></figure></section>'
  counts='<div class="count-strip">'+''.join(f'<div><b>{n:,}</b><span>{esc(label)}</span></div>' for n,label in [
-  (EXTERNAL_COUNT,'External source records'),(COUNTS['B'],'Earlier-book records'),(COUNTS['N'],'Published NDSE2 chapters'),(len(COLS),'Source collections')])+'</div>'
+  (EXTERNAL_COUNT,'External source records'),(COUNTS['B'],'Earlier-book records'),(COUNTS['N'],'Published NDSE2 chapters'),(len(PRACTICES),'Practice guides')])+'</div>'
  paths=[
   ('streams',f'{len(D["themes"])} thematic streams','The original research organization, with additional source mappings.'),
   ('topics',f'{len(D["topics"])} editorial topics','Follow an engineering question across source collections.'),
   ('volumes',f'{len(VOLUMES)} published books','Distinguish the earlier volumes from the published NDSE2 edition.'),
   ('chapters',f'{len(D["chapters"])} chapter guides','Read chapter outlines and separate printed citations from suggested reading.')]
  grids='<div class="path-grid">'+''.join('<article class="path-card"><h3>'+link(path,f'catalogues/{name}.html',esc(title))+'</h3><p>'+esc(desc)+'</p></article>' for name,title,desc in paths)+'</div>'
- practice_card=f'<article class="collection-card"><div class="card-top"><span class="code">PRACTICE LAYER</span><span class="pill">{len(PRACTICES)} descriptors</span></div><h3>'+link(path,'catalogues/practices.html','Patterns and their provenance')+f'</h3><p>Explore {len(PRACTICES)} reconciled practice descriptors and {len(OCCURRENCES)} historical occurrences. Engineering proposals retain their evidence limits.</p>'+link(path,'catalogues/practices.html','Read practices →','card-link')+'</article>'
  body=hero+counts+NDSE2.introduction(path,link,heading=True)+ack(path)
- body+='<section class="section"><div class="section-head"><h2>Read the source collections</h2>'+link(path,'catalogues/index.html','All catalogues →')+'</div><div class="card-grid">'+''.join(collection_card(c,path) for c in C['collections'])+practice_card+'</div></section>'
+ body+='<section class="section"><div class="section-head"><h2>Browse the Atlas collections</h2>'+link(path,'catalogues/index.html','All catalogues →')+'</div><div class="card-grid">'+''.join(collection_card(c,path) for c in C['collections'])+'</div></section>'
  body+='<section class="section"><h2>Follow another route</h2>'+grids+'</section>'+profile(path)
- page(path,C['title'],body,f'Explore {len(COLS)} source collections, an interactive graph and the published NDSE2 chapter guides.',active='')
+ page(path,C['title'],body,f'Explore {len(COLS)} Atlas collections, English practice guides, an interactive graph and the published NDSE2 chapter guides.',active='')
  page('knowledge-atlas.html',C['title'],body,'Project landing page, also suitable when preserving a separate existing homepage.',active='')
  path='catalogues/index.html'
  extra=paths+[
-  ('practices','Practice descriptors',f'{len(PRACTICES)} editorial practices, with limits and source occurrences.'),
   ('occurrences','Historical occurrences',f'{len(OCCURRENCES)} occurrences in earlier books, preserving conceptual genealogy.')]
- body=heading('Source catalogues',f'{len(COLS)} collections · one evidence map','All entries are present in static HTML. Search, filters, data downloads and permanent record links complement the interactive atlas.')+ack(path)
+ body=heading('Atlas catalogues',f'{len(COLS)} collections · one knowledge map','Read the source records, published chapters and English practice guides. All entries are present in static HTML, with search, filters, data downloads and permanent links.')+ack(path)
  body+='<div class="card-grid">'+''.join(collection_card(c,path) for c in C['collections'])+'</div>'
  body+='<section class="section"><h2>Additional catalogue views</h2><div class="path-grid">'+''.join('<article class="path-card"><h3>'+link(path,f'catalogues/{name}.html',esc(title))+'</h3><p>'+esc(desc)+'</p></article>' for name,title,desc in extra)+'</div></section>'
- page(path,'Source catalogues',body,'Static source catalogues, published book chapters and evidence provenance.')
+ page(path,'Atlas catalogues',body,'Static source catalogues, published book chapters, English practice guides and evidence provenance.')
 
 def build_about_page():
  path='about.html'
  labels=', '.join(COLS)
  body=heading('About this project','Independent work by Enrico Papalini','A companion for asking better questions about AI and software engineering, built around source provenance.')+profile(path,True)
- body+=f"""<div class="prose"><h2>Why an atlas?</h2><p>The project connects research records, practitioner publications and the engineering questions explored in the <em>Non-Deterministic</em> book series. The interactive atlas exposes relationships; the catalogues make each record accessible as an ordinary web page.</p><h2>What the labels mean</h2><p>{esc(labels)} identify collections and their provenance. Papers, interviews, conceptual essays, book chapters and small experiments retain their distinct source types. Records show access restrictions, caveats and the scope of source inspection.</p><h2>The published second edition</h2><p>NDSE2 is represented by {COUNTS['N']} chapter records. Guides include English and Italian titles, learning goals, outlines and source references. On 18 October 2026, the author confirmed that the book was already published. Its metadata separates that confirmation from a first-publication date.</p><p>"""
+ body+=f"""<div class="prose"><h2>Why an atlas?</h2><p>The project connects research records, practitioner publications and the engineering questions explored in the <em>Non-Deterministic</em> book series. The interactive atlas exposes relationships; the catalogues make each record accessible as an ordinary web page.</p><h2>What the labels mean</h2><p>{esc(labels)} identify collections and their provenance. Papers, interviews, conceptual essays, book chapters and small experiments retain their distinct source types. Records show access restrictions, caveats and the scope of source inspection.</p><h2>The published second edition</h2><p>NDSE2 is represented by {COUNTS['N']} chapter records. Guides include English and Italian titles, learning goals, outlines and source references. {esc(NDSE2.publication_note())} Publication details are shown only when supplied in the edition metadata.</p><p>"""
  body+=link(path,'catalogues/ndse2.html','NDSE2 · published second edition →')+'</p>'
  body+='<h2>Biography and photograph</h2><p>The biography and author photograph come from the author’s own <em>Non-Deterministic Loop Engineering</em> materials (About the Author, PDF page 277; printed page 265). The photograph was extracted, resized and saved locally for this project.</p><p>'+link(path,'source/author_provenance.json','Photo and biography provenance')+'</p><p>Connect through '+link(path,'https://github.com/popoloni','GitHub',external=True)+' or explore the '+link(path,'https://www.amazon.com/dp/B0GHCXPBRM','Non-Deterministic series',external=True)+'.</p></div>'+ack(path)
  page(path,'About Enrico Papalini and the project',body,'Author biography and the purpose of the independent Knowledge Atlas.',active='About')
@@ -338,8 +434,7 @@ The inherited rights notice records SE@PoliMi’s stated CC BY-NC-ND 4.0 terms u
 def build_downloads():
  path='downloads.html';rows=''
  datasets=[(COLS[c]['slug'],COLS[c]['title']) for c in COLS]+[
-  ('all-sources',f'All {len(SOURCES)} source and chapter records'),
-  ('practices',f'{len(PRACTICES)} practice descriptors'),
+  ('all-sources',f'All {len(CITABLE_RECORDS)} source and chapter records'),
   ('occurrences',f'{len(OCCURRENCES)} practice occurrences'),
   ('practice-families',f'{len(FAMILIES)} practice families'),
   ('published-books',f'{len(BOOKS)} published book records')]
@@ -350,15 +445,17 @@ def build_downloads():
  body+='<section class="section"><h2>The current complete graph</h2><div class="actions">'+link(path,GRAPH_GRAPHML,'Current GraphML','button')+link(path,GRAPH_JSON,'Current graph JSON','button')+link(path,'data/catalogue-data.zip','All current catalogue data (ZIP)','button primary')+'</div>'
  body+=f'<p class="note">Graph v{esc(C["graph_version"])} · {esc(C["graph_snapshot"])} · {len(D["nodes"]):,} nodes · {len(D["edges"]):,} keyed relationships · {len(D["relations"]):,} relation types.</p></section>'
  body+='<section class="section"><h2>Published NDSE2 evidence and this update</h2><ul class="compact-list">'
- for target,label in [('source/ndse2_book.json','Published edition metadata, chapter structure and citation provenance'),(RESEARCH_AUDIT,'Source-review audit'),(RELEASE_NOTES,'What changed in this release')]:
+ for target,label in [(BOOK_METADATA,'Edition metadata, chapter structure and citation provenance'),(RESEARCH_AUDIT,'Source-review audit'),(RELEASE_NOTES,'What changed in this release')]:
   body+='<li>'+link(path,target,label)+'</li>'
  for suffix,label in [('json','NDSE2 sections and references (JSON)'),('csv','NDSE2 sections and references (CSV)')]:
   target=f'data/catalogues/ndse2-sections.{suffix}'
   if (ROOT/target).exists():body+='<li>'+link(path,target,label)+'</li>'
  body+='</ul></section>'
  body+='<section class="section"><h2>Historical graph and catalogue files</h2><p class="note">These files retain their original version names and wording. Use the current graph above for the refreshed atlas. Relative links inside historical Markdown can refer to the original book archive.</p><ul class="compact-list">'
- for target,label in [('data/graph/knowledge_graph_v12.json','Historical v12 graph JSON'),('data/graph/knowledge_graph_v12.graphml','Historical v12 GraphML')]:
-  if (ROOT/target).exists():body+='<li>'+link(path,target,label)+'</li>'
+ for historical in sorted((ROOT/'data/graph').glob('knowledge_graph_*')):
+  target=historical.relative_to(ROOT).as_posix()
+  if historical.is_file() and historical.suffix in ('.json','.graphml') and target not in (GRAPH_JSON,GRAPH_GRAPHML):
+   body+='<li>'+link(path,target,'Historical '+esc(historical.name))+'</li>'
  for item in sorted((ROOT/'data/originals').glob('*')):
   if item.is_file():body+='<li>'+link(path,item.relative_to(ROOT).as_posix(),esc(item.name))+f' <span class="micro">({item.stat().st_size/1024:.0f} KB)</span></li>'
  body+='</ul></section><section class="section"><h2>Project files</h2><ul class="compact-list">'
@@ -395,11 +492,11 @@ Also browse **[{len(D['themes'])} streams](catalogues/streams.html)**, **[{len(D
 
 ## Published NDSE2 second edition
 
-On **18 October 2026**, the author confirmed that the book was already published. That confirmation records availability, not an inferred first-publication date. ISBN and first-publication date are displayed only if supplied in the edition metadata.
+{NDSE2.publication_note()} ISBN and first-publication date are displayed only if supplied in the edition metadata.
 
 The **{COUNTS['N']} chapter records** contain concise English summaries, Italian titles, learning goals, outlines and source links. Literal citations from the English and Italian chapter files are distinguished from bibliography membership, the identifier index and broader editorial reading mappings. The full manuscripts are not included in the website.
 
-[Read the chapter guides](catalogues/ndse2.html) · [Edition and extraction provenance](source/ndse2_book.json) · [Source-review audit]({RESEARCH_AUDIT})
+[Read the chapter guides](catalogues/ndse2.html) · [Edition and extraction provenance]({BOOK_METADATA}) · [Source-review audit]({RESEARCH_AUDIT})
 
 ## Authorship and evidence
 
@@ -417,9 +514,15 @@ Photo and biography are adapted from the author’s own *Non-Deterministic Loop 
 
 Copy the package contents to the configured Pages publishing folder, preserving relative paths and `.nojekyll`. The homepage is `index.html`; the interactive atlas remains `swe_knowledge_graph.html`. A `knowledge-atlas.html` entrypoint is also supplied. A delta package contains only files to add or overwrite and is applied to the existing site using the same relative paths.
 
-No server application, API key, framework or CDN is required. See [DEPLOYMENT.md](DEPLOYMENT.md) for local preview and rebuild instructions.
+No server application, API key, framework or CDN is required. See [DEPLOYMENT.md](DEPLOYMENT.md) for local preview and the complete update procedure.
 
-**Graph v{C['graph_version']} · {C['graph_snapshot']}**. **Website v{C['site_version']} · {C['build_date']}**. The current graph contains **{len(D['nodes']):,} nodes**, **{len(D['edges']):,} keyed relationships** and **{len(D['relations']):,} relation types**. Historical v12 exports remain labelled as historical.
+## Repeat the update
+
+Use `python source/automation/atlas_cli.py` with the sequence **prepare → discover → build → check → package**. `prepare` requires the exact full ZIP confirmed as the currently published site and freezes its SHA-256. Complete the generated `review.json` after checking discovered source candidates, then build from those reviewed inputs. Book metadata remains unchanged unless a reviewed manuscript revision is supplied explicitly.
+
+`check` performs independent structural verification, real-browser checks and repeatable rebuilds. `package` creates the full archive and a delta containing only file additions or overwrites, and proves that baseline plus delta equals the full package. Neither command publishes to GitHub. [Commands, dependencies and book-update steps](DEPLOYMENT.md).
+
+**Graph v{C['graph_version']} · {C['graph_snapshot']}**. **Website v{C['site_version']} · {C['build_date']}**. The current graph contains **{len(D['nodes']):,} nodes**, **{len(D['edges']):,} keyed relationships** and **{len(D['relations']):,} relation types**. Retained earlier graph exports remain labelled as historical.
 
 [Credits and boundaries](attribution.html) · [Validation report](verification/report.html)
 """
@@ -444,41 +547,81 @@ python -m http.server 8000
 
 Open `http://localhost:8000/`. External source links still follow the publisher’s access conditions.
 
-## Rebuild from the supplied sources
+## Repeat an Atlas update
 
-Rebuild the graph first, then the static website. The graph builder reads the preserved v12 baseline, audited article update, final bilingual metadata in `source/ndse2_book.json` and the supplied graph template. The static builder reads the resulting `source/{ATLAS_SOURCE.name}` and `source/site_config.json`. These steps use frozen local inputs and require no network or original book manuscript.
+Start from the **exact complete ZIP currently published**. The updater freezes its ZIP hash and file inventory, then works on an isolated copy. A previous delta or a live repository snapshot is not a substitute for that confirmed baseline.
+
+Run these commands from a complete package that contains `source/automation/`. Choose a fresh run directory outside the site and replace the path, date and release placeholders with this update’s values:
 
 ```sh
-python source/build_graph_v13.py
-python source/build_site.py
-python source/write_release_report.py
-python source/check_site.py
-python source/check_reproducibility.py
-python source/write_release_report.py
+python source/automation/atlas_cli.py prepare --baseline /path/to/published-complete.zip --run /path/to/atlas-update --date YYYY-MM-DD --release NEXT_VERSION
+python source/automation/atlas_cli.py discover --run /path/to/atlas-update
 ```
 
-The reproducibility check rebuilds the graph and site twice in an isolated temporary copy and compares the generated bytes with this folder. The report generator reads verification records; it does not run browser tests. Current browser records must match the current interactive HTML hash. To rerun browser checks, use the supplied `source/test_update_browser.js` with Node.js, Playwright and a Chromium-family browser; its usage header documents the options. Reports and screenshots from that script are written outside the site tree. Copy the current browser and relationship-check JSON records into `verification/` before regenerating the release report.
+Discovery collects public publisher metadata and flags candidate additions or revisions. Review `/path/to/atlas-update/review.json`: resolve each candidate, retain actual bylines and original versus revision dates, identify access restrictions, and record source evidence before marking editorial review complete. Orosz blog and Deepdives remain in scope; The Pulse title-prefix and podcast exclusions remain in force. Canonical duplicates are revised under the existing ID; accepted additions receive new IDs. The discovery step does not create verified summaries or book citations.
 
-Current graph downloads are `{GRAPH_JSON}` and `{GRAPH_GRAPHML}`. The original v12 exports remain historical artefacts and should not replace those current files. A subsequent research refresh needs its own source audit and updated graph, followed by this static build.
+After that source review is complete:
 
-The release notes and source-review audit are supplied alongside the generated pages. Local validation verifies the package; publication to a GitHub account is a separate deployment action.
+```sh
+python source/automation/atlas_cli.py build --run /path/to/atlas-update
+python source/automation/atlas_cli.py check --run /path/to/atlas-update --browser /path/to/chromium --playwright /path/to/node_modules/playwright
+python source/automation/atlas_cli.py package --run /path/to/atlas-update --output /path/to/packages
+```
+
+Python 3.10+ uses only its standard library for graph updates, site rendering, structural checks and packaging. Real browser verification additionally requires Node.js, the Playwright package and a Chromium-family executable. The `--browser` and `--playwright` overrides can be omitted if those dependencies are discoverable in the environment. A missing browser is reported as an incomplete check and prevents packaging; it is not a successful browser result.
+
+The `check` command validates current pages, anchors, exact graph exports, stable IDs and historical keyed edges, literal book citations, and the preserved original starting view. It exercises every relation switch and the catalogues in a real local browser, then compares two rebuilds from the same frozen inputs. Verification records are bound to the current artifact’s file hashes. If reviewed inputs or candidate files change, build and check again before packaging.
+
+The `package` command calculates the delta by SHA-256 comparison of actual file contents against the frozen published ZIP. The delta includes only added or changed paths. Applying that delta to a fresh extraction of the original ZIP must reconstruct the complete package exactly. No file deletion is permitted by this copy-only procedure. An update with no approved changes is recorded as such instead of manufacturing a new release.
+
+## Update the book only when its sources change
+
+Leave `book_policy` as `unchanged` for article-only updates. Current chapter citations and bibliography flags remain derived from the retained manuscript metadata. New article mappings are editorial reading suggestions unless the supplied book actually cites them.
+
+For a new final bilingual manuscript, `extract-book` can prepare a metadata draft for review. Use `source/automation/atlas_cli.py extract-book --help` for its required source paths. Review the extracted titles, summaries, goals and citation evidence, set `book_policy` to `reconcile`, and pass `--book /path/to/reviewed-book.json` to `build`. Chapter or section identity changes require an explicit migration and are blocked by the routine update workflow.
+
+## Render the frozen website without refreshing sources
+
+```sh
+python source/build_site.py
+```
+
+This command rebuilds the static catalogues from the current configured template `source/{ATLAS_SOURCE.name}`, `source/site_config.json` and `{BOOK_METADATA}`. It does not discover articles, alter the graph, run verification or create a new approved package. The reusable `build` command above also performs this rendering step after applying the reviewed graph update.
+
+Current graph downloads are `{GRAPH_JSON}` and `{GRAPH_GRAPHML}`. Earlier exports remain historical artifacts. Release notes are `{RELEASE_NOTES}` and the source audit is `{RESEARCH_AUDIT}`. Use the existing GitHub Pages publishing workflow after reviewing the resulting full or delta package.
+
 """
  (ROOT/'DEPLOYMENT.md').write_text(deployment,encoding='utf-8')
 
 def build():
  # The graph engine is supplied by the audited current source; add only static-site navigation.
+ PAGES.clear()
  patch=(SOURCE/'atlas_navigation_patch.js').read_text(encoding='utf-8')
  marker='buildControls();boardSize();rebuild();'
- if marker not in BASE:raise ValueError('Current atlas is missing the expected navigation insertion point')
- modified=BASE.replace(marker,marker+'\n'+patch)
+ patch_start='// ATLAS_STATIC_NAVIGATION_BEGIN'
+ patch_end='// ATLAS_STATIC_NAVIGATION_END'
+ if (patch_start in BASE) != (patch_end in BASE):
+  raise ValueError('Current atlas contains an incomplete static-navigation block')
+ if patch_start in BASE:
+  block=re.compile(re.escape(patch_start)+r'.*?'+re.escape(patch_end),re.S)
+  modified=block.sub(lambda _:patch_start+'\n'+patch.rstrip()+'\n'+patch_end,BASE,count=1)
+ elif re.search(r'window\.atlasOpenCatalogueView\s*=\s*applyCatalogueURL',BASE) and re.search(r'const\s+catalogueFiles\s*=',BASE):
+  # Legacy delivered templates already contain the navigation layer without
+  # explicit block delimiters. Keeping it avoids duplicate const declarations.
+  modified=BASE
+ else:
+  if marker not in BASE:raise ValueError('Current atlas is missing the expected navigation insertion point')
+  modified=BASE.replace(marker,marker+'\n'+patch_start+'\n'+patch.rstrip()+'\n'+patch_end,1)
  nav='<a href="catalogues/index.html" id="siteCataloguesLink" title="Browse static catalogues" aria-label="Browse static catalogues" style="display:inline-flex;gap:6px;align-items:center;padding:7px;border:1px solid #dce3e9;border-radius:7px;color:#245e70;text-decoration:none;font-size:11px"><svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 3h6l1 2 1-2h6v14h-6l-1 1-1-1H3zM10 5v13" stroke="currentColor" stroke-width="1.4"/></svg><span class="desktop">Catalogues</span></a>'
- modified=modified.replace('<div class="top-actions">','<div class="top-actions">'+nav,1)
+ if not re.search(r'\bid=["\']siteCataloguesLink["\']',modified):
+  modified=modified.replace('<div class="top-actions">','<div class="top-actions">'+nav,1)
  (ROOT/'swe_knowledge_graph.html').write_text(modified,encoding='utf-8')
  (ROOT/'data/catalogues').mkdir(parents=True,exist_ok=True)
  for code,c in COLS.items():write_dataset(c['slug'],[n for n in SOURCES if n['collection']==code])
- for name,records in [('all-sources',SOURCES),('practices',PRACTICES),('occurrences',OCCURRENCES),('practice-families',FAMILIES),('published-books',BOOKS)]:
+ for name,records in [('all-sources',CITABLE_RECORDS),('practices',PRACTICES),('occurrences',OCCURRENCES),('practice-families',FAMILIES),('published-books',BOOKS)]:
   write_dataset(name,records)
  for code,c in COLS.items():
+  if code=='PAT':continue
   path=collection_file(code);records=[n for n in SOURCES if n['collection']==code]
   if code=='N':records.sort(key=lambda n:int(n.get('attributes',{}).get('chapter_number') or n['id'].split('C')[-1]))
   body='<div class="crumbs">'+link(path,'index.html','Home')+' / '+link(path,'catalogues/index.html','Catalogues')+' / '+esc(c['short'])+'</div>'
@@ -493,8 +636,8 @@ def build():
   if code=='B':body+='<p>'+link(path,'catalogues/volumes.html',f'Browse {len(EARLIER_VOLUMES)} earlier volumes and the published NDSE2 edition →')+'</p>'
   body+=filter_bar(path,len(records),D['themes'])+'<div class="records">'+''.join(record(n,path) for n in records)+'</div>'
   page(path,c['title'],body,c['description'],active='NDSE2' if code=='N' else 'Catalogues')
+ build_practice_catalogue()
  for name,title,records,desc in [
-  ('practices','Practice descriptors',PRACTICES,f'{len(PRACTICES)} reconciled editorial descriptors from the Non-Deterministic series, with their recorded limits and historical origins.'),
   ('occurrences','Historical practice occurrences',OCCURRENCES,f'{len(OCCURRENCES)} source occurrences across {len(EARLIER_VOLUMES)} earlier volumes. These trace where practices were discussed.')]:
   path=f'catalogues/{name}.html'
   body=heading(title,'Series practice catalogue',desc)+'<div class="actions">'+link(path,'catalogues/practices.html','Descriptors','button')+link(path,'catalogues/occurrences.html','Occurrences','button')+link(path,f'data/catalogues/{name}.json','JSON','button')+link(path,f'data/catalogues/{name}.csv','CSV','button')+'</div>'
@@ -517,13 +660,14 @@ def build():
  summary={
   'site_version':C['site_version'],'graph_snapshot':C['graph_snapshot'],'graph_source':ATLAS_SOURCE.name,
   'graph_nodes':len(D['nodes']),'graph_edges':len(D['edges']),'graph_relation_types':len(D['relations']),
-  'source_counts':dict(COUNTS),'static_source_records':len(SOURCES),'external_source_records':EXTERNAL_COUNT,
+  'collection_counts':dict(COUNTS),'source_counts':{k:v for k,v in COUNTS.items() if k!='PAT'},
+  'static_source_records':len(CITABLE_RECORDS),'static_collection_records':len(SOURCES),'practice_records':len(PRACTICES),'external_source_records':EXTERNAL_COUNT,
   'practice_descriptors':len(PRACTICES),'practice_occurrences':len(OCCURRENCES),
   'published_books':len(BOOKS),'ndse2_chapters':len(NDSE2.chapters),
   'group_pages':{'streams':len(D['themes']),'topics':len(D['topics']),'chapters':len(D['chapters']),'volumes':len(VOLUMES)},
   'html_pages_built':len(PAGES)+1,'graph_payload_unchanged':True,
   'graph_payload_matches_current_source':True,'new_empirical_verification':False}
  (SOURCE/'build_summary.json').write_text(json.dumps(summary,indent=2)+'\n',encoding='utf-8')
- print(f'Built {len(PAGES)+1} HTML pages, {len(SOURCES)} source/chapter records and {len(NDSE2.chapters)} NDSE2 guides from {ATLAS_SOURCE.name}.')
+ print(f'Built {len(PAGES)+1} HTML pages, {len(CITABLE_RECORDS)} source/chapter records, {len(PRACTICES)} practices and {len(NDSE2.chapters)} NDSE2 guides from {ATLAS_SOURCE.name}.')
 
 if __name__=='__main__':build()

@@ -1,7 +1,7 @@
 {
-  "site_version": "13.0",
+  "site_version": "13.1",
   "build_date": "2026-10-18",
-  "graph_version": "13",
+  "graph_version": "13.1",
   "graph_snapshot": "2026-10-18",
   "canonical_atlas": "https://popoloni.github.io/swe_knowledge_graph.html",
   "title": "Knowledge Atlas for AI and Software Engineering",
@@ -56,9 +56,21 @@
       "short": "NDSE2 chapters",
       "description": "13 chapters from the published Non-Deterministic Software Engineering, Second Edition. English and Italian titles, section outlines and literal source citations are reconciled to the author-supplied final 13.7.1 sources.",
       "source_url": "https://popoloni.github.io/"
+    },
+    {
+      "code": "PAT",
+      "slug": "practices",
+      "title": "Software Engineering Practices",
+      "short": "Practices",
+      "description": "84 English operational guides in 12 families: when to use a practice, how to apply it, illustrative examples, verification, outputs and limitations. Historical source occurrences remain traceable.",
+      "source_url": "",
+      "record_type": "editorial_practice"
     }
   ],
   "atlas_source": "atlas_v13_current.html",
   "graph_json": "data/graph/knowledge_graph_v13.json",
-  "graph_graphml": "data/graph/knowledge_graph_v13.graphml"
+  "graph_graphml": "data/graph/knowledge_graph_v13.graphml",
+  "payload_json": "data/graph/atlas_payload_v13.json",
+  "release_notes": "UPDATE_v13_1_20261018.html",
+  "practice_content_schema": 1
 }
