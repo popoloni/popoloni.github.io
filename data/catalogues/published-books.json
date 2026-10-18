@@ -2,7 +2,7 @@
   "meta": {
     "source": "atlas_v13_current.html",
     "snapshot": "2026-10-18",
-    "site_version": "13.1",
+    "site_version": "13.2",
     "count": 6,
     "note": "Materialized view of the current audited graph; complete node fields retained. Source inspection and publication status are recorded per item. The builder performs no new empirical validation."
   },
@@ -23,7 +23,7 @@
       "printed": true,
       "summary": "",
       "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods.",
-      "url": "https://github.com/popoloni/non_deterministic_sw_eng",
+      "url": "https://www.amazon.com/dp/B0G7LPJBTH",
       "authors": "Enrico Papalini",
       "year": "2025",
       "attributes": {
@@ -38,15 +38,23 @@
         "isbn": "9798278715412",
         "edition_number": "1",
         "publisher": "Independently Published",
-        "url": "https://github.com/popoloni/non_deterministic_sw_eng",
-        "url_role": "author_companion",
+        "url": "https://www.amazon.com/dp/B0G7LPJBTH",
+        "url_role": "individual_book",
         "metadata_source": "AI_SW_ENG/config.tex",
         "metadata_verification": "Author-owned public companion metadata agrees with supplied title/year/ISBN.",
         "status": "PUBLISHED_BOOK_METADATA",
         "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods.",
         "ndse2_actual_chapters_json": "[\"C:C13\"]",
         "ndse2_in_bibliography": true,
-        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "amazon_asin": "B0G7LPJBTH",
+        "amazon_language": "English",
+        "amazon_verification": "Amazon.com product title and English paperback details inspected on 2026-10-18.",
+        "amazon_evidence_urls": [
+          "https://www.amazon.com/dp/B0G7LPJBTH"
+        ],
+        "companion_url": "https://github.com/popoloni/non_deterministic_sw_eng",
+        "amazon_url": "https://www.amazon.com/dp/B0G7LPJBTH"
       },
       "topics": [],
       "volumes": [
@@ -72,7 +80,7 @@
       "printed": true,
       "summary": "",
       "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods.",
-      "url": "https://www.amazon.com/dp/B0GGZ44RNX",
+      "url": "https://www.amazon.com/dp/B0GHFBNC5Z",
       "authors": "Enrico Papalini",
       "year": "2026",
       "attributes": {
@@ -87,7 +95,7 @@
         "isbn": "9798244287899",
         "edition_number": "1",
         "publisher": "Independently Published",
-        "url": "https://www.amazon.com/dp/B0GGZ44RNX",
+        "url": "https://www.amazon.com/dp/B0GHFBNC5Z",
         "url_role": "individual_book",
         "metadata_source": "AI_SDD_ENG/config.tex",
         "metadata_verification": "Title/year/active print ISBN from supplied author config; author public post identifies B0GGZ44RNX. Alternate paperback ISBN is not substituted for the supplied print ISBN.",
@@ -95,7 +103,16 @@
         "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods.",
         "ndse2_actual_chapters_json": "[\"C:C13\"]",
         "ndse2_in_bibliography": true,
-        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "amazon_asin": "B0GHFBNC5Z",
+        "amazon_language": "English",
+        "amazon_verification": "Exact title and destination verified in Amazon.com's related-book link on the original NDSE product; English edition additionally identified by the author's public post. Destination body was unavailable.",
+        "amazon_evidence_urls": [
+          "https://www.amazon.com/dp/B0G7LPJBTH",
+          "https://it.linkedin.com/posts/matteobaccan_tanto%C3%A8gratis-mokabyte-specdriven-activity-7440435375363289088-mKgA"
+        ],
+        "kindle_url": "https://www.amazon.com/dp/B0GGZ44RNX",
+        "amazon_url": "https://www.amazon.com/dp/B0GHFBNC5Z"
       },
       "topics": [],
       "volumes": [
@@ -121,7 +138,7 @@
       "printed": true,
       "summary": "",
       "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods.",
-      "url": "https://www.amazon.it/dp/B0GZZDFMYF",
+      "url": "https://www.amazon.com/dp/B0GZZDFMYF",
       "authors": "Enrico Papalini",
       "year": "2026",
       "attributes": {
@@ -136,7 +153,7 @@
         "isbn": "9798195795498",
         "edition_number": "2",
         "publisher": "Independently Published",
-        "url": "https://www.amazon.it/dp/B0GZZDFMYF",
+        "url": "https://www.amazon.com/dp/B0GZZDFMYF",
         "url_role": "individual_book",
         "metadata_source": "AI_SDD_ENG_V2/config.tex",
         "metadata_verification": "Amazon English Enterprise Edition product page confirms title, publisher, 2026 and ISBN. Source revision 1.1 is preserved as snapshot metadata, not confused with public edition number.",
@@ -144,7 +161,14 @@
         "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods.",
         "ndse2_actual_chapters_json": "[\"C:C13\"]",
         "ndse2_in_bibliography": true,
-        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "amazon_asin": "B0GZZDFMYF",
+        "amazon_language": "English",
+        "amazon_verification": "Amazon.com product title, author, English language and paperback details inspected on 2026-10-18.",
+        "amazon_evidence_urls": [
+          "https://www.amazon.com/dp/B0GZZDFMYF"
+        ],
+        "amazon_url": "https://www.amazon.com/dp/B0GZZDFMYF"
       },
       "topics": [],
       "volumes": [
@@ -170,7 +194,7 @@
       "printed": true,
       "summary": "",
       "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods.",
-      "url": "https://www.amazon.com/dp/B0GHCXPBRM",
+      "url": "https://www.amazon.com/dp/B0GMCFLH2C",
       "authors": "Enrico Papalini",
       "year": "2026",
       "attributes": {
@@ -185,15 +209,22 @@
         "isbn": "9798247393146",
         "edition_number": "1",
         "publisher": "Independently Published",
-        "url": "https://www.amazon.com/dp/B0GHCXPBRM",
-        "url_role": "series",
+        "url": "https://www.amazon.com/dp/B0GMCFLH2C",
+        "url_role": "individual_book",
         "metadata_source": "ai-auto_eng/AI_AUTO_ENG/config.tex",
         "metadata_verification": "Title/year/active print ISBN from author-supplied config; no independently fetched format-specific product details. Series URL is explicitly a series locator.",
         "status": "PUBLISHED_BOOK_METADATA",
         "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods.",
         "ndse2_actual_chapters_json": "[\"C:C13\"]",
         "ndse2_in_bibliography": true,
-        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "amazon_asin": "B0GMCFLH2C",
+        "amazon_language": "English",
+        "amazon_verification": "Amazon.com product title, English language and paperback details inspected on 2026-10-18.",
+        "amazon_evidence_urls": [
+          "https://www.amazon.com/dp/B0GMCFLH2C"
+        ],
+        "amazon_url": "https://www.amazon.com/dp/B0GMCFLH2C"
       },
       "topics": [],
       "volumes": [
@@ -219,7 +250,7 @@
       "printed": true,
       "summary": "",
       "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods.",
-      "url": "https://www.amazon.com/dp/B0GHCXPBRM",
+      "url": "https://www.amazon.com/dp/B0H9W2ST3F",
       "authors": "Enrico Papalini",
       "year": "2026",
       "attributes": {
@@ -234,15 +265,22 @@
         "isbn": "9798188423384",
         "edition_number": "1",
         "publisher": "Independently Published",
-        "url": "https://www.amazon.com/dp/B0GHCXPBRM",
-        "url_role": "series",
+        "url": "https://www.amazon.com/dp/B0H9W2ST3F",
+        "url_role": "individual_book",
         "metadata_source": "NDLE/config.tex",
         "metadata_verification": "Title/subtitle/year/ISBN from author-supplied English config; no substitution from Italian print catalogue. Series URL is explicitly a series locator.",
         "status": "PUBLISHED_BOOK_METADATA",
         "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods.",
         "ndse2_actual_chapters_json": "[\"C:C13\"]",
         "ndse2_in_bibliography": true,
-        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations"
+        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
+        "amazon_asin": "B0H9W2ST3F",
+        "amazon_language": "English",
+        "amazon_verification": "Amazon.com product title, English language and paperback details inspected on 2026-10-18.",
+        "amazon_evidence_urls": [
+          "https://www.amazon.com/Non-Deterministic-Loop-Engineering-Reliable-Agentic/dp/B0H9W2ST3F"
+        ],
+        "amazon_url": "https://www.amazon.com/dp/B0H9W2ST3F"
       },
       "topics": [],
       "volumes": [
@@ -264,7 +302,7 @@
       "printed": false,
       "summary": "Published second edition: 13 chapters, with the Knowledge Atlas as its companion.",
       "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
-      "url": "https://popoloni.github.io/",
+      "url": "https://www.amazon.com/dp/B0HN9J7VZG",
       "authors": "Enrico Papalini",
       "year": "2026",
       "topics": [],
@@ -288,11 +326,23 @@
         "chapter_count": 13,
         "metadata_verification": "Author-supplied final EN/ITA 13.7.1 LaTeX sources; publication confirmed by the author on 2026-10-18.",
         "limitation": "Author engineering synthesis and teaching material; publication is not independent empirical validation.",
-        "url": "https://popoloni.github.io/",
-        "url_role": "author_companion",
+        "url": "https://www.amazon.com/dp/B0HN9J7VZG",
+        "url_role": "individual_book",
         "label": "Non-Deterministic Software Engineering, Second Edition",
         "kind": "published_book",
-        "node_class": "NDSE2_PUBLISHED_EDITION_20261018"
+        "node_class": "NDSE2_PUBLISHED_EDITION_20261018",
+        "amazon_asin": "B0HN9J7VZG",
+        "amazon_language": "English",
+        "amazon_verification": "Exact Amazon.com product destination supplied by the author on 2026-10-18; product-page body was unavailable to independent retrieval. No format, price, publication date or ISBN is inferred from this URL.",
+        "amazon_evidence_urls": [
+          "https://www.amazon.com/dp/B0HN9J7VZG"
+        ],
+        "companion_url": "https://popoloni.github.io/",
+        "cover_image": "assets/books/NDSE2_cover.jpg",
+        "cover_alt": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini.",
+        "cover_width": 1000,
+        "cover_height": 1499,
+        "amazon_url": "https://www.amazon.com/dp/B0HN9J7VZG"
       }
     }
   ]

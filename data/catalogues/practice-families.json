@@ -2,7 +2,7 @@
   "meta": {
     "source": "atlas_v13_current.html",
     "snapshot": "2026-10-18",
-    "site_version": "13.1",
+    "site_version": "13.2",
     "count": 12,
     "note": "Materialized view of the current audited graph; complete node fields retained. Source inspection and publication status are recorded per item. The builder performs no new empirical validation."
   },
