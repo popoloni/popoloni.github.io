@@ -1,0 +1,61 @@
+{
+  "complete": true,
+  "passed": 192,
+  "failed": 0,
+  "outputs_tested": 192,
+  "artifact_sha256": "73b04389abdf7ade2002eb3bc33827d265358c47c5c2dde9575c4e47fad5a39a",
+  "method": "Two independent extractions of the exact published ZIP, amended only by frozen source code, publication registry and original image inputs; compare all delivered non-verification files by SHA-256.",
+  "baseline_sha256": "d7d9b7629ed3daf2897ca9a9e498a2912a6126bd2ee0b61d2ddf9b57fc58b251",
+  "frozen_inputs": {
+    "assets/books/NDSE2_cover.jpg": "d567a4293c156dcb7060ccc66800897e27c286736460a088c47cce0de016428e",
+    "assets/books/NDseries.png": "e04c7dff813fe97935c4412c70c837876290a6ab2c578f6669e4fe9ceb159d08",
+    "source/PUBLICATION_UPDATES.md": "797736e5663e6e63d96ea1c8f18fde1cd1c9ed0139579f0c6cbd7d29ed86662e",
+    "source/atlas_navigation_patch.js": "ba82fc9b4937c899efe3b899b712687dcdbb904603ef5575be49172d1bdfe41e",
+    "source/atlas_v13_template.py": "8cd02fb094ec13fce06724ae6ef3dea37136f9a9f3ca391dea4b70c6d6ccfc0a",
+    "source/automation/PRACTICES_UPDATE.txt": "83a3aa6b6b5beb031c7fdc0281190b1411a0253624c44fc247774106b875ac39",
+    "source/automation/atlas_cli.py": "51ff4de5366da973338876ee3696797a9bb73c5b1a150402479c856a03f9d29a",
+    "source/automation/atlas_graph.py": "3c38d2522c0ae6a38b78f2bb32a0c022f61a5f64713f888862e29a4ca98080fd",
+    "source/automation/atlas_validate.py": "7e48a41db56c12ae5e066dcc289aa05727382716d4b6de7dc83d1088fa40d210",
+    "source/automation/book_tools.py": "86c44b52b27d40696801331abea2435cab364996fd9bc8a454d01805386c90bd",
+    "source/automation/browser_check.js": "2f58787bd978882cf0bf92e2e87e86aeb13d199387b6c732eec5c6451827732b",
+    "source/automation/build_ndse2_pages.py": "aa1fe03d08c00f1ac037a4b8197cea8ed843cb0a3b54eaef8ed43786282f37b5",
+    "source/automation/build_site.py": "c5e6e4fdbc11ec98a116072920e958a4a6fcad4ce65040a833fa8987dfe2cd56",
+    "source/automation/extract_ndse2_base.py": "a5178c0bdde784d69965186c9d88d8f9cc60483b44d6b1185af086f987149818",
+    "source/automation/practice_book_context.py": "c0f9923ead150545a6c7a67b10e898898a5ecd1ad2c3d64688e19cca7f058b72",
+    "source/automation/practices_checks.py": "8f5b96040308206a9f9acb77db1938c485d529c7bf70bdeb51112728dc32be6c",
+    "source/automation/practices_migration.py": "883ab47a687bb521ee2974adc7b18c8bb1eb23807d5b792f1b80cfafc6ead792",
+    "source/automation/source_discovery.py": "ffe3df0566512a79447bf5eacd002f5227c2c95f03dffb548897004c836dfb5d",
+    "source/automation/update_publications.py": "67c1d3712ecc24a927d14fc703e3b4366d306969c04b266ada62de0fd799d29a",
+    "source/book_publications.json": "0afa8abfd26eabdb11a17e561d236e6c9d42ceb30bec4b7c6e4e285725e6eebf",
+    "source/build_graph_v13.py": "2b9b6a6d793402dda34cb86c0b747bfed85ccf7b0a68402659ccb9826b3b3917",
+    "source/build_ndse2_pages.py": "aa1fe03d08c00f1ac037a4b8197cea8ed843cb0a3b54eaef8ed43786282f37b5",
+    "source/build_site.py": "c5e6e4fdbc11ec98a116072920e958a4a6fcad4ce65040a833fa8987dfe2cd56",
+    "source/check_graph_update.py": "d8f5d65f731696f53d4f2a39e39e6f9c2389780b4fad371e38f637124cd33e9c",
+    "source/check_reproducibility.py": "86b7e93e55d85aaf704fe5b64a5dc875de18e26a94305641b5e4f0f19cd5f7d3",
+    "source/check_site.py": "bcf9a1864ee3bfb36f67c8cff22481ea05fb5019ac77caea4941ff4bcff176b8",
+    "source/extract_ndse2.py": "be19ece930b706dbf01de51e4b7fe18da3fb5e376f745ffcf24f14beaf6a8deb",
+    "source/package_publications.py": "a0c88821a12c208223ffc65e94ed55723ec1e5de75cc34219aaa01dc4bd9ed51",
+    "source/package_release.py": "57c40110c724c6f1ee374d9ab38a3ee24ddcbc874b097814acd8545d458345d4",
+    "source/reproduce_publications.py": "22a928f6f2c7b186b57877283ac71afce9f432ae9ab406da29a3f8c46b8b2684",
+    "source/test_browser.py": "efe1e785101093f06eea6040c400654f2f2f47432ebb05e628ded6c3252e72d8",
+    "source/test_publications_browser.js": "6a3ea13155386cc395775d550300a47bb15bd40180e50fc14102b734a8e0761c",
+    "source/test_update_browser.js": "e99300d8331f614160d48a9bd72baf206e0e2c07929b98217c62c28ce0585fa5",
+    "source/test_visuals.py": "98a70caa63bc993470bcf011ce4a9c3ff198ec4e5f1abde619bc93fa556b32f4",
+    "source/update_publications.py": "67c1d3712ecc24a927d14fc703e3b4366d306969c04b266ada62de0fd799d29a",
+    "source/write_release_report.py": "6a4b86c64d320d31f41ae59e7005ff8c620c5587e1342048de706067ae97e253"
+  },
+  "mismatches": [],
+  "failures": [],
+  "runs": [
+    {
+      "rebuild": 1,
+      "returncode": 0,
+      "output": "{\n  \"status\": \"updated\",\n  \"release\": \"13.2\",\n  \"audit\": \"data/updates/publications_review_v13_2_20261018.json\",\n  \"result_payload_sha256\": \"40bede16b05aa526df9ef428c62fcfab63f30e8b9eb4c70cd82f4e6983e04bcb\",\n  \"nodes\": 1931,\n  \"edges\": 13615,\n  \"updated_books\": 6,\n  \"topology_unchanged\": true\n}\n"
+    },
+    {
+      "rebuild": 2,
+      "returncode": 0,
+      "output": "{\n  \"status\": \"updated\",\n  \"release\": \"13.2\",\n  \"audit\": \"data/updates/publications_review_v13_2_20261018.json\",\n  \"result_payload_sha256\": \"40bede16b05aa526df9ef428c62fcfab63f30e8b9eb4c70cd82f4e6983e04bcb\",\n  \"nodes\": 1931,\n  \"edges\": 13615,\n  \"updated_books\": 6,\n  \"topology_unchanged\": true\n}\n"
+    }
+  ]
+}

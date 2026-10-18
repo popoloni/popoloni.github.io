@@ -1,0 +1,51 @@
+{
+  "checked_on": "2026-10-18",
+  "basis": "Direct read-only requests to the published site",
+  "results": [
+    {
+      "path": "index.html",
+      "url": "https://popoloni.github.io/index.html",
+      "status": 200,
+      "size": 10736,
+      "sha256": "cf15bb479f3435e70dc21fba2c0883b11baccc1bacdfa7d7c0bbff32507d11dd",
+      "baseline_sha256": "cf15bb479f3435e70dc21fba2c0883b11baccc1bacdfa7d7c0bbff32507d11dd",
+      "matches_baseline": true
+    },
+    {
+      "path": "catalogues/books.html",
+      "url": "https://popoloni.github.io/catalogues/books.html",
+      "status": 200,
+      "size": 1166389,
+      "sha256": "ac54f6891c2e6ccebd2df0023facaa0c7db32c50ecc400b6268ea1e55aac4521",
+      "baseline_sha256": "ac54f6891c2e6ccebd2df0023facaa0c7db32c50ecc400b6268ea1e55aac4521",
+      "matches_baseline": true
+    },
+    {
+      "path": "catalogues/ndse2.html",
+      "url": "https://popoloni.github.io/catalogues/ndse2.html",
+      "status": 200,
+      "size": 216238,
+      "sha256": "a6d211ce08f34ea2351529d95c8ddf95425feb1daf6c30314873fde6e007110d",
+      "baseline_sha256": "a6d211ce08f34ea2351529d95c8ddf95425feb1daf6c30314873fde6e007110d",
+      "matches_baseline": true
+    },
+    {
+      "path": "source/site_config.json",
+      "url": "https://popoloni.github.io/source/site_config.json",
+      "status": 200,
+      "size": 4322,
+      "sha256": "c930409f44b126b5d7e84a4440141a63080a2c772d5552ceabeb7d3f5280ce7f",
+      "baseline_sha256": "c930409f44b126b5d7e84a4440141a63080a2c772d5552ceabeb7d3f5280ce7f",
+      "matches_baseline": true
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "url": "https://popoloni.github.io/SHA256SUMS.txt",
+      "status": 200,
+      "size": 20642,
+      "sha256": "06940c00d7a620b011422486a0a6c961b839a85adeea1f1f131b9647ffc4d5e9",
+      "baseline_sha256": "06940c00d7a620b011422486a0a6c961b839a85adeea1f1f131b9647ffc4d5e9",
+      "matches_baseline": true
+    }
+  ]
+}

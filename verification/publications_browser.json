@@ -1,0 +1,3660 @@
+{
+  "schema_version": 1,
+  "kind": "atlas_publications_browser_validation",
+  "complete": true,
+  "checked_at": "2026-10-18T15:11:16.489Z",
+  "started_at": "2026-10-18T15:11:11.153Z",
+  "site_version": "13.2",
+  "browser_version": "155.0.8059.84",
+  "passed": 214,
+  "failed": 0,
+  "artifact_sha256": "73b04389abdf7ade2002eb3bc33827d265358c47c5c2dde9575c4e47fad5a39a",
+  "graph_html_sha256": "04d997d1171cfcab5e339b86942821bf608e97c0b9418d8ecd33567c932a713a",
+  "artifact_scope": "All site file paths, SHA-256 and sizes except verification/, SHA256SUMS.txt and development caches.",
+  "external_urls_live_checked": false,
+  "external_navigation_performed": false,
+  "page_coverage": [
+    {
+      "page": "catalogues/books.html",
+      "viewport": {
+        "label": "desktop",
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "page": "catalogues/volumes.html",
+      "viewport": {
+        "label": "desktop",
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "page": "catalogues/ndse2.html",
+      "viewport": {
+        "label": "desktop",
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "page": "catalogues/volumes/v01.html",
+      "viewport": {
+        "label": "desktop",
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "page": "catalogues/volumes/v02.html",
+      "viewport": {
+        "label": "desktop",
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "page": "catalogues/volumes/v03.html",
+      "viewport": {
+        "label": "desktop",
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "page": "catalogues/volumes/v04.html",
+      "viewport": {
+        "label": "desktop",
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "page": "catalogues/volumes/v05.html",
+      "viewport": {
+        "label": "desktop",
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "page": "catalogues/volumes/v06.html",
+      "viewport": {
+        "label": "desktop",
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "page": "catalogues/books.html",
+      "viewport": {
+        "label": "mobile",
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "page": "catalogues/volumes.html",
+      "viewport": {
+        "label": "mobile",
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "page": "catalogues/ndse2.html",
+      "viewport": {
+        "label": "mobile",
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "page": "catalogues/volumes/v01.html",
+      "viewport": {
+        "label": "mobile",
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "page": "catalogues/volumes/v02.html",
+      "viewport": {
+        "label": "mobile",
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "page": "catalogues/volumes/v03.html",
+      "viewport": {
+        "label": "mobile",
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "page": "catalogues/volumes/v04.html",
+      "viewport": {
+        "label": "mobile",
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "page": "catalogues/volumes/v05.html",
+      "viewport": {
+        "label": "mobile",
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "page": "catalogues/volumes/v06.html",
+      "viewport": {
+        "label": "mobile",
+        "width": 390,
+        "height": 844
+      }
+    }
+  ],
+  "screenshots": [
+    "/workspace/scratch/005e6a37943f/atlas_13_2/work/qa/books_desktop.png",
+    "/workspace/scratch/005e6a37943f/atlas_13_2/work/qa/volumes_desktop.png",
+    "/workspace/scratch/005e6a37943f/atlas_13_2/work/qa/ndse2_desktop.png",
+    "/workspace/scratch/005e6a37943f/atlas_13_2/work/qa/books_mobile.png",
+    "/workspace/scratch/005e6a37943f/atlas_13_2/work/qa/volumes_mobile.png",
+    "/workspace/scratch/005e6a37943f/atlas_13_2/work/qa/ndse2_mobile.png",
+    "/workspace/scratch/005e6a37943f/atlas_13_2/work/qa/ndse2_atlas_inspector_desktop.png"
+  ],
+  "checks": [
+    {
+      "check": "Supplied NDseries.png bytes are unchanged",
+      "passed": true
+    },
+    {
+      "check": "Supplied NDSE2_cover.jpg bytes are unchanged",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/books.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "desktop catalogues/books.html has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "body": 1440
+      }
+    },
+    {
+      "check": "desktop catalogues/books.html includes its supplied cover artwork",
+      "passed": true,
+      "detail": {
+        "required": [
+          "NDseries.png"
+        ],
+        "images": [
+          {
+            "file": "NDseries.png",
+            "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+            "naturalWidth": 313,
+            "naturalHeight": 270,
+            "complete": true,
+            "width": 234.984375,
+            "height": 202.703125,
+            "left": 186,
+            "right": 420.984375,
+            "viewport": 1440,
+            "objectFit": "contain",
+            "clipping": []
+          }
+        ]
+      }
+    },
+    {
+      "check": "desktop catalogues/books.html image NDseries.png loads at the original dimensions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 234.984375,
+        "height": 202.703125,
+        "left": 186,
+        "right": 420.984375,
+        "viewport": 1440,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "desktop catalogues/books.html image NDseries.png is uncropped and keeps its proportions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 234.984375,
+        "height": 202.703125,
+        "left": 186,
+        "right": 420.984375,
+        "viewport": 1440,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "desktop catalogues/books.html image NDseries.png has informative alternative text",
+      "passed": true,
+      "detail": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini."
+    },
+    {
+      "check": "desktop catalogues/books.html series has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GHCXPBRM",
+          "text": "View the series on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 282.34375,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "desktop catalogues/books.html series external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GHCXPBRM",
+          "text": "View the series on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 282.34375,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "Local page catalogues/volumes.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "desktop catalogues/volumes.html has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "body": 1440
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes.html includes its supplied cover artwork",
+      "passed": true,
+      "detail": {
+        "required": [
+          "NDseries.png"
+        ],
+        "images": [
+          {
+            "file": "NDseries.png",
+            "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+            "naturalWidth": 313,
+            "naturalHeight": 270,
+            "complete": true,
+            "width": 234.984375,
+            "height": 202.703125,
+            "left": 186,
+            "right": 420.984375,
+            "viewport": 1440,
+            "objectFit": "contain",
+            "clipping": []
+          },
+          {
+            "file": "NDSE2_cover.jpg",
+            "alt": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini.",
+            "naturalWidth": 1000,
+            "naturalHeight": 1499,
+            "complete": true,
+            "width": 179.984375,
+            "height": 269.8125,
+            "left": 179,
+            "right": 358.984375,
+            "viewport": 1440,
+            "objectFit": "contain",
+            "clipping": []
+          }
+        ]
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes.html image NDseries.png loads at the original dimensions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 234.984375,
+        "height": 202.703125,
+        "left": 186,
+        "right": 420.984375,
+        "viewport": 1440,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes.html image NDseries.png is uncropped and keeps its proportions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 234.984375,
+        "height": 202.703125,
+        "left": 186,
+        "right": 420.984375,
+        "viewport": 1440,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes.html image NDseries.png has informative alternative text",
+      "passed": true,
+      "detail": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini."
+    },
+    {
+      "check": "desktop catalogues/volumes.html image NDSE2_cover.jpg loads at the original dimensions",
+      "passed": true,
+      "detail": {
+        "file": "NDSE2_cover.jpg",
+        "alt": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini.",
+        "naturalWidth": 1000,
+        "naturalHeight": 1499,
+        "complete": true,
+        "width": 179.984375,
+        "height": 269.8125,
+        "left": 179,
+        "right": 358.984375,
+        "viewport": 1440,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes.html image NDSE2_cover.jpg is uncropped and keeps its proportions",
+      "passed": true,
+      "detail": {
+        "file": "NDSE2_cover.jpg",
+        "alt": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini.",
+        "naturalWidth": 1000,
+        "naturalHeight": 1499,
+        "complete": true,
+        "width": 179.984375,
+        "height": 269.8125,
+        "left": 179,
+        "right": 358.984375,
+        "viewport": 1440,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes.html image NDSE2_cover.jpg has informative alternative text",
+      "passed": true,
+      "detail": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini."
+    },
+    {
+      "check": "desktop catalogues/volumes.html series has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GHCXPBRM",
+          "text": "View the series on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 282.34375,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "desktop catalogues/volumes.html series external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GHCXPBRM",
+          "text": "View the series on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 282.34375,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "desktop catalogues/volumes.html V01 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0G7LPJBTH",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "desktop catalogues/volumes.html V01 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0G7LPJBTH",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "desktop catalogues/volumes.html V02 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GHFBNC5Z",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "desktop catalogues/volumes.html V02 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GHFBNC5Z",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "desktop catalogues/volumes.html V03 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GZZDFMYF",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "desktop catalogues/volumes.html V03 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GZZDFMYF",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "desktop catalogues/volumes.html V04 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GMCFLH2C",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "desktop catalogues/volumes.html V04 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GMCFLH2C",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "desktop catalogues/volumes.html V05 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0H9W2ST3F",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "desktop catalogues/volumes.html V05 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0H9W2ST3F",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "desktop catalogues/volumes.html V06 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0HN9J7VZG",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "desktop catalogues/volumes.html V06 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0HN9J7VZG",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "Local page catalogues/ndse2.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "desktop catalogues/ndse2.html has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "body": 1440
+      }
+    },
+    {
+      "check": "desktop catalogues/ndse2.html includes its supplied cover artwork",
+      "passed": true,
+      "detail": {
+        "required": [
+          "NDSE2_cover.jpg"
+        ],
+        "images": [
+          {
+            "file": "NDSE2_cover.jpg",
+            "alt": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini.",
+            "naturalWidth": 1000,
+            "naturalHeight": 1499,
+            "complete": true,
+            "width": 234.984375,
+            "height": 352.25,
+            "left": 186,
+            "right": 420.984375,
+            "viewport": 1440,
+            "objectFit": "contain",
+            "clipping": []
+          }
+        ]
+      }
+    },
+    {
+      "check": "desktop catalogues/ndse2.html image NDSE2_cover.jpg loads at the original dimensions",
+      "passed": true,
+      "detail": {
+        "file": "NDSE2_cover.jpg",
+        "alt": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini.",
+        "naturalWidth": 1000,
+        "naturalHeight": 1499,
+        "complete": true,
+        "width": 234.984375,
+        "height": 352.25,
+        "left": 186,
+        "right": 420.984375,
+        "viewport": 1440,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "desktop catalogues/ndse2.html image NDSE2_cover.jpg is uncropped and keeps its proportions",
+      "passed": true,
+      "detail": {
+        "file": "NDSE2_cover.jpg",
+        "alt": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini.",
+        "naturalWidth": 1000,
+        "naturalHeight": 1499,
+        "complete": true,
+        "width": 234.984375,
+        "height": 352.25,
+        "left": 186,
+        "right": 420.984375,
+        "viewport": 1440,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "desktop catalogues/ndse2.html image NDSE2_cover.jpg has informative alternative text",
+      "passed": true,
+      "detail": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini."
+    },
+    {
+      "check": "desktop catalogues/ndse2.html V06 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0HN9J7VZG",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "desktop catalogues/ndse2.html V06 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0HN9J7VZG",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "Local page catalogues/volumes/v01.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "desktop catalogues/volumes/v01.html has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "body": 1440
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes/v01.html includes its supplied cover artwork",
+      "passed": true,
+      "detail": {
+        "required": [
+          "NDseries.png"
+        ],
+        "images": [
+          {
+            "file": "NDseries.png",
+            "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+            "naturalWidth": 313,
+            "naturalHeight": 270,
+            "complete": true,
+            "width": 234.984375,
+            "height": 202.703125,
+            "left": 186,
+            "right": 420.984375,
+            "viewport": 1440,
+            "objectFit": "contain",
+            "clipping": []
+          }
+        ]
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes/v01.html image NDseries.png loads at the original dimensions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 234.984375,
+        "height": 202.703125,
+        "left": 186,
+        "right": 420.984375,
+        "viewport": 1440,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes/v01.html image NDseries.png is uncropped and keeps its proportions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 234.984375,
+        "height": 202.703125,
+        "left": 186,
+        "right": 420.984375,
+        "viewport": 1440,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes/v01.html image NDseries.png has informative alternative text",
+      "passed": true,
+      "detail": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini."
+    },
+    {
+      "check": "desktop catalogues/volumes/v01.html V01 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0G7LPJBTH",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "desktop catalogues/volumes/v01.html V01 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0G7LPJBTH",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "Local page catalogues/volumes/v02.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "desktop catalogues/volumes/v02.html has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "body": 1440
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes/v02.html includes its supplied cover artwork",
+      "passed": true,
+      "detail": {
+        "required": [
+          "NDseries.png"
+        ],
+        "images": [
+          {
+            "file": "NDseries.png",
+            "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+            "naturalWidth": 313,
+            "naturalHeight": 270,
+            "complete": true,
+            "width": 234.984375,
+            "height": 202.703125,
+            "left": 186,
+            "right": 420.984375,
+            "viewport": 1440,
+            "objectFit": "contain",
+            "clipping": []
+          }
+        ]
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes/v02.html image NDseries.png loads at the original dimensions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 234.984375,
+        "height": 202.703125,
+        "left": 186,
+        "right": 420.984375,
+        "viewport": 1440,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes/v02.html image NDseries.png is uncropped and keeps its proportions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 234.984375,
+        "height": 202.703125,
+        "left": 186,
+        "right": 420.984375,
+        "viewport": 1440,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes/v02.html image NDseries.png has informative alternative text",
+      "passed": true,
+      "detail": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini."
+    },
+    {
+      "check": "desktop catalogues/volumes/v02.html V02 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GHFBNC5Z",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "desktop catalogues/volumes/v02.html V02 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GHFBNC5Z",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "Local page catalogues/volumes/v03.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "desktop catalogues/volumes/v03.html has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "body": 1440
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes/v03.html includes its supplied cover artwork",
+      "passed": true,
+      "detail": {
+        "required": [
+          "NDseries.png"
+        ],
+        "images": [
+          {
+            "file": "NDseries.png",
+            "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+            "naturalWidth": 313,
+            "naturalHeight": 270,
+            "complete": true,
+            "width": 234.984375,
+            "height": 202.703125,
+            "left": 186,
+            "right": 420.984375,
+            "viewport": 1440,
+            "objectFit": "contain",
+            "clipping": []
+          }
+        ]
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes/v03.html image NDseries.png loads at the original dimensions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 234.984375,
+        "height": 202.703125,
+        "left": 186,
+        "right": 420.984375,
+        "viewport": 1440,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes/v03.html image NDseries.png is uncropped and keeps its proportions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 234.984375,
+        "height": 202.703125,
+        "left": 186,
+        "right": 420.984375,
+        "viewport": 1440,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes/v03.html image NDseries.png has informative alternative text",
+      "passed": true,
+      "detail": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini."
+    },
+    {
+      "check": "desktop catalogues/volumes/v03.html V03 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GZZDFMYF",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "desktop catalogues/volumes/v03.html V03 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GZZDFMYF",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "Local page catalogues/volumes/v04.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "desktop catalogues/volumes/v04.html has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "body": 1440
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes/v04.html includes its supplied cover artwork",
+      "passed": true,
+      "detail": {
+        "required": [
+          "NDseries.png"
+        ],
+        "images": [
+          {
+            "file": "NDseries.png",
+            "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+            "naturalWidth": 313,
+            "naturalHeight": 270,
+            "complete": true,
+            "width": 234.984375,
+            "height": 202.703125,
+            "left": 186,
+            "right": 420.984375,
+            "viewport": 1440,
+            "objectFit": "contain",
+            "clipping": []
+          }
+        ]
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes/v04.html image NDseries.png loads at the original dimensions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 234.984375,
+        "height": 202.703125,
+        "left": 186,
+        "right": 420.984375,
+        "viewport": 1440,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes/v04.html image NDseries.png is uncropped and keeps its proportions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 234.984375,
+        "height": 202.703125,
+        "left": 186,
+        "right": 420.984375,
+        "viewport": 1440,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes/v04.html image NDseries.png has informative alternative text",
+      "passed": true,
+      "detail": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini."
+    },
+    {
+      "check": "desktop catalogues/volumes/v04.html V04 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GMCFLH2C",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "desktop catalogues/volumes/v04.html V04 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GMCFLH2C",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "Local page catalogues/volumes/v05.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "desktop catalogues/volumes/v05.html has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "body": 1440
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes/v05.html includes its supplied cover artwork",
+      "passed": true,
+      "detail": {
+        "required": [
+          "NDseries.png"
+        ],
+        "images": [
+          {
+            "file": "NDseries.png",
+            "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+            "naturalWidth": 313,
+            "naturalHeight": 270,
+            "complete": true,
+            "width": 234.984375,
+            "height": 202.703125,
+            "left": 186,
+            "right": 420.984375,
+            "viewport": 1440,
+            "objectFit": "contain",
+            "clipping": []
+          }
+        ]
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes/v05.html image NDseries.png loads at the original dimensions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 234.984375,
+        "height": 202.703125,
+        "left": 186,
+        "right": 420.984375,
+        "viewport": 1440,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes/v05.html image NDseries.png is uncropped and keeps its proportions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 234.984375,
+        "height": 202.703125,
+        "left": 186,
+        "right": 420.984375,
+        "viewport": 1440,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes/v05.html image NDseries.png has informative alternative text",
+      "passed": true,
+      "detail": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini."
+    },
+    {
+      "check": "desktop catalogues/volumes/v05.html V05 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0H9W2ST3F",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "desktop catalogues/volumes/v05.html V05 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0H9W2ST3F",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "Local page catalogues/volumes/v06.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "desktop catalogues/volumes/v06.html has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "body": 1440
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes/v06.html includes its supplied cover artwork",
+      "passed": true,
+      "detail": {
+        "required": [
+          "NDSE2_cover.jpg"
+        ],
+        "images": [
+          {
+            "file": "NDSE2_cover.jpg",
+            "alt": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini.",
+            "naturalWidth": 1000,
+            "naturalHeight": 1499,
+            "complete": true,
+            "width": 234.984375,
+            "height": 352.25,
+            "left": 186,
+            "right": 420.984375,
+            "viewport": 1440,
+            "objectFit": "contain",
+            "clipping": []
+          }
+        ]
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes/v06.html image NDSE2_cover.jpg loads at the original dimensions",
+      "passed": true,
+      "detail": {
+        "file": "NDSE2_cover.jpg",
+        "alt": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini.",
+        "naturalWidth": 1000,
+        "naturalHeight": 1499,
+        "complete": true,
+        "width": 234.984375,
+        "height": 352.25,
+        "left": 186,
+        "right": 420.984375,
+        "viewport": 1440,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes/v06.html image NDSE2_cover.jpg is uncropped and keeps its proportions",
+      "passed": true,
+      "detail": {
+        "file": "NDSE2_cover.jpg",
+        "alt": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini.",
+        "naturalWidth": 1000,
+        "naturalHeight": 1499,
+        "complete": true,
+        "width": 234.984375,
+        "height": 352.25,
+        "left": 186,
+        "right": 420.984375,
+        "viewport": 1440,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "desktop catalogues/volumes/v06.html image NDSE2_cover.jpg has informative alternative text",
+      "passed": true,
+      "detail": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini."
+    },
+    {
+      "check": "desktop catalogues/volumes/v06.html V06 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0HN9J7VZG",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "desktop catalogues/volumes/v06.html V06 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0HN9J7VZG",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "Local page catalogues/books.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "desktop earlier-books catalogue retains all 111 historical or chapter records",
+      "passed": true,
+      "detail": 111
+    },
+    {
+      "check": "desktop earlier-books catalogue search finds B001",
+      "passed": true,
+      "detail": 17
+    },
+    {
+      "check": "desktop earlier-books catalogue empty search state works",
+      "passed": true
+    },
+    {
+      "check": "desktop earlier-books catalogue clear restores all records",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "desktop NDSE2 catalogue retains all 13 historical or chapter records",
+      "passed": true,
+      "detail": 13
+    },
+    {
+      "check": "desktop NDSE2 catalogue search finds NDSE2:C07",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "check": "desktop NDSE2 catalogue empty search state works",
+      "passed": true
+    },
+    {
+      "check": "desktop NDSE2 catalogue clear restores all records",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/books.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "mobile catalogues/books.html has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 390,
+        "document": 390,
+        "body": 390
+      }
+    },
+    {
+      "check": "mobile catalogues/books.html includes its supplied cover artwork",
+      "passed": true,
+      "detail": {
+        "required": [
+          "NDseries.png"
+        ],
+        "images": [
+          {
+            "file": "NDseries.png",
+            "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+            "naturalWidth": 313,
+            "naturalHeight": 270,
+            "complete": true,
+            "width": 244.96875,
+            "height": 211.328125,
+            "left": 72.515625,
+            "right": 317.484375,
+            "viewport": 390,
+            "objectFit": "contain",
+            "clipping": []
+          }
+        ]
+      }
+    },
+    {
+      "check": "mobile catalogues/books.html image NDseries.png loads at the original dimensions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 244.96875,
+        "height": 211.328125,
+        "left": 72.515625,
+        "right": 317.484375,
+        "viewport": 390,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "mobile catalogues/books.html image NDseries.png is uncropped and keeps its proportions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 244.96875,
+        "height": 211.328125,
+        "left": 72.515625,
+        "right": 317.484375,
+        "viewport": 390,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "mobile catalogues/books.html image NDseries.png has informative alternative text",
+      "passed": true,
+      "detail": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini."
+    },
+    {
+      "check": "mobile catalogues/books.html series has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GHCXPBRM",
+          "text": "View the series on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 308,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "mobile catalogues/books.html series external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GHCXPBRM",
+          "text": "View the series on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 308,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "Local page catalogues/volumes.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "mobile catalogues/volumes.html has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 390,
+        "document": 390,
+        "body": 390
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes.html includes its supplied cover artwork",
+      "passed": true,
+      "detail": {
+        "required": [
+          "NDseries.png"
+        ],
+        "images": [
+          {
+            "file": "NDseries.png",
+            "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+            "naturalWidth": 313,
+            "naturalHeight": 270,
+            "complete": true,
+            "width": 244.96875,
+            "height": 211.328125,
+            "left": 72.515625,
+            "right": 317.484375,
+            "viewport": 390,
+            "objectFit": "contain",
+            "clipping": []
+          },
+          {
+            "file": "NDSE2_cover.jpg",
+            "alt": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini.",
+            "naturalWidth": 1000,
+            "naturalHeight": 1499,
+            "complete": true,
+            "width": 169.984375,
+            "height": 254.828125,
+            "left": 110,
+            "right": 279.984375,
+            "viewport": 390,
+            "objectFit": "contain",
+            "clipping": []
+          }
+        ]
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes.html image NDseries.png loads at the original dimensions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 244.96875,
+        "height": 211.328125,
+        "left": 72.515625,
+        "right": 317.484375,
+        "viewport": 390,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes.html image NDseries.png is uncropped and keeps its proportions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 244.96875,
+        "height": 211.328125,
+        "left": 72.515625,
+        "right": 317.484375,
+        "viewport": 390,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes.html image NDseries.png has informative alternative text",
+      "passed": true,
+      "detail": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini."
+    },
+    {
+      "check": "mobile catalogues/volumes.html image NDSE2_cover.jpg loads at the original dimensions",
+      "passed": true,
+      "detail": {
+        "file": "NDSE2_cover.jpg",
+        "alt": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini.",
+        "naturalWidth": 1000,
+        "naturalHeight": 1499,
+        "complete": true,
+        "width": 169.984375,
+        "height": 254.828125,
+        "left": 110,
+        "right": 279.984375,
+        "viewport": 390,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes.html image NDSE2_cover.jpg is uncropped and keeps its proportions",
+      "passed": true,
+      "detail": {
+        "file": "NDSE2_cover.jpg",
+        "alt": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini.",
+        "naturalWidth": 1000,
+        "naturalHeight": 1499,
+        "complete": true,
+        "width": 169.984375,
+        "height": 254.828125,
+        "left": 110,
+        "right": 279.984375,
+        "viewport": 390,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes.html image NDSE2_cover.jpg has informative alternative text",
+      "passed": true,
+      "detail": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini."
+    },
+    {
+      "check": "mobile catalogues/volumes.html series has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GHCXPBRM",
+          "text": "View the series on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 308,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "mobile catalogues/volumes.html series external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GHCXPBRM",
+          "text": "View the series on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 308,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "mobile catalogues/volumes.html V01 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0G7LPJBTH",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "mobile catalogues/volumes.html V01 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0G7LPJBTH",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "mobile catalogues/volumes.html V02 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GHFBNC5Z",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "mobile catalogues/volumes.html V02 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GHFBNC5Z",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "mobile catalogues/volumes.html V03 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GZZDFMYF",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "mobile catalogues/volumes.html V03 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GZZDFMYF",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "mobile catalogues/volumes.html V04 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GMCFLH2C",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "mobile catalogues/volumes.html V04 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GMCFLH2C",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "mobile catalogues/volumes.html V05 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0H9W2ST3F",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "mobile catalogues/volumes.html V05 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0H9W2ST3F",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "mobile catalogues/volumes.html V06 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0HN9J7VZG",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "mobile catalogues/volumes.html V06 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0HN9J7VZG",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 277.5625,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "Local page catalogues/ndse2.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "mobile catalogues/ndse2.html has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 390,
+        "document": 390,
+        "body": 390
+      }
+    },
+    {
+      "check": "mobile catalogues/ndse2.html includes its supplied cover artwork",
+      "passed": true,
+      "detail": {
+        "required": [
+          "NDSE2_cover.jpg"
+        ],
+        "images": [
+          {
+            "file": "NDSE2_cover.jpg",
+            "alt": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini.",
+            "naturalWidth": 1000,
+            "naturalHeight": 1499,
+            "complete": true,
+            "width": 209.984375,
+            "height": 314.78125,
+            "left": 90,
+            "right": 299.984375,
+            "viewport": 390,
+            "objectFit": "contain",
+            "clipping": []
+          }
+        ]
+      }
+    },
+    {
+      "check": "mobile catalogues/ndse2.html image NDSE2_cover.jpg loads at the original dimensions",
+      "passed": true,
+      "detail": {
+        "file": "NDSE2_cover.jpg",
+        "alt": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini.",
+        "naturalWidth": 1000,
+        "naturalHeight": 1499,
+        "complete": true,
+        "width": 209.984375,
+        "height": 314.78125,
+        "left": 90,
+        "right": 299.984375,
+        "viewport": 390,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "mobile catalogues/ndse2.html image NDSE2_cover.jpg is uncropped and keeps its proportions",
+      "passed": true,
+      "detail": {
+        "file": "NDSE2_cover.jpg",
+        "alt": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini.",
+        "naturalWidth": 1000,
+        "naturalHeight": 1499,
+        "complete": true,
+        "width": 209.984375,
+        "height": 314.78125,
+        "left": 90,
+        "right": 299.984375,
+        "viewport": 390,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "mobile catalogues/ndse2.html image NDSE2_cover.jpg has informative alternative text",
+      "passed": true,
+      "detail": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini."
+    },
+    {
+      "check": "mobile catalogues/ndse2.html V06 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0HN9J7VZG",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 308,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "mobile catalogues/ndse2.html V06 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0HN9J7VZG",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 308,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "Local page catalogues/volumes/v01.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "mobile catalogues/volumes/v01.html has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 390,
+        "document": 390,
+        "body": 390
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes/v01.html includes its supplied cover artwork",
+      "passed": true,
+      "detail": {
+        "required": [
+          "NDseries.png"
+        ],
+        "images": [
+          {
+            "file": "NDseries.png",
+            "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+            "naturalWidth": 313,
+            "naturalHeight": 270,
+            "complete": true,
+            "width": 244.96875,
+            "height": 211.328125,
+            "left": 72.515625,
+            "right": 317.484375,
+            "viewport": 390,
+            "objectFit": "contain",
+            "clipping": []
+          }
+        ]
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes/v01.html image NDseries.png loads at the original dimensions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 244.96875,
+        "height": 211.328125,
+        "left": 72.515625,
+        "right": 317.484375,
+        "viewport": 390,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes/v01.html image NDseries.png is uncropped and keeps its proportions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 244.96875,
+        "height": 211.328125,
+        "left": 72.515625,
+        "right": 317.484375,
+        "viewport": 390,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes/v01.html image NDseries.png has informative alternative text",
+      "passed": true,
+      "detail": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini."
+    },
+    {
+      "check": "mobile catalogues/volumes/v01.html V01 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0G7LPJBTH",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 308,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "mobile catalogues/volumes/v01.html V01 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0G7LPJBTH",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 308,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "Local page catalogues/volumes/v02.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "mobile catalogues/volumes/v02.html has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 390,
+        "document": 390,
+        "body": 390
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes/v02.html includes its supplied cover artwork",
+      "passed": true,
+      "detail": {
+        "required": [
+          "NDseries.png"
+        ],
+        "images": [
+          {
+            "file": "NDseries.png",
+            "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+            "naturalWidth": 313,
+            "naturalHeight": 270,
+            "complete": true,
+            "width": 244.96875,
+            "height": 211.328125,
+            "left": 72.515625,
+            "right": 317.484375,
+            "viewport": 390,
+            "objectFit": "contain",
+            "clipping": []
+          }
+        ]
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes/v02.html image NDseries.png loads at the original dimensions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 244.96875,
+        "height": 211.328125,
+        "left": 72.515625,
+        "right": 317.484375,
+        "viewport": 390,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes/v02.html image NDseries.png is uncropped and keeps its proportions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 244.96875,
+        "height": 211.328125,
+        "left": 72.515625,
+        "right": 317.484375,
+        "viewport": 390,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes/v02.html image NDseries.png has informative alternative text",
+      "passed": true,
+      "detail": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini."
+    },
+    {
+      "check": "mobile catalogues/volumes/v02.html V02 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GHFBNC5Z",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 308,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "mobile catalogues/volumes/v02.html V02 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GHFBNC5Z",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 308,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "Local page catalogues/volumes/v03.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "mobile catalogues/volumes/v03.html has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 390,
+        "document": 390,
+        "body": 390
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes/v03.html includes its supplied cover artwork",
+      "passed": true,
+      "detail": {
+        "required": [
+          "NDseries.png"
+        ],
+        "images": [
+          {
+            "file": "NDseries.png",
+            "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+            "naturalWidth": 313,
+            "naturalHeight": 270,
+            "complete": true,
+            "width": 244.96875,
+            "height": 211.328125,
+            "left": 72.515625,
+            "right": 317.484375,
+            "viewport": 390,
+            "objectFit": "contain",
+            "clipping": []
+          }
+        ]
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes/v03.html image NDseries.png loads at the original dimensions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 244.96875,
+        "height": 211.328125,
+        "left": 72.515625,
+        "right": 317.484375,
+        "viewport": 390,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes/v03.html image NDseries.png is uncropped and keeps its proportions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 244.96875,
+        "height": 211.328125,
+        "left": 72.515625,
+        "right": 317.484375,
+        "viewport": 390,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes/v03.html image NDseries.png has informative alternative text",
+      "passed": true,
+      "detail": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini."
+    },
+    {
+      "check": "mobile catalogues/volumes/v03.html V03 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GZZDFMYF",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 308,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "mobile catalogues/volumes/v03.html V03 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GZZDFMYF",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 308,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "Local page catalogues/volumes/v04.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "mobile catalogues/volumes/v04.html has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 390,
+        "document": 390,
+        "body": 390
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes/v04.html includes its supplied cover artwork",
+      "passed": true,
+      "detail": {
+        "required": [
+          "NDseries.png"
+        ],
+        "images": [
+          {
+            "file": "NDseries.png",
+            "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+            "naturalWidth": 313,
+            "naturalHeight": 270,
+            "complete": true,
+            "width": 244.96875,
+            "height": 211.328125,
+            "left": 72.515625,
+            "right": 317.484375,
+            "viewport": 390,
+            "objectFit": "contain",
+            "clipping": []
+          }
+        ]
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes/v04.html image NDseries.png loads at the original dimensions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 244.96875,
+        "height": 211.328125,
+        "left": 72.515625,
+        "right": 317.484375,
+        "viewport": 390,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes/v04.html image NDseries.png is uncropped and keeps its proportions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 244.96875,
+        "height": 211.328125,
+        "left": 72.515625,
+        "right": 317.484375,
+        "viewport": 390,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes/v04.html image NDseries.png has informative alternative text",
+      "passed": true,
+      "detail": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini."
+    },
+    {
+      "check": "mobile catalogues/volumes/v04.html V04 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GMCFLH2C",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 308,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "mobile catalogues/volumes/v04.html V04 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0GMCFLH2C",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 308,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "Local page catalogues/volumes/v05.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "mobile catalogues/volumes/v05.html has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 390,
+        "document": 390,
+        "body": 390
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes/v05.html includes its supplied cover artwork",
+      "passed": true,
+      "detail": {
+        "required": [
+          "NDseries.png"
+        ],
+        "images": [
+          {
+            "file": "NDseries.png",
+            "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+            "naturalWidth": 313,
+            "naturalHeight": 270,
+            "complete": true,
+            "width": 244.96875,
+            "height": 211.328125,
+            "left": 72.515625,
+            "right": 317.484375,
+            "viewport": 390,
+            "objectFit": "contain",
+            "clipping": []
+          }
+        ]
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes/v05.html image NDseries.png loads at the original dimensions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 244.96875,
+        "height": 211.328125,
+        "left": 72.515625,
+        "right": 317.484375,
+        "viewport": 390,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes/v05.html image NDseries.png is uncropped and keeps its proportions",
+      "passed": true,
+      "detail": {
+        "file": "NDseries.png",
+        "alt": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini.",
+        "naturalWidth": 313,
+        "naturalHeight": 270,
+        "complete": true,
+        "width": 244.96875,
+        "height": 211.328125,
+        "left": 72.515625,
+        "right": 317.484375,
+        "viewport": 390,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes/v05.html image NDseries.png has informative alternative text",
+      "passed": true,
+      "detail": "Non-Deterministic series artwork showing the Software Engineering, Spec-Driven Development and Loop Engineering books by Enrico Papalini."
+    },
+    {
+      "check": "mobile catalogues/volumes/v05.html V05 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0H9W2ST3F",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 308,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "mobile catalogues/volumes/v05.html V05 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0H9W2ST3F",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 308,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "Local page catalogues/volumes/v06.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "mobile catalogues/volumes/v06.html has no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 390,
+        "document": 390,
+        "body": 390
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes/v06.html includes its supplied cover artwork",
+      "passed": true,
+      "detail": {
+        "required": [
+          "NDSE2_cover.jpg"
+        ],
+        "images": [
+          {
+            "file": "NDSE2_cover.jpg",
+            "alt": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini.",
+            "naturalWidth": 1000,
+            "naturalHeight": 1499,
+            "complete": true,
+            "width": 209.984375,
+            "height": 314.78125,
+            "left": 90,
+            "right": 299.984375,
+            "viewport": 390,
+            "objectFit": "contain",
+            "clipping": []
+          }
+        ]
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes/v06.html image NDSE2_cover.jpg loads at the original dimensions",
+      "passed": true,
+      "detail": {
+        "file": "NDSE2_cover.jpg",
+        "alt": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini.",
+        "naturalWidth": 1000,
+        "naturalHeight": 1499,
+        "complete": true,
+        "width": 209.984375,
+        "height": 314.78125,
+        "left": 90,
+        "right": 299.984375,
+        "viewport": 390,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes/v06.html image NDSE2_cover.jpg is uncropped and keeps its proportions",
+      "passed": true,
+      "detail": {
+        "file": "NDSE2_cover.jpg",
+        "alt": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini.",
+        "naturalWidth": 1000,
+        "naturalHeight": 1499,
+        "complete": true,
+        "width": 209.984375,
+        "height": 314.78125,
+        "left": 90,
+        "right": 299.984375,
+        "viewport": 390,
+        "objectFit": "contain",
+        "clipping": []
+      }
+    },
+    {
+      "check": "mobile catalogues/volumes/v06.html image NDSE2_cover.jpg has informative alternative text",
+      "passed": true,
+      "detail": "Cover of Non-Deterministic Software Engineering, Second Edition, by Enrico Papalini."
+    },
+    {
+      "check": "mobile catalogues/volumes/v06.html V06 has an explicit Amazon.com action",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0HN9J7VZG",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 308,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "mobile catalogues/volumes/v06.html V06 external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0HN9J7VZG",
+          "text": "View this book on Amazon.com ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 308,
+          "height": 42.796875
+        }
+      ]
+    },
+    {
+      "check": "Local page catalogues/books.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "mobile earlier-books catalogue retains all 111 historical or chapter records",
+      "passed": true,
+      "detail": 111
+    },
+    {
+      "check": "mobile earlier-books catalogue search finds B001",
+      "passed": true,
+      "detail": 17
+    },
+    {
+      "check": "mobile earlier-books catalogue empty search state works",
+      "passed": true
+    },
+    {
+      "check": "mobile earlier-books catalogue clear restores all records",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "mobile NDSE2 catalogue retains all 13 historical or chapter records",
+      "passed": true,
+      "detail": 13
+    },
+    {
+      "check": "mobile NDSE2 catalogue search finds NDSE2:C07",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "check": "mobile NDSE2 catalogue empty search state works",
+      "passed": true
+    },
+    {
+      "check": "mobile NDSE2 catalogue clear restores all records",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html#NDSE2%3AC07",
+      "passed": true
+    },
+    {
+      "check": "NDSE2 chapter guide navigation works",
+      "passed": true,
+      "detail": "http://127.0.0.1:35149/catalogues/chapters/c07.html"
+    },
+    {
+      "check": "Chapter 7 guide retains learning goals and source citations",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/practices.html#PAT%3A027",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "Maker-Checker practice guide is expanded at its permanent link",
+      "passed": true
+    },
+    {
+      "check": "Practice-to-Atlas navigation works",
+      "passed": true,
+      "detail": "http://127.0.0.1:35149/swe_knowledge_graph.html?collection=PAT&grouping=family&node=PAT%3A027"
+    },
+    {
+      "check": "Practice still selects PAT:027 in its 84-practice collection",
+      "passed": true,
+      "detail": {
+        "version": "v13.2",
+        "sha256": "896c628fe54fcd04db8b4d1260371428f6326de31580a557a93142640adb60a3",
+        "totalNodes": 1931,
+        "totalEdges": 13615,
+        "totalRelations": 309,
+        "visibleNodeIDs": [
+          "PAT:001",
+          "PAT:002",
+          "PAT:003",
+          "PAT:004",
+          "PAT:005",
+          "PAT:006",
+          "PAT:007",
+          "PAT:008",
+          "PAT:009",
+          "PAT:010",
+          "PAT:011",
+          "PAT:012",
+          "PAT:013",
+          "PAT:014",
+          "PAT:015",
+          "PAT:016",
+          "PAT:017",
+          "PAT:018",
+          "PAT:019",
+          "PAT:020",
+          "PAT:021",
+          "PAT:022",
+          "PAT:023",
+          "PAT:024",
+          "PAT:025",
+          "PAT:026",
+          "PAT:027",
+          "PAT:028",
+          "PAT:029",
+          "PAT:030",
+          "PAT:031",
+          "PAT:032",
+          "PAT:033",
+          "PAT:034",
+          "PAT:035",
+          "PAT:036",
+          "PAT:037",
+          "PAT:038",
+          "PAT:039",
+          "PAT:040",
+          "PAT:041",
+          "PAT:042",
+          "PAT:043",
+          "PAT:044",
+          "PAT:045",
+          "PAT:046",
+          "PAT:047",
+          "PAT:048",
+          "PAT:049",
+          "PAT:050",
+          "PAT:051",
+          "PAT:052",
+          "PAT:053",
+          "PAT:054",
+          "PAT:055",
+          "PAT:056",
+          "PAT:057",
+          "PAT:058",
+          "PAT:059",
+          "PAT:060",
+          "PAT:061",
+          "PAT:062",
+          "PAT:063",
+          "PAT:064",
+          "PAT:065",
+          "PAT:066",
+          "PAT:067",
+          "PAT:068",
+          "PAT:069",
+          "PAT:070",
+          "PAT:071",
+          "PAT:072",
+          "PAT:073",
+          "PAT:074",
+          "PAT:075",
+          "PAT:076",
+          "PAT:077",
+          "PAT:078",
+          "PAT:079",
+          "PAT:080",
+          "PAT:081",
+          "PAT:082",
+          "PAT:083",
+          "PAT:084"
+        ],
+        "visibleEdgeIDs": [],
+        "visibleSources": 84,
+        "visibleContext": 0,
+        "grouping": "family",
+        "chapterBasis": "mapped",
+        "groups": [
+          {
+            "id": "FAMILY:F03",
+            "count": 14,
+            "x": 7,
+            "y": 7,
+            "w": 284.4641982864137,
+            "h": 325.94789728321547
+          },
+          {
+            "id": "FAMILY:F09",
+            "count": 13,
+            "x": 7,
+            "y": 346.94789728321547,
+            "w": 284.4641982864137,
+            "h": 306.0521027167845
+          },
+          {
+            "id": "FAMILY:F04",
+            "count": 11,
+            "x": 305.4641982864137,
+            "y": 7,
+            "w": 230.48072215422278,
+            "h": 328.1444797819173
+          },
+          {
+            "id": "FAMILY:F06",
+            "count": 10,
+            "x": 305.4641982864137,
+            "y": 349.1444797819173,
+            "w": 230.48072215422278,
+            "h": 303.8555202180827
+          },
+          {
+            "id": "FAMILY:F11",
+            "count": 9,
+            "x": 549.9449204406365,
+            "y": 7,
+            "w": 297.7130745706221,
+            "h": 216.24816924328724
+          },
+          {
+            "id": "FAMILY:F05",
+            "count": 6,
+            "x": 861.6579950112585,
+            "y": 7,
+            "w": 220.34200498874142,
+            "h": 216.24816924328724
+          },
+          {
+            "id": "FAMILY:F07",
+            "count": 6,
+            "x": 549.9449204406365,
+            "y": 237.24816924328724,
+            "w": 237.10686570177543,
+            "h": 200.87591537835638
+          },
+          {
+            "id": "FAMILY:F08",
+            "count": 6,
+            "x": 549.9449204406365,
+            "y": 452.12408462164365,
+            "w": 237.10686570177543,
+            "h": 200.87591537835638
+          },
+          {
+            "id": "FAMILY:F10",
+            "count": 4,
+            "x": 801.0517861424119,
+            "y": 237.24816924328724,
+            "w": 144.66942338730607,
+            "h": 251.20833049011713
+          },
+          {
+            "id": "FAMILY:F12",
+            "count": 3,
+            "x": 959.721209529718,
+            "y": 237.24816924328724,
+            "w": 122.27879047028205,
+            "h": 251.20833049011713
+          },
+          {
+            "id": "FAMILY:F01",
+            "count": 1,
+            "x": 801.0517861424119,
+            "y": 502.45649973340437,
+            "w": 133.47410692879404,
+            "h": 150.54350026659566
+          },
+          {
+            "id": "FAMILY:F02",
+            "count": 1,
+            "x": 948.5258930712059,
+            "y": 502.45649973340437,
+            "w": 133.4741069287941,
+            "h": 150.54350026659557
+          }
+        ],
+        "layoutRunning": false,
+        "selected": "PAT:027",
+        "selectedEdge": null,
+        "pinned": [],
+        "camera": {
+          "k": 1.35,
+          "x": -571.7213441179068,
+          "y": -62.67627135882833
+        },
+        "positions": [
+          {
+            "id": "PAT:001",
+            "x": 63.07736638106895,
+            "y": 82.39478972832154,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:002",
+            "x": 923.2434962584439,
+            "y": 81.70802820721454,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:003",
+            "x": 608.2304328690734,
+            "y": 81.70802820721454,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:004",
+            "x": 149.23209914320685,
+            "y": 82.39478972832154,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:005",
+            "x": 369.5843788249694,
+            "y": 78.1787066484931,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:006",
+            "x": 63.07736638106895,
+            "y": 420.35310755489394,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:007",
+            "x": 149.23209914320685,
+            "y": 420.35310755489394,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:008",
+            "x": 235.38683190534474,
+            "y": 420.35310755489394,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:009",
+            "x": 698.8014577259476,
+            "y": 81.70802820721454,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:010",
+            "x": 615.7216368660803,
+            "y": 524.2700705180364,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:011",
+            "x": 235.38683190534474,
+            "y": 82.39478972832154,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:012",
+            "x": 873.3864978360649,
+            "y": 309.89921055455187,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:013",
+            "x": 235.38683190534474,
+            "y": 135.18436918496465,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:014",
+            "x": 615.7216368660803,
+            "y": 309.39415513968,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:015",
+            "x": 721.275069716968,
+            "y": 309.39415513968,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:016",
+            "x": 235.38683190534474,
+            "y": 469.1635280982508,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:017",
+            "x": 369.5843788249694,
+            "y": 422.3300318037256,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:018",
+            "x": 471.82473990208075,
+            "y": 422.3300318037256,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:019",
+            "x": 789.3724825828215,
+            "y": 81.70802820721454,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:020",
+            "x": 149.23209914320685,
+            "y": 469.1635280982508,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:021",
+            "x": 149.23209914320685,
+            "y": 135.18436918496465,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:022",
+            "x": 721.275069716968,
+            "y": 524.2700705180364,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:023",
+            "x": 63.07736638106895,
+            "y": 135.18436918496465,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:024",
+            "x": 63.07736638106895,
+            "y": 187.97394864160773,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:025",
+            "x": 149.23209914320685,
+            "y": 187.97394864160773,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:026",
+            "x": 235.38683190534474,
+            "y": 187.97394864160773,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:027",
+            "x": 721.275069716968,
+            "y": 355.6861269324654,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:028",
+            "x": 63.07736638106895,
+            "y": 469.1635280982508,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:029",
+            "x": 63.07736638106895,
+            "y": 517.9739486416076,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:030",
+            "x": 471.82473990208075,
+            "y": 470.70113584734213,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:031",
+            "x": 789.3724825828215,
+            "y": 133.12408462164362,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:032",
+            "x": 698.8014577259476,
+            "y": 133.12408462164362,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:033",
+            "x": 1020.860604764859,
+            "y": 317.7828909916401,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:034",
+            "x": 369.5843788249694,
+            "y": 470.70113584734213,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:035",
+            "x": 608.2304328690734,
+            "y": 133.12408462164362,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:036",
+            "x": 1020.4144987528146,
+            "y": 81.70802820721454,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:037",
+            "x": 369.5843788249694,
+            "y": 519.0722398909586,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:038",
+            "x": 149.23209914320685,
+            "y": 517.9739486416076,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:039",
+            "x": 721.275069716968,
+            "y": 570.5620423108219,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:040",
+            "x": 1020.4144987528146,
+            "y": 133.12408462164362,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:041",
+            "x": 235.38683190534474,
+            "y": 517.9739486416076,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:042",
+            "x": 1020.860604764859,
+            "y": 380.85233448834583,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:043",
+            "x": 471.82473990208075,
+            "y": 78.1787066484931,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:044",
+            "x": 615.7216368660803,
+            "y": 355.6861269324654,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:045",
+            "x": 867.7888396068089,
+            "y": 595.7282498667022,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:046",
+            "x": 235.38683190534474,
+            "y": 240.76352809825084,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:047",
+            "x": 235.38683190534474,
+            "y": 566.7843691849646,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:048",
+            "x": 873.3864978360649,
+            "y": 357.2012931770812,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:049",
+            "x": 923.2434962584439,
+            "y": 133.12408462164362,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:050",
+            "x": 873.3864978360649,
+            "y": 404.50337579961047,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:051",
+            "x": 471.82473990208075,
+            "y": 519.0722398909586,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:052",
+            "x": 615.7216368660803,
+            "y": 570.5620423108219,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:053",
+            "x": 149.23209914320685,
+            "y": 566.7843691849646,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:054",
+            "x": 923.2434962584439,
+            "y": 184.5401410360727,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:055",
+            "x": 873.3864978360649,
+            "y": 451.80545842213974,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:056",
+            "x": 608.2304328690734,
+            "y": 184.5401410360727,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:057",
+            "x": 698.8014577259476,
+            "y": 184.5401410360727,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:058",
+            "x": 471.82473990208075,
+            "y": 567.4433439345752,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:059",
+            "x": 1015.262946535603,
+            "y": 595.7282498667022,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:060",
+            "x": 1020.860604764859,
+            "y": 443.9217779850515,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:061",
+            "x": 471.82473990208075,
+            "y": 122.53611994547933,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:062",
+            "x": 63.07736638106895,
+            "y": 566.7843691849646,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:063",
+            "x": 1020.4144987528146,
+            "y": 184.5401410360727,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:064",
+            "x": 369.5843788249694,
+            "y": 122.53611994547933,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:065",
+            "x": 149.23209914320685,
+            "y": 240.76352809825084,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:066",
+            "x": 369.5843788249694,
+            "y": 166.89353324246554,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:067",
+            "x": 471.82473990208075,
+            "y": 166.89353324246554,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:068",
+            "x": 471.82473990208075,
+            "y": 211.25094653945175,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:069",
+            "x": 369.5843788249694,
+            "y": 211.25094653945175,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:070",
+            "x": 369.5843788249694,
+            "y": 255.60835983643798,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:071",
+            "x": 471.82473990208075,
+            "y": 255.60835983643798,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:072",
+            "x": 63.07736638106895,
+            "y": 615.5947897283215,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:073",
+            "x": 63.07736638106895,
+            "y": 240.76352809825084,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:074",
+            "x": 615.7216368660803,
+            "y": 616.8540141036073,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:075",
+            "x": 721.275069716968,
+            "y": 616.8540141036073,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:076",
+            "x": 471.82473990208075,
+            "y": 299.9657731334242,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:077",
+            "x": 369.5843788249694,
+            "y": 567.4433439345752,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:078",
+            "x": 369.5843788249694,
+            "y": 615.8144479781918,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:079",
+            "x": 471.82473990208075,
+            "y": 615.8144479781918,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:080",
+            "x": 615.7216368660803,
+            "y": 401.9780987252509,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:081",
+            "x": 63.07736638106895,
+            "y": 293.5531075548939,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:082",
+            "x": 721.275069716968,
+            "y": 401.9780987252509,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:083",
+            "x": 149.23209914320685,
+            "y": 293.5531075548939,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          },
+          {
+            "id": "PAT:084",
+            "x": 789.3724825828215,
+            "y": 184.5401410360727,
+            "w": 64,
+            "h": 25,
+            "pinned": false
+          }
+        ],
+        "canvas": {
+          "width": 1154,
+          "height": 835
+        },
+        "nodeAttributeCount": 40813,
+        "edgeAttributeCount": 77224,
+        "sourceCounts": {
+          "W": 0,
+          "O": 0,
+          "P": 0,
+          "B": 0,
+          "PAT": 84,
+          "F": 0,
+          "N": 0
+        }
+      }
+    },
+    {
+      "check": "Practice inspector retains its catalogue return link",
+      "passed": true
+    },
+    {
+      "check": "Atlas-to-practice return navigation works",
+      "passed": true,
+      "detail": "http://127.0.0.1:35149/catalogues/practices.html#PAT%3A027"
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html?node=PUB%3ANDSE2",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "NDSE2 published-book Atlas node remains directly selectable",
+      "passed": true,
+      "detail": "PUB:NDSE2"
+    },
+    {
+      "check": "NDSE2 Atlas inspector purchase link has the direct Amazon.com destination",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0HN9J7VZG",
+          "text": "Open recorded source ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 170.734375,
+          "height": 34
+        }
+      ]
+    },
+    {
+      "check": "NDSE2 Atlas inspector purchase link external new-tab action is safe",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://www.amazon.com/dp/B0HN9J7VZG",
+          "text": "Open recorded source ↗",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "width": 170.734375,
+          "height": 34
+        }
+      ]
+    },
+    {
+      "check": "No external page was requested or opened",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Visited pages have no JavaScript runtime errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Visited pages have no console errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Visited pages have no local HTTP failures",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Site contents stayed unchanged during browser verification",
+      "passed": true
+    }
+  ],
+  "error": null
+}

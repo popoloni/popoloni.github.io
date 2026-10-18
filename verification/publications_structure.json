@@ -1,0 +1,1019 @@
+{
+  "schema_version": 1,
+  "kind": "atlas_structural_validation",
+  "complete": true,
+  "checked_at": "2026-10-18T15:11:20.440819+00:00",
+  "site_version": "13.2",
+  "graph_snapshot": "2026-10-18",
+  "passed": 232,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "Node IDs are unique",
+      "passed": true
+    },
+    {
+      "check": "Keyed-edge IDs are unique",
+      "passed": true
+    },
+    {
+      "check": "Every graph edge endpoint is a valid node index",
+      "passed": true
+    },
+    {
+      "check": "Relation metadata and counts equal the exact graph",
+      "passed": true
+    },
+    {
+      "check": "Every baseline node ID retains its original position",
+      "passed": true
+    },
+    {
+      "check": "Every baseline keyed edge remains byte-equivalent as the graph prefix",
+      "passed": true,
+      "detail": {
+        "baseline_edges": 13615
+      }
+    },
+    {
+      "check": "Original Polimi defaultState is unchanged",
+      "passed": true
+    },
+    {
+      "check": "The configured source template embeds the delivered graph",
+      "passed": true
+    },
+    {
+      "check": "The normalized JSON export equals the delivered graph",
+      "passed": true,
+      "detail": "data/graph/atlas_payload_v13.json"
+    },
+    {
+      "check": "Raw JSON reconstructs every current display node and raw attribute",
+      "passed": true
+    },
+    {
+      "check": "Raw JSON reconstructs every keyed edge, endpoint, family and attribute",
+      "passed": true
+    },
+    {
+      "check": "GraphML preserves all current graph, node, edge and mixed-key data",
+      "passed": true,
+      "detail": {
+        "nodes": 1931,
+        "edges": 13615,
+        "errors": []
+      }
+    },
+    {
+      "check": "Payload metadata contains the current GraphML SHA-256",
+      "passed": true
+    },
+    {
+      "check": "Published chapter records exactly match the supplied book",
+      "passed": true,
+      "detail": {
+        "chapters": 13
+      }
+    },
+    {
+      "check": "Published section nodes exactly match the supplied book",
+      "passed": true,
+      "detail": {
+        "sections": 149
+      }
+    },
+    {
+      "check": "English and Italian chapter source sets and section IDs align",
+      "passed": true
+    },
+    {
+      "check": "Book citations and bibliography resolve to graph nodes",
+      "passed": true
+    },
+    {
+      "check": "Every current chapter membership equals literal manuscript use",
+      "passed": true,
+      "detail": {
+        "errors": [],
+        "occurrences_by_language": {
+          "EN": 302,
+          "ITA": 302
+        },
+        "distinct_cited_sources": 158
+      }
+    },
+    {
+      "check": "Current printed flags equal loaded bibliography membership, including auxiliaries",
+      "passed": true,
+      "detail": {
+        "entries": 241,
+        "errors": []
+      }
+    },
+    {
+      "check": "Literal chapter citations remain in the broader mapped reading view",
+      "passed": true
+    },
+    {
+      "check": "Current NDSE2_CHAPTER_CITES has exact endpoints, languages, counts and locators",
+      "passed": true,
+      "detail": {
+        "edges": 446,
+        "expected": 446,
+        "errors": []
+      }
+    },
+    {
+      "check": "Current NDSE2_SECTION_CITES has exact endpoints, languages, counts and locators",
+      "passed": true,
+      "detail": {
+        "edges": 532,
+        "expected": 532,
+        "errors": []
+      }
+    },
+    {
+      "check": "Current NDSE2_DOCUMENT_CITES has exact endpoints, languages, counts and locators",
+      "passed": true,
+      "detail": {
+        "edges": 216,
+        "expected": 216,
+        "errors": []
+      }
+    },
+    {
+      "check": "Occurrence export matches literal bilingual body citations and excludes index/workref/nocite",
+      "passed": true,
+      "detail": {
+        "occurrences": 882
+      }
+    },
+    {
+      "check": "Book extraction metadata identifies the delivered parser bytes",
+      "passed": true
+    },
+    {
+      "check": "Practices: The expected PAT collection is present",
+      "passed": true
+    },
+    {
+      "check": "Practices: Every practice descriptor belongs to PAT",
+      "passed": true
+    },
+    {
+      "check": "Practices: PAT contains only practice descriptors",
+      "passed": true
+    },
+    {
+      "check": "Practices: Families and historical occurrences remain contextual records",
+      "passed": true
+    },
+    {
+      "check": "Practices: All historical IDs retained: practice_descriptor",
+      "passed": true
+    },
+    {
+      "check": "Practices: All historical IDs retained: practice_family",
+      "passed": true
+    },
+    {
+      "check": "Practices: All historical IDs retained: practice_occurrence",
+      "passed": true
+    },
+    {
+      "check": "Practices: Every family has an English label, purpose and explanation",
+      "passed": true
+    },
+    {
+      "check": "Practices: All practice-layer nodes have one valid family",
+      "passed": true
+    },
+    {
+      "check": "Practices: Every descriptor has explicit stream and topic classification",
+      "passed": true
+    },
+    {
+      "check": "Practices: Practices do not masquerade as literal bibliography citations",
+      "passed": true
+    },
+    {
+      "check": "Practices: Every practice has complete substantive operational content",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Practices: Practice summaries are distinct",
+      "passed": true
+    },
+    {
+      "check": "Practices: Illustrative examples are distinct",
+      "passed": true
+    },
+    {
+      "check": "Practices: All historical occurrences resolve to a current descriptor",
+      "passed": true
+    },
+    {
+      "check": "Practices: Thematic source locators match the current supplied published book",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All-sources export keeps bibliographic and chapter records separate from practices",
+      "passed": true
+    },
+    {
+      "check": "Declared new source IDs are unique and present",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "New source URLs do not duplicate an existing catalogue record",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "check": "New source URLs are explicit HTTP or HTTPS sources",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Unique HTML anchors: UPDATE_20261018.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: UPDATE_20261018.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: UPDATE_v13_1_20261018.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: UPDATE_v13_1_20261018.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: UPDATE_v13_2_20261018.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: UPDATE_v13_2_20261018.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: about.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: about.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: attribution.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: attribution.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/books.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/books.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/chapters/c01.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/chapters/c01.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/chapters/c02.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/chapters/c02.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/chapters/c03.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/chapters/c03.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/chapters/c04.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/chapters/c04.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/chapters/c05.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/chapters/c05.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/chapters/c06.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/chapters/c06.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/chapters/c07.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/chapters/c07.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/chapters/c08.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/chapters/c08.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/chapters/c09.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/chapters/c09.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/chapters/c10.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/chapters/c10.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/chapters/c11.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/chapters/c11.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/chapters/c12.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/chapters/c12.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/chapters/c13.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/chapters/c13.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/chapters.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/chapters.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/fowler.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/fowler.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/index.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/index.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/ndse2.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/ndse2.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/occurrences.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/occurrences.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/osmani.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/osmani.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/polimi.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/polimi.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/practices.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/practices.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/pragmatic-engineer.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/pragmatic-engineer.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/streams/code-quality-security.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/streams/code-quality-security.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/streams/economics.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/streams/economics.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/streams/engineering-structure.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/streams/engineering-structure.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/streams/jobs-roles.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/streams/jobs-roles.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/streams/productivity.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/streams/productivity.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/streams/skills-learning.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/streams/skills-learning.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/streams/system-knowledge-memory.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/streams/system-knowledge-memory.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/streams/verification-review.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/streams/verification-review.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/streams/what-agents-can-do.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/streams/what-agents-can-do.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/streams.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/streams.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/agent-context-and-persistent-memory.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/agent-context-and-persistent-memory.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/agent-failure-and-escalation.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/agent-failure-and-escalation.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/ai-as-reviewer.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/ai-as-reviewer.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/architecture-and-modularity.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/architecture-and-modularity.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/automation-bias-and-trust.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/automation-bias-and-trust.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/benchmarks-and-construct-validity.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/benchmarks-and-construct-validity.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/code-reuse-and-duplication.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/code-reuse-and-duplication.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/cognitive-offloading-and-skill-debt.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/cognitive-offloading-and-skill-debt.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/controlled-productivity-evidence.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/controlled-productivity-evidence.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/dataset-provenance-and-dependency.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/dataset-provenance-and-dependency.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/dependencies-and-agent-supply-chain.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/dependencies-and-agent-supply-chain.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/developer-workflow-and-adoption.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/developer-workflow-and-adoption.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/economic-costs-and-return.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/economic-costs-and-return.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/employment-and-early-career-roles.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/employment-and-early-career-roles.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/evaluation-methodology-and-baselines.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/evaluation-methodology-and-baselines.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/human-agent-collaboration.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/human-agent-collaboration.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/human-cognitive-load.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/human-cognitive-load.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/independent-verification-and-oracles.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/independent-verification-and-oracles.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/long-running-agent-execution.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/long-running-agent-execution.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/onboarding-and-developer-fluency.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/onboarding-and-developer-fluency.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/output-versus-shipped-value.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/output-versus-shipped-value.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/ownership-and-knowledge-transfer.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/ownership-and-knowledge-transfer.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/prompt-injection-and-malicious-tools.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/prompt-injection-and-malicious-tools.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/remote-work-and-apprenticeship.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/remote-work-and-apprenticeship.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/review-capacity-and-maintainers.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/review-capacity-and-maintainers.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/skills-formation-and-teaching.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/skills-formation-and-teaching.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/specifications-and-governance.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/specifications-and-governance.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/system-understanding-and-rationale.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/system-understanding-and-rationale.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/technical-debt-and-complexity.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/technical-debt-and-complexity.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics/vulnerability-and-secure-code.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics/vulnerability-and-secure-code.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/topics.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/topics.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/volumes/v01.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/volumes/v01.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/volumes/v02.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/volumes/v02.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/volumes/v03.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/volumes/v03.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/volumes/v04.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/volumes/v04.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/volumes/v05.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/volumes/v05.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/volumes/v06.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/volumes/v06.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/volumes.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/volumes.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: downloads.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: downloads.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: index.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: index.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: knowledge-atlas.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: knowledge-atlas.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: swe_knowledge_graph.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: swe_knowledge_graph.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: verification/report.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: verification/report.html",
+      "passed": true
+    },
+    {
+      "check": "All published HTML local links and anchors resolve",
+      "passed": true,
+      "detail": {
+        "checked": 20070,
+        "errors": []
+      }
+    },
+    {
+      "check": "Published HTML declares no external runtime dependency",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Every graph collection has a configured static catalogue",
+      "passed": true
+    },
+    {
+      "check": "Static catalogue IDs match graph: W",
+      "passed": true
+    },
+    {
+      "check": "Catalogue JSON preserves all graph display attributes: W",
+      "passed": true
+    },
+    {
+      "check": "Static catalogue IDs match graph: O",
+      "passed": true
+    },
+    {
+      "check": "Catalogue JSON preserves all graph display attributes: O",
+      "passed": true
+    },
+    {
+      "check": "Static catalogue IDs match graph: P",
+      "passed": true
+    },
+    {
+      "check": "Catalogue JSON preserves all graph display attributes: P",
+      "passed": true
+    },
+    {
+      "check": "Static catalogue IDs match graph: F",
+      "passed": true
+    },
+    {
+      "check": "Catalogue JSON preserves all graph display attributes: F",
+      "passed": true
+    },
+    {
+      "check": "Static catalogue IDs match graph: B",
+      "passed": true
+    },
+    {
+      "check": "Catalogue JSON preserves all graph display attributes: B",
+      "passed": true
+    },
+    {
+      "check": "Static catalogue IDs match graph: N",
+      "passed": true
+    },
+    {
+      "check": "Catalogue JSON preserves all graph display attributes: N",
+      "passed": true
+    },
+    {
+      "check": "Static catalogue IDs match graph: PAT",
+      "passed": true
+    },
+    {
+      "check": "Catalogue JSON preserves all graph display attributes: PAT",
+      "passed": true
+    },
+    {
+      "check": "Static catalogue IDs match graph: practices",
+      "passed": true
+    },
+    {
+      "check": "Static catalogue IDs match graph: occurrences",
+      "passed": true
+    },
+    {
+      "check": "Top-level documentation local file links resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "GitHub Pages nojekyll marker is retained",
+      "passed": true
+    },
+    {
+      "check": "No book manuscripts or third-party full-text PDFs are packaged",
+      "passed": true
+    },
+    {
+      "check": "Every site file stays below the configured upload size limit",
+      "passed": true
+    },
+    {
+      "check": "Frozen source bytes retained: baseline_provenance.json",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Frozen source bytes retained: original_catalogue_provenance.json",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "error": null,
+  "artifact_scope": "All site file paths, SHA-256 and sizes except verification/, SHA256SUMS.txt and development caches.",
+  "external_urls_live_checked": false,
+  "graph_nodes": 1931,
+  "graph_edges": 13615,
+  "graph_relation_types": 309,
+  "source_counts": {
+    "W": 193,
+    "O": 51,
+    "P": 124,
+    "B": 111,
+    "PAT": 84,
+    "F": 35,
+    "N": 13
+  },
+  "html_pages_checked": 81,
+  "internal_links_checked": 20070,
+  "distinct_external_links": 385,
+  "new_source_ids": [],
+  "graph_html_sha256": "04d997d1171cfcab5e339b86942821bf608e97c0b9418d8ecd33567c932a713a",
+  "artifact_sha256": "73b04389abdf7ade2002eb3bc33827d265358c47c5c2dde9575c4e47fad5a39a"
+}
