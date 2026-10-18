@@ -2,18 +2,21 @@
   "meta": {
     "source": "atlas_v13_current.html",
     "snapshot": "2026-10-18",
-    "site_version": "13.0",
+    "site_version": "13.1",
     "count": 12,
     "note": "Materialized view of the current audited graph; complete node fields retained. Source inspection and publication status are recorded per item. The builder performs no new empirical validation."
   },
   "records": [
     {
       "id": "FAMILY:F01",
-      "label": "Ambito, esplorazione e responsabilità",
+      "label": "Scope, Exploration and Accountability",
       "kind": "practice_family",
       "collection": null,
       "category": "practices",
-      "streams": [],
+      "streams": [
+        "T:Engineering structure",
+        "T:What agents can do"
+      ],
       "actual": [
         "C:C01"
       ],
@@ -21,34 +24,44 @@
         "C:C01"
       ],
       "printed": false,
-      "summary": "",
+      "summary": "Decide whether an AI-assisted result is a disposable experiment or a candidate for maintained software. Make the intended outcome, permitted effects and accountable owner explicit before promoting a promising prototype into a longer-lived system.",
       "limitation": "Grouping is not a count of independently validated methods.",
       "url": "",
       "authors": "",
       "year": "",
       "attributes": {
-        "label": "Ambito, esplorazione e responsabilità",
+        "label": "Scope, Exploration and Accountability",
         "kind": "practice_family",
         "collection": "FAMILY",
         "family": "F01",
         "chapter": 1,
         "status": "EDITORIAL_CLASSIFICATION",
-        "purpose": "Scegliere il regime di lavoro e il confine di delega.",
-        "limitation": "Grouping is not a count of independently validated methods."
+        "purpose": "Choose the working regime and the boundary of delegation.",
+        "limitation": "Grouping is not a count of independently validated methods.",
+        "language": "en",
+        "symptom": "A promising prototype has no accountable destination.",
+        "selection_hint": "Start with a reversible exploration and an explicit promotion decision; add delivery controls when the result acquires real users or obligations.",
+        "family_name": "Scope, Exploration and Accountability"
       },
       "topics": [
         "K:Developer workflow and adoption",
         "K:Human-agent collaboration"
       ],
-      "volumes": []
+      "volumes": [],
+      "families": [
+        "FAMILY:F01"
+      ]
     },
     {
       "id": "FAMILY:F02",
-      "label": "Misura e apprendimento operativo",
+      "label": "Measurement and Operational Learning",
       "kind": "practice_family",
       "collection": null,
       "category": "practices",
-      "streams": [],
+      "streams": [
+        "T:Economics",
+        "T:Productivity"
+      ],
       "actual": [
         "C:C02"
       ],
@@ -56,35 +69,45 @@
         "C:C02"
       ],
       "printed": false,
-      "summary": "",
+      "summary": "Connect attempts, human work, waiting, rework and accepted outcomes in a common event record. Compare equivalent work and observation periods, include abandoned attempts, and use the result to identify a specific delivery constraint rather than treating generation activity as delivered value.",
       "limitation": "Grouping is not a count of independently validated methods.",
       "url": "",
       "authors": "",
       "year": "",
       "attributes": {
-        "label": "Misura e apprendimento operativo",
+        "label": "Measurement and Operational Learning",
         "kind": "practice_family",
         "collection": "FAMILY",
         "family": "F02",
         "chapter": 2,
         "status": "EDITORIAL_CLASSIFICATION",
-        "purpose": "Misurare output accettato e lavoro complessivo.",
-        "limitation": "Grouping is not a count of independently validated methods."
+        "purpose": "Measure accepted outcomes and the complete work needed to obtain them.",
+        "limitation": "Grouping is not a count of independently validated methods.",
+        "language": "en",
+        "symptom": "Generation looks faster, but delivery is hard to explain.",
+        "selection_hint": "Define the outcome and denominator before collecting more metrics; keep unknown follow-up explicit.",
+        "family_name": "Measurement and Operational Learning"
       },
       "topics": [
-        "K:Output versus shipped value",
         "K:Controlled productivity evidence",
-        "K:Evaluation methodology and baselines"
+        "K:Evaluation methodology and baselines",
+        "K:Output versus shipped value"
       ],
-      "volumes": []
+      "volumes": [],
+      "families": [
+        "FAMILY:F02"
+      ]
     },
     {
       "id": "FAMILY:F03",
-      "label": "Delega, esecuzione e arresto",
+      "label": "Delegation, Execution and Stopping",
       "kind": "practice_family",
       "collection": null,
       "category": "practices",
-      "streams": [],
+      "streams": [
+        "T:Engineering structure",
+        "T:What agents can do"
+      ],
       "actual": [
         "C:C03"
       ],
@@ -92,35 +115,45 @@
         "C:C03"
       ],
       "printed": false,
-      "summary": "",
+      "summary": "Keep an authorized work item bounded while choosing how planning, execution, retries and stopping operate. Separate a replaceable plan from its governing intention, preserve permission and budget limits across restarts, and escalate unresolved meaning instead of authorizing it through another attempt.",
       "limitation": "Grouping is not a count of independently validated methods.",
       "url": "",
       "authors": "",
       "year": "",
       "attributes": {
-        "label": "Delega, esecuzione e arresto",
+        "label": "Delegation, Execution and Stopping",
         "kind": "practice_family",
         "collection": "FAMILY",
         "family": "F03",
         "chapter": 3,
         "status": "EDITORIAL_CLASSIFICATION",
-        "purpose": "Aggiungere solo il meccanismo necessario al fallimento osservato.",
-        "limitation": "Grouping is not a count of independently validated methods."
+        "purpose": "Add only the execution mechanism justified by the observed failure.",
+        "limitation": "Grouping is not a count of independently validated methods.",
+        "language": "en",
+        "symptom": "An agent keeps working without a useful new signal.",
+        "selection_hint": "Choose one verifiable item, a diagnostic and a stopping condition before introducing more agents, modes or retries.",
+        "family_name": "Delegation, Execution and Stopping"
       },
       "topics": [
-        "K:Long-running agent execution",
         "K:Agent failure and escalation",
-        "K:Benchmarks and construct validity"
+        "K:Benchmarks and construct validity",
+        "K:Long-running agent execution"
       ],
-      "volumes": []
+      "volumes": [],
+      "families": [
+        "FAMILY:F03"
+      ]
     },
     {
       "id": "FAMILY:F04",
-      "label": "Intenzione e specifiche",
+      "label": "Intentions, Contracts and Specifications",
       "kind": "practice_family",
       "collection": null,
       "category": "practices",
-      "streams": [],
+      "streams": [
+        "T:Engineering structure",
+        "T:Verification & review"
+      ],
       "actual": [
         "C:C04"
       ],
@@ -128,34 +161,44 @@
         "C:C04"
       ],
       "printed": false,
-      "summary": "",
+      "summary": "Turn a request into versioned obligations, scenarios and decisions that a maintainer can inspect. Expose consequential ambiguity, challenge contradictions, and keep implementation plans and diagnostic scores subordinate to the current authorized contract. Reopen affected decisions when the intention changes.",
       "limitation": "Grouping is not a count of independently validated methods.",
       "url": "",
       "authors": "",
       "year": "",
       "attributes": {
-        "label": "Intenzione e specifiche",
+        "label": "Intentions, Contracts and Specifications",
         "kind": "practice_family",
         "collection": "FAMILY",
         "family": "F04",
         "chapter": 4,
         "status": "EDITORIAL_CLASSIFICATION",
-        "purpose": "Comporre pattern SDD mantenendo iterazione e autorità.",
-        "limitation": "Grouping is not a count of independently validated methods."
+        "purpose": "Compose specification practices while preserving iteration and decision authority.",
+        "limitation": "Grouping is not a count of independently validated methods.",
+        "language": "en",
+        "symptom": "A polished specification still hides a decisive question.",
+        "selection_hint": "Clarify the question that blocks the next decision; expand the specification only where scope, uncertainty or dependencies require it.",
+        "family_name": "Intentions, Contracts and Specifications"
       },
       "topics": [
-        "K:Specifications and governance",
-        "K:Independent verification and oracles"
+        "K:Independent verification and oracles",
+        "K:Specifications and governance"
       ],
-      "volumes": []
+      "volumes": [],
+      "families": [
+        "FAMILY:F04"
+      ]
     },
     {
       "id": "FAMILY:F05",
-      "label": "Architettura, evoluzione e manutenzione",
+      "label": "Architecture, Evolution and Maintenance",
       "kind": "practice_family",
       "collection": null,
       "category": "practices",
-      "streams": [],
+      "streams": [
+        "T:Code quality & security",
+        "T:System knowledge & memory"
+      ],
       "actual": [
         "C:C05"
       ],
@@ -163,35 +206,45 @@
         "C:C05"
       ],
       "printed": false,
-      "summary": "",
+      "summary": "Evaluate implementation alternatives, migrations and runtime observations against a shared intention. Preserve behavior and ownership while changing structure, record why alternatives were rejected, and check whether another maintainer can make the next meaningful change without avoidable complexity.",
       "limitation": "Grouping is not a count of independently validated methods.",
       "url": "",
       "authors": "",
       "year": "",
       "attributes": {
-        "label": "Architettura, evoluzione e manutenzione",
+        "label": "Architecture, Evolution and Maintenance",
         "kind": "practice_family",
         "collection": "FAMILY",
         "family": "F05",
         "chapter": 5,
         "status": "EDITORIAL_CLASSIFICATION",
-        "purpose": "Valutare un cambiamento anche rispetto al successivo.",
-        "limitation": "Grouping is not a count of independently validated methods."
+        "purpose": "Assess a change in terms of both its immediate behavior and the next change.",
+        "limitation": "Grouping is not a count of independently validated methods.",
+        "language": "en",
+        "symptom": "The patch works, but the next change becomes harder.",
+        "selection_hint": "Use a bounded alternative or migration to examine a concrete design uncertainty before scaling parallel exploration.",
+        "family_name": "Architecture, Evolution and Maintenance"
       },
       "topics": [
         "K:Architecture and modularity",
         "K:Code reuse and duplication",
         "K:Technical debt and complexity"
       ],
-      "volumes": []
+      "volumes": [],
+      "families": [
+        "FAMILY:F05"
+      ]
     },
     {
       "id": "FAMILY:F06",
-      "label": "Sicurezza della catena e degli effetti",
+      "label": "Security of the Toolchain and Its Effects",
       "kind": "practice_family",
       "collection": null,
       "category": "practices",
-      "streams": [],
+      "streams": [
+        "T:Code quality & security",
+        "T:Engineering structure"
+      ],
       "actual": [
         "C:C06"
       ],
@@ -199,35 +252,45 @@
         "C:C06"
       ],
       "printed": false,
-      "summary": "",
+      "summary": "Define who may perform which operation on which data and target, then enforce the boundary outside the model. Combine dependency provenance, content inspection and controlled tool access while treating a scanner result, a permission decision and application correctness as different claims.",
       "limitation": "Grouping is not a count of independently validated methods.",
       "url": "",
       "authors": "",
       "year": "",
       "attributes": {
-        "label": "Sicurezza della catena e degli effetti",
+        "label": "Security of the Toolchain and Its Effects",
         "kind": "practice_family",
         "collection": "FAMILY",
         "family": "F06",
         "chapter": 6,
         "status": "EDITORIAL_CLASSIFICATION",
-        "purpose": "Collegare scanner, policy e contenimento senza garanzie implicite.",
-        "limitation": "Grouping is not a count of independently validated methods."
+        "purpose": "Connect scanning, policy and containment without implying a security guarantee.",
+        "limitation": "Grouping is not a count of independently validated methods.",
+        "language": "en",
+        "symptom": "A clean result was produced through an uncontrolled tool boundary.",
+        "selection_hint": "Establish the permitted operations and data boundaries first; use scans as additional signals and review denied or uncertain actions.",
+        "family_name": "Security of the Toolchain and Its Effects"
       },
       "topics": [
-        "K:Vulnerability and secure code",
+        "K:Dependencies and agent supply chain",
         "K:Prompt injection and malicious tools",
-        "K:Dependencies and agent supply chain"
+        "K:Vulnerability and secure code"
       ],
-      "volumes": []
+      "volumes": [],
+      "families": [
+        "FAMILY:F06"
+      ]
     },
     {
       "id": "FAMILY:F07",
-      "label": "Prove, oracoli e accettazione",
+      "label": "Tests, Oracles and Acceptance Evidence",
       "kind": "practice_family",
       "collection": null,
       "category": "practices",
-      "streams": [],
+      "streams": [
+        "T:Verification & review",
+        "T:What agents can do"
+      ],
       "actual": [
         "C:C07"
       ],
@@ -235,34 +298,44 @@
         "C:C07"
       ],
       "printed": false,
-      "summary": "",
+      "summary": "Derive expected behavior from an authorized source that the candidate cannot rewrite. Use reproducible checks, independent negative cases and identifiable evidence bundles to inspect a result, while preserving the distinction between a passing check, complete assurance and an authorized acceptance decision.",
       "limitation": "Grouping is not a count of independently validated methods.",
       "url": "",
       "authors": "",
       "year": "",
       "attributes": {
-        "label": "Prove, oracoli e accettazione",
+        "label": "Tests, Oracles and Acceptance Evidence",
         "kind": "practice_family",
         "collection": "FAMILY",
         "family": "F07",
         "chapter": 7,
         "status": "EDITORIAL_CLASSIFICATION",
-        "purpose": "Proteggere attesi e provenienza del dossier.",
-        "limitation": "Grouping is not a count of independently validated methods."
+        "purpose": "Protect expected behavior and the provenance of the verification record.",
+        "limitation": "Grouping is not a count of independently validated methods.",
+        "language": "en",
+        "symptom": "The candidate and its tests agree on the wrong answer.",
+        "selection_hint": "Ask where the expected answer came from and who can change it before adding another checker.",
+        "family_name": "Tests, Oracles and Acceptance Evidence"
       },
       "topics": [
-        "K:Independent verification and oracles",
-        "K:Dataset provenance and dependency"
+        "K:Dataset provenance and dependency",
+        "K:Independent verification and oracles"
       ],
-      "volumes": []
+      "volumes": [],
+      "families": [
+        "FAMILY:F07"
+      ]
     },
     {
       "id": "FAMILY:F08",
-      "label": "Critica, review e fiducia",
+      "label": "Critique, Review and Trust",
       "kind": "practice_family",
       "collection": null,
       "category": "practices",
-      "streams": [],
+      "streams": [
+        "T:Productivity",
+        "T:Verification & review"
+      ],
       "actual": [
         "C:C08"
       ],
@@ -270,35 +343,45 @@
         "C:C08"
       ],
       "printed": false,
-      "summary": "",
+      "summary": "Make a review objection identify a concrete assumption, defect, source or test. Match scrutiny to the impact of the change and the available review capacity, preserve unresolved reasons, and treat model agreement as a review observation rather than proof that the candidate is correct.",
       "limitation": "Grouping is not a count of independently validated methods.",
       "url": "",
       "authors": "",
       "year": "",
       "attributes": {
-        "label": "Critica, review e fiducia",
+        "label": "Critique, Review and Trust",
         "kind": "practice_family",
         "collection": "FAMILY",
         "family": "F08",
         "chapter": 8,
         "status": "EDITORIAL_CLASSIFICATION",
-        "purpose": "Distinguere critica utile, accordo e accettazione.",
-        "limitation": "Grouping is not a count of independently validated methods."
+        "purpose": "Distinguish useful criticism, agreement and acceptance.",
+        "limitation": "Grouping is not a count of independently validated methods.",
+        "language": "en",
+        "symptom": "More review comments do not improve the acceptance decision.",
+        "selection_hint": "Request evidence for a consequential objection and route the patch to the appropriate owner; reduce admission when review capacity is exhausted.",
+        "family_name": "Critique, Review and Trust"
       },
       "topics": [
         "K:AI as reviewer",
         "K:Automation bias and trust",
         "K:Review capacity and maintainers"
       ],
-      "volumes": []
+      "volumes": [],
+      "families": [
+        "FAMILY:F08"
+      ]
     },
     {
       "id": "FAMILY:F09",
-      "label": "Contesto, memoria e handoff",
+      "label": "Context, Memory and Handoffs",
       "kind": "practice_family",
       "collection": null,
       "category": "practices",
-      "streams": [],
+      "streams": [
+        "T:Engineering structure",
+        "T:System knowledge & memory"
+      ],
       "actual": [
         "C:C09"
       ],
@@ -306,35 +389,45 @@
         "C:C09"
       ],
       "printed": false,
-      "summary": "",
+      "summary": "Keep instructions, retrieved information, task state and authoritative decisions distinguishable. Attach locators, version scope, ownership and renewal triggers to reusable context so that another engineer can resume the work, challenge its assumptions and retain historical facts without applying superseded rules.",
       "limitation": "Grouping is not a count of independently validated methods.",
       "url": "",
       "authors": "",
       "year": "",
       "attributes": {
-        "label": "Contesto, memoria e handoff",
+        "label": "Context, Memory and Handoffs",
         "kind": "practice_family",
         "collection": "FAMILY",
         "family": "F09",
         "chapter": 9,
         "status": "EDITORIAL_CLASSIFICATION",
-        "purpose": "Conservare informazioni senza far sopravvivere assunzioni obsolete.",
-        "limitation": "Grouping is not a count of independently validated methods."
+        "purpose": "Preserve useful information without carrying obsolete assumptions into new work.",
+        "limitation": "Grouping is not a count of independently validated methods.",
+        "language": "en",
+        "symptom": "A resumed task inherits yesterday's rule as today's authority.",
+        "selection_hint": "Record the current decision and its version, then retain only the context needed to explain or verify it.",
+        "family_name": "Context, Memory and Handoffs"
       },
       "topics": [
         "K:Agent context and persistent memory",
-        "K:System understanding and rationale",
-        "K:Ownership and knowledge transfer"
+        "K:Ownership and knowledge transfer",
+        "K:System understanding and rationale"
       ],
-      "volumes": []
+      "volumes": [],
+      "families": [
+        "FAMILY:F09"
+      ]
     },
     {
       "id": "FAMILY:F10",
-      "label": "Competenza e mentoring",
+      "label": "Competence, Learning and Mentoring",
       "kind": "practice_family",
       "collection": null,
       "category": "practices",
-      "streams": [],
+      "streams": [
+        "T:Jobs & roles",
+        "T:Skills & learning"
+      ],
       "actual": [
         "C:C10"
       ],
@@ -342,37 +435,48 @@
         "C:C10"
       ],
       "printed": false,
-      "summary": "",
+      "summary": "Create opportunities for a learner to predict behavior, diagnose failures, explain invariants and review alternatives in their own words. Retain expert guidance and AI assistance while evaluating understanding and later transfer separately from the immediate success of an assisted task.",
       "limitation": "Grouping is not a count of independently validated methods.",
       "url": "",
       "authors": "",
       "year": "",
       "attributes": {
-        "label": "Competenza e mentoring",
+        "label": "Competence, Learning and Mentoring",
         "kind": "practice_family",
         "collection": "FAMILY",
         "family": "F10",
         "chapter": 10,
         "status": "EDITORIAL_CLASSIFICATION",
-        "purpose": "Separare task riuscito e competenza mantenuta.",
-        "limitation": "Grouping is not a count of independently validated methods."
+        "purpose": "Separate successful assisted work from retained human competence.",
+        "limitation": "Grouping is not a count of independently validated methods.",
+        "language": "en",
+        "symptom": "An assisted task succeeds, but independent judgment remains uncertain.",
+        "selection_hint": "Include a specific unaided prediction or diagnosis task; do not infer learning from the assistant's explanation or the completed artifact.",
+        "family_name": "Competence, Learning and Mentoring"
       },
       "topics": [
-        "K:Skills formation and teaching",
-        "K:Human cognitive load",
         "K:Cognitive offloading and skill debt",
+        "K:Human cognitive load",
         "K:Onboarding and developer fluency",
-        "K:Remote work and apprenticeship"
+        "K:Remote work and apprenticeship",
+        "K:Skills formation and teaching"
       ],
-      "volumes": []
+      "volumes": [],
+      "families": [
+        "FAMILY:F10"
+      ]
     },
     {
       "id": "FAMILY:F11",
-      "label": "Coordinamento e adozione organizzativa",
+      "label": "Coordination, Governance and Adoption",
       "kind": "practice_family",
       "collection": null,
       "category": "practices",
-      "streams": [],
+      "streams": [
+        "T:Engineering structure",
+        "T:Jobs & roles",
+        "T:Productivity"
+      ],
       "actual": [
         "C:C11"
       ],
@@ -380,35 +484,45 @@
         "C:C11"
       ],
       "printed": false,
-      "summary": "",
+      "summary": "Assign owners to work items and shared targets, bound work in progress, and route escalation to the person with the relevant authority. Introduce organizational support and automation according to observed constraints, including integration effort and review capacity, rather than the number of agents or courses delivered.",
       "limitation": "Grouping is not a count of independently validated methods.",
       "url": "",
       "authors": "",
       "year": "",
       "attributes": {
-        "label": "Coordinamento e adozione organizzativa",
+        "label": "Coordination, Governance and Adoption",
         "kind": "practice_family",
         "collection": "FAMILY",
         "family": "F11",
         "chapter": 11,
         "status": "EDITORIAL_CLASSIFICATION",
-        "purpose": "Diritti decisionali, limiti del flusso e percorso minimo.",
-        "limitation": "Grouping is not a count of independently validated methods."
+        "purpose": "Make decision rights, work limits and the minimum useful workflow explicit.",
+        "limitation": "Grouping is not a count of independently validated methods.",
+        "language": "en",
+        "symptom": "More parallel work produces a queue without clear decision rights.",
+        "selection_hint": "Identify the constrained owner or stage and cap incoming work before adding orchestration.",
+        "family_name": "Coordination, Governance and Adoption"
       },
       "topics": [
         "K:Human-agent collaboration",
         "K:Review capacity and maintainers",
         "K:Specifications and governance"
       ],
-      "volumes": []
+      "volumes": [],
+      "families": [
+        "FAMILY:F11"
+      ]
     },
     {
       "id": "FAMILY:F12",
-      "label": "Economia, infrastruttura e lavoro",
+      "label": "Economics, Infrastructure and Work",
       "kind": "practice_family",
       "collection": null,
       "category": "practices",
-      "streams": [],
+      "streams": [
+        "T:Economics",
+        "T:Jobs & roles"
+      ],
       "actual": [
         "C:C12"
       ],
@@ -416,27 +530,34 @@
         "C:C12"
       ],
       "printed": false,
-      "summary": "",
+      "summary": "Compare the complete cost and obligations of obtaining an accepted outcome, including setup, human review, rework, waiting and infrastructure. Record the assumptions and observation window behind an adoption choice, and revisit it when real evidence changes rather than treating automation as a required destination.",
       "limitation": "Grouping is not a count of independently validated methods.",
       "url": "",
       "authors": "",
       "year": "",
       "attributes": {
-        "label": "Economia, infrastruttura e lavoro",
+        "label": "Economics, Infrastructure and Work",
         "kind": "practice_family",
         "collection": "FAMILY",
         "family": "F12",
         "chapter": 12,
         "status": "EDITORIAL_CLASSIFICATION",
-        "purpose": "Adottare, fermare o semplificare su ipotesi verificabili.",
-        "limitation": "Grouping is not a count of independently validated methods."
+        "purpose": "Adopt, stop or simplify a workflow using inspectable assumptions.",
+        "limitation": "Grouping is not a count of independently validated methods.",
+        "language": "en",
+        "symptom": "Coordination and operating cost outweigh the useful result.",
+        "selection_hint": "Price a comparable accepted change and state the condition that would justify continuing, simplifying or stopping.",
+        "family_name": "Economics, Infrastructure and Work"
       },
       "topics": [
         "K:Economic costs and return",
         "K:Employment and early-career roles",
         "K:Evaluation methodology and baselines"
       ],
-      "volumes": []
+      "volumes": [],
+      "families": [
+        "FAMILY:F12"
+      ]
     }
   ]
 }
