@@ -18,11 +18,23 @@
     empty.hidden = visible !== 0;
   }
   q.addEventListener('input',apply); group?.addEventListener('change',apply);
+  document.querySelectorAll('[data-family-filter]').forEach(link => {
+    link.addEventListener('click',event => {
+      if (!group || field !== 'families') return;
+      event.preventDefault();
+      q.value='';group.value=link.dataset.familyFilter;apply();
+      form.scrollIntoView({block:'start',behavior:'smooth'});group.focus({preventScroll:true});
+    });
+  });
   form.addEventListener('submit',e=>e.preventDefault());
   form.querySelector('[data-clear]').onclick=()=>{q.value='';if(group)group.value='';apply();q.focus();};
   function revealAnchor(){
     let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}
     const target = document.getElementById(id);
+    if (target?.matches('.practice-family-card')) {
+      const disclosure=target.closest('details');if(disclosure)disclosure.open=true;
+      requestAnimationFrame(()=>target.scrollIntoView({block:'start'}));return;
+    }
     if(!target || !target.matches('[data-record]'))return;
     q.value='';if(group)group.value='';apply();
     const detail=target.querySelector('details');if(detail)detail.open=true;
