@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "atlas_current.html",
-    "snapshot": "2026-11-06",
-    "site_version": "13.4",
+    "snapshot": "2026-11-07",
+    "site_version": "13.5",
     "count": 111,
     "note": "Materialized view of the current audited graph; complete node fields retained. Source inspection and publication status are recorded per item. The builder performs no new empirical validation."
   },
@@ -7716,6 +7716,3206 @@
         "edition": "1",
         "source_path": "NDLE/glossary.tex"
       }
+    }
+  ],
+  "practice_relationships": [
+    {
+      "source": "B003",
+      "practice": "PAT:076",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The summary distinguishes a generated feature from a releasable change, introducing why progression needs an acceptance condition. The opening case is a teaching device, not a measured gate evaluation.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Il sommario introduce il problema della distanza fra feature generata e cambiamento pronto per il rilascio."
+      },
+      "edge_id": "practice_bb8ab347e058fb75f06d6883",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B004",
+      "practice": "PAT:022",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The discussion of nondeterminism motivates calibrating reliance on generated output and keeping controls beyond code production. Its historical analogy does not establish a common reliability level for different tools.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Il passaggio al non determinismo richiede pratiche di controllo diverse dalla sola produzione del codice."
+      },
+      "edge_id": "practice_ef9d24de951b745e94ab265f",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B005",
+      "practice": "PAT:045",
+      "collection": "B",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The contrast between vibe coding and accountable engineering bounds exploratory use: a prototype still needs understanding and control before release. The stated completion percentage remains a practitioner heuristic.",
+      "scope": "boundary",
+      "basis": {
+        "field": "limitation",
+        "excerpt": "Il 70% è un’euristica practitioner: non deve diventare un tasso universale di completamento o correttezza."
+      },
+      "edge_id": "practice_fc05ce3ec1549cdc30b08ac4",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B006",
+      "practice": "PAT:050",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The experience discussion makes preservation of independent learning part of assisted delivery. Its developer categories do not establish retention or transfer effects, which the learning loop must check separately.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "L’esperienza cambia il modo in cui si delega all’AI, ma va preservato il ciclo di apprendimento."
+      },
+      "edge_id": "practice_741ea1d8085b49ec37663e05",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B007",
+      "practice": "PAT:046",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The workflow chapter directly motivates small, verifiable increments as a way to integrate generation into engineering. It describes a process rather than measuring a universal speed or quality improvement.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Workflow piccoli e verificabili trasformano l’AI da generatore a componente del processo ingegneristico."
+      },
+      "edge_id": "practice_0c1a5849a464cb3f0b75ee9c",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B008",
+      "practice": "PAT:009",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The review-capacity problem motivates slowing unchecked candidate production when verification cannot keep up. Backpressure is a relevant response to that bottleneck, without treating every reported quality signal as a demonstrated defect.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "La qualità diventa critica quando il volume generato supera la capacità di revisione."
+      },
+      "edge_id": "practice_e19c7b0b6fd94914f7195156",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B008",
+      "practice": "PAT:052",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "The distinction between demonstrated defects, static alerts and reviewer perceptions informs how a review gauntlet should allocate attention and interpret findings. It supplies review context, not an independent test of the full practice.",
+      "scope": "thematic",
+      "basis": {
+        "field": "limitation",
+        "excerpt": "Distinguere difetti dimostrati, segnalazioni statiche, percezioni dei revisori e spiegazioni causali."
+      },
+      "edge_id": "practice_d20c7f287e7703808b019819",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B009",
+      "practice": "PAT:059",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The measurement chapter expands the unit from generated output to released work, quality and developer experience. Its heterogeneous organizational sources require preserving designs and denominators when designing a learning measurement program.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "La misura dell’AI deve includere il lavoro rilasciato, la qualità e l’esperienza dello sviluppatore."
+      },
+      "edge_id": "practice_eb264039d245b8b4ad01f847",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B010",
+      "practice": "PAT:057",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The adoption roadmap treats process and competence development as necessary complements to tool licences. This informs enablement planning while leaving its timing and returns to local assessment.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "L’adozione richiede una trasformazione di processi e competenze, non soltanto licenze."
+      },
+      "edge_id": "practice_6658b5d2b55c076198e8f37a",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B013",
+      "practice": "PAT:043",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": true,
+      "rationale": "The retained occurrence trail locates Spec-First Generation in B013 (PART I: Core Practices): OCC:NDSE:01, AI_SW_ENG/chapters_verbose/chapter07/chapter07_part1.tex lines 14–164. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:NDSE:01"
+        ]
+      },
+      "edge_id": "practice_378d1e09bf03f9d9670d94b7",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B013",
+      "practice": "PAT:044",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Test-Driven AI Development in B013 (PART I: Core Practices): OCC:NDSE:02, AI_SW_ENG/chapters_verbose/chapter07/chapter07_part1.tex lines 165–316. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:NDSE:02"
+        ]
+      },
+      "edge_id": "practice_057ecb0fce7f3a236d4e7ede",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B013",
+      "practice": "PAT:045",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Exploratory Vibe Coding in B013 (PART I: Core Practices): OCC:NDSE:03, AI_SW_ENG/chapters_verbose/chapter07/chapter07_part1.tex lines 317–474. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:NDSE:03"
+        ]
+      },
+      "edge_id": "practice_86466415e069f06f9b32af3f",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B013",
+      "practice": "PAT:046",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Small Verifiable Chunks in B013 (PART I: Core Practices): OCC:NDSE:04, AI_SW_ENG/chapters_verbose/chapter07/chapter07_part1.tex lines 475–623. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:NDSE:04"
+        ]
+      },
+      "edge_id": "practice_12c25ff5c2fa4d66c88924d0",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B013",
+      "practice": "PAT:047",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Context Engineering in B013 (PART I: Core Practices): OCC:NDSE:05, AI_SW_ENG/chapters_verbose/chapter07/chapter07_part1.tex lines 624–846. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:NDSE:05"
+        ]
+      },
+      "edge_id": "practice_62cea87f5d45084ee6ebb0fa",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B013",
+      "practice": "PAT:048",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates The Explainability Test in B013 (PART I: Core Practices): OCC:NDSE:06, AI_SW_ENG/chapters_verbose/chapter07/chapter07_part1.tex lines 847–1031. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:NDSE:06"
+        ]
+      },
+      "edge_id": "practice_91fa782caa325eaa315531f2",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B013",
+      "practice": "PAT:049",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Runtime-in-the-Loop in B013 (PART I: Core Practices): OCC:NDSE:07, AI_SW_ENG/chapters_verbose/chapter07/chapter07_part1.tex lines 1032–1199. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:NDSE:07"
+        ]
+      },
+      "edge_id": "practice_f7dd4451e3fe8ce3a25b95b6",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B013",
+      "practice": "PAT:050",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Learning Loop Preservation in B013 (PART I: Core Practices): OCC:NDSE:08, AI_SW_ENG/chapters_verbose/chapter07/chapter07_part1.tex lines 1200–1462. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:NDSE:08"
+        ]
+      },
+      "edge_id": "practice_161b5c7a6a6b6ebae9f720fc",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B014",
+      "practice": "PAT:051",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Security-First Development in B014 (PART II: Quality Assurance): OCC:NDSE:09, AI_SW_ENG/chapters_verbose/chapter07/chapter07_part2.tex lines 14–428. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:NDSE:09"
+        ]
+      },
+      "edge_id": "practice_3fc03ef6b54ec9b929d53d47",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B014",
+      "practice": "PAT:052",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": true,
+      "rationale": "The retained occurrence trail locates Review Gauntlet in B014 (PART II: Quality Assurance): OCC:NDSE:10, AI_SW_ENG/chapters_verbose/chapter07/chapter07_part2.tex lines 429–766. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:NDSE:10"
+        ]
+      },
+      "edge_id": "practice_9671b84957b2a0c68572a68f",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B014",
+      "practice": "PAT:053",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Legacy Code Navigation in B014 (PART II: Quality Assurance): OCC:NDSE:11, AI_SW_ENG/chapters_verbose/chapter07/chapter07_part2.tex lines 767–1077. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:NDSE:11"
+        ]
+      },
+      "edge_id": "practice_324cb3c44a9f65c1114cb94f",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B015",
+      "practice": "PAT:054",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Migration as Learning in B015 (PART III: Team Workflows): OCC:NDSE:12, AI_SW_ENG/chapters_verbose/chapter07/chapter07_part3.tex lines 14–385. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:NDSE:12"
+        ]
+      },
+      "edge_id": "practice_62ce5799257ab3ae990a4bc4",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B015",
+      "practice": "PAT:055",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Trio Programming in B015 (PART III: Team Workflows): OCC:NDSE:13, AI_SW_ENG/chapters_verbose/chapter07/chapter07_part3.tex lines 386–660. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:NDSE:13"
+        ]
+      },
+      "edge_id": "practice_30975e9f97625d5fc2a258ff",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B015",
+      "practice": "PAT:056",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": true,
+      "rationale": "The retained occurrence trail locates Parallel Work Orchestration in B015 (PART III: Team Workflows): OCC:NDSE:14, AI_SW_ENG/chapters_verbose/chapter07/chapter07_part3.tex lines 661–953. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:NDSE:14"
+        ]
+      },
+      "edge_id": "practice_0814785d9fb3fe26fd6dc2e3",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B016",
+      "practice": "PAT:057",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": true,
+      "rationale": "The retained occurrence trail locates Structured Enablement Program in B016 (PART IV: Organizational Foundation): OCC:NDSE:15, AI_SW_ENG/chapters_verbose/chapter07/chapter07_part4.tex lines 14–351. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:NDSE:15"
+        ]
+      },
+      "edge_id": "practice_e0053bea571a218ac6fdec0d",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B016",
+      "practice": "PAT:058",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Acceptable Use Policy in B016 (PART IV: Organizational Foundation): OCC:NDSE:16, AI_SW_ENG/chapters_verbose/chapter07/chapter07_part4.tex lines 352–585. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:NDSE:16"
+        ]
+      },
+      "edge_id": "practice_4aaa67c83df0a6babe34a7f2",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B016",
+      "practice": "PAT:059",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Measurement & Learning in B016 (PART IV: Organizational Foundation): OCC:NDSE:17, AI_SW_ENG/chapters_verbose/chapter07/chapter07_part4.tex lines 586–917. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:NDSE:17"
+        ]
+      },
+      "edge_id": "practice_5c5d70bee3a5747592a756ef",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B016",
+      "practice": "PAT:060",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Cost Management in B016 (PART IV: Organizational Foundation): OCC:NDSE:18, AI_SW_ENG/chapters_verbose/chapter07/chapter07_part4.tex lines 918–1203. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:NDSE:18"
+        ]
+      },
+      "edge_id": "practice_42e1dc8c63b2efef1f79d4a0",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B017",
+      "practice": "PAT:042",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The recap is a decision index for composing techniques by situation and prerequisites. It informs integrated practice selection, while its repeated content remains dependent on the original catalogue.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Il riepilogo aiuta a comporre i pattern secondo situazione e prerequisiti."
+      },
+      "edge_id": "practice_d51c28c97263e18306c869be",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B018",
+      "practice": "PAT:022",
+      "collection": "B",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The antipatterns describe how apparent speed and blind delegation can conceal reliability problems. They supply counterconditions for trust calibration, not estimates of their frequency or causal effect.",
+      "scope": "boundary",
+      "basis": {
+        "field": "limitation",
+        "excerpt": "Il catalogo identifica rischi plausibili; non stima frequenza, severità o effetto causale degli antipattern."
+      },
+      "edge_id": "practice_dc3aabdb497678a41aed281f",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B018",
+      "practice": "PAT:050",
+      "collection": "B",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": false,
+      "rationale": "The warning about eroded learning makes independently retained understanding a relevant check after assisted completion. The antipattern catalogue does not quantify the learning loss it cautions about.",
+      "scope": "boundary",
+      "basis": {
+        "field": "limitation",
+        "excerpt": "Il catalogo identifica rischi plausibili; non stima frequenza, severità o effetto causale degli antipattern."
+      },
+      "edge_id": "practice_162ab8695d3aa16645919718",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B020",
+      "practice": "PAT:057",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The maturity categories distinguish exploration, trial and adoption, informing staged enablement decisions. Their labels are contextual recommendations rather than universal scores of tool reliability.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "I livelli di maturità aiutano a distinguere esplorazione, prova e adozione."
+      },
+      "edge_id": "practice_47188d6f497d2a02d90ce29e",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B022",
+      "practice": "PAT:028",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The static-context chapter concerns persistent project conventions, constraints and decisions. It informs reusable skills and instruction packages, while warning that mere presence does not establish freshness or compliance.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Le istruzioni persistenti rendono esplicite convenzioni, vincoli e decisioni del progetto."
+      },
+      "edge_id": "practice_8a65e1962bbc8573f102990e",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B023",
+      "practice": "PAT:029",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The dynamic-context chapter addresses retrieval of information when the task needs it. Its separate freshness, permission and trust requirements fit memory and retrieval boundaries rather than treating access as authority.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Il contesto dinamico recupera informazioni aggiornate nel momento in cui servono."
+      },
+      "edge_id": "practice_cebfad6c85db6510f5adfd02",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B024",
+      "practice": "PAT:006",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "Compaction provides a concrete context-management mechanism for long sessions. The warning about lost constraints informs resumable state, rather than assuming a shorter conversation preserves all governing information.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Compattazione e handoff governano la continuità delle sessioni complesse."
+      },
+      "edge_id": "practice_4faee2898077fd602ee78921",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B024",
+      "practice": "PAT:072",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The session-control chapter uses compaction and handoffs to maintain continuity. It informs preserving constraints and rationale across transfers, with summaries checked against the original artifacts.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Compattazione e handoff governano la continuità delle sessioni complesse."
+      },
+      "edge_id": "practice_f0312fe375aa4cbc4e0cf29c",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B025",
+      "practice": "PAT:056",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The move to multiple agents introduces specialization, boundaries and control points. It informs orchestration decisions while requiring coordination failures and serial review to be included in throughput comparisons.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Il passaggio a più agenti richiede specializzazione, confini e punti di controllo."
+      },
+      "edge_id": "practice_40785f93d6e18c69d70e2484",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B026",
+      "practice": "PAT:044",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The development-practice chapter identifies TDD as an assisted workflow. It provides operational reading context, while its maturity judgments are contextual and do not validate generated tests as independent oracles.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "TDD, comprensione del legacy e migrazioni sono casi concreti di lavoro assistito."
+      },
+      "edge_id": "practice_04d96e4fd2d2f28170d3d6f0",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B026",
+      "practice": "PAT:054",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "The migration discussion informs the semantic-preservation component of this practice: check retained behavior with cases independent of the transformed code. The annotation does not establish learner understanding, retained skill or the effectiveness of migration as a learning exercise.",
+      "scope": "thematic",
+      "basis": {
+        "field": "limitation",
+        "excerpt": "Le valutazioni di maturità sono contestuali; nelle migrazioni la preservazione semantica richiede casi indipendenti dal codice trasformato."
+      },
+      "edge_id": "practice_6510bb25efc22be0b4a400b2",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B027",
+      "practice": "PAT:057",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The collaboration chapter treats practice transmission and shared decisions as adoption work. It informs enablement design while requiring evidence of independent capability beyond shared artifacts.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "L’adozione collettiva richiede trasmissione delle pratiche e decisioni condivise."
+      },
+      "edge_id": "practice_f42f2372333465f23a4fb6dd",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B027",
+      "practice": "PAT:072",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "The warning that artifact sharing does not prove shared understanding informs handoff checks. A successor should demonstrate usable understanding rather than treating document availability as successful transfer.",
+      "scope": "thematic",
+      "basis": {
+        "field": "limitation",
+        "excerpt": "La condivisione degli artefatti non dimostra comprensione condivisa: servono verifiche di handoff e capacità autonome."
+      },
+      "edge_id": "practice_2b8bcd5f09c79c4882d9f918",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B028",
+      "practice": "PAT:077",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The security and governance chapter combines layered defense with continuing control. It informs connecting security signals to a decision while distinguishing enforced rules, observability and residual risk.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "La sicurezza degli agenti richiede difesa stratificata e controllo continuo."
+      },
+      "edge_id": "practice_4fa214f3899a6fd84bc1fffc",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B029",
+      "practice": "PAT:033",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The observability chapter ties resource consumption to verified value. It informs pricing continuation of a loop while keeping subjective perceptions, economic outcomes, baselines and samples distinct.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Osservabilità e misura devono ricondurre i consumi al valore verificato."
+      },
+      "edge_id": "practice_b613bcc450711a7ef278fc73",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B030",
+      "practice": "PAT:057",
+      "collection": "B",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The adoption pitfalls support diagnosing the actual failure before expanding the toolset. They constrain enablement choices as hypotheses to measure, not as additional independent observations of familiar antipatterns.",
+      "scope": "boundary",
+      "basis": {
+        "field": "limitation",
+        "excerpt": "La somiglianza fra antipattern non è una nuova osservazione indipendente; usarli come checklist e ipotesi da misurare."
+      },
+      "edge_id": "practice_b7e66bbadb782354abd4cac3",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B031",
+      "practice": "PAT:059",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The pilot roadmap starts with a baseline and ends with a reasoned adoption decision. It informs measurement and learning, with outcomes and quality deciding success rather than completion of a prescribed calendar.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Un pilot di novanta giorni deve partire da baseline e concludersi con una decisione motivata."
+      },
+      "edge_id": "practice_a8eb302496dbeb05e408a17a",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B034",
+      "practice": "PAT:072",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The implementation guide translates workflows into agent profiles, handoffs and exercises. It informs transfer design, while the existing annotation explicitly records that these configurations were not executed in this review.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Le soluzioni operative traducono i workflow in profili di agenti, handoff ed esercizi."
+      },
+      "edge_id": "practice_9bd90a18a249e46d37155da6",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B035",
+      "practice": "PAT:058",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The EU adoption chapter connects responsibilities, provenance and operational sovereignty. It informs identifying policy questions, but its legal claims and deadlines require current competent verification before operational use.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "L’adozione europea combina responsabilità, provenienza e scelte di sovranità operativa."
+      },
+      "edge_id": "practice_d3c2799492db445ad0fcafef",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B038",
+      "practice": "PAT:043",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The shift chapter makes intent the process reference and identifies authority boundaries. It informs specifying behavior before generation while retaining the possibility that the resulting specification is incomplete or wrong.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "L’intento diventa la fonte di riferimento del processo, con confini di autorità espliciti."
+      },
+      "edge_id": "practice_2b812dcb5ca9d2cc0801f6b8",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B039",
+      "practice": "PAT:076",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The process chapter organizes intent-to-implementation progression through phases and gates. It informs evidence-based progression while requiring invalidation and revalidation when late changes affect earlier decisions.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Quattro fasi e quattro gate organizzano il passaggio dall’intento all’implementazione."
+      },
+      "edge_id": "practice_b8ec0cc6006dca4dbdb48f11",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B040",
+      "practice": "PAT:043",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The toolkit chapter shows specification-driven work through commands and artifacts. It informs the practice's operational shape, while its versioned commands remain historical descriptions rather than newly tested instructions.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Spec Kit rende operativo il processo mediante comandi e artefatti."
+      },
+      "edge_id": "practice_bbf20752832ca9f39cdb123d",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B041",
+      "practice": "PAT:072",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The integration chapter connects SDD to existing workflows and multi-role responsibilities. It informs handoff design, with document correspondence distinguished from measured organizational effectiveness.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "SDD si integra con workflow esistenti e responsabilità dei team multi-ruolo."
+      },
+      "edge_id": "practice_8a2de6fb1f2db39c8815cf43",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B042",
+      "practice": "PAT:061",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Consistency Analysis Gate in B042 (Advanced Patterns): OCC:SDD1:21, AI_SDD_ENG/chapters/chapter05_patterns.tex lines 394–523. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD1:21"
+        ]
+      },
+      "edge_id": "practice_971ac3566e3a4526d55e5316",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B042",
+      "practice": "PAT:062",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Research Artifact Preservation in B042 (Advanced Patterns): OCC:SDD1:22, AI_SDD_ENG/chapters/chapter05_patterns.tex lines 524–667. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD1:22"
+        ]
+      },
+      "edge_id": "practice_b7c39a822e9071c785d41dc4",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B042",
+      "practice": "PAT:063",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Parallel Implementation Exploration in B042 (Advanced Patterns): OCC:SDD1:23, AI_SDD_ENG/chapters/chapter05_patterns.tex lines 668–797. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD1:23"
+        ]
+      },
+      "edge_id": "practice_fd1e9461c066d9222f59207a",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B042",
+      "practice": "PAT:064",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": true,
+      "rationale": "The retained occurrence trail locates Specification Scale Management in B042 (Advanced Patterns): OCC:SDD1:24, AI_SDD_ENG/chapters/chapter05_patterns.tex lines 798–925. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD1:24"
+        ]
+      },
+      "edge_id": "practice_c19f5cc917bcdda1627ffa98",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B042",
+      "practice": "PAT:065",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Model Switching for Regeneration in B042 (Advanced Patterns): OCC:SDD1:25, AI_SDD_ENG/chapters/chapter05_patterns.tex lines 926–1107. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD1:25"
+        ]
+      },
+      "edge_id": "practice_dac81bbbecc3c5e231b4c58a",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B042",
+      "practice": "PAT:066",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Constitution-Driven Development in B042 (Advanced Patterns): OCC:SDD1:19, AI_SDD_ENG/chapters/chapter05_patterns.tex lines 110–236. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD1:19"
+        ]
+      },
+      "edge_id": "practice_62538df32b45fce73524db66",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B042",
+      "practice": "PAT:067",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Clarify Before Plan in B042 (Advanced Patterns): OCC:SDD1:20, AI_SDD_ENG/chapters/chapter05_patterns.tex lines 237–393. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD1:20"
+        ]
+      },
+      "edge_id": "practice_3f413046b3108c51728b26d7",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B043",
+      "practice": "PAT:060",
+      "collection": "B",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The limitations chapter makes artifact-maintenance cost part of deciding whether SDD is worthwhile. Cost management should test local convenience and defect claims rather than treat proposed thresholds as measured savings.",
+      "scope": "boundary",
+      "basis": {
+        "field": "limitation",
+        "excerpt": "Non presentare come misurate soglie di convenienza o riduzioni di difetti che il testo propone soltanto come euristiche."
+      },
+      "edge_id": "practice_d5043057a8e718eb6e2b3cde",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B044",
+      "practice": "PAT:061",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The templates connect constitutions, clarifications, consistency and research into explicit artifacts. They inform checking consistency across obligations, without assuming a completed form establishes correct or approved intent.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Template comuni rendono tracciabili costituzione, chiarimenti, consistenza e ricerca."
+      },
+      "edge_id": "practice_470c45b10d86d2ad849f665d",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B045",
+      "practice": "PAT:076",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The complete examples connect artifacts across an end-to-end process. They illustrate the teaching sequence behind progression checks, but remain unexecuted didactic examples rather than measured production pilots.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Due esempi mostrano come gli artefatti si collegano in un percorso end-to-end."
+      },
+      "edge_id": "practice_d843a56412c70e59f6ea0843",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B046",
+      "practice": "PAT:001",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The playbooks adapt work sequences to greenfield, brownfield, hotfix and collaboration settings. They inform selecting and revising an execution plan, without counting each prescribed route as independent validation.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "I playbook adattano il processo a sviluppo nuovo, brownfield, hotfix e collaborazione."
+      },
+      "edge_id": "practice_2f8b8da20f746198c4a09afe",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B049",
+      "practice": "PAT:043",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The revised shift chapter preserves an intent-first basis and applies it to PROSE. It informs specification-first design but remains an editorial revision of B038 rather than independent supporting evidence.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "La base intent-first viene mantenuta e applicata a PROSE."
+      },
+      "edge_id": "practice_53ab9844f3915a690cbf68fc",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B050",
+      "practice": "PAT:076",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The four-phase, four-gate process generalizes progression beyond one implementation. It informs stating what a gate demonstrates, since formally coherent artifacts can still embody the wrong intention.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Il processo a gate viene generalizzato oltre una singola implementazione."
+      },
+      "edge_id": "practice_9668b9a7c05bc843141c85b7",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B051",
+      "practice": "PAT:028",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The framework anatomy separates instructions, prompts, agents and skills across execution environments. It informs packaging reusable context while treating the taxonomy as design synthesis, not proof of equivalent behavior.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "I framework vengono scomposti in istruzioni, prompt, agenti e skill su diversi substrati."
+      },
+      "edge_id": "practice_ef756bc5737522095811517f",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B052",
+      "practice": "PAT:042",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The ecosystem map organizes framework families and design choices for comparison. It informs selecting a coherent combination of mechanisms, while popularity and inclusion in the map are not performance evaluations.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "L’ecosistema viene organizzato in famiglie e scelte di progettazione."
+      },
+      "edge_id": "practice_8356010a773f5a5a8cc6a66f",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B054",
+      "practice": "PAT:068",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The toolkit comparison contrasts specification and brownfield change structures. It informs progressive specification and controlled deltas, without generalizing tool superiority from historical lifecycle descriptions.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Spec Kit e OpenSpec affrontano specificazione e cambiamento brownfield con strutture diverse."
+      },
+      "edge_id": "practice_98a2422a952ab861aaae2346",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B055",
+      "practice": "PAT:072",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The orchestrator comparison offers contrasting coordination and handoff designs. It informs explicit transfer boundaries while warning that named agent specializations do not establish independent evidence.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "BMAD e AI-RPI mostrano due filosofie di coordinamento e handoff."
+      },
+      "edge_id": "practice_47096aba8406a25bb0845b5b",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B056",
+      "practice": "PAT:023",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The distinction between suggested rules and controls actually enforced by a runtime informs checking an external loop controller's effective controls. Applying that distinction to this route is an editorial reading choice; the annotation does not specify Bash or demonstrate the external-loop mechanism.",
+      "scope": "thematic",
+      "basis": {
+        "field": "limitation",
+        "excerpt": "I profili e la simulazione non costituiscono un benchmark; distinguere regole suggerite e controlli realmente applicati dal runtime."
+      },
+      "edge_id": "practice_f671cdd14feb78319ab9f23a",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B057",
+      "practice": "PAT:042",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The twelve-dimensional comparison exposes framework similarities and divergences. It provides selection context for composing a workflow, with its map positions retained as editorial judgments rather than measured rankings.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Dodici dimensioni rendono espliciti convergenze e disaccordi fra framework."
+      },
+      "edge_id": "practice_bc4e6875853c7de8ef8bdff2",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B058",
+      "practice": "PAT:060",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The design-boundary chapter chooses sufficient rigor at a proportionate cost. It informs assessing optional mechanism overhead against local risk, without assuming complementary tools are interchangeable.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Il framework adatto è quello con rigore sufficiente e costo proporzionato."
+      },
+      "edge_id": "practice_a5f8576fbd83ab2f74496fe0",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B059",
+      "practice": "PAT:066",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The framework foundation combines a constitution, architecture and controlled progression. It informs shared invariant and decision-right design while keeping design history separate from observed operational outcomes.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Enterprise SDD combina costituzione, architettura e progressione controllata."
+      },
+      "edge_id": "practice_f3553db4521f250cf3f38f66",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B060",
+      "practice": "PAT:072",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "The pipeline's explicit handoffs inform what transfers between roles and who owns the next decision. Its architecture needs failure and late-response checks before being treated as effective coordination.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "La pipeline degli agenti rende espliciti artefatti, handoff e autorità dei gate."
+      },
+      "edge_id": "practice_f62210649bbfb343ab5b5eb1",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B060",
+      "practice": "PAT:076",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The agent pipeline names artifacts, handoffs and gate authority. It informs progression rules that must also handle concurrent failures, late responses and changed intentions; a larger gate count is not a quality measure.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "La pipeline degli agenti rende espliciti artefatti, handoff e autorità dei gate."
+      },
+      "edge_id": "practice_66586c3724f63b4a85069c65",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B061",
+      "practice": "PAT:030",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The extensibility chapter uses CLI surfaces, adapters and modules around a stable conceptual core. It informs moving exact operations into tools, with compatibility and security checked on the concrete version.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "CLI, adattatori e moduli rendono estensibile il framework senza cambiare il suo nucleo concettuale."
+      },
+      "edge_id": "practice_00f823cd83f1c9bad6a4197f",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B062",
+      "practice": "PAT:083",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The autonomous-execution chapter treats autonomy as policy with budgets and escalation. It informs continuation limits while preserving independent acceptance criteria beyond resource caps and after-the-fact audit.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "L’autonomia viene trattata come policy di esecuzione con budget ed escalation."
+      },
+      "edge_id": "practice_41bb178ec10fd28c06423115",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B062",
+      "practice": "PAT:084",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "Escalation is an explicit part of the execution policy described here. It informs routing stopped work to an accountable decision, without treating the examples as proof of production safety.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "L’autonomia viene trattata come policy di esecuzione con budget ed escalation."
+      },
+      "edge_id": "practice_8a04e73a61cc97aa49657a8c",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B063",
+      "practice": "PAT:042",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The advanced catalogue composes specification, coordination, security and autonomy mechanisms. It informs integrated practice selection while preserving the shared provenance of patterns repeated from earlier chapters.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Diciannove pattern compongono gestione delle specifiche, coordinamento, sicurezza e autonomia."
+      },
+      "edge_id": "practice_9b829430114a960de79c54f8",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B063",
+      "practice": "PAT:066",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Constitution-Driven Development in B063 (Advanced Patterns: From Frameworks to Practice): OCC:SDD2:A1, AI_SDD_ENG_V2/chapters/chapter15_patterns.tex lines 55–90. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD2:A1"
+        ]
+      },
+      "edge_id": "practice_1416fecc0f3a475ce784fba3",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B063",
+      "practice": "PAT:067",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Clarify Before Plan in B063 (Advanced Patterns: From Frameworks to Practice): OCC:SDD2:A2, AI_SDD_ENG_V2/chapters/chapter15_patterns.tex lines 91–124. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD2:A2"
+        ]
+      },
+      "edge_id": "practice_d5acab297127d2760f3088f8",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B063",
+      "practice": "PAT:068",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Progressive Specification in B063 (Advanced Patterns: From Frameworks to Practice): OCC:SDD2:A3, AI_SDD_ENG_V2/chapters/chapter15_patterns.tex lines 125–159. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD2:A3"
+        ]
+      },
+      "edge_id": "practice_ec263badb6d0ee6a5bc7e6a8",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B063",
+      "practice": "PAT:069",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Red-Team Specification in B063 (Advanced Patterns: From Frameworks to Practice): OCC:SDD2:A4, AI_SDD_ENG_V2/chapters/chapter15_patterns.tex lines 160–191. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD2:A4"
+        ]
+      },
+      "edge_id": "practice_6ce02e2455fe6f6b020fdd71",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B063",
+      "practice": "PAT:070",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Gap-Closure Analysis in B063 (Advanced Patterns: From Frameworks to Practice): OCC:SDD2:A5, AI_SDD_ENG_V2/chapters/chapter15_patterns.tex lines 192–226. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD2:A5"
+        ]
+      },
+      "edge_id": "practice_916b9325bae2b7b7b806f554",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B063",
+      "practice": "PAT:071",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Ambiguity Scoring in B063 (Advanced Patterns: From Frameworks to Practice): OCC:SDD2:A6, AI_SDD_ENG_V2/chapters/chapter15_patterns.tex lines 227–266. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD2:A6"
+        ]
+      },
+      "edge_id": "practice_d0ef1d5ebae57ff400ba3f28",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B063",
+      "practice": "PAT:072",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Handoff Chain in B063 (Advanced Patterns: From Frameworks to Practice): OCC:SDD2:B1, AI_SDD_ENG_V2/chapters/chapter15_patterns.tex lines 267–298. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD2:B1"
+        ]
+      },
+      "edge_id": "practice_8920d52edf88944791750fed",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B063",
+      "practice": "PAT:073",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Multi-Mode Agent in B063 (Advanced Patterns: From Frameworks to Practice): OCC:SDD2:B2, AI_SDD_ENG_V2/chapters/chapter15_patterns.tex lines 299–330. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD2:B2"
+        ]
+      },
+      "edge_id": "practice_3024fc517ba9cdc8c1d724c8",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B063",
+      "practice": "PAT:074",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Anti-Sycophancy Enforcement in B063 (Advanced Patterns: From Frameworks to Practice): OCC:SDD2:B3, AI_SDD_ENG_V2/chapters/chapter15_patterns.tex lines 331–362. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD2:B3"
+        ]
+      },
+      "edge_id": "practice_e6c9a50451fab27001b8e295",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B063",
+      "practice": "PAT:075",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Convergence Review in B063 (Advanced Patterns: From Frameworks to Practice): OCC:SDD2:B4, AI_SDD_ENG_V2/chapters/chapter15_patterns.tex lines 363–399. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD2:B4"
+        ]
+      },
+      "edge_id": "practice_8f3a2ce2e892b26ed6c2f032",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B063",
+      "practice": "PAT:076",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Gate-Enforced Progression in B063 (Advanced Patterns: From Frameworks to Practice): OCC:SDD2:C1, AI_SDD_ENG_V2/chapters/chapter15_patterns.tex lines 400–432. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD2:C1"
+        ]
+      },
+      "edge_id": "practice_1b48b6be4b41003a73f1f210",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B063",
+      "practice": "PAT:077",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Security Pipeline in B063 (Advanced Patterns: From Frameworks to Practice): OCC:SDD2:C2, AI_SDD_ENG_V2/chapters/chapter15_patterns.tex lines 433–468. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD2:C2"
+        ]
+      },
+      "edge_id": "practice_8a5d9c77d7cf5bef4c78a42e",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B063",
+      "practice": "PAT:078",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Prompt Injection Scanning in B063 (Advanced Patterns: From Frameworks to Practice): OCC:SDD2:C3, AI_SDD_ENG_V2/chapters/chapter15_patterns.tex lines 469–501. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD2:C3"
+        ]
+      },
+      "edge_id": "practice_383623658173b6d516ed7871",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B063",
+      "practice": "PAT:079",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Supply-Chain Risk Audit in B063 (Advanced Patterns: From Frameworks to Practice): OCC:SDD2:C4, AI_SDD_ENG_V2/chapters/chapter15_patterns.tex lines 502–535. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD2:C4"
+        ]
+      },
+      "edge_id": "practice_a0fb2c2cae1768f766a07215",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B063",
+      "practice": "PAT:080",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Adversarial Agent Pattern in B063 (Advanced Patterns: From Frameworks to Practice): OCC:SDD2:C5, AI_SDD_ENG_V2/chapters/chapter15_patterns.tex lines 536–572. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD2:C5"
+        ]
+      },
+      "edge_id": "practice_e7dbaf9425b3c30ac1ff3758",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B063",
+      "practice": "PAT:081",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates One-Item-Per-Cycle in B063 (Advanced Patterns: From Frameworks to Practice): OCC:SDD2:D1, AI_SDD_ENG_V2/chapters/chapter15_patterns.tex lines 573–606. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD2:D1"
+        ]
+      },
+      "edge_id": "practice_10ce258f1ae06f6c8a5751d9",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B063",
+      "practice": "PAT:082",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Evidence-Pack Provenance in B063 (Advanced Patterns: From Frameworks to Practice): OCC:SDD2:D2, AI_SDD_ENG_V2/chapters/chapter15_patterns.tex lines 607–642. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD2:D2"
+        ]
+      },
+      "edge_id": "practice_05897651a6b61bb91cb7a907",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B063",
+      "practice": "PAT:083",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Budget-Gated Autonomy in B063 (Advanced Patterns: From Frameworks to Practice): OCC:SDD2:D3, AI_SDD_ENG_V2/chapters/chapter15_patterns.tex lines 643–676. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD2:D3"
+        ]
+      },
+      "edge_id": "practice_b8b0879f006bebe1cd889b9b",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B063",
+      "practice": "PAT:084",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Escalation Protocol in B063 (Advanced Patterns: From Frameworks to Practice): OCC:SDD2:D4, AI_SDD_ENG_V2/chapters/chapter15_patterns.tex lines 677–778. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:SDD2:D4"
+        ]
+      },
+      "edge_id": "practice_6e37e513ad651e07002e0794",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B064",
+      "practice": "PAT:060",
+      "collection": "B",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "Professional judgment can reduce, modify or reject SDD when its burden is unjustified. The reported cases need common protocols and denominators before they support a transferable cost-benefit conclusion.",
+      "scope": "boundary",
+      "basis": {
+        "field": "limitation",
+        "excerpt": "Witboost e Mollie sono resoconti del corpus, non pilot replicati qui; confronto e generalizzazione richiedono protocolli e denominatori."
+      },
+      "edge_id": "practice_0862a4dbe8e53682bdd30902",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B065",
+      "practice": "PAT:042",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The framework-design chapter starts from observed problems and constraints. It informs composing a proportionate mechanism set, while its proposed method does not guarantee a more effective result.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Progettare un nuovo framework significa partire da problemi e vincoli osservati."
+      },
+      "edge_id": "practice_137dd566d02739ff0d8725ae",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B066",
+      "practice": "PAT:004",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The setup guide informs the initializer's prerequisite and configuration checks. The annotation does not itself establish separate agent roles or reduced privileges after setup, and the installation procedure remains unexecuted in the retained review.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "La guida di installazione rende verificabili prerequisiti e configurazione del framework."
+      },
+      "edge_id": "practice_5b8ba503ccde546a6e9bea4b",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B067",
+      "practice": "PAT:001",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The playbooks prescribe delivery sequences for different scenarios. They inform a situation-specific execution plan, without converting the six sequences into six independently observed outcomes.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "I playbook trasformano la metodologia in sequenze per scenari di delivery diversi."
+      },
+      "edge_id": "practice_b8fce6fc51d8ff3fe8c9b5ac",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B068",
+      "practice": "PAT:064",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The template reference exposes the framework's document structure and artifact density. It informs managing specification scale while leaving duplication and correct intent as questions requiring separate checks.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "I dodici template rendono esplicita la struttura documentale di Enterprise SDD."
+      },
+      "edge_id": "practice_382d978a99a6e31d73d2898b",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B070",
+      "practice": "PAT:076",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The Enterprise SDD card condenses the same pipeline, agents, commands and gates. It is a convenient progression reference with explicit dependence on the detailed chapters and no new command execution.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "La reference card di Enterprise SDD condensa pipeline, agenti, comandi e gate."
+      },
+      "edge_id": "practice_f3c69de114eb561feb8c9630",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B071",
+      "practice": "PAT:043",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The Spec Kit card links specification commands, artifacts and work sequence. It provides a versioned operational reference, not a compatibility check of a current installation.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "La reference card di Spec Kit collega comandi, artefatti e sequenza di lavoro."
+      },
+      "edge_id": "practice_b6c5629eea541b471ce651af",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B072",
+      "practice": "PAT:068",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The OpenSpec card represents change through packages and deltas. It informs progressively recording changed intentions while retaining the distinction between lifecycle actions and a rigid sequential process.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "La reference card di OpenSpec rende leggibile il cambiamento tramite pacchetti e delta."
+      },
+      "edge_id": "practice_bbc76cf9d6ad03533904d7b8",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B073",
+      "practice": "PAT:072",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The BMAD card associates personae with phase artifacts. It informs handoff boundaries while making clear that different named roles do not prove independent checks or evidence sources.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "La reference card di BMAD evidenzia agenti persona e artefatti per fase."
+      },
+      "edge_id": "practice_375e97bc50b3f8316d3ff772",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B074",
+      "practice": "PAT:001",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The AI-RPI card separates research, planning and adaptive implementation. It informs revisable execution plans whose control intensity must be tied to explicit triggering criteria.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "La reference card di AI-RPI esplicita ricerca, piano e implementazione adattiva."
+      },
+      "edge_id": "practice_1fe96731077b2265ec274017",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B075",
+      "practice": "PAT:020",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The ralph-copilot card places loop progress and memory in files. It informs durable state transitions, while a nominal Reviewer still needs independent inputs and effective decision powers.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "La reference card di ralph-copilot concentra il loop in ruoli e memoria su file."
+      },
+      "edge_id": "practice_9a99b570f0b34fec38ca36e7",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B076",
+      "practice": "PAT:027",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The Spec Loop Engine card separates executor and verifier around durable state. It informs maker-checker architecture, with the retained limitation that component separation alone does not establish an independent acceptance criterion.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "La reference card di Spec Loop Engine separa executor e verifier su uno stato durevole."
+      },
+      "edge_id": "practice_28177d71d412e0d4b2e915a9",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B077",
+      "practice": "PAT:001",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The GSD v1 card presents Discuss–Plan–Execute–Verify as a lightweight route. It informs explicit planning and verification, without equating protocol brevity with low overhead or effective checks.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "La reference card di GSD v1 mostra il percorso leggero Discuss–Plan–Execute–Verify."
+      },
+      "edge_id": "practice_763d5705575b8d234c89f53f",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B078",
+      "practice": "PAT:020",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The GSD-2 card centers persistent state and automatic execution. It informs reconstructable progress while requiring concrete checks of stopping, resume and authorization limits.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "La reference card di GSD-2 mette in primo piano stato persistente e modalità automatica."
+      },
+      "edge_id": "practice_a9f323c841c09f9e3abb60b5",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B079",
+      "practice": "PAT:028",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The skill card describes behavioral principles rather than an SDLC pipeline. It informs reusable procedural guidance while preventing an invalid comparison with toolchains that perform different functions.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Le skill ispirate a Karpathy sono principi comportamentali, non una pipeline SDLC."
+      },
+      "edge_id": "practice_5dd47c35608c04b5d581b514",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B080",
+      "practice": "PAT:028",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The Agent Skills card uses composition and progressive loading of contextual capabilities. It informs reusable skill packaging, with freshness, trust and validation kept separate from successful loading.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Agent Skills usa composizione e caricamento progressivo per fornire capacità contestuali."
+      },
+      "edge_id": "practice_8fe4ac64046b1d2f0c7707eb",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B081",
+      "practice": "PAT:043",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The AIDD card starts work from vision and architectural decisions. It informs specifying the intended result and constraints before implementation, within the historical version described by the book.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "AIDD organizza il lavoro a partire da visione e decisioni architetturali."
+      },
+      "edge_id": "practice_978e82d44600391766aa34aa",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B085",
+      "practice": "PAT:003",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The continuous-development chapter combines autonomous execution, refreshed context and human approval. It informs unattended work with a retained approval boundary rather than treating unattended completion as release authority.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Lo sviluppo continuativo combina esecuzione autonoma, contesto rinnovato e una frontiera umana di approvazione."
+      },
+      "edge_id": "practice_14a1e32be0b338bbcffa29d4",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B085",
+      "practice": "PAT:060",
+      "collection": "B",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": false,
+      "rationale": "The reported API-cost anecdote omits human effort, a comparable baseline and accepted quality. Cost management should not interpret that contrast as a transferable return-on-investment estimate.",
+      "scope": "boundary",
+      "basis": {
+        "field": "limitation",
+        "excerpt": "La narrazione del lavoro da 50.000 dollari svolto con 297 dollari di API non misura ROI comparabile: mancano costo umano, baseline e denominatore della qualità accettata."
+      },
+      "edge_id": "practice_1bd161c3291aea8ac2b69458",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B086",
+      "practice": "PAT:014",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The deterministic-failure chapter emphasizes recognizable rejection signals and recoverable state. It informs a reproducible failure harness while acknowledging that a control cannot reject failures it does not recognize.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Progettare per il fallimento prevedibile significa fornire segnali di rifiuto e stato recuperabile."
+      },
+      "edge_id": "practice_eb08bdc0d394e9c45f6f9209",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B087",
+      "practice": "PAT:057",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The developer-evolution model organizes delegation skills and prerequisites for teaching. It informs enablement planning, with its stages treated as a pedagogical taxonomy rather than a validated competence scale.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Il modello a nove stadi rende discutibili competenze e prerequisiti della delega agli agenti."
+      },
+      "edge_id": "practice_6ad39a6675759c974852f766",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B088",
+      "practice": "PAT:023",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The Ralph chapter repeats a task with fresh context and progress outside the model. It informs the external-loop mechanism, while a completion token or passing test remains insufficient proof of intended behavior.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Il pattern Ralph ripete un incarico con contesto fresco e progresso conservato fuori dal modello."
+      },
+      "edge_id": "practice_6c9364d0e6463b543af6d277",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B089",
+      "practice": "PAT:046",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Task decomposition creates bounded units with verifiable criteria. It informs small inspectable increments, while preserving the need to manage dependencies and keep specification independent from the candidate.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "La decomposizione rende una richiesta eseguibile attraverso unità limitate e criteri verificabili."
+      },
+      "edge_id": "practice_64f6c6aa64fac89ebedf4344",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B090",
+      "practice": "PAT:016",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "The warning about invalidation after an intention change directly informs drift detection. Durable memory must distinguish previously useful knowledge from currently governing constraints.",
+      "scope": "thematic",
+      "basis": {
+        "field": "limitation",
+        "excerpt": "Accumulo non significa apprendimento corretto: servono provenienza, rimozione di lezioni errate e invalidazione quando cambia l’intenzione."
+      },
+      "edge_id": "practice_f6152e04ee4d7512fecdea92",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B090",
+      "practice": "PAT:029",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The memory chapter supplies several channels for retaining knowledge across loop sessions. It informs persistent retrieval with provenance and invalidation, since accumulated lessons can be wrong or stale.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Quattro canali di memoria consentono al loop di conservare conoscenza senza mantenere una sessione infinita."
+      },
+      "edge_id": "practice_e6ed2bf5184548b587328a26",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B091",
+      "practice": "PAT:009",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The gate and backpressure chapter makes failures operational reasons to reject work. It informs regulating candidate flow, with self-criticism and nominal role separation insufficient to establish independent verification.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Quality gate e backpressure trasformano gli errori in rifiuti operativi anziché in accettazioni apparenti."
+      },
+      "edge_id": "practice_a1b6ebc18b7dadc195961cba",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B092",
+      "practice": "PAT:067",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The prompting chapter includes preventive clarification before autonomous work. It informs resolving consequential ambiguity early, while correlated self-criticism cannot become an independent acceptance proof.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "I prompt autonomi combinano chiarimento preventivo, vincoli stratificati e prospettive di revisione."
+      },
+      "edge_id": "practice_d5bb5b89af01257e32ed03e5",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B093",
+      "practice": "PAT:001",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Plan-Then-Execute in B093 (Agentic Patterns in Practice): OCC:AGENT:01, ai-auto_eng/AI_AUTO_ENG/chapters/chapter09_patterns.tex lines 60–67. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:AGENT:01"
+        ]
+      },
+      "edge_id": "practice_c11f3712594433b407d8895f",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B093",
+      "practice": "PAT:002",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Swarm Migration (Map-Reduce for Agents) in B093 (Agentic Patterns in Practice): OCC:AGENT:02, ai-auto_eng/AI_AUTO_ENG/chapters/chapter09_patterns.tex lines 68–97. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:AGENT:02"
+        ]
+      },
+      "edge_id": "practice_f5161af02c742717acecb0bd",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B093",
+      "practice": "PAT:003",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Background Agent CI in B093 (Agentic Patterns in Practice): OCC:AGENT:03, ai-auto_eng/AI_AUTO_ENG/chapters/chapter09_patterns.tex lines 98–136. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:AGENT:03"
+        ]
+      },
+      "edge_id": "practice_03905f3f1d2982c930ada05c",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B093",
+      "practice": "PAT:004",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Initializer-Maintainer Dual Agent Architecture in B093 (Agentic Patterns in Practice): OCC:AGENT:04, ai-auto_eng/AI_AUTO_ENG/chapters/chapter09_patterns.tex lines 137–144. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:AGENT:04"
+        ]
+      },
+      "edge_id": "practice_77debcd4805b535ac8ccd0f4",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B093",
+      "practice": "PAT:005",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Feature List as Immutable Contract in B093 (Agentic Patterns in Practice): OCC:AGENT:05, ai-auto_eng/AI_AUTO_ENG/chapters/chapter09_patterns.tex lines 145–180. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:AGENT:05"
+        ]
+      },
+      "edge_id": "practice_93f1b7abd9d32dfd9bf0694b",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B093",
+      "practice": "PAT:006",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Context Window Anxiety Management in B093 (Agentic Patterns in Practice): OCC:AGENT:06, ai-auto_eng/AI_AUTO_ENG/chapters/chapter09_patterns.tex lines 181–188. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:AGENT:06"
+        ]
+      },
+      "edge_id": "practice_757d2a1229f40b64dc5df47d",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B093",
+      "practice": "PAT:007",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Compounding Engineering in B093 (Agentic Patterns in Practice): OCC:AGENT:07, ai-auto_eng/AI_AUTO_ENG/chapters/chapter09_patterns.tex lines 189–196. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:AGENT:07"
+        ]
+      },
+      "edge_id": "practice_d9445ac73c7910ad84be7eef",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B093",
+      "practice": "PAT:008",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Agent-Powered Codebase Q&A and Onboarding in B093 (Agentic Patterns in Practice): OCC:AGENT:08, ai-auto_eng/AI_AUTO_ENG/chapters/chapter09_patterns.tex lines 197–211. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:AGENT:08"
+        ]
+      },
+      "edge_id": "practice_3cab837f896f6ecedffb9173",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B093",
+      "practice": "PAT:009",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates CI-as-Backpressure in B093 (Agentic Patterns in Practice): OCC:AGENT:09, ai-auto_eng/AI_AUTO_ENG/chapters/chapter09_patterns.tex lines 212–219. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:AGENT:09"
+        ]
+      },
+      "edge_id": "practice_10bba53a2e5a84194b8f7cd7",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B093",
+      "practice": "PAT:010",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Inference-Healed Code Review in B093 (Agentic Patterns in Practice): OCC:AGENT:10, ai-auto_eng/AI_AUTO_ENG/chapters/chapter09_patterns.tex lines 220–227. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:AGENT:10"
+        ]
+      },
+      "edge_id": "practice_2bd632ee12cf7d107e0028c0",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B093",
+      "practice": "PAT:011",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Reward Shaping for Tool Use in B093 (Agentic Patterns in Practice): OCC:AGENT:11, ai-auto_eng/AI_AUTO_ENG/chapters/chapter09_patterns.tex lines 228–255. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:AGENT:11"
+        ]
+      },
+      "edge_id": "practice_05dee9fef2a76fef599ea7c6",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B093",
+      "practice": "PAT:012",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates AI-Accelerated Learning and Skill Development in B093 (Agentic Patterns in Practice): OCC:AGENT:12, ai-auto_eng/AI_AUTO_ENG/chapters/chapter09_patterns.tex lines 256–263. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:AGENT:12"
+        ]
+      },
+      "edge_id": "practice_1670eb48d686e0d5e2766ae4",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B093",
+      "practice": "PAT:013",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Agent Reinforcement Fine-Tuning in B093 (Agentic Patterns in Practice): OCC:AGENT:13, ai-auto_eng/AI_AUTO_ENG/chapters/chapter09_patterns.tex lines 264–280. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:AGENT:13"
+        ]
+      },
+      "edge_id": "practice_1aa55faebd17102899d86d63",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B093",
+      "practice": "PAT:014",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Deterministic Failure Harness in B093 (Agentic Patterns in Practice): OCC:AGENT:14, ai-auto_eng/AI_AUTO_ENG/chapters/chapter09_patterns.tex lines 281–288. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:AGENT:14"
+        ]
+      },
+      "edge_id": "practice_fa962f952d21993bdc217fcf",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B093",
+      "practice": "PAT:015",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Regression Safety Net in B093 (Agentic Patterns in Practice): OCC:AGENT:15, ai-auto_eng/AI_AUTO_ENG/chapters/chapter09_patterns.tex lines 289–296. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:AGENT:15"
+        ]
+      },
+      "edge_id": "practice_0d3635dc81b30300f8e82093",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B093",
+      "practice": "PAT:016",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Structured Drift Detection in B093 (Agentic Patterns in Practice): OCC:AGENT:16, ai-auto_eng/AI_AUTO_ENG/chapters/chapter09_patterns.tex lines 297–309. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:AGENT:16"
+        ]
+      },
+      "edge_id": "practice_a2b21695cc0ddeb795840fb1",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B093",
+      "practice": "PAT:017",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Blast Radius Containment in B093 (Agentic Patterns in Practice): OCC:AGENT:17, ai-auto_eng/AI_AUTO_ENG/chapters/chapter09_patterns.tex lines 310–317. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:AGENT:17"
+        ]
+      },
+      "edge_id": "practice_187de9a0811c3ae328303ada",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B093",
+      "practice": "PAT:018",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates PII and Secret Scrubbing in B093 (Agentic Patterns in Practice): OCC:AGENT:18, ai-auto_eng/AI_AUTO_ENG/chapters/chapter09_patterns.tex lines 318–330. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:AGENT:18"
+        ]
+      },
+      "edge_id": "practice_fadff04f288183ffd7957d7e",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B093",
+      "practice": "PAT:019",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Subagent Spawning and Fan-Out in B093 (Agentic Patterns in Practice): OCC:AGENT:19, ai-auto_eng/AI_AUTO_ENG/chapters/chapter09_patterns.tex lines 331–338. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:AGENT:19"
+        ]
+      },
+      "edge_id": "practice_0c14f5ea5605a7bd0bd436a8",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B093",
+      "practice": "PAT:020",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates File-System as State Machine in B093 (Agentic Patterns in Practice): OCC:AGENT:20, ai-auto_eng/AI_AUTO_ENG/chapters/chapter09_patterns.tex lines 339–364. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:AGENT:20"
+        ]
+      },
+      "edge_id": "practice_3c360c8ea16f8e0d596ce7c0",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B093",
+      "practice": "PAT:021",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Tool Call Budget in B093 (Agentic Patterns in Practice): OCC:AGENT:21, ai-auto_eng/AI_AUTO_ENG/chapters/chapter09_patterns.tex lines 365–377. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:AGENT:21"
+        ]
+      },
+      "edge_id": "practice_0abeaaec1f1ced0382dc810e",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B093",
+      "practice": "PAT:022",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Trust Calibration in B093 (Agentic Patterns in Practice): OCC:AGENT:22, ai-auto_eng/AI_AUTO_ENG/chapters/chapter09_patterns.tex lines 378–385. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:AGENT:22"
+        ]
+      },
+      "edge_id": "practice_3595b6301e062b5ee24b9605",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B093",
+      "practice": "PAT:042",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The agentic catalogue organizes control, memory, feedback, reliability and security mechanisms. It informs choosing a coherent combination, while each extra mechanism still needs to justify its coordination and cost burden.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Il catalogo organizza pattern agentici per controllo, memoria, feedback, affidabilità e sicurezza."
+      },
+      "edge_id": "practice_2e970ff4e405e17591e444a7",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B093",
+      "practice": "PAT:084",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Escalation Protocol in B093 (Agentic Patterns in Practice): OCC:AGENT:23, ai-auto_eng/AI_AUTO_ENG/chapters/chapter09_patterns.tex lines 386–400. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:AGENT:23"
+        ]
+      },
+      "edge_id": "practice_c5f03e72357a9a662bae41c2",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B094",
+      "practice": "PAT:003",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The overnight-execution chapter treats scheduling as controlled job dependencies and recovery. It informs background execution whose trigger does not itself authorize merging or deployment.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "L’esecuzione notturna richiede una sequenza controllata di job, non soltanto un timer."
+      },
+      "edge_id": "practice_6add0eda16852e8e72a076ea",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B095",
+      "practice": "PAT:031",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "The discussion of isolation and merge work informs using separate write domains for concurrent candidates. It does not imply that version-control isolation provides independent reasoning or unbounded throughput.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Il multi-agente diventa utile quando isolamento e coordinamento risolvono un limite osservato del singolo loop."
+      },
+      "edge_id": "practice_532652a456b3843608484088",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B095",
+      "practice": "PAT:056",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The multi-agent chapter uses isolation and coordination to address an observed single-loop limit. It informs parallel orchestration while retaining integration, merge and review capacity as throughput constraints.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Il multi-agente diventa utile quando isolamento e coordinamento risolvono un limite osservato del singolo loop."
+      },
+      "edge_id": "practice_27371de3841b5c4d713bd43a",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B096",
+      "practice": "PAT:017",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The risk-management chapter combines containment, economic limits and human review. It informs blast-radius design while explicitly distinguishing a Git worktree from process, network and credential isolation.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "La sicurezza dell’autonomia combina contenimento, limiti economici e una frontiera di revisione umana."
+      },
+      "edge_id": "practice_7116f3515f3c5012225c1790",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B097",
+      "practice": "PAT:023",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The implementation guide assembles scripts, plans, prompts and checklists for the loop. It provides operational reading for external repetition, with its production-ready label unconfirmed by execution or security audit here.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "La guida d’implementazione rende il pattern eseguibile mediante script, piani, prompt e checklist."
+      },
+      "edge_id": "practice_2987d6a2d352f02ea0cb105b",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B098",
+      "practice": "PAT:023",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The tool reference compares Ralph loop implementations, configurations and migration paths. It provides operational reading for choosing an external repetition mechanism, while its product details remain a historical snapshot.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "La reference confronta implementazioni Ralph, configurazioni e percorsi di migrazione."
+      },
+      "edge_id": "practice_e5e7b821c89a02bc93068e23",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B099",
+      "practice": "PAT:014",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The troubleshooting chapter reconstructs loop symptoms, state and causes. It informs creating a repeatable diagnostic before repair, while the proposed commands still require environment-specific safety and effectiveness checks.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "La diagnosi parte dai sintomi del loop e ricostruisce cause, stato e costi."
+      },
+      "edge_id": "practice_7201b7b798286418da5a7b60",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B100",
+      "practice": "PAT:025",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The Copilot chapter includes manual iteration alongside extensions, CLI and subagent routes. It informs choosing an editor-native loop when appropriate, without claiming current support for historical product options.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Ralph viene adattato a Copilot tramite estensioni, CLI, subagenti o iterazione manuale."
+      },
+      "edge_id": "practice_cd6a0a1fc7e7e3959903c1d6",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B104",
+      "practice": "PAT:027",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The critical assessment connects context, harness, evidence and authority. Applying that framing to separate candidate production from acceptance is an editorial inference for this reading path; the narrow annotation does not itself describe a maker-checker mechanism or establish its effectiveness.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Il loop affidabile emerge dall’interazione fra contesto, harness, evidenza e autorità."
+      },
+      "edge_id": "practice_32d866a732dfa238c478a37e",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B105",
+      "practice": "PAT:032",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The organizational chapter assigns responsibilities and verification capacity around loop work. It informs explicit ownership across coordinated loops, with its proposed laws requiring local handoff and pilot measurements.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "L’organizzazione deve assegnare responsabilità, capacità di verifica e infrastruttura di conoscenza al lavoro dei loop."
+      },
+      "edge_id": "practice_15d45b395068fa29af74414b",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B105",
+      "practice": "PAT:057",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "The chapter connects organizational knowledge infrastructure with retained skills and review capacity. It informs an enablement program whose outcomes must be measured rather than inferred from proposed principles.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "L’organizzazione deve assegnare responsabilità, capacità di verifica e infrastruttura di conoscenza al lavoro dei loop."
+      },
+      "edge_id": "practice_2e0a9bdbe7233c348bbdd08d",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B106",
+      "practice": "PAT:033",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "The chapter's attention to failed work and human acceptance effort informs the decision to fund another attempt. Its analytical scenarios remain models requiring local calibration, not measured production accounts.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "L’unità economica diventa l’esito verificato, non il token economico o la velocità del singolo contributore."
+      },
+      "edge_id": "practice_5a78c7e6bddcb6d222a2cf6d",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B106",
+      "practice": "PAT:060",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The economics chapter uses verified outcomes rather than token price or individual speed as the unit of value. It informs total-cost management while requiring independent calibration of acceptance, effort and expected-loss parameters.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "L’unità economica diventa l’esito verificato, non il token economico o la velocità del singolo contributore."
+      },
+      "edge_id": "practice_a952989d798ffb02cc47d338",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B107",
+      "practice": "PAT:020",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "Persistent progress requires reconstructable state across fresh sessions. The chapter informs a file-backed state machine while warning that persistence alone does not establish convergence or authorization.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Ralph conserva il progresso fuori dalla sessione e tratta la ripetizione come una politica limitata e verificabile."
+      },
+      "edge_id": "practice_d04e3df3731e52e1ff5282d8",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B107",
+      "practice": "PAT:023",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": true,
+      "rationale": "The retained occurrence trail locates The External Bash Loop in B107 (The Ralph Loop: Persistent Progress Through Fresh Context): OCC:LOOP:R1, NDLE/new_chapters/chapter04_ralph_loop.tex lines 397–397. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:LOOP:R1"
+        ]
+      },
+      "edge_id": "practice_04e40865d3e7e355a9ccfc10",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B107",
+      "practice": "PAT:024",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates The Stop-Hook Loop in B107 (The Ralph Loop: Persistent Progress Through Fresh Context): OCC:LOOP:R2, NDLE/new_chapters/chapter04_ralph_loop.tex lines 545–545. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:LOOP:R2"
+        ]
+      },
+      "edge_id": "practice_a6cbe822b7abf345d1db66c7",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B107",
+      "practice": "PAT:025",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates The Editor-Native Manual Loop in B107 (The Ralph Loop: Persistent Progress Through Fresh Context): OCC:LOOP:R3, NDLE/new_chapters/chapter04_ralph_loop.tex lines 566–566. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:LOOP:R3"
+        ]
+      },
+      "edge_id": "practice_416900f2bb1b4dfb981dd6a6",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B108",
+      "practice": "PAT:030",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The local-loop chapter combines controlled runtime services, durable intent, verification and economic telemetry. It informs exact tool execution within explicit boundaries, with installations and benchmarks not re-executed in this review.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Un loop locale completo include runtime controllato, intenti durevoli, verifica e telemetria economica."
+      },
+      "edge_id": "practice_849afb1f424d836d4b0372aa",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B109",
+      "practice": "PAT:025",
+      "collection": "B",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The selection chapter starts with the smallest mechanism that resolves an observed failure and has an external signal. It informs retaining a simple manual loop when added coordination would not resolve a concrete uncertainty.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Si sceglie il meccanismo minimo che affronta un fallimento osservato e dispone di un segnale esterno verificabile."
+      },
+      "edge_id": "practice_4a7cf3bd5b74d7ebcc97e742",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B109",
+      "practice": "PAT:026",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Run Until Done: Retry Against Reality in B109 (Choosing the Right Loop): OCC:LOOP:T01, NDLE/new_chapters/chapter06_choosing_the_right_loop.tex lines 200–200. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:LOOP:T01"
+        ]
+      },
+      "edge_id": "practice_a75a2ae3a869b333f5969eaf",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B109",
+      "practice": "PAT:027",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Maker–Checker: Separate Production from Acceptance in B109 (Choosing the Right Loop): OCC:LOOP:T02, NDLE/new_chapters/chapter06_choosing_the_right_loop.tex lines 273–273. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:LOOP:T02"
+        ]
+      },
+      "edge_id": "practice_4ea333b952c9b4cfbb270886",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B109",
+      "practice": "PAT:028",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Skills and Context Engineering: Remove Intent Debt in B109 (Choosing the Right Loop): OCC:LOOP:T03, NDLE/new_chapters/chapter06_choosing_the_right_loop.tex lines 363–363. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:LOOP:T03"
+        ]
+      },
+      "edge_id": "practice_70ada0130a23779949777be3",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B109",
+      "practice": "PAT:029",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Memory and Retrieval: Read What the Model Could Not Know in B109 (Choosing the Right Loop): OCC:LOOP:T04, NDLE/new_chapters/chapter06_choosing_the_right_loop.tex lines 395–395. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:LOOP:T04"
+        ]
+      },
+      "edge_id": "practice_cc58a8dad7a2089fdf37d106",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B109",
+      "practice": "PAT:030",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Connectors and Tools: Move Exact Work Outside the Weights in B109 (Choosing the Right Loop): OCC:LOOP:T05, NDLE/new_chapters/chapter06_choosing_the_right_loop.tex lines 454–454. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:LOOP:T05"
+        ]
+      },
+      "edge_id": "practice_ac23bae551d1c250dea0770d",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B109",
+      "practice": "PAT:031",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Worktrees: Isolate the Write Domains in B109 (Choosing the Right Loop): OCC:LOOP:T06, NDLE/new_chapters/chapter06_choosing_the_right_loop.tex lines 511–511. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:LOOP:T06"
+        ]
+      },
+      "edge_id": "practice_9d665d3ee6f1c12156b81c25",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B109",
+      "practice": "PAT:032",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Multi-Loop Coordination: One Owner per Target in B109 (Choosing the Right Loop): OCC:LOOP:T07, NDLE/new_chapters/chapter06_choosing_the_right_loop.tex lines 559–559. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:LOOP:T07"
+        ]
+      },
+      "edge_id": "practice_e63992d5566d9c7d4e51fcb4",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B109",
+      "practice": "PAT:033",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Budget and Observability: Price the Next Attempt in B109 (Choosing the Right Loop): OCC:LOOP:T08, NDLE/new_chapters/chapter06_choosing_the_right_loop.tex lines 632–632. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:LOOP:T08"
+        ]
+      },
+      "edge_id": "practice_320b7c2dfc9e1066eadd52f9",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B109",
+      "practice": "PAT:034",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Safety and Guardrails: Verification Is Not Authorization in B109 (Choosing the Right Loop): OCC:LOOP:T09, NDLE/new_chapters/chapter06_choosing_the_right_loop.tex lines 692–692. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:LOOP:T09"
+        ]
+      },
+      "edge_id": "practice_3c68de840d45fc3cdccafac0",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B109",
+      "practice": "PAT:035",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Daily Triage: rank the rare urgent item in B109 (Choosing the Right Loop): OCC:LOOP:T10, NDLE/new_chapters/chapter06_choosing_the_right_loop.tex lines 809–809. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:LOOP:T10"
+        ]
+      },
+      "edge_id": "practice_d9fa1c6f1ba7b423fb7d0880",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B109",
+      "practice": "PAT:036",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates CI Sweeper: classify before fixing in B109 (Choosing the Right Loop): OCC:LOOP:T11, NDLE/new_chapters/chapter06_choosing_the_right_loop.tex lines 842–842. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:LOOP:T11"
+        ]
+      },
+      "edge_id": "practice_70fafe663b1593f5e5a31788",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B109",
+      "practice": "PAT:037",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Dependency Sweeper: route by risk in B109 (Choosing the Right Loop): OCC:LOOP:T12, NDLE/new_chapters/chapter06_choosing_the_right_loop.tex lines 870–870. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:LOOP:T12"
+        ]
+      },
+      "edge_id": "practice_e4a3e60f9b5ca93a2f17892a",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B109",
+      "practice": "PAT:038",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Duplicate detection in B109 (Choosing the Right Loop): OCC:LOOP:T13, NDLE/new_chapters/chapter06_choosing_the_right_loop.tex lines 124–124. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:LOOP:T13"
+        ]
+      },
+      "edge_id": "practice_eddba8e41e18eee66011fabe",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B109",
+      "practice": "PAT:039",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates PR babysitter in B109 (Choosing the Right Loop): OCC:LOOP:T14, NDLE/new_chapters/chapter06_choosing_the_right_loop.tex lines 126–126. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:LOOP:T14"
+        ]
+      },
+      "edge_id": "practice_812e40ee390984034a187dd3",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B109",
+      "practice": "PAT:040",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Post-merge cleanup in B109 (Choosing the Right Loop): OCC:LOOP:T15, NDLE/new_chapters/chapter06_choosing_the_right_loop.tex lines 128–128. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:LOOP:T15"
+        ]
+      },
+      "edge_id": "practice_a13b5a9fd80421015d55e7cf",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B109",
+      "practice": "PAT:041",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Changelog drafter in B109 (Choosing the Right Loop): OCC:LOOP:T16, NDLE/new_chapters/chapter06_choosing_the_right_loop.tex lines 129–129. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:LOOP:T16"
+        ]
+      },
+      "edge_id": "practice_6011597b986b28c4313f9ec6",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "B109",
+      "practice": "PAT:042",
+      "collection": "B",
+      "relation": "DOCUMENTS_PRACTICE",
+      "relation_label": "Documents practice origin",
+      "primary": false,
+      "rationale": "The retained occurrence trail locates Capstone orchestra in B109 (Choosing the Right Loop): OCC:LOOP:T17, NDLE/new_chapters/chapter06_choosing_the_right_loop.tex lines 130–130. This documents the recorded historical origin, not independently verified inventorship, effectiveness, or every instruction in the expanded current guide.",
+      "scope": "historical_documentation",
+      "basis": {
+        "occurrence_ids": [
+          "OCC:LOOP:T17"
+        ]
+      },
+      "edge_id": "practice_e0a5a830f4f40a8d8b656358",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
     }
   ]
 }

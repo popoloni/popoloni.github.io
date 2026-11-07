@@ -1,10 +1,10 @@
 {
-  "site_version": "13.4",
-  "graph_snapshot": "2026-11-06",
+  "site_version": "13.5",
+  "graph_snapshot": "2026-11-07",
   "graph_source": "atlas_current.html",
   "graph_nodes": 1991,
-  "graph_edges": 14268,
-  "graph_relation_types": 310,
+  "graph_edges": 14960,
+  "graph_relation_types": 315,
   "collection_counts": {
     "W": 229,
     "O": 62,
@@ -36,7 +36,7 @@
     "chapters": 13,
     "volumes": 6
   },
-  "html_pages_built": 77,
+  "html_pages_built": 78,
   "graph_payload_unchanged": true,
   "graph_payload_matches_current_source": true,
   "new_empirical_verification": false

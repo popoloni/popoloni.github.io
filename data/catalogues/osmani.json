@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "atlas_current.html",
-    "snapshot": "2026-11-06",
-    "site_version": "13.4",
+    "snapshot": "2026-11-07",
+    "site_version": "13.5",
     "count": 62,
     "note": "Materialized view of the current audited graph; complete node fields retained. Source inspection and publication status are recorded per item. The builder performs no new empirical validation."
   },
@@ -4981,6 +4981,1300 @@
         "atlas_added_release": "13.4",
         "atlas_added_date": "2026-11-06"
       }
+    }
+  ],
+  "practice_relationships": [
+    {
+      "source": "O001",
+      "practice": "PAT:027",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The proposed replacement for unscalable line-by-line reading informs how the checker obtains independently justified evidence and who owns approval. The essay's second-hand statistics do not validate a particular maker–checker arrangement.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "When human line-by-line reading no longer scales, independently justified checks and accountable approval must replace its assurance role."
+      },
+      "edge_id": "practice_9d59712c7f39cab165177e82",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O002",
+      "practice": "PAT:015",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "The explicit call for regression evidence informs which existing obligations must be protected before an agent modifies brownfield code. It does not establish that any particular regression suite covers all consequential behavior.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Reliable agents in mature codebases need recovered tacit constraints and regression evidence before modifying code."
+      },
+      "edge_id": "practice_646053a854df2b69bfcd13f3",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O002",
+      "practice": "PAT:053",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Recovering tacit constraints before changing a mature repository is the navigation decision this practice addresses: distinguish existing behavior, intended obligations and missing system knowledge. The practitioner interpretation is not an evaluated navigation method.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Reliable agents in mature codebases need recovered tacit constraints and regression evidence before modifying code."
+      },
+      "edge_id": "practice_8b7e71e467bcf85d1c0527ee",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O003",
+      "practice": "PAT:050",
+      "collection": "O",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The skill-decay argument identifies reasoning, debugging and comprehension as activities that must remain available when implementation is delegated. It motivates a learning-preservation boundary, without supplying a measured rate of developer skill loss.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Developers must deliberately practice reasoning, debugging and code comprehension when agents perform most implementation work."
+      },
+      "edge_id": "practice_88cbd887bef500a39e2169b0",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O004",
+      "practice": "PAT:016",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Treating configuration and memory as perishable assets informs when retained agent instructions should be revalidated and stale versions excluded from current decisions. The article does not demonstrate an automated method for determining every semantic impact.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Agent configuration and memory are perishable operational assets that should be periodically revalidated."
+      },
+      "edge_id": "practice_8704b63bbbf9ebd9351c9354",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O005",
+      "practice": "PAT:034",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The relocation of human responsibility to intent, quality criteria and authorization informs the separation between permitted execution, technical checking and accountable acceptance. This is an organizational argument, not evidence that factories enforce those boundaries.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Agentic factories relocate human responsibility toward intent, quality criteria and authorization rather than eliminating it."
+      },
+      "edge_id": "practice_f7875dc0807ce7aa95992821",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O006",
+      "practice": "PAT:026",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Bounded goals, observable checks and explicit stop conditions provide a concrete basis for deciding whether another autonomous attempt is warranted. The loop guidance does not establish that retries converge or that an agent may redefine success.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Effective autonomous loops begin with bounded goals, observable checks and explicit stopping rules."
+      },
+      "edge_id": "practice_4c8e64d3bbe5c561d51147cd",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O007",
+      "practice": "PAT:027",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The preference for repeatable harness checks over agent opinion informs the checker’s evidence requirements for generated code. A practitioner recommendation for checks does not establish oracle independence or comprehensive quality assurance.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Quality assurance for generated code increasingly depends on repeatable harness checks, not only manual inspection or agent opinion."
+      },
+      "edge_id": "practice_27ea8dc66e7122e23e6c2b7e",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O008",
+      "practice": "PAT:042",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The factory taxonomy informs the decision to compose multiple governed loops only around a defined engineering outcome. Its conceptual operating models do not establish that a larger orchestration arrangement is effective.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "A software factory is many governed loops; its level of human involvement changes both risk and total operating cost."
+      },
+      "edge_id": "practice_030c659e3e7891713682d84d",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O008",
+      "practice": "PAT:060",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "Changing the level of human involvement changes total operating cost, so the article informs including supervision and governance when comparing execution routes. Its projections are not observed comparative returns.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "A software factory is many governed loops; its level of human involvement changes both risk and total operating cost."
+      },
+      "edge_id": "practice_d63281e8dc76808c591b13b1",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O009",
+      "practice": "PAT:034",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Retaining ownership of quality criteria, verdicts and consequences while delegating execution directly informs the separation of execution from acceptance authority. The essay does not prove that any particular controller enforces those rights.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Engineers can delegate the inner execution loop while retaining ownership of quality criteria, verdicts and consequences."
+      },
+      "edge_id": "practice_a467500078130a3c41865386",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O010",
+      "practice": "PAT:034",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Separating agency from orchestration helps an owner specify which decisions are delegated at a chosen autonomy level. The taxonomy informs authorization design; its operating levels do not themselves grant permissions or validate safety.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Osmani separates autonomy into agency and orchestration axes, describing six operating levels from suggestions to management-by-exception."
+      },
+      "edge_id": "practice_fc992b44dc4a5627e0e2de0b",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O011",
+      "practice": "PAT:052",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The shift from writing to justified acceptance informs allocating review attention to the uncertainties introduced by generated changes. It is a practitioner account of a bottleneck, not a comparative evaluation of review routes.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "AI-generated code moves the bottleneck from writing to justified acceptance, making review strategy a core engineering skill."
+      },
+      "edge_id": "practice_de533c6c7904872071abf0e5",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O012",
+      "practice": "PAT:031",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "Worktrees are an explicit primitive in the loop account, making the article relevant to separating concurrent write domains before integration. This thematic association does not establish that the described loops isolate shared services or logical ownership.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Osmani identifies five interoperable loop-building primitives—scheduling, worktrees, skills, connectors and subagents—plus durable external memory."
+      },
+      "edge_id": "practice_92b36177f14f27a7389500af",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O012",
+      "practice": "PAT:042",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The enumerated loop primitives inform choosing which mechanisms a composed agent workflow actually needs, including durable memory. The pattern description does not show that installing every primitive improves reliability.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Osmani identifies five interoperable loop-building primitives—scheduling, worktrees, skills, connectors and subagents—plus durable external memory."
+      },
+      "edge_id": "practice_0e6e832a34685d785b08c96c",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O013",
+      "practice": "PAT:020",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Durable task state, resumability and recovery inform representing progress through inspectable state transitions rather than conversational completion claims. The summary does not establish transactional storage or tested recovery guarantees.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Agents operating across sessions require durable task state, resumability, recovery and verifiable progress."
+      },
+      "edge_id": "practice_c218a9ce55ee27261d0358d3",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O013",
+      "practice": "PAT:072",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "Cross-session operation and verifiable progress inform the state a successor needs at handoff, including unfinished work and recovery information. Resumability is a requirement here, not an independently evaluated handoff result.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Agents operating across sessions require durable task state, resumability, recovery and verifiable progress."
+      },
+      "edge_id": "practice_a467b0081b0077b676c51a92",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O014",
+      "practice": "PAT:034",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The requirement for identity and authorization beyond model capability informs separating permission enforcement from model-generated actions and success claims. The architectural argument does not certify a production agent's controls.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Production agents need identity, authorization, observability and recovery controls beyond an impressive base model."
+      },
+      "edge_id": "practice_9cf6973c8316b0537ee2c52f",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O015",
+      "practice": "PAT:025",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The retained role of editors for targeted inspection informs choosing a human-guided session when a change needs close judgment, even if orchestration becomes asynchronous. This is a prospective control-surface argument, not a measured advantage of manual loops.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Asynchronous agent orchestration may become the primary developer control surface, while editors remain tools for targeted inspection."
+      },
+      "edge_id": "practice_3d7940bbe79b07b3c126ef25",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O016",
+      "practice": "PAT:072",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Clear decision-making, communication and long-term stewardship inform what an engineering handoff should preserve for its successor. This is a thematic use of a career retrospective, not evidence that the essay describes or validates an agent handoff protocol.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Long-lived engineering teams depend on trust, clear decision-making, effective communication and organizational stewardship."
+      },
+      "edge_id": "practice_6d156b28a050b69ce2ec7c28",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O017",
+      "practice": "PAT:048",
+      "collection": "O",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "Comprehension debt despite increased shipping makes reconstruction of behavior and failure modes a separate acceptance concern. The illustrative 80% framing cannot quantify the prevalence of weak developer understanding.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "When agents implement most code, developers can accumulate comprehension debt even while shipping more changes."
+      },
+      "edge_id": "practice_ee202672a10fc30de63aa214",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O018",
+      "practice": "PAT:043",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "A compact, testable specification informs making the acceptance question explicit before generation. The guidance does not establish that concise specifications are complete or that implementation can authorize missing requirements.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "A useful agent specification is compact, testable and iterative rather than a giant prompt resembling an unvalidated requirements dump."
+      },
+      "edge_id": "practice_66979908766b9215344e0026",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O018",
+      "practice": "PAT:064",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "The warning against a giant unvalidated requirements dump informs keeping specifications compact and governable as work grows. Its iterative guidance does not establish complete dependency tracking or a universal optimum for document size.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "A useful agent specification is compact, testable and iterative rather than a giant prompt resembling an unvalidated requirements dump."
+      },
+      "edge_id": "practice_1cdad487ffa67cdd017e4ae3",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O018",
+      "practice": "PAT:068",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "The recommendation for iterative specifications informs proceeding on settled behavior while keeping unresolved questions explicit. It does not justify repeated document rewriting as a substitute for authorized decisions.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "A useful agent specification is compact, testable and iterative rather than a giant prompt resembling an unvalidated requirements dump."
+      },
+      "edge_id": "practice_7afec9f0f6c3838d2c7d4843",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O019",
+      "practice": "PAT:052",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The article frames review as an accountable burden-of-proof process, informing which checks and decision owners are needed for a generated change. It supplies a review argument rather than measured evidence that more review stages improve outcomes.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "The rise in generated changes makes code review an explicit burden-of-proof and accountability process."
+      },
+      "edge_id": "practice_509946c726f3e55c6a29d2d1",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O020",
+      "practice": "PAT:045",
+      "collection": "O",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The contrast between easy React scaffolding and harder integration or usability cautions against promoting a successful prototype directly into maintained software. The synthesized benchmarks use different tasks and cannot establish a universal adoption threshold.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "React-related AI success is highly task-dependent, with integration and usability much harder to establish than component scaffolding."
+      },
+      "edge_id": "practice_2ac78722b6cf62ec8060ce02",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O021",
+      "practice": "PAT:001",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Planning before scoped delegation informs separating the approved result from an execution plan that is revised as checks produce observations. The workflow preference remains practitioner guidance, not a controlled claim of outperforming alternatives.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Planning, scoped delegation and continuous checking outperform an unmanaged prompt-to-merge workflow as an engineering practice."
+      },
+      "edge_id": "practice_443d9b1f4a9e8cb88a9fcba3",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O021",
+      "practice": "PAT:046",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "Scoped delegation and continuous checking inform choosing increments small enough to verify a coherent change. The article does not establish a universal chunk size or prove that every split reduces integration work.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Planning, scoped delegation and continuous checking outperform an unmanaged prompt-to-merge workflow as an engineering practice."
+      },
+      "edge_id": "practice_764126f4d8b6b108259efd0e",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O022",
+      "practice": "PAT:059",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The emphasis on user problems and collaboration beyond code production informs choosing outcome measures that capture accepted engineering value. Career reflection supplies this measurement framing, not an original AI productivity estimate.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Durable engineering effectiveness depends on solving user problems, judgment and collaboration beyond producing code."
+      },
+      "edge_id": "practice_78f12c1b6344394cf9bb7840",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O023",
+      "practice": "PAT:027",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Treating generated code as an untrusted draft informs withholding acceptance until responsible verification exists. The author's later qualification of the prescription should remain visible; the draft metaphor does not itself supply an independent oracle.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "AI-generated code should be treated as an untrusted draft and not merged without responsible understanding and verification."
+      },
+      "edge_id": "practice_3651f9e4577ca41872653cf6",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O023",
+      "practice": "PAT:048",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "Responsible understanding before merge informs asking the maintainer to explain the candidate's behavior and potential failures. An explanation is a comprehension check, not proof that the generated implementation is correct.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "AI-generated code should be treated as an untrusted draft and not merged without responsible understanding and verification."
+      },
+      "edge_id": "practice_e29a1159eb3bd37dc62a753f",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O024",
+      "practice": "PAT:074",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Questions about purpose, assumptions, context and evidence inform a review task that challenges plausible AI solutions with specific objections. Critical questioning is guidance here, not evidence that a skeptical prompt removes shared blind spots.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Critical questions about purpose, assumptions, context and evidence remain necessary when AI supplies plausible solutions."
+      },
+      "edge_id": "practice_ce5c29c3d4350efbef473bb5",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O025",
+      "practice": "PAT:056",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The move from one guided agent to multiple asynchronous agents informs planning coordination and integration responsibility across concurrent work. Role forecasts and examples do not establish higher accepted throughput or future hiring outcomes.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Developers are moving from guiding one agent toward coordinating multiple asynchronously executing agents."
+      },
+      "edge_id": "practice_08e1840b56a4c1fac684125f",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O026",
+      "practice": "PAT:030",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The CLI feature guide informs configuring tool interfaces and deliberate execution controls before delegating exact operations. Its version-sensitive flags and quotas do not establish current tool behavior or authorize external effects.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Command-line agent effectiveness depends on tool configuration, project context and deliberate execution controls."
+      },
+      "edge_id": "practice_38adab60f9df721d50c88b45",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O027",
+      "practice": "PAT:053",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The browser subsystem explanation provides background for tracing networking, execution and rendering dependencies before changing an existing browser-facing system. This is a thematic comprehension aid, not an AI navigation experiment or a claim that the article uses this practice.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Modern browsers coordinate networking, parsing, JavaScript execution, rendering, process isolation and security boundaries."
+      },
+      "edge_id": "practice_8e9b5b937e99116e6a282555",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O028",
+      "practice": "PAT:045",
+      "collection": "O",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The distinction between conversational prototyping and accountable engineering informs keeping the experiment's adoption decision separate from its apparent success. The practitioner distinction does not establish a measured boundary between safe and unsafe prototypes.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Fast conversational prototyping and accountable AI-assisted engineering are distinct development regimes."
+      },
+      "edge_id": "practice_fd93dc0b1ac8c0b06dfc43ab",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O029",
+      "practice": "PAT:059",
+      "collection": "O",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The mismatch between perceived personal acceleration and team or release outcomes cautions against using individual speed as the productivity endpoint. Heterogeneous third-party percentages cannot be pooled into a causal workflow gain.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Perceived personal acceleration with coding AI does not necessarily translate into net team or release-level productivity."
+      },
+      "edge_id": "practice_c850bf19c1a11773c944af40",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O030",
+      "practice": "PAT:003",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Background task runners and multi-step tool use inform defining what unattended work may prepare and what oversight remains outside that job. The article does not establish release readiness from background task completion.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "CLI agents and background task runners extend software generation into tool-using, multi-step workflows, but require more oversight."
+      },
+      "edge_id": "practice_117a4b19fe0cd58d5416de73",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O031",
+      "practice": "PAT:047",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The emphasis on selected system context, tools and constraints informs assembling task context by role and relevance rather than prompt wording alone. It does not establish that additional context guarantees system understanding.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Reliable prompts are assembled from selected system context, tools and constraints rather than crafted by wording alone."
+      },
+      "edge_id": "practice_014b8ff5864331178efbae44",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O032",
+      "practice": "PAT:012",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Integrating assistance with retained domain expertise and continuous learning informs choosing learning objectives alongside assisted delivery. Hypothetical productivity multipliers do not demonstrate independent skill acquisition or transfer.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "An AI-native engineer integrates assistance into ordinary work while retaining domain expertise and continuous learning."
+      },
+      "edge_id": "practice_5013c822bf976caa13a61cc0",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O033",
+      "practice": "PAT:027",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Requiring a justified check for each AI-produced change informs the evidence the checker must obtain before acceptance. The practitioner argument does not make a generated check independent merely because it exists.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Verification becomes the bottleneck when generation is cheap; every AI-produced change needs a justified check."
+      },
+      "edge_id": "practice_650dcfdfb4c5782c09a338ab",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O034",
+      "practice": "PAT:043",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "A bounded problem, constraints and an expected verification method inform stating the behavior to be accepted before asking for code. The prompt playbook does not establish that a well-formed request captures every stakeholder obligation.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Effective developer prompts state a bounded problem, relevant context, constraints and the expected verification method."
+      },
+      "edge_id": "practice_89de8d90b70919333bfe454e",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O035",
+      "practice": "PAT:050",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The apprenticeship argument informs preserving opportunities for junior engineers to build the reasoning needed for later maintenance. It is hiring and career guidance, not causal evidence about employment trends or measured learning effects.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Removing junior engineering positions can damage apprenticeship and the future pool of experienced maintainers."
+      },
+      "edge_id": "practice_ce46462e9e56380d6c715097",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O036",
+      "practice": "PAT:050",
+      "collection": "O",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "Avoiding every difficult step removes reasoning practice needed to supervise later output, directly identifying a boundary for learning-preserving assistance. The interpretation does not quantify retained-skill loss.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Using AI to avoid every difficult step risks eroding the reasoning skills needed to supervise future AI output."
+      },
+      "edge_id": "practice_d22c8247f9b21887d8a5e2c7",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O037",
+      "practice": "PAT:045",
+      "collection": "O",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The persistence of ordinary quality obligations cautions against treating rapid prototype generation as approval for production use. This is prescriptive guidance, not a validated readiness checklist.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Rapid AI prototyping does not exempt production changes from ordinary software quality obligations."
+      },
+      "edge_id": "practice_ba4d7e936832a985372da542",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O038",
+      "practice": "PAT:026",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The distinction between one-shot completion and tool/feedback-driven goal pursuit informs making each repeated attempt observable and bounded. The general agent explanation does not establish convergence or a tested stopping controller.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "An agent differs from one-shot model completion by using tools and feedback to pursue a goal over multiple steps."
+      },
+      "edge_id": "practice_40da7909031dda7f27aa5622",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O039",
+      "practice": "PAT:045",
+      "collection": "O",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The combination of accessible prototyping and unnoticed security or maintainability risks informs a separate adoption review after exploration. The essay supplies a risk argument, not measured rates of prototype failure.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Vibe coding can democratize prototypes while amplifying unnoticed security and maintainability risks."
+      },
+      "edge_id": "practice_093847910ceb4c7ca152c4b2",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O040",
+      "practice": "PAT:030",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Standardized access to resources and tools informs selecting inspectable connectors for precise operations. Broader integration reach still requires permission controls; protocol use does not establish that an operation is authorized.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "The Model Context Protocol standardizes agent access to external resources and tools, increasing integration reach and the importance of permission controls."
+      },
+      "edge_id": "practice_1def84fc053255a917a2e2bc",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O041",
+      "practice": "PAT:057",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Defining outcome quality, training teams and normalizing human verification inform staged AI enablement tied to demonstrated capability. These recommendations do not establish readiness merely from participation in an adoption program.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Engineering leaders should define outcome quality, train teams and make human verification a normal part of AI adoption."
+      },
+      "edge_id": "practice_cef2651eb931e0a2a35112c6",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O042",
+      "practice": "PAT:045",
+      "collection": "O",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "Architecture, requirements, integration and verification remain after easy generation, so the article cautions against using a mostly working prototype as a completion claim. Its 70/30 metaphor is not a measured engineering-effort allocation.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "The difficult last-mile work in AI-assisted development remains architecture, requirements, integration and verification."
+      },
+      "edge_id": "practice_8c7fcc93080aa0d3730834d3",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O043",
+      "practice": "PAT:015",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The testing and sustainable-ownership synthesis informs retaining checks for existing obligations when generated changes are introduced. It draws on an established book rather than providing new evidence of an AI-specific regression benefit.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Testing, review, documentation and sustainable ownership are established software-engineering practices that remain useful with AI-generated code."
+      },
+      "edge_id": "practice_3a441d095b33940ae2b0d692",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O044",
+      "practice": "PAT:045",
+      "collection": "O",
+      "relation": "ILLUSTRATES_PRACTICE",
+      "relation_label": "Illustrates practice",
+      "primary": true,
+      "rationale": "The first-person voice-to-code demonstration illustrates another way to express and explore a candidate application. Changing the input modality does not remove verification requirements, and the demonstration supplies no comparative productivity measurement.",
+      "scope": "reported_application",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Voice input changes how developers express tasks to coding assistants but does not remove the need to verify resulting software."
+      },
+      "edge_id": "practice_0c4b75664721882d4d55c8eb",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O045",
+      "practice": "PAT:060",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The personal-software scenario informs considering how lower creation cost changes which small applications might be worth building. It does not measure full maintenance cost, adoption, welfare or employment effects, so those remain separate cost-accounting questions.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Lower creation costs may expand demand for one-off and personal applications, an economic hypothesis distinct from measured productivity or employment effects."
+      },
+      "edge_id": "practice_4b364d6373fc80f5e2151b48",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O046",
+      "practice": "PAT:030",
+      "collection": "O",
+      "relation": "ILLUSTRATES_PRACTICE",
+      "relation_label": "Illustrates practice",
+      "primary": true,
+      "rationale": "The Cline review illustrates a coding assistant operating through context and environment access rather than completion alone. Its subjective, version-specific comparison does not establish superior performance or safe permissions.",
+      "scope": "reported_application",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Cline illustrates how a tool-using coding assistant differs from a conventional completion engine through its context and environment access."
+      },
+      "edge_id": "practice_568f05230e2d257551e2f69d",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O047",
+      "practice": "PAT:045",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The comparison of prototyping services informs choosing an exploration route while examining architectural control and later production suitability. Early-2025 feature descriptions and practitioner comparisons do not establish current capabilities or maintained-product readiness.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "AI prototyping services reduce time from concept to demonstrable app but vary in architecture, control and production suitability."
+      },
+      "edge_id": "practice_ff14020bae936cac173e66f7",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O048",
+      "practice": "PAT:012",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The emphasis on adaptable expertise, systems judgment and learning informs setting development goals beyond finishing an assisted task. Career forecasts are not evidence that a particular AI learning activity improves long-term employment outcomes.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Career resilience in AI-assisted software engineering rests on adaptable domain expertise, systems judgment and learning."
+      },
+      "edge_id": "practice_15faad3c4ee2a1c43f20b830",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O049",
+      "practice": "PAT:045",
+      "collection": "O",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The gap between a mostly implemented prototype and completed integrations cautions against treating visible functionality as engineering completion. The anecdotal 70% figure cannot be used as a quantitative adoption gate.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Getting a prototype mostly implemented with AI is far easier than completing the remaining integrations and engineering assurances."
+      },
+      "edge_id": "practice_c81043c5d871299e7d52178d",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O050",
+      "practice": "PAT:059",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Customer needs and observable outcomes directly inform the unit used to judge an engineering change instead of lines of code. These general product principles do not supply an original AI effectiveness evaluation.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Customer needs and observable outcomes—not lines of code—should determine whether an engineering change succeeds."
+      },
+      "edge_id": "practice_a02c1003fbfee99d5043bc12",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O051",
+      "practice": "PAT:027",
+      "collection": "O",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": false,
+      "rationale": "The explicit warning about generated tests and oracle independence cautions against allowing maker-produced checks to become self-approval. It identifies a verification boundary without showing that any proposed checker is independent.",
+      "scope": "boundary",
+      "basis": {
+        "field": "limitation",
+        "excerpt": "Practitioner guidance, not a controlled experiment or proof of universal correctness; generated tests and oracle independence still need scrutiny."
+      },
+      "edge_id": "practice_83c29ca68064c66f0865b4ab",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O051",
+      "practice": "PAT:049",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Realistic user flows, explicit properties and differential comparisons inform which runtime observations should influence the next development decision. The guidance does not establish universal correctness outside the paths and properties actually checked.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Reliable agent work depends on executable checks: realistic user flows, explicit properties and differential comparisons, with fast feedback and human-owned success criteria."
+      },
+      "edge_id": "practice_954be19260fe537acd4c4261",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O052",
+      "practice": "PAT:056",
+      "collection": "O",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The limit imposed by understanding, evaluation and integration capacity informs reducing concurrency when supervision becomes shallow. Personal heuristics about agent counts and fatigue are not a validated scaling law.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Osmani argues that parallel agent work is constrained by a person’s capacity to understand, evaluate and integrate separate tasks. He recommends adjusting concurrency to task complexity and review quality, defining time limits and acceptance criteria, and reducing per-task scope when supervision becomes shallow."
+      },
+      "edge_id": "practice_94524ce9cf1043a08db6f413",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O053",
+      "practice": "PAT:028",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Discoverable, concise documentation and selective skills inform packaging reusable procedural knowledge for an agent without assuming one format solves every context problem. Proposed formats and token targets are not universal standards or demonstrated coding gains.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Osmani proposes adapting developer documentation and interfaces to agents that fetch and consume content directly. His recommendations emphasize discoverable, concise, machine-readable documentation, clear capability descriptions and server-side observation of usage. He presents documentation indexes, skills and tool interfaces as possible components rather than a single solution."
+      },
+      "edge_id": "practice_82ca7db5ab5a9a5a4d1654fb",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O053",
+      "practice": "PAT:030",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "Clear capability descriptions and tool interfaces inform how a connector exposes operations that an agent can select and an executor can check. Agent-traffic observations do not establish that those interfaces improve engineering outcomes.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Osmani proposes adapting developer documentation and interfaces to agents that fetch and consume content directly. His recommendations emphasize discoverable, concise, machine-readable documentation, clear capability descriptions and server-side observation of usage. He presents documentation indexes, skills and tool interfaces as possible components rather than a single solution."
+      },
+      "edge_id": "practice_c589ff0c5f5b83d98aa3db83",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O054",
+      "practice": "PAT:020",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "Durable state and recovery paths in the harness description inform making long-running progress reconstructable through controlled artifacts. The practitioner synthesis does not certify atomic transitions or production recovery.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "The article treats an agent’s tools, execution environment, durable state, context policies, checks and recovery paths as engineering artifacts surrounding the model. Osmani recommends deriving these controls from desired behavior and observed failures, and using deterministic enforcement and structured handoffs where prose instructions are insufficient."
+      },
+      "edge_id": "practice_244ac9d8a8fc8c45a08c991f",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O054",
+      "practice": "PAT:034",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Deriving runtime controls from desired behavior and observed failures informs enforcing permission and progression boundaries outside prose instructions. Quoted system improvements are not independently validated assurance for a new harness.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "The article treats an agent’s tools, execution environment, durable state, context policies, checks and recovery paths as engineering artifacts surrounding the model. Osmani recommends deriving these controls from desired behavior and observed failures, and using deterministic enforcement and structured handoffs where prose instructions are insufficient."
+      },
+      "edge_id": "practice_e92d15a57780b1b2c7555202",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O055",
+      "practice": "PAT:028",
+      "collection": "O",
+      "relation": "ILLUSTRATES_PRACTICE",
+      "relation_label": "Illustrates practice",
+      "primary": true,
+      "rationale": "The maintainer's Agent Skills project illustrates reusable workflows with selective instruction loading and explicit completion evidence. It is a reported design implementation, not independent evidence that instruction files enforce compliance or work across products.",
+      "scope": "reported_application",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Osmani explains the design of his Agent Skills project as reusable engineering workflows with checkpoints and explicit completion evidence. The article connects specifications, scoped implementation, testing and review with selective loading of instructions and written responses to common reasons for skipping steps. It describes a design approach that teams can adapt."
+      },
+      "edge_id": "practice_194e8921ece8214496745790",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O056",
+      "practice": "PAT:022",
+      "collection": "O",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "Adopting an answer without forming an independent view identifies a reliance failure that trust calibration should examine. The article's interpretation of cognition research does not establish long-term causal developer outcomes.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Osmani distinguishes delegating execution while retaining judgment from adopting an AI answer without forming an independent view. He describes how this can appear in review, debugging and design, and recommends stating expectations, examining alternative explanations, requiring concrete verification evidence and keeping changes small enough to understand."
+      },
+      "edge_id": "practice_36eb40cf5711b22480571585",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O056",
+      "practice": "PAT:046",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "Keeping changes small enough to understand informs selecting a bounded review question before accepting an AI proposal. The recommendation addresses comprehension burden but does not establish a universal size threshold.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Osmani distinguishes delegating execution while retaining judgment from adopting an AI answer without forming an independent view. He describes how this can appear in review, debugging and design, and recommends stating expectations, examining alternative explanations, requiring concrete verification evidence and keeping changes small enough to understand."
+      },
+      "edge_id": "practice_48aece933d7b9469cdcf3067",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O057",
+      "practice": "PAT:050",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Forming hypotheses, requesting explanations and periodically reconstructing solutions unaided inform preserving independent reasoning within assisted work. The mixed-population research synthesis does not establish long-term causal skill loss among developers.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "The article separates completing programming tasks from learning the concepts needed to supervise future work. Osmani recommends forming a hypothesis before requesting a fix, asking for explanations before code, reviewing suggestions and periodically reconstructing solutions without assistance. He uses existing research to motivate deliberate learning within ordinary AI-assisted development."
+      },
+      "edge_id": "practice_536ec4d2f6eb4241c3c1c80a",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O058",
+      "practice": "PAT:056",
+      "collection": "O",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The coordination cost and scarce review time identify when additional parallel agents should be withheld or reduced. Illustrative agent counts and workload splits are not measured optima.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Osmani describes the human cost of coordinating parallel coding agents as a limit on review and integration. He recommends matching the number of active tasks to review capacity, separating bounded background work from judgment-intensive problems, batching reviews and reserving uninterrupted time for difficult decisions. The goal is to improve accepted work rather than merely increase concurrent activity."
+      },
+      "edge_id": "practice_34952fdba887eace164d30d6",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O058",
+      "practice": "PAT:060",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "The human work of coordinating, reviewing and integrating parallel tasks informs including those costs when comparing execution routes. The first-person account does not establish a general return on orchestration.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Osmani describes the human cost of coordinating parallel coding agents as a limit on review and integration. He recommends matching the number of active tasks to review capacity, separating bounded background work from judgment-intensive problems, batching reviews and reserving uninterrupted time for difficult decisions. The goal is to improve accepted work rather than merely increase concurrent activity."
+      },
+      "edge_id": "practice_c0a42b9b20d32250ff92f4cb",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O059",
+      "practice": "PAT:062",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Preserving goals, constraints, decision rationale and failure records informs retaining the evidence needed to reconstruct why a system choice was made. Generated explanations cannot establish historical intent, and the proposal is not a controlled drift-prevention result.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "The essay distinguishes missing recorded intent from complex code and missing human understanding. Osmani argues that an implementation cannot reliably recover why a consequential choice was made. He recommends keeping goals, constraints and decision rationale in specifications, repository instructions, lightweight decision logs and records of failures so future people and agents can use them."
+      },
+      "edge_id": "practice_6c8a48dc7584b708cd41ea65",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O060",
+      "practice": "PAT:047",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The distinction between always-loaded and task-specific context informs selecting what information a current task should receive and in what role. Commentary on a coauthored whitepaper does not independently validate benchmark or model-versus-harness claims.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Osmani comments on a Google whitepaper he coauthored, presenting coding agents as models surrounded by tools, context, controls and feedback. He distinguishes always-loaded from task-specific context and separates evaluation of final outputs from evaluation of execution paths. He argues that specification and verification become central constraints as implementation accelerates."
+      },
+      "edge_id": "practice_148795bead81058d20f6b191",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O061",
+      "practice": "PAT:034",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Retaining responsibility, explicit task boundaries and calibrated delegation informs deciding which actions an agent may perform and who owns completion. Career advice and illustrative completion percentages do not validate an autonomy policy.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Osmani’s career advice emphasizes choosing worthwhile problems, developing and demonstrating judgment, and retaining responsibility for delegated work. He recommends deliberate practice, explicit task boundaries, calibrated autonomy and careful completion beyond an agent’s initial draft. The article treats reputation and problem selection as sources of durable career value."
+      },
+      "edge_id": "practice_33ff49f4e62284e62acb8da2",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O062",
+      "practice": "PAT:007",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "Recording agent mistakes informs turning completed-work experience into reusable guidance with context and limitations. This proposed habit does not establish that every recorded lesson generalizes or improves later performance.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Osmani argues that delegating routine coding can remove practice through which engineers develop judgment. He recommends deliberate code reading, recording agent mistakes, occasional unaided implementation, deep work in one system, and separate practice in specification and verification. The article connects these habits to career development while synthesizing other authors’ employment and cognition claims."
+      },
+      "edge_id": "practice_7253cd13c2fe376797065260",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "O062",
+      "practice": "PAT:050",
+      "collection": "O",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Unaided implementation, deliberate code reading and separate specification/verification practice inform preserving the reasoning that routine delegation can remove. The guidance does not constitute a controlled learning intervention or a new employment estimate.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Osmani argues that delegating routine coding can remove practice through which engineers develop judgment. He recommends deliberate code reading, recording agent mistakes, occasional unaided implementation, deep work in one system, and separate practice in specification and verification. The article connects these habits to career development while synthesizing other authors’ employment and cognition claims."
+      },
+      "edge_id": "practice_f94a6375031fcb95a5bbcaf4",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
     }
   ]
 }

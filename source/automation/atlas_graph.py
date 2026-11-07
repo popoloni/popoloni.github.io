@@ -165,6 +165,8 @@ def apply_update(baseline_payload, review, book=None):
     validate_payload(baseline_payload)
     if not isinstance(review, dict) or review.get("schema_version", 1) != SCHEMA_VERSION:
         raise UpdateError("Unsupported review schema_version")
+    if any(field in review for field in ("mappings", "exclusions")) or review.get("kind") == "atlas_practice_links_update/1":
+        raise UpdateError("Source-practice classification requires the separately reviewed practice_links_update adapter")
     _check_date(review.get("date"), "review.date")
     release = review.get("release", "")
     if not isinstance(release, str) or not re.fullmatch(r"v?\d+(?:\.\d+){1,3}", release):
@@ -319,6 +321,8 @@ def apply_update(baseline_payload, review, book=None):
 
     for supplied in review.get("edges", []):
         relation = supplied.get("relation", "")
+        if supplied.get("family") == "practice" or relation in {"INFORMS_PRACTICE", "ILLUSTRATES_PRACTICE", "EVALUATES_PRACTICE", "CAUTIONS_PRACTICE", "DOCUMENTS_PRACTICE"}:
+            raise UpdateError("Practice links require the explicit reviewed source-practice adapter")
         if not re.fullmatch(r"[A-Za-z][A-Za-z0-9_:. -]*", relation):
             raise UpdateError("An explicit relationship name is required")
         if supplied.get("family") == "actual" or relation in CITATION_RELATIONS:
@@ -604,11 +608,192 @@ def write_graphml(raw, target):
     ET.ElementTree(root).write(target, encoding="utf-8", xml_declaration=True)
 
 
+PRACTICE_LINKS_UI = r"""// ATLAS_PRACTICE_LINKS_BEGIN
+// Explicit reviewed classification view. The ordinary W opening state is unchanged.
+const practiceSourceCollections=new Set(['W','O','P','F','B','N']);
+const practiceLinkEdges=links.filter(e=>e.family==='practice'&&practiceSourceCollections.has(e.s.r.collection)&&e.t.r.collection==='PAT');
+const practiceLinkLabels=Object.fromEntries(D.relations.filter(r=>r.family==='practice').map(r=>[r.id,r.label]));
+const practiceLinksBySource=new Map(),practiceLinksByTarget=new Map();
+for(const e of practiceLinkEdges){
+ if(!practiceLinksBySource.has(e.s.id))practiceLinksBySource.set(e.s.id,[]);
+ if(!practiceLinksByTarget.has(e.t.id))practiceLinksByTarget.set(e.t.id,[]);
+ practiceLinksBySource.get(e.s.id).push(e);practiceLinksByTarget.get(e.t.id).push(e);
+}
+const practiceExcludedSources=new Map((D.meta.practice_links?.exclusions||[]).map(x=>[x.source,x]));
+const practiceSemantics='Editorial classification, not evidence of effectiveness or a literal book citation.';
+const practiceSourceSlugs={W:'polimi',O:'osmani',P:'pragmatic-engineer',F:'fowler',B:'books',N:'ndse2',PAT:'practices'};
+const beforePracticeEnabledBase=enabledBase;
+enabledBase=function(n){
+ if(!beforePracticeEnabledBase(n))return false;
+ const mode=S.practiceView;
+ if(!mode)return true;
+ if(mode==='all')return n.r.collection==='PAT'||practiceLinksBySource.has(n.id)||n.r.kind==='practice_family';
+ return n.id===mode||(practiceLinksByTarget.get(mode)||[]).some(e=>e.s.id===n.id);
+};
+const beforePracticeMemberships=memberships;
+memberships=function(n){
+ if(S.practiceView&&S.grouping==='family'&&practiceSourceCollections.has(n.r.collection)){
+  const ordered=[...(practiceLinksBySource.get(n.id)||[])].sort((a,b)=>Number(b.attributes.primary)-Number(a.attributes.primary)||a.t.id.localeCompare(b.t.id));
+  return [...new Set(ordered.flatMap(e=>e.t.r.families||[]))];
+ }
+ return beforePracticeMemberships(n);
+};
+const beforePracticeDashed=isDashed;
+isDashed=e=>e.family==='practice'||beforePracticeDashed(e);
+const practicePreset=document.createElement('button');
+practicePreset.id='practiceConnections';practicePreset.className='small';
+practicePreset.textContent='Connect sources to practices';
+practicePreset.title='Review source classifications, their roles and rationale';
+practicePreset.setAttribute('aria-pressed','false');
+$('practicesOnly').textContent='Practice guides only';
+$('practicesOnly').title='Show practice descriptors without their linked source collections';
+const practicePresetRow=document.createElement('div');practicePresetRow.className='button-row';
+practicePresetRow.appendChild(practicePreset);$('practicesOnly').parentElement.after(practicePresetRow);
+const practiceBanner=document.createElement('p');practiceBanner.id='practiceConnectionsNote';
+practiceBanner.className='note';practiceBanner.hidden=true;practicePresetRow.after(practiceBanner);
+function syncPracticeView(){
+ const mode=S.practiceView;practiceBanner.hidden=!mode;
+ practicePreset.setAttribute('aria-pressed',String(Boolean(mode)));
+ if(!mode)return;
+ if(mode==='all'){
+  const excluded=practiceExcludedSources.size;
+  practiceBanner.textContent=practiceLinksBySource.size+' mapped source records, '+practiceLinksByTarget.size+' practices and their families. '+practiceSemantics+(excluded?' '+excluded+' reviewed records without classification remain in the ordinary source catalogues.':'');
+ }else{
+  const practice=byID.get(mode);
+  practiceBanner.textContent=(practice?.r.label||mode)+' and its '+(practiceLinksByTarget.get(mode)||[]).length+' classified sources. '+practiceSemantics;
+ }
+ const details=document.querySelector('[data-family="practice"]');if(details)details.open=true;
+ document.querySelectorAll('[data-family="practice"] .stroke').forEach(el=>el.style.borderTopStyle='dashed');
+}
+const beforePracticeRebuild=rebuild;
+rebuild=function(options={}){beforePracticeRebuild(options);syncPracticeView();};
+function openPracticeView(value){
+ if(value!=='all'&&(!byID.has(value)||byID.get(value).r.collection!=='PAT'||!practiceLinksByTarget.has(value)))return false;
+ S=defaultState();S.practiceView=value;
+ S.collections=new Set([...practiceSourceCollections,'PAT']);
+ S.context=new Set(value==='all'?['practices']:[]);
+ S.grouping=value==='all'?'family':'collection';
+ S.familyFilters=new Set(allFamilyIDs);
+ S.relations=new Set([...new Set(practiceLinkEdges.map(e=>e.relation)),...(value==='all'?['V10_CLASSIFIED_IN_FAMILY']:[])]);
+ selected=null;selectedEdge=null;
+ rebuild();
+ if(value!=='all')selectNode(byID.get(value),true);
+ toast(value==='all'?'Reviewed source-to-practice connections. '+practiceSemantics:'Sources classified to '+byID.get(value).r.label+'. '+practiceSemantics);
+ return true;
+}
+practicePreset.onclick=()=>openPracticeView('all');
+window.atlasOpenPracticeView=openPracticeView;
+const beforePracticeCatalogueURL=typeof applyCatalogueURL==='function'?applyCatalogueURL:null;
+const practiceCatalogueURL=function(search=location.search){
+ const value=new URLSearchParams(search).get('practice');
+ if(value&&openPracticeView(value))return;
+ if(S.practiceView)S=defaultState();
+ if(beforePracticeCatalogueURL)beforePracticeCatalogueURL(search);
+};
+if(beforePracticeCatalogueURL)applyCatalogueURL=practiceCatalogueURL;
+window.atlasOpenCatalogueView=practiceCatalogueURL;
+const beforePracticeFullGraph=$('fullGraph').onclick;
+$('fullGraph').onclick=function(event){delete S.practiceView;return beforePracticeFullGraph.call(this,event);};
+const beforePracticeReveal=revealNode;
+revealNode=function(n){
+ // The ordinary inspector promises that Reveal can expose any retained record.
+ // Leave the dedicated practice scope if that scope would still exclude it.
+ const mode=S.practiceView;
+ const inScope=!mode||(mode==='all'?(n.r.collection==='PAT'||practiceLinksBySource.has(n.id)||n.r.kind==='practice_family'):(n.id===mode||(practiceLinksByTarget.get(mode)||[]).some(e=>e.s.id===n.id)));
+ if(!inScope)delete S.practiceView;
+ return beforePracticeReveal(n);
+};
+const beforePracticeRestore=restoreView;
+restoreView=function(data){
+ const mode=data?.state?.practiceView;
+ if(mode!==undefined&&mode!==null&&mode!=='all'&&(!byID.has(mode)||byID.get(mode).r.collection!=='PAT'||!practiceLinksByTarget.has(mode)))throw new Error('Invalid practice view.');
+ beforePracticeRestore(data);
+ if(mode){S.practiceView=mode;rebuild({reseed:false,fit:false,run:false});if(data.selected&&byID.has(data.selected))selectNode(byID.get(data.selected));}
+};
+const beforePracticeNodeDetails=renderNodeDetails;
+renderNodeDetails=function(n,resetScroll=true){
+ beforePracticeNodeDetails(n,resetScroll);
+ $('inspectorBody').querySelectorAll('[data-inspect-edge]').forEach(button=>{
+  const edge=links[Number(button.dataset.inspectEdge)];
+  if(edge?.family==='practice')button.textContent=practiceLinkLabels[edge.relation]||edge.relation;
+ });
+ const isPractice=n.r.collection==='PAT';
+ const classified=isPractice?(practiceLinksByTarget.get(n.id)||[]):(practiceLinksBySource.get(n.id)||[]);
+ const excluded=practiceExcludedSources.get(n.id);
+ if(!classified.length&&!excluded)return;
+ const section=document.createElement('section');section.className='record-section';section.dataset.practiceConnections='';
+ if(excluded){
+  section.innerHTML='<h4>Practice classification review</h4><p>This record was reviewed without assigning a practice.</p><p>'+esc(excluded.reason)+'</p><p class="micro">The source remains in the corpus. Exclusion from this operational classification does not delete or invalidate it.</p>';
+ }else{
+  const title=isPractice?'Sources for this practice':'Practice classifications';
+  const ordered=[...classified].sort((a,b)=>Number(b.attributes.primary)-Number(a.attributes.primary)||(isPractice?a.s.id.localeCompare(b.s.id):a.t.id.localeCompare(b.t.id)));
+  section.innerHTML='<h4>'+title+' · '+classified.length+'</h4><p class="micro">'+esc(practiceSemantics)+'</p>'+(isPractice?'<button class="small" data-practice-view="'+esc(n.id)+'">Show this practice and its sources</button>':'')+'<details><summary>Inspect the reviewed classifications</summary>'+ordered.map(e=>{
+   const other=isPractice?e.s:e.t;
+   const label=practiceLinkLabels[e.relation]||e.relation;
+   return '<div class="record-section"><button class="flat" data-inspect-node="'+other.i+'">'+esc(other.id)+' · '+esc(other.r.label)+'</button><p class="micro">'+esc(label)+(e.attributes.primary?' · Primary classification':'')+'</p><p>'+esc(e.attributes.rationale)+'</p>'+(e.attributes.evaluated_component?'<p class="micro">Evaluated component: '+esc(e.attributes.evaluated_component)+'</p>':'')+'<a class="external-link" href="catalogues/'+practiceSourceSlugs[other.r.collection]+'.html#'+encodeURIComponent(other.id)+'">Read the full catalogue entry</a>'+(isPractice?'':'<button class="small" data-practice-view="'+esc(e.t.id)+'">Show practice connections</button>')+'</div>';
+  }).join('')+'</details>';
+ }
+ const connections=$('inspectorBody').querySelector('.connections');
+ if(connections)connections.before(section);else $('inspectorBody').appendChild(section);
+};
+const beforePracticeEdgeDetails=renderEdgeDetails;
+renderEdgeDetails=function(e,resetScroll=true){
+ beforePracticeEdgeDetails(e,resetScroll);
+ if(e.family!=='practice')return;
+ $('inspectorBody').querySelector('h2').textContent=practiceLinkLabels[e.relation]||e.relation;
+ const firstPill=$('inspectorBody').querySelector('.pills .pill');if(firstPill)firstPill.textContent='Reviewed practice classification';
+ const hideControl=$('inspectorBody').querySelector('[data-hide-edge-type]');
+ if(hideControl?.nextElementSibling)hideControl.nextElementSibling.textContent='This hides every '+(practiceLinkLabels[e.relation]||e.relation).toLowerCase()+' link, not just this edge. It does not alter the underlying graph.';
+ const rawHeading=$('inspectorBody').querySelector('details summary');if(rawHeading)rawHeading.textContent='Reviewed classification attributes';
+ const note=document.createElement('p');note.className='caution';note.textContent=practiceSemantics;
+ $('inspectorBody').querySelector('.pills').after(note);
+ const basis=e.attributes.basis||{};
+ const evidence=document.createElement('section');evidence.className='record-section';
+ evidence.innerHTML='<h4>Classification basis</h4>'+(basis.excerpt?'<p class="micro">Exact excerpt from the existing Atlas '+esc(basis.field)+'.</p><blockquote>'+esc(basis.excerpt)+'</blockquote>':'<p>Exact retained historical occurrence route: '+esc((basis.occurrence_ids||[]).join(', '))+'.</p>')+(e.attributes.evaluated_component?'<p><strong>Evaluated component:</strong> '+esc(e.attributes.evaluated_component)+'</p>':'')+'<p class="micro">'+esc(e.attributes.inspection_scope)+'</p>';
+ note.after(evidence);
+};
+$('inspectorBody').addEventListener('click',event=>{const button=event.target.closest('[data-practice-view]');if(button)openPracticeView(button.dataset.practiceView);});
+window.atlasPracticeDiagnostics=()=>({mode:S.practiceView||null,mappedSourceIDs:[...practiceLinksBySource.keys()].sort(),excludedSourceIDs:[...practiceExcludedSources.keys()].sort(),practiceIDs:[...practiceLinksByTarget.keys()].sort(),visiblePracticeEdgeIDs:visibleLinks.filter(e=>e.family==='practice').map(e=>e.id),visibleSourceIDs:visible.filter(n=>practiceSourceCollections.has(n.r.collection)).map(n=>n.id),visiblePracticeIDs:visible.filter(n=>n.r.collection==='PAT').map(n=>n.id),semantics:practiceSemantics});
+const initialPractice=new URLSearchParams(location.search).get('practice');
+if(initialPractice)openPracticeView(initialPractice);
+// Ordinary source deep links were selected by the static navigation before
+// this extension installed its inspector. Refresh that already-open entry.
+if(selected!==null&&$('inspector').classList.contains('open'))renderNodeDetails(nodes[selected],false);
+// ATLAS_PRACTICE_LINKS_END"""
+
+
+def _practice_links_frontend(text, payload):
+    """Install only the reviewed practice classification extension in the v13 shell."""
+    declared = payload.get("meta", {}).get("practice_links", {}).get("schema")
+    start, end = "// ATLAS_PRACTICE_LINKS_BEGIN", "// ATLAS_PRACTICE_LINKS_END"
+    if (start in text) != (end in text):
+        raise UpdateError("Incomplete practice-links frontend block")
+    if start in text:
+        if text.count(start) != 1 or text.count(end) != 1:
+            raise UpdateError("Duplicate practice-links frontend block")
+        text = re.sub(re.escape(start) + r".*?" + re.escape(end), "", text, count=1, flags=re.S)
+    if declared != "atlas_practice_links_update/1":
+        return text
+    marker = "// ATLAS_STATIC_NAVIGATION_END"
+    if text.count(marker) != 1:
+        # Authored templates omit the static navigation; build_site installs
+        # that block immediately after this marker and before this extension.
+        marker = "buildControls();boardSize();rebuild();"
+        if text.count(marker) != 1:
+            raise UpdateError("Practice links require the known navigation or initialization insertion point")
+    colors = re.search(r"const familyColors=\{([^;\n]*)\};", text)
+    if not colors:
+        raise UpdateError("Practice links require the known relationship-color declaration")
+    if not re.search(r"(?:^|,)practice:", colors.group(1)):
+        text = text.replace(colors.group(0), "const familyColors={practice:'#795b87'," + colors.group(1) + "};", 1)
+    return text.replace(marker, marker + "\n" + PRACTICE_LINKS_UI, 1)
+
+
 def render_current_atlas(baseline_html, payload, version, date):
-    """Refresh known v13+ shell labels/counts without changing application logic.
+    """Refresh known v13+ shell labels/counts and the declared practice-link view.
 
     Deliberately fails if the baseline no longer uses the known normalized shell;
-    a changed frontend requires an explicit adapter, not a broad text rewrite.
+    the practice view is enabled only by its named reviewed migration metadata.
     """
     previous = extract_payload(baseline_html)
     _check_date(date, "date")
@@ -655,6 +840,7 @@ def render_current_atlas(baseline_html, payload, version, date):
         # labels, not historical data; IDs and frozen history remain untouched.
         text = text.replace("final EN/ITA " + old_book, "final EN/ITA " + new_book)
         text = text.replace("NDSE2 " + old_book, "NDSE2 " + new_book)
+    text = _practice_links_frontend(text, payload)
     if re.search(r"const defaultState=.*?;", text).group(0) != original_default:
         raise UpdateError("Internal error: defaultState changed")
     embedded = json.dumps(payload, ensure_ascii=False, separators=(",", ":"), allow_nan=False).replace("<", "\\u003c").replace("&", "\\u0026")

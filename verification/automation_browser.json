@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "kind": "atlas_browser_validation",
-  "started": "2026-11-06T22:54:21.181Z",
-  "finished": "2026-11-06T22:55:10.166Z",
-  "passed": 455,
+  "started": "2026-11-07T19:40:10.610Z",
+  "finished": "2026-11-07T19:41:21.995Z",
+  "passed": 391,
   "failed": 0,
   "complete": true,
   "browser": "153.0.8010.0",
@@ -11,9 +11,9 @@
   "nativeSafariTested": false,
   "githubDeployed": false,
   "siteSourceModified": false,
-  "graph_html_sha256": "a40c4ae712233e86795c0e5a29fa2fb055cc0fc0fe22afe59dada8409ba9c678",
-  "graphHTMLSHA256": "a40c4ae712233e86795c0e5a29fa2fb055cc0fc0fe22afe59dada8409ba9c678",
-  "artifact_sha256": "0aed15581b15ea4a92c7e7e236d0b66281cc03e17ee308dcacb753881f065912",
+  "graph_html_sha256": "5f5b2898af962782b40662291010d11cf5374f6af90ea74c5624b769e39166a3",
+  "graphHTMLSHA256": "5f5b2898af962782b40662291010d11cf5374f6af90ea74c5624b769e39166a3",
+  "artifact_sha256": "c1f35d4f4d8420191066f863704e4b6f3be714cf9c782f7ace0ed8d1b853428c",
   "artifact_scope": "All site file paths, SHA-256 and sizes except verification/, SHA256SUMS.txt and development caches.",
   "baseline_default": {
     "source_ids": [
@@ -734,7 +734,7 @@
       "polimi_120204de406bc1d2_00374",
       "polimi_120204de406bc1d2_00375"
     ],
-    "migration_kind": null
+    "migration_kind": "atlas_practice_links_update/1"
   },
   "relationship_switch_checks": [
     {
@@ -838,6 +838,12 @@
       "passed": true,
       "actual": 1,
       "expected": 1
+    },
+    {
+      "relation": "CAUTIONS_PRACTICE",
+      "passed": true,
+      "actual": 157,
+      "expected": 157
     },
     {
       "relation": "CHAPTER_HAS_SECTION",
@@ -1014,6 +1020,12 @@
       "expected": 1
     },
     {
+      "relation": "DOCUMENTS_PRACTICE",
+      "passed": true,
+      "actual": 87,
+      "expected": 87
+    },
+    {
       "relation": "DOCUMENT_IN_BOOK",
       "passed": true,
       "actual": 15,
@@ -1060,6 +1072,12 @@
       "passed": true,
       "actual": 426,
       "expected": 426
+    },
+    {
+      "relation": "EVALUATES_PRACTICE",
+      "passed": true,
+      "actual": 17,
+      "expected": 17
     },
     {
       "relation": "EVIDENCE_CLASS",
@@ -1284,6 +1302,12 @@
       "expected": 1
     },
     {
+      "relation": "ILLUSTRATES_PRACTICE",
+      "passed": true,
+      "actual": 52,
+      "expected": 52
+    },
+    {
       "relation": "ILLUSTRATES_SECTION",
       "passed": true,
       "actual": 1,
@@ -1312,6 +1336,12 @@
       "passed": true,
       "actual": 192,
       "expected": 192
+    },
+    {
+      "relation": "INFORMS_PRACTICE",
+      "passed": true,
+      "actual": 379,
+      "expected": 379
     },
     {
       "relation": "INFORMS_REVIEW_EVIDENCE",
@@ -2599,8 +2629,8 @@
     }
   ],
   "graphNodes": 1991,
-  "graphEdges": 14268,
-  "graphRelations": 310,
+  "graphEdges": 14960,
+  "graphRelations": 315,
   "dynamicSourceCounts": {
     "B": 111,
     "F": 41,
@@ -2615,25 +2645,8 @@
       "check": "Every selected new or revised source ID exists",
       "passed": true,
       "detail": [
-        "O052",
-        "O053",
-        "O054",
-        "O055",
-        "O056",
-        "O057",
-        "O058",
-        "O059",
-        "O060",
-        "O061",
         "O062",
-        "P125",
-        "P126",
         "P127",
-        "F036",
-        "F037",
-        "F038",
-        "F039",
-        "F040",
         "F041"
       ]
     },
@@ -2938,7 +2951,7 @@
       "passed": true
     },
     {
-      "check": "PAT:001 catalogue-to-Atlas opens PAT with complete guidance",
+      "check": "PAT:001 catalogue-to-Atlas opens its intended view with complete guidance",
       "passed": true
     },
     {
@@ -2970,7 +2983,7 @@
       "passed": true
     },
     {
-      "check": "PAT:084 catalogue-to-Atlas opens PAT with complete guidance",
+      "check": "PAT:084 catalogue-to-Atlas opens its intended view with complete guidance",
       "passed": true
     },
     {
@@ -3002,7 +3015,7 @@
       "passed": true
     },
     {
-      "check": "PAT:045 catalogue-to-Atlas opens PAT with complete guidance",
+      "check": "PAT:045 catalogue-to-Atlas opens its intended view with complete guidance",
       "passed": true
     },
     {
@@ -3034,7 +3047,7 @@
       "passed": true
     },
     {
-      "check": "PAT:059 catalogue-to-Atlas opens PAT with complete guidance",
+      "check": "PAT:059 catalogue-to-Atlas opens its intended view with complete guidance",
       "passed": true
     },
     {
@@ -3066,7 +3079,7 @@
       "passed": true
     },
     {
-      "check": "PAT:005 catalogue-to-Atlas opens PAT with complete guidance",
+      "check": "PAT:005 catalogue-to-Atlas opens its intended view with complete guidance",
       "passed": true
     },
     {
@@ -3098,7 +3111,7 @@
       "passed": true
     },
     {
-      "check": "PAT:002 catalogue-to-Atlas opens PAT with complete guidance",
+      "check": "PAT:002 catalogue-to-Atlas opens its intended view with complete guidance",
       "passed": true
     },
     {
@@ -3130,7 +3143,7 @@
       "passed": true
     },
     {
-      "check": "PAT:017 catalogue-to-Atlas opens PAT with complete guidance",
+      "check": "PAT:017 catalogue-to-Atlas opens its intended view with complete guidance",
       "passed": true
     },
     {
@@ -3162,7 +3175,7 @@
       "passed": true
     },
     {
-      "check": "PAT:014 catalogue-to-Atlas opens PAT with complete guidance",
+      "check": "PAT:014 catalogue-to-Atlas opens its intended view with complete guidance",
       "passed": true
     },
     {
@@ -3194,7 +3207,7 @@
       "passed": true
     },
     {
-      "check": "PAT:010 catalogue-to-Atlas opens PAT with complete guidance",
+      "check": "PAT:010 catalogue-to-Atlas opens its intended view with complete guidance",
       "passed": true
     },
     {
@@ -3226,7 +3239,7 @@
       "passed": true
     },
     {
-      "check": "PAT:006 catalogue-to-Atlas opens PAT with complete guidance",
+      "check": "PAT:006 catalogue-to-Atlas opens its intended view with complete guidance",
       "passed": true
     },
     {
@@ -3258,7 +3271,7 @@
       "passed": true
     },
     {
-      "check": "PAT:012 catalogue-to-Atlas opens PAT with complete guidance",
+      "check": "PAT:012 catalogue-to-Atlas opens its intended view with complete guidance",
       "passed": true
     },
     {
@@ -3290,7 +3303,7 @@
       "passed": true
     },
     {
-      "check": "PAT:003 catalogue-to-Atlas opens PAT with complete guidance",
+      "check": "PAT:003 catalogue-to-Atlas opens its intended view with complete guidance",
       "passed": true
     },
     {
@@ -3322,7 +3335,7 @@
       "passed": true
     },
     {
-      "check": "PAT:033 catalogue-to-Atlas opens PAT with complete guidance",
+      "check": "PAT:033 catalogue-to-Atlas opens its intended view with complete guidance",
       "passed": true
     },
     {
@@ -3436,8 +3449,8 @@
       "passed": true,
       "detail": {
         "nodes": 1991,
-        "edges": 14268,
-        "relationships": 310
+        "edges": 14960,
+        "relationships": 315
       }
     },
     {
@@ -3688,299 +3701,9 @@
       }
     },
     {
-      "check": "Local page catalogues/osmani.html#O052",
-      "passed": true,
-      "detail": 200
-    },
-    {
-      "check": "O052 static anchor opens its details",
-      "passed": true
-    },
-    {
-      "check": "O052 static record links to the graph",
-      "passed": true
-    },
-    {
-      "check": "O052 graph link carries the correct record and collection",
-      "passed": true
-    },
-    {
-      "check": "O052 real static-to-graph navigation selects the record",
-      "passed": true
-    },
-    {
-      "check": "O052 inspector links back to static record",
-      "passed": true
-    },
-    {
-      "check": "O052 real graph-to-static navigation retains the anchor",
-      "passed": true
-    },
-    {
-      "check": "Local page catalogues/osmani.html#O053",
-      "passed": true,
-      "detail": "same-document fragment navigation"
-    },
-    {
-      "check": "O053 static anchor opens its details",
-      "passed": true
-    },
-    {
-      "check": "O053 static record links to the graph",
-      "passed": true
-    },
-    {
-      "check": "O053 graph link carries the correct record and collection",
-      "passed": true
-    },
-    {
-      "check": "O053 real static-to-graph navigation selects the record",
-      "passed": true
-    },
-    {
-      "check": "O053 inspector links back to static record",
-      "passed": true
-    },
-    {
-      "check": "O053 real graph-to-static navigation retains the anchor",
-      "passed": true
-    },
-    {
-      "check": "Local page catalogues/osmani.html#O054",
-      "passed": true,
-      "detail": "same-document fragment navigation"
-    },
-    {
-      "check": "O054 static anchor opens its details",
-      "passed": true
-    },
-    {
-      "check": "O054 static record links to the graph",
-      "passed": true
-    },
-    {
-      "check": "O054 graph link carries the correct record and collection",
-      "passed": true
-    },
-    {
-      "check": "O054 real static-to-graph navigation selects the record",
-      "passed": true
-    },
-    {
-      "check": "O054 inspector links back to static record",
-      "passed": true
-    },
-    {
-      "check": "O054 real graph-to-static navigation retains the anchor",
-      "passed": true
-    },
-    {
-      "check": "Local page catalogues/osmani.html#O055",
-      "passed": true,
-      "detail": "same-document fragment navigation"
-    },
-    {
-      "check": "O055 static anchor opens its details",
-      "passed": true
-    },
-    {
-      "check": "O055 static record links to the graph",
-      "passed": true
-    },
-    {
-      "check": "O055 graph link carries the correct record and collection",
-      "passed": true
-    },
-    {
-      "check": "O055 real static-to-graph navigation selects the record",
-      "passed": true
-    },
-    {
-      "check": "O055 inspector links back to static record",
-      "passed": true
-    },
-    {
-      "check": "O055 real graph-to-static navigation retains the anchor",
-      "passed": true
-    },
-    {
-      "check": "Local page catalogues/osmani.html#O056",
-      "passed": true,
-      "detail": "same-document fragment navigation"
-    },
-    {
-      "check": "O056 static anchor opens its details",
-      "passed": true
-    },
-    {
-      "check": "O056 static record links to the graph",
-      "passed": true
-    },
-    {
-      "check": "O056 graph link carries the correct record and collection",
-      "passed": true
-    },
-    {
-      "check": "O056 real static-to-graph navigation selects the record",
-      "passed": true
-    },
-    {
-      "check": "O056 inspector links back to static record",
-      "passed": true
-    },
-    {
-      "check": "O056 real graph-to-static navigation retains the anchor",
-      "passed": true
-    },
-    {
-      "check": "Local page catalogues/osmani.html#O057",
-      "passed": true,
-      "detail": "same-document fragment navigation"
-    },
-    {
-      "check": "O057 static anchor opens its details",
-      "passed": true
-    },
-    {
-      "check": "O057 static record links to the graph",
-      "passed": true
-    },
-    {
-      "check": "O057 graph link carries the correct record and collection",
-      "passed": true
-    },
-    {
-      "check": "O057 real static-to-graph navigation selects the record",
-      "passed": true
-    },
-    {
-      "check": "O057 inspector links back to static record",
-      "passed": true
-    },
-    {
-      "check": "O057 real graph-to-static navigation retains the anchor",
-      "passed": true
-    },
-    {
-      "check": "Local page catalogues/osmani.html#O058",
-      "passed": true,
-      "detail": "same-document fragment navigation"
-    },
-    {
-      "check": "O058 static anchor opens its details",
-      "passed": true
-    },
-    {
-      "check": "O058 static record links to the graph",
-      "passed": true
-    },
-    {
-      "check": "O058 graph link carries the correct record and collection",
-      "passed": true
-    },
-    {
-      "check": "O058 real static-to-graph navigation selects the record",
-      "passed": true
-    },
-    {
-      "check": "O058 inspector links back to static record",
-      "passed": true
-    },
-    {
-      "check": "O058 real graph-to-static navigation retains the anchor",
-      "passed": true
-    },
-    {
-      "check": "Local page catalogues/osmani.html#O059",
-      "passed": true,
-      "detail": "same-document fragment navigation"
-    },
-    {
-      "check": "O059 static anchor opens its details",
-      "passed": true
-    },
-    {
-      "check": "O059 static record links to the graph",
-      "passed": true
-    },
-    {
-      "check": "O059 graph link carries the correct record and collection",
-      "passed": true
-    },
-    {
-      "check": "O059 real static-to-graph navigation selects the record",
-      "passed": true
-    },
-    {
-      "check": "O059 inspector links back to static record",
-      "passed": true
-    },
-    {
-      "check": "O059 real graph-to-static navigation retains the anchor",
-      "passed": true
-    },
-    {
-      "check": "Local page catalogues/osmani.html#O060",
-      "passed": true,
-      "detail": "same-document fragment navigation"
-    },
-    {
-      "check": "O060 static anchor opens its details",
-      "passed": true
-    },
-    {
-      "check": "O060 static record links to the graph",
-      "passed": true
-    },
-    {
-      "check": "O060 graph link carries the correct record and collection",
-      "passed": true
-    },
-    {
-      "check": "O060 real static-to-graph navigation selects the record",
-      "passed": true
-    },
-    {
-      "check": "O060 inspector links back to static record",
-      "passed": true
-    },
-    {
-      "check": "O060 real graph-to-static navigation retains the anchor",
-      "passed": true
-    },
-    {
-      "check": "Local page catalogues/osmani.html#O061",
-      "passed": true,
-      "detail": "same-document fragment navigation"
-    },
-    {
-      "check": "O061 static anchor opens its details",
-      "passed": true
-    },
-    {
-      "check": "O061 static record links to the graph",
-      "passed": true
-    },
-    {
-      "check": "O061 graph link carries the correct record and collection",
-      "passed": true
-    },
-    {
-      "check": "O061 real static-to-graph navigation selects the record",
-      "passed": true
-    },
-    {
-      "check": "O061 inspector links back to static record",
-      "passed": true
-    },
-    {
-      "check": "O061 real graph-to-static navigation retains the anchor",
-      "passed": true
-    },
-    {
       "check": "Local page catalogues/osmani.html#O062",
       "passed": true,
-      "detail": "same-document fragment navigation"
+      "detail": 200
     },
     {
       "check": "O062 static anchor opens its details",
@@ -4007,67 +3730,9 @@
       "passed": true
     },
     {
-      "check": "Local page catalogues/pragmatic-engineer.html#P125",
-      "passed": true,
-      "detail": 200
-    },
-    {
-      "check": "P125 static anchor opens its details",
-      "passed": true
-    },
-    {
-      "check": "P125 static record links to the graph",
-      "passed": true
-    },
-    {
-      "check": "P125 graph link carries the correct record and collection",
-      "passed": true
-    },
-    {
-      "check": "P125 real static-to-graph navigation selects the record",
-      "passed": true
-    },
-    {
-      "check": "P125 inspector links back to static record",
-      "passed": true
-    },
-    {
-      "check": "P125 real graph-to-static navigation retains the anchor",
-      "passed": true
-    },
-    {
-      "check": "Local page catalogues/pragmatic-engineer.html#P126",
-      "passed": true,
-      "detail": "same-document fragment navigation"
-    },
-    {
-      "check": "P126 static anchor opens its details",
-      "passed": true
-    },
-    {
-      "check": "P126 static record links to the graph",
-      "passed": true
-    },
-    {
-      "check": "P126 graph link carries the correct record and collection",
-      "passed": true
-    },
-    {
-      "check": "P126 real static-to-graph navigation selects the record",
-      "passed": true
-    },
-    {
-      "check": "P126 inspector links back to static record",
-      "passed": true
-    },
-    {
-      "check": "P126 real graph-to-static navigation retains the anchor",
-      "passed": true
-    },
-    {
       "check": "Local page catalogues/pragmatic-engineer.html#P127",
       "passed": true,
-      "detail": "same-document fragment navigation"
+      "detail": 200
     },
     {
       "check": "P127 static anchor opens its details",
@@ -4094,154 +3759,9 @@
       "passed": true
     },
     {
-      "check": "Local page catalogues/fowler.html#F036",
-      "passed": true,
-      "detail": 200
-    },
-    {
-      "check": "F036 static anchor opens its details",
-      "passed": true
-    },
-    {
-      "check": "F036 static record links to the graph",
-      "passed": true
-    },
-    {
-      "check": "F036 graph link carries the correct record and collection",
-      "passed": true
-    },
-    {
-      "check": "F036 real static-to-graph navigation selects the record",
-      "passed": true
-    },
-    {
-      "check": "F036 inspector links back to static record",
-      "passed": true
-    },
-    {
-      "check": "F036 real graph-to-static navigation retains the anchor",
-      "passed": true
-    },
-    {
-      "check": "Local page catalogues/fowler.html#F037",
-      "passed": true,
-      "detail": "same-document fragment navigation"
-    },
-    {
-      "check": "F037 static anchor opens its details",
-      "passed": true
-    },
-    {
-      "check": "F037 static record links to the graph",
-      "passed": true
-    },
-    {
-      "check": "F037 graph link carries the correct record and collection",
-      "passed": true
-    },
-    {
-      "check": "F037 real static-to-graph navigation selects the record",
-      "passed": true
-    },
-    {
-      "check": "F037 inspector links back to static record",
-      "passed": true
-    },
-    {
-      "check": "F037 real graph-to-static navigation retains the anchor",
-      "passed": true
-    },
-    {
-      "check": "Local page catalogues/fowler.html#F038",
-      "passed": true,
-      "detail": "same-document fragment navigation"
-    },
-    {
-      "check": "F038 static anchor opens its details",
-      "passed": true
-    },
-    {
-      "check": "F038 static record links to the graph",
-      "passed": true
-    },
-    {
-      "check": "F038 graph link carries the correct record and collection",
-      "passed": true
-    },
-    {
-      "check": "F038 real static-to-graph navigation selects the record",
-      "passed": true
-    },
-    {
-      "check": "F038 inspector links back to static record",
-      "passed": true
-    },
-    {
-      "check": "F038 real graph-to-static navigation retains the anchor",
-      "passed": true
-    },
-    {
-      "check": "Local page catalogues/fowler.html#F039",
-      "passed": true,
-      "detail": "same-document fragment navigation"
-    },
-    {
-      "check": "F039 static anchor opens its details",
-      "passed": true
-    },
-    {
-      "check": "F039 static record links to the graph",
-      "passed": true
-    },
-    {
-      "check": "F039 graph link carries the correct record and collection",
-      "passed": true
-    },
-    {
-      "check": "F039 real static-to-graph navigation selects the record",
-      "passed": true
-    },
-    {
-      "check": "F039 inspector links back to static record",
-      "passed": true
-    },
-    {
-      "check": "F039 real graph-to-static navigation retains the anchor",
-      "passed": true
-    },
-    {
-      "check": "Local page catalogues/fowler.html#F040",
-      "passed": true,
-      "detail": "same-document fragment navigation"
-    },
-    {
-      "check": "F040 static anchor opens its details",
-      "passed": true
-    },
-    {
-      "check": "F040 static record links to the graph",
-      "passed": true
-    },
-    {
-      "check": "F040 graph link carries the correct record and collection",
-      "passed": true
-    },
-    {
-      "check": "F040 real static-to-graph navigation selects the record",
-      "passed": true
-    },
-    {
-      "check": "F040 inspector links back to static record",
-      "passed": true
-    },
-    {
-      "check": "F040 real graph-to-static navigation retains the anchor",
-      "passed": true
-    },
-    {
       "check": "Local page catalogues/fowler.html#F041",
       "passed": true,
-      "detail": "same-document fragment navigation"
+      "detail": 200
     },
     {
       "check": "F041 static anchor opens its details",
@@ -4571,20 +4091,250 @@
       "passed": true,
       "detail": {
         "nodes": 1991,
-        "edges": 14268
+        "edges": 14960
       }
     },
     {
       "check": "Every relationship switch exposes exact keyed edges and fully disables them",
       "passed": true,
       "detail": {
-        "tested": 310,
+        "tested": 315,
         "failures": []
       }
     },
     {
       "check": "Reset after all-switch verification restores exact expected nodes and edges",
       "passed": true
+    },
+    {
+      "check": "Practice download contains exactly the graph classifications",
+      "passed": true
+    },
+    {
+      "check": "Coverage partitions every source with no overlap or unreviewed records",
+      "passed": true
+    },
+    {
+      "check": "Every practice is linked and every mapped source has exactly one primary reading",
+      "passed": true
+    },
+    {
+      "check": "Practice download retains reviewed rationales, bases and component boundaries",
+      "passed": true
+    },
+    {
+      "check": "W JSON exposes its exact source-practice pairs",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/polimi.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "W source cards expose exact reciprocal links or their review reason",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "W practice filter selects exact related sources",
+      "passed": true
+    },
+    {
+      "check": "O JSON exposes its exact source-practice pairs",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/osmani.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "O source cards expose exact reciprocal links or their review reason",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "O practice filter selects exact related sources",
+      "passed": true
+    },
+    {
+      "check": "P JSON exposes its exact source-practice pairs",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/pragmatic-engineer.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "P source cards expose exact reciprocal links or their review reason",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "P practice filter selects exact related sources",
+      "passed": true
+    },
+    {
+      "check": "F JSON exposes its exact source-practice pairs",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/fowler.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "F source cards expose exact reciprocal links or their review reason",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "F practice filter selects exact related sources",
+      "passed": true
+    },
+    {
+      "check": "B JSON exposes its exact source-practice pairs",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/books.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "B source cards expose exact reciprocal links or their review reason",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "B practice filter selects exact related sources",
+      "passed": true
+    },
+    {
+      "check": "N JSON exposes its exact source-practice pairs",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/ndse2.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "N source cards expose exact reciprocal links or their review reason",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "N practice filter selects exact related sources",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/practices.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "All practice cards render exactly the reciprocal source associations",
+      "passed": true
+    },
+    {
+      "check": "Displayed practice coverage agrees with the audited graph after all source exports",
+      "passed": true,
+      "detail": [
+        "583/583",
+        "500",
+        "84/84",
+        "692"
+      ]
+    },
+    {
+      "check": "Combined practice collection and relationship filters match the same association",
+      "passed": true,
+      "detail": {
+        "combinations": 30,
+        "errors": []
+      }
+    },
+    {
+      "check": "Practice anchor clears conflicting filters and opens guidance plus source reading",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/fowler.html?practice=PAT%3A060",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "Source catalogue URL carries the exact practice prefilter",
+      "passed": true
+    },
+    {
+      "check": "Local page catalogues/practice-map.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "Corpus review page contains every source disposition",
+      "passed": true
+    },
+    {
+      "check": "Corpus review filter exposes exactly the explicitly excluded records",
+      "passed": true
+    },
+    {
+      "check": "Excluded records remain selectable by collection without a fabricated practice link",
+      "passed": true
+    },
+    {
+      "check": "Review-status filter is operable by keyboard",
+      "passed": true
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html?practice=all",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "Complete practice graph reveals every mapped source and every classified edge",
+      "passed": true
+    },
+    {
+      "check": "Complete practice graph leaves excluded records in their ordinary collections",
+      "passed": true
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html?practice=PAT%3A060",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "Focused practice graph shows the exact source neighborhood",
+      "passed": true
+    },
+    {
+      "check": "Actual practice graph inspector exposes the reviewed rationale and component",
+      "passed": true
+    },
+    {
+      "check": "Local page swe_knowledge_graph.html?collection=F&node=F030",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "Source inspector action opens the reciprocal practice neighborhood",
+      "passed": true
+    },
+    {
+      "check": "Focused practice graph fits a mobile viewport",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "overflow": false
+      }
     },
     {
       "check": "B catalogue is complete without JavaScript",
@@ -4612,6 +4362,14 @@
     },
     {
       "check": "W catalogue is complete without JavaScript",
+      "passed": true
+    },
+    {
+      "check": "Every practice association remains present without JavaScript",
+      "passed": true
+    },
+    {
+      "check": "Complete corpus review remains readable without JavaScript",
       "passed": true
     },
     {
@@ -4726,6 +4484,21 @@
     },
     {
       "check": "1440px responsive layout: catalogues/practices.html",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page catalogues/practice-map.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "1440px responsive layout: catalogues/practice-map.html",
       "passed": true,
       "detail": {
         "width": 1440,
@@ -4865,6 +4638,21 @@
     },
     {
       "check": "390px responsive layout: catalogues/practices.html",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "overflow": false
+      }
+    },
+    {
+      "check": "Local page catalogues/practice-map.html",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "check": "390px responsive layout: catalogues/practice-map.html",
       "passed": true,
       "detail": {
         "width": 390,

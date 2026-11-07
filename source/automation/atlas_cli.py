@@ -313,7 +313,12 @@ def reviewed_author_contexts(review, state):
 
 
 def validate_review(review, state, discovery=None):
+    if any(field in review for field in ("mappings", "exclusions")) and review.get("kind") != "atlas_practice_links_update/1":
+        raise ValueError("Source-practice mappings and exclusions require the explicit atlas_practice_links_update/1 adapter")
     reviewed_author_contexts(review, state)
+    if review.get('kind') == 'atlas_practice_links_update/1':
+        from practice_links_update import validate_review as validate_practice_links_review
+        return validate_practice_links_review(review, state)
     if review.get('kind') == 'atlas_polimi_update/1':
         from polimi_migration import validate_review as validate_polimi_review
         return validate_polimi_review(review, state)
@@ -519,7 +524,8 @@ def tool_files():
              "browser_check.js", "build_site.py", "build_ndse2_pages.py", "book_tools.py", "extract_ndse2_base.py",
              "practices_checks.py", "practices_migration.py", "practice_book_context.py", "PRACTICES_UPDATE.txt",
              "polimi_migration.py", "POLIMI_UPDATE.txt", "PRACTITIONER_UPDATE.txt",
-             "cumulative_package.py", "CUMULATIVE_UPDATE.txt"]
+             "cumulative_package.py", "CUMULATIVE_UPDATE.txt", "practice_links_update.py", "PRACTICE_LINKS_UPDATE.txt",
+             "practice_links_ui.py"]
     return [name for name in names if (TOOLS / name).is_file()]
 
 
@@ -528,7 +534,9 @@ def install_tools(destination):
     target.mkdir(parents=True, exist_ok=True)
     for name in tool_files():
         shutil.copyfile(TOOLS / name, target / name)
-    for name in ("build_site.py", "build_ndse2_pages.py"):
+    for name in ("build_site.py", "build_ndse2_pages.py", "practice_links_ui.py"):
+        if name == "practice_links_ui.py" and not (TOOLS / name).is_file():
+            continue
         shutil.copyfile(TOOLS / name, destination / "source" / name)
 
 
@@ -619,7 +627,12 @@ def render_update_page(site, state, audit, review):
 
 
 def build_to(root, destination, state, review, book):
+    if any(field in review for field in ("mappings", "exclusions")) and review.get("kind") != "atlas_practice_links_update/1":
+        raise ValueError("Source-practice mappings and exclusions require the explicit atlas_practice_links_update/1 adapter")
     contexts = reviewed_author_contexts(review, state)
+    if review.get('kind') == 'atlas_practice_links_update/1':
+        from practice_links_update import build_practice_links_to
+        return build_practice_links_to(root, destination, state, review, book)
     if review.get('kind') == 'atlas_polimi_update/1':
         from polimi_migration import build_polimi_to
         return build_polimi_to(root, destination, state, review, book)
@@ -631,7 +644,7 @@ def build_to(root, destination, state, review, book):
     old = load(root / "baseline_payload.json")
     old_book_path = root / "baseline/source/ndse2_book.json"
     old_book = load(old_book_path) if old_book_path.is_file() else None
-    no_changes = not any(review.get(k) for k in ("additions", "context_additions", "revisions", "edges")) and (book is None or book == old_book)
+    no_changes = not any(review.get(k) for k in ("additions", "context_additions", "revisions", "edges", "mappings", "exclusions")) and (book is None or book == old_book)
     if no_changes:
         return {"no_changes": True, "source_additions": [], "baseline_nodes": len(old["nodes"]), "nodes": len(old["nodes"]), "edges": len(old["edges"])}
     engine_review = copy.deepcopy(review)

@@ -215,6 +215,124 @@ function observe(context) {
   });
 }
 
+async function checkPracticeRelationships() {
+  const sourceCodes = ['W','O','P','F','B','N'];
+  const edges = graph.edges.filter(e => e.family === 'practice');
+  const associations = edges.map(e => ({source:endpointID(e.source), practice:endpointID(e.target),
+    collection:nodeByID.get(endpointID(e.source)).collection, relation:e.relation}));
+  const pair = r => `${r.source}|${r.practice}|${r.relation}`;
+  const expectedPairs = associations.map(pair);
+  const sourceIDs = graph.nodes.filter(n => sourceCodes.includes(n.collection)).map(n => n.id);
+  const practiceIDs = graph.nodes.filter(n => n.collection === 'PAT').map(n => n.id);
+  const mappedIDs = [...new Set(associations.map(r => r.source))];
+  const excluded = graph.meta.practice_links.exclusions;
+  const excludedIDs = excluded.map(r => r.source);
+  const flat = JSON.parse(fs.readFileSync(path.join(site, 'data/practice_links.json'), 'utf8'));
+  const coverage = JSON.parse(fs.readFileSync(path.join(site, 'data/practice_coverage.json'), 'utf8'));
+  check('Practice download contains exactly the graph classifications', equalIDs(flat.relationships.map(pair), expectedPairs));
+  check('Coverage partitions every source with no overlap or unreviewed records',
+    equalIDs([...mappedIDs, ...excludedIDs], sourceIDs) && !mappedIDs.some(id => excludedIDs.includes(id)) && coverage.unreviewed_source_ids.length === 0 &&
+    coverage.source_count === sourceIDs.length && coverage.mapped_source_count === mappedIDs.length && coverage.excluded_source_count === excludedIDs.length && coverage.link_count === edges.length);
+  check('Every practice is linked and every mapped source has exactly one primary reading',
+    equalIDs(new Set(associations.map(r => r.practice)), practiceIDs) && mappedIDs.every(id => edges.filter(e => endpointID(e.source) === id && e.attributes.primary).length === 1));
+  const edgeByID = new Map(edges.map(e => [e.id,e]));
+  check('Practice download retains reviewed rationales, bases and component boundaries', flat.relationships.every(r => {
+    const e = edgeByID.get(r.edge_id);
+    return e && r.rationale === e.attributes.rationale && r.primary === e.attributes.primary &&
+      JSON.stringify(r.basis) === JSON.stringify(e.attributes.basis) && r.evaluated_component === e.attributes.evaluated_component;
+  }));
+  for (const code of sourceCodes) {
+    const data = JSON.parse(fs.readFileSync(path.join(site, 'data/catalogues', slugs[code] + '.json'), 'utf8'));
+    const wanted = associations.filter(r => r.collection === code);
+    check(`${code} JSON exposes its exact source-practice pairs`, equalIDs(data.practice_relationships.map(pair), wanted.map(pair)));
+    await load(`catalogues/${slugs[code]}.html`);
+    const rows = await page.locator('[data-record]').evaluateAll(items => items.map(el => ({
+      id:el.id, text:el.textContent, status:JSON.parse(el.dataset.reviewStatus),
+      connections:JSON.parse(el.dataset.practiceConnections),
+      targets:[...el.querySelectorAll('.practice-chip')].map(a => decodeURIComponent(new URL(a.href).hash.slice(1)))
+    })));
+    const errors = rows.filter(r => {
+      const expected = wanted.filter(a => a.source === r.id), disposition = excluded.find(e => e.source === r.id);
+      return !equalIDs(r.connections.map(pair), expected.map(pair)) || !equalIDs(r.targets, expected.map(a => a.practice)) ||
+        (expected.length ? r.status !== 'mapped' : r.status !== 'excluded' || !disposition || !r.text.includes(disposition.reason));
+    }).map(r => r.id);
+    check(`${code} source cards expose exact reciprocal links or their review reason`, errors.length === 0, errors);
+    const sample = wanted[0];
+    await page.locator('select[name=practice]').selectOption(sample.practice);
+    check(`${code} practice filter selects exact related sources`, equalIDs(await page.locator('[data-record]:visible').evaluateAll(rows => rows.map(r => r.id)), wanted.filter(r => r.practice === sample.practice).map(r => r.source)));
+  }
+  await load('catalogues/practices.html');
+  const practiceRows = await page.locator('[data-record]').evaluateAll(rows => rows.map(el => ({
+    id:el.id, connections:JSON.parse(el.dataset.practiceConnections),
+    rendered:[...el.querySelectorAll('[data-practice-link]')].map(li => ({...JSON.parse(li.dataset.practiceLinkData),
+      href:decodeURIComponent(new URL(li.querySelector('.practice-source-title a').href).hash.slice(1))}))
+  })));
+  check('All practice cards render exactly the reciprocal source associations',
+    equalIDs(practiceRows.flatMap(r => r.connections.map(pair)), expectedPairs) &&
+    equalIDs(practiceRows.flatMap(r => r.rendered.map(pair)), expectedPairs) &&
+    practiceRows.every(r => r.rendered.every(a => a.practice === r.id && a.href === a.source)));
+  const stats = await page.locator('.practice-coverage-stats strong').allTextContents();
+  check('Displayed practice coverage agrees with the audited graph after all source exports',
+    equalIDs(stats, [`${sourceIDs.length}/${sourceIDs.length}`, String(mappedIDs.length), `${practiceIDs.length}/${practiceIDs.length}`, String(edges.length)]), stats);
+  const roles = [...new Set(associations.map(r => r.relation))];
+  const combinations = await page.evaluate(({codes,roles}) => {
+    const result = [], collection = document.querySelector('[name=sourceCollection]'), relation = document.querySelector('[name=linkRelation]');
+    for (const code of codes) for (const role of roles) {
+      collection.value = code; relation.value = role;
+      relation.dispatchEvent(new Event('change', {bubbles:true}));
+      const rows = [...document.querySelectorAll('[data-record]')].filter(r => !r.hidden);
+      result.push({code,role,practiceIDs:rows.map(r => r.id), links:rows.flatMap(r => [...r.querySelectorAll('[data-practice-link]')].filter(li => !li.hidden).map(li => JSON.parse(li.dataset.practiceLinkData)))});
+    }
+    return result;
+  }, {codes:sourceCodes,roles});
+  const filterErrors = combinations.filter(r => {
+    const wanted = associations.filter(a => a.collection === r.code && a.relation === r.role);
+    return !equalIDs(r.practiceIDs, new Set(wanted.map(a => a.practice))) || !equalIDs(r.links.map(pair), wanted.map(pair));
+  });
+  check('Combined practice collection and relationship filters match the same association', filterErrors.length === 0, {combinations:combinations.length, errors:filterErrors});
+  const focus = associations.find(r => r.relation === 'EVALUATES_PRACTICE') || associations[0];
+  await page.locator('input[name=q]').fill('no-match-before-anchor-4a8e');
+  await page.evaluate(id => {location.hash = encodeURIComponent(id);}, focus.practice);
+  await page.waitForFunction(id => !document.getElementById(id).hidden && document.getElementById(id).querySelector('.practice-details').open, focus.practice);
+  check('Practice anchor clears conflicting filters and opens guidance plus source reading',
+    await page.locator(`[id="${focus.practice}"] .practice-sources`).evaluate(el => el.open) && await page.locator('input[name=q]').inputValue() === '' && await page.locator('[name=sourceCollection]').inputValue() === '');
+  await load(`catalogues/${slugs[focus.collection]}.html?practice=${encodeURIComponent(focus.practice)}`);
+  check('Source catalogue URL carries the exact practice prefilter',
+    equalIDs(await page.locator('[data-record]:visible').evaluateAll(rows => rows.map(r => r.id)), associations.filter(r => r.collection === focus.collection && r.practice === focus.practice).map(r => r.source)));
+  await load('catalogues/practice-map.html');
+  check('Corpus review page contains every source disposition', await page.locator('[data-record]').count() === sourceIDs.length);
+  await page.locator('[name=reviewStatus]').selectOption('excluded');
+  check('Corpus review filter exposes exactly the explicitly excluded records', equalIDs(await page.locator('[data-record]:visible').evaluateAll(rows => rows.map(r => r.id.replace(/^map-/,''))), excludedIDs));
+  await page.locator('[name=sourceCollection]').selectOption('W');
+  check('Excluded records remain selectable by collection without a fabricated practice link',
+    equalIDs(await page.locator('[data-record]:visible').evaluateAll(rows => rows.map(r => r.id.replace(/^map-/,''))), excludedIDs.filter(id => nodeByID.get(id).collection === 'W')));
+  await page.locator('[data-clear]').click();
+  await page.locator('[name=reviewStatus]').focus();
+  await page.keyboard.press('ArrowDown'); await page.keyboard.press('Enter');
+  check('Review-status filter is operable by keyboard', await page.locator('[name=reviewStatus]').inputValue() === 'mapped' && await page.locator('[data-record]:visible').count() === mappedIDs.length);
+  await load('swe_knowledge_graph.html?practice=all', true);
+  let pd = await page.evaluate(() => window.atlasPracticeDiagnostics());
+  check('Complete practice graph reveals every mapped source and every classified edge',
+    pd.mode === 'all' && equalIDs(pd.visibleSourceIDs,mappedIDs) && equalIDs(pd.visiblePracticeIDs,practiceIDs) && equalIDs(pd.visiblePracticeEdgeIDs,edges.map(e => e.id)));
+  check('Complete practice graph leaves excluded records in their ordinary collections', !pd.visibleSourceIDs.some(id => excludedIDs.includes(id)));
+  await load(`swe_knowledge_graph.html?practice=${encodeURIComponent(focus.practice)}`, true);
+  pd = await page.evaluate(() => window.atlasPracticeDiagnostics());
+  const focused = associations.filter(r => r.practice === focus.practice);
+  check('Focused practice graph shows the exact source neighborhood', pd.mode === focus.practice && equalIDs(pd.visibleSourceIDs,focused.map(r => r.source)) && equalIDs(pd.visiblePracticeIDs,[focus.practice]));
+  await page.locator('[data-practice-connections] summary').click();
+  const focusEdge = edges.find(e => endpointID(e.source) === focus.source && endpointID(e.target) === focus.practice);
+  check('Actual practice graph inspector exposes the reviewed rationale and component',
+    await page.locator('[data-practice-connections]').innerText().then(t => t.includes(focusEdge.attributes.rationale) && (!focusEdge.attributes.evaluated_component || t.includes(focusEdge.attributes.evaluated_component))));
+  await load(`swe_knowledge_graph.html?collection=${focus.collection}&node=${encodeURIComponent(focus.source)}`, true);
+  await page.locator('[data-practice-connections] summary').click();
+  await page.locator(`[data-practice-view="${focus.practice}"]`).click();
+  check('Source inspector action opens the reciprocal practice neighborhood',
+    (await page.evaluate(() => window.atlasPracticeDiagnostics())).mode === focus.practice);
+  await page.setViewportSize({width:390,height:844});
+  check('Focused practice graph fits a mobile viewport', !(await overflow()).overflow, await overflow());
+  await page.setViewportSize({width:1440,height:1000});
+}
+
 async function run() {
   initialize();
   check('Every selected new or revised source ID exists', newIDs.every(id => nodeByID.has(id)), newIDs);
@@ -278,7 +396,10 @@ async function run() {
         ...p.when_to_use, ...p.when_not_to_use, ...p.prerequisites, ...p.steps, ...p.verification, ...p.outputs, ...p.risks];
       if (!row || strings.some(value => !row.text.includes(value))) contentErrors.push(record.id);
       const destination = row?.href ? new URL(row.href) : null;
-      if (!destination || destination.searchParams.get('node') !== record.id || destination.searchParams.get('collection') !== 'PAT') contentErrors.push(record.id + ':link');
+      const correctTarget = config.practice_links_update
+        ? destination?.searchParams.get('practice') === record.id
+        : destination?.searchParams.get('node') === record.id && destination?.searchParams.get('collection') === 'PAT';
+      if (!correctTarget) contentErrors.push(record.id + ':link');
     }
     check('All English practice guides render complete operational content and correct Atlas links', !contentErrors.length && rendered.length === practices.length, {practices: practices.length, errors: contentErrors});
     const familyErrors = [];
@@ -307,7 +428,10 @@ async function run() {
       await page.waitForFunction(() => typeof window.atlasDiagnostics === 'function');
       const state = await diagnostics();
       const body = await page.locator('#inspectorBody').innerText();
-      check(`${id} catalogue-to-Atlas opens PAT with complete guidance`, state.selected === id && equalIDs(state.visibleNodeIDs, practices.map(n => n.id)) && state.visibleContext === 0 && body.includes(record.attributes.practice.example.replace(/^Illustrative example:\s*/i, '')) && record.attributes.practice.steps.every(step => body.includes(step)) && body.includes(record.attributes.family_name));
+      const expectedPracticeView = config.practice_links_update
+        ? [id, ...graph.edges.filter(e => e.family === 'practice' && endpointID(e.target) === id).map(e => endpointID(e.source))]
+        : practices.map(n => n.id);
+      check(`${id} catalogue-to-Atlas opens its intended view with complete guidance`, state.selected === id && equalIDs(state.visibleNodeIDs, expectedPracticeView) && state.visibleContext === 0 && body.includes(record.attributes.practice.example.replace(/^Illustrative example:\s*/i, '')) && record.attributes.practice.steps.every(step => body.includes(step)) && body.includes(record.attributes.family_name));
       const pane = await page.locator('#inspector').evaluate(el => {
         const bounds = el.getBoundingClientRect(), body = document.getElementById('inspectorBody');
         return {left: bounds.left, right: bounds.right, viewport: window.innerWidth,
@@ -382,7 +506,7 @@ async function run() {
     await load(`catalogues/${slug}.html#${encodeURIComponent(id)}`);
     const row = page.locator(`[data-record][id="${id}"]`);
     check(`${id} static anchor opens its details`, await row.locator(':scope > details').first().evaluate(element => element.open));
-    const graphLink = row.locator('a[href*="swe_knowledge_graph.html"]').first();
+    const graphLink = row.locator('.record-links a[href*="swe_knowledge_graph.html"]').first();
     check(`${id} static record links to the graph`, await graphLink.count() === 1);
     const destination = new URL(await graphLink.getAttribute('href'), page.url());
     check(`${id} graph link carries the correct record and collection`, destination.searchParams.get('node') === id && (destination.searchParams.get('collection') || '').split(',').includes(node.collection));
@@ -452,6 +576,8 @@ async function run() {
   diag = await diagnostics();
   check('Reset after all-switch verification restores exact expected nodes and edges', equalIDs(diag.visibleNodeIDs, wIDs) && diag.visibleContext === 0 && equalIDs(diag.visibleEdgeIDs, originalEdges));
 
+  if (config.practice_links_update) await checkPracticeRelationships();
+
   // Published catalogues remain useful when JavaScript is unavailable.
   const noJS = await browser.newContext({javaScriptEnabled: false, viewport: {width: 1440, height: 1000}});
   observe(noJS);
@@ -460,11 +586,17 @@ async function run() {
     const response = await staticPage.goto(new URL(`catalogues/${slugs[code]}.html`, base).href, {waitUntil: 'load'});
     check(`${code} catalogue is complete without JavaScript`, response.status() === 200 && await staticPage.locator('[data-record]').count() === counts[code]);
   }
+  if (config.practice_links_update) {
+    await staticPage.goto(new URL('catalogues/practices.html', base).href, {waitUntil: 'load'});
+    check('Every practice association remains present without JavaScript', await staticPage.locator('[data-practice-link]').count() === graph.edges.filter(e => e.family === 'practice').length);
+    await staticPage.goto(new URL('catalogues/practice-map.html', base).href, {waitUntil: 'load'});
+    check('Complete corpus review remains readable without JavaScript', await staticPage.locator('[data-record]').count() === graph.nodes.filter(n => ['W','O','P','F','B','N'].includes(n.collection)).length);
+  }
   await noJS.close();
 
   for (const width of [1440, 390]) {
     await page.setViewportSize({width, height: width === 390 ? 844 : 1000});
-    const pages = ['index.html', 'catalogues/index.html', `catalogues/${slugs.N}.html`, 'catalogues/chapters.html', 'catalogues/fowler.html', 'about.html', 'downloads.html', ...(counts.PAT ? ['catalogues/practices.html'] : [])];
+    const pages = ['index.html', 'catalogues/index.html', `catalogues/${slugs.N}.html`, 'catalogues/chapters.html', 'catalogues/fowler.html', 'about.html', 'downloads.html', ...(counts.PAT ? ['catalogues/practices.html'] : []), ...(config.practice_links_update ? ['catalogues/practice-map.html'] : [])];
     for (const relative of pages) {
       await load(relative);
       const dimensions = await overflow();

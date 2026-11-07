@@ -74,5 +74,5 @@ python source/build_site.py
 
 This command rebuilds the static catalogues from the current configured template `source/atlas_current.html`, `source/site_config.json` and `source/ndse2_book.json`. It does not discover articles, alter the graph, run verification or create a new approved package. The reusable `build` command above also performs this rendering step after applying the reviewed graph update.
 
-Current graph downloads are `data/graph/knowledge_graph_current.json` and `data/graph/knowledge_graph_current.graphml`. Earlier exports remain historical artifacts. Release notes are `UPDATE_v13_4_20261106.html` and the source audit is `data/updates/source_review_v13_4_20261106.json`. Use the existing GitHub Pages publishing workflow after reviewing the resulting full or delta package.
+Current graph downloads are `data/graph/knowledge_graph_current.json` and `data/graph/knowledge_graph_current.graphml`. Earlier exports remain historical artifacts. Release notes are `UPDATE_v13_5_20261107.html` and the source audit is `data/updates/source_review_v13_4_20261106.json`. Use the existing GitHub Pages publishing workflow after reviewing the resulting full or delta package.
 

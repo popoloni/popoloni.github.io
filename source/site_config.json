@@ -1,8 +1,8 @@
 {
-  "site_version": "13.4",
-  "build_date": "2026-11-06",
-  "graph_version": "13.4",
-  "graph_snapshot": "2026-11-06",
+  "site_version": "13.5",
+  "build_date": "2026-11-07",
+  "graph_version": "13.5",
+  "graph_snapshot": "2026-11-07",
   "canonical_atlas": "https://popoloni.github.io/swe_knowledge_graph.html",
   "title": "Knowledge Atlas for AI and Software Engineering",
   "author": "Enrico Papalini",
@@ -71,7 +71,7 @@
   "graph_json": "data/graph/knowledge_graph_current.json",
   "graph_graphml": "data/graph/knowledge_graph_current.graphml",
   "payload_json": "data/graph/atlas_payload_current.json",
-  "release_notes": "UPDATE_v13_4_20261106.html",
+  "release_notes": "UPDATE_v13_5_20261107.html",
   "practice_content_schema": 1,
   "book_series": {
     "title": "Non-Deterministic series",
@@ -303,6 +303,780 @@
       "AUTHOR:MF:prem-chandrasekaran",
       "AUTHOR:MF:martin-fowler"
     ],
-    "context_review_kind": "atlas_practitioner_update/1"
+    "context_review_kind": "atlas_practitioner_update/1",
+    "release_notes": "UPDATE_v13_4_20261106.html"
+  },
+  "practice_links_audit": "data/updates/practice_links_review_v13_5_20261107.json",
+  "practice_links_update": {
+    "kind": "atlas_practice_links_update/1",
+    "date": "2026-11-07",
+    "release": "13.5",
+    "release_notes": "UPDATE_v13_5_20261107.html",
+    "review_path": "data/updates/practice_links_review_v13_5_20261107.json",
+    "source_count": 583,
+    "reviewed_source_count": 583,
+    "mapped_source_count": 500,
+    "excluded_source_count": 83,
+    "eligible_source_count": 500,
+    "eligible_coverage_percent": 100,
+    "practice_count": 84,
+    "link_count": 692,
+    "relation_counts": {
+      "CAUTIONS_PRACTICE": 157,
+      "DOCUMENTS_PRACTICE": 87,
+      "EVALUATES_PRACTICE": 17,
+      "ILLUSTRATES_PRACTICE": 52,
+      "INFORMS_PRACTICE": 379
+    },
+    "exclusions": [
+      {
+        "source": "B001",
+        "category": "non_operational_context",
+        "reason": "The part introductions orient the professional-to-organizational reading route but the retained annotation supplies no specific enablement mechanism or practice decision. Substantive chapters retain their own classifications.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Le introduzioni alle parti costruiscono il percorso dalle trasformazioni professionali all’adozione organizzativa."
+        }
+      },
+      {
+        "source": "B002",
+        "category": "non_operational_context",
+        "reason": "The front matter declares sources, attribution and general reading limits. It does not describe an engineering evidence-pack procedure; mapping it solely from a generic disclaimer would overstate its operational content.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Il frontespizio dichiara fonti, attribuzioni e limiti del volume."
+        }
+      },
+      {
+        "source": "B011",
+        "category": "non_operational_context",
+        "reason": "The chapter records dated future scenarios rather than a specific operational technique or adoption-measurement design. Its forecasts remain part of the Atlas without being classified as an evaluated practice.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Le traiettorie future sono scenari da usare per prepararsi, non previsioni certe."
+        }
+      },
+      {
+        "source": "B012",
+        "category": "navigation_only",
+        "reason": "This parent catalogue organizes the pattern sections. The retained annotation explicitly assigns substantive content to the child records, which receive their own practice and historical-origin relationships.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Il catalogo organizza pattern riusabili e dipendenze fra pratiche."
+        }
+      },
+      {
+        "source": "B019",
+        "category": "navigation_only",
+        "reason": "This tools-and-practices guide is a container whose operative content belongs to the child file records. No additional specific mechanism is supplied by the retained parent annotation.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "La guida agli strumenti collega scelta iniziale, contesto e pratiche operative."
+        }
+      },
+      {
+        "source": "B021",
+        "category": "non_operational_context",
+        "reason": "The annotation concerns choosing a primary tool by workflow, constraints and delegation type, but does not specify an editor-native manual loop or another particular operational mechanism. Product-selection context is retained without inferring the interaction route.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "La scelta dello strumento deve dipendere da workflow, vincoli e tipo di delega."
+        }
+      },
+      {
+        "source": "B032",
+        "category": "navigation_only",
+        "reason": "The quick-reference compendium summarizes control and measurement criteria without an explicit gate, hold condition or progression mechanism in the retained annotation. Its substantive chapter records retain their own classifications.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Le schede rapide rendono utilizzabili criteri di controllo e misura durante il lavoro."
+        }
+      },
+      {
+        "source": "B033",
+        "category": "non_operational_context",
+        "reason": "The record organizes expert testimony as general professional principles but does not identify a particular principle or operational method. Attribution caveats alone are insufficient to manufacture a trust-calibration link.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Le testimonianze degli esperti sono organizzate come principi professionali."
+        }
+      },
+      {
+        "source": "B036",
+        "category": "non_operational_context",
+        "reason": "The postface provides a broad account of engineering transformation and also contains biographical material. The retained annotation identifies no specific operational practice to classify.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "La postfazione riconduce SDD alla trasformazione più ampia dell’ingegneria."
+        }
+      },
+      {
+        "source": "B037",
+        "category": "non_operational_context",
+        "reason": "The preface defines audience, motivation and relationships between volumes. This editorial framing does not itself provide a specific specification or execution mechanism.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "La prefazione definisce pubblico, motivazione e rapporto con il volume fondativo."
+        }
+      },
+      {
+        "source": "B047",
+        "category": "non_operational_context",
+        "reason": "The part introductions provide structural orientation from process to framework design. The retained annotation contains no concrete selection rule or workflow component beyond the substantive child chapters.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Le introduzioni alle parti spiegano il passaggio dal processo alla progettazione dei framework."
+        }
+      },
+      {
+        "source": "B048",
+        "category": "non_operational_context",
+        "reason": "The preface explains the expansion from one toolchain to an ecosystem. Edition framing and scope expansion do not identify a particular operational-practice component.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "La prefazione esplicita l’allargamento dalla singola toolchain all’ecosistema SDD."
+        }
+      },
+      {
+        "source": "B053",
+        "category": "non_operational_context",
+        "reason": "The annotation compares two lightweight discipline approaches but does not identify human-guided editor iteration or a specific component that distinguishes the routes. The more specific GSD reference-card records retain their grounded associations.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "GSD v1 e GSD-2 rappresentano due modi di ottenere disciplina con poco processo."
+        }
+      },
+      {
+        "source": "B069",
+        "category": "navigation_only",
+        "reason": "This is the container for twelve framework reference cards, not an additional framework or operational method. Its individual card records carry the concrete practice associations.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Il contenitore delle reference card collega i dodici framework ai rispettivi dettagli operativi."
+        }
+      },
+      {
+        "source": "B082",
+        "category": "non_operational_context",
+        "reason": "The final apparatus documents the author, book series and referenced works. Bibliographic membership and author information do not establish a particular operational practice or chapter citation.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "L’apparato finale documenta serie, attribuzioni ed opere richiamate."
+        }
+      },
+      {
+        "source": "B083",
+        "category": "non_operational_context",
+        "reason": "The introductions and postface frame a future of continuing delegation. They supply editorial perspective rather than a specific background-execution control, which is addressed in the substantive chapters.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Le introduzioni alle parti e la postfazione presentano il passaggio dall’assistenza interattiva alla delega continuativa."
+        }
+      },
+      {
+        "source": "B084",
+        "category": "non_operational_context",
+        "reason": "The preface names the intended readership and general precautions for autonomous agents, without specifying an authorization or safety mechanism in the retained annotation.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "La prefazione definisce destinatari, percorso di lettura e precauzioni per costruire agenti autonomi."
+        }
+      },
+      {
+        "source": "B101",
+        "category": "navigation_only",
+        "reason": "The reference apparatus records source genealogy and chapter-attribution notes, without an operational evidence-pack method. Relevant source and chapter records remain independently navigable and classified.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "L’apparato di fonti rende esplicita la genealogia del metodo autonomo."
+        }
+      },
+      {
+        "source": "B102",
+        "category": "non_operational_context",
+        "reason": "These opening pages qualify purpose, responsibility and the nature of the synthesis. They supply reading conditions, not a specific engineering control or trust-calibration procedure.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Le pagine iniziali qualificano finalità, responsabilità e natura della sintesi sui loop."
+        }
+      },
+      {
+        "source": "B103",
+        "category": "non_operational_context",
+        "reason": "The summary orients the volume around governed loops but does not identify a concrete mechanism or composition decision in the retained annotation. The full chapter records retain their classifications.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Il sommario introduce il loop come sistema governato, dal modello concettuale all’esecuzione locale."
+        }
+      },
+      {
+        "source": "B110",
+        "category": "navigation_only",
+        "reason": "The bibliography is an index of 85 cited works and their source genealogy. Its caution against counting derivatives as replications remains visible, but an index is not itself an operational evidence-pack method.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Le 85 voci bibliografiche raccolgono fonti practitioner, ricerca, strumenti e casi richiamati nel volume."
+        }
+      },
+      {
+        "source": "B111",
+        "category": "non_operational_context",
+        "reason": "The glossary supplies terminology for loop concepts, not a procedure for reconciling conflicting obligations across artifacts. No consistency gate is inferred from the existence of definitions.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Il glossario stabilizza il significato di loop limitato, stato durevole, backpressure ed evidenza."
+        }
+      },
+      {
+        "source": "P001",
+        "reason": "The retained summary describes reasons for leaving employers. It does not specify an engineering learning, enablement or workflow intervention that can be linked to a particular practice without inventing one.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Collects engineers’ and leaders’ accounts of leaving large companies for reasons including learning, autonomy, career progression, layoffs and compensation."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P003",
+        "reason": "The available record describes labor-market demand by population and geography. Proprietary coverage and a restricted remainder provide no concrete engineering-practice decision beyond general market context.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Combines employment-change and job-listing data to describe variation in engineering demand, seniority, geography and company hiring."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P007",
+        "reason": "Recruitment timing, compensation and experience portability are workforce context here; the retained preview does not identify a specific operational engineering practice.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Discusses recruitment timing, compensation, flexibility and the portability of large-company experience to startups."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P009",
+        "reason": "An annual index points to other articles. It supplies navigation rather than a distinct practice argument, application, evaluation or boundary; any relevant articles should carry their own mappings.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Indexes the publication’s prior year of articles, organized around company practices and engineering topics."
+        },
+        "category": "navigation_only"
+      },
+      {
+        "source": "P010",
+        "reason": "Temporary book and newsletter discounts contain no substantive engineering-practice content in the retained record.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Advertises temporary discounts on the author’s books and newsletter."
+        },
+        "category": "promotion_or_announcement"
+      },
+      {
+        "source": "P012",
+        "reason": "The author describes audiobook distribution terms and delays. Transferring this commercial publishing experience into a software engineering practice would require content not supplied by the retained summary.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Describes the author’s audiobook distribution experience and commercial concerns about platform terms and publication delays."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P016",
+        "reason": "The record lists podcast distribution channels and editorial focus; it does not provide a substantive practice mechanism or result.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Lists distribution channels and the stated focus of the publication’s podcast."
+        },
+        "category": "navigation_only"
+      },
+      {
+        "source": "P019",
+        "reason": "The retained preview is historical and strategic context about Microsoft's developer-tool position, without a concrete procedure, engineering decision criterion or outcome to map.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Traces Microsoft’s developer-tool history to frame its contemporary position in editors, repositories and AI assistance."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P022",
+        "reason": "The subscriber milestone and giveaway announcement do not contain a substantive engineering practice or assessment.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Announces a subscriber milestone and a time-limited giveaway of books and newsletter subscriptions."
+        },
+        "category": "promotion_or_announcement"
+      },
+      {
+        "source": "P023",
+        "reason": "Professional-mobility destinations describe where engineers changed employers. They do not identify an engineering workflow, learning intervention or adoption decision in the retained record.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Reports destinations of departing TikTok engineers using Live Data Technologies’ professional-mobility data."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P024",
+        "reason": "The preview describes performance-management and layoff trends. It contains no specific operational method for enablement, measurement or engineering work that can be mapped without adding an unsupported prescription.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Discusses performance-management changes, layoffs and employer expectations at large technology companies, contrasting contemporary practices with earlier periods."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P025",
+        "reason": "The comparison of specialist recruiters' demand with job-listing declines is hiring-market context. The record does not describe a concrete engineering enablement or adoption-measurement decision.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Contrasts broad job-listing declines with two specialist recruiters’ accounts of demand for startup engineers and engineering leaders."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P026",
+        "reason": "Vacancy indices and competing explanations for their decline do not establish an engineering workflow mechanism or a local adoption outcome. A practice link would conflate labor-market commentary with operational measurement.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Examines Indeed/FRED vacancy indices across countries and discusses competing explanations for the decline, including the post-pandemic correction and AI expectations."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P030",
+        "reason": "This invitation requests technology-stack responses but reports no results or specific measurement procedure relevant to a practice; later survey findings require their own record.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Invites readers to report their languages, frameworks, platforms and tools and outlines plans for publishing results."
+        },
+        "category": "source_recruitment_only"
+      },
+      {
+        "source": "P033",
+        "reason": "The available record discusses interview-market selectivity and difficulty. Its unvalidated hiring-bar scale provides no concrete operational learning or assessment method to map to a practice.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Interview-preparation founders discuss selective hiring recovery, changing interview difficulty, domain specialization and differences between startup and large-company hiring."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P036",
+        "reason": "A publication-growth retrospective and reader-demographic survey describe the audience, not an engineering practice, adoption intervention or outcome.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "A publication retrospective includes a 2024 reader survey describing respondents’ roles, employers, location and education, alongside the newsletter’s growth."
+        },
+        "category": "promotion_or_announcement"
+      },
+      {
+        "source": "P045",
+        "reason": "The retained summary concerns disputed claims about a company's internal business model. It does not provide enough operational detail to classify a software practice without importing assumptions about costs, controls or workflow.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Investigates claims that Builder.ai was merely a human-operated substitute for AI."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P055",
+        "reason": "The record concerns demanding work schedules, public hiring language and leadership incentives. It does not specify an engineering-practice mechanism or evaluated workflow; legal assertions are also outside this review.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Collects public hiring language and leadership accounts of demanding work schedules at AI companies, questioning the incentives used to justify them."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P059",
+        "reason": "The preview assembles labor-market datasets about hiring, roles and organizational structure but does not identify a concrete engineering enablement, learning or adoption-measurement procedure.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Recruitment and employment datasets are assembled to examine engineering hiring, AI roles, tenure, location and management layers."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P060",
+        "reason": "Only an outline-level preview is represented. The broad mention of shared engineering practices does not provide enough specific content to assign one of the operational practice guides.",
+        "basis": {
+          "field": "limitation",
+          "excerpt": "Outline-level preview; shared research with Part 2. Subscriber-only article remainder not reviewed."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P064",
+        "reason": "The retained preview describes hiring volumes, referrals, demand and fraudulent applicants but does not specify a verification, enablement or learning method. Mapping a particular policy would add content not present in the record.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Interviews with hiring managers and recruiters examine application volumes, referrals, product-engineering demand and fraudulent applicants."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P068",
+        "reason": "Company visits and geographic concentration provide industry context. The general mention of development practices in this restricted summary lacks the specific mechanism needed for a defensible practice association.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Visits to AI companies and local events inform an account of development practices, hiring and geographic concentration."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P071",
+        "reason": "The job-seeker stories describe demand by experience, specialization and location, without a concrete engineering workflow or learning intervention to classify.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Job-seeker interviews and recruitment-platform observations describe uneven demand by experience, specialization and location."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P072",
+        "reason": "Technical-book pitching, commercial terms and self-publishing choices are a publishing memoir in this record, not a substantive software-engineering practice mechanism.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Recounts technical-book pitching, publisher collaboration, commercial terms and the eventual choice to self-publish."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P088",
+        "reason": "The preview names broad predictions about careers, organizational health, refactoring and Agile but does not specify an operational method, decision criterion or observed practice result. No paid remainder is inferred.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Conference and workshop reporting considers organizational health, engineering careers, refactoring and Agile practices under AI adoption."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P093",
+        "reason": "The record contrasts role marketing with two practitioners' sales and delivery duties. It does not describe a concrete engineering learning, clarification or enablement method, so no practice is inferred from dissatisfaction alone.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Revisits forward-deployed engineering through two disappointed practitioners and external hiring coverage, contrasting role marketing with sales and customer-delivery duties."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P096",
+        "reason": "The retained summary establishes the guest's interview experience and a book excerpt but not a specific assessment or learning procedure. The approximately one thousand interviews are not a validation dataset for a practice.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Steve Huynh shares experience from technical and behavioral interviews, followed by an excerpt from his book."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P099",
+        "reason": "The acquisition announcement gives broad data-maintenance motivations but no specific technical handoff, preservation or cost-management procedure. The later transfer must not be projected onto earlier compensation articles.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Announces transfer of the author’s compensation-transparency project to Levels.fyi and discusses sustaining its data and maintenance."
+        },
+        "category": "promotion_or_announcement"
+      },
+      {
+        "source": "P102",
+        "reason": "Job listings and workforce profiles describe geographic and employer demand. The retained preview does not identify a concrete engineering workflow or enablement procedure.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "The report uses job listings and workforce profiles to examine software and AI engineering demand across countries and employers."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P103",
+        "reason": "Only a short public introduction to draft keynote ideas was inspected. No detailed practice guidance or findings are inferred from the title; the later P107 summary has its own review.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "The accessible introduction announces draft keynote ideas about rising code production and possible consequences for quality, reliability and technical debt."
+        },
+        "category": "promotion_or_announcement"
+      },
+      {
+        "source": "P104",
+        "reason": "The record combines labor-market and interview-platform data about roles and compensation but provides no specific operational engineering-practice method in the retained preview.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "The second labor-market report combines hiring-platform, workforce and interview-preparation data on specializations, seniority, compensation and management layers."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P108",
+        "reason": "The copyright-complaint investigation concerns deindexing and disputed requester attribution. It does not describe an engineering practice, and assigning one from the headline would risk promoting an unverified allegation.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Describes the author’s investigation of a copyright complaint that deindexed an earlier company investigation."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P109",
+        "reason": "The retained accounts describe labor demand and distrust of AI-enhanced credentials but do not specify a candidate-verification or learning intervention that can be mapped responsibly.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Accounts from hiring managers and job seekers describe noisy applications, distrust of AI-enhanced credentials and sharply different demand across specialties and regions."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P114",
+        "reason": "Selected leader career-break interviews describe expectations and organizational pressure. They do not establish an operational enablement or learning method, and the subgroup counts are not population departure rates.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Interviews with engineering leaders examine career breaks, founder expectations, cost pressure, changing team sizes and renewed interest in hands-on work."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "P123",
+        "reason": "Only the panel introduction, outline and opening discussion were inspected. The general comparison with earlier technology shifts does not provide a specific practice mechanism; no subscriber discussion is reconstructed.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Orosz edits a Beck–Fowler panel discussion about AI and earlier technological shifts."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W123",
+        "reason": "The record concerns firm adoption and software hiring patterns. It supplies employment context for the atlas, but no specific engineering workflow, learning intervention or practice control is described; attaching it to enablement or measurement would overextend those cards.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Early adopter firms show higher software hiring, especially junior hiring, contradicting simple substitution stories."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W124",
+        "reason": "The cross-sector executive survey records attributed adoption and projected staffing, not software-workflow outcomes or an evaluated enablement mechanism. Retain its economic context without converting projected employment into a practice relationship.",
+        "basis": {
+          "field": "limitation",
+          "excerpt": "Cross-sector executive survey; self-attribution and projected employment are not realized causal effects on software developers."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W125",
+        "reason": "Relative employment changes in AI-exposed occupations are macroeconomic context. The supplied record identifies no specific software-engineering practice, intervention or operational boundary among the 84 descriptors, and exposure does not uniquely establish AI causation.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Young workers in AI-exposed occupations show relative employment declines in US administrative data."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W126",
+        "reason": "Changing experience requirements in international vacancies describe labor demand rather than an engineering workflow or training mechanism. The record does not justify a practice link merely because several practice cards concern skills or organizational adoption.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "AI adopters change experience requirements toward senior roles across multiple countries."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W128",
+        "reason": "The Norwegian employment comparison qualifies macroeconomic displacement claims but does not describe a concrete engineering or learning practice. Retain the country and follow-up context without stretching workflow measurement into a general labor-market mapping.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Early Norwegian data do not reveal the strong job losses predicted by some US exposure analyses."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W129",
+        "reason": "The Finnish youth-employment finding is contextual evidence about a limited labor-market horizon. It supplies no specific operational mechanism or practice decision in the supplied annotation, and non-detection must not be converted into a workflow assurance.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Finnish youth workforce data show no detectable AI-induced collapse in the observed horizon."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W130",
+        "reason": "Firm spending and employment growth are an endogenous macroeconomic association. The record does not measure cost per accepted engineering outcome or evaluate a deployment practice, so a Cost Management mapping would imply a more specific accounting connection than the annotation supports.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "High AI spending correlates with growing firm employment including entry hires."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W131",
+        "reason": "The comparison attributes junior hiring contraction to overlapping remote-work and AI exposure. It addresses labor-market explanation, not an implemented mentoring or development workflow; a practice link would require information absent from this record.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Junior hiring contraction may be more closely explained by remote-work effects than AI deployment alone."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W132",
+        "reason": "Historical occupational turnover provides broad context for displacement and adaptation. It does not identify a particular contemporary engineering practice or test a training mechanism, and the historical analogy cannot substantiate an operational mapping on its own.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Historical occupational turnover suggests task change and adaptation alongside displacement risk."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W133",
+        "reason": "Broad firm reports of current employment and expected staffing concern workforce context rather than software-workflow controls. No specific practice mechanism is described, and expected staffing changes are not observed engineering outcomes.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Most companies currently report no major AI-driven employment changes, while future staffing expectations modestly decline."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W134",
+        "reason": "The recorded wage effect explicitly excludes software-engineering roles. Neither that wage outcome nor the supplied labor-market discussion establishes a specific relationship to the engineering practice catalogue; retain it as qualified economic context.",
+        "basis": {
+          "field": "limitation",
+          "excerpt": "Reported wage effect excludes SW engineering roles, limiting manual applicability."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W135",
+        "reason": "Seniority differences in vacancies describe a possible demand shift, not measured knowledge transfer or an enablement intervention. The annotation does not justify linking the posting result directly to a learning practice or treating its selection-biased signal as an operational effect.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "AI adoption may shift demand toward experienced software workers at the expense of junior vacancies."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W136",
+        "reason": "Early earnings and hours outcomes, with possible task changes, remain labor-market context. The annotation gives no concrete task mechanism or delivery measure to connect to a specific practice; country and observation-window limits should remain on the source.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "No material early change in worker earnings or hours despite adoption; workplace tasks can shift first."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W137",
+        "reason": "The seniority mix of posted vacancies is a descriptive labor-demand indicator. It does not specify a practice for engineering, mentoring or adoption, and cannot support such a link merely through the shared subject of experience.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Posted development vacancies disproportionately target seniority compared with entry-level roles."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W138",
+        "reason": "Planned recruiting adjustments describe employer intent rather than an engineering activity or observed practice outcome. The supplied annotation offers no specific mechanism to map to the catalogue without inventing a workflow implication.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Employers may adjust planned recruiting before adjusting existing headcount."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W139",
+        "reason": "The pre-ChatGPT vacancy decline qualifies a labor-market causal narrative. Although methodologically relevant to economic interpretation, it does not describe or constrain a specific accepted-change measurement or engineering workflow in these practice cards.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Software vacancy decline predates widespread ChatGPT use in some US data, weakening simplistic causal narratives."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W140",
+        "reason": "Coding-tool release timing and vacancy trends do not identify randomized exposure or an operational practice intervention. Retain the labor-market observation and its causal limitation without manufacturing a practice relationship from general adoption context.",
+        "basis": {
+          "field": "limitation",
+          "excerpt": "Product release timing is not randomized AI exposure."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W141",
+        "reason": "The provider-level task-usage map is economic adoption context and explicitly does not establish replacement or labor demand. The supplied annotation identifies no specific engineering workflow or operational control to connect to a practice card.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Maps adoption by tasks; tool usage does not directly imply task replacement or labor demand change."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W142",
+        "reason": "This alternative estimate concerns aggregate labor-market weakening and detection limits. It is relevant to the atlas's economic interpretation, but does not describe a software-practice mechanism or an accepted-change workflow outcome.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Alternative US estimation fails to identify significant net AI-driven labor weakening."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W143",
+        "reason": "Aggregate labor stability qualifies displacement narratives rather than an engineering practice decision. The record provides no concrete operational mechanism, and a broad employment trend should not be mapped as workflow measurement evidence.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Aggregate labor indicators remain more stable than narratives of immediate massive AI displacement."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W144",
+        "reason": "Changing skill demands and career-ladder requirements are workforce context in this annotation. No learning activity, mentoring mechanism or enablement intervention is described; vendor exposure proxies alone cannot substantiate an operational practice link.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Rapidly changing skill demands and experience requirements may reshape developer career ladders."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W216",
+        "reason": "Firm-boundary theory and occupational shares provide economic context about specialization. The annotation does not identify a concrete engineering practice or measured delivery-cost mechanism; mapping it to internal workflow controls would exceed its reported scope.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "An economic model explains how cheaper access to specialist knowledge can shift recurring work inside client firms while leaving rare problems with outside specialists."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W217",
+        "reason": "Industry-exposure associations with early-career hiring address labor-market context, not a specific engineering, mentoring or enablement intervention. Preserve the competing causal explanations without treating the employment estimate as an operational practice result.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Administrative employer–employee data associate high industry-level AI exposure with falling early-career hiring after ChatGPT’s release."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W218",
+        "reason": "The aggregate employment and productivity argument does not identify a particular practice or an accepted-change workflow comparison. It remains relevant economic context, but cannot substantiate a direct operational mapping or settle seniority-specific outcomes.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "An aggregate economic analysis contrasts rising US software-developer employment with improving productivity."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W219",
+        "reason": "Cross-occupation message classification concerns the mix of attempted work across one provider's users. The annotation supplies no specific software-practice mechanism, and message shares should not be repurposed as accepted-change measurement or learning outcomes.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "Message shares describe the changing mix of work users attempt; they are not measures of hours saved, jobs displaced or output quality."
+        },
+        "category": "non_operational_context"
+      },
+      {
+        "source": "W220",
+        "reason": "Conditional firm-organization equilibria are economic context rather than a tested task-orchestration or ownership mechanism. Mapping this model directly to agent fan-out or target leases would conflate organizational theory with the catalogue's operational controls.",
+        "basis": {
+          "field": "summary",
+          "excerpt": "A theoretical model studies how competence, coordination and reproducible AI expertise affect the composition and size of firms."
+        },
+        "category": "non_operational_context"
+      }
+    ],
+    "semantics": "Editorial classification, not evidence of effectiveness or a literal book citation."
   }
 }

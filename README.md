@@ -2,13 +2,13 @@
 
 An independent, source-traceable map of research and practitioner writing about AI-assisted software development, by **Enrico Papalini**. The graph and static catalogues connect publications, topics, engineering practices and book chapters while retaining their evidence limits.
 
-**[Open the published atlas](https://popoloni.github.io/swe_knowledge_graph.html)** · **[Local atlas](swe_knowledge_graph.html)** · **[Catalogues](catalogues/index.html)** · **[NDSE2 · published second edition](catalogues/ndse2.html)** · **[Downloads](downloads.html)** · **[Update notes](UPDATE_v13_4_20261106.html)**
+**[Open the published atlas](https://popoloni.github.io/swe_knowledge_graph.html)** · **[Local atlas](swe_knowledge_graph.html)** · **[Catalogues](catalogues/index.html)** · **[NDSE2 · published second edition](catalogues/ndse2.html)** · **[Downloads](downloads.html)** · **[Update notes](UPDATE_v13_5_20261107.html)**
 
 ## The starting collection
 
 The foundation is **[The SE & AI Annotated Bibliography](https://www.sepolimi.com/p/se-ai-annotated-bibliography)**, curated by **Alfonso Fuggetta, Damian Andrew Tamburri and Alessandro Margara**, **Software Engineering @ PoliMi**. Its original 8 October 2026 snapshot contains 193 works. The original classification and annotations are the curators’ contribution. This independent atlas and its editorial extensions do not imply institutional endorsement.
 
-The atlas opens with the current **229-record PoliMi collection**. Additional collections, context and relationship controls are available through the interface. Source IDs and established links remain stable. The [current release notes](UPDATE_v13_4_20261106.html) identify additions, corrections, publication status, and the depth of primary-source checks.
+The atlas opens with the current **229-record PoliMi collection**. Additional collections, context and relationship controls are available through the interface. Source IDs and established links remain stable. The [current release notes](UPDATE_v13_5_20261107.html) identify additions, corrections, publication status, and the depth of primary-source checks.
 
 ## Current catalogues
 
@@ -69,8 +69,10 @@ Use `python source/automation/atlas_cli.py` with the sequence **prepare → disc
 
 For a SEPolimi W-collection update, use the explicit reviewed migration described in [POLIMI_UPDATE.txt](source/automation/POLIMI_UPDATE.txt). It preserves the original W IDs and historical keyed edges while adding reviewed records and current classifications; routine O/P/F discovery does not update W records.
 
+Source-to-practice classifications use the separate edge-only review in [PRACTICE_LINKS_UPDATE.txt](source/automation/PRACTICE_LINKS_UPDATE.txt). Its retained-annotation evidence, rationale and review disposition are explicit for every source. [Explore the classification](catalogues/practice-map.html) or [download the relationships](data/practice_links.json). The relationships do not modify source text, practice guidance or manuscript citations.
+
 `check` performs independent structural verification, real-browser checks and repeatable rebuilds. `package` creates the full archive and a delta containing only file additions or overwrites, and proves that baseline plus delta equals the full package. Neither command publishes to GitHub. [Commands, dependencies and book-update steps](DEPLOYMENT.md).
 
-**Graph v13.4 · 2026-11-06**. **Website v13.4 · 2026-11-06**. The current graph contains **1,991 nodes**, **14,268 keyed relationships** and **310 relation types**. Retained earlier graph exports remain labelled as historical.
+**Graph v13.5 · 2026-11-07**. **Website v13.5 · 2026-11-07**. The current graph contains **1,991 nodes**, **14,960 keyed relationships** and **315 relation types**. Retained earlier graph exports remain labelled as historical.
 
 [Credits and boundaries](attribution.html) · [Validation report](verification/report.html)

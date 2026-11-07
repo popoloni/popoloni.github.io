@@ -2,10 +2,10 @@
   "schema_version": 1,
   "kind": "atlas_structural_validation",
   "complete": true,
-  "checked_at": "2026-11-06T22:54:21.089207+00:00",
-  "site_version": "13.4",
-  "graph_snapshot": "2026-11-06",
-  "passed": 237,
+  "checked_at": "2026-11-07T19:40:10.502722+00:00",
+  "site_version": "13.5",
+  "graph_snapshot": "2026-11-07",
+  "passed": 240,
   "failed": 0,
   "checks": [
     {
@@ -32,7 +32,7 @@
       "check": "Every baseline keyed edge remains byte-equivalent as the graph prefix",
       "passed": true,
       "detail": {
-        "baseline_edges": 13995
+        "baseline_edges": 14268
       }
     },
     {
@@ -61,7 +61,7 @@
       "passed": true,
       "detail": {
         "nodes": 1991,
-        "edges": 14268,
+        "edges": 14960,
         "errors": []
       }
     },
@@ -113,10 +113,6 @@
     },
     {
       "check": "Literal chapter citations remain in the broader mapped reading view",
-      "passed": true
-    },
-    {
-      "check": "Audited current citation-edge IDs resolve exactly",
       "passed": true
     },
     {
@@ -230,28 +226,7 @@
     {
       "check": "Declared new source IDs are unique and present",
       "passed": true,
-      "detail": [
-        "O052",
-        "O053",
-        "O054",
-        "O055",
-        "O056",
-        "O057",
-        "O058",
-        "O059",
-        "O060",
-        "O061",
-        "O062",
-        "P125",
-        "P126",
-        "P127",
-        "F036",
-        "F037",
-        "F038",
-        "F039",
-        "F040",
-        "F041"
-      ]
+      "detail": []
     },
     {
       "check": "New source URLs do not duplicate an existing catalogue record",
@@ -301,6 +276,14 @@
     },
     {
       "check": "Images have an alt attribute: UPDATE_v13_4_20261106.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: UPDATE_v13_5_20261107.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: UPDATE_v13_5_20261107.html",
       "passed": true
     },
     {
@@ -485,6 +468,14 @@
     },
     {
       "check": "Images have an alt attribute: catalogues/polimi.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: catalogues/practice-map.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: catalogues/practice-map.html",
       "passed": true
     },
     {
@@ -931,7 +922,7 @@
       "check": "All published HTML local links and anchors resolve",
       "passed": true,
       "detail": {
-        "checked": 21491,
+        "checked": 25691,
         "errors": []
       }
     },
@@ -1040,8 +1031,8 @@
   "artifact_scope": "All site file paths, SHA-256 and sizes except verification/, SHA256SUMS.txt and development caches.",
   "external_urls_live_checked": false,
   "graph_nodes": 1991,
-  "graph_edges": 14268,
-  "graph_relation_types": 310,
+  "graph_edges": 14960,
+  "graph_relation_types": 315,
   "source_counts": {
     "W": 229,
     "O": 62,
@@ -1051,31 +1042,10 @@
     "F": 41,
     "N": 13
   },
-  "html_pages_checked": 83,
-  "internal_links_checked": 21491,
+  "html_pages_checked": 85,
+  "internal_links_checked": 25691,
   "distinct_external_links": 463,
-  "new_source_ids": [
-    "O052",
-    "O053",
-    "O054",
-    "O055",
-    "O056",
-    "O057",
-    "O058",
-    "O059",
-    "O060",
-    "O061",
-    "O062",
-    "P125",
-    "P126",
-    "P127",
-    "F036",
-    "F037",
-    "F038",
-    "F039",
-    "F040",
-    "F041"
-  ],
-  "graph_html_sha256": "a40c4ae712233e86795c0e5a29fa2fb055cc0fc0fe22afe59dada8409ba9c678",
-  "artifact_sha256": "0aed15581b15ea4a92c7e7e236d0b66281cc03e17ee308dcacb753881f065912"
+  "new_source_ids": [],
+  "graph_html_sha256": "5f5b2898af962782b40662291010d11cf5374f6af90ea74c5624b769e39166a3",
+  "artifact_sha256": "c1f35d4f4d8420191066f863704e4b6f3be714cf9c782f7ace0ed8d1b853428c"
 }

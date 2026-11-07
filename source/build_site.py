@@ -7,6 +7,7 @@ import argparse, collections, csv, hashlib, html, io, json, os, re, shutil, unic
 from pathlib import Path
 from urllib.parse import quote, urlencode, urlsplit
 from build_ndse2_pages import BookCompanion, book_cover, publication_fields
+from practice_links_ui import PracticeLinksUI
 
 SOURCE=Path(__file__).resolve().parent
 ROOT=SOURCE.parent
@@ -39,6 +40,7 @@ NDSE2=BookCompanion(ROOT/BOOK_METADATA,required='N' in COLS,metadata_link=BOOK_M
  publication=PUBLICATIONS_BY_VOLUME.get('V06'))
 RELEASE_NOTES=C.get('release_notes','UPDATE_20261018.html')
 RESEARCH_AUDIT=C.get('research_audit','data/updates/source_review_20261018.json')
+SOURCE_REVIEW_DATE=C.get('practitioner_update',{}).get('date',C['graph_snapshot'])
 POLIMI_UPDATE=C.get('polimi_update',{})
 NAMES={n['id']:n['label'] for n in D['nodes']}
 NAMES.update({g['id']:g['label'] for k in ['themes','chapters','topics','volumes'] for g in D[k]})
@@ -46,6 +48,7 @@ ADJ=collections.defaultdict(list)
 for e in D['edges']:
  s=D['nodes'][e['source']]['id'];t=D['nodes'][e['target']]['id'];ADJ[s].append((t,e,'out'))
  if s!=t:ADJ[t].append((s,e,'in'))
+PRACTICE_LINKS=PracticeLinksUI(D,C)
 PAGES=[]
 def esc(x):return html.escape(str(x if x is not None else ''),quote=True)
 def slug(x):
@@ -97,18 +100,20 @@ def page(path,title,body,description='',active='Catalogues',wide=False):
  if 'N' in COLS:nav_items.append(('NDSE2',collection_file('N')))
  nav_items.extend([('About','about.html'),('Downloads','downloads.html')])
  nav=''.join(link(path,t,esc(l)) if active!=l else f'<a aria-current="page" href="{esc(rel(path,t))}">{esc(l)}</a>' for l,t in nav_items)
+ practice_css=('<link rel="stylesheet" href="'+esc(rel(path,'assets/practice-links.css'))+'">') if PRACTICE_LINKS.enabled else ''
  s=f'''<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><meta name="author" content="Enrico Papalini"><meta name="description" content="{esc(description)}"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:type" content="website"><title>{esc(title)} · Knowledge Atlas</title><link rel="stylesheet" href="{esc(rel(path,'assets/site.css'))}"><link rel="stylesheet" href="{esc(rel(path,'assets/books.css'))}"><script src="{esc(rel(path,'assets/catalogues.js'))}" defer></script></head>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><meta name="author" content="Enrico Papalini"><meta name="description" content="{esc(description)}"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:type" content="website"><title>{esc(title)} · Knowledge Atlas</title><link rel="stylesheet" href="{esc(rel(path,'assets/site.css'))}"><link rel="stylesheet" href="{esc(rel(path,'assets/books.css'))}">{practice_css}<script src="{esc(rel(path,'assets/catalogues.js'))}" defer></script></head>
 <body><a class="skip" href="#main">Skip to content</a><header class="site-head"><div class="nav">{link(path,'index.html',LOGO+'<span><small>AI & Software Engineering</small><strong>Knowledge Atlas</strong></span>','brand')}<nav class="nav-links" aria-label="Main navigation">{nav}</nav></div></header><main id="main" class="wrap {'wide' if wide else ''}">{body}</main><footer class="site-foot"><div class="foot-inner"><p>Independent atlas by Enrico Papalini · Site v{C['site_version']} · Graph snapshot {C['graph_snapshot']}<br>Source collections identify provenance, not evidence quality.</p><p>{link(path,'attribution.html','Credits &amp; evidence boundaries')} · {link(path,RELEASE_NOTES,'What changed')} · {link(path,'verification/report.html','Build checks')}</p></div></footer></body></html>'''
  p=ROOT/path;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(s,encoding='utf-8');PAGES.append(path)
 def heading(title,kicker='Static catalogues',description=''):
  return f'<p class="eyebrow">{esc(kicker)}</p><h1>{esc(title)}</h1>'+ (f'<p class="intro">{esc(description)}</p>' if description else '')
 def collection_nav(path,code=None):
  return '<nav class="collection-nav" aria-label="Atlas collections">'+''.join(f'<a href="{esc(rel(path,collection_file(c)))}"'+(' aria-current="page"' if c==code else '')+f'>{esc(c)} · {esc(v["short"])}</a>' for c,v in COLS.items())+'</nav>'
-def filter_bar(path,count,groups=None,field='streams',group_title='Stream'):
+def filter_bar(path,count,groups=None,field='streams',group_title='Stream',practice_mode=None):
  opts=''
  if groups:opts=f'<label>{esc(group_title)}<select name="group"><option value="">All</option>'+''.join(f'<option value="{esc(g["id"])}">{esc(g["label"])}</option>' for g in groups)+'</select></label>'
- return f'<form class="catalogue-toolbar" data-catalogue-filter data-group-field="{esc(field)}"><label class="search-field">Find a record<input type="search" name="q" placeholder="Search ID, title, author, summary or caveat" autocomplete="off"></label>{opts}<button type="button" data-clear>Clear filters</button></form><noscript><p class="caution">All entries are available below without JavaScript. Use your browser’s Find command to search.</p></noscript><p id="resultCount" class="result-count" role="status" aria-live="polite">{count:,} records shown</p><div id="emptyState" class="empty-state" hidden>No matching records. Clear the search or choose another group.</div>'
+ extra=PRACTICE_LINKS.filter_options(practice_mode) if practice_mode else ''
+ return f'<form class="catalogue-toolbar" data-catalogue-filter data-group-field="{esc(field)}"><label class="search-field">Find a record<input type="search" name="q" placeholder="Search ID, title, author, summary or caveat" autocomplete="off"></label>{opts}{extra}<button type="button" data-clear>Clear filters</button></form><noscript><p class="caution">All entries are available below without JavaScript. Use your browser’s Find command to search.</p></noscript><p id="resultCount" class="result-count" role="status" aria-live="polite">{count:,} records shown</p><div id="emptyState" class="empty-state" hidden>No matching records. Clear the search or choose another group.</div>'
 def fmt_meta(a,keys):
  vals=[]
  for key,title in keys:
@@ -122,6 +127,7 @@ def record(n,path):
  c=n.get('collection');a=n.get('attributes',{});col=COLS.get(c,{})
  tone=f'var(--{c.lower()})' if c in COLS else 'var(--accent)'
  dat=' '.join(f'data-{key}=\'{esc(json.dumps(n.get(key,[]),ensure_ascii=False))}\'' for key in ['streams','topics','volumes','mapped','actual'])
+ dat+=PRACTICE_LINKS.attributes(n)
  # Collection data are displayed as recorded. Never promote an inferred outcome or fill in a missing author.
  byline=n.get('authors') or a.get('authors') or a.get('author') or ''
  date=n.get('year') or a.get('publication_date') or a.get('year') or ''
@@ -178,7 +184,7 @@ def record(n,path):
   more+='<div class="mapping"><h3>Cited in published NDSE2 chapters</h3>'+ ('<br>'.join(named_group_link(path,x,'chapters') for x in actual) if actual else '<span class="muted">No literal chapter citation recorded in the published edition.</span>')
   more+='<h3>Editorial chapter mappings</h3>'+ ('<br>'.join(named_group_link(path,x,'chapters') for x in mapped) if mapped else '<span class="muted">None recorded.</span>')+'<p class="micro">Editorial reading suggestions can extend beyond the published citations. Chapter guides show the outline and traceable source references.</p></div>'
  if n.get('topics'):more+='<p><strong>Topics.</strong> '+' · '.join(named_group_link(path,g,'topics') for g in n['topics'])+'</p>'
- source_conn=[(BY[other],e,direction) for other,e,direction in ADJ[n['id']] if BY[other].get('collection') in COLS or (n['kind']=='practice_occurrence' and BY[other]['kind']=='practice_descriptor')]
+ source_conn=[(BY[other],e,direction) for other,e,direction in ADJ[n['id']] if e.get('family')!='practice' and (BY[other].get('collection') in COLS or (n['kind']=='practice_occurrence' and BY[other]['kind']=='practice_descriptor'))]
  if source_conn:
   more+=f'<details><summary>{len(source_conn)} recorded source relationships</summary><ul class="compact-list">'
   for other,e,direction in source_conn:
@@ -194,7 +200,8 @@ def record(n,path):
  elif n['kind']=='practice_occurrence':args={'collection':'PAT','context':'practices','grouping':'family',**args}
  actions.append(link(path,atlasurl(**args),'View in atlas →'))
  actions.append(link(path,record_file(n),'Permanent entry link'))
- return f'<article class="record" id="{esc(n["id"])}" data-record {dat} style="--tone:{tone}">{top}<details><summary>Evidence, context &amp; provenance</summary>{more}</details><div class="record-links">'+''.join(actions)+'</div></article>'
+ practice_section=PRACTICE_LINKS.source_section(n,path,link,record_file)
+ return f'<article class="record" id="{esc(n["id"])}" data-record {dat} style="--tone:{tone}">{top}{practice_section}<details><summary>Evidence, context &amp; provenance</summary>{more}</details><div class="record-links">'+''.join(actions)+'</div></article>'
 def parsejson(x):
  try:return json.loads(x) if isinstance(x,str) else x
  except:return []
@@ -217,6 +224,7 @@ def practice_record(n,path):
  family_name=a.get('family_name') or family_node.get('label') or family
  dat=' '.join(f'data-{key}=\'{esc(json.dumps(n.get(key,[]),ensure_ascii=False))}\'' for key in ['streams','topics','volumes','mapped','actual'])
  dat+=f' data-families=\'{esc(json.dumps([family] if family else []))}\''
+ dat+=PRACTICE_LINKS.attributes(n)
  top=f'<div class="record-top"><span class="code">{esc(n["id"])}</span><span class="pill">PAT · Practices</span><span class="pill">English guidance</span></div>'
  top+=f'<h2><a href="#{quote(n["id"],safe="")}">{esc(n["label"])}</a></h2>'
  top+=f'<p class="practice-family"><strong>Family.</strong> '+link(path,'catalogues/practices.html#family-'+family.split(':')[-1],esc(family_name))+'</p>'
@@ -255,8 +263,10 @@ def practice_record(n,path):
  if n.get('topics'):provenance+='<p><strong>Topics.</strong> '+' · '.join(named_group_link(path,g,'topics') for g in n['topics'])+'</p>'
  if a.get('historical_structural_chapters'):provenance+='<p><strong>Historical catalogue locators.</strong> '+esc(', '.join(a['historical_structural_chapters']))+'<br><span class="micro">Retained structural IDs from the earlier catalogue; these are not literal citations in the current NDSE2 edition.</span></p>'
  provenance+='<details><summary>Complete graph attributes and retained history</summary><pre>'+esc(json.dumps(a,ensure_ascii=False,indent=2))+'</pre></details>'
- actions=link(path,atlasurl(collection='PAT',grouping='family',node=n['id']),'View in atlas →')+link(path,record_file(n),'Permanent entry link')
- return f'<article class="record practice-record" id="{esc(n["id"])}" data-record {dat} style="--tone:var(--pat)">{top}{operational}{limit}<details class="practice-provenance"><summary>Sources, scope and historical provenance</summary>{provenance}</details><div class="record-links">{actions}</div></article>'
+ graph_link=atlasurl(practice=n['id']) if PRACTICE_LINKS.enabled else atlasurl(collection='PAT',grouping='family',node=n['id'])
+ actions=link(path,graph_link,'View practice and sources in atlas →' if PRACTICE_LINKS.enabled else 'View in atlas →')+link(path,record_file(n),'Permanent entry link')
+ source_section=PRACTICE_LINKS.practice_section(n,path,link,record_file)
+ return f'<article class="record practice-record" id="{esc(n["id"])}" data-record {dat} style="--tone:var(--pat)">{top}{source_section}{operational}{limit}<details class="practice-provenance"><summary>Sources, scope and historical provenance</summary>{provenance}</details><div class="record-links">{actions}</div></article>'
 
 def practice_family_overview(path):
  out=f'<details class="practice-family-overview"><summary><h2 id="practice-families-heading">Explore {len(FAMILIES)} practice families</h2></summary><p class="note">Choose a family to focus the catalogue, then open a practice for its procedure, example and checks. All entries remain readable without JavaScript.</p><div class="practice-family-grid">'
@@ -276,16 +286,29 @@ def build_practice_catalogue():
  body='<div class="crumbs">'+link(path,'index.html','Home')+' / '+link(path,'catalogues/index.html','Catalogues')+' / Practices</div>'
  body+=heading(title,f'PAT collection · {len(PRACTICES)} practices · {len(FAMILIES)} families',desc)+collection_nav(path,'PAT')
  body+='<p class="note">Each practice is an editorial engineering guide. Select a technique that addresses an observed need, adapt it to the available authority and environment, and use its verification criteria to judge the local result. Related techniques and repeated historical occurrences do not establish independent evidence of effectiveness.</p>'
- body+='<div class="actions">'+link(path,atlasurl(collection='PAT',grouping='family'),'Explore the Practices collection','button primary')+link(path,'data/catalogues/practices.json','Complete JSON catalogue','button')+link(path,'data/catalogues/practices.csv','Detailed CSV catalogue','button')+link(path,'catalogues/occurrences.html','Historical occurrences','button')+'</div>'
+ graph_link=atlasurl(practice='all') if PRACTICE_LINKS.enabled else atlasurl(collection='PAT',grouping='family')
+ body+='<div class="actions">'+link(path,graph_link,'Explore practice connections' if PRACTICE_LINKS.enabled else 'Explore the Practices collection','button primary')+link(path,'data/catalogues/practices.json','Complete JSON catalogue','button')+link(path,'data/catalogues/practices.csv','Detailed CSV catalogue','button')+link(path,'catalogues/occurrences.html','Historical occurrences','button')+'</div>'
+ body+=PRACTICE_LINKS.coverage_section(path,link)
  body+=practice_family_overview(path)
- body+='<section id="practice-catalogue-records" aria-label="Practice guides">'+filter_bar(path,len(PRACTICES),FAMILIES,'families','Practice family')+'<div class="records">'+''.join(practice_record(n,path) for n in PRACTICES)+'</div></section>'
+ body+='<section id="practice-catalogue-records" aria-label="Practice guides">'+filter_bar(path,len(PRACTICES),FAMILIES,'families','Practice family',practice_mode='practice')+'<div class="records">'+''.join(practice_record(n,path) for n in PRACTICES)+'</div></section>'
  page(path,title,body,desc)
+
+def build_practice_map():
+ if not PRACTICE_LINKS.enabled:return
+ path='catalogues/practice-map.html'
+ body='<div class="crumbs">'+link(path,'index.html','Home')+' / '+link(path,'catalogues/practices.html','Practices')+' / Corpus classification</div>'
+ body+=heading('Source-to-practice classification','Reviewed reading map','Every source record has a review disposition. Inspect its main practice, additional associations, rationales, or the reason it remains outside the operational-practice scope.')
+ body+=PRACTICE_LINKS.coverage_section(path,link)
+ body+=filter_bar(path,len(CITABLE_RECORDS),practice_mode='coverage')+PRACTICE_LINKS.coverage_records(path,link,record_file)
+ page(path,'Source-to-practice classification',body,'Reviewed source-to-practice relationships and explicit scope decisions for the complete Atlas corpus.')
 def write_dataset(name,records):
  obj={'meta':{'source':ATLAS_SOURCE.name,'snapshot':C['graph_snapshot'],'site_version':C['site_version'],'count':len(records),'note':'Materialized view of the current audited graph; complete node fields retained. Source inspection and publication status are recorded per item. The builder performs no new empirical validation.'},'records':records}
+ if PRACTICE_LINKS.enabled:obj['practice_relationships']=PRACTICE_LINKS.export_relationships(records)
  p=ROOT/f'data/catalogues/{name}.json';p.write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
  keys=['id','title','authors_as_recorded','date_as_recorded','collection','kind','summary','limitation','recorded_url','streams','topics','actual_chapter_citations','editorial_chapter_mappings','source_path','source_sha256','title_it','publication_date','updated_date','publication_status','parent_volume']
  practice_keys=['practice_family','practice_family_name','practice_language','purpose','when_to_use','when_not_to_use','prerequisites','steps','example','verification','outputs','risks','related_practices','editorial_note','chapter_references','historical_structural_chapters']
  if any(n['kind']=='practice_descriptor' for n in records):keys+=practice_keys
+ if PRACTICE_LINKS.enabled:keys+=['practice_ids','practice_source_ids','practice_relation_types','practice_review_status']
  with (ROOT/f'data/catalogues/{name}.csv').open('w',encoding='utf-8-sig',newline='') as f:
   w=csv.DictWriter(f,fieldnames=keys);w.writeheader()
   for n in records:
@@ -298,6 +321,7 @@ def write_dataset(name,records):
      row[key]='\n'.join(f'{i+1}. {v}' for i,v in enumerate(value)) if isinstance(value,list) else value
     row['chapter_references']='\n'.join(' · '.join(str(ref.get(k,'')) for k in ['id','title','role']) for ref in practice.get('chapter_references',[]))
     row['historical_structural_chapters']='; '.join(a.get('historical_structural_chapters',[]))
+   if PRACTICE_LINKS.enabled:row.update(PRACTICE_LINKS.csv_fields(n))
    # Protect spreadsheet users against formula interpretation; JSON is byte-faithful semantically.
    for k,v in row.items():
     if isinstance(v,str) and v.startswith(('=','+','-','@','\t','\r')):row[k]="'"+v
@@ -313,7 +337,10 @@ def ack(path):
   current=f'<p><strong>November research update:</strong> {COUNTS["W"]} W records, including {len(POLIMI_UPDATE.get("added_ids",[]))} additions and {len(POLIMI_UPDATE.get("revised_ids",[]))} revised records. '+link(path,POLIMI_UPDATE.get('release_notes',RELEASE_NOTES),'Read the SEPolimi update and source-check scope')+'. New annotations are written from the primary sources; source access and evidence limits remain explicit.</p>'
  if C.get('practitioner_update'):
   update=C['practitioner_update']
-  current+='<p><strong>Practitioner source review:</strong> Osmani, The Pragmatic Engineer and Martin Fowler’s website checked through '+esc(update['date'])+'. '+link(path,RELEASE_NOTES,'Read the new articles, review decisions and access limits')+'.</p>'
+  current+='<p><strong>Practitioner source review:</strong> Osmani, The Pragmatic Engineer and Martin Fowler’s website checked through '+esc(update['date'])+'. '+link(path,update.get('release_notes',RELEASE_NOTES),'Read the new articles, review decisions and access limits')+'.</p>'
+ if PRACTICE_LINKS.enabled:
+  coverage=PRACTICE_LINKS.coverage()
+  current+='<p><strong>Practice connections:</strong> '+str(coverage['mapped_source_count'])+' source records have reviewed links to '+str(coverage['linked_practice_count'])+' practices. '+link(path,'catalogues/practices.html','Explore practices and their sources')+' · '+link(path,'catalogues/practice-map.html','Inspect the full classification and scope decisions')+'.</p>'
  return '<aside class="ack"><p><strong>Built on the work of Software Engineering @ PoliMi.</strong> The starting bibliography was curated by <strong>Alfonso Fuggetta, Damian Andrew Tamburri and Alessandro Margara</strong>: 193 works across nine streams in the 8 October 2026 snapshot. The collection, original classification and annotations are their contribution; the independent atlas and editorial extensions are Enrico Papalini’s.</p>'+current+'<p>'+link(path,'https://www.sepolimi.com/p/se-ai-annotated-bibliography','Read the original bibliography ↗',external=True)+' · '+link(path,'attribution.html','Full credits and evidence boundaries')+'</p></aside>'
 def grouped_sources(path,records,kind=None):
  by=collections.defaultdict(list)
@@ -536,7 +563,7 @@ def build_attribution():
  path='attribution.html'
  f_printed=sum(bool(n.get('printed')) for n in SOURCES if n.get('collection')=='F')
  body=heading('Credits & provenance','Attribution is part of the model','The starting bibliography, source authors, editorial additions and evidence boundaries.')
- body+=f"""<div class="prose"><h2>The starting collection: Software Engineering @ PoliMi</h2><p><em>The SE &amp; AI Annotated Bibliography</em> was curated by <strong>Alfonso Fuggetta, Damian Andrew Tamburri and Alessandro Margara</strong>, Software Engineering @ PoliMi. The retained original snapshot contains 193 works, dated 8 October 2026 and published on 9 October. Credit for the original collection, classification and annotations belongs to the curators.</p><p><a href="https://www.sepolimi.com/p/se-ai-annotated-bibliography" target="_blank" rel="noopener noreferrer">Original annotated bibliography ↗</a></p><h2>Independent editorial additions</h2><p>Enrico Papalini developed the graph, interface, independent summaries, cross-source comparisons, practice genealogy and book mappings with AI assistance. These are separate from the curators’ original work. No endorsement by Polimi, the source authors or their institutions is implied.</p><h2>Practitioner collections</h2><p>The Osmani collection credits Addy Osmani. The Pragmatic Engineer collection preserves named authors, interview participants and guest contributors. Publisher affiliation is not a substitute for an article byline.</p><p>The Fowler website collection contains {COUNTS['F']} records. It preserves the original <a href="https://martinfowler.com/articles/exploring-gen-ai.html" target="_blank" rel="noopener noreferrer">Exploring Generative AI</a> series and explicitly labels the adjacent website articles added in this refresh. Individual bylines remain attached to each article; Birgitta Böckeler’s contribution as writer and editor is acknowledged. Hosting on martinfowler.com does not establish Martin Fowler authorship or Thoughtworks endorsement.</p><h2>Books and published citations</h2><p>The {COUNTS['B']} B records describe chapters and informative files in {len(EARLIER_VOLUMES)} earlier books. The {COUNTS['N']} N records describe the published second edition of <em>Non-Deterministic Software Engineering</em>. Its guides trace literal citations in the English and Italian chapter sources separately from general bibliography membership and the identifier index. {f_printed} Fowler records occur in the published bibliography; newly suggested reading is labelled according to its actual status.</p><p>The {len(PRACTICES)} practice descriptors and {len(OCCURRENCES)} historical occurrences record conceptual genealogy. Repeated discussion of an idea is not independent empirical support.</p><h2>Evidence and access boundaries</h2><p>This release combines the retained historical graph with the documented {esc(C['graph_snapshot'])} source refresh and the published-book citation extraction. Inspection scope and access limitations are recorded per source. The builder reproduces those audited records; it does not execute studies, replicate statistical analyses or perform a production pilot. W records can contain lead-author-only metadata; consult the original publication for full bibliographic details.</p><p>The current graph contains {len(D['nodes']):,} nodes, {len(D['edges']):,} keyed relationships and {len(D['relations']):,} relation types. Historical IDs and the original PoliMi starting collection remain available. Literal source citations, source-published links and editorial mappings have distinct meanings.</p><p>"""
+ body+=f"""<div class="prose"><h2>The starting collection: Software Engineering @ PoliMi</h2><p><em>The SE &amp; AI Annotated Bibliography</em> was curated by <strong>Alfonso Fuggetta, Damian Andrew Tamburri and Alessandro Margara</strong>, Software Engineering @ PoliMi. The retained original snapshot contains 193 works, dated 8 October 2026 and published on 9 October. Credit for the original collection, classification and annotations belongs to the curators.</p><p><a href="https://www.sepolimi.com/p/se-ai-annotated-bibliography" target="_blank" rel="noopener noreferrer">Original annotated bibliography ↗</a></p><h2>Independent editorial additions</h2><p>Enrico Papalini developed the graph, interface, independent summaries, cross-source comparisons, practice genealogy and book mappings with AI assistance. These are separate from the curators’ original work. No endorsement by Polimi, the source authors or their institutions is implied.</p><h2>Practitioner collections</h2><p>The Osmani collection credits Addy Osmani. The Pragmatic Engineer collection preserves named authors, interview participants and guest contributors. Publisher affiliation is not a substitute for an article byline.</p><p>The Fowler website collection contains {COUNTS['F']} records. It preserves the original <a href="https://martinfowler.com/articles/exploring-gen-ai.html" target="_blank" rel="noopener noreferrer">Exploring Generative AI</a> series and explicitly labels the adjacent website articles added in this refresh. Individual bylines remain attached to each article; Birgitta Böckeler’s contribution as writer and editor is acknowledged. Hosting on martinfowler.com does not establish Martin Fowler authorship or Thoughtworks endorsement.</p><h2>Books and published citations</h2><p>The {COUNTS['B']} B records describe chapters and informative files in {len(EARLIER_VOLUMES)} earlier books. The {COUNTS['N']} N records describe the published second edition of <em>Non-Deterministic Software Engineering</em>. Its guides trace literal citations in the English and Italian chapter sources separately from general bibliography membership and the identifier index. {f_printed} Fowler records occur in the published bibliography; newly suggested reading is labelled according to its actual status.</p><p>The {len(PRACTICES)} practice descriptors and {len(OCCURRENCES)} historical occurrences record conceptual genealogy. Repeated discussion of an idea is not independent empirical support.</p><h2>Evidence and access boundaries</h2><p>This release combines the retained historical graph with the documented {esc(SOURCE_REVIEW_DATE)} source refresh and the published-book citation extraction. Inspection scope and access limitations are recorded per source. The builder reproduces those audited records; it does not execute studies, replicate statistical analyses or perform a production pilot. W records can contain lead-author-only metadata; consult the original publication for full bibliographic details.</p><p>The current graph contains {len(D['nodes']):,} nodes, {len(D['edges']):,} keyed relationships and {len(D['relations']):,} relation types. Historical IDs and the original PoliMi starting collection remain available. Literal source citations, source-published links and editorial mappings have distinct meanings.</p><p>"""
  body+=link(path,RESEARCH_AUDIT,'Read the source-review audit')+' · '+link(path,RELEASE_NOTES,'Read the update notes')+'</p>'
  body+='<h2>Rights and redistribution</h2><p>The inherited attribution record notes the SE@PoliMi publication’s stated CC BY-NC-ND 4.0 terms unless otherwise noted. Third-party works retain their own terms. This package contains metadata, concise paraphrases, chapter guides and provenance records. It grants no new rights to full articles, subscriber material, figures or datasets.</p><p>No blanket licence is assigned to every source in the atlas. The author photograph is supplied for this project. Complete third-party articles and complete book manuscripts are not distributed in the website package.</p></div>'
  page(path,'Credits, provenance and evidence boundaries',body,'Credits to the original curators and source authors, with evidence and access boundaries.')
@@ -548,7 +575,7 @@ The original collection, classification and annotations belong to the curators. 
 
 Addy Osmani and all credited contributors to The Pragmatic Engineer retain their individual authorship. The Fowler website collection preserves article bylines and Birgitta Böckeler’s editorial contribution to [Exploring Generative AI](https://martinfowler.com/articles/exploring-gen-ai.html). Adjacent website articles added in this refresh are explicitly labelled.
 
-The current release combines the historical graph with the documented {C['graph_snapshot']} source refresh and published NDSE2 citation extraction. Source inspection does not amount to causal validation or independent replication. The {COUNTS['N']} N records are published-book chapter guides, not independent research studies. The {COUNTS['B']} B records preserve earlier-book genealogy.
+The current release combines the historical graph with the documented {SOURCE_REVIEW_DATE} source refresh and published NDSE2 citation extraction. Source inspection does not amount to causal validation or independent replication. The {COUNTS['N']} N records are published-book chapter guides, not independent research studies. The {COUNTS['B']} B records preserve earlier-book genealogy.
 
 The inherited rights notice records SE@PoliMi’s stated CC BY-NC-ND 4.0 terms unless otherwise noted. No blanket licence for third-party content is granted. Full external manuscripts, subscriber article bodies and complete book texts are not bundled. See [the full notice](attribution.html), [source-review audit]({RESEARCH_AUDIT}) and [update notes]({RELEASE_NOTES}).
 """
@@ -567,6 +594,8 @@ def build_downloads():
  body+='<div class="table-wrap"><table><caption>Current catalogue exports</caption><thead><tr><th scope="col">Catalogue</th><th scope="col">Complete records</th><th scope="col">Tabular export</th></tr></thead><tbody>'+rows+'</tbody></table></div>'
  body+='<section class="section"><h2>The current complete graph</h2><div class="actions">'+link(path,GRAPH_GRAPHML,'Current GraphML','button')+link(path,GRAPH_JSON,'Current graph JSON','button')+link(path,'data/catalogue-data.zip','All current catalogue data (ZIP)','button primary')+'</div>'
  body+=f'<p class="note">Graph v{esc(C["graph_version"])} · {esc(C["graph_snapshot"])} · {len(D["nodes"]):,} nodes · {len(D["edges"]):,} keyed relationships · {len(D["relations"]):,} relation types.</p></section>'
+ if PRACTICE_LINKS.enabled:
+  body+='<section class="section"><h2>Reviewed source-to-practice relationships</h2><p>These exports retain every relationship rationale, primary reading classification and explicit scope decision. They are an editorial reading layer, not new manuscript citations or independent evidence of practice effectiveness.</p><div class="actions">'+link(path,'data/practice_links.json','Relationship data and rationales','button')+link(path,'data/practice_coverage.json','Coverage and scope decisions','button')+link(path,'catalogues/practice-map.html','Read the complete classification','button primary')+'</div></section>'
  body+='<section class="section"><h2>Published NDSE2 evidence and this update</h2><ul class="compact-list">'
  for target,label in [(BOOK_METADATA,'Edition metadata, chapter structure and citation provenance'),(RESEARCH_AUDIT,'Source-review audit'),(RELEASE_NOTES,'What changed in this release')]:
   body+='<li>'+link(path,target,label)+'</li>'
@@ -660,6 +689,8 @@ No server application, API key, framework or CDN is required. See [DEPLOYMENT.md
 Use `python source/automation/atlas_cli.py` with the sequence **prepare → discover → build → check → package** for routine O/P/F source updates. `prepare` requires the exact full ZIP confirmed as the currently published site and freezes its SHA-256. Complete the generated `review.json` after checking discovered source candidates, then build from those reviewed inputs. Book metadata remains unchanged unless a reviewed manuscript revision is supplied explicitly.
 
 For a SEPolimi W-collection update, use the explicit reviewed migration described in [POLIMI_UPDATE.txt](source/automation/POLIMI_UPDATE.txt). It preserves the original W IDs and historical keyed edges while adding reviewed records and current classifications; routine O/P/F discovery does not update W records.
+
+Source-to-practice classifications use the separate edge-only review in [PRACTICE_LINKS_UPDATE.txt](source/automation/PRACTICE_LINKS_UPDATE.txt). Its retained-annotation evidence, rationale and review disposition are explicit for every source. [Explore the classification](catalogues/practice-map.html) or [download the relationships](data/practice_links.json). The relationships do not modify source text, practice guidance or manuscript citations.
 
 `check` performs independent structural verification, real-browser checks and repeatable rebuilds. `package` creates the full archive and a delta containing only file additions or overwrites, and proves that baseline plus delta equals the full package. Neither command publishes to GitHub. [Commands, dependencies and book-update steps](DEPLOYMENT.md).
 
@@ -775,6 +806,7 @@ def build():
   modified=modified.replace('<div class="top-actions">','<div class="top-actions">'+nav,1)
  (ROOT/'swe_knowledge_graph.html').write_text(modified,encoding='utf-8')
  (ROOT/'data/catalogues').mkdir(parents=True,exist_ok=True)
+ PRACTICE_LINKS.write_outputs(ROOT)
  for code,c in COLS.items():write_dataset(c['slug'],[n for n in SOURCES if n['collection']==code])
  for name,records in [('all-sources',CITABLE_RECORDS),('practices',PRACTICES),('occurrences',OCCURRENCES),('practice-families',FAMILIES),('published-books',BOOKS)]:
   write_dataset(name,records)
@@ -793,9 +825,10 @@ def build():
   if code=='B':body+=series_presentation(path)+book_picker(path)
   body+='<div class="actions">'+link(path,atlasurl(collection=code),'Explore this collection in the atlas','button primary')+link(path,f'data/catalogues/{c["slug"]}.json','JSON catalogue','button')+link(path,f'data/catalogues/{c["slug"]}.csv','CSV catalogue','button')+'</div>'
   if code=='B':body+='<p>'+link(path,'catalogues/volumes.html',f'Browse {len(EARLIER_VOLUMES)} earlier volumes and the published NDSE2 edition →')+'</p>'
-  body+=filter_bar(path,len(records),D['themes'])+'<div class="records"'+(' id="chapter-guides"' if code=='N' else '')+'>'+''.join(record(n,path) for n in records)+'</div>'
+  body+=filter_bar(path,len(records),D['themes'],practice_mode='source')+'<div class="records"'+(' id="chapter-guides"' if code=='N' else '')+'>'+''.join(record(n,path) for n in records)+'</div>'
   page(path,c['title'],body,c['description'],active='NDSE2' if code=='N' else 'Catalogues')
  build_practice_catalogue()
+ build_practice_map()
  for name,title,records,desc in [
   ('occurrences','Historical practice occurrences',OCCURRENCES,f'{len(OCCURRENCES)} source occurrences across {len(EARLIER_VOLUMES)} earlier volumes. These trace where practices were discussed.')]:
   path=f'catalogues/{name}.html'
@@ -810,7 +843,8 @@ def build():
  write_readme_and_deployment()
  date=tuple(int(part) for part in C['build_date'][:10].split('-'))+(0,0,0)
  with zipfile.ZipFile(ROOT/'data/catalogue-data.zip','w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as archive:
-  for item in sorted(list((ROOT/'data/catalogues').glob('*'))+list((ROOT/'data/originals').glob('*'))):
+  extra_data=[ROOT/'data/practice_links.json',ROOT/'data/practice_coverage.json'] if PRACTICE_LINKS.enabled else []
+  for item in sorted(list((ROOT/'data/catalogues').glob('*'))+list((ROOT/'data/originals').glob('*'))+extra_data):
    if not item.is_file():continue
    info=zipfile.ZipInfo(item.relative_to(ROOT/'data').as_posix(),date_time=date)
    info.compress_type=zipfile.ZIP_DEFLATED;info.external_attr=0o644<<16

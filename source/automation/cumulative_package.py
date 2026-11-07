@@ -74,9 +74,13 @@ def inventory_delta(baseline, current):
     return changed, added, unchanged
 
 
-def preserved_content(baseline, current, old_files, new_files):
+def preserved_content(baseline, current, old_files, new_files, expected_practice_graph=None):
     """Permit reviewed source edits while retaining original book/practice data."""
     old_nodes, new_nodes = baseline["nodes"], current["nodes"]
+    if expected_practice_graph is not None:
+        require(current == expected_practice_graph,
+                "Packaged practice graph differs from the independently replayed frozen review")
+        require(old_nodes == new_nodes, "Practice relationship update changed an original node")
     require([n["id"] for n in new_nodes[:len(old_nodes)]] == [n["id"] for n in old_nodes],
             "Published node IDs must remain the original ordered prefix")
     require(current["edges"][:len(baseline["edges"])] == baseline["edges"],
@@ -101,7 +105,16 @@ def preserved_content(baseline, current, old_files, new_files):
         new = current["meta"] if section is None else current["meta"].get(section, {})
         def book_meta(value):
             return {k: v for k, v in value.items() if "book" in k.lower() or "practice" in k.lower()}
-        require(book_meta(old) == book_meta(new), "Original book/practice graph metadata changed")
+        original_metadata, current_metadata = book_meta(old), book_meta(new)
+        if expected_practice_graph is None:
+            require(original_metadata == current_metadata, "Original book/practice graph metadata changed")
+        else:
+            # The explicit edge-only adapter adds classification metadata. Its
+            # complete graph was replayed above; every pre-existing book and
+            # practice metadata key must still have its original value.
+            require(all(k in current_metadata and current_metadata[k] == value
+                        for k, value in original_metadata.items()),
+                    "Original book/practice graph metadata changed")
     frozen = []
     for name in FROZEN_CONTENT_FILES:
         if name in old_files:
@@ -111,7 +124,9 @@ def preserved_content(baseline, current, old_files, new_files):
             "original_node_count": len(old_nodes), "original_edge_count": len(baseline["edges"]),
             "book_practice_and_context_nodes_unchanged": protected_nodes,
             "original_citation_fields_unchanged": True,
-            "book_practice_metadata_unchanged": True, "frozen_content_files": frozen}
+            "book_practice_metadata_unchanged": True, "frozen_content_files": frozen,
+            "all_original_nodes_unchanged": old_nodes == new_nodes,
+            "reviewed_practice_graph_replayed_exactly": expected_practice_graph is not None}
 
 
 def verified_stage(run):
@@ -197,7 +212,22 @@ def cumulative_package(args):
         require(full_files == files(root / "candidate"), "Stage full ZIP does not contain the exact verified candidate bytes")
         require(len(full_files) == stage_manifest["full"]["files"], "Stage full file count differs from its manifest")
         changed, added, unchanged = inventory_delta(baseline_files, full_files)
-        preservation = preserved_content(graph_at(published), graph_at(complete), baseline_files, full_files)
+        published_graph, complete_graph = graph_at(published), graph_at(complete)
+        frozen_review = load(root / "inputs/review.json")
+        expected_practice_graph = None
+        if frozen_review.get("kind") == "atlas_practice_links_update/1":
+            from practice_links_update import apply_links
+            from atlas_graph import export_raw, write_graphml
+            expected_practice_graph, _ = apply_links(published_graph, frozen_review, state)
+            graph_path = load(complete / "source/site_config.json")["graph_graphml"]
+            expected_practice_graph["meta"]["graphFile"] = Path(graph_path).name
+            replayed_graphml = work / "review-replayed.graphml"
+            write_graphml(export_raw(expected_practice_graph), replayed_graphml)
+            require(sha(replayed_graphml) == sha(complete / graph_path),
+                    "Packaged GraphML differs from the independently replayed frozen review")
+            expected_practice_graph["meta"]["graphSha256"] = sha(replayed_graphml)
+        preservation = preserved_content(published_graph, complete_graph, baseline_files, full_files,
+                                         expected_practice_graph=expected_practice_graph)
         published_release = release_value(load(published / "source/site_config.json")["site_version"])
         release = release_value(state["release"])
         prefix = "Knowledge_Atlas_v" + release.replace(".", "_")
@@ -272,11 +302,32 @@ def cumulative_package(args):
                 f"Published baseline: v{published_release}\nCommit: {commit}\nArchive SHA-256: {expected_sha}\n\n"
                 f"Full site: {full_name}\nFull SHA-256: {manifest['full']['sha256']}\n"
                 f"Cumulative delta: {delta_name}\nDelta SHA-256: {manifest['delta']['sha256']}\n\n"
-                f"Overlay the extracted delta onto the published site directory containing index.html. Preserve paths.\n"
-                f"Overwrite {len(changed)} files and add {len(added)} files. No deletions are required.\n"
+                "RECOMMENDED UPDATE: MERGE THE DELTA INTO YOUR EXISTING CHECKOUT\n\n"
+                "Only the delta ZIP is required. It contains partial directories.\n"
+                "Merge individual files into existing folders; do not replace whole assets/, data/ or source/ folders.\n\n"
+                "1. Download the current delta ZIP again if you saved an earlier draft.\n"
+                f"   Open Terminal in your clean v{published_release} checkout containing index.html:\n\n"
+                '   cd "/path/to/popoloni.github.io"\n'
+                "   git status --short\n"
+                "   git log -1 --oneline\n\n"
+                f"   Expected starting commit: {commit}. Retain local edits before overwriting files.\n\n"
+                "2. Check that you have the current ZIP, using its actual downloaded filename:\n\n"
+                f'   shasum -a 256 "$HOME/Downloads/{delta_name}"\n\n'
+                f"   Expected SHA-256: {manifest['delta']['sha256']}\n\n"
+                "3. From the same repository root, merge the delta file by file:\n\n"
+                f'   unzip -o "$HOME/Downloads/{delta_name}" -d .\n'
+                "   shasum -a 256 -c SHA256SUMS.txt\n\n"
+                f"   This overwrites {len(changed)} files and adds {len(added)} files. No deletions are required.\n"
+                f"   Expect {len(full_files)-1} checksum results marked OK. Do not publish if any file fails or is missing.\n\n"
+                "4. Preview the already generated website:\n\n"
+                "   python3 -m http.server 8000\n\n"
+                "   Open http://localhost:8000/catalogues/practices.html\n"
+                "   Also inspect catalogues/practice-map.html and swe_knowledge_graph.html?practice=all.\n"
+                "   Stop the preview with Control-C. No application build or dependency installation is required.\n\n"
+                "5. Review the Git diff, commit and publish through your existing GitHub Pages workflow.\n"
+                "   Unzipping and previewing do not publish the website. Nothing has been deployed by this work.\n\n"
                 "The actual archive overlay was verified to reproduce every full-site file byte-for-byte.\n"
-                + compatibility + "\nThe full archive is an unchanged copy of the standard verified stage package.\n"
-                "Nothing has been deployed. Publish through the existing GitHub Pages workflow after review.\n")
+                + compatibility + "\nThe full archive is an unchanged copy of the standard verified stage package.\n")
             (prepared / instruction_name).write_text(instructions,encoding="utf-8")
             if output.exists(): output.rmdir()  # It was required to be empty.
             prepared.rename(output)

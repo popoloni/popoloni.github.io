@@ -1,0 +1,152 @@
+REVIEWED SOURCE-TO-PRACTICE CONNECTIONS
+=====================================
+
+Adapter kind: atlas_practice_links_update/1
+Engine: source/automation/practice_links_update.py
+
+This explicit migration appends reviewed links between existing W/O/P/F/B/N
+source records and existing PAT practice descriptors. It preserves every node,
+historical keyed edge, operational practice guide, source annotation, book
+record and literal citation field. It adds no new source works.
+
+Ordinary article updates retain their O/P/F guards. They reject mappings,
+exclusions and the reserved practice relationship family; a context or source
+addition cannot be used to bypass this reviewed classification procedure.
+The earlier practice-content migration remains a separate adapter.
+
+Review envelope
+---------------
+
+Required fields:
+  kind = atlas_practice_links_update/1
+  schema_version = 1
+  baseline_sha256, baseline_payload_sha256, baseline_release, release, date
+  book_policy = unchanged
+  editorial_review = {status: complete, reviewer: <name>, scope: <scope>}
+  mappings = [<reviewed mappings>]
+
+Optional fields: exclusions, notes, release_intro, coverage, provenance and
+published_baseline. The ordinary template's additions, revisions and edges
+may remain as empty arrays; nonempty values are rejected. Context additions,
+book replacement, arbitrary graph changes and unknown fields are rejected.
+
+Mapping record
+--------------
+
+  {
+    "source": "<existing W/O/P/F/B/N source ID>",
+    "practice": "<existing PAT:nnn ID>",
+    "relation": "INFORMS_PRACTICE",
+    "primary": true,
+    "rationale": "A specific explanation connecting this source to this practice.",
+    "basis": {"field": "summary", "excerpt": "<exact baseline substring>"},
+    "scope": "thematic"
+  }
+
+The exact relation/scope pairs are:
+
+  INFORMS_PRACTICE     thematic
+  ILLUSTRATES_PRACTICE reported_application
+  EVALUATES_PRACTICE   component_evaluation
+  CAUTIONS_PRACTICE    boundary
+  DOCUMENTS_PRACTICE   historical_documentation
+
+Summary or limitation is the only permitted excerpt field. The excerpt must
+be a verbatim substring of that normalized source field in the immutable
+baseline, not a generated quotation, a topic label or a newly claimed primary
+text inspection. The rationale is an editorial judgment reviewed against the
+source annotation and the specific operational practice. Shared stream/topic
+memberships can help discover candidates but never create accepted links.
+
+EVALUATES_PRACTICE additionally requires a nonempty evaluated_component.
+It means that a source evaluates that named component; it does not imply
+that the entire editorial practice was tested or proved effective.
+
+DOCUMENTS_PRACTICE is limited to B sources and uses:
+  basis = {occurrence_ids: [<existing OCC IDs>]}
+
+Each named occurrence must have both exact baseline edges:
+  OCC -> B,   relation V10_OCCURRENCE_IN_FILE
+  OCC -> PAT, relation V10_DESCRIBES_RECONCILED_PRACTICE
+
+Every source/practice pair has one canonical relation. A documentary pair is
+not also added as editorial support. Repeated historical occurrences do not
+count as independent evidence. Existing classified pairs cannot be silently
+duplicated or reclassified by this append-only migration.
+
+Coverage and legitimate exclusions
+----------------------------------
+
+Every source record must be reviewed exactly once as either a member of the
+mapped-source set or an exclusion. Mapped sources can have several different
+practice links but require exactly one primary=true entry. Every existing PAT
+practice must receive at least one link. Primary identifies an editorial entry
+point, not source quality or empirical strength.
+
+An exclusion has exactly:
+  {source, reason, basis: {field: summary|limitation, excerpt: <exact substring>},
+   category: navigation_only|promotion_or_announcement|source_recruitment_only|
+             non_operational_context}
+
+Duplicate exclusions, unknown source IDs, overlap with mapped sources and
+unsupported evidence are rejected. Excluded records remain unchanged and
+available in ordinary source views. Exclusion means that no operational
+classification is justified by the reviewed material, not that the record is
+false or deleted. Coverage reports distinguish reviewed, mapped, excluded and
+eligible-source counts; only eligible-source coverage can be called complete
+when exclusions exist.
+
+Graph semantics and interface
+-----------------------------
+
+The new edge family is practice, displayed as "Practice links". Its five
+relations have readable labels. Each edge retains rationale, primary, basis,
+scope and any evaluated_component, together with the reviewed date, review
+digest/path, source/practice record hashes and explicit non-citation and
+non-effectiveness semantics. Existing source access limitations remain in the
+source records; this migration does not re-inspect all underlying full texts.
+
+No practice IDs are added to actual, mapped, printed or volumes. Those fields
+retain their existing book, bibliography and chapter meanings. Static views
+derive their practice classifications from the new edges, not changed nodes.
+
+The original W-only graph opening state is preserved. New explicit routes:
+  swe_knowledge_graph.html?practice=all
+    Mapped source records, all PAT descriptors and practice-family context.
+    Practice links and descriptor/family classification edges are enabled.
+  swe_knowledge_graph.html?practice=PAT:001
+    That practice and only its classified source records.
+
+The graph adds a dedicated "Connect sources to practices" control. These
+views expose the link role, rationale and editorial boundary; excluded source
+records stay available in the ordinary corpus views. Existing collection,
+node, group and chapter URLs retain their behavior. Practice-mode state can
+be saved and restored through the existing view-file workflow.
+
+Build and delivery
+------------------
+
+Use the ordinary atlas_cli.py prepare, build, check and package commands with
+the named review. build dispatches to the adapter before generic no-change
+detection; a nonempty mapping review is a graph change. Validation occurs
+before copying/building a candidate. No source or book changes are authorized.
+
+Stable outputs:
+  UPDATE_v<release>_<date>.html
+  data/updates/practice_links_review_v<release>_<date>.json
+  data/graph/atlas_payload_current.json
+  data/graph/knowledge_graph_current.json
+  data/graph/knowledge_graph_current.graphml
+
+The renderer also generates data/practice_links.json, data/practice_coverage.json,
+catalogues/practice-map.html and reciprocal source/practice sections. The
+practice_links_update config entry and graph metadata retain review paths,
+counts, relation definitions, exclusions and explicit classification semantics.
+Previous SEPolimi and practitioner release notes remain linked and retained.
+
+All standard structural, browser, reproducibility and actual full/delta archive
+checks remain active. Focused migration checks additionally enforce exact
+evidence, complete review coverage, primary uniqueness, role/scope agreement,
+historical routes, unchanged source/practice nodes and original keyed edges.
+The delta is always compared with the exact published full baseline; no
+publication to GitHub is performed by these tools.

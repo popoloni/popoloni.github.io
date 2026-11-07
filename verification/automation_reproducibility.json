@@ -1,9 +1,9 @@
 {
   "complete": true,
-  "passed": 206,
+  "passed": 216,
   "failed": 0,
-  "outputs_tested": 206,
-  "artifact_sha256": "0aed15581b15ea4a92c7e7e236d0b66281cc03e17ee308dcacb753881f065912",
+  "outputs_tested": 216,
+  "artifact_sha256": "c1f35d4f4d8420191066f863704e4b6f3be714cf9c782f7ace0ed8d1b853428c",
   "method": "Two independent rebuilds from the immutable ZIP and frozen reviewed inputs; compare delivered bytes",
   "mismatches": []
 }

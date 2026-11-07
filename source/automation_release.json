@@ -1,36 +1,11 @@
 {
   "tool_version": "1.1.0",
-  "date": "2026-11-06",
-  "release": "13.4",
-  "baseline_name": "Knowledge_Atlas_v13_3_Complete_20261106.zip",
-  "baseline_sha256": "a1d10786a77731c2bfea3274f724d4573bf8d5e5e3588e2b50dc1eca10599d62",
-  "source_additions": [
-    "O052",
-    "O053",
-    "O054",
-    "O055",
-    "O056",
-    "O057",
-    "O058",
-    "O059",
-    "O060",
-    "O061",
-    "O062",
-    "P125",
-    "P126",
-    "P127",
-    "F036",
-    "F037",
-    "F038",
-    "F039",
-    "F040",
-    "F041"
-  ],
-  "context_additions": [
-    "AUTHOR:MF:rachel-laycock",
-    "AUTHOR:MF:pramod-sadalage",
-    "AUTHOR:MF:prem-chandrasekaran",
-    "AUTHOR:MF:martin-fowler"
-  ],
-  "context_review_kind": "atlas_practitioner_update/1"
+  "kind": "atlas_practice_links_update/1",
+  "date": "2026-11-07",
+  "release": "13.5",
+  "baseline_name": "Published_GitHub_v13_4_37515e16_20261107.zip",
+  "baseline_sha256": "cd24ad80386269b77aefcd73eff99e30e0009973b537206df1351fbce1251acd",
+  "source_additions": [],
+  "practice_links_added": 692,
+  "review_path": "data/updates/practice_links_review_v13_5_20261107.json"
 }

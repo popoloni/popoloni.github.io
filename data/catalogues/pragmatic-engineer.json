@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "atlas_current.html",
-    "snapshot": "2026-11-06",
-    "site_version": "13.4",
+    "snapshot": "2026-11-07",
+    "site_version": "13.5",
     "count": 127,
     "note": "Materialized view of the current audited graph; complete node fields retained. Source inspection and publication status are recorded per item. The builder performs no new empirical validation."
   },
@@ -11839,6 +11839,1794 @@
         "atlas_added_release": "13.4",
         "atlas_added_date": "2026-11-06"
       }
+    }
+  ],
+  "practice_relationships": [
+    {
+      "source": "P002",
+      "practice": "PAT:034",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The distinction between permission to fork and control of a distribution channel informs checking authorization for each intended effect rather than inferring it from another permission. The dispute is not adjudicated here, and the association supplies no legal conclusion or tested agent-control design.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Discusses the WordPress plugin-directory dispute, distinguishing permission to fork source from control over a distribution channel and its existing users."
+      },
+      "edge_id": "practice_bb7b1dec587829464b8f770c",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P004",
+      "practice": "PAT:057",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The startup accounts identify established processes and specialized tools as possible liabilities when experience moves to a new setting. This cautions an enablement plan against treating prior-employer credentials as demonstrated local readiness; selected anonymous accounts do not estimate the competence of Big Tech employees.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Uses startup hiring accounts to examine when large-company experience transfers well and when established processes or specialized tools become liabilities."
+      },
+      "edge_id": "practice_1c58f98cff658f54dc331176",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P005",
+      "practice": "PAT:084",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Cindy Sridharan's account of implicit hierarchies and organizational constraints informs identifying the person who can actually resolve a blocked engineering decision. This is a thematic use of an updated essay, not a tested escalation protocol.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Cindy Sridharan discusses organizational constraints, implicit hierarchies, communication and incremental improvements from an individual-contributor perspective."
+      },
+      "edge_id": "practice_b0338dfb37f3f5d506eb8e56",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P006",
+      "practice": "PAT:014",
+      "collection": "P",
+      "relation": "ILLUSTRATES_PRACTICE",
+      "relation_label": "Illustrates practice",
+      "primary": true,
+      "rationale": "The Antithesis account illustrates deterministic simulation and replay as ways to make a distributed-system failure reproducible for diagnosis. The retained reporting and later sponsorship/publication notices do not constitute an independent test of the product or its fault coverage.",
+      "scope": "reported_application",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Explains deterministic simulation, replay and fault exploration through Antithesis, alongside debugging history and engineering trade-offs."
+      },
+      "edge_id": "practice_5459173dfd79e9ca2135df86",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P008",
+      "practice": "PAT:025",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The reported editor preferences can inform which human-guided tool environment to investigate for an assisted workflow. Voluntary early-adopter replies, a canonical-count discrepancy and the limited public excerpt cannot establish comparative productivity or an optimal editor choice.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Reports a voluntary social-media poll about AI-enabled editors and discusses tool preferences."
+      },
+      "edge_id": "practice_7bfd0ff04905304285c0caf1",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P011",
+      "practice": "PAT:058",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Accounts of unauthorized assistance and changing interview formats inform explicitly stating what AI assistance is permitted and what evidence a candidate must supply. The public-scope synthesis of 49 selected contributors is not a representative evaluation of hiring policies.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Synthesizes contributions from 49 hiring managers and engineers about screening, unauthorized assistance, changing interview formats and integrating LLMs into assessment."
+      },
+      "edge_id": "practice_34c2f95847d535f259b98657",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P013",
+      "practice": "PAT:045",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The reported visualization project provides general prototyping and delivery context for this practice's design-exploration component. Applying that context to conversational code generation is an editorial analogy: the retained record identifies AI-generated concept art as one input and does not establish that AI built or validated the system. The subscriber-only remainder was not reviewed.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Interviews Shopify engineers about a time-bounded interactive visualization project, covering prototypes, architecture, performance, operations and qualitative product goals."
+      },
+      "edge_id": "practice_7bc89ea38592d7e844e2c370",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P014",
+      "practice": "PAT:045",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The edited Osmani essay and added commentary caution against treating a mostly generated prototype as completed engineering. This is dependent on the existing Osmani source, so it must not be counted as independent corroboration of the same warning.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Republishes an edited version of Addy Osmani’s 70% problem essay and adds Orosz’s commentary about engineering responsibilities, expertise and software craft."
+      },
+      "edge_id": "practice_3e313bedde66f21fffcafc57",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P015",
+      "practice": "PAT:035",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The preview's discussion of bug-fixing capacity and ownership informs deciding which issues deserve scarce attention and which owner should act. The shared interview pool does not establish that one triage policy reduces defects more than another.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Synthesizes practitioner approaches to allocating bug-fixing capacity, assigning ownership, preventing defects and sustaining a quality-focused culture."
+      },
+      "edge_id": "practice_f8f91bddf5b76d9a5698da22",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P017",
+      "practice": "PAT:063",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The platform trade-offs inform which native, cross-platform or web implementation alternatives merit a bounded comparison against shared product needs. The retained preview supplies comparison context, not an independently tested parallel-exploration method or a current framework recommendation.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Compares native, React Native, Flutter and web-based approaches, using ecosystem data and cases to explain platform-selection trade-offs."
+      },
+      "edge_id": "practice_da2b54953344b74471aa2eb3",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P018",
+      "practice": "PAT:029",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Changes in public question volumes and the move toward LLM answers inform examining where task knowledge can still be retrieved and checked. The discussion does not establish that model answers replace the missing knowledge or that AI alone caused the observed decline.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Discusses declining Stack Overflow question volumes alongside the rise of LLM assistance and earlier moderation-related changes."
+      },
+      "edge_id": "practice_eea36e46062a0ba56a530df9",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P020",
+      "practice": "PAT:029",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The search-company reporting informs evaluating retrieved information through the product and infrastructure choices that produce it. It offers historical company accounts and evaluation context, not an independent finding that either service retrieves trustworthy engineering knowledge.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Compares engineering cultures, search infrastructure, product choices and evaluation practices at two companies challenging established search products."
+      },
+      "edge_id": "practice_458c32c66af7767b7749c5af",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P021",
+      "practice": "PAT:030",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The Expo interview informs deciding which build and deployment operations should be delegated to explicit tool interfaces and services. The retained preview does not establish those services' current behavior or turn successful execution into permission to release.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Interviews Expo’s team about developer tooling, React Native integration, build services and production deployment workflows."
+      },
+      "edge_id": "practice_f7d10af5278ca42d3e7dd729",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P027",
+      "practice": "PAT:049",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Sandor Felber's robotics introduction connects simulation, deployment and testing, informing where observed execution should enter a development decision. This is adjacent-domain guidance from the retained preview, not evidence of coding-agent effectiveness or unperformed production tests.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Sandor Felber introduces robotics through project planning, controls, simulation, deployment, testing and day-to-day engineering work."
+      },
+      "edge_id": "practice_311defc7dfffdbaca3a021a1",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P028",
+      "practice": "PAT:060",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The distinction between salary, total compensation and equity informs choosing and qualifying labor-cost assumptions when pricing engineering, review or rework. Levels.fyi submissions are not representative universal rates, and the compensation analysis does not measure an AI workflow's return.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Analyzes Levels.fyi compensation submissions by geography, experience and employer tier, distinguishing salary from total compensation and equity value."
+      },
+      "edge_id": "practice_2192acd19cf8a9770e294755",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P029",
+      "practice": "PAT:034",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The reported hiring-impersonation account provides an analogy for why apparent competence does not establish actor identity or authority. Applying that distinction to an agent workflow's approval boundary is an editorial inference, not a reported implementation of execution permissions, verification and acceptance separation. The retained single-company preview leaves attacker attribution uncertain and does not validate an agent-control mechanism.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Reports a security startup’s account of suspected impersonation during remote hiring and the changes it made to candidate verification."
+      },
+      "edge_id": "practice_4cded14a595e05054260d466",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P031",
+      "practice": "PAT:059",
+      "collection": "P",
+      "relation": "ILLUSTRATES_PRACTICE",
+      "relation_label": "Illustrates practice",
+      "primary": true,
+      "rationale": "Alexey Komissarouk's account illustrates linking product analytics and experiments to business outcomes rather than engineering activity alone. The retained preview reports the contributor's approach; revenue and experiment effects were not independently replicated.",
+      "scope": "reported_application",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Alexey Komissarouk describes experimentation-driven engineering that prioritizes learning about business outcomes, supported by product analytics, feature flags and organizational ownership."
+      },
+      "edge_id": "practice_d4d1de73497ba267830a54bc",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P032",
+      "practice": "PAT:060",
+      "collection": "P",
+      "relation": "ILLUSTRATES_PRACTICE",
+      "relation_label": "Illustrates practice",
+      "primary": true,
+      "rationale": "The seven company accounts illustrate usage-driven LLM costs as an engineering constraint when comparing execution routes and operating burden. This preview-based link does not measure full accepted-outcome cost; the publisher's investments in two included companies remain relevant provenance.",
+      "scope": "reported_application",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Seven company accounts describe engineers building LLM products, including evaluation, nondeterminism, privacy, latency, bespoke tooling and usage-driven costs."
+      },
+      "edge_id": "practice_2083c6648a5c552a26737093",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P034",
+      "practice": "PAT:030",
+      "collection": "P",
+      "relation": "ILLUSTRATES_PRACTICE",
+      "relation_label": "Illustrates practice",
+      "primary": true,
+      "rationale": "The database-tool example illustrates moving a specified operation through an explicit MCP interface rather than asking model weights to supply the result. The April 2025 interview and preview do not assess the security or compatibility of later implementations.",
+      "scope": "reported_application",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Explains MCP using a database-tool example and an interview with a protocol co-creator."
+      },
+      "edge_id": "practice_69ae2b9d89ba91be05a0f4b7",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P035",
+      "practice": "PAT:058",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Automated applications, interview deception and proposed work samples inform making permitted assistance and required candidate evidence explicit. The retained preview and disclosed investment do not establish that a particular hiring policy is effective or lawful.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Discusses employer experiences with automated applications and AI-assisted interview deception, alongside possible changes to remote hiring, trial periods and work samples."
+      },
+      "edge_id": "practice_23eac3d6402c03b285c36893",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P037",
+      "practice": "PAT:049",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Sandor Felber's discussion of state estimation and real-time physical constraints informs deciding which behavior needs controlled execution observations rather than code inspection alone. The robotics preview supplies domain context, not a coding-agent experiment or verified operational result.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Sandor Felber explains humanoid-robot hardware constraints, state estimation, real-time control and optimization, with an outline of learning-based methods."
+      },
+      "edge_id": "practice_c7b229f63f77e05ac8c427ca",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P038",
+      "practice": "PAT:016",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Revisiting Brooks's tooling, scheduling and documentation assumptions against contemporary practice informs checking the current applicability of retained guidance. The preview does not supply a complete invalidation method or establish that historical principles have become universally obsolete.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Revisits Brooks’s account of tooling, debugging, project schedules and documentation against contemporary engineering practice."
+      },
+      "edge_id": "practice_f6a6dc8bd40d71312e6f400c",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P039",
+      "practice": "PAT:049",
+      "collection": "P",
+      "relation": "ILLUSTRATES_PRACTICE",
+      "relation_label": "Illustrates practice",
+      "primary": true,
+      "rationale": "The company launch account illustrates using load tests and observed bottlenecks beyond GPU capacity to inform an image-service rollout. It is engineering an AI product, and the retained preview is not an independent reproduction of load, latency or launch outcomes.",
+      "scope": "reported_application",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Interviews OpenAI engineering leaders about an image-generation launch, asynchronous execution, isolation, load testing and bottlenecks beyond GPU capacity."
+      },
+      "edge_id": "practice_966cd61db13c138badf29c5c",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P040",
+      "practice": "PAT:029",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The updated discussion of alternative communities and LLM assistance informs checking the provenance and continued availability of external engineering knowledge. Falling question counts do not identify the causal contribution of LLMs or validate replacement answers; this also depends on the earlier analysis.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Updates an earlier analysis of falling Stack Overflow question counts, considering moderation history, alternative communities and LLM-based assistance."
+      },
+      "edge_id": "practice_4b98e7ecd377675039bd4865",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P041",
+      "practice": "PAT:030",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Chip Huyen's distinction between model, application and infrastructure layers informs locating an operation in explicit software rather than assuming the model supplies every capability. The book excerpt is conceptual AI-product engineering context, not a tested connector or an AI-assisted-development outcome.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Chip Huyen’s book excerpt distinguishes application, model and infrastructure layers and compares AI engineering with machine-learning and full-stack engineering."
+      },
+      "edge_id": "practice_b795a3e44118c71a735a6a72",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P042",
+      "practice": "PAT:022",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "Observed coding-agent failures alongside optimistic platform messaging caution against calibrating reliance from vendor demonstrations or executive claims. The situated BUILD observations and restricted preview are not a representative evaluation of agent reliability.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Reports observations at Microsoft BUILD, including supervised coding agents, public failures on the .NET codebase and platform incentives behind optimistic AI messaging."
+      },
+      "edge_id": "practice_fb074d6a34e015b35226f774",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P043",
+      "practice": "PAT:025",
+      "collection": "P",
+      "relation": "ILLUSTRATES_PRACTICE",
+      "relation_label": "Illustrates practice",
+      "primary": false,
+      "rationale": "Cases where developers resume direct control illustrate a legitimate human-guided route for finishing work after agent-led exploration. The preview does not establish how often that intervention is necessary or whether it is faster.",
+      "scope": "reported_application",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Examines competing definitions of vibe coding, contrasts prototypes with production systems, and discusses cases where developers resume direct control to finish an application."
+      },
+      "edge_id": "practice_00fd2759e5a709a40a221d8d",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P043",
+      "practice": "PAT:045",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The prototype/production contrast and inconsistent definitions identify why a vibe-coded result needs a separate adoption decision. The preview supplies no measured production benefit or common operational definition for all quoted cases.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Examines competing definitions of vibe coding, contrasts prototypes with production systems, and discusses cases where developers resume direct control to finish an application."
+      },
+      "edge_id": "practice_8b10a60b746ca31914ae678d",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P044",
+      "practice": "PAT:017",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "The reported execution-isolation design informs treating the assistant's execution environment as a containment decision separate from its model. Details beyond the preview are unverified, so the association is not a security assurance for Cursor or a new deployment.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Reports engineering choices behind Cursor, including code-context synchronization, execution isolation, orchestration infrastructure and latency-sensitive development workflows."
+      },
+      "edge_id": "practice_515c6b38f203d7580acd97e1",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P044",
+      "practice": "PAT:047",
+      "collection": "P",
+      "relation": "ILLUSTRATES_PRACTICE",
+      "relation_label": "Illustrates practice",
+      "primary": true,
+      "rationale": "Cursor's reported code-context synchronization illustrates maintaining the information a coding assistant sees as the repository changes. The company interview preview does not verify detailed synchronization guarantees or establish improved comprehension.",
+      "scope": "reported_application",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Reports engineering choices behind Cursor, including code-context synchronization, execution isolation, orchestration infrastructure and latency-sensitive development workflows."
+      },
+      "edge_id": "practice_a82296ca30c085d18caf1dda",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P046",
+      "practice": "PAT:067",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Chaitali Narla's emphasis on valuable problems, ownership and sponsorship informs identifying whose intended outcome must be clarified before planning an organizational change. The retained preview is career and engineering guidance, not an evaluated clarification method.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Chaitali Narla discusses identifying valuable problems, taking ownership, building relationships and finding sponsorship for change within an organization."
+      },
+      "edge_id": "practice_d8b7c32f7db44a7a91f2be9b",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P047",
+      "practice": "PAT:022",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": false,
+      "rationale": "The discussion of cognitive bias in the transition to agentic assistance informs checking whether confidence and reliance follow evidence rather than convenience. The practitioner reflection is not an independently calibrated trust study.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Birgitta Böckeler reflects on changes from autocomplete to agentic assistance over two years, including cognitive bias, reviewer fatigue, quality supervision and team effectiveness."
+      },
+      "edge_id": "practice_ac1325e2f2de44432689d590",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P047",
+      "practice": "PAT:052",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "Birgitta Böckeler's discussion of reviewer fatigue and quality supervision identifies human review capacity as a constraint when choosing a review route. The two-year reflection and restricted remainder do not establish a measured optimal review process.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Birgitta Böckeler reflects on changes from autocomplete to agentic assistance over two years, including cognitive bias, reviewer fatigue, quality supervision and team effectiveness."
+      },
+      "edge_id": "practice_8f5dcde9f35ee940a7500728",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P048",
+      "practice": "PAT:059",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The contrast between executive expectations and developers' experience cautions against treating anticipated acceleration as an observed workflow gain. Selected interviews and a conference synthesis cannot identify a causal productivity effect.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Contrasts executive expectations with developers’ experiences of LLM-assisted work, drawing on interviews and a conference presentation."
+      },
+      "edge_id": "practice_3aeca66e9f93404ea19c634c",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P049",
+      "practice": "PAT:012",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The robotics skills outline informs choosing concrete domain-learning objectives for work with real-time and physical constraints. This thematic use of Sandor Felber's preview does not claim that AI assistance teaches those skills; his startup and hiring interests remain disclosed.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Sandor Felber outlines software, AI and robotics skills for work involving real-time control and physical constraints."
+      },
+      "edge_id": "practice_54c34975b175290afea0c9c6",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P050",
+      "practice": "PAT:057",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Reported tool usage and sentiment can inform the environment and prior experience to investigate before a local enablement trial. The shared reader-survey cohort is not a capability assessment, and tool mentions or the gross/cleaned response counts do not establish causal productivity.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "The survey reports tool usage and sentiment across languages, coding assistants, IDEs, delivery infrastructure and cloud platforms."
+      },
+      "edge_id": "practice_06a722de095628f95953f42e",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P051",
+      "practice": "PAT:017",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The outage comparison highlights the potential consequences of global configuration and update controls, informing where to limit the reach of a mistaken change. The retained editorial preview does not independently verify incident causes or demonstrate complete containment.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "An editorial comparison of infrastructure outages considers update controls, global configuration, database behavior and incident transparency."
+      },
+      "edge_id": "practice_9c4bca8847c6c1c851052987",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P052",
+      "practice": "PAT:059",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The conflict between the secondary design description and METR's checked methodology cautions against using the wrong work-unit denominator or randomization unit in adoption measurement. Preserve 246 issues and issue-level assignment with developers in both conditions; this mapping adds no full-paper audit or replication.",
+      "scope": "boundary",
+      "basis": {
+        "field": "limitation",
+        "excerpt": "P052 says 136 issues and implies assignment by developer. METR’s primary methodology reports 246 issues and issue-level randomization, with developers working in both conditions. Do not reproduce the secondary account’s conflicting design description."
+      },
+      "edge_id": "practice_d47f10af0b62d2d2f6194fff",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P053",
+      "practice": "PAT:043",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Quentin Pradet's API-first design guidance informs establishing interface obligations before generating an SDK, including when an LLM assists generation. The retained preview concerns broader SDK design and maintenance, not an evaluated claim that spec-first generation guarantees correct SDKs.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Quentin Pradet examines API-first design, SDK generation, documentation and ongoing maintenance for human and model consumers."
+      },
+      "edge_id": "practice_008e46f2b498db6bed0952a7",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P054",
+      "practice": "PAT:067",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Customer-embedded engineering and product feedback inform resolving the intended customer outcome before an AI integration is planned. The preview's interviews and role descriptions do not establish a tested clarification workflow or permit customer requests to bypass authorization.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Interviews and job descriptions explain customer-embedded engineering, product feedback and AI integration responsibilities."
+      },
+      "edge_id": "practice_29a874e3d12d941bf4b58d2b",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P056",
+      "practice": "PAT:057",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The survey's collaboration, management and infrastructure inventory informs identifying the existing tools and work context that a local enablement program must accommodate. It shares the Part 1/3 cohort and supplies usage context rather than independent evidence of readiness or improvement.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "The second installment of the reader survey covers collaboration, project management, databases and backend infrastructure."
+      },
+      "edge_id": "practice_734b63656f59b87cf1ad6bdd",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P057",
+      "practice": "PAT:060",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Maintenance funding and the burden of user support and contribution review inform including ongoing human work in the cost of an engineering mechanism. The reported funding options do not establish legal compliance or a universal sustainable pricing model.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Examines maintenance-fee and other funding mechanisms for open-source work, including the burden of supporting users and reviewing contributions."
+      },
+      "edge_id": "practice_6c754f1314e4b821cf836987",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P058",
+      "practice": "PAT:012",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Mike Mroczka's structured problem-solving advice informs designing practice that makes a learner's reasoning visible when AI can supply interview answers. The retained preview does not measure transfer to unaided work or demonstrate that preparation advice changes hiring outcomes.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Mike Mroczka presents structured problem-solving and practice advice against a changing interview landscape affected by AI assistance."
+      },
+      "edge_id": "practice_9925522630e280131141af11",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P061",
+      "practice": "PAT:059",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Laura Tacho's combination of adoption, delivery, quality and developer experience informs selecting a baseline and meaningful segments before interpreting AI-related changes. Her DX role and Orosz's investment remain disclosed; the company measurement guidance is not a new randomized causal estimate.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Laura Tacho presents company measurement practices combining adoption, delivery, quality and developer experience, with baseline and segmentation guidance."
+      },
+      "edge_id": "practice_830c5ba44ae6678af96529d3",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P062",
+      "practice": "PAT:019",
+      "collection": "P",
+      "relation": "ILLUSTRATES_PRACTICE",
+      "relation_label": "Illustrates practice",
+      "primary": true,
+      "rationale": "The founding-engineer interviews illustrate subagents as a concrete mechanism within Claude Code's tool-using workflow. The retained preview does not establish an optimal fan-out, independence of workers or verified performance of the full implementation.",
+      "scope": "reported_application",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Interviews with founding engineers explain tool access, stack choices, rapid prototyping, subagents and internal verification practices."
+      },
+      "edge_id": "practice_a9d655ac1f8db02f835be7c1",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P063",
+      "practice": "PAT:057",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The reported monorepo, internal tools and AI integration inform adapting an enablement plan to the organization's actual infrastructure. This preview shares research with the culture article and does not establish that Google's approach transfers to another team.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Interviews and source research describe Google’s internal infrastructure, monorepo, development tools and AI integration."
+      },
+      "edge_id": "practice_315199146aace7d58450a6df",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P065",
+      "practice": "PAT:057",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The observability, incident and experimentation-tool inventory informs which existing feedback systems a local enablement trial can use. It is another view of the same 2025 respondent cohort, not an independent study or evidence that respondents' tool choices improve outcomes.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "The final part of the 2025 reader survey covers observability, incident management, frontend tools and experimentation platforms."
+      },
+      "edge_id": "practice_d376a65e3b446e7c5ec63f26",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P066",
+      "practice": "PAT:063",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Matthew Hawthorne's architectural trade-offs and Netflix examples inform the criteria for comparing implementation alternatives, including operational consequences and shared responsibility. The preview does not describe a controlled parallel exploration or establish a universally best architecture.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Matthew Hawthorne discusses architectural tradeoffs, operational learning and shared responsibility using Netflix examples."
+      },
+      "edge_id": "practice_5790f08cabf117dfd7777926",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P067",
+      "practice": "PAT:017",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The DNS race and cascading shared-service dependencies identify how an apparently local change can escape its intended effect boundary. The provider's incident account informs containment questions but is not an independently reproduced failure or proof of a remedy.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Explains a DynamoDB DNS race and the cascading effects of shared service dependencies using the provider’s incident account."
+      },
+      "edge_id": "practice_cde6b728e3a02875100f0bc6",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P069",
+      "practice": "PAT:048",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The emphasis on systems-design assessment informs asking an engineer to expose reasoning about system behavior rather than judging only output. The source follows one pseudonymous candidate across companies; it does not validate an explainability test or represent independent samples of candidates.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Compares a principal-level candidate’s interviews, emphasizing systems design, behavioral assessment and company-specific processes."
+      },
+      "edge_id": "practice_26632226c28e0a73478ec6f1",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P070",
+      "practice": "PAT:056",
+      "collection": "P",
+      "relation": "ILLUSTRATES_PRACTICE",
+      "relation_label": "Illustrates practice",
+      "primary": true,
+      "rationale": "Practitioner accounts illustrate concurrent agent execution alongside serial review and integration attention, exposing the coordination boundary a parallel workflow must respect. The reused Sid Bidasaria conversation from P062 is dependent reporting, not another independent case.",
+      "scope": "reported_application",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Discusses concurrent coding-agent workflows through practitioner accounts, contrasting parallel task execution with the serial attention needed to review and land changes."
+      },
+      "edge_id": "practice_bc594e3393cc0a3a7e920793",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P073",
+      "practice": "PAT:057",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Ethan Evans's distinction between independent execution and broader organizational scope informs setting role-specific capability and delegation expectations in an enablement plan. This is thematic career guidance from a restricted preview, not a validated readiness scale or tested training program.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Ethan Evans discusses progression through technical and management tracks, independent execution and organizational scope."
+      },
+      "edge_id": "practice_43ef926428ebaee6fabb9a06",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P074",
+      "practice": "PAT:027",
+      "collection": "P",
+      "relation": "ILLUSTRATES_PRACTICE",
+      "relation_label": "Illustrates practice",
+      "primary": true,
+      "rationale": "The staged book translation and technical review illustrate separating production of a candidate artifact from checking its engineering meaning. The author has a direct interest in the book, and the account does not establish independent error rates or certify the review process.",
+      "scope": "reported_application",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Describes Nasha Tech’s staged translation and technical review of the author’s book, alongside observations of its development tools and local product work."
+      },
+      "edge_id": "practice_044224229fcf98fdc8f1eaa1",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P075",
+      "practice": "PAT:014",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Hamel Husain's error analysis and deterministic checks inform turning an observed LLM failure into a repeatable diagnostic case before repair. The retained preview supplies evaluation guidance, not an independently executed harness or comprehensive defect coverage.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Hamel Husain describes error analysis, deterministic checks, judge evaluation and production feedback for LLM applications."
+      },
+      "edge_id": "practice_0bd67ec534b8d0baf0509ad0",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P075",
+      "practice": "PAT:027",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "The separate treatment of judge evaluation and deterministic checks informs checking how an evaluator's conclusions are justified instead of accepting model agreement. The preview does not establish independence or correctness of a particular judge.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Hamel Husain describes error analysis, deterministic checks, judge evaluation and production feedback for LLM applications."
+      },
+      "edge_id": "practice_8dd42f7754bb5462fb77fb9e",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P076",
+      "practice": "PAT:017",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "Downdetector's continuing Cloudflare dependency despite a multi-cloud design cautions that redundant execution locations can still share a consequential failure path. The interview is a reported architectural case, not an independent resilience test.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Uses an interview with Downdetector engineering leadership to examine why a multi-cloud monitoring service still depended on Cloudflare."
+      },
+      "edge_id": "practice_545b6806e09c5f5c425c2e08",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P077",
+      "practice": "PAT:030",
+      "collection": "P",
+      "relation": "ILLUSTRATES_PRACTICE",
+      "relation_label": "Illustrates practice",
+      "primary": true,
+      "rationale": "Developer and maintainer accounts illustrate MCP tool interfaces being adapted to internal and legacy environments. The retained preview covers adoption and debugging context, not verified safety or interoperability of every implementation.",
+      "scope": "reported_application",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Developer accounts and maintainer interviews examine internal MCP adoption, debugging, legacy systems and tool-interface design."
+      },
+      "edge_id": "practice_e6119eeef1b33db60fea5120",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P078",
+      "practice": "PAT:059",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Forsgren and Noda's connection between developer friction, organizational change and meaningful measurement informs diagnosing the total workflow rather than counting generated output. The interview and book excerpts are guidance, not a newly replicated causal AI-productivity result.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "An interview and excerpts from Nicole Forsgren and Abi Noda connect developer friction, organizational change and meaningful measurement."
+      },
+      "edge_id": "practice_5291c75a450403a1103a8586",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P079",
+      "practice": "PAT:049",
+      "collection": "P",
+      "relation": "ILLUSTRATES_PRACTICE",
+      "relation_label": "Illustrates practice",
+      "primary": true,
+      "rationale": "The responder's explanation of mitigation, lock contention and coordination illustrates using operational observations to choose the next incident action. Planned verification improvements remain plans; the preview does not independently reproduce the outage or its resolution.",
+      "scope": "reported_application",
+      "basis": {
+        "field": "summary",
+        "excerpt": "An incident responder explains AWS’s October outage, mitigation coordination, lock contention and planned verification improvements."
+      },
+      "edge_id": "practice_2bfae0d26ecc2eefe8ab1d94",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P080",
+      "practice": "PAT:027",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The shift from typing toward judgment and verification informs keeping candidate production separate from the decision to accept its claims. Bounded personal experiments and practitioner accounts do not establish reliable fully automated acceptance or general productivity effects.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Orosz combines bounded personal experiments and practitioner accounts to discuss the shift from typing code toward product judgment, verification and coordination."
+      },
+      "edge_id": "practice_50aa03cc5e033e3995c7e504",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P081",
+      "practice": "PAT:060",
+      "collection": "P",
+      "relation": "ILLUSTRATES_PRACTICE",
+      "relation_label": "Illustrates practice",
+      "primary": true,
+      "rationale": "The Rubrik account illustrates a decision about whether shared components and their ownership justify a design-system investment. The restricted preview does not quantify full lifecycle return or establish that AI-assisted implementation removes maintenance cost.",
+      "scope": "reported_application",
+      "basis": {
+        "field": "summary",
+        "excerpt": "A Rubrik practitioner account explains shared UI components, ownership and when a design-system investment makes sense, including AI-assisted implementation."
+      },
+      "edge_id": "practice_01185b37ff0182795b5a3c5f",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P082",
+      "practice": "PAT:026",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Drew Hoskins's treatment of diagnostics as a user interface informs making a failed attempt return an actionable observation before another agent retry. The excerpt does not demonstrate convergence, correct diagnosis or authorization for a proposed repair.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "An interview and Drew Hoskins book excerpt examine diagnostics as a user interface, including feedback consumed by autonomous agents."
+      },
+      "edge_id": "practice_9862fceda2e19b09fe32a67e",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P083",
+      "practice": "PAT:057",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Craft's reported cross-role workflows inform defining different tasks and capability checks for engineering and nontechnical participants in adoption. The record does not establish a staged enablement program; the founder's family relationship with Orosz and later access/acquisition update remain separate provenance.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Craft’s move toward a shared visual agent interface is reported through workflows spanning engineering and nontechnical teams."
+      },
+      "edge_id": "practice_f799c61edb8649f811ec07b3",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P084",
+      "practice": "PAT:046",
+      "collection": "P",
+      "relation": "ILLUSTRATES_PRACTICE",
+      "relation_label": "Illustrates practice",
+      "primary": true,
+      "rationale": "Rebuilding the personal testimonials feature illustrates bounding generated work to a specific function with planning and checks. The scope is the functionality the author used, not the complete SaaS product, and the account is not an independent verification of the resulting software.",
+      "scope": "reported_application",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Reports rebuilding a small testimonials feature with Codex, including planning, modular data, testing and deployment."
+      },
+      "edge_id": "practice_06cff2430377c431a4b2668d",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P084",
+      "practice": "PAT:060",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": false,
+      "rationale": "The unmeasured maintenance and opportunity costs caution against treating the subscription price and coding time as the complete economics of the replacement. This personal case cannot establish a general cost advantage for generated substitutes.",
+      "scope": "boundary",
+      "basis": {
+        "field": "limitation",
+        "excerpt": "The reported replacement covers the personal functionality the author used, not the complete SaaS product; lifecycle maintenance and opportunity costs were not measured. Public availability does not imply an independent check of every paragraph or chart. No microdata replication, controlled product test, or independent-rater agreement study was performed."
+      },
+      "edge_id": "practice_86b2c670166f1aa4c185cc51",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P085",
+      "practice": "PAT:052",
+      "collection": "P",
+      "relation": "EVALUATES_PRACTICE",
+      "relation_label": "Evaluates a practice component",
+      "primary": true,
+      "rationale": "The reported company-local scoring of AI review tools evaluates one component used to choose a review route: the usefulness of tool findings in that company's trial. The restricted preview and context-specific samples/scales do not evaluate full acceptance effectiveness or establish causal productivity.",
+      "scope": "component_evaluation",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Interviews compare tool-selection practices across company sizes, including locally scored AI review trials and procurement constraints."
+      },
+      "edge_id": "practice_06a9322cc35765b437b90b44",
+      "evaluated_component": "Company-local scoring of AI code-review findings during tool selection; excludes end-to-end review correctness, acceptance authority and causal productivity.",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P086",
+      "practice": "PAT:056",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "Yegge's discussion of multi-agent work and fatigue informs treating supervision capacity as a bound on concurrency. His eight-stage ladder is a provocative practitioner framework, not a validated maturity scale or Osmani's agency/orchestration axes.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "A written interview explores Yegge’s autonomy ladder, multi-agent work, fatigue and predictions about engineering employment."
+      },
+      "edge_id": "practice_d0532d8581c4345f3071ba63",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P087",
+      "practice": "PAT:052",
+      "collection": "P",
+      "relation": "ILLUSTRATES_PRACTICE",
+      "relation_label": "Illustrates practice",
+      "primary": true,
+      "rationale": "The Codex-builder interviews illustrate tiered code review as part of an internal agent-development workflow. The retained preview does not establish the independence of its checks or comparative effectiveness of its review tiers.",
+      "scope": "reported_application",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Interviews with Codex builders describe the agent loop, language choices, evaluation, internal use and tiered code review."
+      },
+      "edge_id": "practice_c788a9bebf085d5535664f02",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P089",
+      "practice": "PAT:059",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The shared 906-response cohort, unmatched survey waves and unresolved 55%/507-person discrepancy caution against mixing denominators or treating usage as longitudinal improvement. The association supports careful adoption measurement, not a new recount or correction of the publisher's data.",
+      "scope": "boundary",
+      "basis": {
+        "field": "limitation",
+        "excerpt": "The author reports 906 responses for the shared 2026 cohort. This is not an independently counted sample; comparisons with other survey waves are not a matched longitudinal panel."
+      },
+      "edge_id": "practice_12f035baeaf8ecfd058f3001",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P090",
+      "practice": "PAT:047",
+      "collection": "P",
+      "relation": "ILLUSTRATES_PRACTICE",
+      "relation_label": "Illustrates practice",
+      "primary": true,
+      "rationale": "Uber's reported platform illustrates shared context supporting internal development agents and review tools. This preview-based company case, with disclosed former employment, does not establish that the context is complete or that the model understands every system dependency.",
+      "scope": "reported_application",
+      "basis": {
+        "field": "summary",
+        "excerpt": "An industry case describes Uber’s AI development platform, shared context, internal agents and review-related tooling."
+      },
+      "edge_id": "practice_e5d487ff0b73828a18d2aa68",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P090",
+      "practice": "PAT:059",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": false,
+      "rationale": "The corrected distinction between agentic-tool adoption, IDE-generated-code share and CLI measures cautions against combining unlike adoption denominators. The source correction is retained as reported; this is not an independent measurement of Uber's productivity.",
+      "scope": "boundary",
+      "basis": {
+        "field": "limitation",
+        "excerpt": "The source’s correction distinguishes 84% agentic-tool adoption from 65–72% IDE code-generation figures and CLI-specific measures; those denominators must not be interchanged."
+      },
+      "edge_id": "practice_66a544a800525224055dd57c",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P091",
+      "practice": "PAT:059",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "Increased generation and PR activity alongside cleanup, quality problems and outages cautions against equating activity with accepted value. The preview's visible bugs do not identify AI as their cause, so no causal quality or productivity effect is asserted.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Orosz contrasts increased generation and pull-request activity with quality problems, cleanup, outages and organizational mandates."
+      },
+      "edge_id": "practice_3825bd23ce47871ce0dc5dfe",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P092",
+      "practice": "PAT:046",
+      "collection": "P",
+      "relation": "ILLUSTRATES_PRACTICE",
+      "relation_label": "Illustrates practice",
+      "primary": true,
+      "rationale": "The selected engineer's account of task decomposition illustrates organizing work into manageable outcomes supported by communication and ownership. The interview does not measure a tenfold productivity multiplier or establish a universal chunking method.",
+      "scope": "reported_application",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Interviews with an experienced engineer and a former manager explore ownership, task decomposition, communication and collaboration."
+      },
+      "edge_id": "practice_f109433c1872b60bd5a4321e",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P094",
+      "practice": "PAT:060",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Philip Kiely's serving techniques identify inference resources and workload assumptions that belong in the cost of an execution route. The excerpt explains batching, caching and scaling; it does not measure total engineering cost per accepted outcome.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "An introduced excerpt by Philip Kiely explains serving models through batching, caching, quantization, parallel execution and autoscaling."
+      },
+      "edge_id": "practice_785ddb8ea029e2b44d90ad07",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P095",
+      "practice": "PAT:060",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The survey's reported tool costs and usage limits inform which spending constraints to include when comparing assisted workflows. The restricted follow-up shares the 906-response cohort; its interpretive developer groupings are not competency categories or causal return estimates.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "A follow-up analysis of the 2026 reader survey examines tool costs, usage limits, developer identity and uneven changes to engineering work."
+      },
+      "edge_id": "practice_a4b52407467bed8c023afced",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P097",
+      "practice": "PAT:030",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The Canonical interview informs where local-model packaging and agent-friendly operating-system interfaces may place execution outside the model. The preview describes exploratory features and support plans, not verified current tool behavior or authorization guarantees.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "An interview with Canonical explains accelerator support, local-model packaging, developer tooling and exploratory agent-friendly OS features."
+      },
+      "edge_id": "practice_8d273a3a4fb92e4d6e6f4783",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P098",
+      "practice": "PAT:060",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The Kleppmann and Riccomini excerpts on cloud versus self-hosting inform comparing infrastructure routes with their ongoing ownership obligations. These are attributed book arguments introduced by Orosz, not a measured universal cost advantage or an AI-productivity experiment.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Orosz introduces authorized excerpts by Martin Kleppmann and Chris Riccomini on cloud versus self-hosting and engineers’ ethical responsibilities."
+      },
+      "edge_id": "practice_243086aeda2e697360861f13",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P100",
+      "practice": "PAT:059",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The distinction between fundamental software difficulty and tool-level improvement cautions against inferring whole-workflow gains from a faster implementation operation. The restricted Brooks discussion is conceptual context, not an empirical estimate of AI's effect.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Orosz revisits Brooks’s distinction between fundamental software difficulty and tool-level improvement."
+      },
+      "edge_id": "practice_65d642f1b0f9e2fb4af8a406",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P101",
+      "practice": "PAT:050",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The survey's separate accounts of less-experienced engineers, focus and cognitive load inform asking what independent reasoning should remain visible during adoption. Subjective reports from the shared 2026 cohort do not demonstrate retained learning or causal skill change.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "The final analysis of the publication’s 2026 reader survey examines team adoption, codebase quality, less-experienced engineers and differing experiences of focus and cognitive load."
+      },
+      "edge_id": "practice_3d5f49fc0ea3b7315278936d",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P105",
+      "practice": "PAT:076",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "Reported pressure on operational safeguards cautions that greater code production must not silently replace the predicates and owners required for progression. The organizational claims remain attributed reporting, not a verified causal explanation of AI-related failures.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Orosz contrasts Meta’s earlier engineering culture with reported AI-related restructuring, pressure on developers and weakening operational safeguards."
+      },
+      "edge_id": "practice_2224ba468ebe0b3bcff9b498",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P106",
+      "practice": "PAT:017",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The zone-dependent matching-engine outage illustrates the consequences of an insufficiently bounded shared failure domain and manual recovery dependence. The disclosed architecture and public analysis are not an independent resilience test or a general failover guarantee.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Analyses a May 2026 trading outage through the disclosed matching-engine architecture, zone dependence and manual recovery requirements."
+      },
+      "edge_id": "practice_ae03d5f7ba16ae904fd5943a",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P107",
+      "practice": "PAT:052",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The contrast between agent-produced changes and review/reliability capacity informs limiting the review workload to decisions people can substantiate. The keynote synthesis reuses P103 and P105 material and does not provide independent confirmations of their claims.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "A keynote-based synthesis contrasts rapid growth in agent-produced changes with review, reliability and team-productivity constraints."
+      },
+      "edge_id": "practice_11e374a26b132cc88635df0d",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P110",
+      "practice": "PAT:023",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The account of Ralph-style loops and scheduled harness features informs considering an external controller for repeated goal-oriented work. The discussed Osmani blog edition is the same underlying work catalogued as O012; paid details and comparative loop outcomes remain unreviewed.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Orosz traces Ralph-style loops, scheduled triggers and goal-oriented harness features."
+      },
+      "edge_id": "practice_61f079b82de5f9591f2f6f1a",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P111",
+      "practice": "PAT:060",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Simon Eskildsen's resource estimates inform making the infrastructure assumptions behind a design's cost explicit before committing to it. Back-of-the-envelope estimates are not observed bills or full lifecycle returns, and the disclosed podcast sponsorship remains part of the reporting context.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "An interview with Simon Eskildsen connects back-of-the-envelope resource estimates, long-term systems experience and the design of turbopuffer."
+      },
+      "edge_id": "practice_34210f4f9a1bf1d21534c700",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P112",
+      "practice": "PAT:059",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "Comparing a reported migration duration with an estimated engineering counterfactual cautions against presenting the difference as a controlled time-saving effect. The retained company preview provides implementation context rather than a causal productivity estimate.",
+      "scope": "boundary",
+      "basis": {
+        "field": "limitation",
+        "excerpt": "Reported migration duration is compared with an estimated engineering counterfactual, not a controlled time-saving experiment."
+      },
+      "edge_id": "practice_88dc744ef9fa1628cd7cc5f8",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P113",
+      "practice": "PAT:034",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Optiver's platform ownership and risk-management context inform identifying who may permit and accept AI-related changes in a tightly coupled system. The company preview is not an audit of authorization enforcement or proof that reported controls cover every effect.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "A company deepdive introduces trading-specific engineering incentives, tightly integrated hardware/software, platform ownership, risk management and AI adoption."
+      },
+      "edge_id": "practice_9528065c9345947e13c08630",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P115",
+      "practice": "PAT:003",
+      "collection": "P",
+      "relation": "ILLUSTRATES_PRACTICE",
+      "relation_label": "Illustrates practice",
+      "primary": true,
+      "rationale": "Ramp's background agent in remote sandboxes illustrates unattended preparation of coding candidates with internal integrations and verification. The retained preview does not establish that a completed agent job is independently accepted or ready for release.",
+      "scope": "reported_application",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Interviews with Ramp describe a background coding agent running in remote sandboxes with internal integrations and backend/frontend verification."
+      },
+      "edge_id": "practice_3bf0b86056b33e5e12d81cb5",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P115",
+      "practice": "PAT:027",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": false,
+      "rationale": "Self-run tests and screenshots do not establish an independent acceptance oracle, making the Ramp account a concrete boundary for separating maker output from justified acceptance. Its agent-origin PR share is not a quality-adjusted productivity measure.",
+      "scope": "boundary",
+      "basis": {
+        "field": "limitation",
+        "excerpt": "Self-run tests and screenshots do not by themselves establish an independent acceptance oracle."
+      },
+      "edge_id": "practice_e642fb166f9e2b18b76b2298",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P116",
+      "practice": "PAT:035",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The author's handling of a high-volume pitch queue and use of an AI-assisted email workflow inform separating automated assistance from human priority and guest-selection decisions. The record does not establish an urgent-item ranking method, measured recall or permission for autonomous replies.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Explains how the author selects podcast guests and handles high volumes of promotional pitches, including his own AI-assisted email workflow."
+      },
+      "edge_id": "practice_49d03528b9ee17422057bbc2",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P117",
+      "practice": "PAT:058",
+      "collection": "P",
+      "relation": "ILLUSTRATES_PRACTICE",
+      "relation_label": "Illustrates practice",
+      "primary": true,
+      "rationale": "The essay invitation illustrates explicit contributor-authorship expectations and editorial selection rules, relevant to separating a written assistance policy from evidence of enforcement. This is a publication-policy example, not an engineering outcome; proposed AI-writing detection is not validated.",
+      "scope": "reported_application",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Invites first-hand accounts of changing engineering practice, including AI adoption, with explicit editorial selection and human-authorship expectations."
+      },
+      "edge_id": "practice_60e0f559458743bbbc73d159",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P118",
+      "practice": "PAT:010",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "The requirement to review AI feedback informs treating generated findings as hypotheses to check before initiating a repair. The preview does not establish that acting on an AI comment improves the candidate or that reviewer agreement is independent evidence.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "The article surveys responses to growing AI-generated review workloads: reviewing AI feedback, routing by blast radius, inspecting plans and tests, reducing patch size, and retaining manual review."
+      },
+      "edge_id": "practice_bd21d90d2e25e01c944d1397",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P118",
+      "practice": "PAT:046",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "Reducing patch size informs choosing a coherent reviewable increment when generated changes exceed reviewer attention. The proposal does not supply an optimal line-count threshold or show that smaller patches remove cross-cutting dependencies.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "The article surveys responses to growing AI-generated review workloads: reviewing AI feedback, routing by blast radius, inspecting plans and tests, reducing patch size, and retaining manual review."
+      },
+      "edge_id": "practice_c4998dc5340e93417a44d48d",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P118",
+      "practice": "PAT:052",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Routing by blast radius and retaining manual review inform selecting a proportionate review path as generated workloads grow. The preview surveys possible responses and does not establish a universally effective sequence of review stages.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "The article surveys responses to growing AI-generated review workloads: reviewing AI feedback, routing by blast radius, inspecting plans and tests, reducing patch size, and retaining manual review."
+      },
+      "edge_id": "practice_f8095a8b54040faef321a35c",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P119",
+      "practice": "PAT:042",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The company-visit account informs deciding which agent integrations and feedback mechanisms belong in a composed engineering workflow. It is not a capstone evaluation: selected interviewees and unusually permissive token budgets limit transfer, and no general benefit of a large stack is established.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "A company-visit report describes Codex adoption, internal integrations and feedback loops extending into performance work and infrastructure."
+      },
+      "edge_id": "practice_92e5a4cff4df242acd2f3b92",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P120",
+      "practice": "PAT:017",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The Windows interviews' identity and isolation design informs treating the execution boundary as an operating-system responsibility rather than a model promise. The restricted preview does not verify the isolation guarantees or current availability of the described features.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Interviews with Microsoft staff outline agent identity, local MCP discovery, isolation, local-model support and developer experience on Windows."
+      },
+      "edge_id": "practice_89f839badb7341a2240195aa",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P121",
+      "practice": "PAT:063",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "Shopify's reported return to native mobile development cautions against selecting an implementation approach from a framework-wide verdict. A local comparison should preserve its own requirements; one team's migration does not establish that cross-platform alternatives are obsolete.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "The public preview examines Shopify’s return to native mobile development after previously adopting React Native."
+      },
+      "edge_id": "practice_58a38d19a9fe6d372390866f",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P122",
+      "practice": "PAT:059",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The unresolved year inconsistency in the PR-volume discussion cautions against using an ambiguous observation window for engineering-output claims. The keynote also synthesizes prior P reporting, so its extrapolation is not a new independent measurement.",
+      "scope": "boundary",
+      "basis": {
+        "field": "limitation",
+        "excerpt": "The article contains an apparent October 2025/2026 date inconsistency in its PR-volume discussion; do not import those numerical estimates without primary-source checking."
+      },
+      "edge_id": "practice_a1defc4e03a4d9c73070c325",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P124",
+      "practice": "PAT:016",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "Sam Newman's discussion of model changes informs rechecking whether earlier evaluations and assumptions still apply after an underlying provider or model changes. The authorized excerpts are expert guidance, not a complete audit of the book or a controlled drift-detection result.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Authorized Sam Newman excerpts connect disaster recovery with model changes, provider dependence, evaluation, observability and visible AI costs."
+      },
+      "edge_id": "practice_2414e693c4c06e209e25d1ac",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P124",
+      "practice": "PAT:060",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "Visible AI costs and provider dependence inform including operating and recovery obligations when comparing infrastructure routes. The excerpt does not establish a universal return or independently audited numerical cost model.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Authorized Sam Newman excerpts connect disaster recovery with model changes, provider dependence, evaluation, observability and visible AI costs."
+      },
+      "edge_id": "practice_c10f795e54a1baab99f6ad32",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P125",
+      "practice": "PAT:059",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "The contrast between spending and PR throughput cautions against making output volume the benefit measure for AI adoption. The public sections combine nonrandom workplace reports and vendor aggregates; they do not identify causal or quality-adjusted gains.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Reporting from 27 workplaces, combined with CodeRabbit and Gitar aggregates, describes wide variation in AI spending and changes in pull-request throughput. Public examples include higher spending with little throughput change as well as large output increases. The piece supplies practitioner context for spending limits and for measuring benefits beyond PR counts; it does not establish a causal return on AI spending."
+      },
+      "edge_id": "practice_830b7979837580e97211937a",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P125",
+      "practice": "PAT:060",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "Wide variation in AI spending informs making local cost boundaries and accepted-value assumptions explicit before setting a budget or claiming a return. Only sections 1–3 and introductory material support this link; paid company details and the final ROI discussion were not reconstructed.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Reporting from 27 workplaces, combined with CodeRabbit and Gitar aggregates, describes wide variation in AI spending and changes in pull-request throughput. Public examples include higher spending with little throughput change as well as large output increases. The piece supplies practitioner context for spending limits and for measuring benefits beyond PR counts; it does not establish a causal return on AI spending."
+      },
+      "edge_id": "practice_51fa84714e6b0c4beb076717",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P126",
+      "practice": "PAT:029",
+      "collection": "P",
+      "relation": "ILLUSTRATES_PRACTICE",
+      "relation_label": "Illustrates practice",
+      "primary": true,
+      "rationale": "Vendor accounts of service graphs, memory and incident-context gathering illustrate retrieving operational information that an agent cannot infer reliably from its immediate prompt. The public preview is not an independent accuracy or speed benchmark, and the incident.io investment remains disclosed.",
+      "scope": "reported_application",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Interviews with Rootly, incident.io and ResolveAI describe agents that gather incident context, investigate hypotheses and support engineers in collaboration tools. Public sections distinguish investigation from autonomous remediation, explain service graphs and memory, and discuss data-access and trust constraints. The piece illustrates operational agent design rather than independently benchmarking these tools."
+      },
+      "edge_id": "practice_d3c97e052fa0128b77100b01",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P126",
+      "practice": "PAT:034",
+      "collection": "P",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "The public distinction between investigation and autonomous remediation informs treating diagnosis and permission to change production as separate decisions. The interviews do not demonstrate enforcement, and subscriber sections on later operational outcomes were not reviewed.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Interviews with Rootly, incident.io and ResolveAI describe agents that gather incident context, investigate hypotheses and support engineers in collaboration tools. Public sections distinguish investigation from autonomous remediation, explain service graphs and memory, and discuss data-access and trust constraints. The piece illustrates operational agent design rather than independently benchmarking these tools."
+      },
+      "edge_id": "practice_ee8e828026b57fbf93e6ec7e",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P127",
+      "practice": "PAT:052",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": false,
+      "rationale": "The guest account's review changes, ownership changes and context-switching fatigue inform checking whether review capacity can sustain higher output. It is a single-person retrospective, not a validated recommendation to remove or standardize review stages.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Neil Kakkar compares his own work at an AI-native startup with earlier employers and reports roughly eleven times as many merged PRs as at his previous startup. Alongside higher output, his account describes production errors, context-switching fatigue and loss of shared knowledge as review practices and ownership change. Editorial commentary distinguishes iteration speed from business results."
+      },
+      "edge_id": "practice_933c2255cc8a1404d0421dbf",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "P127",
+      "practice": "PAT:059",
+      "collection": "P",
+      "relation": "CAUTIONS_PRACTICE",
+      "relation_label": "Cautions about practice",
+      "primary": true,
+      "rationale": "Neil Kakkar's higher merged-PR output alongside errors and changed work practices cautions against treating roughly elevenfold PR counts as causal productivity. Different employers, roles and products confound the comparison; linked data were not independently recomputed.",
+      "scope": "boundary",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Neil Kakkar compares his own work at an AI-native startup with earlier employers and reports roughly eleven times as many merged PRs as at his previous startup. Alongside higher output, his account describes production errors, context-switching fatigue and loss of shared knowledge as review practices and ownership change. Editorial commentary distinguishes iteration speed from business results."
+      },
+      "edge_id": "practice_fb4b974ef9ded41f1196ae68",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
     }
   ]
 }

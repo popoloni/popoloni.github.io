@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "atlas_current.html",
-    "snapshot": "2026-11-06",
-    "site_version": "13.4",
+    "snapshot": "2026-11-07",
+    "site_version": "13.5",
     "count": 6,
     "note": "Materialized view of the current audited graph; complete node fields retained. Source inspection and publication status are recorded per item. The builder performs no new empirical validation."
   },
@@ -345,5 +345,6 @@
         "amazon_url": "https://www.amazon.com/dp/B0HN9J7VZG"
       }
     }
-  ]
+  ],
+  "practice_relationships": []
 }

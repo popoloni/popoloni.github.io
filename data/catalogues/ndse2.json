@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "atlas_current.html",
-    "snapshot": "2026-11-06",
-    "site_version": "13.4",
+    "snapshot": "2026-11-07",
+    "site_version": "13.5",
     "count": 13,
     "note": "Materialized view of the current audited graph; complete node fields retained. Source inspection and publication status are recorded per item. The builder performs no new empirical validation."
   },
@@ -643,6 +643,450 @@
         "kind": "published_book_chapter",
         "node_class": "NDSE2_PUBLISHED_EDITION_20261018"
       }
+    }
+  ],
+  "practice_relationships": [
+    {
+      "source": "NDSE2:C01",
+      "practice": "PAT:027",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The chapter separates intention, implementation, verification and acceptance around an operable change. It informs maker-checker responsibilities as an engineering synthesis, not an independent validation of the complete practice.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Defines an accepted, operable change as the unit of engineering work. The approval-routing case separates business intention, implementation, verification and acceptance, showing why brownfield understanding and explicit decision rights still matter when an AI agent generates the patch."
+      },
+      "edge_id": "practice_33b88ef7949949d69fba70d9",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C01",
+      "practice": "PAT:053",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "The approval-routing case makes brownfield understanding necessary even when a model generates the patch. It informs locating existing behavior and decision rights before a change, without treating the teaching case as an experiment.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Defines an accepted, operable change as the unit of engineering work. The approval-routing case separates business intention, implementation, verification and acceptance, showing why brownfield understanding and explicit decision rights still matter when an AI agent generates the patch."
+      },
+      "edge_id": "practice_deca6300ddda0274d478c256",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C02",
+      "practice": "PAT:059",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The chapter designs adoption measurement around accepted releases, review, rework, quality and hidden effort. It informs a measured learning pilot while distinguishing randomized evidence from observational comparisons.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Examines productivity measures from generated output to accepted releases. It distinguishes randomized evidence from observational comparisons and develops a pilot that records review, rework, quality and hidden human effort before an adoption decision."
+      },
+      "edge_id": "practice_58149958b3fd856e9c8ddb84",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C03",
+      "practice": "PAT:083",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The chapter constrains agents with permissions, tools, budgets, stops and escalation. It informs bounded autonomy while keeping technical completion separate from authorized acceptance.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Turns agent capability into a bounded engineering hypothesis. Permissions, tools, budgets, stopping rules and escalation constrain execution; the chapter compares execution routes and parallel work while keeping technical completion separate from authorized acceptance."
+      },
+      "edge_id": "practice_611192d29bdcf0bf2a6f5123",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C03",
+      "practice": "PAT:084",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "Escalation and stopping are explicit conditions of the chapter's bounded capability hypothesis. They inform turning an execution limit into an accountable decision rather than an unbounded retry.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Turns agent capability into a bounded engineering hypothesis. Permissions, tools, budgets, stopping rules and escalation constrain execution; the chapter compares execution routes and parallel work while keeping technical completion separate from authorized acceptance."
+      },
+      "edge_id": "practice_7fe8d7353cf65001f988f7a4",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C04",
+      "practice": "PAT:016",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "Late policy changes invalidate affected decisions and evidence in the chapter's model. This informs drift detection that marks previously valid material stale rather than silently treating it as current authority.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Develops a versioned intention contract for an existing service. Behavioral examples and acceptance rules are established independently of implementation, while late policy changes trigger targeted impact analysis and invalidate only the decisions and evidence they affect."
+      },
+      "edge_id": "practice_47879b0e0284e6c6b0ad1429",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C04",
+      "practice": "PAT:043",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The chapter establishes versioned intentions, behavioral examples and acceptance rules independently of implementation. It informs specification-first work while preserving controlled revision when the policy changes.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Develops a versioned intention contract for an existing service. Behavioral examples and acceptance rules are established independently of implementation, while late policy changes trigger targeted impact analysis and invalidate only the decisions and evidence they affect."
+      },
+      "edge_id": "practice_7b2b0cac3994b1397ec38adc",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C05",
+      "practice": "PAT:015",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The chapter distinguishes immediate correctness from maintenance and later-change obligations. It informs regression protection that preserves expected behavior while recognizing that a passing suite is not complete quality assurance.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Separates immediate correctness from architectural fit and maintenance obligations. Through duplication, post-merge evidence and a second change to the running service, it develops fitness checks and explicit stewardship instead of treating a passing test suite as complete quality assurance."
+      },
+      "edge_id": "practice_5e771ec67d87fae6e1e2b517",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C05",
+      "practice": "PAT:040",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "Post-merge evidence and the next change expose continuing stewardship duties. They inform bounded cleanup after integration, while protecting the obligations and history needed by the next engineer.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Separates immediate correctness from architectural fit and maintenance obligations. Through duplication, post-merge evidence and a second change to the running service, it develops fitness checks and explicit stewardship instead of treating a passing test suite as complete quality assurance."
+      },
+      "edge_id": "practice_280a92364ef7b772dc26a39d",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C06",
+      "practice": "PAT:051",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The chapter threat-models both the generated application and the agent runtime. It informs security-first development with enforceable permissions and security evidence tied to the release decision.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Threat-models two distinct surfaces: the generated application and the agent runtime. Dependency provenance, prompt injection, tool permissions and external services become enforceable boundaries, with security evidence tied to the release decision."
+      },
+      "edge_id": "practice_6538ca27f654d4bedd1cf3aa",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C06",
+      "practice": "PAT:078",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "Prompt injection appears as a distinct runtime threat. It informs recognizing lower-trust instructions while requiring enforceable boundaries beyond the presence of a detector.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Threat-models two distinct surfaces: the generated application and the agent runtime. Dependency provenance, prompt injection, tool permissions and external services become enforceable boundaries, with security evidence tied to the release decision."
+      },
+      "edge_id": "practice_d16c14ba4520ab5d2db52dd9",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C06",
+      "practice": "PAT:079",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "Dependency provenance and external services are explicit trust boundaries in the chapter. They inform examining what suggested components may install, execute or access before accepting supply-chain exposure.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Threat-models two distinct surfaces: the generated application and the agent runtime. Dependency provenance, prompt injection, tool permissions and external services become enforceable boundaries, with security evidence tied to the release decision."
+      },
+      "edge_id": "practice_1b976f7670b1736881468ab1",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C07",
+      "practice": "PAT:027",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The chapter treats independent authorized behavior as the verification reference and exposes correlated checker errors. It informs maker-checker separation without granting the candidate producer acceptance authority.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Builds independent verification around authorized behavior. Regression cases, properties, counterexamples and mutants expose circular testing; correlated checker errors and benchmark limits motivate an evidence dossier that supports review without granting the maker acceptance authority."
+      },
+      "edge_id": "practice_99ba0466ac20086c0a966f45",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C07",
+      "practice": "PAT:044",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "Regression cases, properties, counterexamples and mutants expose circular tests in the chapter. They inform test-driven work whose tests must not merely share the implementation's mistaken interpretation.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Builds independent verification around authorized behavior. Regression cases, properties, counterexamples and mutants expose circular testing; correlated checker errors and benchmark limits motivate an evidence dossier that supports review without granting the maker acceptance authority."
+      },
+      "edge_id": "practice_83454fdf554b8f43fe3f1bee",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C07",
+      "practice": "PAT:082",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "The evidence dossier ties verification results to the candidate under review. It informs evidence-pack provenance while retaining the oracle problem and the limits of benchmark-derived assurance.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Builds independent verification around authorized behavior. Regression cases, properties, counterexamples and mutants expose circular testing; correlated checker errors and benchmark limits motivate an evidence dossier that supports review without granting the maker acceptance authority."
+      },
+      "edge_id": "practice_a5ff9349a6fe1fa28a634cc9",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C08",
+      "practice": "PAT:022",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "Automation bias, false positives and shared blind spots make reliance a review decision rather than a reaction to fluent output. They inform trust calibration without treating reviewer agreement as independent evidence.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Allocates review effort by consequence and uncertainty. It examines human and AI reviewers, false positives, shared blind spots and automation bias, then separates finding disposition, coverage of acceptance obligations and the accountable release verdict."
+      },
+      "edge_id": "practice_c0d94e007b2b93c8a41fb7a1",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C08",
+      "practice": "PAT:052",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The chapter allocates human and AI review by consequence and uncertainty. It informs a review gauntlet with accountable finding disposition, coverage assessment and a separate release verdict.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Allocates review effort by consequence and uncertainty. It examines human and AI reviewers, false positives, shared blind spots and automation bias, then separates finding disposition, coverage of acceptance obligations and the accountable release verdict."
+      },
+      "edge_id": "practice_6460da6040909a0d1e809e89",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C09",
+      "practice": "PAT:029",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The chapter gives context and persistent memory provenance, ownership and expiry. It informs retrieval that preserves uncertainty and invalidation, rather than presenting available text as automatically authoritative.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Treats context and persistent memory as claims with provenance, ownership and expiry. It develops software-specific knowledge records and invalidation rules, then uses a handoff and an explicitly limited retrieval comparison to test what a successor can reconstruct."
+      },
+      "edge_id": "practice_fcba5e84aa68a09637c1fbfa",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C09",
+      "practice": "PAT:072",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "The chapter's handoff checks what a successor can reconstruct from retained knowledge. It informs transfer of constraints and unresolved decisions, with the retrieval comparison explicitly limited in scope.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Treats context and persistent memory as claims with provenance, ownership and expiry. It develops software-specific knowledge records and invalidation rules, then uses a handoff and an explicitly limited retrieval comparison to test what a successor can reconstruct."
+      },
+      "edge_id": "practice_dbd371d600394233a0a00653",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C10",
+      "practice": "PAT:050",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The chapter distinguishes assisted completion from retained competence using delayed retention and transfer checks. It informs preserving the learning loop while treating proposed competence instruments as needing validation.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Distinguishes assisted task completion from retained competence. Mentoring, explanations, repairs and deliberate practice lead to delayed retention and transfer checks; proposed competence measures remain instruments to validate rather than established scores."
+      },
+      "edge_id": "practice_2bf3a4e9be3bc5601ed7e9aa",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C10",
+      "practice": "PAT:055",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "Mentoring, explanations and repairs keep the learner responsible for a mental model. They inform trio programming as a teaching design, not a demonstrated causal improvement in learner outcomes.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Distinguishes assisted task completion from retained competence. Mentoring, explanations, repairs and deliberate practice lead to delayed retention and transfer checks; proposed competence measures remain instruments to validate rather than established scores."
+      },
+      "edge_id": "practice_392ad5aeb5c99470a594b6f8",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C11",
+      "practice": "PAT:032",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The chapter assigns policy, making, checking and release responsibilities across parallel work. It informs one-owner coordination through late intention changes while respecting review capacity and operational feedback.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Moves from individual output to team throughput and decision rights. Policy owners, makers, checkers and release authorities coordinate parallel work and late intention changes, with operational feedback and review capacity governing staged, reversible adoption."
+      },
+      "edge_id": "practice_ae26f599f3b217f9fcc5bb05",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C11",
+      "practice": "PAT:058",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "Explicit policy owners and decision rights connect organizational rules to actual changes. They inform acceptable-use obligations within staged, reversible adoption rather than treating a policy document as an enforcement mechanism.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Moves from individual output to team throughput and decision rights. Policy owners, makers, checkers and release authorities coordinate parallel work and late intention changes, with operational feedback and review capacity governing staged, reversible adoption."
+      },
+      "edge_id": "practice_cb597cfb04b902c5649dd4eb",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C12",
+      "practice": "PAT:059",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": false,
+      "rationale": "The adoption decision requires a counterfactual, uncertainty bounds and a reversal condition. It informs measuring outcomes while keeping employment evidence and alternative explanations separate from forecasts.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Evaluates the economics of the whole engineering loop, including human effort, failed attempts, maintenance and risk. Employment evidence and alternative explanations remain separate from forecasts; adoption requires a counterfactual, uncertainty bounds and a reversal condition."
+      },
+      "edge_id": "practice_5b162b8f8bc3729c84287a9d",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C12",
+      "practice": "PAT:060",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The chapter includes human effort, failed attempts, maintenance and risk in whole-loop economics. It informs cost management with a counterfactual and uncertainty bounds instead of token-price or employment-forecast shortcuts.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Evaluates the economics of the whole engineering loop, including human effort, failed attempts, maintenance and risk. Employment evidence and alternative explanations remain separate from forecasts; adoption requires a counterfactual, uncertainty bounds and a reversal condition."
+      },
+      "edge_id": "practice_1bd018b5d29b2b354e288118",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
+    },
+    {
+      "source": "NDSE2:C13",
+      "practice": "PAT:042",
+      "collection": "N",
+      "relation": "INFORMS_PRACTICE",
+      "relation_label": "Informs practice",
+      "primary": true,
+      "rationale": "The chapter selects and combines mechanisms from the observed problem and remaining obligations. It informs evaluating the combined workflow while making omission of unnecessary mechanisms an explicit option.",
+      "scope": "thematic",
+      "basis": {
+        "field": "summary",
+        "excerpt": "Selects and combines practices from the observed problem rather than a fixed workflow. It compares proportionate responses, exposes over-engineering and unsafe shortcuts, and connects earlier volumes while asking which mechanisms can be omitted without losing the change obligations."
+      },
+      "edge_id": "practice_098146c7d8022f0d6bcc3c05",
+      "reviewed_on": "2026-11-07",
+      "provenance": "Reviewed source-to-practice classification from the frozen Atlas annotations or exact historical occurrence route, 2026-11-07"
     }
   ]
 }
