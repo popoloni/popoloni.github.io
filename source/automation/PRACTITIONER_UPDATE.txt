@@ -1,0 +1,129 @@
+REVIEWED PRACTITIONER SOURCES AND AUTHOR CONTEXT
+==============================================
+
+Review kind: atlas_practitioner_update/1
+CLI: source/automation/atlas_cli.py
+
+The ordinary additions array still accepts only reviewed O, P and F sources.
+This named review kind adds one narrow, explicit context_additions array for
+new credited authors on martinfowler.com. It does not authorize W, book,
+practice, publisher or arbitrary context additions. Other review kinds reject
+the context_additions field, even when its value is an empty list.
+
+All existing generic gates remain active: immutable baseline hashes, release
+and date matching, completed editorial review, O/P/F source coverage, explicit
+coverage-gap resolutions, a decision for every discovered candidate, honest
+primary-text access, source deduplication and book-policy agreement. Source
+additions and revisions continue to use their existing schema. Context nodes
+cannot satisfy source-candidate decisions.
+
+Author context schema
+---------------------
+
+Each context_additions entry must have:
+
+- id matching AUTHOR:MF:[a-z0-9-]+, unique within this review and absent from
+  the baseline; an existing contributor ID must be reused, not added again;
+- collection explicitly null, kind credited_author, category contributors;
+- nonempty label, summary and authors; authors names the same person as label;
+- actual explicitly [], volumes explicitly [], and printed explicitly false;
+- a public martinfowler.com url identifying the inspected primary article;
+- attributes.provenance with a concrete byline-review explanation;
+- attributes.evidence_review with reviewed_on equal to the run date,
+  access full_public, a martinfowler.com url and a nonempty inspection scope.
+
+Only normalized contributor fields are accepted at the top level. Optional
+streams, topics and mapped must be empty; year must be empty; limitation may
+be text. No top-level evidence shortcut or ref alias is accepted for context:
+the explicit stable author ID and persisted evidence attributes are required.
+
+Input attributes support only provenance, source_url and evidence_review.
+When supplied, source_url must identify the same inspected article as url and
+evidence_review.url. Book/citation, source identity and other unsupported
+attributes are rejected, including assertions that merely set a protected
+field to false or to an empty value.
+
+Evidence supports reviewed_on, access, url, scope, locator, note,
+inspection_depth, http_status, source_sha256, source_bytes and
+body_included_in_deliverable. These fields record the declared inspection;
+the offline build does not fetch the article or independently reproduce it.
+
+Binding to included articles
+----------------------------
+
+Every author label must occur in the attributes.authors_json JSON array of
+at least one newly included F article. That article must have dated
+full_public evidence with a concrete scope. Its article URL, inspected
+evidence URL and the author context's evidence URL must identify the same
+primary martinfowler.com article. URL comparison removes fragments and known
+tracking parameters through the existing conservative normalizer; it does
+not rewrite path case or invent equivalence between distinct articles.
+
+An author page, feed announcer, site owner, external biography, preview or
+metadata-only source cannot establish this binding. A contributor associated
+only with an older baseline record needs a separately reviewed path; this
+adapter is limited to bylines of the newly included articles.
+
+Example context entry (replace it with the byline actually inspected):
+
+  {
+    "id": "AUTHOR:MF:rachel-laycock",
+    "collection": null,
+    "kind": "credited_author",
+    "category": "contributors",
+    "label": "Rachel Laycock",
+    "authors": "Rachel Laycock",
+    "summary": "Credited contributor; authorship follows the primary byline.",
+    "url": "https://martinfowler.com/rachels-ramblings/citizens-agents-experts.html",
+    "actual": [],
+    "volumes": [],
+    "printed": false,
+    "attributes": {
+      "provenance": "Primary article byline inspected on 2026-11-06.",
+      "source_url": "https://martinfowler.com/rachels-ramblings/citizens-agents-experts.html",
+      "evidence_review": {
+        "reviewed_on": "2026-11-06",
+        "access": "full_public",
+        "url": "https://martinfowler.com/rachels-ramblings/citizens-agents-experts.html",
+        "scope": "Complete public article and its credited byline."
+      }
+    }
+  }
+
+Relationships involving a new context node are optional but, if supplied,
+must be incoming F_AUTHORED_BY edges in the provenance family. Their source
+is the ID or $ref of an included F article; the target's author must appear
+in that particular article's authors_json. Edge attributes require concrete
+provenance and source_url matching that article's inspected primary URL.
+This independently checks each link when one author has several articles.
+The general ban on editorial actual-use and literal-citation edges remains.
+
+Build, audit and package
+-----------------------
+
+Use the existing prepare, discover, build, check and package commands. Set
+kind to atlas_practitioner_update/1 and place authors in context_additions,
+never in additions. Keep source decisions tied to the actual source records.
+All archive and baseline checks retain their ordinary behavior.
+
+build_to validates context before copying the baseline, then appends a copy
+of those nodes after the source additions in the engine input. The original
+review remains separated and unmodified. Source positions and stable ID
+allocation therefore remain consistent with catalogue and release rendering.
+Context additions participate in change detection and are recorded separately
+in the graph audit, site configuration and automation release metadata.
+
+Each new graph node retains its evidence and provenance plus the named review
+kind, review-artifact path, release and date. Graph metadata links to the
+review and lists the author IDs. source_additions and collection counts contain
+source records only; contributors do not increase F or other source totals.
+Existing node IDs, indices, keyed edges, book fields and practice content
+remain protected by the normal graph and release validation.
+
+Static pages, normalized/raw JSON, GraphML and catalogue exports are rebuilt
+by the normal renderer. check still runs structural and real-browser checks
+and two reproducibility builds. package still requires current successful
+verification and tests actual baseline-plus-delta equality with the full ZIP.
+For a cumulative delta over an earlier published release, follow
+CUMULATIVE_UPDATE.txt; an intermediate working checkpoint does not establish
+that a release has been deployed.

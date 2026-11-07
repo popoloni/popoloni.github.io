@@ -1,9 +1,9 @@
 {
   "meta": {
-    "source": "atlas_v13_current.html",
-    "snapshot": "2026-10-18",
-    "site_version": "13.2",
-    "count": 51,
+    "source": "atlas_current.html",
+    "snapshot": "2026-11-06",
+    "site_version": "13.4",
+    "count": 62,
     "note": "Materialized view of the current audited graph; complete node fields retained. Source inspection and publication status are recorded per item. The builder performs no new empirical validation."
   },
   "records": [
@@ -4095,6 +4095,892 @@
         "C:C05",
         "C:C08"
       ]
+    },
+    {
+      "id": "O052",
+      "label": "Your parallel Agent limit",
+      "kind": "practitioner_article",
+      "collection": "O",
+      "category": null,
+      "streams": [
+        "T:Engineering structure",
+        "T:Productivity",
+        "T:Skills & learning"
+      ],
+      "actual": [],
+      "mapped": [
+        "C:C03",
+        "C:C08",
+        "C:C11"
+      ],
+      "printed": false,
+      "summary": "Osmani argues that parallel agent work is constrained by a person’s capacity to understand, evaluate and integrate separate tasks. He recommends adjusting concurrency to task complexity and review quality, defining time limits and acceptance criteria, and reducing per-task scope when supervision becomes shallow.",
+      "limitation": "Personal experience and heuristics, not a controlled comparison of concurrency levels or a universal maximum number of agents. Claims about fatigue and task switching are not newly measured in this article.",
+      "url": "https://addyosmani.com/blog/cognitive-parallel-agents/",
+      "authors": "Addy Osmani",
+      "year": "2026-04-07",
+      "topics": [
+        "K:Human cognitive load",
+        "K:Review capacity and maintainers",
+        "K:Human-agent collaboration",
+        "K:Cognitive offloading and skill debt"
+      ],
+      "volumes": [],
+      "attributes": {
+        "authors_json": "[\"Addy Osmani\"]",
+        "publication_date": "2026-04-07",
+        "original_publication_date": "2026-04-07",
+        "publication_date_basis": "Displayed publication date on the official article and its current personal-blog index card.",
+        "year": "2026",
+        "canonical_url": "https://addyosmani.com/blog/cognitive-parallel-agents/",
+        "evidence_class": "Theory / argument (not a new result)",
+        "source_evidence_urls": [
+          "https://addyosmani.com/blog/cognitive-parallel-agents/",
+          "https://addyosmani.com/blog/",
+          "https://addyosmani.com/sitemap.xml"
+        ],
+        "source_scope": "Distinct older article surfaced by the current personal-blog index; explicit backfill.",
+        "node_class": "REVIEWED_PRACTITIONER_COMPANION_SOURCE",
+        "primary_research": false,
+        "verification_status": "primary_article_content_verified",
+        "source_review_notes": [
+          "Distinct AI/software-engineering article surfaced by the current official blog index and absent from all source collections. Included as a historical omission discovered now, not as a newly published November article.",
+          "Publisher sitemap value; aligns with the displayed publication date. It is not independently established as a substantive revision timestamp."
+        ],
+        "evidence_design_details": "Practitioner essay / technical guidance (not peer-reviewed)",
+        "reviewed_evidence_class": "Theory / argument (not a new result)",
+        "original_evidence_class": "Theory / argument (not a new result)",
+        "evidence_review": {
+          "reviewed_on": "2026-11-06",
+          "access": "full_public",
+          "url": "https://addyosmani.com/blog/cognitive-parallel-agents/",
+          "scope": "Primary article, displayed date, author attribution and the author’s scope/time-boxing recommendations read; no outcome replication."
+        },
+        "source_review_scope": "Primary article, displayed date, author attribution and the author’s scope/time-boxing recommendations read; no outcome replication.",
+        "discovery_category": "older_backfill",
+        "discovery_url": "https://addyosmani.com/blog/",
+        "discovered_on": "2026-11-06",
+        "publication_status": "published_practitioner_article",
+        "publication_venue": "Addy Osmani personal blog",
+        "provenance": "Primary publisher page and metadata reviewed on 2026-11-06; original atlas annotation.",
+        "replication_status": "NOT_REPLICATED",
+        "manuscript_citation_status": "COMPANION_READING_ABSENT_FROM_CURRENT_BOOK",
+        "new_manuscript_citation": false,
+        "research_link_semantics": "Editorial reading mappings and comparisons are not new manuscript citations or independent corroboration.",
+        "label": "Your parallel Agent limit",
+        "authors": "Addy Osmani",
+        "summary": "Osmani argues that parallel agent work is constrained by a person’s capacity to understand, evaluate and integrate separate tasks. He recommends adjusting concurrency to task complexity and review quality, defining time limits and acceptance criteria, and reducing per-task scope when supervision becomes shallow.",
+        "contribution": "Osmani argues that parallel agent work is constrained by a person’s capacity to understand, evaluate and integrate separate tasks. He recommends adjusting concurrency to task complexity and review quality, defining time limits and acceptance criteria, and reducing per-task scope when supervision becomes shallow.",
+        "limitation": "Personal experience and heuristics, not a controlled comparison of concurrency levels or a universal maximum number of agents. Claims about fatigue and task switching are not newly measured in this article.",
+        "source": "https://addyosmani.com/blog/cognitive-parallel-agents/",
+        "atlas_added_release": "13.4",
+        "atlas_added_date": "2026-11-06"
+      }
+    },
+    {
+      "id": "O053",
+      "label": "Agentic Engine Optimization (AEO)",
+      "kind": "practitioner_article",
+      "collection": "O",
+      "category": null,
+      "streams": [
+        "T:System knowledge & memory",
+        "T:What agents can do"
+      ],
+      "actual": [],
+      "mapped": [
+        "C:C03",
+        "C:C09"
+      ],
+      "printed": false,
+      "summary": "Osmani proposes adapting developer documentation and interfaces to agents that fetch and consume content directly. His recommendations emphasize discoverable, concise, machine-readable documentation, clear capability descriptions and server-side observation of usage. He presents documentation indexes, skills and tool interfaces as possible components rather than a single solution.",
+      "limitation": "Practitioner proposal, explicitly not a Google-wide recommendation. Proposed formats and token targets are not universal standards; reported agent-traffic findings come from another study and do not establish improved coding outcomes.",
+      "url": "https://addyosmani.com/blog/agentic-engine-optimization/",
+      "authors": "Addy Osmani",
+      "year": "2026-04-11",
+      "topics": [
+        "K:Agent context and persistent memory",
+        "K:Developer workflow and adoption",
+        "K:Specifications and governance"
+      ],
+      "volumes": [],
+      "attributes": {
+        "authors_json": "[\"Addy Osmani\"]",
+        "publication_date": "2026-04-11",
+        "original_publication_date": "2026-04-11",
+        "publication_date_basis": "Displayed publication date on the official article and its current personal-blog index card.",
+        "year": "2026",
+        "canonical_url": "https://addyosmani.com/blog/agentic-engine-optimization/",
+        "evidence_class": "Theory / argument (not a new result)",
+        "source_evidence_urls": [
+          "https://addyosmani.com/blog/agentic-engine-optimization/",
+          "https://addyosmani.com/blog/",
+          "https://addyosmani.com/sitemap.xml"
+        ],
+        "source_scope": "Distinct older article surfaced by the current personal-blog index; explicit backfill.",
+        "node_class": "REVIEWED_PRACTITIONER_COMPANION_SOURCE",
+        "primary_research": false,
+        "verification_status": "primary_article_content_verified",
+        "source_review_notes": [
+          "Distinct AI/software-engineering article surfaced by the current official blog index and absent from all source collections. Included as a historical omission discovered now, not as a newly published November article.",
+          "Publisher sitemap value; aligns with the displayed publication date. It is not independently established as a substantive revision timestamp."
+        ],
+        "evidence_design_details": "Practitioner essay / technical guidance (not peer-reviewed)",
+        "reviewed_evidence_class": "Theory / argument (not a new result)",
+        "original_evidence_class": "Theory / argument (not a new result)",
+        "evidence_review": {
+          "reviewed_on": "2026-11-06",
+          "access": "full_public",
+          "url": "https://addyosmani.com/blog/agentic-engine-optimization/",
+          "scope": "Primary article disclosure, agent-reading model, token-budget discussion and interface recommendations inspected. External study, proposed specifications and current product support not independently audited."
+        },
+        "source_review_scope": "Primary article disclosure, agent-reading model, token-budget discussion and interface recommendations inspected. External study, proposed specifications and current product support not independently audited.",
+        "discovery_category": "older_backfill",
+        "discovery_url": "https://addyosmani.com/blog/",
+        "discovered_on": "2026-11-06",
+        "publication_status": "published_practitioner_article",
+        "publication_venue": "Addy Osmani personal blog",
+        "provenance": "Primary publisher page and metadata reviewed on 2026-11-06; original atlas annotation.",
+        "replication_status": "NOT_REPLICATED",
+        "manuscript_citation_status": "COMPANION_READING_ABSENT_FROM_CURRENT_BOOK",
+        "new_manuscript_citation": false,
+        "research_link_semantics": "Editorial reading mappings and comparisons are not new manuscript citations or independent corroboration.",
+        "label": "Agentic Engine Optimization (AEO)",
+        "authors": "Addy Osmani",
+        "summary": "Osmani proposes adapting developer documentation and interfaces to agents that fetch and consume content directly. His recommendations emphasize discoverable, concise, machine-readable documentation, clear capability descriptions and server-side observation of usage. He presents documentation indexes, skills and tool interfaces as possible components rather than a single solution.",
+        "contribution": "Osmani proposes adapting developer documentation and interfaces to agents that fetch and consume content directly. His recommendations emphasize discoverable, concise, machine-readable documentation, clear capability descriptions and server-side observation of usage. He presents documentation indexes, skills and tool interfaces as possible components rather than a single solution.",
+        "limitation": "Practitioner proposal, explicitly not a Google-wide recommendation. Proposed formats and token targets are not universal standards; reported agent-traffic findings come from another study and do not establish improved coding outcomes.",
+        "source": "https://addyosmani.com/blog/agentic-engine-optimization/",
+        "atlas_added_release": "13.4",
+        "atlas_added_date": "2026-11-06"
+      }
+    },
+    {
+      "id": "O054",
+      "label": "Agent Harness Engineering",
+      "kind": "practitioner_article",
+      "collection": "O",
+      "category": null,
+      "streams": [
+        "T:What agents can do",
+        "T:Engineering structure",
+        "T:Verification & review"
+      ],
+      "actual": [],
+      "mapped": [
+        "C:C03",
+        "C:C06",
+        "C:C07",
+        "C:C09"
+      ],
+      "printed": false,
+      "summary": "The article treats an agent’s tools, execution environment, durable state, context policies, checks and recovery paths as engineering artifacts surrounding the model. Osmani recommends deriving these controls from desired behavior and observed failures, and using deterministic enforcement and structured handoffs where prose instructions are insufficient.",
+      "limitation": "Practitioner synthesis and first-person experience; quoted benchmark improvements and claims about other systems are not independently revalidated. No universal assurance follows from adding instructions, hooks or reviewer agents.",
+      "url": "https://addyosmani.com/blog/agent-harness-engineering/",
+      "authors": "Addy Osmani",
+      "year": "2026-04-19",
+      "topics": [
+        "K:Agent failure and escalation",
+        "K:Long-running agent execution",
+        "K:Agent context and persistent memory",
+        "K:Independent verification and oracles"
+      ],
+      "volumes": [],
+      "attributes": {
+        "authors_json": "[\"Addy Osmani\"]",
+        "publication_date": "2026-04-19",
+        "original_publication_date": "2026-04-19",
+        "publication_date_basis": "Displayed publication date on the official article and its current personal-blog index card.",
+        "year": "2026",
+        "canonical_url": "https://addyosmani.com/blog/agent-harness-engineering/",
+        "evidence_class": "Theory / argument (not a new result)",
+        "source_evidence_urls": [
+          "https://addyosmani.com/blog/agent-harness-engineering/",
+          "https://addyosmani.com/blog/",
+          "https://addyosmani.com/sitemap.xml"
+        ],
+        "source_scope": "Distinct older article surfaced by the current personal-blog index; explicit backfill.",
+        "node_class": "REVIEWED_PRACTITIONER_COMPANION_SOURCE",
+        "primary_research": false,
+        "verification_status": "primary_article_content_verified",
+        "source_review_notes": [
+          "Distinct AI/software-engineering article surfaced by the current official blog index and absent from all source collections. Included as a historical omission discovered now, not as a newly published November article.",
+          "Publisher sitemap value; aligns with the displayed publication date. It is not independently established as a substantive revision timestamp."
+        ],
+        "evidence_design_details": "Practitioner essay / technical guidance (not peer-reviewed)",
+        "reviewed_evidence_class": "Theory / argument (not a new result)",
+        "original_evidence_class": "Theory / argument (not a new result)",
+        "evidence_review": {
+          "reviewed_on": "2026-11-06",
+          "access": "full_public",
+          "url": "https://addyosmani.com/blog/agent-harness-engineering/",
+          "scope": "Primary article’s model/harness distinction, observed-failure feedback, runtime controls and long-running execution sections inspected; third-party system details and benchmarks not independently rechecked."
+        },
+        "source_review_scope": "Primary article’s model/harness distinction, observed-failure feedback, runtime controls and long-running execution sections inspected; third-party system details and benchmarks not independently rechecked.",
+        "discovery_category": "older_backfill",
+        "discovery_url": "https://addyosmani.com/blog/",
+        "discovered_on": "2026-11-06",
+        "publication_status": "published_practitioner_article",
+        "publication_venue": "Addy Osmani personal blog",
+        "provenance": "Primary publisher page and metadata reviewed on 2026-11-06; original atlas annotation.",
+        "replication_status": "NOT_REPLICATED",
+        "manuscript_citation_status": "COMPANION_READING_ABSENT_FROM_CURRENT_BOOK",
+        "new_manuscript_citation": false,
+        "research_link_semantics": "Editorial reading mappings and comparisons are not new manuscript citations or independent corroboration.",
+        "label": "Agent Harness Engineering",
+        "authors": "Addy Osmani",
+        "summary": "The article treats an agent’s tools, execution environment, durable state, context policies, checks and recovery paths as engineering artifacts surrounding the model. Osmani recommends deriving these controls from desired behavior and observed failures, and using deterministic enforcement and structured handoffs where prose instructions are insufficient.",
+        "contribution": "The article treats an agent’s tools, execution environment, durable state, context policies, checks and recovery paths as engineering artifacts surrounding the model. Osmani recommends deriving these controls from desired behavior and observed failures, and using deterministic enforcement and structured handoffs where prose instructions are insufficient.",
+        "limitation": "Practitioner synthesis and first-person experience; quoted benchmark improvements and claims about other systems are not independently revalidated. No universal assurance follows from adding instructions, hooks or reviewer agents.",
+        "source": "https://addyosmani.com/blog/agent-harness-engineering/",
+        "atlas_added_release": "13.4",
+        "atlas_added_date": "2026-11-06"
+      }
+    },
+    {
+      "id": "O055",
+      "label": "Agent Skills",
+      "kind": "practitioner_article",
+      "collection": "O",
+      "category": null,
+      "streams": [
+        "T:System knowledge & memory",
+        "T:Engineering structure",
+        "T:Verification & review"
+      ],
+      "actual": [],
+      "mapped": [
+        "C:C03",
+        "C:C04",
+        "C:C07",
+        "C:C09"
+      ],
+      "printed": false,
+      "summary": "Osmani explains the design of his Agent Skills project as reusable engineering workflows with checkpoints and explicit completion evidence. The article connects specifications, scoped implementation, testing and review with selective loading of instructions and written responses to common reasons for skipping steps. It describes a design approach that teams can adapt.",
+      "limitation": "Maintainer-authored project explanation and practice guidance, not independent evidence of effectiveness. Instruction files do not by themselves guarantee compliance, and product commands and interoperability claims are version-specific.",
+      "url": "https://addyosmani.com/blog/agent-skills/",
+      "authors": "Addy Osmani",
+      "year": "2026-05-03",
+      "topics": [
+        "K:Agent context and persistent memory",
+        "K:Specifications and governance",
+        "K:Independent verification and oracles",
+        "K:Developer workflow and adoption"
+      ],
+      "volumes": [],
+      "attributes": {
+        "authors_json": "[\"Addy Osmani\"]",
+        "publication_date": "2026-05-03",
+        "original_publication_date": "2026-05-03",
+        "publication_date_basis": "Displayed publication date on the official article and its current personal-blog index card.",
+        "year": "2026",
+        "canonical_url": "https://addyosmani.com/blog/agent-skills/",
+        "evidence_class": "Theory / argument (not a new result)",
+        "source_evidence_urls": [
+          "https://addyosmani.com/blog/agent-skills/",
+          "https://addyosmani.com/blog/",
+          "https://addyosmani.com/sitemap.xml"
+        ],
+        "source_scope": "Distinct older article surfaced by the current personal-blog index; explicit backfill.",
+        "node_class": "REVIEWED_PRACTITIONER_COMPANION_SOURCE",
+        "primary_research": false,
+        "verification_status": "primary_article_content_verified",
+        "source_review_notes": [
+          "Distinct AI/software-engineering article surfaced by the current official blog index and absent from all source collections. Included as a historical omission discovered now, not as a newly published November article.",
+          "Publisher sitemap value; aligns with the displayed publication date. It is not independently established as a substantive revision timestamp."
+        ],
+        "evidence_design_details": "Practitioner essay / technical guidance (not peer-reviewed)",
+        "reviewed_evidence_class": "Theory / argument (not a new result)",
+        "original_evidence_class": "Theory / argument (not a new result)",
+        "evidence_review": {
+          "reviewed_on": "2026-11-06",
+          "access": "full_public",
+          "url": "https://addyosmani.com/blog/agent-skills/",
+          "scope": "Primary project-design article, author attribution and displayed publication date inspected. The linked repository is discussed as the author’s implementation; this review does not install or test it."
+        },
+        "source_review_scope": "Primary project-design article, author attribution and displayed publication date inspected. The linked repository is discussed as the author’s implementation; this review does not install or test it.",
+        "discovery_category": "older_backfill",
+        "discovery_url": "https://addyosmani.com/blog/",
+        "discovered_on": "2026-11-06",
+        "publication_status": "published_practitioner_article",
+        "publication_venue": "Addy Osmani personal blog",
+        "provenance": "Primary publisher page and metadata reviewed on 2026-11-06; original atlas annotation.",
+        "replication_status": "NOT_REPLICATED",
+        "manuscript_citation_status": "COMPANION_READING_ABSENT_FROM_CURRENT_BOOK",
+        "new_manuscript_citation": false,
+        "research_link_semantics": "Editorial reading mappings and comparisons are not new manuscript citations or independent corroboration.",
+        "label": "Agent Skills",
+        "authors": "Addy Osmani",
+        "summary": "Osmani explains the design of his Agent Skills project as reusable engineering workflows with checkpoints and explicit completion evidence. The article connects specifications, scoped implementation, testing and review with selective loading of instructions and written responses to common reasons for skipping steps. It describes a design approach that teams can adapt.",
+        "contribution": "Osmani explains the design of his Agent Skills project as reusable engineering workflows with checkpoints and explicit completion evidence. The article connects specifications, scoped implementation, testing and review with selective loading of instructions and written responses to common reasons for skipping steps. It describes a design approach that teams can adapt.",
+        "limitation": "Maintainer-authored project explanation and practice guidance, not independent evidence of effectiveness. Instruction files do not by themselves guarantee compliance, and product commands and interoperability claims are version-specific.",
+        "source": "https://addyosmani.com/blog/agent-skills/",
+        "atlas_added_release": "13.4",
+        "atlas_added_date": "2026-11-06"
+      }
+    },
+    {
+      "id": "O056",
+      "label": "Cognitive Surrender",
+      "kind": "practitioner_article",
+      "collection": "O",
+      "category": null,
+      "streams": [
+        "T:Verification & review",
+        "T:Skills & learning",
+        "T:System knowledge & memory"
+      ],
+      "actual": [],
+      "mapped": [
+        "C:C08",
+        "C:C09",
+        "C:C10"
+      ],
+      "printed": false,
+      "summary": "Osmani distinguishes delegating execution while retaining judgment from adopting an AI answer without forming an independent view. He describes how this can appear in review, debugging and design, and recommends stating expectations, examining alternative explanations, requiring concrete verification evidence and keeping changes small enough to understand.",
+      "limitation": "An interpretive software-engineering application of other researchers’ cognition studies, not an original experiment. Its causal and long-term claims should not be treated as independently established developer outcomes.",
+      "url": "https://addyosmani.com/blog/cognitive-surrender/",
+      "authors": "Addy Osmani",
+      "year": "2026-05-05",
+      "topics": [
+        "K:Automation bias and trust",
+        "K:Cognitive offloading and skill debt",
+        "K:Independent verification and oracles",
+        "K:System understanding and rationale"
+      ],
+      "volumes": [],
+      "attributes": {
+        "authors_json": "[\"Addy Osmani\"]",
+        "publication_date": "2026-05-05",
+        "original_publication_date": "2026-05-05",
+        "publication_date_basis": "Displayed publication date on the official article and its current personal-blog index card.",
+        "year": "2026",
+        "canonical_url": "https://addyosmani.com/blog/cognitive-surrender/",
+        "evidence_class": "Theory / argument (not a new result)",
+        "source_evidence_urls": [
+          "https://addyosmani.com/blog/cognitive-surrender/",
+          "https://addyosmani.com/blog/",
+          "https://addyosmani.com/sitemap.xml"
+        ],
+        "source_scope": "Distinct older article surfaced by the current personal-blog index; explicit backfill.",
+        "node_class": "REVIEWED_PRACTITIONER_COMPANION_SOURCE",
+        "primary_research": false,
+        "verification_status": "primary_article_content_verified",
+        "source_review_notes": [
+          "Distinct AI/software-engineering article surfaced by the current official blog index and absent from all source collections. Included as a historical omission discovered now, not as a newly published November article.",
+          "Publisher sitemap value; aligns with the displayed publication date. It is not independently established as a substantive revision timestamp."
+        ],
+        "evidence_design_details": "Practitioner essay / technical guidance (not peer-reviewed)",
+        "reviewed_evidence_class": "Theory / argument (not a new result)",
+        "original_evidence_class": "Theory / argument (not a new result)",
+        "evidence_review": {
+          "reviewed_on": "2026-11-06",
+          "access": "full_public",
+          "url": "https://addyosmani.com/blog/cognitive-surrender/",
+          "scope": "Primary article framing, examples, calibration practices and engineering recommendations inspected; linked studies were not independently replicated or comprehensively re-audited."
+        },
+        "source_review_scope": "Primary article framing, examples, calibration practices and engineering recommendations inspected; linked studies were not independently replicated or comprehensively re-audited.",
+        "discovery_category": "older_backfill",
+        "discovery_url": "https://addyosmani.com/blog/",
+        "discovered_on": "2026-11-06",
+        "publication_status": "published_practitioner_article",
+        "publication_venue": "Addy Osmani personal blog",
+        "provenance": "Primary publisher page and metadata reviewed on 2026-11-06; original atlas annotation.",
+        "replication_status": "NOT_REPLICATED",
+        "manuscript_citation_status": "COMPANION_READING_ABSENT_FROM_CURRENT_BOOK",
+        "new_manuscript_citation": false,
+        "research_link_semantics": "Editorial reading mappings and comparisons are not new manuscript citations or independent corroboration.",
+        "label": "Cognitive Surrender",
+        "authors": "Addy Osmani",
+        "summary": "Osmani distinguishes delegating execution while retaining judgment from adopting an AI answer without forming an independent view. He describes how this can appear in review, debugging and design, and recommends stating expectations, examining alternative explanations, requiring concrete verification evidence and keeping changes small enough to understand.",
+        "contribution": "Osmani distinguishes delegating execution while retaining judgment from adopting an AI answer without forming an independent view. He describes how this can appear in review, debugging and design, and recommends stating expectations, examining alternative explanations, requiring concrete verification evidence and keeping changes small enough to understand.",
+        "limitation": "An interpretive software-engineering application of other researchers’ cognition studies, not an original experiment. Its causal and long-term claims should not be treated as independently established developer outcomes.",
+        "source": "https://addyosmani.com/blog/cognitive-surrender/",
+        "atlas_added_release": "13.4",
+        "atlas_added_date": "2026-11-06"
+      }
+    },
+    {
+      "id": "O057",
+      "label": "Don't Outsource the Learning",
+      "kind": "practitioner_article",
+      "collection": "O",
+      "category": null,
+      "streams": [
+        "T:Skills & learning",
+        "T:System knowledge & memory"
+      ],
+      "actual": [],
+      "mapped": [
+        "C:C09",
+        "C:C10"
+      ],
+      "printed": false,
+      "summary": "The article separates completing programming tasks from learning the concepts needed to supervise future work. Osmani recommends forming a hypothesis before requesting a fix, asking for explanations before code, reviewing suggestions and periodically reconstructing solutions without assistance. He uses existing research to motivate deliberate learning within ordinary AI-assisted development.",
+      "limitation": "Practitioner synthesis of studies with different tasks and populations, including non-programming work; it does not establish long-term causal skill loss among software developers. Cited numerical findings were not independently rechecked here.",
+      "url": "https://addyosmani.com/blog/dont-outsource-learning/",
+      "authors": "Addy Osmani",
+      "year": "2026-05-16",
+      "topics": [
+        "K:Skills formation and teaching",
+        "K:Cognitive offloading and skill debt",
+        "K:System understanding and rationale",
+        "K:Onboarding and developer fluency"
+      ],
+      "volumes": [],
+      "attributes": {
+        "authors_json": "[\"Addy Osmani\"]",
+        "publication_date": "2026-05-16",
+        "original_publication_date": "2026-05-16",
+        "publication_date_basis": "Displayed publication date on the official article and its current personal-blog index card.",
+        "year": "2026",
+        "canonical_url": "https://addyosmani.com/blog/dont-outsource-learning/",
+        "evidence_class": "Theory / argument (not a new result)",
+        "source_evidence_urls": [
+          "https://addyosmani.com/blog/dont-outsource-learning/",
+          "https://addyosmani.com/blog/",
+          "https://addyosmani.com/sitemap.xml"
+        ],
+        "source_scope": "Distinct older article surfaced by the current personal-blog index; explicit backfill.",
+        "node_class": "REVIEWED_PRACTITIONER_COMPANION_SOURCE",
+        "primary_research": false,
+        "verification_status": "primary_article_content_verified",
+        "source_review_notes": [
+          "Distinct AI/software-engineering article surfaced by the current official blog index and absent from all source collections. Included as a historical omission discovered now, not as a newly published November article.",
+          "Publisher sitemap value; aligns with the displayed publication date. It is not independently established as a substantive revision timestamp."
+        ],
+        "evidence_design_details": "Practitioner essay / technical guidance (not peer-reviewed)",
+        "reviewed_evidence_class": "Theory / argument (not a new result)",
+        "original_evidence_class": "Theory / argument (not a new result)",
+        "evidence_review": {
+          "reviewed_on": "2026-11-06",
+          "access": "full_public",
+          "url": "https://addyosmani.com/blog/dont-outsource-learning/",
+          "scope": "Primary article text, date and author attribution read; original summaries describe the author’s learning recommendations without adopting secondary numerical claims as new research."
+        },
+        "source_review_scope": "Primary article text, date and author attribution read; original summaries describe the author’s learning recommendations without adopting secondary numerical claims as new research.",
+        "discovery_category": "older_backfill",
+        "discovery_url": "https://addyosmani.com/blog/",
+        "discovered_on": "2026-11-06",
+        "publication_status": "published_practitioner_article",
+        "publication_venue": "Addy Osmani personal blog",
+        "provenance": "Primary publisher page and metadata reviewed on 2026-11-06; original atlas annotation.",
+        "replication_status": "NOT_REPLICATED",
+        "manuscript_citation_status": "COMPANION_READING_ABSENT_FROM_CURRENT_BOOK",
+        "new_manuscript_citation": false,
+        "research_link_semantics": "Editorial reading mappings and comparisons are not new manuscript citations or independent corroboration.",
+        "label": "Don't Outsource the Learning",
+        "authors": "Addy Osmani",
+        "summary": "The article separates completing programming tasks from learning the concepts needed to supervise future work. Osmani recommends forming a hypothesis before requesting a fix, asking for explanations before code, reviewing suggestions and periodically reconstructing solutions without assistance. He uses existing research to motivate deliberate learning within ordinary AI-assisted development.",
+        "contribution": "The article separates completing programming tasks from learning the concepts needed to supervise future work. Osmani recommends forming a hypothesis before requesting a fix, asking for explanations before code, reviewing suggestions and periodically reconstructing solutions without assistance. He uses existing research to motivate deliberate learning within ordinary AI-assisted development.",
+        "limitation": "Practitioner synthesis of studies with different tasks and populations, including non-programming work; it does not establish long-term causal skill loss among software developers. Cited numerical findings were not independently rechecked here.",
+        "source": "https://addyosmani.com/blog/dont-outsource-learning/",
+        "atlas_added_release": "13.4",
+        "atlas_added_date": "2026-11-06"
+      }
+    },
+    {
+      "id": "O058",
+      "label": "The Orchestration Tax",
+      "kind": "practitioner_article",
+      "collection": "O",
+      "category": null,
+      "streams": [
+        "T:Engineering structure",
+        "T:Productivity",
+        "T:Verification & review"
+      ],
+      "actual": [],
+      "mapped": [
+        "C:C02",
+        "C:C08",
+        "C:C11"
+      ],
+      "printed": false,
+      "summary": "Osmani describes the human cost of coordinating parallel coding agents as a limit on review and integration. He recommends matching the number of active tasks to review capacity, separating bounded background work from judgment-intensive problems, batching reviews and reserving uninterrupted time for difficult decisions. The goal is to improve accepted work rather than merely increase concurrent activity.",
+      "limitation": "First-person operational guidance and a concurrency analogy, not a measured agent-scaling law or controlled productivity experiment. Suggested agent counts and percentage splits are illustrative.",
+      "url": "https://addyosmani.com/blog/orchestration-tax/",
+      "authors": "Addy Osmani",
+      "year": "2026-05-24",
+      "topics": [
+        "K:Human cognitive load",
+        "K:Review capacity and maintainers",
+        "K:Human-agent collaboration",
+        "K:Output versus shipped value"
+      ],
+      "volumes": [],
+      "attributes": {
+        "authors_json": "[\"Addy Osmani\"]",
+        "publication_date": "2026-05-24",
+        "original_publication_date": "2026-05-24",
+        "publication_date_basis": "Displayed publication date on the official article and its current personal-blog index card.",
+        "year": "2026",
+        "canonical_url": "https://addyosmani.com/blog/orchestration-tax/",
+        "evidence_class": "Theory / argument (not a new result)",
+        "source_evidence_urls": [
+          "https://addyosmani.com/blog/orchestration-tax/",
+          "https://addyosmani.com/blog/",
+          "https://addyosmani.com/sitemap.xml"
+        ],
+        "source_scope": "Distinct older article surfaced by the current personal-blog index; explicit backfill.",
+        "node_class": "REVIEWED_PRACTITIONER_COMPANION_SOURCE",
+        "primary_research": false,
+        "verification_status": "primary_article_content_verified",
+        "source_review_notes": [
+          "Distinct AI/software-engineering article surfaced by the current official blog index and absent from all source collections. Included as a historical omission discovered now, not as a newly published November article.",
+          "Publisher sitemap value; aligns with the displayed publication date. It is not independently established as a substantive revision timestamp."
+        ],
+        "evidence_design_details": "Practitioner essay / technical guidance (not peer-reviewed)",
+        "reviewed_evidence_class": "Theory / argument (not a new result)",
+        "original_evidence_class": "Theory / argument (not a new result)",
+        "evidence_review": {
+          "reviewed_on": "2026-11-06",
+          "access": "full_public",
+          "url": "https://addyosmani.com/blog/orchestration-tax/",
+          "scope": "Primary written article read, including the framing from a panel discussion and practical recommendations. The embedded video does not change the article into a podcast or primary experiment."
+        },
+        "source_review_scope": "Primary written article read, including the framing from a panel discussion and practical recommendations. The embedded video does not change the article into a podcast or primary experiment.",
+        "discovery_category": "older_backfill",
+        "discovery_url": "https://addyosmani.com/blog/",
+        "discovered_on": "2026-11-06",
+        "publication_status": "published_practitioner_article",
+        "publication_venue": "Addy Osmani personal blog",
+        "provenance": "Primary publisher page and metadata reviewed on 2026-11-06; original atlas annotation.",
+        "replication_status": "NOT_REPLICATED",
+        "manuscript_citation_status": "COMPANION_READING_ABSENT_FROM_CURRENT_BOOK",
+        "new_manuscript_citation": false,
+        "research_link_semantics": "Editorial reading mappings and comparisons are not new manuscript citations or independent corroboration.",
+        "label": "The Orchestration Tax",
+        "authors": "Addy Osmani",
+        "summary": "Osmani describes the human cost of coordinating parallel coding agents as a limit on review and integration. He recommends matching the number of active tasks to review capacity, separating bounded background work from judgment-intensive problems, batching reviews and reserving uninterrupted time for difficult decisions. The goal is to improve accepted work rather than merely increase concurrent activity.",
+        "contribution": "Osmani describes the human cost of coordinating parallel coding agents as a limit on review and integration. He recommends matching the number of active tasks to review capacity, separating bounded background work from judgment-intensive problems, batching reviews and reserving uninterrupted time for difficult decisions. The goal is to improve accepted work rather than merely increase concurrent activity.",
+        "limitation": "First-person operational guidance and a concurrency analogy, not a measured agent-scaling law or controlled productivity experiment. Suggested agent counts and percentage splits are illustrative.",
+        "source": "https://addyosmani.com/blog/orchestration-tax/",
+        "atlas_added_release": "13.4",
+        "atlas_added_date": "2026-11-06"
+      }
+    },
+    {
+      "id": "O059",
+      "label": "The Intent Debt",
+      "kind": "practitioner_article",
+      "collection": "O",
+      "category": null,
+      "streams": [
+        "T:System knowledge & memory",
+        "T:Engineering structure"
+      ],
+      "actual": [],
+      "mapped": [
+        "C:C04",
+        "C:C09",
+        "C:C11"
+      ],
+      "printed": false,
+      "summary": "The essay distinguishes missing recorded intent from complex code and missing human understanding. Osmani argues that an implementation cannot reliably recover why a consequential choice was made. He recommends keeping goals, constraints and decision rationale in specifications, repository instructions, lightweight decision logs and records of failures so future people and agents can use them.",
+      "limitation": "Conceptual distinction and practitioner recommendations; no controlled evidence that recording these artifacts prevents drift, and generated explanations cannot establish historical intent.",
+      "url": "https://addyosmani.com/blog/intent-debt/",
+      "authors": "Addy Osmani",
+      "year": "2026-06-05",
+      "topics": [
+        "K:System understanding and rationale",
+        "K:Agent context and persistent memory",
+        "K:Specifications and governance",
+        "K:Ownership and knowledge transfer"
+      ],
+      "volumes": [],
+      "attributes": {
+        "authors_json": "[\"Addy Osmani\"]",
+        "publication_date": "2026-06-05",
+        "original_publication_date": "2026-06-05",
+        "publication_date_basis": "Displayed publication date on the official article and its current personal-blog index card.",
+        "year": "2026",
+        "canonical_url": "https://addyosmani.com/blog/intent-debt/",
+        "evidence_class": "Theory / argument (not a new result)",
+        "source_evidence_urls": [
+          "https://addyosmani.com/blog/intent-debt/",
+          "https://addyosmani.com/blog/",
+          "https://addyosmani.com/sitemap.xml"
+        ],
+        "source_scope": "Distinct older article surfaced by the current personal-blog index; explicit backfill.",
+        "node_class": "REVIEWED_PRACTITIONER_COMPANION_SOURCE",
+        "primary_research": false,
+        "verification_status": "primary_article_content_verified",
+        "source_review_notes": [
+          "Distinct AI/software-engineering article surfaced by the current official blog index and absent from all source collections. Included as a historical omission discovered now, not as a newly published November article.",
+          "Publisher sitemap value; aligns with the displayed publication date. It is not independently established as a substantive revision timestamp."
+        ],
+        "evidence_design_details": "Practitioner essay / technical guidance (not peer-reviewed)",
+        "reviewed_evidence_class": "Theory / argument (not a new result)",
+        "original_evidence_class": "Theory / argument (not a new result)",
+        "evidence_review": {
+          "reviewed_on": "2026-11-06",
+          "access": "full_public",
+          "url": "https://addyosmani.com/blog/intent-debt/",
+          "scope": "Primary article’s conceptual distinctions, examples and proposed documentation practices inspected; no independent outcome evaluation supplied."
+        },
+        "source_review_scope": "Primary article’s conceptual distinctions, examples and proposed documentation practices inspected; no independent outcome evaluation supplied.",
+        "discovery_category": "older_backfill",
+        "discovery_url": "https://addyosmani.com/blog/",
+        "discovered_on": "2026-11-06",
+        "publication_status": "published_practitioner_article",
+        "publication_venue": "Addy Osmani personal blog",
+        "provenance": "Primary publisher page and metadata reviewed on 2026-11-06; original atlas annotation.",
+        "replication_status": "NOT_REPLICATED",
+        "manuscript_citation_status": "COMPANION_READING_ABSENT_FROM_CURRENT_BOOK",
+        "new_manuscript_citation": false,
+        "research_link_semantics": "Editorial reading mappings and comparisons are not new manuscript citations or independent corroboration.",
+        "label": "The Intent Debt",
+        "authors": "Addy Osmani",
+        "summary": "The essay distinguishes missing recorded intent from complex code and missing human understanding. Osmani argues that an implementation cannot reliably recover why a consequential choice was made. He recommends keeping goals, constraints and decision rationale in specifications, repository instructions, lightweight decision logs and records of failures so future people and agents can use them.",
+        "contribution": "The essay distinguishes missing recorded intent from complex code and missing human understanding. Osmani argues that an implementation cannot reliably recover why a consequential choice was made. He recommends keeping goals, constraints and decision rationale in specifications, repository instructions, lightweight decision logs and records of failures so future people and agents can use them.",
+        "limitation": "Conceptual distinction and practitioner recommendations; no controlled evidence that recording these artifacts prevents drift, and generated explanations cannot establish historical intent.",
+        "source": "https://addyosmani.com/blog/intent-debt/",
+        "atlas_added_release": "13.4",
+        "atlas_added_date": "2026-11-06"
+      }
+    },
+    {
+      "id": "O060",
+      "label": "The New Software Lifecycle",
+      "kind": "practitioner_article",
+      "collection": "O",
+      "category": null,
+      "streams": [
+        "T:Engineering structure",
+        "T:Verification & review",
+        "T:System knowledge & memory"
+      ],
+      "actual": [],
+      "mapped": [
+        "C:C01",
+        "C:C03",
+        "C:C04",
+        "C:C07"
+      ],
+      "printed": false,
+      "summary": "Osmani comments on a Google whitepaper he coauthored, presenting coding agents as models surrounded by tools, context, controls and feedback. He distinguishes always-loaded from task-specific context and separates evaluation of final outputs from evaluation of execution paths. He argues that specification and verification become central constraints as implementation accelerates.",
+      "limitation": "Author commentary on a coauthored whitepaper, not an independent empirical replication. The model-versus-harness proportions and reported benchmark improvements are illustrative or secondhand and are not repeated as validated measurements.",
+      "url": "https://addyosmani.com/blog/new-sdlc-vibe-coding/",
+      "authors": "Addy Osmani",
+      "year": "2026-06-16",
+      "topics": [
+        "K:Developer workflow and adoption",
+        "K:Specifications and governance",
+        "K:Evaluation methodology and baselines",
+        "K:Long-running agent execution"
+      ],
+      "volumes": [],
+      "attributes": {
+        "authors_json": "[\"Addy Osmani\"]",
+        "publication_date": "2026-06-16",
+        "original_publication_date": "2026-06-16",
+        "publication_date_basis": "Displayed publication date on the official article and its current personal-blog index card.",
+        "year": "2026",
+        "canonical_url": "https://addyosmani.com/blog/new-sdlc-vibe-coding/",
+        "evidence_class": "Theory / argument (not a new result)",
+        "source_evidence_urls": [
+          "https://addyosmani.com/blog/new-sdlc-vibe-coding/",
+          "https://addyosmani.com/blog/",
+          "https://addyosmani.com/sitemap.xml"
+        ],
+        "source_scope": "Distinct older article surfaced by the current personal-blog index; explicit backfill.",
+        "node_class": "REVIEWED_PRACTITIONER_COMPANION_SOURCE",
+        "primary_research": false,
+        "verification_status": "primary_article_content_verified",
+        "source_review_notes": [
+          "Distinct AI/software-engineering article surfaced by the current official blog index and absent from all source collections. Included as a historical omission discovered now, not as a newly published November article.",
+          "Publisher sitemap value; aligns with the displayed publication date. It is not independently established as a substantive revision timestamp."
+        ],
+        "evidence_design_details": "Practitioner essay / technical guidance (not peer-reviewed)",
+        "reviewed_evidence_class": "Theory / argument (not a new result)",
+        "original_evidence_class": "Theory / argument (not a new result)",
+        "evidence_review": {
+          "reviewed_on": "2026-11-06",
+          "access": "full_public",
+          "url": "https://addyosmani.com/blog/new-sdlc-vibe-coding/",
+          "scope": "Primary article’s attribution, date, model/harness framing, context design and evaluation distinctions inspected; linked whitepaper and cited benchmarks not independently audited in this addition."
+        },
+        "source_review_scope": "Primary article’s attribution, date, model/harness framing, context design and evaluation distinctions inspected; linked whitepaper and cited benchmarks not independently audited in this addition.",
+        "discovery_category": "older_backfill",
+        "discovery_url": "https://addyosmani.com/blog/",
+        "discovered_on": "2026-11-06",
+        "publication_status": "published_practitioner_article",
+        "publication_venue": "Addy Osmani personal blog",
+        "provenance": "Primary publisher page and metadata reviewed on 2026-11-06; original atlas annotation.",
+        "replication_status": "NOT_REPLICATED",
+        "manuscript_citation_status": "COMPANION_READING_ABSENT_FROM_CURRENT_BOOK",
+        "new_manuscript_citation": false,
+        "research_link_semantics": "Editorial reading mappings and comparisons are not new manuscript citations or independent corroboration.",
+        "label": "The New Software Lifecycle",
+        "authors": "Addy Osmani",
+        "summary": "Osmani comments on a Google whitepaper he coauthored, presenting coding agents as models surrounded by tools, context, controls and feedback. He distinguishes always-loaded from task-specific context and separates evaluation of final outputs from evaluation of execution paths. He argues that specification and verification become central constraints as implementation accelerates.",
+        "contribution": "Osmani comments on a Google whitepaper he coauthored, presenting coding agents as models surrounded by tools, context, controls and feedback. He distinguishes always-loaded from task-specific context and separates evaluation of final outputs from evaluation of execution paths. He argues that specification and verification become central constraints as implementation accelerates.",
+        "limitation": "Author commentary on a coauthored whitepaper, not an independent empirical replication. The model-versus-harness proportions and reported benchmark improvements are illustrative or secondhand and are not repeated as validated measurements.",
+        "source": "https://addyosmani.com/blog/new-sdlc-vibe-coding/",
+        "atlas_added_release": "13.4",
+        "atlas_added_date": "2026-11-06"
+      }
+    },
+    {
+      "id": "O061",
+      "label": "The Agent-Era Career",
+      "kind": "practitioner_article",
+      "collection": "O",
+      "category": null,
+      "streams": [
+        "T:Skills & learning",
+        "T:Jobs & roles"
+      ],
+      "actual": [],
+      "mapped": [
+        "C:C10",
+        "C:C11",
+        "C:C12"
+      ],
+      "printed": false,
+      "summary": "Osmani’s career advice emphasizes choosing worthwhile problems, developing and demonstrating judgment, and retaining responsibility for delegated work. He recommends deliberate practice, explicit task boundaries, calibrated autonomy and careful completion beyond an agent’s initial draft. The article treats reputation and problem selection as sources of durable career value.",
+      "limitation": "Personal experience and prospective career argument, not a labor-market study or validated prediction of which engineering tasks will be automated. Illustrative completion percentages are not measurements.",
+      "url": "https://addyosmani.com/blog/career-advice-age-of-agents/",
+      "authors": "Addy Osmani",
+      "year": "2026-07-06",
+      "topics": [
+        "K:Skills formation and teaching",
+        "K:Ownership and knowledge transfer",
+        "K:Human-agent collaboration",
+        "K:Employment and early-career roles"
+      ],
+      "volumes": [],
+      "attributes": {
+        "authors_json": "[\"Addy Osmani\"]",
+        "publication_date": "2026-07-06",
+        "original_publication_date": "2026-07-06",
+        "publication_date_basis": "Displayed publication date on the official article and its current personal-blog index card.",
+        "year": "2026",
+        "canonical_url": "https://addyosmani.com/blog/career-advice-age-of-agents/",
+        "evidence_class": "Theory / argument (not a new result)",
+        "source_evidence_urls": [
+          "https://addyosmani.com/blog/career-advice-age-of-agents/",
+          "https://addyosmani.com/blog/",
+          "https://addyosmani.com/sitemap.xml"
+        ],
+        "source_scope": "Distinct older article surfaced by the current personal-blog index; explicit backfill.",
+        "node_class": "REVIEWED_PRACTITIONER_COMPANION_SOURCE",
+        "primary_research": false,
+        "verification_status": "primary_article_content_verified",
+        "source_review_notes": [
+          "Distinct AI/software-engineering article surfaced by the current official blog index and absent from all source collections. Included as a historical omission discovered now, not as a newly published November article.",
+          "Publisher sitemap value; aligns with the displayed publication date. It is not independently established as a substantive revision timestamp."
+        ],
+        "evidence_design_details": "Practitioner essay / technical guidance (not peer-reviewed)",
+        "reviewed_evidence_class": "Theory / argument (not a new result)",
+        "original_evidence_class": "Theory / argument (not a new result)",
+        "evidence_review": {
+          "reviewed_on": "2026-11-06",
+          "access": "full_public",
+          "url": "https://addyosmani.com/blog/career-advice-age-of-agents/",
+          "scope": "Primary article text, displayed publication date and author attribution inspected. The article credits Phil Chen as an inspiration; that does not make Chen a coauthor of this page."
+        },
+        "source_review_scope": "Primary article text, displayed publication date and author attribution inspected. The article credits Phil Chen as an inspiration; that does not make Chen a coauthor of this page.",
+        "discovery_category": "older_backfill",
+        "discovery_url": "https://addyosmani.com/blog/",
+        "discovered_on": "2026-11-06",
+        "publication_status": "published_practitioner_article",
+        "publication_venue": "Addy Osmani personal blog",
+        "provenance": "Primary publisher page and metadata reviewed on 2026-11-06; original atlas annotation.",
+        "replication_status": "NOT_REPLICATED",
+        "manuscript_citation_status": "COMPANION_READING_ABSENT_FROM_CURRENT_BOOK",
+        "new_manuscript_citation": false,
+        "research_link_semantics": "Editorial reading mappings and comparisons are not new manuscript citations or independent corroboration.",
+        "label": "The Agent-Era Career",
+        "authors": "Addy Osmani",
+        "summary": "Osmani’s career advice emphasizes choosing worthwhile problems, developing and demonstrating judgment, and retaining responsibility for delegated work. He recommends deliberate practice, explicit task boundaries, calibrated autonomy and careful completion beyond an agent’s initial draft. The article treats reputation and problem selection as sources of durable career value.",
+        "contribution": "Osmani’s career advice emphasizes choosing worthwhile problems, developing and demonstrating judgment, and retaining responsibility for delegated work. He recommends deliberate practice, explicit task boundaries, calibrated autonomy and careful completion beyond an agent’s initial draft. The article treats reputation and problem selection as sources of durable career value.",
+        "limitation": "Personal experience and prospective career argument, not a labor-market study or validated prediction of which engineering tasks will be automated. Illustrative completion percentages are not measurements.",
+        "source": "https://addyosmani.com/blog/career-advice-age-of-agents/",
+        "atlas_added_release": "13.4",
+        "atlas_added_date": "2026-11-06"
+      }
+    },
+    {
+      "id": "O062",
+      "label": "Earning taste and judgment",
+      "kind": "practitioner_article",
+      "collection": "O",
+      "category": null,
+      "streams": [
+        "T:Skills & learning",
+        "T:Jobs & roles"
+      ],
+      "actual": [],
+      "mapped": [
+        "C:C08",
+        "C:C10",
+        "C:C12"
+      ],
+      "printed": false,
+      "summary": "Osmani argues that delegating routine coding can remove practice through which engineers develop judgment. He recommends deliberate code reading, recording agent mistakes, occasional unaided implementation, deep work in one system, and separate practice in specification and verification. The article connects these habits to career development while synthesizing other authors’ employment and cognition claims.",
+      "limitation": "Career and learning guidance, with secondhand labor-market statistics and forecasts; no new employment estimate or controlled learning intervention. Numerical claims are not independently revalidated here.",
+      "url": "https://addyosmani.com/blog/earning-judgment/",
+      "authors": "Addy Osmani",
+      "year": "2026-07-14",
+      "topics": [
+        "K:Skills formation and teaching",
+        "K:Cognitive offloading and skill debt",
+        "K:Employment and early-career roles",
+        "K:Ownership and knowledge transfer"
+      ],
+      "volumes": [],
+      "attributes": {
+        "authors_json": "[\"Addy Osmani\"]",
+        "publication_date": "2026-07-14",
+        "original_publication_date": "2026-07-14",
+        "publication_date_basis": "Displayed publication date on the official article and its current personal-blog index card.",
+        "year": "2026",
+        "canonical_url": "https://addyosmani.com/blog/earning-judgment/",
+        "evidence_class": "Theory / argument (not a new result)",
+        "source_evidence_urls": [
+          "https://addyosmani.com/blog/earning-judgment/",
+          "https://addyosmani.com/blog/",
+          "https://addyosmani.com/sitemap.xml"
+        ],
+        "source_scope": "Distinct older article surfaced by the current personal-blog index; explicit backfill.",
+        "node_class": "REVIEWED_PRACTITIONER_COMPANION_SOURCE",
+        "primary_research": false,
+        "verification_status": "primary_article_content_verified",
+        "source_review_notes": [
+          "Distinct AI/software-engineering article surfaced by the current official blog index and absent from all source collections. Included as a historical omission discovered now, not as a newly published November article.",
+          "Publisher sitemap value; aligns with the displayed publication date. It is not independently established as a substantive revision timestamp."
+        ],
+        "evidence_design_details": "Practitioner essay / technical guidance (not peer-reviewed)",
+        "reviewed_evidence_class": "Theory / argument (not a new result)",
+        "original_evidence_class": "Theory / argument (not a new result)",
+        "evidence_review": {
+          "reviewed_on": "2026-11-06",
+          "access": "full_public",
+          "url": "https://addyosmani.com/blog/earning-judgment/",
+          "scope": "Primary article, displayed publication date and author attribution inspected; linked empirical claims not independently re-audited."
+        },
+        "source_review_scope": "Primary article, displayed publication date and author attribution inspected; linked empirical claims not independently re-audited.",
+        "discovery_category": "older_backfill",
+        "discovery_url": "https://addyosmani.com/blog/",
+        "discovered_on": "2026-11-06",
+        "publication_status": "published_practitioner_article",
+        "publication_venue": "Addy Osmani personal blog",
+        "provenance": "Primary publisher page and metadata reviewed on 2026-11-06; original atlas annotation.",
+        "replication_status": "NOT_REPLICATED",
+        "manuscript_citation_status": "COMPANION_READING_ABSENT_FROM_CURRENT_BOOK",
+        "new_manuscript_citation": false,
+        "research_link_semantics": "Editorial reading mappings and comparisons are not new manuscript citations or independent corroboration.",
+        "label": "Earning taste and judgment",
+        "authors": "Addy Osmani",
+        "summary": "Osmani argues that delegating routine coding can remove practice through which engineers develop judgment. He recommends deliberate code reading, recording agent mistakes, occasional unaided implementation, deep work in one system, and separate practice in specification and verification. The article connects these habits to career development while synthesizing other authors’ employment and cognition claims.",
+        "contribution": "Osmani argues that delegating routine coding can remove practice through which engineers develop judgment. He recommends deliberate code reading, recording agent mistakes, occasional unaided implementation, deep work in one system, and separate practice in specification and verification. The article connects these habits to career development while synthesizing other authors’ employment and cognition claims.",
+        "limitation": "Career and learning guidance, with secondhand labor-market statistics and forecasts; no new employment estimate or controlled learning intervention. Numerical claims are not independently revalidated here.",
+        "source": "https://addyosmani.com/blog/earning-judgment/",
+        "atlas_added_release": "13.4",
+        "atlas_added_date": "2026-11-06"
+      }
     }
   ]
 }

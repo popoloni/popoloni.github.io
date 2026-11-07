@@ -2,22 +2,22 @@
 
 An independent, source-traceable map of research and practitioner writing about AI-assisted software development, by **Enrico Papalini**. The graph and static catalogues connect publications, topics, engineering practices and book chapters while retaining their evidence limits.
 
-**[Open the published atlas](https://popoloni.github.io/swe_knowledge_graph.html)** · **[Local atlas](swe_knowledge_graph.html)** · **[Catalogues](catalogues/index.html)** · **[NDSE2 · published second edition](catalogues/ndse2.html)** · **[Downloads](downloads.html)** · **[Update notes](UPDATE_v13_2_20261018.html)**
+**[Open the published atlas](https://popoloni.github.io/swe_knowledge_graph.html)** · **[Local atlas](swe_knowledge_graph.html)** · **[Catalogues](catalogues/index.html)** · **[NDSE2 · published second edition](catalogues/ndse2.html)** · **[Downloads](downloads.html)** · **[Update notes](UPDATE_v13_4_20261106.html)**
 
 ## The starting collection
 
 The foundation is **[The SE & AI Annotated Bibliography](https://www.sepolimi.com/p/se-ai-annotated-bibliography)**, curated by **Alfonso Fuggetta, Damian Andrew Tamburri and Alessandro Margara**, **Software Engineering @ PoliMi**. Its original 8 October 2026 snapshot contains 193 works. The original classification and annotations are the curators’ contribution. This independent atlas and its editorial extensions do not imply institutional endorsement.
 
-The atlas opens with the original PoliMi collection. Additional collections, context and relationship controls are available through the interface. Source IDs and established links remain stable.
+The atlas opens with the current **229-record PoliMi collection**. Additional collections, context and relationship controls are available through the interface. Source IDs and established links remain stable. The [current release notes](UPDATE_v13_4_20261106.html) identify additions, corrections, publication status, and the depth of primary-source checks.
 
 ## Current catalogues
 
 | ID | Collection | Records |
 |---|---|---:|
-| W | [SE@PoliMi bibliography](catalogues/polimi.html) | 193 |
-| O | [Addy Osmani](catalogues/osmani.html) | 51 |
-| P | [The Pragmatic Engineer](catalogues/pragmatic-engineer.html) | 124 |
-| F | [Martin Fowler’s website](catalogues/fowler.html) | 35 |
+| W | [SE@PoliMi bibliography](catalogues/polimi.html) | 229 |
+| O | [Addy Osmani](catalogues/osmani.html) | 62 |
+| P | [The Pragmatic Engineer](catalogues/pragmatic-engineer.html) | 127 |
+| F | [Martin Fowler’s website](catalogues/fowler.html) | 41 |
 | B | [Earlier Non-Deterministic books](catalogues/books.html) | 111 |
 | N | [NDSE2 · Published second edition](catalogues/ndse2.html) | 13 |
 | PAT | [Software Engineering Practices](catalogues/practices.html) | 84 |
@@ -30,7 +30,7 @@ Publication status as recorded: Published — author-confirmed 2026-10-18. Sourc
 
 The **13 chapter records** contain concise English summaries, Italian titles, learning goals, outlines and source links. Literal citations from the English and Italian chapter files are distinguished from bibliography membership, the identifier index and broader editorial reading mappings. The full manuscripts are not included in the website.
 
-[Read the chapter guides](catalogues/ndse2.html) · [Edition and extraction provenance](source/ndse2_book.json) · [Source-review audit](data/updates/source_review_20261018.json)
+[Read the chapter guides](catalogues/ndse2.html) · [Edition and extraction provenance](source/ndse2_book.json) · [Source-review audit](data/updates/source_review_v13_4_20261106.json)
 
 ## Book covers and Amazon.com links
 
@@ -65,10 +65,12 @@ No server application, API key, framework or CDN is required. See [DEPLOYMENT.md
 
 ## Repeat the update
 
-Use `python source/automation/atlas_cli.py` with the sequence **prepare → discover → build → check → package**. `prepare` requires the exact full ZIP confirmed as the currently published site and freezes its SHA-256. Complete the generated `review.json` after checking discovered source candidates, then build from those reviewed inputs. Book metadata remains unchanged unless a reviewed manuscript revision is supplied explicitly.
+Use `python source/automation/atlas_cli.py` with the sequence **prepare → discover → build → check → package** for routine O/P/F source updates. `prepare` requires the exact full ZIP confirmed as the currently published site and freezes its SHA-256. Complete the generated `review.json` after checking discovered source candidates, then build from those reviewed inputs. Book metadata remains unchanged unless a reviewed manuscript revision is supplied explicitly.
+
+For a SEPolimi W-collection update, use the explicit reviewed migration described in [POLIMI_UPDATE.txt](source/automation/POLIMI_UPDATE.txt). It preserves the original W IDs and historical keyed edges while adding reviewed records and current classifications; routine O/P/F discovery does not update W records.
 
 `check` performs independent structural verification, real-browser checks and repeatable rebuilds. `package` creates the full archive and a delta containing only file additions or overwrites, and proves that baseline plus delta equals the full package. Neither command publishes to GitHub. [Commands, dependencies and book-update steps](DEPLOYMENT.md).
 
-**Graph v13.2 · 2026-10-18**. **Website v13.2 · 2026-10-18**. The current graph contains **1,931 nodes**, **13,615 keyed relationships** and **309 relation types**. Retained earlier graph exports remain labelled as historical.
+**Graph v13.4 · 2026-11-06**. **Website v13.4 · 2026-11-06**. The current graph contains **1,991 nodes**, **14,268 keyed relationships** and **310 relation types**. Retained earlier graph exports remain labelled as historical.
 
 [Credits and boundaries](attribution.html) · [Validation report](verification/report.html)

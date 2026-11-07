@@ -39,6 +39,7 @@ NDSE2=BookCompanion(ROOT/BOOK_METADATA,required='N' in COLS,metadata_link=BOOK_M
  publication=PUBLICATIONS_BY_VOLUME.get('V06'))
 RELEASE_NOTES=C.get('release_notes','UPDATE_20261018.html')
 RESEARCH_AUDIT=C.get('research_audit','data/updates/source_review_20261018.json')
+POLIMI_UPDATE=C.get('polimi_update',{})
 NAMES={n['id']:n['label'] for n in D['nodes']}
 NAMES.update({g['id']:g['label'] for k in ['themes','chapters','topics','volumes'] for g in D[k]})
 ADJ=collections.defaultdict(list)
@@ -112,6 +113,8 @@ def fmt_meta(a,keys):
  vals=[]
  for key,title in keys:
   v=a.get(key)
+  if key=='publication_status' and isinstance(v,str):
+   v={'peer_reviewed_publication':'Peer-reviewed publication','accepted_manuscript':'Accepted manuscript','preprint':'Preprint','working_paper':'Working paper','research_report':'Research report','magazine_opinion':'Magazine opinion','published_practitioner_article':'Published practitioner article'}.get(v,v.replace('_',' '))
   if v not in (None,'',[],{}):vals.append(f'<dt>{esc(title)}</dt><dd>{esc(v if not isinstance(v,(dict,list)) else json.dumps(v,ensure_ascii=False))}</dd>')
  return '<dl class="metadata">'+''.join(vals)+'</dl>' if vals else ''
 def record(n,path):
@@ -124,14 +127,19 @@ def record(n,path):
  date=n.get('year') or a.get('publication_date') or a.get('year') or ''
  info=' · '.join(esc(x) for x in [byline,str(date)] if x)
  updated=a.get('updated_date') or a.get('revision_date')
- if updated and str(updated)!=str(date):info+=f' · Updated {esc(updated)}'
+ if updated and str(updated)!=str(date):
+  update_label='Publisher metadata updated' if a.get('updated_date_is_metadata_only') else 'Updated'
+  info+=f' · {update_label} {esc(updated)}'
  evidence=a.get('reviewed_evidence_class') or a.get('evidence_class') or ''
  summary=n.get('summary') or a.get('contribution') or a.get('summary') or a.get('required_revision') or a.get('purpose') or ''
  limit=n.get('limitation') or a.get('limitation') or ''
  title=n['label'];anchor=quote(n['id'],safe='')
  pills=f'<span class="pill">{esc(col.get("short",n["kind"].replace("_"," ")))}</span>'
  if n.get('printed'):pills+='<span class="pill">In the published NDSE2 bibliography</span>'
- if a.get('access_status'):pills+=f'<span class="pill">{esc(a["access_status"].replace("_"," "))}</span>'
+ if a.get('access_status') and not isinstance(a.get('evidence_review'),dict):pills+=f'<span class="pill">{esc(a["access_status"].replace("_"," "))}</span>'
+ if c in {'W','O','P','F'} and isinstance(a.get('evidence_review'),dict):
+  access_label={'full_public':'Primary text checked','metadata_only':'Abstract / metadata checked','restricted_preview':'Restricted primary preview','bibliography_only':'Bibliography only'}.get(a['evidence_review'].get('access'),'Source review recorded')
+  pills+=f'<span class="pill">{esc(access_label)}</span>'
  top=f'<div class="record-top"><span class="code">{esc(n["id"])}</span>{pills}</div><h2><a href="#{anchor}">{esc(title)}</a></h2>'+ (f'<p class="byline">{info}</p>' if info else '')
  if c=='N' and a.get('title_it'):top+=f'<p class="byline" lang="it">{esc(a["title_it"])}</p>'
  if summary:top+=f'<p class="summary">{esc(summary)}</p>'
@@ -141,6 +149,14 @@ def record(n,path):
  if a.get('summary') and a['summary']!=summary:more+=f'<p><strong>Recorded summary.</strong> {esc(a["summary"])}</p>'
  if a.get('main_findings'):more+=f'<p><strong>Reported findings / argument.</strong> {esc(a["main_findings"])}</p>'
  if evidence:more+=f'<p><strong>Source type, as recorded:</strong> {esc(evidence)}</p>'
+ if c in {'W','O','P','F'} and isinstance(a.get('evidence_review'),dict):
+  ev=a['evidence_review']
+  more+='<section class="source-review"><h3>Current source check</h3><p>'+esc(ev.get('scope',''))+'</p>'
+  more+=fmt_meta(a,[('publication_status','Publication status'),('publication_venue','Venue'),('publication_source_version','Inspected source version'),('publication_date','Publication date'),('publication_citation_year','Publisher citation year'),('doi','DOI'),('source_review_scope','Review depth'),('correction_note','Correction or qualification'),('historical_evidence_class_note','Earlier classification')])
+  if safeurl(ev.get('url','')):more+='<p>'+link(path,ev['url'],'Open the inspected primary source ↗',external=True)+' <span class="micro">Checked '+esc(ev.get('reviewed_on',''))+'</span></p>'
+  if a.get('source_review_notes'):more+='<ul class="compact-list">'+''.join('<li>'+esc(x)+'</li>' for x in a['source_review_notes'])+'</ul>'
+  if safeurl(a.get('discovery_url','')):more+='<p class="micro">Discovered through '+link(path,a['discovery_url'],'the SEPolimi bulletin' if c=='W' else 'the publisher’s source index',external=True)+'. Topic, chapter and cross-study links are independent editorial mappings.</p>'
+  more+='</section>'
  if a.get('manual_use'):more+=f'<p><strong>Editorial use.</strong> {esc(a["manual_use"])}</p>'
  if c=='W':more+='<p class="micro">Author names can be lead-author fields, not complete bylines. Follow the recorded source for the full citation. An index URL is labelled as an index, not silently replaced by an unverified primary-paper link.</p>'
  if c=='B':
@@ -292,7 +308,13 @@ def collection_card(c,path):
 def profile(path,big=False):
  return f'<section class="profile {"bio-big" if big else ""}"><img src="{esc(rel(path,"assets/enrico-papalini.jpg"))}" width="155" height="157" alt="Author photograph of Enrico Papalini from his published author biography" loading="lazy"><div><p class="eyebrow">About the author</p><h2>Enrico Papalini</h2><p>{esc(C["bio"])}</p><p class="micro">{esc(C["bio_note"])}</p>'+link(path,'about.html','About this project →','card-link')+'</div></section>'
 def ack(path):
- return '<aside class="ack"><p><strong>Built on the work of Software Engineering @ PoliMi.</strong> The starting bibliography was curated by <strong>Alfonso Fuggetta, Damian Andrew Tamburri and Alessandro Margara</strong>: 193 works across nine streams in the 8 October 2026 snapshot. The collection, original classification and annotations are their contribution; the independent atlas and editorial extensions are Enrico Papalini’s.</p><p>'+link(path,'https://www.sepolimi.com/p/se-ai-annotated-bibliography','Read the original bibliography ↗',external=True)+' · '+link(path,'attribution.html','Full credits and evidence boundaries')+'</p></aside>'
+ current=''
+ if POLIMI_UPDATE:
+  current=f'<p><strong>November research update:</strong> {COUNTS["W"]} W records, including {len(POLIMI_UPDATE.get("added_ids",[]))} additions and {len(POLIMI_UPDATE.get("revised_ids",[]))} revised records. '+link(path,POLIMI_UPDATE.get('release_notes',RELEASE_NOTES),'Read the SEPolimi update and source-check scope')+'. New annotations are written from the primary sources; source access and evidence limits remain explicit.</p>'
+ if C.get('practitioner_update'):
+  update=C['practitioner_update']
+  current+='<p><strong>Practitioner source review:</strong> Osmani, The Pragmatic Engineer and Martin Fowler’s website checked through '+esc(update['date'])+'. '+link(path,RELEASE_NOTES,'Read the new articles, review decisions and access limits')+'.</p>'
+ return '<aside class="ack"><p><strong>Built on the work of Software Engineering @ PoliMi.</strong> The starting bibliography was curated by <strong>Alfonso Fuggetta, Damian Andrew Tamburri and Alessandro Margara</strong>: 193 works across nine streams in the 8 October 2026 snapshot. The collection, original classification and annotations are their contribution; the independent atlas and editorial extensions are Enrico Papalini’s.</p>'+current+'<p>'+link(path,'https://www.sepolimi.com/p/se-ai-annotated-bibliography','Read the original bibliography ↗',external=True)+' · '+link(path,'attribution.html','Full credits and evidence boundaries')+'</p></aside>'
 def grouped_sources(path,records,kind=None):
  by=collections.defaultdict(list)
  for n in records:by[n.get('collection')].append(n)
@@ -478,8 +500,8 @@ def build_landing_pages():
  hero+='<div class="actions">'+link(path,'swe_knowledge_graph.html','Open the interactive atlas →','button primary')+link(path,'catalogues/index.html','Browse the catalogues','button')
  if 'N' in COLS:
   hero+=link(path,collection_file('N'),'NDSE2 · published second edition','button')
- hero+='</div><p class="micro">Starts with the original PoliMi source collection. Select the other collections to expand the view.</p></div>'
- hero+='<figure class="hero-visual">'+link(path,'swe_knowledge_graph.html',f'<img src="{esc(rel(path,"assets/atlas-preview.webp"))}" width="1280" height="800" alt="Knowledge Atlas with its original PoliMi starting collection">')+'<figcaption>Explore the connections or read each source in a static catalogue.</figcaption></figure></section>'
+ hero+=f'</div><p class="micro">Starts with the current {COUNTS["W"]}-record PoliMi research collection. Select the other collections to expand the view.</p></div>'
+ hero+='<figure class="hero-visual">'+link(path,'swe_knowledge_graph.html',f'<img src="{esc(rel(path,"assets/atlas-preview.webp"))}" width="1280" height="800" alt="Knowledge Atlas with its original PoliMi starting collection">')+'<figcaption>Preview of the original collection. Open the atlas to explore the current source records.</figcaption></figure></section>'
  counts='<div class="count-strip">'+''.join(f'<div><b>{n:,}</b><span>{esc(label)}</span></div>' for n,label in [
   (EXTERNAL_COUNT,'External source records'),(COUNTS['B'],'Earlier-book records'),(COUNTS['N'],'Published NDSE2 chapters'),(len(PRACTICES),'Practice guides')])+'</div>'
  paths=[
@@ -584,7 +606,7 @@ An independent, source-traceable map of research and practitioner writing about 
 
 The foundation is **[The SE & AI Annotated Bibliography](https://www.sepolimi.com/p/se-ai-annotated-bibliography)**, curated by **Alfonso Fuggetta, Damian Andrew Tamburri and Alessandro Margara**, **Software Engineering @ PoliMi**. Its original 8 October 2026 snapshot contains 193 works. The original classification and annotations are the curators’ contribution. This independent atlas and its editorial extensions do not imply institutional endorsement.
 
-The atlas opens with the original PoliMi collection. Additional collections, context and relationship controls are available through the interface. Source IDs and established links remain stable.
+The atlas opens with the current **{COUNTS['W']}-record PoliMi collection**. Additional collections, context and relationship controls are available through the interface. Source IDs and established links remain stable. The [current release notes]({RELEASE_NOTES}) identify additions, corrections, publication status, and the depth of primary-source checks.
 
 ## Current catalogues
 
@@ -635,7 +657,9 @@ No server application, API key, framework or CDN is required. See [DEPLOYMENT.md
 
 ## Repeat the update
 
-Use `python source/automation/atlas_cli.py` with the sequence **prepare → discover → build → check → package**. `prepare` requires the exact full ZIP confirmed as the currently published site and freezes its SHA-256. Complete the generated `review.json` after checking discovered source candidates, then build from those reviewed inputs. Book metadata remains unchanged unless a reviewed manuscript revision is supplied explicitly.
+Use `python source/automation/atlas_cli.py` with the sequence **prepare → discover → build → check → package** for routine O/P/F source updates. `prepare` requires the exact full ZIP confirmed as the currently published site and freezes its SHA-256. Complete the generated `review.json` after checking discovered source candidates, then build from those reviewed inputs. Book metadata remains unchanged unless a reviewed manuscript revision is supplied explicitly.
+
+For a SEPolimi W-collection update, use the explicit reviewed migration described in [POLIMI_UPDATE.txt](source/automation/POLIMI_UPDATE.txt). It preserves the original W IDs and historical keyed edges while adding reviewed records and current classifications; routine O/P/F discovery does not update W records.
 
 `check` performs independent structural verification, real-browser checks and repeatable rebuilds. `package` creates the full archive and a delta containing only file additions or overwrites, and proves that baseline plus delta equals the full package. Neither command publishes to GitHub. [Commands, dependencies and book-update steps](DEPLOYMENT.md).
 
@@ -666,7 +690,7 @@ Open `http://localhost:8000/`. External source links still follow the publisher�
 
 ## Repeat an Atlas update
 
-Start from the **exact complete ZIP currently published**. The updater freezes its ZIP hash and file inventory, then works on an isolated copy. A previous delta or a live repository snapshot is not a substitute for that confirmed baseline.
+Start from the **exact complete ZIP currently published**, or an archive of an explicit published repository commit whose content has been checked against the live site. Record the repository, full commit SHA, archive hash and comparison evidence before starting. The updater freezes the ZIP hash and file inventory, then works on an isolated copy. A previous delta or an unverified moving-branch snapshot is not an update baseline.
 
 Run these commands from a complete package that contains `source/automation/`. Choose a fresh run directory outside the site and replace the path, date and release placeholders with this update’s values:
 

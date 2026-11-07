@@ -2,10 +2,10 @@
   "schema_version": 1,
   "kind": "atlas_structural_validation",
   "complete": true,
-  "checked_at": "2026-10-18T12:03:39.878222+00:00",
-  "site_version": "13.1",
-  "graph_snapshot": "2026-10-18",
-  "passed": 230,
+  "checked_at": "2026-11-06T22:54:21.089207+00:00",
+  "site_version": "13.4",
+  "graph_snapshot": "2026-11-06",
+  "passed": 237,
   "failed": 0,
   "checks": [
     {
@@ -32,7 +32,7 @@
       "check": "Every baseline keyed edge remains byte-equivalent as the graph prefix",
       "passed": true,
       "detail": {
-        "baseline_edges": 13615
+        "baseline_edges": 13995
       }
     },
     {
@@ -46,7 +46,7 @@
     {
       "check": "The normalized JSON export equals the delivered graph",
       "passed": true,
-      "detail": "data/graph/atlas_payload_v13.json"
+      "detail": "data/graph/atlas_payload_current.json"
     },
     {
       "check": "Raw JSON reconstructs every current display node and raw attribute",
@@ -60,8 +60,8 @@
       "check": "GraphML preserves all current graph, node, edge and mixed-key data",
       "passed": true,
       "detail": {
-        "nodes": 1931,
-        "edges": 13615,
+        "nodes": 1991,
+        "edges": 14268,
         "errors": []
       }
     },
@@ -113,6 +113,10 @@
     },
     {
       "check": "Literal chapter citations remain in the broader mapped reading view",
+      "passed": true
+    },
+    {
+      "check": "Audited current citation-edge IDs resolve exactly",
       "passed": true
     },
     {
@@ -226,7 +230,28 @@
     {
       "check": "Declared new source IDs are unique and present",
       "passed": true,
-      "detail": []
+      "detail": [
+        "O052",
+        "O053",
+        "O054",
+        "O055",
+        "O056",
+        "O057",
+        "O058",
+        "O059",
+        "O060",
+        "O061",
+        "O062",
+        "P125",
+        "P126",
+        "P127",
+        "F036",
+        "F037",
+        "F038",
+        "F039",
+        "F040",
+        "F041"
+      ]
     },
     {
       "check": "New source URLs do not duplicate an existing catalogue record",
@@ -252,6 +277,30 @@
     },
     {
       "check": "Images have an alt attribute: UPDATE_v13_1_20261018.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: UPDATE_v13_2_20261018.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: UPDATE_v13_2_20261018.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: UPDATE_v13_3_20261106.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: UPDATE_v13_3_20261106.html",
+      "passed": true
+    },
+    {
+      "check": "Unique HTML anchors: UPDATE_v13_4_20261106.html",
+      "passed": true
+    },
+    {
+      "check": "Images have an alt attribute: UPDATE_v13_4_20261106.html",
       "passed": true
     },
     {
@@ -882,7 +931,7 @@
       "check": "All published HTML local links and anchors resolve",
       "passed": true,
       "detail": {
-        "checked": 19983,
+        "checked": 21491,
         "errors": []
       }
     },
@@ -990,22 +1039,43 @@
   "error": null,
   "artifact_scope": "All site file paths, SHA-256 and sizes except verification/, SHA256SUMS.txt and development caches.",
   "external_urls_live_checked": false,
-  "graph_nodes": 1931,
-  "graph_edges": 13615,
-  "graph_relation_types": 309,
+  "graph_nodes": 1991,
+  "graph_edges": 14268,
+  "graph_relation_types": 310,
   "source_counts": {
-    "W": 193,
-    "O": 51,
-    "P": 124,
+    "W": 229,
+    "O": 62,
+    "P": 127,
     "B": 111,
     "PAT": 84,
-    "F": 35,
+    "F": 41,
     "N": 13
   },
-  "html_pages_checked": 80,
-  "internal_links_checked": 19983,
-  "distinct_external_links": 378,
-  "new_source_ids": [],
-  "graph_html_sha256": "60d71aa148b3f43a9375c52a2f55a191edcd58edf8a2d51c36d25a2d34cd7d80",
-  "artifact_sha256": "20793a88dc1d136565a396b852f6a948255f8254b450698ebe61a67aae981986"
+  "html_pages_checked": 83,
+  "internal_links_checked": 21491,
+  "distinct_external_links": 463,
+  "new_source_ids": [
+    "O052",
+    "O053",
+    "O054",
+    "O055",
+    "O056",
+    "O057",
+    "O058",
+    "O059",
+    "O060",
+    "O061",
+    "O062",
+    "P125",
+    "P126",
+    "P127",
+    "F036",
+    "F037",
+    "F038",
+    "F039",
+    "F040",
+    "F041"
+  ],
+  "graph_html_sha256": "a40c4ae712233e86795c0e5a29fa2fb055cc0fc0fe22afe59dada8409ba9c678",
+  "artifact_sha256": "0aed15581b15ea4a92c7e7e236d0b66281cc03e17ee308dcacb753881f065912"
 }

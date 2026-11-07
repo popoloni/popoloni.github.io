@@ -185,7 +185,138 @@ def discover_command(args):
                       "candidate_count": len(result.get("candidates", [])), "coverage": result.get("coverage")}, ensure_ascii=False, indent=2))
 
 
+def reviewed_author_contexts(review, state):
+    """Validate the named practitioner adapter's byline-only context overlay.
+
+    Context stays separate from ordinary source operations in the reviewed
+    input. Only build_to appends these validated records for the graph engine.
+    """
+    if "context_additions" in review and review.get("kind") != "atlas_practitioner_update/1":
+        raise ValueError("context_additions requires the explicit atlas_practitioner_update/1 review kind")
+    contexts = review.get("context_additions", [])
+    if not isinstance(contexts, list) or any(not isinstance(item, dict) for item in contexts):
+        raise ValueError("context_additions must be a list of reviewed credited-author records")
+    if not contexts:
+        return contexts
+
+    from urllib.parse import urlsplit
+    from source_discovery import normalize_url
+
+    def nonempty(value):
+        return isinstance(value, str) and bool(value.strip())
+
+    def primary_url(value):
+        if not nonempty(value):
+            raise ValueError("Author context requires an explicit martinfowler.com primary URL")
+        url = normalize_url(value)
+        parsed = urlsplit(url)
+        if parsed.hostname != "martinfowler.com" or parsed.port not in (None, 80, 443):
+            raise ValueError("Author context evidence must be a public primary URL on martinfowler.com")
+        return url
+
+    def inspected_url(evidence):
+        if not isinstance(evidence, dict) or evidence.get("reviewed_on") != state["date"] or evidence.get("access") != "full_public":
+            raise ValueError("Author context needs dated full_public primary evidence")
+        if not nonempty(evidence.get("scope")):
+            raise ValueError("Author context evidence requires an explicit inspection scope")
+        return primary_url(evidence.get("url"))
+
+    # An author may be supported only by a newly included F article whose
+    # actual byline and inspected public primary page are present in this review.
+    sources = review.get("additions", [])
+    if not isinstance(sources, list) or any(not isinstance(item, dict) for item in sources):
+        raise ValueError("additions must be a list of reviewed source operations")
+    articles = []
+    for item in sources:
+        if item.get("collection") != "F":
+            continue
+        attrs = item.get("attributes", {})
+        if not isinstance(attrs, dict):
+            continue
+        try:
+            names = json.loads(attrs.get("authors_json", "null"))
+            if not isinstance(names, list) or not names or any(not nonempty(name) for name in names):
+                continue
+            evidence = item.get("evidence") or attrs.get("evidence_review")
+            url = inspected_url(evidence)
+            if primary_url(item.get("url")) != url:
+                continue
+        except (TypeError, ValueError):
+            continue  # Restricted/metadata-only sources cannot establish a new context node.
+        refs = {item["id"]} if nonempty(item.get("id")) else set()
+        if nonempty(item.get("ref")):
+            refs.add("$" + item["ref"].lstrip("$"))
+        articles.append({"names": {name.strip() for name in names}, "url": url, "refs": refs})
+
+    fields = {"id", "label", "kind", "collection", "category", "summary", "limitation", "url", "authors", "year",
+              "streams", "actual", "mapped", "printed", "topics", "volumes", "attributes"}
+    attribute_fields = {"provenance", "source_url", "evidence_review"}
+    evidence_fields = {"reviewed_on", "access", "url", "scope", "locator", "note", "inspection_depth", "http_status",
+                       "source_sha256", "source_bytes", "body_included_in_deliverable"}
+    by_id = {}
+    source_ids = {item["id"] for item in sources if nonempty(item.get("id"))}
+    for item in contexts:
+        nid = item.get("id")
+        if not isinstance(nid, str) or not re.fullmatch(r"AUTHOR:MF:[a-z0-9-]+", nid):
+            raise ValueError("Author context ID must match AUTHOR:MF:[a-z0-9-]+")
+        if nid in by_id or nid in source_ids:
+            raise ValueError("Duplicate author context ID: " + nid)
+        if set(item) - fields:
+            raise ValueError("Unsupported author context fields (including book/citation fields): " + ", ".join(sorted(set(item) - fields)))
+        if "collection" not in item or item["collection"] is not None or item.get("kind") != "credited_author" or item.get("category") != "contributors":
+            raise ValueError("Author context requires collection=null, kind=credited_author and category=contributors")
+        for field in ("label", "summary", "authors"):
+            if not nonempty(item.get(field)):
+                raise ValueError("Author context requires a nonempty " + field)
+        if item["authors"].strip() != item["label"].strip():
+            raise ValueError("Author context authors must name its credited label")
+        if item.get("actual") != [] or item.get("volumes") != [] or item.get("printed") is not False:
+            raise ValueError("Author context requires explicit actual=[], volumes=[] and printed=false")
+        for field in ("streams", "topics", "mapped"):
+            if item.get(field, []) != []:
+                raise ValueError("Author context cannot claim source classification or chapter mapping: " + field)
+        if item.get("year", "") != "" or not isinstance(item.get("limitation", ""), str):
+            raise ValueError("Author context has no source publication year and limitation must be text")
+        attrs = item.get("attributes")
+        if not isinstance(attrs, dict) or set(attrs) - attribute_fields:
+            raise ValueError("Author context attributes support only provenance, source_url and evidence_review; book/citation attributes are prohibited")
+        if not nonempty(attrs.get("provenance")):
+            raise ValueError("Author context requires explicit attributes.provenance")
+        evidence = attrs.get("evidence_review")
+        url = inspected_url(evidence)
+        if set(evidence) - evidence_fields:
+            raise ValueError("Unsupported author context evidence fields; book/citation fields are prohibited")
+        if primary_url(item.get("url")) != url or ("source_url" in attrs and primary_url(attrs["source_url"]) != url):
+            raise ValueError("Author context URL and source_url must identify its inspected primary article")
+        if not any(item["label"].strip() in article["names"] and url == article["url"] for article in articles):
+            raise ValueError("Author context label and evidence URL must match the authors_json and inspected primary URL of an included F article: " + nid)
+        by_id[nid] = item
+
+    # Each optional authored-by edge must independently match that article's
+    # byline; a valid author node cannot be used to misattribute another source.
+    edges = review.get("edges", [])
+    if not isinstance(edges, list) or any(not isinstance(edge, dict) for edge in edges):
+        raise ValueError("edges must be a list of reviewed relationships")
+    for edge in edges:
+        source, target = edge.get("source"), edge.get("target")
+        if source not in by_id and target not in by_id:
+            continue
+        if target not in by_id or source in by_id or edge.get("relation") != "F_AUTHORED_BY" or edge.get("family") != "provenance":
+            raise ValueError("New author context supports only incoming F_AUTHORED_BY provenance relationships")
+        linked = [article for article in articles if source in article["refs"]]
+        attrs = edge.get("attributes")
+        if len(linked) != 1 or by_id[target]["label"].strip() not in linked[0]["names"]:
+            raise ValueError("Author relationship must match the actual byline of an included F article")
+        if not isinstance(attrs, dict) or not nonempty(attrs.get("provenance")) or primary_url(attrs.get("source_url")) != linked[0]["url"]:
+            raise ValueError("Author relationship requires provenance and that article's inspected primary source_url")
+    return contexts
+
+
 def validate_review(review, state, discovery=None):
+    reviewed_author_contexts(review, state)
+    if review.get('kind') == 'atlas_polimi_update/1':
+        from polimi_migration import validate_review as validate_polimi_review
+        return validate_polimi_review(review, state)
     if review.get('kind') == 'atlas_practices_update/1':
         from practices_migration import validate_review as validate_practice_review
         return validate_practice_review(review, state)
@@ -386,7 +517,9 @@ def validate_review(review, state, discovery=None):
 def tool_files():
     names = ["atlas_cli.py", "atlas_graph.py", "atlas_validate.py", "source_discovery.py", "sources.json",
              "browser_check.js", "build_site.py", "build_ndse2_pages.py", "book_tools.py", "extract_ndse2_base.py",
-             "practices_checks.py", "practices_migration.py", "practice_book_context.py", "PRACTICES_UPDATE.txt"]
+             "practices_checks.py", "practices_migration.py", "practice_book_context.py", "PRACTICES_UPDATE.txt",
+             "polimi_migration.py", "POLIMI_UPDATE.txt", "PRACTITIONER_UPDATE.txt",
+             "cumulative_package.py", "CUMULATIVE_UPDATE.txt"]
     return [name for name in names if (TOOLS / name).is_file()]
 
 
@@ -446,21 +579,50 @@ def release_paths(state):
 def render_update_page(site, state, audit, review):
     esc = lambda x: html.escape(str(x))
     allocated = {item['position']: item['id'] for item in audit.get('assigned_ids', [])}
-    entries = "".join('<li><strong>' + esc(n.get("id") or allocated.get(i, '')) + ' · ' + esc(n["label"]) + '</strong> — ' +
-                      esc(n["authors"]) + '<br><a href="' + esc(n["url"]) + '">' + esc(n["url"]) + '</a></li>'
-                      for i, n in enumerate(review.get("additions", [])))
-    body = f'<p class="eyebrow">Update {esc(state["date"])} · v{esc(state["release"])}</p><h1>Atlas update</h1>'
-    body += '<p>Baseline: <code>' + esc(state["baseline_name"]) + '</code></p><p>SHA-256: <code style="overflow-wrap:anywhere">' + state["baseline_sha256"] + '</code></p>'
-    body += '<h2>Reviewed additions</h2><ul>' + (entries or '<li>No new source records; see the revision audit.</li>') + '</ul>'
-    body += '<p>Actual book citations are derived only from the final manuscript metadata. Editorial mappings and bibliography membership remain distinct.</p>'
-    body += '<p>Book policy: ' + esc(review.get("book_policy", "unchanged")) + '.</p>'
-    body += '<p><a href="' + release_paths(state)['research_audit'] + '">Source review</a> · <a href="verification/report.html">Verification report</a></p>'
-    body += '<p>Every previous node ID and keyed relationship is retained. Publication of these files uses the existing GitHub Pages workflow.</p>'
+    slugs = {'O': 'osmani', 'P': 'pragmatic-engineer', 'F': 'fowler'}
+    groups = {'new': [], 'backfill': []}
+    for i, n in enumerate(review.get('additions', [])):
+        nid = n.get('id') or allocated.get(i, '')
+        record_url = 'catalogues/' + slugs[n['collection']] + '.html#' + nid
+        date = n.get('attributes', {}).get('publication_date') or n.get('year', '')
+        item = '<li><strong><a href="' + record_url + '">' + esc(nid) + ' · ' + esc(n['label']) + '</a></strong><br>' + esc(n['authors']) + ' · ' + esc(date) + '<p>' + esc(n['summary']) + '</p></li>'
+        key = 'backfill' if n.get('attributes', {}).get('discovery_category') == 'older_backfill' else 'new'
+        groups[key].append(item)
+    body = f'<p class="eyebrow">Reviewed {esc(state["date"])} · v{esc(state["release"])}</p><h1>Practitioner sources: review and update</h1>'
+    body += '<p>' + esc(review.get('release_intro', 'Reviewed updates from Osmani, The Pragmatic Engineer and Martin Fowler’s website.')) + '</p>'
+    body += '<h2>Source coverage</h2><table><thead><tr><th>Collection</th><th>Outcome</th><th>Inspection limits</th></tr></thead><tbody>'
+    for source in review.get('coverage', {}).get('sources', []):
+        label = {'O': 'Addy Osmani', 'P': 'The Pragmatic Engineer', 'F': 'Martin Fowler’s website'}.get(source['collection'], source['collection'])
+        limits = '; '.join(source.get('limitations', [])) or 'No additional source-specific limitation recorded.'
+        body += '<tr><th>' + esc(label) + '</th><td>' + esc(source.get('outcome', source.get('method', ''))) + '</td><td>' + esc(limits) + '</td></tr>'
+    body += '</tbody></table>'
+    for key, title in [('new', 'New publications since the previous source review'), ('backfill', 'Older articles newly catalogued')]:
+        if groups[key]:
+            body += '<h2>' + title + '</h2><ul>' + ''.join(groups[key]) + '</ul>'
+    if review.get('revisions'):
+        body += '<h2>Existing records revised</h2><ul>' + ''.join('<li><strong>' + esc(r['id']) + '</strong>: ' + esc(r['reason']) + '</li>' for r in review['revisions']) + '</ul>'
+    body += '<h2>Evidence and preservation</h2><p>Dates distinguish original publication from subsequent activity. Older omissions are labelled as backfills. Public previews remain separate from full-text inspection, and practitioner arguments are not treated as independently replicated research.</p>'
+    for note in review.get('notes', []):
+        body += '<p>' + esc(note) + '</p>'
+    polimi_notes = load(site / 'source/site_config.json').get('polimi_update', {}).get('release_notes')
+    if polimi_notes:
+        body += '<p>The 36 SEPolimi additions and 14 revisions from v13.3 are retained. <a href="' + esc(polimi_notes) + '">Read the SEPolimi update</a>.</p>'
+    body += '<p>All existing node IDs and keyed relationships are retained. Actual book citations, bibliography membership and editorial reading mappings remain distinct. Book policy: ' + esc(review.get('book_policy', 'unchanged')) + '.</p>'
+    body += '<h2>Build and publication baselines</h2><p>Verified working checkpoint: <code>' + esc(state['baseline_name']) + '</code>.</p><p>SHA-256: <code style="overflow-wrap:anywhere">' + state['baseline_sha256'] + '</code></p>'
+    published = review.get('published_baseline', {})
+    if published:
+        body += '<p>The cumulative publication delta is compared with the published v' + esc(published['release']) + ' repository at commit <code>' + esc(published['commit']) + '</code>. The working checkpoint above is an intermediate release, not a claim of deployment.</p>'
+    body += '<p><a href="' + release_paths(state)['research_audit'] + '">Complete source review and candidate decisions</a> · <a href="verification/report.html">Release verification</a> · <a href="index.html">Home</a></p>'
+    body += '<p>The packages are generated and checked locally; publication uses the existing GitHub Pages workflow.</p>'
     filename = release_paths(state)['release_notes']
-    (site / filename).write_text('<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Atlas update</title><link rel="stylesheet" href="assets/site.css"><body><main class="wrap" id="main">' + body + '</main></body></html>', encoding="utf-8")
+    (site / filename).write_text('<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Atlas source review and update</title><link rel="stylesheet" href="assets/site.css"><body><main class="wrap" id="main">' + body + '</main></body></html>', encoding='utf-8')
 
 
 def build_to(root, destination, state, review, book):
+    contexts = reviewed_author_contexts(review, state)
+    if review.get('kind') == 'atlas_polimi_update/1':
+        from polimi_migration import build_polimi_to
+        return build_polimi_to(root, destination, state, review, book)
     if review.get('kind') == 'atlas_practices_update/1':
         from practices_migration import build_practices_to
         return build_practices_to(root, destination, state, review, book)
@@ -469,24 +631,47 @@ def build_to(root, destination, state, review, book):
     old = load(root / "baseline_payload.json")
     old_book_path = root / "baseline/source/ndse2_book.json"
     old_book = load(old_book_path) if old_book_path.is_file() else None
-    no_changes = not any(review.get(k) for k in ("additions", "revisions", "edges")) and (book is None or book == old_book)
+    no_changes = not any(review.get(k) for k in ("additions", "context_additions", "revisions", "edges")) and (book is None or book == old_book)
     if no_changes:
         return {"no_changes": True, "source_additions": [], "baseline_nodes": len(old["nodes"]), "nodes": len(old["nodes"]), "edges": len(old["edges"])}
     engine_review = copy.deepcopy(review)
     engine_review["source_review_path"] = release_paths(state)['research_audit']
+    # Source operations retain their positions and IDs; contributor records are
+    # an explicit, separately validated overlay at the end of the engine input.
+    context_ids = [item["id"] for item in contexts]
+    if contexts:
+        engine_contexts = copy.deepcopy(contexts)
+        for item in engine_contexts:
+            item["attributes"].update(atlas_context_review_kind=review["kind"],
+                                      atlas_context_review_path=engine_review["source_review_path"])
+        engine_review["additions"] = engine_review.get("additions", []) + engine_contexts
     new, audit = apply_update(old, engine_review, book=book)
     if book is not None:
         from practice_book_context import reconcile_practice_book_context
         audit["practice_book_context"] = reconcile_practice_book_context(new, book, engine_review)
     audit["source_additions"] = [n["id"] for n in new["nodes"][len(old["nodes"]):] if n.get("collection") in ("W", "O", "P", "F", "B", "N")]
+    if contexts:
+        audit.update(context_additions=context_ids, context_review_kind=review["kind"],
+                     context_policy="Credited-author context bound to reviewed included F bylines; not source records or book citations")
+        new["meta"]["graphAttributes"].update(practitioner_context_review_kind=review["kind"],
+            practitioner_context_review_source=engine_review["source_review_path"],
+            practitioner_context_added_ids_json=json.dumps(context_ids, ensure_ascii=False))
     audit["no_changes"] = False
     install_tools(destination)
     config = load(destination / "source/site_config.json")
+    if config.get('polimi_update'):
+        config['polimi_update'].setdefault('release_notes', config.get('release_notes'))
     config.update(site_version=state["release"], graph_version=state["release"], build_date=state["date"], graph_snapshot=state["date"],
                   atlas_source="atlas_current.html", graph_json="data/graph/knowledge_graph_current.json",
                   graph_graphml="data/graph/knowledge_graph_current.graphml", payload_json="data/graph/atlas_payload_current.json",
                   book_json="source/ndse2_book.json", book_occurrences_json="data/updates/ndse2_citation_occurrences.json",
                   **release_paths(state))
+    config['practitioner_update'] = {'date': state['date'], 'release': state['release'],
+        'added_ids': audit['source_additions'], 'revised_ids': [r['id'] for r in review.get('revisions', [])],
+        'coverage': review['coverage']}
+    if contexts:
+        config['practitioner_update']['context_added_ids'] = context_ids
+        config['practitioner_update']['context_review_kind'] = review['kind']
     if book is not None and book.get('meta', {}).get('parser_name') == 'extract_ndse2_base.py':
         config['book_extractor'] = 'source/automation/extract_ndse2_base.py'
     elif book is not None and book.get('meta', {}).get('parser_sha256') == sha(TOOLS / 'extract_ndse2_base.py'):
@@ -517,8 +702,11 @@ def build_to(root, destination, state, review, book):
         save(destination / "source/ndse2_book.json", book)
         export_book_views(destination, book)
     save(destination / config["research_audit"], {"as_of": state["date"], "review": review, "graph_update": audit})
-    save(destination / "source/automation_release.json", {"tool_version": VERSION, "date": state["date"], "release": state["release"],
-         "baseline_name": state["baseline_name"], "baseline_sha256": state["baseline_sha256"], "source_additions": audit["source_additions"]})
+    release_info = {"tool_version": VERSION, "date": state["date"], "release": state["release"],
+         "baseline_name": state["baseline_name"], "baseline_sha256": state["baseline_sha256"], "source_additions": audit["source_additions"]}
+    if contexts:
+        release_info.update(context_additions=context_ids, context_review_kind=review["kind"])
+    save(destination / "source/automation_release.json", release_info)
     render_update_page(destination, state, audit, review)
     run_builder(destination)
     return audit

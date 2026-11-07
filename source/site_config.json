@@ -1,8 +1,8 @@
 {
-  "site_version": "13.2",
-  "build_date": "2026-10-18",
-  "graph_version": "13.2",
-  "graph_snapshot": "2026-10-18",
+  "site_version": "13.4",
+  "build_date": "2026-11-06",
+  "graph_version": "13.4",
+  "graph_snapshot": "2026-11-06",
   "canonical_atlas": "https://popoloni.github.io/swe_knowledge_graph.html",
   "title": "Knowledge Atlas for AI and Software Engineering",
   "author": "Enrico Papalini",
@@ -14,7 +14,7 @@
       "slug": "polimi",
       "title": "SE@PoliMi bibliography",
       "short": "Polimi",
-      "description": "The 193-work starting collection curated by Alfonso Fuggetta, Damian Andrew Tamburri and Alessandro Margara at Software Engineering @ PoliMi. The atlas adds its own summaries, evidence qualifications and graph mappings.",
+      "description": "229 research records discovered through Software Engineering @ PoliMi: the original 193-work snapshot plus 36 reviewed additions in this release. Original research authors, publication status, inspection scope and evidence limitations remain explicit. Summaries are independent atlas annotations.",
       "source_url": "https://www.sepolimi.com/p/se-ai-annotated-bibliography"
     },
     {
@@ -22,7 +22,7 @@
       "slug": "osmani",
       "title": "Addy Osmani",
       "short": "Osmani",
-      "description": "51 practitioner articles by Addy Osmani, including Agentic Verification (14 October 2026). Source arguments remain distinct from controlled evidence and independent validation.",
+      "description": "62 reviewed Addy Osmani records. Source arguments and independent evidence remain distinct.",
       "source_url": "https://addyo.substack.com/"
     },
     {
@@ -30,7 +30,7 @@
       "slug": "pragmatic-engineer",
       "title": "The Pragmatic Engineer",
       "short": "Pragmatic Engineer",
-      "description": "124 written publications with individual bylines and contributor credits. Blog and newsletter Deepdives are deduplicated; podcast episodes and titles beginning The Pulse remain outside the collection. Public text and restricted previews are identified.",
+      "description": "127 written Pragmatic Engineer records. Blog and Deepdives are deduplicated; The Pulse title-prefix and podcast exclusions remain in force.",
       "source_url": "https://newsletter.pragmaticengineer.com/"
     },
     {
@@ -38,7 +38,7 @@
       "slug": "fowler",
       "title": "Martin Fowler’s website",
       "short": "Fowler website",
-      "description": "35 essays and memos on martinfowler.com: 33 records from Exploring Generative AI plus two explicitly identified adjacent articles updated or published in October 2026. Each credited byline and publication or revision date is retained.",
+      "description": "41 records on Martin Fowler’s website, retaining actual bylines, publication and revision dates, and explicit series or adjacent-site scope.",
       "source_url": "https://martinfowler.com/articles/exploring-gen-ai.html"
     },
     {
@@ -67,11 +67,11 @@
       "record_type": "editorial_practice"
     }
   ],
-  "atlas_source": "atlas_v13_current.html",
-  "graph_json": "data/graph/knowledge_graph_v13.json",
-  "graph_graphml": "data/graph/knowledge_graph_v13.graphml",
-  "payload_json": "data/graph/atlas_payload_v13.json",
-  "release_notes": "UPDATE_v13_2_20261018.html",
+  "atlas_source": "atlas_current.html",
+  "graph_json": "data/graph/knowledge_graph_current.json",
+  "graph_graphml": "data/graph/knowledge_graph_current.graphml",
+  "payload_json": "data/graph/atlas_payload_current.json",
+  "release_notes": "UPDATE_v13_4_20261106.html",
   "practice_content_schema": 1,
   "book_series": {
     "title": "Non-Deterministic series",
@@ -88,5 +88,221 @@
     ]
   },
   "book_publications_json": "source/book_publications.json",
-  "publications_audit_json": "data/updates/publications_review_v13_2_20261018.json"
+  "publications_audit_json": "data/updates/publications_review_v13_2_20261018.json",
+  "polimi_update": {
+    "kind": "atlas_polimi_update/1",
+    "date": "2026-11-06",
+    "baseline_count": 193,
+    "current_count": 229,
+    "added_ids": [
+      "W194",
+      "W195",
+      "W196",
+      "W197",
+      "W198",
+      "W199",
+      "W200",
+      "W201",
+      "W202",
+      "W203",
+      "W204",
+      "W205",
+      "W206",
+      "W207",
+      "W208",
+      "W209",
+      "W210",
+      "W211",
+      "W212",
+      "W213",
+      "W214",
+      "W215",
+      "W216",
+      "W217",
+      "W218",
+      "W219",
+      "W220",
+      "W221",
+      "W222",
+      "W223",
+      "W224",
+      "W225",
+      "W226",
+      "W227",
+      "W228",
+      "W229"
+    ],
+    "revised_ids": [
+      "W011",
+      "W024",
+      "W031",
+      "W032",
+      "W055",
+      "W056",
+      "W069",
+      "W071",
+      "W093",
+      "W104",
+      "W107",
+      "W124",
+      "W147",
+      "W193"
+    ],
+    "coverage": {
+      "status": "complete_with_disclosed_limits",
+      "through": "2026-11-06",
+      "sources": [
+        {
+          "collection": "W",
+          "urls": [
+            "https://www.sepolimi.com/p/se-and-ai-monthly-bulletin-november",
+            "https://www.sepolimi.com/p/se-ai-annotated-bibliography"
+          ],
+          "method": "Reconcile the November bulletin against the pinned 193-record W collection; check primary sources and identity aliases; inspect current publication/version metadata.",
+          "status": "complete"
+        }
+      ],
+      "limitations": [
+        "The discovery set is the bulletin published 4 November 2026, covering changes through 1 November. Primary-source metadata was checked on 6 November; this is not a claim of exhaustive worldwide research coverage through that date.",
+        "Nineteen new records were checked at primary-abstract level. The remaining 17 have primary text, selected manuscript sections or a primary report page checked. Scope is recorded on each entry; no experimental or statistical results were independently replicated.",
+        "Accepted manuscripts, working papers, research reports and opinion remain distinct from published peer-reviewed articles. The CACM opinion has no new empirical evaluation.",
+        "Alanazi et al. report internally inconsistent task-time statistics. This unresolved reporting issue is disclosed; the atlas does not repair the values or repeat a significant time-saving conclusion.",
+        "Historical graph assertions and source-audit fields are retained. Current correction and classification fields identify revised interpretations; new chapter links are reading suggestions rather than additions to the published manuscript."
+      ]
+    },
+    "release_notes": "UPDATE_v13_3_20261106.html"
+  },
+  "research_audit": "data/updates/source_review_v13_4_20261106.json",
+  "book_json": "source/ndse2_book.json",
+  "book_occurrences_json": "data/updates/ndse2_citation_occurrences.json",
+  "practitioner_update": {
+    "date": "2026-11-06",
+    "release": "13.4",
+    "added_ids": [
+      "O052",
+      "O053",
+      "O054",
+      "O055",
+      "O056",
+      "O057",
+      "O058",
+      "O059",
+      "O060",
+      "O061",
+      "O062",
+      "P125",
+      "P126",
+      "P127",
+      "F036",
+      "F037",
+      "F038",
+      "F039",
+      "F040",
+      "F041"
+    ],
+    "revised_ids": [],
+    "coverage": {
+      "status": "complete_with_disclosed_limits",
+      "through": "2026-11-06",
+      "sources": [
+        {
+          "collection": "O",
+          "urls": [
+            "https://addyosmani.com/blog/",
+            "https://addyosmani.com/feed.xml",
+            "https://addyo.substack.com/archive",
+            "https://addyo.substack.com/sitemap.xml"
+          ],
+          "method": "Review the ten-item blog feed, all 24 current blog-index cards, official newsletter archive and 2026 sitemap; inspect distinct articles and paired mirrors.",
+          "outcome": "11 older omissions added; no new eligible publication after 18 October; 13 blog/newsletter mirrors retain existing IDs.",
+          "status": "limited",
+          "limitations": [
+            "The newsletter feed returned HTML instead of RSS; the official archive and annual sitemap supplied alternative coverage.",
+            "No complete historical body snapshots exist to detect every silent edit. The older backfill was bounded to the current index."
+          ]
+        },
+        {
+          "collection": "P",
+          "urls": [
+            "https://newsletter.pragmaticengineer.com/feed",
+            "https://newsletter.pragmaticengineer.com/archive",
+            "https://newsletter.pragmaticengineer.com/s/deepdives",
+            "https://blog.pragmaticengineer.com/feed/"
+          ],
+          "method": "Cross-check newsletter and blog feeds, current archive, individual primary pages and sitemap activity; resolve every observed format and identity.",
+          "outcome": "3 new written articles added; podcasts, Pulse issues and announcements excluded. Timestamp-only activity on existing articles is logged without asserting revised findings.",
+          "status": "limited",
+          "limitations": [
+            "P125 and P126 were inspected only through their public previews; subscriber-only text was not accessed.",
+            "The static Deepdives index exposed no article links; feeds, archive and article metadata supplied alternative coverage. Silent edits cannot be exhaustively detected."
+          ]
+        },
+        {
+          "collection": "F",
+          "urls": [
+            "https://martinfowler.com/feed.atom",
+            "https://martinfowler.com/recent-changes.html",
+            "https://martinfowler.com/articles/exploring-gen-ai.html"
+          ],
+          "method": "Review official Atom feed, recent changes, every series-index entry and complete primary text for included adjacent-site articles; retain actual bylines.",
+          "outcome": "2 new articles and 4 older omissions added. All 33 Exploring Generative AI series entries were already represented; the six additions are adjacent-site sources.",
+          "status": "limited",
+          "limitations": [
+            "This bounded review does not claim an exhaustive site-wide archive audit or detection of every silent historical edit.",
+            "Linked experiments, external statistics and illustrative code were not independently replicated."
+          ]
+        }
+      ],
+      "gap_resolutions": [
+        {
+          "endpoint": "osmani_newsletter_feed",
+          "reason": "Expected an RSS or Atom feed; received html",
+          "status": "resolved",
+          "note": "Publication discovery cross-checked through the official archive, sitemap and primary pages; the failed endpoint and silent-edit limits remain disclosed.",
+          "primary_urls": [
+            "https://addyosmani.com/blog/",
+            "https://addyosmani.com/feed.xml",
+            "https://addyo.substack.com/archive",
+            "https://addyo.substack.com/sitemap.xml"
+          ]
+        },
+        {
+          "endpoint": "osmani_newsletter_archive",
+          "reason": "No recognizable article metadata; page may require JavaScript or its structure changed",
+          "status": "resolved",
+          "note": "Publication discovery cross-checked through the official archive, sitemap and primary pages; the failed endpoint and silent-edit limits remain disclosed.",
+          "primary_urls": [
+            "https://addyosmani.com/blog/",
+            "https://addyosmani.com/feed.xml",
+            "https://addyo.substack.com/archive",
+            "https://addyo.substack.com/sitemap.xml"
+          ]
+        },
+        {
+          "endpoint": "orosz_deepdives_index",
+          "reason": "No recognizable article metadata; page may require JavaScript or its structure changed",
+          "status": "resolved",
+          "note": "Publication discovery cross-checked through the official archive, sitemap and primary pages; the failed endpoint and silent-edit limits remain disclosed.",
+          "primary_urls": [
+            "https://newsletter.pragmaticengineer.com/feed",
+            "https://newsletter.pragmaticengineer.com/archive",
+            "https://newsletter.pragmaticengineer.com/s/deepdives",
+            "https://blog.pragmaticengineer.com/feed/"
+          ]
+        }
+      ],
+      "limitations": [
+        "Two new Pragmatic Engineer records are limited to public previews. Other included practitioner texts were publicly inspected.",
+        "Current feeds and indexes are bounded discovery sources; metadata activity is not proof of a substantive revision, and silent historical edits cannot be exhaustively ruled out.",
+        "Practitioner essays and reported cases do not become independently replicated empirical studies through inclusion in the atlas."
+      ]
+    },
+    "context_added_ids": [
+      "AUTHOR:MF:rachel-laycock",
+      "AUTHOR:MF:pramod-sadalage",
+      "AUTHOR:MF:prem-chandrasekaran",
+      "AUTHOR:MF:martin-fowler"
+    ],
+    "context_review_kind": "atlas_practitioner_update/1"
+  }
 }

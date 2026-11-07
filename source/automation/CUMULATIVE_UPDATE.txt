@@ -1,0 +1,71 @@
+CUMULATIVE PACKAGING AFTER A VERIFIED WORKING CHECKPOINT
+
+Purpose
+-------
+The normal atlas_cli workflow compares its output with its immediate build
+baseline. That baseline can be an unpublished, verified checkpoint such as
+v13.3 while the deployed GitHub Pages site remains v13.2.
+
+cumulative_package.py consumes an already packaged normal run. It does not
+build, edit a candidate, replace review decisions, waive verification, update
+run.json, or deploy. It copies the verified full ZIP without changing one byte
+and creates a separate delta against the explicitly pinned published ZIP.
+
+Required sequence
+-----------------
+1. Complete the ordinary prepare/discover/review/build/check/package workflow.
+   The run must be in phase "packaged" and all frozen inputs, candidate bytes,
+   current structure/browser/reproducibility evidence, and the stage package
+   manifest must still match.
+2. Supply the complete published website ZIP, its independently pinned SHA-256,
+   and its full Git commit hash. The utility verifies the ZIP checksum; the
+   supplied commit is recorded, not independently resolved over the network.
+3. Select a new or empty output directory separate from the standard run and
+   its package output. No existing candidate, baseline or package is changed.
+
+Example (replace paths and checksum with the reviewed values):
+
+python source/automation/cumulative_package.py \
+  --run /path/to/atlas-v13_4-run \
+  --published-baseline /path/to/Published_GitHub_v13_2.zip \
+  --published-sha256 FULL_64_CHARACTER_SHA256 \
+  --published-commit FULL_GIT_COMMIT_HASH \
+  --output /path/to/cumulative-v13_4-output
+
+Checks and output
+-----------------
+The stage full archive must match both run.json and the ordinary release
+manifest, and its extracted inventory must equal the verified candidate.
+Structure is rechecked; complete passing browser and reproducibility evidence
+must be bound to the same artifact. No browser check is skipped or fabricated.
+
+The cumulative comparison rejects deletions. It preserves the original ordered
+node-ID prefix and every historical keyed edge. Every original non-source node
+(including books, chapters, practices, occurrences, reader files and historical
+claims) must remain identical. Existing source nodes retain their kind,
+collection, actual citations, bibliography flag and book citation attributes.
+Original book/practice metadata and the retained canonical source files are
+also checked. This utility is for source updates, not book or practice-content
+reconciliation; use an explicitly reviewed migration for such changes.
+
+Only added or changed paths enter the cumulative Delta_from_v13_2 archive
+(the version is derived from the actual published baseline). The utility
+extracts the actual published ZIP and overlays the actual delta, then compares
+every file hash and size with the actual verified full ZIP. This equality is
+required. It separately applies the same delta to the run's working-checkpoint
+ZIP. That second equality is recorded as true or false and never weakens the
+required published-baseline proof. A false result means the delta must not be
+used on the working checkpoint; use the published base or the full replacement.
+
+Outputs are committed only after these checks pass:
+
+* Unchanged full ZIP copied from the standard stage output.
+* Cumulative delta ZIP containing only changed/additional site files.
+* English Cumulative_Manifest JSON with distinct published and working
+  baselines, commit/checksum provenance, hashes, sizes, counts, old/new path
+  hashes, check summaries and both overlay results.
+* English update instructions stating the permitted bases and deployed=false.
+
+The utility never marks a checkpoint or generated archive as published. A full
+archive becomes a published baseline only after the existing deployment process
+has actually completed and its identity has been independently confirmed.

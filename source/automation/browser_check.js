@@ -31,7 +31,7 @@ const sorted = values => [...values].sort();
 const equalIDs = (left, right) => JSON.stringify(sorted(left)) === JSON.stringify(sorted(right));
 let playwright, executablePath, sourceHTML = '', graph = {nodes: [], edges: [], relations: []}, config;
 let nodeByID, collections = [], counts = {}, slugs, expectedRelations = [], endpointID;
-let baselineGraph, baselineHTML, wIDs, originalEdges, chapterNodes = [], newIDs = [], changes = {}, artifactHash;
+let baselineGraph, baselineHTML, baselineWIDs, baselineOriginalEdges, wIDs, originalEdges, chapterNodes = [], newIDs = [], changes = {}, artifactHash;
 const excludedParts = new Set(['__pycache__', '.git', '.pytest_cache', 'node_modules']);
 function artifactSHA256(root) {
   const rows = [];
@@ -101,9 +101,26 @@ function initialize() {
   chapterNodes = graph.nodes.filter(node => node.collection === 'N');
   const book = JSON.parse(fs.readFileSync(path.join(site, config.book_json || 'source/ndse2_book.json'), 'utf8'));
   if (!equalIDs(book.chapters.map(chapter => chapter.id), chapterNodes.map(node => node.id))) throw new Error('NDSE2 graph chapter IDs differ from the supplied book metadata.');
-  wIDs = new Set(baselineGraph.nodes.filter(node => node.collection === 'W').map(node => node.id));
+  baselineWIDs = new Set(baselineGraph.nodes.filter(node => node.collection === 'W').map(node => node.id));
+  wIDs = new Set(baselineWIDs);
   const baselineEndpoint = endpoint => typeof endpoint === 'number' ? baselineGraph.nodes[endpoint].id : endpoint;
   originalEdges = baselineGraph.edges.filter(edge => wIDs.has(baselineEndpoint(edge.source)) && wIDs.has(baselineEndpoint(edge.target)) && edge.relation !== 'inferred_topic_similarity').map(edge => edge.id);
+  baselineOriginalEdges = [...originalEdges];
+  // The separately reviewed W migration extends the current research preset.
+  // Ordinary article/practice updates still require the exact baseline preset.
+  if (changes.kind === 'atlas_polimi_update/1') {
+    const approved = changes.opening_preset?.source_ids;
+    const additions = changes.source_additions || [];
+    const expected = [...baselineWIDs, ...additions];
+    if (!Array.isArray(approved) || !equalIDs(approved, expected) || !equalIDs(approved, graph.nodes.filter(node => node.collection === 'W').map(node => node.id))) {
+      throw new Error('W migration preset differs from the baseline plus its reviewed W additions.');
+    }
+    if (!equalIDs(changes.opening_preset.original_w_ids || [], baselineWIDs)) throw new Error('W migration omitted an original W source.');
+    const oldEdgeIDs = new Set(graph.edges.map(edge => edge.id));
+    if (!originalEdges.every(id => oldEdgeIDs.has(id))) throw new Error('W migration lost an original visible research relationship.');
+    wIDs = new Set(approved);
+    originalEdges = graph.edges.filter(edge => wIDs.has(endpointID(edge.source)) && wIDs.has(endpointID(edge.target)) && edge.relation !== 'inferred_topic_similarity').map(edge => edge.id);
+  }
   artifactHash = artifactSHA256(site);
 }
 const checks = [];
@@ -322,9 +339,9 @@ async function run() {
   await load('swe_knowledge_graph.html', true);
   await stable();
   let diag = await diagnostics();
-  check('Bare atlas preserves baseline W sources and visible edges', diag.visibleSources === wIDs.size && diag.visibleContext === 0 && diag.visibleEdgeIDs.length === originalEdges.length, {sources: diag.visibleSources, context: diag.visibleContext, edges: diag.visibleEdgeIDs.length});
-  check('Bare atlas preserves exact W IDs', equalIDs(diag.visibleNodeIDs, wIDs));
-  check('Bare atlas preserves exact original edge IDs', equalIDs(diag.visibleEdgeIDs, originalEdges));
+  check('Bare atlas matches expected W sources and visible edges', diag.visibleSources === wIDs.size && diag.visibleContext === 0 && diag.visibleEdgeIDs.length === originalEdges.length, {sources: diag.visibleSources, context: diag.visibleContext, edges: diag.visibleEdgeIDs.length});
+  check('Bare atlas matches exact reviewed W IDs', equalIDs(diag.visibleNodeIDs, wIDs));
+  check('Bare atlas matches exact expected opening edge IDs', equalIDs(diag.visibleEdgeIDs, originalEdges));
   check('Atlas diagnostics report current totals', diag.totalNodes === graph.nodes.length && diag.totalEdges === graph.edges.length && diag.totalRelations === expectedRelations.length, {nodes: diag.totalNodes, edges: diag.totalEdges, relationships: diag.totalRelations});
   check('Every current relation has a switch', await page.locator('[data-relation]').count() === expectedRelations.length);
   for (const code of collections) {
@@ -433,7 +450,7 @@ async function run() {
   await page.locator('#resetBtn').evaluate(element => element.click());
   await stable();
   diag = await diagnostics();
-  check('Reset after all-switch verification restores exact baseline nodes and edges', equalIDs(diag.visibleNodeIDs, wIDs) && diag.visibleContext === 0 && equalIDs(diag.visibleEdgeIDs, originalEdges));
+  check('Reset after all-switch verification restores exact expected nodes and edges', equalIDs(diag.visibleNodeIDs, wIDs) && diag.visibleContext === 0 && equalIDs(diag.visibleEdgeIDs, originalEdges));
 
   // Published catalogues remain useful when JavaScript is unavailable.
   const noJS = await browser.newContext({javaScriptEnabled: false, viewport: {width: 1440, height: 1000}});
@@ -499,7 +516,8 @@ async function run() {
       graphHTMLSHA256: sourceHTML ? crypto.createHash('sha256').update(sourceHTML).digest('hex') : null,
       artifact_sha256: artifactHash || null,
       artifact_scope: 'All site file paths, SHA-256 and sizes except verification/, SHA256SUMS.txt and development caches.',
-      baseline_default: {source_ids: wIDs ? [...wIDs] : [], edge_ids: originalEdges || []},
+      baseline_default: {source_ids: baselineWIDs ? [...baselineWIDs] : [], edge_ids: baselineOriginalEdges || []},
+      expected_opening_view: {source_ids: wIDs ? [...wIDs] : [], edge_ids: originalEdges || [], migration_kind: changes.kind || null},
       relationship_switch_checks: relationshipSwitchChecks,
       graphNodes: graph.nodes.length, graphEdges: graph.edges.length, graphRelations: expectedRelations.length,
       dynamicSourceCounts: counts, checks, pageErrors, consoleErrors, failedRequests, localHTTPFailures,

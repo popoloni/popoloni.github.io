@@ -20,7 +20,7 @@ Open `http://localhost:8000/`. External source links still follow the publisherâ
 
 ## Repeat an Atlas update
 
-Start from the **exact complete ZIP currently published**. The updater freezes its ZIP hash and file inventory, then works on an isolated copy. A previous delta or a live repository snapshot is not a substitute for that confirmed baseline.
+Start from the **exact complete ZIP currently published**, or an archive of an explicit published repository commit whose content has been checked against the live site. Record the repository, full commit SHA, archive hash and comparison evidence before starting. The updater freezes the ZIP hash and file inventory, then works on an isolated copy. A previous delta or an unverified moving-branch snapshot is not an update baseline.
 
 Run these commands from a complete package that contains `source/automation/`. Choose a fresh run directory outside the site and replace the path, date and release placeholders with this updateâ€™s values:
 
@@ -72,7 +72,7 @@ See [source/PUBLICATION_UPDATES.md](source/PUBLICATION_UPDATES.md) for the regis
 python source/build_site.py
 ```
 
-This command rebuilds the static catalogues from the current configured template `source/atlas_v13_current.html`, `source/site_config.json` and `source/ndse2_book.json`. It does not discover articles, alter the graph, run verification or create a new approved package. The reusable `build` command above also performs this rendering step after applying the reviewed graph update.
+This command rebuilds the static catalogues from the current configured template `source/atlas_current.html`, `source/site_config.json` and `source/ndse2_book.json`. It does not discover articles, alter the graph, run verification or create a new approved package. The reusable `build` command above also performs this rendering step after applying the reviewed graph update.
 
-Current graph downloads are `data/graph/knowledge_graph_v13.json` and `data/graph/knowledge_graph_v13.graphml`. Earlier exports remain historical artifacts. Release notes are `UPDATE_v13_2_20261018.html` and the source audit is `data/updates/source_review_20261018.json`. Use the existing GitHub Pages publishing workflow after reviewing the resulting full or delta package.
+Current graph downloads are `data/graph/knowledge_graph_current.json` and `data/graph/knowledge_graph_current.graphml`. Earlier exports remain historical artifacts. Release notes are `UPDATE_v13_4_20261106.html` and the source audit is `data/updates/source_review_v13_4_20261106.json`. Use the existing GitHub Pages publishing workflow after reviewing the resulting full or delta package.
 

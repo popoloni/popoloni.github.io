@@ -1,0 +1,91 @@
+REVIEWED SEPOLIMI / W-COLLECTION UPDATES
+=====================================
+
+Adapter kind: atlas_polimi_update/1
+Engine: source/automation/polimi_migration.py
+
+This is a separately reviewed migration. The ordinary O/P/F article updater
+continues to reject W additions and revisions. Use the normal atlas_cli.py
+prepare, build, check and package commands with this named review kind.
+
+The baseline must be the exact site the user identified as published. For the
+2026-11-06 update the user explicitly identified the GitHub repository as the
+current published source. Its pinned commit is archived without .git and its
+archive SHA-256 is frozen by prepare; the run's baseline_selection_basis records
+that provenance. A previous delta is not a complete baseline.
+
+Required review fields
+----------------------
+kind = atlas_polimi_update/1
+schema_version = 1
+baseline_sha256, baseline_payload_sha256, baseline_release, release, date
+book_policy = unchanged
+editorial_review = {status: complete, reviewer: <name>, scope: <scope>}
+coverage = {status: complete|complete_with_disclosed_limits, through: <date>,
+  sources: [{collection: W, urls: [<SEPolimi URLs>], method: <review method>,
+             status: complete|limited}], limitations: [<known limits>]}
+additions = [<normalized new W nodes with explicit contiguous Wnnn IDs>]
+revisions = [{id, reason, patch, attributes_patch}]
+edges = [{source, target, relation, family, attributes: {provenance, ...}}]
+
+Optional fields: candidate_decisions, release_intro, notes. Candidate decisions
+may be add, revise, exclude, already_present or defer and must carry a reason.
+They do not silently promote metadata into independently verified findings.
+
+New nodes
+---------
+Each requires collection W, kind paper, label, authors, year, url, summary,
+limitation, streams, topics, mapped and attributes. The kind paper is the W
+schema's container type; attributes.publication_status and evidence_class
+distinguish peer-reviewed papers, preprints, reports and other source types.
+
+attributes requires provenance, publication_status and evidence_review:
+  {reviewed_on: <run date>, access: full_public|restricted_preview|metadata_only|
+   bibliography_only, url: <source actually inspected>, scope: <inspection scope>}
+
+Bibliography-only access requires the inspected SEPolimi URL and an explicit
+statement that the primary source has not been inspected. An access flag alone
+must never be read as replication, independent reproduction or peer review.
+
+All new source IDs append after the last W identifier, in the order fixed in
+the review. The established W IDs are never renumbered. New records have no
+literal book citations, bibliography membership or source-volume membership.
+Chapter suggestions belong in mapped; actual remains [] and printed false.
+
+Mappings require matching explicit edges:
+- streams[0]: PRIMARY_STREAM, classification
+- other streams: SECONDARY_STREAM, classification
+- topics: ADDRESSES_TOPIC, classification
+- mapped: INFORMS_CHAPTER, mapping
+
+The endpoints are the existing T: / K: / C: IDs from vocabulary.json. Every
+edge needs concrete provenance. Editorial mappings are not direct citations.
+
+Revisions and preservation
+--------------------------
+Only existing W records may be revised. Editable display fields are label,
+summary, limitation, url, authors, year, streams, topics and mapped. Identity,
+actual/printed/volumes and ndse2_* attributes are protected. Each change retains
+the previous value in atlas_revision_history and the reason/evidence in
+atlas_editorial_revisions. Mirrored label, contribution, limitation, source and
+year attributes stay consistent with the display. New actual-use relationships
+are prohibited. Every previous node index and keyed edge is preserved.
+
+The source/template, normalized JSON, raw JSON, GraphML, static catalogues and
+catalogue ZIP are rebuilt together. Current W controls and reset/help text use
+the expanded collection count, while the original 193-work attribution remains
+historical. The existing defaultState controls are unchanged. .nojekyll is
+created in the output if absent from the pinned repository.
+
+Validation and packaging
+------------------------
+The standard structural/browser/reproducibility gates remain active. Only the
+named W migration extends the browser check's W-preset expectation, and that
+expectation must equal the old IDs plus the reviewed additions. Ordinary
+updates keep the exact old preset. Book and practice checks remain in force.
+
+check rebuilds twice from immutable inputs. Therefore modify the review or
+source/automation/build_site.py to revise generated output; do not patch only
+candidate pages. package calculates the byte-level full/delta and verifies
+baseline + actual delta ZIP = actual full ZIP. There are no deletions and no
+automatic GitHub deployment.
