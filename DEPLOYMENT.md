@@ -55,14 +55,13 @@ For a new final bilingual manuscript, `extract-book` can prepare a metadata draf
 
 Keep book destinations and artwork metadata in `source/book_publications.json`, configured through `book_publications_json` in `source/site_config.json`. Store the original local cover and series images in `assets/books/` and retain their original proportions. The registry records the individual product destinations separately from the series page and author companion links.
 
-After editing that registry or replacing the supplied artwork, run from the site root:
+Render the reviewed registry and current graph from the site root:
 
 ```sh
-python source/update_publications.py
 python source/build_site.py
 ```
 
-The publication adapter applies these presentation fields to the current book records. The renderer also reads the retained overlay, so future article and manuscript rebuilds keep the product links and covers. This adapter is separate from manuscript extraction: a cover or storefront-link update does not replace bibliographic titles or ISBNs, create source citations, or change chapter citation evidence. For an ordinary render with no publication changes, run only `python source/build_site.py`.
+Edition changes require updating the canonical graph records, chapter locators and reviewed relationships together. The v13.2 publication adapter replays the old six-volume snapshot. Use the current book review at `source/book_chapter_review.json` as the basis for future edition updates.
 
 See [source/PUBLICATION_UPDATES.md](source/PUBLICATION_UPDATES.md) for the registry fields and publication-update procedure.
 
@@ -74,5 +73,5 @@ python source/build_site.py
 
 This command rebuilds the static catalogues from the current configured template `source/atlas_current.html`, `source/site_config.json` and `source/ndse2_book.json`. It does not discover articles, alter the graph, run verification or create a new approved package. The reusable `build` command above also performs this rendering step after applying the reviewed graph update.
 
-Current graph downloads are `data/graph/knowledge_graph_current.json` and `data/graph/knowledge_graph_current.graphml`. Earlier exports remain historical artifacts. Release notes are `UPDATE_v13_5_20261107.html` and the source audit is `data/updates/source_review_v13_4_20261106.json`. Use the existing GitHub Pages publishing workflow after reviewing the resulting full or delta package.
+Current graph downloads are `data/graph/knowledge_graph_current.json` and `data/graph/knowledge_graph_current.graphml`. Earlier exports remain historical artifacts. Release notes are `UPDATE_v13_6_20261123.html` and the source audit is `data/updates/source_review_v13_4_20261106.json`. Use the existing GitHub Pages publishing workflow after reviewing the resulting full or delta package.
 

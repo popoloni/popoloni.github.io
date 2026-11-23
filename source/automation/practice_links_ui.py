@@ -179,7 +179,10 @@ class PracticeLinksUI:
         out='<section class="practice-coverage" aria-labelledby="practice-coverage-heading"><h2 id="practice-coverage-heading">Practices connected to the corpus</h2><div class="practice-coverage-stats">'
         for number,label in [(str(c['reviewed_source_count'])+'/'+str(c['source_count']),'source records reviewed'),(str(c['mapped_source_count']),'source records mapped'),(str(c['linked_practice_count'])+'/'+str(c['practice_count']),'practices with sources'),(str(c['link_count']),'reviewed associations')]:
             out+='<div><strong>'+number+'</strong><span>'+esc(label)+'</span></div>'
-        out+='</div><p>Read from a practice to its sources, or from any source card to its related practices. The classification distinguishes rationale, cases, component evaluations, cautions and historical book origins.</p>'
+        out+='</div><p>The classification distinguishes reasoning, cases, component evaluations, cautions and historical book origins.</p>'
+        if 'R' in self.collections:
+            target='catalogues/'+self.collections['R']['slug']+'.html'
+            out+='<p>The counts below cover the W, O, P, F, B and N collections reviewed in v13.5. '+link(path,target,'The Packt and ESA chapter records')+' show their own chapter-to-practice links and explanations.</p>'
         if c['excluded_source_count']:
             out+='<p>'+str(c['excluded_source_count'])+' retained records are explicitly outside the operational-practice scope. They remain accessible, with individual review reasons; no forced practice match is created.</p>'
         out+='<div class="practice-table-scroll"><table class="practice-coverage-table"><thead><tr><th>Collection</th><th>Records</th><th>Mapped</th><th>Outside practice scope</th></tr></thead><tbody>'

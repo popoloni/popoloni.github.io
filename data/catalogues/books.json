@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "atlas_current.html",
-    "snapshot": "2026-11-07",
-    "site_version": "13.5",
+    "snapshot": "2026-11-23",
+    "site_version": "13.6",
     "count": 111,
     "note": "Materialized view of the current audited graph; complete node fields retained. Source inspection and publication status are recorded per item. The builder performs no new empirical validation."
   },
@@ -7001,7 +7001,7 @@
         "kind": "author_tex_section",
         "node_class": "ND_INFORMATIONAL_TEX",
         "collection": "B",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "volume_title": "Non-Deterministic Loop Engineering",
         "source_path": "NDLE/frontmatter.tex",
         "source_sha256": "a92fea666811437893828facf85543449e9c4e434d2e078ef86531a0c842dca7",
@@ -7021,17 +7021,18 @@
         "evidence_class": "Author-authored engineering synthesis, guidance or reference apparatus",
         "review_scope": "File-level content mapping and citation-identity tracing; no independent validation or code execution",
         "full_empirical_validation": "NO",
-        "provenance": "ND.zip, 2026-10-11; original file retained unchanged"
+        "provenance": "ND.zip, 2026-10-11; original file retained unchanged",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [
         "K:Developer workflow and adoption",
         "K:Human-agent collaboration"
       ],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "book": {
-        "volume": "V05",
+        "volume": "V05-H",
         "title": "Non-Deterministic Loop Engineering",
         "subtitle": "Design Reliable Agentic AI Systems Beyond the Prompt",
         "url": "https://www.amazon.com/dp/B0GHCXPBRM",
@@ -7070,7 +7071,7 @@
         "kind": "author_tex_section",
         "node_class": "ND_INFORMATIONAL_TEX",
         "collection": "B",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "volume_title": "Non-Deterministic Loop Engineering",
         "source_path": "NDLE/summary_v2.tex",
         "source_sha256": "a2c61f272e6afb5d3f3efedf51856604bedc834f0de2235d548ae7ee89749539",
@@ -7090,7 +7091,8 @@
         "evidence_class": "Author-authored engineering synthesis, guidance or reference apparatus",
         "review_scope": "File-level content mapping and citation-identity tracing; no independent validation or code execution",
         "full_empirical_validation": "NO",
-        "provenance": "ND.zip, 2026-10-11; original file retained unchanged"
+        "provenance": "ND.zip, 2026-10-11; original file retained unchanged",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [
         "K:Long-running agent execution",
@@ -7102,10 +7104,10 @@
         "K:Output versus shipped value"
       ],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "book": {
-        "volume": "V05",
+        "volume": "V05-H",
         "title": "Non-Deterministic Loop Engineering",
         "subtitle": "Design Reliable Agentic AI Systems Beyond the Prompt",
         "url": "https://www.amazon.com/dp/B0GHCXPBRM",
@@ -7143,7 +7145,7 @@
         "kind": "author_tex_section",
         "node_class": "ND_INFORMATIONAL_TEX",
         "collection": "B",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "volume_title": "Non-Deterministic Loop Engineering",
         "source_path": "NDLE/new_chapters/chapter01_foundations.tex",
         "source_sha256": "bc900422e5a5ba75bc505fe8bc5cb5062604be18ffbad112f277c8367bd2f7d8",
@@ -7163,7 +7165,8 @@
         "evidence_class": "Author-authored engineering synthesis, guidance or reference apparatus",
         "review_scope": "File-level content mapping and citation-identity tracing; no independent validation or code execution",
         "full_empirical_validation": "NO",
-        "provenance": "ND.zip, 2026-10-11; original file retained unchanged"
+        "provenance": "ND.zip, 2026-10-11; original file retained unchanged",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [
         "K:Long-running agent execution",
@@ -7178,10 +7181,10 @@
         "K:Dependencies and agent supply chain"
       ],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "book": {
-        "volume": "V05",
+        "volume": "V05-H",
         "title": "Non-Deterministic Loop Engineering",
         "subtitle": "Design Reliable Agentic AI Systems Beyond the Prompt",
         "url": "https://www.amazon.com/dp/B0GHCXPBRM",
@@ -7222,7 +7225,7 @@
         "kind": "author_tex_section",
         "node_class": "ND_INFORMATIONAL_TEX",
         "collection": "B",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "volume_title": "Non-Deterministic Loop Engineering",
         "source_path": "NDLE/new_chapters/chapter02_organization.tex",
         "source_sha256": "b8127eb334612ffa241bb6590f32fb0ac494bb4270e54bd9bd4f9ab6391f1f12",
@@ -7242,7 +7245,8 @@
         "evidence_class": "Author-authored engineering synthesis, guidance or reference apparatus",
         "review_scope": "File-level content mapping and citation-identity tracing; no independent validation or code execution",
         "full_empirical_validation": "NO",
-        "provenance": "ND.zip, 2026-10-11; original file retained unchanged"
+        "provenance": "ND.zip, 2026-10-11; original file retained unchanged",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [
         "K:Specifications and governance",
@@ -7255,10 +7259,10 @@
         "K:Automation bias and trust"
       ],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "book": {
-        "volume": "V05",
+        "volume": "V05-H",
         "title": "Non-Deterministic Loop Engineering",
         "subtitle": "Design Reliable Agentic AI Systems Beyond the Prompt",
         "url": "https://www.amazon.com/dp/B0GHCXPBRM",
@@ -7296,7 +7300,7 @@
         "kind": "author_tex_section",
         "node_class": "ND_INFORMATIONAL_TEX",
         "collection": "B",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "volume_title": "Non-Deterministic Loop Engineering",
         "source_path": "NDLE/new_chapters/chapter03_economics.tex",
         "source_sha256": "056669d326018cda56fff9a98d80302704953af32d4cbacf92673f89ad13d180",
@@ -7316,7 +7320,8 @@
         "evidence_class": "Author-authored engineering synthesis, guidance or reference apparatus",
         "review_scope": "File-level content mapping and citation-identity tracing; no independent validation or code execution",
         "full_empirical_validation": "NO",
-        "provenance": "ND.zip, 2026-10-11; original file retained unchanged"
+        "provenance": "ND.zip, 2026-10-11; original file retained unchanged",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [
         "K:Economic costs and return",
@@ -7327,10 +7332,10 @@
         "K:Ownership and knowledge transfer"
       ],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "book": {
-        "volume": "V05",
+        "volume": "V05-H",
         "title": "Non-Deterministic Loop Engineering",
         "subtitle": "Design Reliable Agentic AI Systems Beyond the Prompt",
         "url": "https://www.amazon.com/dp/B0GHCXPBRM",
@@ -7370,7 +7375,7 @@
         "kind": "author_tex_section",
         "node_class": "ND_INFORMATIONAL_TEX",
         "collection": "B",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "volume_title": "Non-Deterministic Loop Engineering",
         "source_path": "NDLE/new_chapters/chapter04_ralph_loop.tex",
         "source_sha256": "aa58f0631ba2700b7664babd919b1e842cf17557b9d86fd374bab6fac5fc0636",
@@ -7390,7 +7395,8 @@
         "evidence_class": "Author-authored engineering synthesis, guidance or reference apparatus",
         "review_scope": "File-level content mapping and citation-identity tracing; no independent validation or code execution",
         "full_empirical_validation": "NO",
-        "provenance": "ND.zip, 2026-10-11; original file retained unchanged"
+        "provenance": "ND.zip, 2026-10-11; original file retained unchanged",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [
         "K:Long-running agent execution",
@@ -7404,10 +7410,10 @@
         "K:Technical debt and complexity"
       ],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "book": {
-        "volume": "V05",
+        "volume": "V05-H",
         "title": "Non-Deterministic Loop Engineering",
         "subtitle": "Design Reliable Agentic AI Systems Beyond the Prompt",
         "url": "https://www.amazon.com/dp/B0GHCXPBRM",
@@ -7449,7 +7455,7 @@
         "kind": "author_tex_section",
         "node_class": "ND_INFORMATIONAL_TEX",
         "collection": "B",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "volume_title": "Non-Deterministic Loop Engineering",
         "source_path": "NDLE/new_chapters/chapter05_local_ai_loop.tex",
         "source_sha256": "702b6ef3084dd35d95c15d7a44021b61a3ef7c556325541e0e433c983a7b9cb2",
@@ -7469,7 +7475,8 @@
         "evidence_class": "Author-authored engineering synthesis, guidance or reference apparatus",
         "review_scope": "File-level content mapping and citation-identity tracing; no independent validation or code execution",
         "full_empirical_validation": "NO",
-        "provenance": "ND.zip, 2026-10-11; original file retained unchanged"
+        "provenance": "ND.zip, 2026-10-11; original file retained unchanged",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [
         "K:Economic costs and return",
@@ -7484,10 +7491,10 @@
         "K:Output versus shipped value"
       ],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "book": {
-        "volume": "V05",
+        "volume": "V05-H",
         "title": "Non-Deterministic Loop Engineering",
         "subtitle": "Design Reliable Agentic AI Systems Beyond the Prompt",
         "url": "https://www.amazon.com/dp/B0GHCXPBRM",
@@ -7528,7 +7535,7 @@
         "kind": "author_tex_section",
         "node_class": "ND_INFORMATIONAL_TEX",
         "collection": "B",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "volume_title": "Non-Deterministic Loop Engineering",
         "source_path": "NDLE/new_chapters/chapter06_choosing_the_right_loop.tex",
         "source_sha256": "a061daf1e97a16c322a46cf9724dd0d92531718b57a038decdf521c6103f68b9",
@@ -7548,7 +7555,8 @@
         "evidence_class": "Author-authored engineering synthesis, guidance or reference apparatus",
         "review_scope": "File-level content mapping and citation-identity tracing; no independent validation or code execution",
         "full_empirical_validation": "NO",
-        "provenance": "ND.zip, 2026-10-11; original file retained unchanged"
+        "provenance": "ND.zip, 2026-10-11; original file retained unchanged",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [
         "K:Independent verification and oracles",
@@ -7561,10 +7569,10 @@
         "K:Output versus shipped value"
       ],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "book": {
-        "volume": "V05",
+        "volume": "V05-H",
         "title": "Non-Deterministic Loop Engineering",
         "subtitle": "Design Reliable Agentic AI Systems Beyond the Prompt",
         "url": "https://www.amazon.com/dp/B0GHCXPBRM",
@@ -7602,7 +7610,7 @@
         "kind": "author_tex_section",
         "node_class": "ND_INFORMATIONAL_TEX",
         "collection": "B",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "volume_title": "Non-Deterministic Loop Engineering",
         "source_path": "NDLE/references.tex",
         "source_sha256": "0f40753fccc8f143d768071a179a417deeeaa4afeb0698917b4ecd3e08987692",
@@ -7622,7 +7630,8 @@
         "evidence_class": "Author-authored engineering synthesis, guidance or reference apparatus",
         "review_scope": "File-level content mapping and citation-identity tracing; no independent validation or code execution",
         "full_empirical_validation": "NO",
-        "provenance": "ND.zip, 2026-10-11; original file retained unchanged"
+        "provenance": "ND.zip, 2026-10-11; original file retained unchanged",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [
         "K:Long-running agent execution",
@@ -7634,10 +7643,10 @@
         "K:Output versus shipped value"
       ],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "book": {
-        "volume": "V05",
+        "volume": "V05-H",
         "title": "Non-Deterministic Loop Engineering",
         "subtitle": "Design Reliable Agentic AI Systems Beyond the Prompt",
         "url": "https://www.amazon.com/dp/B0GHCXPBRM",
@@ -7675,7 +7684,7 @@
         "kind": "author_tex_section",
         "node_class": "ND_INFORMATIONAL_TEX",
         "collection": "B",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "volume_title": "Non-Deterministic Loop Engineering",
         "source_path": "NDLE/glossary.tex",
         "source_sha256": "39dbffdfcbff6363995d8c818eeaefeae1014ac01c26f98c3b5ab99f05ba86ef",
@@ -7695,7 +7704,8 @@
         "evidence_class": "Author-authored engineering synthesis, guidance or reference apparatus",
         "review_scope": "File-level content mapping and citation-identity tracing; no independent validation or code execution",
         "full_empirical_validation": "NO",
-        "provenance": "ND.zip, 2026-10-11; original file retained unchanged"
+        "provenance": "ND.zip, 2026-10-11; original file retained unchanged",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [
         "K:Long-running agent execution",
@@ -7706,10 +7716,10 @@
         "K:System understanding and rationale"
       ],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "book": {
-        "volume": "V05",
+        "volume": "V05-H",
         "title": "Non-Deterministic Loop Engineering",
         "subtitle": "Design Reliable Agentic AI Systems Beyond the Prompt",
         "url": "https://www.amazon.com/dp/B0GHCXPBRM",

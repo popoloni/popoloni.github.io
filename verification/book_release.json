@@ -1,0 +1,109 @@
+{
+  "release": "13.6",
+  "date": "2026-11-23",
+  "passed": true,
+  "baseline": {
+    "version": "13.5",
+    "branch": "main",
+    "commit": "e4efb753f222f5fdc2264592fbf28c8e26011f83",
+    "all_live_paths_byte_identical_to_repository": 245
+  },
+  "structure": {
+    "passed": true,
+    "counts": {
+      "nodes": 2030,
+      "edges": 15271,
+      "preserved_edges": 14960,
+      "new_edges": 311,
+      "chapters": 18,
+      "topics": 20,
+      "supplements": 11
+    },
+    "checks": {
+      "unique IDs and equal ID sets": 2,
+      "normalized and raw nodes": 2030,
+      "normalized endpoints": 15271,
+      "unique directed multiedge key": 15271,
+      "normalized and raw edges": 15271,
+      "declared classification totals": 2,
+      "export metadata": 1,
+      "directed exports": 1,
+      "GraphML attribute keys": 17302,
+      "GraphML attributes": 17302,
+      "GraphML identity": 17301,
+      "GraphML complete": 2,
+      "GraphML endpoints": 15271,
+      "pinned baseline": 1,
+      "preserved baseline edge and citation attributes": 14960,
+      "historical identities present": 1991,
+      "all baseline node fields retained except declared edition migration": 1991,
+      "literal and historic chapter overlay retained": 5973,
+      "prior Loop connections assigned to historical volume": 36,
+      "old card source and bibliographic identity": 10,
+      "literal NDSE2 citation set": 1,
+      "literal NDSE2 files": 6,
+      "frozen graph snapshots": 5,
+      "new relationship documented": 311,
+      "active and historical Loop editions": 1,
+      "active book metadata": 2,
+      "edition cover bytes": 2,
+      "Packt edition identifiers": 1,
+      "reviewed endpoint and locator": 311,
+      "TOC cardinality": 2,
+      "TOC identity and print location": 18,
+      "distinct chapter topics and streams": 18,
+      "chapter display classifications": 18,
+      "exact aggregate book topics": 2,
+      "ESA edition identifier": 1,
+      "EPUB chapter anchor": 12,
+      "only the eighteen numbered chapters": 1,
+      "new topic is defined, discoverable and used": 5,
+      "supplement inventory": 2,
+      "supplement is located in correct edition": 11,
+      "SDD citation resolves to second edition": 14,
+      "exact reviewed relationship multiset": 1,
+      "catalogue archive integrity": 1,
+      "catalogue archive matches disk": 47,
+      "complete catalogue archive": 1
+    },
+    "failures": []
+  },
+  "browser_and_navigation": {
+    "static": {
+      "local_links_and_assets": 26779,
+      "local_fragments": 17455,
+      "graph_node_links": 690,
+      "public_html_files": 94
+    },
+    "browser_navigation": {
+      "browser": "144.0.7559.133",
+      "passed_checks": 274,
+      "chapter_checks": 36,
+      "topic_to_corpus_record_routes": 4,
+      "book_routes": 4,
+      "historical_routes": 2,
+      "mobile_volume_pages": 2,
+      "graph_round_trips": 2,
+      "book_chapter_of_visible_edges": 18,
+      "book_chapter_topic_visible_edges": 63,
+      "preset_new_topics": 5
+    },
+    "failures": [],
+    "passed": true
+  },
+  "independent_offline_rebuild": {
+    "passed": true,
+    "baseline_commit": "e4efb753f222f5fdc2264592fbf28c8e26011f83",
+    "comparison": "A separate clean v13.5 tree plus only the reviewed inputs, updated renderers and two book cover assets.",
+    "compared_changed_or_added_files": 131,
+    "candidate_generated_paths_checked": 177,
+    "differences": []
+  },
+  "release_package": {
+    "full_files": 264,
+    "overwrites": 118,
+    "additions": 19,
+    "deletions": 0,
+    "verification_method": "Compare the SHA-256 of every file in the extracted full ZIP and in an isolated copy of the exact published tree after extraction of the delta ZIP."
+  }
+}

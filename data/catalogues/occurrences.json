@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "atlas_current.html",
-    "snapshot": "2026-11-07",
-    "site_version": "13.5",
+    "snapshot": "2026-11-23",
+    "site_version": "13.6",
     "count": 87,
     "note": "Materialized view of the current audited graph; complete node fields retained. Source inspection and publication status are recorded per item. The builder performs no new empirical validation."
   },
@@ -2764,7 +2764,7 @@
       "actual": [],
       "mapped": [],
       "printed": false,
-      "summary": "Historical occurrence of The External Bash Loop in the retained V05 source. The original title, alias and file locator preserve its lineage. Read PAT:023 for the current English operational guidance and its qualifications.",
+      "summary": "Historical occurrence of The External Bash Loop in the retained self-published Loop Engineering source. The original title, alias and file locator preserve its lineage. Read PAT:023 for the current English operational guidance and its qualifications.",
       "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
       "url": "",
       "authors": "",
@@ -2773,7 +2773,7 @@
         "label": "The External Bash Loop",
         "kind": "practice_occurrence",
         "collection": "OCC",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "family": "F03",
         "alias": "I",
         "source_file": "NDLE/new_chapters/chapter04_ralph_loop.tex",
@@ -2785,11 +2785,12 @@
         "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
         "practice_id": "PAT:023",
         "family_name": "Delegation, Execution and Stopping",
-        "language": "en"
+        "language": "en",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "families": [
         "FAMILY:F03"
@@ -2805,7 +2806,7 @@
       "actual": [],
       "mapped": [],
       "printed": false,
-      "summary": "Historical occurrence of The Stop-Hook Loop in the retained V05 source. The original title, alias and file locator preserve its lineage. Read PAT:024 for the current English operational guidance and its qualifications.",
+      "summary": "Historical occurrence of The Stop-Hook Loop in the retained self-published Loop Engineering source. The original title, alias and file locator preserve its lineage. Read PAT:024 for the current English operational guidance and its qualifications.",
       "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
       "url": "",
       "authors": "",
@@ -2814,7 +2815,7 @@
         "label": "The Stop-Hook Loop",
         "kind": "practice_occurrence",
         "collection": "OCC",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "family": "F03",
         "alias": "II",
         "source_file": "NDLE/new_chapters/chapter04_ralph_loop.tex",
@@ -2826,11 +2827,12 @@
         "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
         "practice_id": "PAT:024",
         "family_name": "Delegation, Execution and Stopping",
-        "language": "en"
+        "language": "en",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "families": [
         "FAMILY:F03"
@@ -2846,7 +2848,7 @@
       "actual": [],
       "mapped": [],
       "printed": false,
-      "summary": "Historical occurrence of The Editor-Native Manual Loop in the retained V05 source. The original title, alias and file locator preserve its lineage. Read PAT:025 for the current English operational guidance and its qualifications.",
+      "summary": "Historical occurrence of The Editor-Native Manual Loop in the retained self-published Loop Engineering source. The original title, alias and file locator preserve its lineage. Read PAT:025 for the current English operational guidance and its qualifications.",
       "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
       "url": "",
       "authors": "",
@@ -2855,7 +2857,7 @@
         "label": "The Editor-Native Manual Loop",
         "kind": "practice_occurrence",
         "collection": "OCC",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "family": "F03",
         "alias": "III",
         "source_file": "NDLE/new_chapters/chapter04_ralph_loop.tex",
@@ -2867,11 +2869,12 @@
         "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
         "practice_id": "PAT:025",
         "family_name": "Delegation, Execution and Stopping",
-        "language": "en"
+        "language": "en",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "families": [
         "FAMILY:F03"
@@ -2887,7 +2890,7 @@
       "actual": [],
       "mapped": [],
       "printed": false,
-      "summary": "Historical occurrence of Run Until Done: Retry Against Reality in the retained V05 source. The original title, alias and file locator preserve its lineage. Read PAT:026 for the current English operational guidance and its qualifications.",
+      "summary": "Historical occurrence of Run Until Done: Retry Against Reality in the retained self-published Loop Engineering source. The original title, alias and file locator preserve its lineage. Read PAT:026 for the current English operational guidance and its qualifications.",
       "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
       "url": "",
       "authors": "",
@@ -2896,7 +2899,7 @@
         "label": "Run Until Done: Retry Against Reality",
         "kind": "practice_occurrence",
         "collection": "OCC",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "family": "F03",
         "alias": "Run Until Done: Retry Against Reality",
         "source_file": "NDLE/new_chapters/chapter06_choosing_the_right_loop.tex",
@@ -2908,11 +2911,12 @@
         "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
         "practice_id": "PAT:026",
         "family_name": "Delegation, Execution and Stopping",
-        "language": "en"
+        "language": "en",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "families": [
         "FAMILY:F03"
@@ -2928,7 +2932,7 @@
       "actual": [],
       "mapped": [],
       "printed": false,
-      "summary": "Historical occurrence of Maker–Checker: Separate Production from Acceptance in the retained V05 source. The original title, alias and file locator preserve its lineage. Read PAT:027 for the current English operational guidance and its qualifications.",
+      "summary": "Historical occurrence of Maker–Checker: Separate Production from Acceptance in the retained self-published Loop Engineering source. The original title, alias and file locator preserve its lineage. Read PAT:027 for the current English operational guidance and its qualifications.",
       "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
       "url": "",
       "authors": "",
@@ -2937,7 +2941,7 @@
         "label": "Maker–Checker: Separate Production from Acceptance",
         "kind": "practice_occurrence",
         "collection": "OCC",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "family": "F07",
         "alias": "Maker--Checker: Separate Production from Acceptance",
         "source_file": "NDLE/new_chapters/chapter06_choosing_the_right_loop.tex",
@@ -2949,11 +2953,12 @@
         "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
         "practice_id": "PAT:027",
         "family_name": "Tests, Oracles and Acceptance Evidence",
-        "language": "en"
+        "language": "en",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "families": [
         "FAMILY:F07"
@@ -2969,7 +2974,7 @@
       "actual": [],
       "mapped": [],
       "printed": false,
-      "summary": "Historical occurrence of Skills and Context Engineering: Remove Intent Debt in the retained V05 source. The original title, alias and file locator preserve its lineage. Read PAT:028 for the current English operational guidance and its qualifications.",
+      "summary": "Historical occurrence of Skills and Context Engineering: Remove Intent Debt in the retained self-published Loop Engineering source. The original title, alias and file locator preserve its lineage. Read PAT:028 for the current English operational guidance and its qualifications.",
       "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
       "url": "",
       "authors": "",
@@ -2978,7 +2983,7 @@
         "label": "Skills and Context Engineering: Remove Intent Debt",
         "kind": "practice_occurrence",
         "collection": "OCC",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "family": "F09",
         "alias": "Skills and Context Engineering: Remove Intent Debt",
         "source_file": "NDLE/new_chapters/chapter06_choosing_the_right_loop.tex",
@@ -2990,11 +2995,12 @@
         "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
         "practice_id": "PAT:028",
         "family_name": "Context, Memory and Handoffs",
-        "language": "en"
+        "language": "en",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "families": [
         "FAMILY:F09"
@@ -3010,7 +3016,7 @@
       "actual": [],
       "mapped": [],
       "printed": false,
-      "summary": "Historical occurrence of Memory and Retrieval: Read What the Model Could Not Know in the retained V05 source. The original title, alias and file locator preserve its lineage. Read PAT:029 for the current English operational guidance and its qualifications.",
+      "summary": "Historical occurrence of Memory and Retrieval: Read What the Model Could Not Know in the retained self-published Loop Engineering source. The original title, alias and file locator preserve its lineage. Read PAT:029 for the current English operational guidance and its qualifications.",
       "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
       "url": "",
       "authors": "",
@@ -3019,7 +3025,7 @@
         "label": "Memory and Retrieval: Read What the Model Could Not Know",
         "kind": "practice_occurrence",
         "collection": "OCC",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "family": "F09",
         "alias": "Memory and Retrieval: Read What the Model Could Not Know",
         "source_file": "NDLE/new_chapters/chapter06_choosing_the_right_loop.tex",
@@ -3031,11 +3037,12 @@
         "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
         "practice_id": "PAT:029",
         "family_name": "Context, Memory and Handoffs",
-        "language": "en"
+        "language": "en",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "families": [
         "FAMILY:F09"
@@ -3051,7 +3058,7 @@
       "actual": [],
       "mapped": [],
       "printed": false,
-      "summary": "Historical occurrence of Connectors and Tools: Move Exact Work Outside the Weights in the retained V05 source. The original title, alias and file locator preserve its lineage. Read PAT:030 for the current English operational guidance and its qualifications.",
+      "summary": "Historical occurrence of Connectors and Tools: Move Exact Work Outside the Weights in the retained self-published Loop Engineering source. The original title, alias and file locator preserve its lineage. Read PAT:030 for the current English operational guidance and its qualifications.",
       "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
       "url": "",
       "authors": "",
@@ -3060,7 +3067,7 @@
         "label": "Connectors and Tools: Move Exact Work Outside the Weights",
         "kind": "practice_occurrence",
         "collection": "OCC",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "family": "F06",
         "alias": "Connectors and Tools: Move Exact Work Outside the Weights",
         "source_file": "NDLE/new_chapters/chapter06_choosing_the_right_loop.tex",
@@ -3072,11 +3079,12 @@
         "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
         "practice_id": "PAT:030",
         "family_name": "Security of the Toolchain and Its Effects",
-        "language": "en"
+        "language": "en",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "families": [
         "FAMILY:F06"
@@ -3092,7 +3100,7 @@
       "actual": [],
       "mapped": [],
       "printed": false,
-      "summary": "Historical occurrence of Worktrees: Isolate the Write Domains in the retained V05 source. The original title, alias and file locator preserve its lineage. Read PAT:031 for the current English operational guidance and its qualifications.",
+      "summary": "Historical occurrence of Worktrees: Isolate the Write Domains in the retained self-published Loop Engineering source. The original title, alias and file locator preserve its lineage. Read PAT:031 for the current English operational guidance and its qualifications.",
       "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
       "url": "",
       "authors": "",
@@ -3101,7 +3109,7 @@
         "label": "Worktrees: Isolate the Write Domains",
         "kind": "practice_occurrence",
         "collection": "OCC",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "family": "F11",
         "alias": "Worktrees: Isolate the Write Domains",
         "source_file": "NDLE/new_chapters/chapter06_choosing_the_right_loop.tex",
@@ -3113,11 +3121,12 @@
         "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
         "practice_id": "PAT:031",
         "family_name": "Coordination, Governance and Adoption",
-        "language": "en"
+        "language": "en",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "families": [
         "FAMILY:F11"
@@ -3133,7 +3142,7 @@
       "actual": [],
       "mapped": [],
       "printed": false,
-      "summary": "Historical occurrence of Multi-Loop Coordination: One Owner per Target in the retained V05 source. The original title, alias and file locator preserve its lineage. Read PAT:032 for the current English operational guidance and its qualifications.",
+      "summary": "Historical occurrence of Multi-Loop Coordination: One Owner per Target in the retained self-published Loop Engineering source. The original title, alias and file locator preserve its lineage. Read PAT:032 for the current English operational guidance and its qualifications.",
       "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
       "url": "",
       "authors": "",
@@ -3142,7 +3151,7 @@
         "label": "Multi-Loop Coordination: One Owner per Target",
         "kind": "practice_occurrence",
         "collection": "OCC",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "family": "F11",
         "alias": "Multi-Loop Coordination: One Owner per Target",
         "source_file": "NDLE/new_chapters/chapter06_choosing_the_right_loop.tex",
@@ -3154,11 +3163,12 @@
         "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
         "practice_id": "PAT:032",
         "family_name": "Coordination, Governance and Adoption",
-        "language": "en"
+        "language": "en",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "families": [
         "FAMILY:F11"
@@ -3174,7 +3184,7 @@
       "actual": [],
       "mapped": [],
       "printed": false,
-      "summary": "Historical occurrence of Budget and Observability: Price the Next Attempt in the retained V05 source. The original title, alias and file locator preserve its lineage. Read PAT:033 for the current English operational guidance and its qualifications.",
+      "summary": "Historical occurrence of Budget and Observability: Price the Next Attempt in the retained self-published Loop Engineering source. The original title, alias and file locator preserve its lineage. Read PAT:033 for the current English operational guidance and its qualifications.",
       "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
       "url": "",
       "authors": "",
@@ -3183,7 +3193,7 @@
         "label": "Budget and Observability: Price the Next Attempt",
         "kind": "practice_occurrence",
         "collection": "OCC",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "family": "F12",
         "alias": "Budget and Observability: Price the Next Attempt",
         "source_file": "NDLE/new_chapters/chapter06_choosing_the_right_loop.tex",
@@ -3195,11 +3205,12 @@
         "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
         "practice_id": "PAT:033",
         "family_name": "Economics, Infrastructure and Work",
-        "language": "en"
+        "language": "en",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "families": [
         "FAMILY:F12"
@@ -3215,7 +3226,7 @@
       "actual": [],
       "mapped": [],
       "printed": false,
-      "summary": "Historical occurrence of Safety and Guardrails: Verification Is Not Authorization in the retained V05 source. The original title, alias and file locator preserve its lineage. Read PAT:034 for the current English operational guidance and its qualifications.",
+      "summary": "Historical occurrence of Safety and Guardrails: Verification Is Not Authorization in the retained self-published Loop Engineering source. The original title, alias and file locator preserve its lineage. Read PAT:034 for the current English operational guidance and its qualifications.",
       "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
       "url": "",
       "authors": "",
@@ -3224,7 +3235,7 @@
         "label": "Safety and Guardrails: Verification Is Not Authorization",
         "kind": "practice_occurrence",
         "collection": "OCC",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "family": "F06",
         "alias": "Safety and Guardrails: Verification Is Not Authorization",
         "source_file": "NDLE/new_chapters/chapter06_choosing_the_right_loop.tex",
@@ -3236,11 +3247,12 @@
         "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
         "practice_id": "PAT:034",
         "family_name": "Security of the Toolchain and Its Effects",
-        "language": "en"
+        "language": "en",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "families": [
         "FAMILY:F06"
@@ -3256,7 +3268,7 @@
       "actual": [],
       "mapped": [],
       "printed": false,
-      "summary": "Historical occurrence of Daily Triage: rank the rare urgent item in the retained V05 source. The original title, alias and file locator preserve its lineage. Read PAT:035 for the current English operational guidance and its qualifications.",
+      "summary": "Historical occurrence of Daily Triage: rank the rare urgent item in the retained self-published Loop Engineering source. The original title, alias and file locator preserve its lineage. Read PAT:035 for the current English operational guidance and its qualifications.",
       "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
       "url": "",
       "authors": "",
@@ -3265,7 +3277,7 @@
         "label": "Daily Triage: rank the rare urgent item",
         "kind": "practice_occurrence",
         "collection": "OCC",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "family": "F11",
         "alias": "Daily Triage: rank the rare urgent item",
         "source_file": "NDLE/new_chapters/chapter06_choosing_the_right_loop.tex",
@@ -3277,11 +3289,12 @@
         "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
         "practice_id": "PAT:035",
         "family_name": "Coordination, Governance and Adoption",
-        "language": "en"
+        "language": "en",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "families": [
         "FAMILY:F11"
@@ -3297,7 +3310,7 @@
       "actual": [],
       "mapped": [],
       "printed": false,
-      "summary": "Historical occurrence of CI Sweeper: classify before fixing in the retained V05 source. The original title, alias and file locator preserve its lineage. Read PAT:036 for the current English operational guidance and its qualifications.",
+      "summary": "Historical occurrence of CI Sweeper: classify before fixing in the retained self-published Loop Engineering source. The original title, alias and file locator preserve its lineage. Read PAT:036 for the current English operational guidance and its qualifications.",
       "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
       "url": "",
       "authors": "",
@@ -3306,7 +3319,7 @@
         "label": "CI Sweeper: classify before fixing",
         "kind": "practice_occurrence",
         "collection": "OCC",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "family": "F05",
         "alias": "CI Sweeper: classify before fixing",
         "source_file": "NDLE/new_chapters/chapter06_choosing_the_right_loop.tex",
@@ -3318,11 +3331,12 @@
         "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
         "practice_id": "PAT:036",
         "family_name": "Architecture, Evolution and Maintenance",
-        "language": "en"
+        "language": "en",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "families": [
         "FAMILY:F05"
@@ -3338,7 +3352,7 @@
       "actual": [],
       "mapped": [],
       "printed": false,
-      "summary": "Historical occurrence of Dependency Sweeper: route by risk in the retained V05 source. The original title, alias and file locator preserve its lineage. Read PAT:037 for the current English operational guidance and its qualifications.",
+      "summary": "Historical occurrence of Dependency Sweeper: route by risk in the retained self-published Loop Engineering source. The original title, alias and file locator preserve its lineage. Read PAT:037 for the current English operational guidance and its qualifications.",
       "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
       "url": "",
       "authors": "",
@@ -3347,7 +3361,7 @@
         "label": "Dependency Sweeper: route by risk",
         "kind": "practice_occurrence",
         "collection": "OCC",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "family": "F06",
         "alias": "Dependency Sweeper: route by risk",
         "source_file": "NDLE/new_chapters/chapter06_choosing_the_right_loop.tex",
@@ -3359,11 +3373,12 @@
         "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
         "practice_id": "PAT:037",
         "family_name": "Security of the Toolchain and Its Effects",
-        "language": "en"
+        "language": "en",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "families": [
         "FAMILY:F06"
@@ -3379,7 +3394,7 @@
       "actual": [],
       "mapped": [],
       "printed": false,
-      "summary": "Historical occurrence of Duplicate detection in the retained V05 source. The original title, alias and file locator preserve its lineage. Read PAT:038 for the current English operational guidance and its qualifications.",
+      "summary": "Historical occurrence of Duplicate detection in the retained self-published Loop Engineering source. The original title, alias and file locator preserve its lineage. Read PAT:038 for the current English operational guidance and its qualifications.",
       "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
       "url": "",
       "authors": "",
@@ -3388,7 +3403,7 @@
         "label": "Duplicate detection",
         "kind": "practice_occurrence",
         "collection": "OCC",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "family": "F09",
         "alias": "Duplicate detection",
         "source_file": "NDLE/new_chapters/chapter06_choosing_the_right_loop.tex",
@@ -3400,11 +3415,12 @@
         "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
         "practice_id": "PAT:038",
         "family_name": "Context, Memory and Handoffs",
-        "language": "en"
+        "language": "en",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "families": [
         "FAMILY:F09"
@@ -3420,7 +3436,7 @@
       "actual": [],
       "mapped": [],
       "printed": false,
-      "summary": "Historical occurrence of PR babysitter in the retained V05 source. The original title, alias and file locator preserve its lineage. Read PAT:039 for the current English operational guidance and its qualifications.",
+      "summary": "Historical occurrence of PR babysitter in the retained self-published Loop Engineering source. The original title, alias and file locator preserve its lineage. Read PAT:039 for the current English operational guidance and its qualifications.",
       "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
       "url": "",
       "authors": "",
@@ -3429,7 +3445,7 @@
         "label": "PR babysitter",
         "kind": "practice_occurrence",
         "collection": "OCC",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "family": "F08",
         "alias": "PR babysitter",
         "source_file": "NDLE/new_chapters/chapter06_choosing_the_right_loop.tex",
@@ -3441,11 +3457,12 @@
         "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
         "practice_id": "PAT:039",
         "family_name": "Critique, Review and Trust",
-        "language": "en"
+        "language": "en",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "families": [
         "FAMILY:F08"
@@ -3461,7 +3478,7 @@
       "actual": [],
       "mapped": [],
       "printed": false,
-      "summary": "Historical occurrence of Post-merge cleanup in the retained V05 source. The original title, alias and file locator preserve its lineage. Read PAT:040 for the current English operational guidance and its qualifications.",
+      "summary": "Historical occurrence of Post-merge cleanup in the retained self-published Loop Engineering source. The original title, alias and file locator preserve its lineage. Read PAT:040 for the current English operational guidance and its qualifications.",
       "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
       "url": "",
       "authors": "",
@@ -3470,7 +3487,7 @@
         "label": "Post-merge cleanup",
         "kind": "practice_occurrence",
         "collection": "OCC",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "family": "F05",
         "alias": "Post-merge cleanup",
         "source_file": "NDLE/new_chapters/chapter06_choosing_the_right_loop.tex",
@@ -3482,11 +3499,12 @@
         "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
         "practice_id": "PAT:040",
         "family_name": "Architecture, Evolution and Maintenance",
-        "language": "en"
+        "language": "en",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "families": [
         "FAMILY:F05"
@@ -3502,7 +3520,7 @@
       "actual": [],
       "mapped": [],
       "printed": false,
-      "summary": "Historical occurrence of Changelog drafter in the retained V05 source. The original title, alias and file locator preserve its lineage. Read PAT:041 for the current English operational guidance and its qualifications.",
+      "summary": "Historical occurrence of Changelog drafter in the retained self-published Loop Engineering source. The original title, alias and file locator preserve its lineage. Read PAT:041 for the current English operational guidance and its qualifications.",
       "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
       "url": "",
       "authors": "",
@@ -3511,7 +3529,7 @@
         "label": "Changelog drafter",
         "kind": "practice_occurrence",
         "collection": "OCC",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "family": "F09",
         "alias": "Changelog drafter",
         "source_file": "NDLE/new_chapters/chapter06_choosing_the_right_loop.tex",
@@ -3523,11 +3541,12 @@
         "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
         "practice_id": "PAT:041",
         "family_name": "Context, Memory and Handoffs",
-        "language": "en"
+        "language": "en",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "families": [
         "FAMILY:F09"
@@ -3543,7 +3562,7 @@
       "actual": [],
       "mapped": [],
       "printed": false,
-      "summary": "Historical occurrence of Capstone orchestra in the retained V05 source. The original title, alias and file locator preserve its lineage. Read PAT:042 for the current English operational guidance and its qualifications.",
+      "summary": "Historical occurrence of Capstone orchestra in the retained self-published Loop Engineering source. The original title, alias and file locator preserve its lineage. Read PAT:042 for the current English operational guidance and its qualifications.",
       "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
       "url": "",
       "authors": "",
@@ -3552,7 +3571,7 @@
         "label": "Capstone orchestra",
         "kind": "practice_occurrence",
         "collection": "OCC",
-        "volume_id": "V05",
+        "volume_id": "V05-H",
         "family": "F12",
         "alias": "Capstone orchestra",
         "source_file": "NDLE/new_chapters/chapter06_choosing_the_right_loop.tex",
@@ -3564,11 +3583,12 @@
         "limitation": "Attribution retained as written in the supplied source, not independently verified inventorship.",
         "practice_id": "PAT:042",
         "family_name": "Economics, Infrastructure and Work",
-        "language": "en"
+        "language": "en",
+        "original_atlas_volume_id": "V05"
       },
       "topics": [],
       "volumes": [
-        "V05"
+        "V05-H"
       ],
       "families": [
         "FAMILY:F12"

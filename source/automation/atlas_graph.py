@@ -806,7 +806,7 @@ def render_current_atlas(baseline_html, payload, version, date):
         raise UpdateError("Unsupported Atlas frontend; v13 normalized NDSE2 shell is required")
     original_default = default.group(0)
     counts = collections.Counter(n.get("collection") for n in payload["nodes"])
-    for code in ("W", "O", "P", "F", "B", "N") + (("PAT",) if counts['PAT'] else ()):
+    for code in ("W", "O", "P", "F", "B", "N") + tuple(c for c in ("R", "PAT") if counts[c] and f'id="source{c}"' in text):
         pattern = r'(<label class="source-row"[^>]*><input id="source' + code + r'".*?<span class="count">)\d+(</span></label>)'
         text, found = re.subn(pattern, lambda m: m.group(1) + str(counts[code]) + m.group(2), text, count=1)
         if found != 1:

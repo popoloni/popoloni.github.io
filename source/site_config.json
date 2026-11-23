@@ -1,8 +1,8 @@
 {
-  "site_version": "13.5",
-  "build_date": "2026-11-07",
-  "graph_version": "13.5",
-  "graph_snapshot": "2026-11-07",
+  "site_version": "13.6",
+  "build_date": "2026-11-23",
+  "graph_version": "13.6",
+  "graph_snapshot": "2026-11-23",
   "canonical_atlas": "https://popoloni.github.io/swe_knowledge_graph.html",
   "title": "Knowledge Atlas for AI and Software Engineering",
   "author": "Enrico Papalini",
@@ -46,7 +46,7 @@
       "slug": "books",
       "title": "Earlier Non-Deterministic books",
       "short": "Earlier books",
-      "description": "111 informative chapter/file records from five earlier volumes by Enrico Papalini. These are source-genealogy and editorial records, not 111 independent research studies. Original English and Italian catalogue wording is retained.",
+      "description": "111 chapter and file records from four earlier volumes and the historical self-published loop edition. These cards retain their original English and Italian catalogue wording and trace the source files used by the Atlas.",
       "source_url": ""
     },
     {
@@ -56,6 +56,14 @@
       "short": "NDSE2 chapters",
       "description": "13 chapters from the published Non-Deterministic Software Engineering, Second Edition. English and Italian titles, section outlines and literal source citations are reconciled to the author-supplied final 13.7.1 sources.",
       "source_url": "https://popoloni.github.io/"
+    },
+    {
+      "code": "R",
+      "slug": "reviewed-chapters",
+      "title": "Packt and ESA chapters",
+      "short": "Packt and ESA chapters",
+      "description": "Six chapters from Loop Engineering for AI Agents and twelve from Engineering Software with Agentic AI. Each record identifies the edition, the chapter and its topics.",
+      "source_url": ""
     },
     {
       "code": "PAT",
@@ -71,7 +79,7 @@
   "graph_json": "data/graph/knowledge_graph_current.json",
   "graph_graphml": "data/graph/knowledge_graph_current.graphml",
   "payload_json": "data/graph/atlas_payload_current.json",
-  "release_notes": "UPDATE_v13_5_20261107.html",
+  "release_notes": "UPDATE_v13_6_20261123.html",
   "practice_content_schema": 1,
   "book_series": {
     "title": "Non-Deterministic series",
@@ -88,7 +96,7 @@
     ]
   },
   "book_publications_json": "source/book_publications.json",
-  "publications_audit_json": "data/updates/publications_review_v13_2_20261018.json",
+  "publications_audit_json": "source/book_chapter_review.json",
   "polimi_update": {
     "kind": "atlas_polimi_update/1",
     "date": "2026-11-06",
@@ -1078,5 +1086,6 @@
       }
     ],
     "semantics": "Editorial classification, not evidence of effectiveness or a literal book citation."
-  }
+  },
+  "book_revision_json": "source/book_chapter_review.json"
 }

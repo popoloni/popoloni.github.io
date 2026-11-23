@@ -1,9 +1,9 @@
 {
   "meta": {
     "source": "atlas_current.html",
-    "snapshot": "2026-11-07",
-    "site_version": "13.5",
-    "count": 6,
+    "snapshot": "2026-11-23",
+    "site_version": "13.6",
+    "count": 7,
     "note": "Materialized view of the current audited graph; complete node fields retained. Source inspection and publication status are recorded per item. The builder performs no new empirical validation."
   },
   "records": [
@@ -235,62 +235,6 @@
       "historical_v12_printed": false
     },
     {
-      "id": "PUB:V11:V05",
-      "label": "Non-Deterministic Loop Engineering: Design Reliable Agentic AI Systems Beyond the Prompt",
-      "kind": "published_book",
-      "collection": null,
-      "category": "volumes",
-      "streams": [],
-      "actual": [
-        "C:C13"
-      ],
-      "mapped": [
-        "C:C13"
-      ],
-      "printed": true,
-      "summary": "",
-      "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods.",
-      "url": "https://www.amazon.com/dp/B0H9W2ST3F",
-      "authors": "Enrico Papalini",
-      "year": "2026",
-      "attributes": {
-        "label": "Non-Deterministic Loop Engineering: Design Reliable Agentic AI Systems Beyond the Prompt",
-        "kind": "published_book",
-        "collection": "PUB",
-        "volume_id": "V05",
-        "author": "Enrico Papalini",
-        "title": "Non-Deterministic Loop Engineering",
-        "subtitle": "Design Reliable Agentic AI Systems Beyond the Prompt",
-        "year": "2026",
-        "isbn": "9798188423384",
-        "edition_number": "1",
-        "publisher": "Independently Published",
-        "url": "https://www.amazon.com/dp/B0H9W2ST3F",
-        "url_role": "individual_book",
-        "metadata_source": "NDLE/config.tex",
-        "metadata_verification": "Title/subtitle/year/ISBN from author-supplied English config; no substitution from Italian print catalogue. Series URL is explicitly a series locator.",
-        "status": "PUBLISHED_BOOK_METADATA",
-        "limitation": "Bibliographic identification and source genealogy; not independent evidence for the book methods.",
-        "ndse2_actual_chapters_json": "[\"C:C13\"]",
-        "ndse2_in_bibliography": true,
-        "ndse2_citation_basis": "Final 13.7.1 active EN/ITA source tree; index links and nocite are not chapter citations",
-        "amazon_asin": "B0H9W2ST3F",
-        "amazon_language": "English",
-        "amazon_verification": "Amazon.com product title, English language and paperback details inspected on 2026-10-18.",
-        "amazon_evidence_urls": [
-          "https://www.amazon.com/Non-Deterministic-Loop-Engineering-Reliable-Agentic/dp/B0H9W2ST3F"
-        ],
-        "amazon_url": "https://www.amazon.com/dp/B0H9W2ST3F"
-      },
-      "topics": [],
-      "volumes": [
-        "V05"
-      ],
-      "historical_v12_actual": [],
-      "historical_v12_mapped": [],
-      "historical_v12_printed": false
-    },
-    {
       "id": "PUB:NDSE2",
       "label": "Non-Deterministic Software Engineering, Second Edition",
       "kind": "published_book",
@@ -344,6 +288,776 @@
         "cover_height": 1499,
         "amazon_url": "https://www.amazon.com/dp/B0HN9J7VZG"
       }
+    },
+    {
+      "id": "PUB:PACKT",
+      "label": "Loop Engineering for AI Agents: Design Reliable Agentic AI Systems Beyond the Prompt",
+      "kind": "published_book",
+      "collection": null,
+      "category": "volumes",
+      "streams": [],
+      "topics": [
+        "K:Long-running agent execution",
+        "K:Independent verification and oracles",
+        "K:Agent context and persistent memory",
+        "K:Delegated authority and action budgets",
+        "K:Ownership and knowledge transfer",
+        "K:Specifications and governance",
+        "K:Human-agent collaboration",
+        "K:Economic costs and return",
+        "K:Output versus shipped value",
+        "K:Review capacity and maintainers",
+        "K:Agent failure and escalation",
+        "K:Architecture and modularity",
+        "K:Operational diagnosis and recovery"
+      ],
+      "volumes": [
+        "V05"
+      ],
+      "mapped": [],
+      "actual": [],
+      "printed": false,
+      "summary": "An engineering guide to designing a bounded agent loop, protecting its verification, and measuring the cost of the outcome it accepts.",
+      "limitation": "",
+      "authors": "Enrico Papalini",
+      "url": "https://www.packtpub.com/en-it/product/loop-engineering-for-ai-agents-9781808766404",
+      "year": "2026",
+      "attributes": {
+        "label": "Loop Engineering for AI Agents: Design Reliable Agentic AI Systems Beyond the Prompt",
+        "kind": "published_book",
+        "volume_id": "V05",
+        "node_id": "PUB:PACKT",
+        "companion_url": "https://github.com/popoloni/loopeng4aiagents",
+        "cover_image": "assets/books/loop-engineering-packt.jpg",
+        "cover_width": 768,
+        "cover_height": 957,
+        "cover_sha256": "f7ecea19bb214716965b6fc4d38772ea5984e7cb3fe9d503e61353390f193df3",
+        "cover_alt": "Loop Engineering for AI Agents by Enrico Papalini",
+        "publisher_url": "https://www.packtpub.com/en-it/product/loop-engineering-for-ai-agents-9781808766404",
+        "amazon_url": "https://www.amazon.com/dp/1808766415",
+        "amazon_asin": "1808766415",
+        "amazon_verification": "Print ISBN-10 product and matching jacket.",
+        "title": "Loop Engineering for AI Agents",
+        "subtitle": "Design Reliable Agentic AI Systems Beyond the Prompt",
+        "author": "Enrico Papalini",
+        "edition_number": "1",
+        "status": "Published",
+        "chapter_count": 6,
+        "metadata_source": "Author-supplied final Packt print interior, Contents pp. v–x and Preface pp. xii–xiii.",
+        "url": "https://www.packtpub.com/en-it/product/loop-engineering-for-ai-agents-9781808766404",
+        "url_role": "individual_book",
+        "publisher": "Packt Publishing",
+        "isbn": "9781808766411",
+        "ebook_isbn": "9781808766404"
+      }
+    },
+    {
+      "id": "PUB:ESA",
+      "label": "Engineering Software with Agentic AI: Reliable Change with Coding Agents",
+      "kind": "published_book",
+      "collection": null,
+      "category": "volumes",
+      "streams": [],
+      "topics": [
+        "K:Specifications and governance",
+        "K:Independent verification and oracles",
+        "K:Delegated authority and action budgets",
+        "K:Expect, Delegate, Observe, Decide (EDOD)",
+        "K:Output versus shipped value",
+        "K:Evaluation methodology and baselines",
+        "K:Agent context and persistent memory",
+        "K:System understanding and rationale",
+        "K:Architecture and modularity",
+        "K:Human-agent collaboration",
+        "K:Agent failure and escalation",
+        "K:Operational diagnosis and recovery",
+        "K:Concurrency and idempotency",
+        "K:Compatibility, replay and decision history",
+        "K:Economic costs and return",
+        "K:Skills formation and teaching",
+        "K:Cognitive offloading and skill debt"
+      ],
+      "volumes": [
+        "V07"
+      ],
+      "mapped": [],
+      "actual": [],
+      "printed": false,
+      "summary": "A practical handbook in which engineers define an outcome, delegate a bounded change to a coding agent, observe the work and decide what can be accepted. A reservation service and a Treasury router carry those decisions into implementation, verification, release and recovery.",
+      "limitation": "",
+      "authors": "Enrico Papalini",
+      "url": "https://www.amazon.com/dp/B0HSPH86CG",
+      "year": "2026",
+      "attributes": {
+        "label": "Engineering Software with Agentic AI: Reliable Change with Coding Agents",
+        "kind": "published_book",
+        "volume_id": "V07",
+        "node_id": "PUB:ESA",
+        "companion_url": "https://github.com/popoloni/esa_ai",
+        "cover_image": "assets/books/engineering-software-agentic-ai.jpg",
+        "cover_width": 1600,
+        "cover_height": 2400,
+        "cover_sha256": "c3491b8ed564b52cbc0303b355c9961e79259c820c35c262354c91197874a071",
+        "cover_alt": "Engineering Software with Agentic AI by Enrico Papalini",
+        "amazon_url": "https://www.amazon.com/dp/B0HSPH86CG",
+        "amazon_asin": "B0HSPH86CG",
+        "amazon_verification": "Exact product destination supplied by the author.",
+        "title": "Engineering Software with Agentic AI",
+        "subtitle": "Reliable Change with Coding Agents",
+        "author": "Enrico Papalini",
+        "edition_number": "1",
+        "status": "Published",
+        "chapter_count": 12,
+        "metadata_source": "ESA_Review_5_6_1_20261123.epub",
+        "url": "https://www.amazon.com/dp/B0HSPH86CG",
+        "url_role": "individual_book"
+      }
+    }
+  ],
+  "reviewed_book_relationships": [
+    {
+      "source": "PACKT:C01",
+      "target": "PUB:PACKT",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 1 in the edition’s table of contents.",
+      "source_locator": "Packt print interior, p. 3, §§1.2–1.4, 1.6–1.8, 1.12–1.13"
+    },
+    {
+      "source": "PACKT:C02",
+      "target": "PUB:PACKT",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 2 in the edition’s table of contents.",
+      "source_locator": "Packt print interior, p. 37, §§2.4–2.10, 2.12–2.13"
+    },
+    {
+      "source": "PACKT:C03",
+      "target": "PUB:PACKT",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 3 in the edition’s table of contents.",
+      "source_locator": "Packt print interior, p. 67, §§3.2–3.5, 3.8–3.10, 3.13"
+    },
+    {
+      "source": "PACKT:C04",
+      "target": "PUB:PACKT",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 4 in the edition’s table of contents.",
+      "source_locator": "Packt print interior, p. 101, §§4.2–4.10, 4.15–4.17"
+    },
+    {
+      "source": "PACKT:C05",
+      "target": "PUB:PACKT",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 5 in the edition’s table of contents.",
+      "source_locator": "Packt print interior, p. 133, §§5.2–5.7, 5.11–5.18, 5.23"
+    },
+    {
+      "source": "PACKT:C06",
+      "target": "PUB:PACKT",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 6 in the edition’s table of contents.",
+      "source_locator": "Packt print interior, p. 185, §§6.3–6.9, 6.11–6.15"
+    },
+    {
+      "source": "PUB:PACKT",
+      "target": "K:Long-running agent execution",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapters 1, 4.",
+      "source_locator": "PACKT:C01, PACKT:C04"
+    },
+    {
+      "source": "PUB:PACKT",
+      "target": "K:Independent verification and oracles",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapters 1, 5, 6.",
+      "source_locator": "PACKT:C01, PACKT:C05, PACKT:C06"
+    },
+    {
+      "source": "PUB:PACKT",
+      "target": "K:Agent context and persistent memory",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapters 1, 4.",
+      "source_locator": "PACKT:C01, PACKT:C04"
+    },
+    {
+      "source": "PUB:PACKT",
+      "target": "K:Delegated authority and action budgets",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapters 1, 2, 5, 6.",
+      "source_locator": "PACKT:C01, PACKT:C02, PACKT:C05, PACKT:C06"
+    },
+    {
+      "source": "PUB:PACKT",
+      "target": "K:Ownership and knowledge transfer",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapter 2.",
+      "source_locator": "PACKT:C02"
+    },
+    {
+      "source": "PUB:PACKT",
+      "target": "K:Specifications and governance",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapter 2.",
+      "source_locator": "PACKT:C02"
+    },
+    {
+      "source": "PUB:PACKT",
+      "target": "K:Human-agent collaboration",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapter 2.",
+      "source_locator": "PACKT:C02"
+    },
+    {
+      "source": "PUB:PACKT",
+      "target": "K:Economic costs and return",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapters 3, 6.",
+      "source_locator": "PACKT:C03, PACKT:C06"
+    },
+    {
+      "source": "PUB:PACKT",
+      "target": "K:Output versus shipped value",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapter 3.",
+      "source_locator": "PACKT:C03"
+    },
+    {
+      "source": "PUB:PACKT",
+      "target": "K:Review capacity and maintainers",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapter 3.",
+      "source_locator": "PACKT:C03"
+    },
+    {
+      "source": "PUB:PACKT",
+      "target": "K:Agent failure and escalation",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapters 4, 5, 6.",
+      "source_locator": "PACKT:C04, PACKT:C05, PACKT:C06"
+    },
+    {
+      "source": "PUB:PACKT",
+      "target": "K:Architecture and modularity",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapter 5.",
+      "source_locator": "PACKT:C05"
+    },
+    {
+      "source": "PUB:PACKT",
+      "target": "K:Operational diagnosis and recovery",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapter 5.",
+      "source_locator": "PACKT:C05"
+    },
+    {
+      "source": "ESA:C01",
+      "target": "PUB:ESA",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 1 in the edition’s table of contents.",
+      "source_locator": "English 7 × 10 print source, p. 2, chapter 1. EPUB: EPUB/text/ch006.xhtml#chapter-1"
+    },
+    {
+      "source": "ESA:C02",
+      "target": "PUB:ESA",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 2 in the edition’s table of contents.",
+      "source_locator": "English 7 × 10 print source, p. 16, chapter 2. EPUB: EPUB/text/ch007.xhtml#chapter-2"
+    },
+    {
+      "source": "ESA:C03",
+      "target": "PUB:ESA",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 3 in the edition’s table of contents.",
+      "source_locator": "English 7 × 10 print source, p. 29, chapter 3. EPUB: EPUB/text/ch008.xhtml#chapter-3"
+    },
+    {
+      "source": "ESA:C04",
+      "target": "PUB:ESA",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 4 in the edition’s table of contents.",
+      "source_locator": "English 7 × 10 print source, p. 43, chapter 4. EPUB: EPUB/text/ch010.xhtml#chapter-4"
+    },
+    {
+      "source": "ESA:C05",
+      "target": "PUB:ESA",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 5 in the edition’s table of contents.",
+      "source_locator": "English 7 × 10 print source, p. 59, chapter 5. EPUB: EPUB/text/ch011.xhtml#chapter-5"
+    },
+    {
+      "source": "ESA:C06",
+      "target": "PUB:ESA",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 6 in the edition’s table of contents.",
+      "source_locator": "English 7 × 10 print source, p. 72, chapter 6. EPUB: EPUB/text/ch012.xhtml#chapter-6"
+    },
+    {
+      "source": "ESA:C07",
+      "target": "PUB:ESA",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 7 in the edition’s table of contents.",
+      "source_locator": "English 7 × 10 print source, p. 88, chapter 7. EPUB: EPUB/text/ch014.xhtml#chapter-7"
+    },
+    {
+      "source": "ESA:C08",
+      "target": "PUB:ESA",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 8 in the edition’s table of contents.",
+      "source_locator": "English 7 × 10 print source, p. 103, chapter 8. EPUB: EPUB/text/ch015.xhtml#chapter-8"
+    },
+    {
+      "source": "ESA:C09",
+      "target": "PUB:ESA",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 9 in the edition’s table of contents.",
+      "source_locator": "English 7 × 10 print source, p. 120, chapter 9. EPUB: EPUB/text/ch016.xhtml#chapter-9"
+    },
+    {
+      "source": "ESA:C10",
+      "target": "PUB:ESA",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 10 in the edition’s table of contents.",
+      "source_locator": "English 7 × 10 print source, p. 136, chapter 10. EPUB: EPUB/text/ch018.xhtml#chapter-10"
+    },
+    {
+      "source": "ESA:C11",
+      "target": "PUB:ESA",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 11 in the edition’s table of contents.",
+      "source_locator": "English 7 × 10 print source, p. 150, chapter 11. EPUB: EPUB/text/ch019.xhtml#chapter-11"
+    },
+    {
+      "source": "ESA:C12",
+      "target": "PUB:ESA",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 12 in the edition’s table of contents.",
+      "source_locator": "English 7 × 10 print source, p. 161, chapter 12. EPUB: EPUB/text/ch020.xhtml#chapter-12"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "K:Specifications and governance",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapters 1, 2, 3.",
+      "source_locator": "ESA:C01, ESA:C02, ESA:C03"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "K:Independent verification and oracles",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapters 1, 3, 7, 8, 9.",
+      "source_locator": "ESA:C01, ESA:C03, ESA:C07, ESA:C08, ESA:C09"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "K:Delegated authority and action budgets",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapters 1, 4, 6, 9.",
+      "source_locator": "ESA:C01, ESA:C04, ESA:C06, ESA:C09"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "K:Expect, Delegate, Observe, Decide (EDOD)",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapters 1, 6, 7, 9.",
+      "source_locator": "ESA:C01, ESA:C06, ESA:C07, ESA:C09"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "K:Output versus shipped value",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapter 2.",
+      "source_locator": "ESA:C02"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "K:Evaluation methodology and baselines",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapters 2, 5, 8, 12.",
+      "source_locator": "ESA:C02, ESA:C05, ESA:C08, ESA:C12"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "K:Agent context and persistent memory",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapter 4.",
+      "source_locator": "ESA:C04"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "K:System understanding and rationale",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapters 4, 5, 7, 11.",
+      "source_locator": "ESA:C04, ESA:C05, ESA:C07, ESA:C11"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "K:Architecture and modularity",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapters 5, 10.",
+      "source_locator": "ESA:C05, ESA:C10"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "K:Human-agent collaboration",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapter 6.",
+      "source_locator": "ESA:C06"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "K:Agent failure and escalation",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapter 6.",
+      "source_locator": "ESA:C06"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "K:Operational diagnosis and recovery",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapters 7, 9, 11.",
+      "source_locator": "ESA:C07, ESA:C09, ESA:C11"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "K:Concurrency and idempotency",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapters 8, 10.",
+      "source_locator": "ESA:C08, ESA:C10"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "K:Compatibility, replay and decision history",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapters 10, 11.",
+      "source_locator": "ESA:C10, ESA:C11"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "K:Economic costs and return",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapter 12.",
+      "source_locator": "ESA:C12"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "K:Skills formation and teaching",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapter 12.",
+      "source_locator": "ESA:C12"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "K:Cognitive offloading and skill debt",
+      "relation": "BOOK_COVERS_TOPIC",
+      "rationale": "Covered in chapter 12.",
+      "source_locator": "ESA:C12"
+    },
+    {
+      "source": "PUB:V11:V01",
+      "target": "WORK:NDSE",
+      "relation": "BOOK_EDITION_OF_WORK",
+      "rationale": "The publication is an identified edition of this work.",
+      "source_locator": "Atlas publication registry, V01 and V06"
+    },
+    {
+      "source": "PUB:NDSE2",
+      "target": "WORK:NDSE",
+      "relation": "BOOK_EDITION_OF_WORK",
+      "rationale": "The publication is an identified edition of this work.",
+      "source_locator": "Atlas publication registry, V01 and V06"
+    },
+    {
+      "source": "PUB:PACKT",
+      "target": "PUB:V11:V04",
+      "relation": "BOOK_EXTENDS_VOLUME",
+      "rationale": "The author identifies the agentic foundations of Non-Deterministic Autonomous Coding Agents as a starting point for this book.",
+      "source_locator": "Author-supplied Packt interior, copyright page (unnumbered), paragraph above the ISBN and disclaimer."
+    },
+    {
+      "source": "PUB:PACKT",
+      "target": "WORK:NDSE",
+      "relation": "BOOK_EXTENDS_WORK",
+      "rationale": "The author credits the engineering principles of Non-Deterministic Software Engineering. The copyright page gives no edition or ISBN.",
+      "source_locator": "Author-supplied Packt interior, copyright page (unnumbered), paragraph above the ISBN and disclaimer."
+    },
+    {
+      "source": "PUB:V11:V05",
+      "target": "PUB:PACKT",
+      "relation": "BOOK_EDITION_SUCCESSOR",
+      "rationale": "The author designates the Packt book as the current Loop Engineering catalogue entry.",
+      "source_locator": "Author instruction and the two edition records"
+    },
+    {
+      "source": "ESA:M:G1",
+      "target": "PUB:ESA",
+      "relation": "BOOK_SUPPLEMENT_OF",
+      "rationale": "Listed separately from the twelve numbered chapters in the table of contents.",
+      "source_locator": "ESA, English 7 × 10 print source, p. 180. EPUB: EPUB/text/ch023.xhtml#mission-g1"
+    },
+    {
+      "source": "ESA:M:G2",
+      "target": "PUB:ESA",
+      "relation": "BOOK_SUPPLEMENT_OF",
+      "rationale": "Listed separately from the twelve numbered chapters in the table of contents.",
+      "source_locator": "ESA, English 7 × 10 print source, p. 187. EPUB: EPUB/text/ch024.xhtml#mission-g2"
+    },
+    {
+      "source": "ESA:M:G3",
+      "target": "PUB:ESA",
+      "relation": "BOOK_SUPPLEMENT_OF",
+      "rationale": "Listed separately from the twelve numbered chapters in the table of contents.",
+      "source_locator": "ESA, English 7 × 10 print source, p. 194. EPUB: EPUB/text/ch025.xhtml#mission-g3"
+    },
+    {
+      "source": "ESA:M:G4",
+      "target": "PUB:ESA",
+      "relation": "BOOK_SUPPLEMENT_OF",
+      "rationale": "Listed separately from the twelve numbered chapters in the table of contents.",
+      "source_locator": "ESA, English 7 × 10 print source, p. 202. EPUB: EPUB/text/ch026.xhtml#mission-g4"
+    },
+    {
+      "source": "ESA:M:B1",
+      "target": "PUB:ESA",
+      "relation": "BOOK_SUPPLEMENT_OF",
+      "rationale": "Listed separately from the twelve numbered chapters in the table of contents.",
+      "source_locator": "ESA, English 7 × 10 print source, p. 209. EPUB: EPUB/text/ch027.xhtml#mission-b1"
+    },
+    {
+      "source": "ESA:M:B2",
+      "target": "PUB:ESA",
+      "relation": "BOOK_SUPPLEMENT_OF",
+      "rationale": "Listed separately from the twelve numbered chapters in the table of contents.",
+      "source_locator": "ESA, English 7 × 10 print source, p. 218. EPUB: EPUB/text/ch028.xhtml#mission-b2"
+    },
+    {
+      "source": "ESA:M:B3",
+      "target": "PUB:ESA",
+      "relation": "BOOK_SUPPLEMENT_OF",
+      "rationale": "Listed separately from the twelve numbered chapters in the table of contents.",
+      "source_locator": "ESA, English 7 × 10 print source, p. 225. EPUB: EPUB/text/ch029.xhtml#mission-b3"
+    },
+    {
+      "source": "ESA:M:B4",
+      "target": "PUB:ESA",
+      "relation": "BOOK_SUPPLEMENT_OF",
+      "rationale": "Listed separately from the twelve numbered chapters in the table of contents.",
+      "source_locator": "ESA, English 7 × 10 print source, p. 233. EPUB: EPUB/text/ch030.xhtml#mission-b4"
+    },
+    {
+      "source": "ESA:A:A",
+      "target": "PUB:ESA",
+      "relation": "BOOK_SUPPLEMENT_OF",
+      "rationale": "Listed separately from the twelve numbered chapters in the table of contents.",
+      "source_locator": "ESA, English 7 × 10 print source, p. 242. EPUB: EPUB/text/ch032.xhtml#chapter-answers"
+    },
+    {
+      "source": "ESA:A:B",
+      "target": "PUB:ESA",
+      "relation": "BOOK_SUPPLEMENT_OF",
+      "rationale": "Listed separately from the twelve numbered chapters in the table of contents.",
+      "source_locator": "ESA, English 7 × 10 print source, p. 261. EPUB: EPUB/text/ch033.xhtml#solutions"
+    },
+    {
+      "source": "ESA:A:C",
+      "target": "PUB:ESA",
+      "relation": "BOOK_SUPPLEMENT_OF",
+      "rationale": "Listed separately from the twelve numbered chapters in the table of contents.",
+      "source_locator": "ESA, English 7 × 10 print source, p. 293. EPUB: EPUB/text/ch034.xhtml#edod-field-card"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "PUB:NDSE2",
+      "relation": "BOOK_PREFACE_RELATES_VOLUME",
+      "rationale": "Supplies the research context for the engineering practices the ESA handbook turns into decisions. Both books use Treasury examples. The contracts and the result at the threshold are different; interpret each case against its own approved rule.",
+      "source_locator": "Preface, “How this volume fits the series”, pp. v–vi (target: English NDSE2 v13.7.3; Atlas guide: v13.7.1)"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "PUB:V11:V03",
+      "relation": "BOOK_PREFACE_RELATES_VOLUME",
+      "rationale": "Follows a change from intent through specification and review; ESA applies that discipline while supervising an agent.",
+      "source_locator": "Preface, “How this volume fits the series”, pp. v–vi"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "PUB:PACKT",
+      "relation": "BOOK_PREFACE_RELATES_VOLUME",
+      "rationale": "Explains how the harness controls worker state, tools and attempts; ESA documents the engineer’s decisions at those boundaries.",
+      "source_locator": "Preface, “How this volume fits the series”, pp. v–vi"
+    },
+    {
+      "source": "ESA:C09",
+      "target": "PUB:PACKT",
+      "relation": "BOOK_CITES_VOLUME",
+      "rationale": "The glossary supplies the term time-of-check/time-of-use for a changed release premise.",
+      "source_locator": "ESA §9.10; Packt glossary"
+    },
+    {
+      "source": "ESA:C10",
+      "target": "PUB:PACKT",
+      "relation": "BOOK_CITES_VOLUME",
+      "rationale": "The glossary supplies the term time-of-check/time-of-use for a precondition that changes before an external effect.",
+      "source_locator": "ESA §10.8; Packt glossary"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "NDSE2:C04",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Treasury is a different worked case with different behavior at the threshold.",
+      "source_locator": "Preface, “How this volume fits the series”, pp. v–vi; reference 1 (target: English NDSE2 v13.7.3; Atlas guide: v13.7.1)"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "B060",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Ceremony levels govern artifacts and gates; ESA sizes observations needed for each acceptance decision.",
+      "source_locator": "How to use this book, “The work order and its decision”; reference 2"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "B064",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Ceremony levels govern artifacts and gates; ESA sizes observations needed for each acceptance decision.",
+      "source_locator": "How to use this book, “The work order and its decision”; reference 2"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "NDSE2:C09",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "The author places ESA ch. 4 memory and ch. 12 learning in the broader context of chapters 9–11 collectively.",
+      "source_locator": "How to use this book, “The companion and sources”; reference 3 (target: English NDSE2 v13.7.3; Atlas guide: v13.7.1)"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "NDSE2:C10",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "The author places ESA ch. 4 memory and ch. 12 learning in the broader context of chapters 9–11 collectively.",
+      "source_locator": "How to use this book, “The companion and sources”; reference 3 (target: English NDSE2 v13.7.3; Atlas guide: v13.7.1)"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "NDSE2:C11",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "The author places ESA ch. 4 memory and ch. 12 learning in the broader context of chapters 9–11 collectively.",
+      "source_locator": "How to use this book, “The companion and sources”; reference 3 (target: English NDSE2 v13.7.3; Atlas guide: v13.7.1)"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "B067",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "The greenfield and brownfield mission routes share the setup and legacy integration contexts of the two playbooks.",
+      "source_locator": "Practice guide, “Mission map”, p. 175; reference 2"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "PACKT:C01",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Relates completion contracts, cost per accepted outcome, maker–checker roles and deployment profiles to the ESA work order and evidence profiles.",
+      "source_locator": "Working glossary, “Terminology across the books”, p. 303"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "PACKT:C03",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Relates completion contracts, cost per accepted outcome, maker–checker roles and deployment profiles to the ESA work order and evidence profiles.",
+      "source_locator": "Working glossary, “Terminology across the books”, p. 303"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "PACKT:C06",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Relates completion contracts, cost per accepted outcome, maker–checker roles and deployment profiles to the ESA work order and evidence profiles.",
+      "source_locator": "Working glossary, “Terminology across the books”, p. 303"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "NDSE2:C03",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Compares the task envelope, intention and evidence dossier, review, memory and learning.",
+      "source_locator": "Working glossary, “Terminology across the books”, p. 303 (target: English NDSE2 v13.7.3; Atlas guide: v13.7.1)"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "NDSE2:C04",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Compares the task envelope, intention and evidence dossier, review, memory and learning.",
+      "source_locator": "Working glossary, “Terminology across the books”, p. 303 (target: English NDSE2 v13.7.3; Atlas guide: v13.7.1)"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "NDSE2:C07",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Compares the task envelope, intention and evidence dossier, review, memory and learning.",
+      "source_locator": "Working glossary, “Terminology across the books”, p. 303 (target: English NDSE2 v13.7.3; Atlas guide: v13.7.1)"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "NDSE2:C08",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Compares the task envelope, intention and evidence dossier, review, memory and learning.",
+      "source_locator": "Working glossary, “Terminology across the books”, p. 303 (target: English NDSE2 v13.7.3; Atlas guide: v13.7.1)"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "NDSE2:C09",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Compares the task envelope, intention and evidence dossier, review, memory and learning.",
+      "source_locator": "Working glossary, “Terminology across the books”, p. 303 (target: English NDSE2 v13.7.3; Atlas guide: v13.7.1)"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "NDSE2:C10",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Compares the task envelope, intention and evidence dossier, review, memory and learning.",
+      "source_locator": "Working glossary, “Terminology across the books”, p. 303 (target: English NDSE2 v13.7.3; Atlas guide: v13.7.1)"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "B049",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Relates specifications, task breakdown, gates, context bridges, autonomy budgets and protected checking to ESA’s decision vocabulary.",
+      "source_locator": "Working glossary, “Terminology across the books”, p. 303; reference 2"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "B050",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Relates specifications, task breakdown, gates, context bridges, autonomy budgets and protected checking to ESA’s decision vocabulary.",
+      "source_locator": "Working glossary, “Terminology across the books”, p. 303; reference 2"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "B060",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Relates specifications, task breakdown, gates, context bridges, autonomy budgets and protected checking to ESA’s decision vocabulary.",
+      "source_locator": "Working glossary, “Terminology across the books”, p. 303; reference 2"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "B062",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Relates specifications, task breakdown, gates, context bridges, autonomy budgets and protected checking to ESA’s decision vocabulary.",
+      "source_locator": "Working glossary, “Terminology across the books”, p. 303; reference 2"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "B063",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Relates specifications, task breakdown, gates, context bridges, autonomy budgets and protected checking to ESA’s decision vocabulary.",
+      "source_locator": "Working glossary, “Terminology across the books”, p. 303; reference 2"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "PACKT:C04",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "References the versioned example of an external CLI loop and its controlled local runtime.",
+      "source_locator": "Working glossary, “Terminology across the books”, final paragraph; reference 92"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "PACKT:C05",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "References the versioned example of an external CLI loop and its controlled local runtime.",
+      "source_locator": "Working glossary, “Terminology across the books”, final paragraph; reference 92"
     }
   ],
   "practice_relationships": []

@@ -1,13 +1,10 @@
 {
-  "schema_version": 1,
-  "kind": "atlas_publication_assets_update/1",
-  "release": "13.2",
-  "baseline_release": "13.1",
-  "date": "2026-10-18",
-  "reviewed_on": "2026-10-18",
-  "baseline_name": "Knowledge_Atlas_v13_1_Complete_20261018.zip",
-  "baseline_package_sha256": "d7d9b7629ed3daf2897ca9a9e498a2912a6126bd2ee0b61d2ddf9b57fc58b251",
-  "baseline_payload_sha256": "f3b95f313c92c657af42593c4166d0aada0615900fb9ba1fa9572b04b386336d",
+  "schema_version": 2,
+  "kind": "atlas_publication_registry/2",
+  "release": "13.6",
+  "baseline_release": "13.5",
+  "date": "2026-11-23",
+  "reviewed_on": "2026-11-23",
   "series": {
     "title": "Non-Deterministic series",
     "amazon_url": "https://www.amazon.com/dp/B0GHCXPBRM",
@@ -72,14 +69,17 @@
     },
     {
       "volume_id": "V05",
-      "node_id": "PUB:V11:V05",
-      "amazon_asin": "B0H9W2ST3F",
-      "amazon_language": "English",
-      "amazon_verification": "Amazon.com product title, English language and paperback details inspected on 2026-10-18.",
-      "amazon_evidence_urls": [
-        "https://www.amazon.com/Non-Deterministic-Loop-Engineering-Reliable-Agentic/dp/B0H9W2ST3F"
-      ],
-      "amazon_url": "https://www.amazon.com/dp/B0H9W2ST3F"
+      "node_id": "PUB:PACKT",
+      "companion_url": "https://github.com/popoloni/loopeng4aiagents",
+      "cover_image": "assets/books/loop-engineering-packt.jpg",
+      "cover_width": 768,
+      "cover_height": 957,
+      "cover_sha256": "f7ecea19bb214716965b6fc4d38772ea5984e7cb3fe9d503e61353390f193df3",
+      "cover_alt": "Loop Engineering for AI Agents by Enrico Papalini",
+      "publisher_url": "https://www.packtpub.com/en-it/product/loop-engineering-for-ai-agents-9781808766404",
+      "amazon_url": "https://www.amazon.com/dp/1808766415",
+      "amazon_asin": "1808766415",
+      "amazon_verification": "Print ISBN-10 product and matching jacket."
     },
     {
       "volume_id": "V06",
@@ -96,11 +96,24 @@
       "cover_width": 1000,
       "cover_height": 1499,
       "amazon_url": "https://www.amazon.com/dp/B0HN9J7VZG"
+    },
+    {
+      "volume_id": "V07",
+      "node_id": "PUB:ESA",
+      "companion_url": "https://github.com/popoloni/esa_ai",
+      "cover_image": "assets/books/engineering-software-agentic-ai.jpg",
+      "cover_width": 1600,
+      "cover_height": 2400,
+      "cover_sha256": "c3491b8ed564b52cbc0303b355c9961e79259c820c35c262354c91197874a071",
+      "cover_alt": "Engineering Software with Agentic AI by Enrico Papalini",
+      "amazon_url": "https://www.amazon.com/dp/B0HSPH86CG",
+      "amazon_asin": "B0HSPH86CG",
+      "amazon_verification": "Exact product destination supplied by the author."
     }
   ],
-  "evidence_note": "Amazon series indexing and individual Amazon product pages were used to recover the existing book destinations. The series-page body could not be retrieved. Cached series counts disagree, so no current Amazon series size or ordering is asserted. Atlas V01–V06 remain the existing local volume identifiers. Bibliographic source ISBNs are retained and are not asserted to describe the linked retail formats.",
+  "evidence_note": "Book links and chapter locators for ESA and Packt follow the edition evidence in source/book_chapter_review.json. Earlier artwork is identified as series artwork.",
   "cover_provenance": {
-    "origin": "Images supplied by the author for this update on 2026-10-18.",
+    "origin": "Each artwork is identified by its file record; the original series and NDSE2 artwork was supplied on 18 October 2026.",
     "files": [
       {
         "uploaded_name": "NDSE2_cover.jpg",
@@ -111,8 +124,33 @@
         "uploaded_name": "NDseries.png",
         "site_path": "assets/books/NDseries.png",
         "sha256": "e04c7dff813fe97935c4412c70c837876290a6ab2c578f6669e4fe9ceb159d08"
+      },
+      {
+        "site_path": "assets/books/loop-engineering-packt.jpg",
+        "sha256": "f7ecea19bb214716965b6fc4d38772ea5984e7cb3fe9d503e61353390f193df3",
+        "source": "Author companion repository, imgs/cover.jpg. Matched against the print ISBN cover."
+      },
+      {
+        "site_path": "assets/books/engineering-software-agentic-ai.jpg",
+        "sha256": "c3491b8ed564b52cbc0303b355c9961e79259c820c35c262354c91197874a071",
+        "source": "Author-supplied EPUB, EPUB/media/book.jpg."
       }
     ],
     "transformations": "None; original image bytes copied unchanged."
-  }
+  },
+  "archived_books": [
+    {
+      "volume_id": "V05-H",
+      "node_id": "PUB:V11:V05",
+      "amazon_asin": "B0H9W2ST3F",
+      "amazon_language": "English",
+      "amazon_verification": "Amazon.com product title, English language and paperback details inspected on 2026-10-18.",
+      "amazon_evidence_urls": [
+        "https://www.amazon.com/Non-Deterministic-Loop-Engineering-Reliable-Agentic/dp/B0H9W2ST3F"
+      ],
+      "amazon_url": "https://www.amazon.com/dp/B0H9W2ST3F",
+      "original_atlas_volume_id": "V05"
+    }
+  ],
+  "baseline_commit": "e4efb753f222f5fdc2264592fbf28c8e26011f83"
 }

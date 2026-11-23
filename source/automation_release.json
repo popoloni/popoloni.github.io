@@ -1,11 +1,34 @@
 {
-  "tool_version": "1.1.0",
-  "kind": "atlas_practice_links_update/1",
-  "date": "2026-11-07",
-  "release": "13.5",
-  "baseline_name": "Published_GitHub_v13_4_37515e16_20261107.zip",
-  "baseline_sha256": "cd24ad80386269b77aefcd73eff99e30e0009973b537206df1351fbce1251acd",
-  "source_additions": [],
-  "practice_links_added": 692,
-  "review_path": "data/updates/practice_links_review_v13_5_20261107.json"
+  "kind": "atlas_book_chapters_update/1",
+  "date": "2026-11-23",
+  "release": "13.6",
+  "baseline_commit": "e4efb753f222f5fdc2264592fbf28c8e26011f83",
+  "review_path": "source/book_chapter_review.json",
+  "chapter_ids": [
+    "PACKT:C01",
+    "PACKT:C02",
+    "PACKT:C03",
+    "PACKT:C04",
+    "PACKT:C05",
+    "PACKT:C06",
+    "ESA:C01",
+    "ESA:C02",
+    "ESA:C03",
+    "ESA:C04",
+    "ESA:C05",
+    "ESA:C06",
+    "ESA:C07",
+    "ESA:C08",
+    "ESA:C09",
+    "ESA:C10",
+    "ESA:C11",
+    "ESA:C12"
+  ],
+  "new_topic_ids": [
+    "K:Delegated authority and action budgets",
+    "K:Compatibility, replay and decision history",
+    "K:Operational diagnosis and recovery",
+    "K:Concurrency and idempotency",
+    "K:Expect, Delegate, Observe, Decide (EDOD)"
+  ]
 }

@@ -2,13 +2,13 @@
 
 An independent, source-traceable map of research and practitioner writing about AI-assisted software development, by **Enrico Papalini**. The graph and static catalogues connect publications, topics, engineering practices and book chapters while retaining their evidence limits.
 
-**[Open the published atlas](https://popoloni.github.io/swe_knowledge_graph.html)** · **[Local atlas](swe_knowledge_graph.html)** · **[Catalogues](catalogues/index.html)** · **[NDSE2 · published second edition](catalogues/ndse2.html)** · **[Downloads](downloads.html)** · **[Update notes](UPDATE_v13_5_20261107.html)**
+**[Open the published atlas](https://popoloni.github.io/swe_knowledge_graph.html)** · **[Local atlas](swe_knowledge_graph.html)** · **[Catalogues](catalogues/index.html)** · **[NDSE2 · published second edition](catalogues/ndse2.html)** · **[Downloads](downloads.html)** · **[Update notes](UPDATE_v13_6_20261123.html)**
 
 ## The starting collection
 
 The foundation is **[The SE & AI Annotated Bibliography](https://www.sepolimi.com/p/se-ai-annotated-bibliography)**, curated by **Alfonso Fuggetta, Damian Andrew Tamburri and Alessandro Margara**, **Software Engineering @ PoliMi**. Its original 8 October 2026 snapshot contains 193 works. The original classification and annotations are the curators’ contribution. This independent atlas and its editorial extensions do not imply institutional endorsement.
 
-The atlas opens with the current **229-record PoliMi collection**. Additional collections, context and relationship controls are available through the interface. Source IDs and established links remain stable. The [current release notes](UPDATE_v13_5_20261107.html) identify additions, corrections, publication status, and the depth of primary-source checks.
+The atlas opens with the current **229-record PoliMi collection**. Additional collections, context and relationship controls are available through the interface. Source IDs and established links remain stable. The [current release notes](UPDATE_v13_6_20261123.html) identify additions, corrections, publication status, and the depth of primary-source checks.
 
 ## Current catalogues
 
@@ -20,9 +20,10 @@ The atlas opens with the current **229-record PoliMi collection**. Additional co
 | F | [Martin Fowler’s website](catalogues/fowler.html) | 41 |
 | B | [Earlier Non-Deterministic books](catalogues/books.html) | 111 |
 | N | [NDSE2 · Published second edition](catalogues/ndse2.html) | 13 |
+| R | [Packt and ESA chapters](catalogues/reviewed-chapters.html) | 18 |
 | PAT | [Software Engineering Practices](catalogues/practices.html) | 84 |
 
-Also browse **[9 streams](catalogues/streams.html)**, **[30 topics](catalogues/topics.html)**, **[6 published books](catalogues/volumes.html)**, **[13 NDSE2 chapter guides](catalogues/chapters.html)**, **[84 practice descriptors](catalogues/practices.html)** and **[87 historical occurrences](catalogues/occurrences.html)**. Static entries work without JavaScript; optional filters improve navigation.
+Also browse **[9 streams](catalogues/streams.html)**, **[35 topics](catalogues/topics.html)**, **[7 published books](catalogues/volumes.html)**, **[13 NDSE2 chapter guides](catalogues/chapters.html)**, **[84 practice descriptors](catalogues/practices.html)** and **[87 historical occurrences](catalogues/occurrences.html)**. Static entries work without JavaScript; optional filters improve navigation.
 
 ## Published NDSE2 second edition
 
@@ -32,18 +33,21 @@ The **13 chapter records** contain concise English summaries, Italian titles, le
 
 [Read the chapter guides](catalogues/ndse2.html) · [Edition and extraction provenance](source/ndse2_book.json) · [Source-review audit](data/updates/source_review_v13_4_20261106.json)
 
-## Book covers and Amazon.com links
+## Reviewed book chapters
+
+[Browse the 18 Packt and ESA chapter records](catalogues/reviewed-chapters.html). Each record identifies its parent volume and topics. Related-reading links explain the connection between chapters. The [edition review](source/book_chapter_review.json) records the sources used. Older self-published loop records remain in the historical catalogue for existing citations.
+
+## Book editions and destinations
 
 The [publication registry](source/book_publications.json) keeps series and individual-book destinations together with the paths, descriptions and original dimensions of the supplied artwork in `assets/books/`. This presentation overlay is retained during future article and manuscript rebuilds; bibliographic titles, ISBNs and chapter citations remain in their own source metadata.
 
-After changing the registry or supplied artwork, run from the site root:
+To render the current edition records and artwork, run from the site root:
 
 ```sh
-python source/update_publications.py
 python source/build_site.py
 ```
 
-The publication adapter applies book-link and cover metadata. The site builder then renders the catalogues. Cover updates do not require manuscript extraction and do not change chapter citations. See [the publication update guide](source/PUBLICATION_UPDATES.md) for the complete procedure.
+The renderer uses the current graph and publication registry. The [publication update guide](source/PUBLICATION_UPDATES.md) documents the historical six-volume adapter for the earlier snapshot.
 
 ## Authorship and evidence
 
@@ -73,6 +77,6 @@ Source-to-practice classifications use the separate edge-only review in [PRACTIC
 
 `check` performs independent structural verification, real-browser checks and repeatable rebuilds. `package` creates the full archive and a delta containing only file additions or overwrites, and proves that baseline plus delta equals the full package. Neither command publishes to GitHub. [Commands, dependencies and book-update steps](DEPLOYMENT.md).
 
-**Graph v13.5 · 2026-11-07**. **Website v13.5 · 2026-11-07**. The current graph contains **1,991 nodes**, **14,960 keyed relationships** and **315 relation types**. Retained earlier graph exports remain labelled as historical.
+**Graph v13.6 · 2026-11-23**. **Website v13.6 · 2026-11-23**. The current graph contains **2,030 nodes**, **15,271 keyed relationships** and **333 relation types**. Retained earlier graph exports remain labelled as historical.
 
 [Credits and boundaries](attribution.html) · [Validation report](verification/report.html)

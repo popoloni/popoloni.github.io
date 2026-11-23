@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "atlas_current.html",
-    "snapshot": "2026-11-07",
-    "site_version": "13.5",
+    "snapshot": "2026-11-23",
+    "site_version": "13.6",
     "count": 62,
     "note": "Materialized view of the current audited graph; complete node fields retained. Source inspection and publication status are recorded per item. The builder performs no new empirical validation."
   },
@@ -992,7 +992,7 @@
       ],
       "volumes": [
         "V06",
-        "V05"
+        "V05-H"
       ]
     },
     {

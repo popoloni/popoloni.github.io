@@ -1,5 +1,7 @@
 # Book covers and Amazon links
 
+For the current book catalogue, see [the reviewed edition and chapter metadata](book_chapter_review.json). Render it with `python -B source/build_site.py`. The workflow below documents the v13.2 update and its six-volume baseline.
+
 Atlas 13.2 adds the author-supplied ND series artwork and NDSE2 cover, a separate Amazon.com series destination, and individual Amazon.com destinations for the six existing volume records.
 
 ## Source of truth
@@ -58,3 +60,16 @@ python -B source/package_publications.py --baseline /path/to/published-complete.
 The package command binds the three reports to the candidate's artifact digest. It compares actual file bytes with the exact published ZIP, creates a full archive and a delta containing only added or changed files, and extracts the actual archives to prove that baseline plus delta equals full. It refuses missing baseline files or failed/stale verification. Installation notes and a path-by-path SHA-256 manifest accompany the archives. Packaging does not deploy the site.
 
 For this release the baseline is `Knowledge_Atlas_v13_1_Complete_20261018.zip`, SHA-256 `d7d9b7629ed3daf2897ca9a9e498a2912a6126bd2ee0b61d2ddf9b57fc58b251`. After 13.2 is published, use its full package as the baseline for the next update.
+
+## Rebuild the reviewed 13.6 edition map
+
+Use a separate checkout of the baseline commit recorded in `source/book_chapter_review.json` and run from the 13.6 tree:
+
+```sh
+python3 -B source/update_book_chapters.py --baseline /path/to/v13.5
+python3 -B source/build_site.py
+python3 -B source/check_book_release.py --site . --baseline /path/to/v13.5 --output /tmp/book-structure.json
+python3 -B source/check_book_navigation.py --site . --browser /path/to/chromium --report /tmp/book-navigation.json
+```
+
+The first three steps use the Python standard library. The browser check uses Python Playwright and Chromium. The ordinary static render is the second command alone.

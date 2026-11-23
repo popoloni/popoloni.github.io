@@ -1,5 +1,5 @@
 // Static catalogue navigation. A bare URL preserves the original W001-W193 view.
-const catalogueFiles={W:'polimi',O:'osmani',P:'pragmatic-engineer',F:'fowler',B:'books',N:'ndse2',PAT:'practices'};
+const catalogueFiles={W:'polimi',O:'osmani',P:'pragmatic-engineer',F:'fowler',B:'books',N:'ndse2',R:'reviewed-chapters',PAT:'practices'};
 const originalNodeDetails=renderNodeDetails;
 renderNodeDetails=function(n,resetScroll=true){
  originalNodeDetails(n,resetScroll);
@@ -9,6 +9,20 @@ renderNodeDetails=function(n,resetScroll=true){
   a.className='external-link';
   a.textContent=n.r.collection==='N'?'Read published chapter guide':n.r.collection==='PAT'?'Read the complete practice guide':'Read static catalogue entry';
   a.href='catalogues/'+slug+'.html#'+encodeURIComponent(n.id);
+  $('inspectorBody').appendChild(a);
+ }
+ if(['published_book','archived_book_edition','author_volume','book_appendix','book_mission'].includes(n.r.kind) && n.r.attributes.volume_id){
+  const a=document.createElement('a');
+  a.className='external-link';a.textContent='Open this edition in the book catalogue';
+  const anchor=['book_appendix','book_mission'].includes(n.r.kind)?'#'+encodeURIComponent(n.id):'';
+  a.href='catalogues/volumes/'+n.r.attributes.volume_id.toLowerCase()+'.html'+anchor;
+  $('inspectorBody').appendChild(a);
+ }
+ if(n.r.collection==='R'){
+  const a=document.createElement('a');
+  a.className='external-link';
+  a.textContent=n.r.attributes.volume_title+' · Chapter '+n.r.attributes.chapter_number+' · p. '+n.r.attributes.print_page;
+  a.href='catalogues/volumes/'+n.r.attributes.volume_id.toLowerCase()+'.html';
   $('inspectorBody').appendChild(a);
  }
  const ch=D.chapters.find(c=>c.id===n.id||c.record_id===n.id||c.id===n.r.attributes.chapter_hub);

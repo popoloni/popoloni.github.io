@@ -1,0 +1,2451 @@
+{
+  "meta": {
+    "source": "atlas_current.html",
+    "snapshot": "2026-11-23",
+    "site_version": "13.6",
+    "count": 18,
+    "note": "Materialized view of the current audited graph; complete node fields retained. Source inspection and publication status are recorded per item. The builder performs no new empirical validation."
+  },
+  "records": [
+    {
+      "id": "PACKT:C01",
+      "label": "Loop Engineering for AI Agents: A Critical Assessment",
+      "kind": "published_book_chapter",
+      "collection": "R",
+      "category": null,
+      "streams": [
+        "T:What agents can do",
+        "T:Verification & review",
+        "T:System knowledge & memory"
+      ],
+      "topics": [
+        "K:Long-running agent execution",
+        "K:Independent verification and oracles",
+        "K:Agent context and persistent memory",
+        "K:Delegated authority and action budgets"
+      ],
+      "volumes": [
+        "V05"
+      ],
+      "mapped": [],
+      "actual": [],
+      "printed": false,
+      "summary": "The chapter traces the transition from prompting to a persistent loop, with a worker that proposes changes and an independent evaluator that decides when to accept them.",
+      "limitation": "",
+      "authors": "Enrico Papalini",
+      "url": "https://github.com/popoloni/loopeng4aiagents/blob/main/docs/chapters/chapter-1.md",
+      "year": "2026",
+      "attributes": {
+        "label": "Loop Engineering for AI Agents: A Critical Assessment",
+        "kind": "published_book_chapter",
+        "chapter_number": 1,
+        "chapter_no": 1,
+        "title": "Loop Engineering for AI Agents: A Critical Assessment",
+        "volume_id": "V05",
+        "volume_title": "Loop Engineering for AI Agents",
+        "print_page": 3,
+        "source_locator": "Packt print interior, p. 3, §§1.2–1.4, 1.6–1.8, 1.12–1.13",
+        "collection": "R"
+      }
+    },
+    {
+      "id": "PACKT:C02",
+      "label": "The Organization Becomes a Loop",
+      "kind": "published_book_chapter",
+      "collection": "R",
+      "category": null,
+      "streams": [
+        "T:Engineering structure",
+        "T:Jobs & roles",
+        "T:System knowledge & memory"
+      ],
+      "topics": [
+        "K:Ownership and knowledge transfer",
+        "K:Specifications and governance",
+        "K:Human-agent collaboration",
+        "K:Delegated authority and action budgets"
+      ],
+      "volumes": [
+        "V05"
+      ],
+      "mapped": [],
+      "actual": [],
+      "printed": false,
+      "summary": "The chapter assigns ownership, verification and escalation responsibilities to teams, compares three operating models and examines what changes when governance moves into the runtime.",
+      "limitation": "",
+      "authors": "Enrico Papalini",
+      "url": "https://github.com/popoloni/loopeng4aiagents/blob/main/docs/chapters/chapter-2.md",
+      "year": "2026",
+      "attributes": {
+        "label": "The Organization Becomes a Loop",
+        "kind": "published_book_chapter",
+        "chapter_number": 2,
+        "chapter_no": 2,
+        "title": "The Organization Becomes a Loop",
+        "volume_id": "V05",
+        "volume_title": "Loop Engineering for AI Agents",
+        "print_page": 37,
+        "source_locator": "Packt print interior, p. 37, §§2.4–2.10, 2.12–2.13",
+        "collection": "R"
+      }
+    },
+    {
+      "id": "PACKT:C03",
+      "label": "The Economics of Loop Engineering",
+      "kind": "published_book_chapter",
+      "collection": "R",
+      "category": null,
+      "streams": [
+        "T:Economics",
+        "T:Productivity",
+        "T:Verification & review"
+      ],
+      "topics": [
+        "K:Economic costs and return",
+        "K:Output versus shipped value",
+        "K:Review capacity and maintainers"
+      ],
+      "volumes": [
+        "V05"
+      ],
+      "mapped": [],
+      "actual": [],
+      "printed": false,
+      "summary": "The chapter costs an accepted outcome, including review and retries, and uses a regulated maintenance example to compare local speed with delivery throughput.",
+      "limitation": "",
+      "authors": "Enrico Papalini",
+      "url": "https://github.com/popoloni/loopeng4aiagents/blob/main/docs/chapters/chapter-3.md",
+      "year": "2026",
+      "attributes": {
+        "label": "The Economics of Loop Engineering",
+        "kind": "published_book_chapter",
+        "chapter_number": 3,
+        "chapter_no": 3,
+        "title": "The Economics of Loop Engineering",
+        "volume_id": "V05",
+        "volume_title": "Loop Engineering for AI Agents",
+        "print_page": 67,
+        "source_locator": "Packt print interior, p. 67, §§3.2–3.5, 3.8–3.10, 3.13",
+        "collection": "R"
+      }
+    },
+    {
+      "id": "PACKT:C04",
+      "label": "The Ralph Loop: Persistent Progress Through Fresh Context",
+      "kind": "published_book_chapter",
+      "collection": "R",
+      "category": null,
+      "streams": [
+        "T:What agents can do",
+        "T:System knowledge & memory",
+        "T:Verification & review"
+      ],
+      "topics": [
+        "K:Agent context and persistent memory",
+        "K:Long-running agent execution",
+        "K:Agent failure and escalation"
+      ],
+      "volumes": [
+        "V05"
+      ],
+      "mapped": [],
+      "actual": [],
+      "printed": false,
+      "summary": "The chapter follows one work item through a fresh context, an external plan, a verifier and a checkpoint. It compares shell, stop-hook and editor-driven variants and describes when to escalate.",
+      "limitation": "",
+      "authors": "Enrico Papalini",
+      "url": "https://github.com/popoloni/loopeng4aiagents/blob/main/docs/chapters/chapter-4.md",
+      "year": "2026",
+      "attributes": {
+        "label": "The Ralph Loop: Persistent Progress Through Fresh Context",
+        "kind": "published_book_chapter",
+        "chapter_number": 4,
+        "chapter_no": 4,
+        "title": "The Ralph Loop: Persistent Progress Through Fresh Context",
+        "volume_id": "V05",
+        "volume_title": "Loop Engineering for AI Agents",
+        "print_page": 101,
+        "source_locator": "Packt print interior, p. 101, §§4.2–4.10, 4.15–4.17",
+        "collection": "R"
+      }
+    },
+    {
+      "id": "PACKT:C05",
+      "label": "Building a Full Local AI Loop",
+      "kind": "published_book_chapter",
+      "collection": "R",
+      "category": null,
+      "streams": [
+        "T:Engineering structure",
+        "T:What agents can do",
+        "T:Verification & review",
+        "T:Code quality & security"
+      ],
+      "topics": [
+        "K:Architecture and modularity",
+        "K:Independent verification and oracles",
+        "K:Agent failure and escalation",
+        "K:Delegated authority and action budgets",
+        "K:Operational diagnosis and recovery"
+      ],
+      "volumes": [
+        "V05"
+      ],
+      "mapped": [],
+      "actual": [],
+      "printed": false,
+      "summary": "A local reference implementation connects the model runtime, durable plan, protected verifier, retry and recovery policy, observability and human authority.",
+      "limitation": "",
+      "authors": "Enrico Papalini",
+      "url": "https://github.com/popoloni/loopeng4aiagents/blob/main/docs/chapters/chapter-5.md",
+      "year": "2026",
+      "attributes": {
+        "label": "Building a Full Local AI Loop",
+        "kind": "published_book_chapter",
+        "chapter_number": 5,
+        "chapter_no": 5,
+        "title": "Building a Full Local AI Loop",
+        "volume_id": "V05",
+        "volume_title": "Loop Engineering for AI Agents",
+        "print_page": 133,
+        "source_locator": "Packt print interior, p. 133, §§5.2–5.7, 5.11–5.18, 5.23",
+        "collection": "R"
+      }
+    },
+    {
+      "id": "PACKT:C06",
+      "label": "Choosing the Right Loop",
+      "kind": "published_book_chapter",
+      "collection": "R",
+      "category": null,
+      "streams": [
+        "T:What agents can do",
+        "T:Verification & review",
+        "T:Economics"
+      ],
+      "topics": [
+        "K:Agent failure and escalation",
+        "K:Independent verification and oracles",
+        "K:Economic costs and return",
+        "K:Delegated authority and action budgets"
+      ],
+      "volumes": [
+        "V05"
+      ],
+      "mapped": [],
+      "actual": [],
+      "printed": false,
+      "summary": "The chapter matches an observed failure to the smallest suitable mechanism and tests the selection framework on a customer-support case involving retrieval, checks, budgets and escalation.",
+      "limitation": "",
+      "authors": "Enrico Papalini",
+      "url": "https://github.com/popoloni/loopeng4aiagents/blob/main/docs/chapters/chapter-6.md",
+      "year": "2026",
+      "attributes": {
+        "label": "Choosing the Right Loop",
+        "kind": "published_book_chapter",
+        "chapter_number": 6,
+        "chapter_no": 6,
+        "title": "Choosing the Right Loop",
+        "volume_id": "V05",
+        "volume_title": "Loop Engineering for AI Agents",
+        "print_page": 185,
+        "source_locator": "Packt print interior, p. 185, §§6.3–6.9, 6.11–6.15",
+        "collection": "R"
+      }
+    },
+    {
+      "id": "ESA:C01",
+      "label": "The first accountable change",
+      "kind": "published_book_chapter",
+      "collection": "R",
+      "category": null,
+      "streams": [
+        "T:Verification & review",
+        "T:Engineering structure"
+      ],
+      "topics": [
+        "K:Specifications and governance",
+        "K:Independent verification and oracles",
+        "K:Delegated authority and action budgets",
+        "K:Expect, Delegate, Observe, Decide (EDOD)"
+      ],
+      "volumes": [
+        "V07"
+      ],
+      "mapped": [],
+      "actual": [],
+      "printed": false,
+      "summary": "Tie a Treasury repair to the approved business rule, the candidate under review and the evidence for accepting, rejecting or escalating it.",
+      "limitation": "",
+      "authors": "Enrico Papalini",
+      "url": "https://www.amazon.com/dp/B0HSPH86CG",
+      "year": "2026",
+      "attributes": {
+        "label": "The first accountable change",
+        "kind": "published_book_chapter",
+        "chapter_number": 1,
+        "chapter_no": 1,
+        "title": "The first accountable change",
+        "volume_id": "V07",
+        "volume_title": "Engineering Software with Agentic AI",
+        "print_page": 2,
+        "source_locator": "English 7 × 10 print source, p. 2, chapter 1. EPUB: EPUB/text/ch006.xhtml#chapter-1",
+        "part": "Define the change",
+        "epub_locator": "EPUB/text/ch006.xhtml#chapter-1",
+        "collection": "R"
+      }
+    },
+    {
+      "id": "ESA:C02",
+      "label": "From need to a verifiable outcome",
+      "kind": "published_book_chapter",
+      "collection": "R",
+      "category": null,
+      "streams": [
+        "T:Productivity",
+        "T:Engineering structure"
+      ],
+      "topics": [
+        "K:Output versus shipped value",
+        "K:Evaluation methodology and baselines",
+        "K:Specifications and governance"
+      ],
+      "volumes": [
+        "V07"
+      ],
+      "mapped": [],
+      "actual": [],
+      "printed": false,
+      "summary": "Investigate a request for a reservation service. Separate assumptions and observable problems, compare interventions, and choose an outcome whose success can be measured.",
+      "limitation": "",
+      "authors": "Enrico Papalini",
+      "url": "https://www.amazon.com/dp/B0HSPH86CG",
+      "year": "2026",
+      "attributes": {
+        "label": "From need to a verifiable outcome",
+        "kind": "published_book_chapter",
+        "chapter_number": 2,
+        "chapter_no": 2,
+        "title": "From need to a verifiable outcome",
+        "volume_id": "V07",
+        "volume_title": "Engineering Software with Agentic AI",
+        "print_page": 16,
+        "source_locator": "English 7 × 10 print source, p. 16, chapter 2. EPUB: EPUB/text/ch007.xhtml#chapter-2",
+        "part": "Define the change",
+        "epub_locator": "EPUB/text/ch007.xhtml#chapter-2",
+        "collection": "R"
+      }
+    },
+    {
+      "id": "ESA:C03",
+      "label": "Specify behavior and acceptance",
+      "kind": "published_book_chapter",
+      "collection": "R",
+      "category": null,
+      "streams": [
+        "T:Engineering structure",
+        "T:Verification & review"
+      ],
+      "topics": [
+        "K:Specifications and governance",
+        "K:Independent verification and oracles"
+      ],
+      "volumes": [
+        "V07"
+      ],
+      "mapped": [],
+      "actual": [],
+      "printed": false,
+      "summary": "Use boundary examples, refusals and event sequences to distinguish interpretations of a reservation contract. Turn unresolved questions into decisions for the owner.",
+      "limitation": "",
+      "authors": "Enrico Papalini",
+      "url": "https://www.amazon.com/dp/B0HSPH86CG",
+      "year": "2026",
+      "attributes": {
+        "label": "Specify behavior and acceptance",
+        "kind": "published_book_chapter",
+        "chapter_number": 3,
+        "chapter_no": 3,
+        "title": "Specify behavior and acceptance",
+        "volume_id": "V07",
+        "volume_title": "Engineering Software with Agentic AI",
+        "print_page": 29,
+        "source_locator": "English 7 × 10 print source, p. 29, chapter 3. EPUB: EPUB/text/ch008.xhtml#chapter-3",
+        "part": "Define the change",
+        "epub_locator": "EPUB/text/ch008.xhtml#chapter-3",
+        "collection": "R"
+      }
+    },
+    {
+      "id": "ESA:C04",
+      "label": "Context, memory, tools and agent boundaries",
+      "kind": "published_book_chapter",
+      "collection": "R",
+      "category": null,
+      "streams": [
+        "T:System knowledge & memory",
+        "T:What agents can do"
+      ],
+      "topics": [
+        "K:Agent context and persistent memory",
+        "K:Delegated authority and action budgets",
+        "K:System understanding and rationale"
+      ],
+      "volumes": [
+        "V07"
+      ],
+      "mapped": [],
+      "actual": [],
+      "printed": false,
+      "summary": "Identify which instructions, permissions and tools a worker actually has. Promote verified claims into memory and revoke or revise them when their source changes.",
+      "limitation": "",
+      "authors": "Enrico Papalini",
+      "url": "https://www.amazon.com/dp/B0HSPH86CG",
+      "year": "2026",
+      "attributes": {
+        "label": "Context, memory, tools and agent boundaries",
+        "kind": "published_book_chapter",
+        "chapter_number": 4,
+        "chapter_no": 4,
+        "title": "Context, memory, tools and agent boundaries",
+        "volume_id": "V07",
+        "volume_title": "Engineering Software with Agentic AI",
+        "print_page": 43,
+        "source_locator": "English 7 × 10 print source, p. 43, chapter 4. EPUB: EPUB/text/ch010.xhtml#chapter-4",
+        "part": "Prepare the work",
+        "epub_locator": "EPUB/text/ch010.xhtml#chapter-4",
+        "collection": "R"
+      }
+    },
+    {
+      "id": "ESA:C05",
+      "label": "Design and prototype alternatives",
+      "kind": "published_book_chapter",
+      "collection": "R",
+      "category": null,
+      "streams": [
+        "T:Engineering structure",
+        "T:System knowledge & memory"
+      ],
+      "topics": [
+        "K:Architecture and modularity",
+        "K:Evaluation methodology and baselines",
+        "K:System understanding and rationale"
+      ],
+      "volumes": [
+        "V07"
+      ],
+      "mapped": [],
+      "actual": [],
+      "printed": false,
+      "summary": "Compare two designs under the same approved behavior, prototype their riskiest assumption and record the conditions for revisiting the design decision.",
+      "limitation": "",
+      "authors": "Enrico Papalini",
+      "url": "https://www.amazon.com/dp/B0HSPH86CG",
+      "year": "2026",
+      "attributes": {
+        "label": "Design and prototype alternatives",
+        "kind": "published_book_chapter",
+        "chapter_number": 5,
+        "chapter_no": 5,
+        "title": "Design and prototype alternatives",
+        "volume_id": "V07",
+        "volume_title": "Engineering Software with Agentic AI",
+        "print_page": 59,
+        "source_locator": "English 7 × 10 print source, p. 59, chapter 5. EPUB: EPUB/text/ch011.xhtml#chapter-5",
+        "part": "Prepare the work",
+        "epub_locator": "EPUB/text/ch011.xhtml#chapter-5",
+        "collection": "R"
+      }
+    },
+    {
+      "id": "ESA:C06",
+      "label": "Plan, delegate and orchestrate",
+      "kind": "published_book_chapter",
+      "collection": "R",
+      "category": null,
+      "streams": [
+        "T:What agents can do",
+        "T:Engineering structure"
+      ],
+      "topics": [
+        "K:Human-agent collaboration",
+        "K:Delegated authority and action budgets",
+        "K:Agent failure and escalation",
+        "K:Expect, Delegate, Observe, Decide (EDOD)"
+      ],
+      "volumes": [
+        "V07"
+      ],
+      "mapped": [],
+      "actual": [],
+      "printed": false,
+      "summary": "Split work by dependencies and handoffs. Budget attempts, use observations to guide retries and test the integrated result across workers.",
+      "limitation": "",
+      "authors": "Enrico Papalini",
+      "url": "https://www.amazon.com/dp/B0HSPH86CG",
+      "year": "2026",
+      "attributes": {
+        "label": "Plan, delegate and orchestrate",
+        "kind": "published_book_chapter",
+        "chapter_number": 6,
+        "chapter_no": 6,
+        "title": "Plan, delegate and orchestrate",
+        "volume_id": "V07",
+        "volume_title": "Engineering Software with Agentic AI",
+        "print_page": 72,
+        "source_locator": "English 7 × 10 print source, p. 72, chapter 6. EPUB: EPUB/text/ch012.xhtml#chapter-6",
+        "part": "Prepare the work",
+        "epub_locator": "EPUB/text/ch012.xhtml#chapter-6",
+        "collection": "R"
+      }
+    },
+    {
+      "id": "ESA:C07",
+      "label": "Implement and debug a bounded change",
+      "kind": "published_book_chapter",
+      "collection": "R",
+      "category": null,
+      "streams": [
+        "T:System knowledge & memory",
+        "T:Verification & review"
+      ],
+      "topics": [
+        "K:System understanding and rationale",
+        "K:Independent verification and oracles",
+        "K:Operational diagnosis and recovery",
+        "K:Expect, Delegate, Observe, Decide (EDOD)"
+      ],
+      "volumes": [
+        "V07"
+      ],
+      "mapped": [],
+      "actual": [],
+      "printed": false,
+      "summary": "Trace a failing value through a bounded change, distinguish fixture and product failures and preserve the candidate for independent review.",
+      "limitation": "",
+      "authors": "Enrico Papalini",
+      "url": "https://www.amazon.com/dp/B0HSPH86CG",
+      "year": "2026",
+      "attributes": {
+        "label": "Implement and debug a bounded change",
+        "kind": "published_book_chapter",
+        "chapter_number": 7,
+        "chapter_no": 7,
+        "title": "Implement and debug a bounded change",
+        "volume_id": "V07",
+        "volume_title": "Engineering Software with Agentic AI",
+        "print_page": 88,
+        "source_locator": "English 7 × 10 print source, p. 88, chapter 7. EPUB: EPUB/text/ch014.xhtml#chapter-7",
+        "part": "Deliver with evidence",
+        "epub_locator": "EPUB/text/ch014.xhtml#chapter-7",
+        "collection": "R"
+      }
+    },
+    {
+      "id": "ESA:C08",
+      "label": "Verify the contract independently",
+      "kind": "published_book_chapter",
+      "collection": "R",
+      "category": null,
+      "streams": [
+        "T:Verification & review",
+        "T:Code quality & security"
+      ],
+      "topics": [
+        "K:Independent verification and oracles",
+        "K:Concurrency and idempotency",
+        "K:Evaluation methodology and baselines"
+      ],
+      "volumes": [
+        "V07"
+      ],
+      "mapped": [],
+      "actual": [],
+      "printed": false,
+      "summary": "Derive expected results independently. Challenge apparently passing checks with properties and controlled faults, and test the actual consumer as well as its provider.",
+      "limitation": "",
+      "authors": "Enrico Papalini",
+      "url": "https://www.amazon.com/dp/B0HSPH86CG",
+      "year": "2026",
+      "attributes": {
+        "label": "Verify the contract independently",
+        "kind": "published_book_chapter",
+        "chapter_number": 8,
+        "chapter_no": 8,
+        "title": "Verify the contract independently",
+        "volume_id": "V07",
+        "volume_title": "Engineering Software with Agentic AI",
+        "print_page": 103,
+        "source_locator": "English 7 × 10 print source, p. 103, chapter 8. EPUB: EPUB/text/ch015.xhtml#chapter-8",
+        "part": "Deliver with evidence",
+        "epub_locator": "EPUB/text/ch015.xhtml#chapter-8",
+        "collection": "R"
+      }
+    },
+    {
+      "id": "ESA:C09",
+      "label": "Review, integrate and release with evidence",
+      "kind": "published_book_chapter",
+      "collection": "R",
+      "category": null,
+      "streams": [
+        "T:Verification & review",
+        "T:Engineering structure"
+      ],
+      "topics": [
+        "K:Independent verification and oracles",
+        "K:Delegated authority and action budgets",
+        "K:Operational diagnosis and recovery",
+        "K:Expect, Delegate, Observe, Decide (EDOD)"
+      ],
+      "volumes": [
+        "V07"
+      ],
+      "mapped": [],
+      "actual": [],
+      "printed": false,
+      "summary": "Bind review claims to the integrated candidate and extracted release artifact. Record who can accept, release or restore it, and recheck assumptions at the point of action.",
+      "limitation": "",
+      "authors": "Enrico Papalini",
+      "url": "https://www.amazon.com/dp/B0HSPH86CG",
+      "year": "2026",
+      "attributes": {
+        "label": "Review, integrate and release with evidence",
+        "kind": "published_book_chapter",
+        "chapter_number": 9,
+        "chapter_no": 9,
+        "title": "Review, integrate and release with evidence",
+        "volume_id": "V07",
+        "volume_title": "Engineering Software with Agentic AI",
+        "print_page": 120,
+        "source_locator": "English 7 × 10 print source, p. 120, chapter 9. EPUB: EPUB/text/ch016.xhtml#chapter-9",
+        "part": "Deliver with evidence",
+        "epub_locator": "EPUB/text/ch016.xhtml#chapter-9",
+        "collection": "R"
+      }
+    },
+    {
+      "id": "ESA:C10",
+      "label": "Evolve with compatible history",
+      "kind": "published_book_chapter",
+      "collection": "R",
+      "category": null,
+      "streams": [
+        "T:Engineering structure",
+        "T:System knowledge & memory"
+      ],
+      "topics": [
+        "K:Compatibility, replay and decision history",
+        "K:Concurrency and idempotency",
+        "K:Architecture and modularity"
+      ],
+      "volumes": [
+        "V07"
+      ],
+      "mapped": [],
+      "actual": [],
+      "printed": false,
+      "summary": "Separate replay from reassessment as policies change. Preserve transaction identity, history and compatibility across schema migrations and external effects.",
+      "limitation": "",
+      "authors": "Enrico Papalini",
+      "url": "https://www.amazon.com/dp/B0HSPH86CG",
+      "year": "2026",
+      "attributes": {
+        "label": "Evolve with compatible history",
+        "kind": "published_book_chapter",
+        "chapter_number": 10,
+        "chapter_no": 10,
+        "title": "Evolve with compatible history",
+        "volume_id": "V07",
+        "volume_title": "Engineering Software with Agentic AI",
+        "print_page": 136,
+        "source_locator": "English 7 × 10 print source, p. 136, chapter 10. EPUB: EPUB/text/ch018.xhtml#chapter-10",
+        "part": "Preserve and learn",
+        "epub_locator": "EPUB/text/ch018.xhtml#chapter-10",
+        "collection": "R"
+      }
+    },
+    {
+      "id": "ESA:C11",
+      "label": "Diagnose the system that actually ran",
+      "kind": "published_book_chapter",
+      "collection": "R",
+      "category": null,
+      "streams": [
+        "T:System knowledge & memory",
+        "T:Engineering structure"
+      ],
+      "topics": [
+        "K:Operational diagnosis and recovery",
+        "K:Compatibility, replay and decision history",
+        "K:System understanding and rationale"
+      ],
+      "volumes": [
+        "V07"
+      ],
+      "mapped": [],
+      "actual": [],
+      "printed": false,
+      "summary": "Distinguish candidate causes of an incident by observing the configuration, policy and ledger actually in use. Retain evidence while restoring service.",
+      "limitation": "",
+      "authors": "Enrico Papalini",
+      "url": "https://www.amazon.com/dp/B0HSPH86CG",
+      "year": "2026",
+      "attributes": {
+        "label": "Diagnose the system that actually ran",
+        "kind": "published_book_chapter",
+        "chapter_number": 11,
+        "chapter_no": 11,
+        "title": "Diagnose the system that actually ran",
+        "volume_id": "V07",
+        "volume_title": "Engineering Software with Agentic AI",
+        "print_page": 150,
+        "source_locator": "English 7 × 10 print source, p. 150, chapter 11. EPUB: EPUB/text/ch019.xhtml#chapter-11",
+        "part": "Preserve and learn",
+        "epub_locator": "EPUB/text/ch019.xhtml#chapter-11",
+        "collection": "R"
+      }
+    },
+    {
+      "id": "ESA:C12",
+      "label": "Learning, adoption and the whole cost",
+      "kind": "published_book_chapter",
+      "collection": "R",
+      "category": null,
+      "streams": [
+        "T:Economics",
+        "T:Skills & learning",
+        "T:Productivity"
+      ],
+      "topics": [
+        "K:Economic costs and return",
+        "K:Skills formation and teaching",
+        "K:Evaluation methodology and baselines",
+        "K:Cognitive offloading and skill debt"
+      ],
+      "volumes": [
+        "V07"
+      ],
+      "mapped": [],
+      "actual": [],
+      "printed": false,
+      "summary": "Evaluate a bounded adoption trial with reviewer effort, quality, cost per accepted outcome and evidence of what maintainers can retain and transfer.",
+      "limitation": "",
+      "authors": "Enrico Papalini",
+      "url": "https://www.amazon.com/dp/B0HSPH86CG",
+      "year": "2026",
+      "attributes": {
+        "label": "Learning, adoption and the whole cost",
+        "kind": "published_book_chapter",
+        "chapter_number": 12,
+        "chapter_no": 12,
+        "title": "Learning, adoption and the whole cost",
+        "volume_id": "V07",
+        "volume_title": "Engineering Software with Agentic AI",
+        "print_page": 161,
+        "source_locator": "English 7 × 10 print source, p. 161, chapter 12. EPUB: EPUB/text/ch020.xhtml#chapter-12",
+        "part": "Preserve and learn",
+        "epub_locator": "EPUB/text/ch020.xhtml#chapter-12",
+        "collection": "R"
+      }
+    }
+  ],
+  "reviewed_book_relationships": [
+    {
+      "source": "PACKT:C01",
+      "target": "PUB:PACKT",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 1 in the edition’s table of contents.",
+      "source_locator": "Packt print interior, p. 3, §§1.2–1.4, 1.6–1.8, 1.12–1.13"
+    },
+    {
+      "source": "PACKT:C01",
+      "target": "K:Long-running agent execution",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Following work across multiple attempts changes the completion contract.",
+      "source_locator": "Packt print interior, p. 3, §§1.2–1.4, 1.6–1.8, 1.12–1.13"
+    },
+    {
+      "source": "PACKT:C01",
+      "target": "K:Independent verification and oracles",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "A worker proposes a result and a separate evaluator judges it.",
+      "source_locator": "Packt print interior, p. 3, §§1.2–1.4, 1.6–1.8, 1.12–1.13"
+    },
+    {
+      "source": "PACKT:C01",
+      "target": "K:Agent context and persistent memory",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Progress must survive a change of context.",
+      "source_locator": "Packt print interior, p. 3, §§1.2–1.4, 1.6–1.8, 1.12–1.13"
+    },
+    {
+      "source": "PACKT:C01",
+      "target": "K:Delegated authority and action budgets",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Delegation levels assign different decisions to the worker and its supervisor.",
+      "source_locator": "Packt print interior, p. 3, §§1.2–1.4, 1.6–1.8, 1.12–1.13"
+    },
+    {
+      "source": "PACKT:C01",
+      "target": "T:What agents can do",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "The chapter traces the transition from prompting to a persistent loop, with a worker that proposes changes and an independent evaluator that decides when to accept them.",
+      "source_locator": "Packt print interior, p. 3, §§1.2–1.4, 1.6–1.8, 1.12–1.13"
+    },
+    {
+      "source": "PACKT:C01",
+      "target": "T:Verification & review",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "The chapter traces the transition from prompting to a persistent loop, with a worker that proposes changes and an independent evaluator that decides when to accept them.",
+      "source_locator": "Packt print interior, p. 3, §§1.2–1.4, 1.6–1.8, 1.12–1.13"
+    },
+    {
+      "source": "PACKT:C01",
+      "target": "T:System knowledge & memory",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "The chapter traces the transition from prompting to a persistent loop, with a worker that proposes changes and an independent evaluator that decides when to accept them.",
+      "source_locator": "Packt print interior, p. 3, §§1.2–1.4, 1.6–1.8, 1.12–1.13"
+    },
+    {
+      "source": "PACKT:C01",
+      "target": "B104",
+      "relation": "HISTORICAL_CHAPTER_COUNTERPART",
+      "rationale": "The earlier edition treats the same chapter subject. Its citations and source files belong to that edition.",
+      "source_locator": "Packt print interior, p. 3, §§1.2–1.4, 1.6–1.8, 1.12–1.13"
+    },
+    {
+      "source": "PACKT:C02",
+      "target": "PUB:PACKT",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 2 in the edition’s table of contents.",
+      "source_locator": "Packt print interior, p. 37, §§2.4–2.10, 2.12–2.13"
+    },
+    {
+      "source": "PACKT:C02",
+      "target": "K:Ownership and knowledge transfer",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Operating models distribute responsibility for accepting and escalating work.",
+      "source_locator": "Packt print interior, p. 37, §§2.4–2.10, 2.12–2.13"
+    },
+    {
+      "source": "PACKT:C02",
+      "target": "K:Specifications and governance",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Runtime governance makes decision rights enforceable.",
+      "source_locator": "Packt print interior, p. 37, §§2.4–2.10, 2.12–2.13"
+    },
+    {
+      "source": "PACKT:C02",
+      "target": "K:Human-agent collaboration",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "The operating models describe how people and agents share work.",
+      "source_locator": "Packt print interior, p. 37, §§2.4–2.10, 2.12–2.13"
+    },
+    {
+      "source": "PACKT:C02",
+      "target": "K:Delegated authority and action budgets",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "An escalation transfers a decision that exceeds the worker’s remit.",
+      "source_locator": "Packt print interior, p. 37, §§2.4–2.10, 2.12–2.13"
+    },
+    {
+      "source": "PACKT:C02",
+      "target": "T:Engineering structure",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "The chapter assigns ownership, verification and escalation responsibilities to teams, compares three operating models and examines what changes when governance moves into the runtime.",
+      "source_locator": "Packt print interior, p. 37, §§2.4–2.10, 2.12–2.13"
+    },
+    {
+      "source": "PACKT:C02",
+      "target": "T:Jobs & roles",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "The chapter assigns ownership, verification and escalation responsibilities to teams, compares three operating models and examines what changes when governance moves into the runtime.",
+      "source_locator": "Packt print interior, p. 37, §§2.4–2.10, 2.12–2.13"
+    },
+    {
+      "source": "PACKT:C02",
+      "target": "T:System knowledge & memory",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "The chapter assigns ownership, verification and escalation responsibilities to teams, compares three operating models and examines what changes when governance moves into the runtime.",
+      "source_locator": "Packt print interior, p. 37, §§2.4–2.10, 2.12–2.13"
+    },
+    {
+      "source": "PACKT:C02",
+      "target": "B105",
+      "relation": "HISTORICAL_CHAPTER_COUNTERPART",
+      "rationale": "The earlier edition treats the same chapter subject. Its citations and source files belong to that edition.",
+      "source_locator": "Packt print interior, p. 37, §§2.4–2.10, 2.12–2.13"
+    },
+    {
+      "source": "PACKT:C03",
+      "target": "PUB:PACKT",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 3 in the edition’s table of contents.",
+      "source_locator": "Packt print interior, p. 67, §§3.2–3.5, 3.8–3.10, 3.13"
+    },
+    {
+      "source": "PACKT:C03",
+      "target": "K:Economic costs and return",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Review, retries and verification all contribute to the cost of an accepted result.",
+      "source_locator": "Packt print interior, p. 67, §§3.2–3.5, 3.8–3.10, 3.13"
+    },
+    {
+      "source": "PACKT:C03",
+      "target": "K:Output versus shipped value",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Generating changes faster can leave end-to-end throughput unchanged.",
+      "source_locator": "Packt print interior, p. 67, §§3.2–3.5, 3.8–3.10, 3.13"
+    },
+    {
+      "source": "PACKT:C03",
+      "target": "K:Review capacity and maintainers",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "The regulated maintenance example follows work waiting for review.",
+      "source_locator": "Packt print interior, p. 67, §§3.2–3.5, 3.8–3.10, 3.13"
+    },
+    {
+      "source": "PACKT:C03",
+      "target": "T:Economics",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "The chapter costs an accepted outcome, including review and retries, and uses a regulated maintenance example to compare local speed with delivery throughput.",
+      "source_locator": "Packt print interior, p. 67, §§3.2–3.5, 3.8–3.10, 3.13"
+    },
+    {
+      "source": "PACKT:C03",
+      "target": "T:Productivity",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "The chapter costs an accepted outcome, including review and retries, and uses a regulated maintenance example to compare local speed with delivery throughput.",
+      "source_locator": "Packt print interior, p. 67, §§3.2–3.5, 3.8–3.10, 3.13"
+    },
+    {
+      "source": "PACKT:C03",
+      "target": "T:Verification & review",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "The chapter costs an accepted outcome, including review and retries, and uses a regulated maintenance example to compare local speed with delivery throughput.",
+      "source_locator": "Packt print interior, p. 67, §§3.2–3.5, 3.8–3.10, 3.13"
+    },
+    {
+      "source": "PACKT:C03",
+      "target": "B106",
+      "relation": "HISTORICAL_CHAPTER_COUNTERPART",
+      "rationale": "The earlier edition treats the same chapter subject. Its citations and source files belong to that edition.",
+      "source_locator": "Packt print interior, p. 67, §§3.2–3.5, 3.8–3.10, 3.13"
+    },
+    {
+      "source": "PACKT:C04",
+      "target": "PUB:PACKT",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 4 in the edition’s table of contents.",
+      "source_locator": "Packt print interior, p. 101, §§4.2–4.10, 4.15–4.17"
+    },
+    {
+      "source": "PACKT:C04",
+      "target": "K:Agent context and persistent memory",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "A persistent plan and checkpoints carry useful state into a fresh session.",
+      "source_locator": "Packt print interior, p. 101, §§4.2–4.10, 4.15–4.17"
+    },
+    {
+      "source": "PACKT:C04",
+      "target": "K:Long-running agent execution",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "The Ralph pattern gives each attempt a fresh context and one work item.",
+      "source_locator": "Packt print interior, p. 101, §§4.2–4.10, 4.15–4.17"
+    },
+    {
+      "source": "PACKT:C04",
+      "target": "K:Agent failure and escalation",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Failure and repeated attempts trigger escalation or a stop.",
+      "source_locator": "Packt print interior, p. 101, §§4.2–4.10, 4.15–4.17"
+    },
+    {
+      "source": "PACKT:C04",
+      "target": "T:What agents can do",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "The chapter follows one work item through a fresh context, an external plan, a verifier and a checkpoint. It compares shell, stop-hook and editor-driven variants and describes when to escalate.",
+      "source_locator": "Packt print interior, p. 101, §§4.2–4.10, 4.15–4.17"
+    },
+    {
+      "source": "PACKT:C04",
+      "target": "T:System knowledge & memory",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "The chapter follows one work item through a fresh context, an external plan, a verifier and a checkpoint. It compares shell, stop-hook and editor-driven variants and describes when to escalate.",
+      "source_locator": "Packt print interior, p. 101, §§4.2–4.10, 4.15–4.17"
+    },
+    {
+      "source": "PACKT:C04",
+      "target": "T:Verification & review",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "The chapter follows one work item through a fresh context, an external plan, a verifier and a checkpoint. It compares shell, stop-hook and editor-driven variants and describes when to escalate.",
+      "source_locator": "Packt print interior, p. 101, §§4.2–4.10, 4.15–4.17"
+    },
+    {
+      "source": "PACKT:C04",
+      "target": "B107",
+      "relation": "HISTORICAL_CHAPTER_COUNTERPART",
+      "rationale": "The earlier edition treats the same chapter subject. Its citations and source files belong to that edition.",
+      "source_locator": "Packt print interior, p. 101, §§4.2–4.10, 4.15–4.17"
+    },
+    {
+      "source": "PACKT:C05",
+      "target": "PUB:PACKT",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 5 in the edition’s table of contents.",
+      "source_locator": "Packt print interior, p. 133, §§5.2–5.7, 5.11–5.18, 5.23"
+    },
+    {
+      "source": "PACKT:C05",
+      "target": "K:Architecture and modularity",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "The reference design separates runtime, durable plan and verifier.",
+      "source_locator": "Packt print interior, p. 133, §§5.2–5.7, 5.11–5.18, 5.23"
+    },
+    {
+      "source": "PACKT:C05",
+      "target": "K:Independent verification and oracles",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "The worker cannot decide whether its own change satisfies a protected check.",
+      "source_locator": "Packt print interior, p. 133, §§5.2–5.7, 5.11–5.18, 5.23"
+    },
+    {
+      "source": "PACKT:C05",
+      "target": "K:Agent failure and escalation",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Retry, recovery and human escalation are explicit loop decisions.",
+      "source_locator": "Packt print interior, p. 133, §§5.2–5.7, 5.11–5.18, 5.23"
+    },
+    {
+      "source": "PACKT:C05",
+      "target": "K:Delegated authority and action budgets",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "A local runtime still needs limits on tools and attempts.",
+      "source_locator": "Packt print interior, p. 133, §§5.2–5.7, 5.11–5.18, 5.23"
+    },
+    {
+      "source": "PACKT:C05",
+      "target": "K:Operational diagnosis and recovery",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "The reference loop records failures and supports resuming from a checkpoint.",
+      "source_locator": "Packt print interior, p. 133, §§5.2–5.7, 5.11–5.18, 5.23"
+    },
+    {
+      "source": "PACKT:C05",
+      "target": "T:Engineering structure",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "A local reference implementation connects the model runtime, durable plan, protected verifier, retry and recovery policy, observability and human authority.",
+      "source_locator": "Packt print interior, p. 133, §§5.2–5.7, 5.11–5.18, 5.23"
+    },
+    {
+      "source": "PACKT:C05",
+      "target": "T:What agents can do",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "A local reference implementation connects the model runtime, durable plan, protected verifier, retry and recovery policy, observability and human authority.",
+      "source_locator": "Packt print interior, p. 133, §§5.2–5.7, 5.11–5.18, 5.23"
+    },
+    {
+      "source": "PACKT:C05",
+      "target": "T:Verification & review",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "A local reference implementation connects the model runtime, durable plan, protected verifier, retry and recovery policy, observability and human authority.",
+      "source_locator": "Packt print interior, p. 133, §§5.2–5.7, 5.11–5.18, 5.23"
+    },
+    {
+      "source": "PACKT:C05",
+      "target": "T:Code quality & security",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "A local reference implementation connects the model runtime, durable plan, protected verifier, retry and recovery policy, observability and human authority.",
+      "source_locator": "Packt print interior, p. 133, §§5.2–5.7, 5.11–5.18, 5.23"
+    },
+    {
+      "source": "PACKT:C05",
+      "target": "B108",
+      "relation": "HISTORICAL_CHAPTER_COUNTERPART",
+      "rationale": "The earlier edition treats the same chapter subject. Its citations and source files belong to that edition.",
+      "source_locator": "Packt print interior, p. 133, §§5.2–5.7, 5.11–5.18, 5.23"
+    },
+    {
+      "source": "PACKT:C06",
+      "target": "PUB:PACKT",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 6 in the edition’s table of contents.",
+      "source_locator": "Packt print interior, p. 185, §§6.3–6.9, 6.11–6.15"
+    },
+    {
+      "source": "PACKT:C06",
+      "target": "K:Agent failure and escalation",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "An observed failure determines which loop mechanism to add.",
+      "source_locator": "Packt print interior, p. 185, §§6.3–6.9, 6.11–6.15"
+    },
+    {
+      "source": "PACKT:C06",
+      "target": "K:Independent verification and oracles",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "External checks distinguish evidence of progress from a worker’s claim.",
+      "source_locator": "Packt print interior, p. 185, §§6.3–6.9, 6.11–6.15"
+    },
+    {
+      "source": "PACKT:C06",
+      "target": "K:Economic costs and return",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "The choice of mechanism depends on what another attempt costs.",
+      "source_locator": "Packt print interior, p. 185, §§6.3–6.9, 6.11–6.15"
+    },
+    {
+      "source": "PACKT:C06",
+      "target": "K:Delegated authority and action budgets",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "The customer-support case bounds actions and defines when a human takes over.",
+      "source_locator": "Packt print interior, p. 185, §§6.3–6.9, 6.11–6.15"
+    },
+    {
+      "source": "PACKT:C06",
+      "target": "T:What agents can do",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "The chapter matches an observed failure to the smallest suitable mechanism and tests the selection framework on a customer-support case involving retrieval, checks, budgets and escalation.",
+      "source_locator": "Packt print interior, p. 185, §§6.3–6.9, 6.11–6.15"
+    },
+    {
+      "source": "PACKT:C06",
+      "target": "T:Verification & review",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "The chapter matches an observed failure to the smallest suitable mechanism and tests the selection framework on a customer-support case involving retrieval, checks, budgets and escalation.",
+      "source_locator": "Packt print interior, p. 185, §§6.3–6.9, 6.11–6.15"
+    },
+    {
+      "source": "PACKT:C06",
+      "target": "T:Economics",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "The chapter matches an observed failure to the smallest suitable mechanism and tests the selection framework on a customer-support case involving retrieval, checks, budgets and escalation.",
+      "source_locator": "Packt print interior, p. 185, §§6.3–6.9, 6.11–6.15"
+    },
+    {
+      "source": "PACKT:C06",
+      "target": "B109",
+      "relation": "HISTORICAL_CHAPTER_COUNTERPART",
+      "rationale": "The earlier edition treats the same chapter subject. Its citations and source files belong to that edition.",
+      "source_locator": "Packt print interior, p. 185, §§6.3–6.9, 6.11–6.15"
+    },
+    {
+      "source": "ESA:C01",
+      "target": "PUB:ESA",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 1 in the edition’s table of contents.",
+      "source_locator": "English 7 × 10 print source, p. 2, chapter 1. EPUB: EPUB/text/ch006.xhtml#chapter-1"
+    },
+    {
+      "source": "ESA:C01",
+      "target": "K:Specifications and governance",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "The approved Treasury rule determines the expected result before the repair.",
+      "source_locator": "English 7 × 10 print source, p. 2, chapter 1. EPUB: EPUB/text/ch006.xhtml#chapter-1"
+    },
+    {
+      "source": "ESA:C01",
+      "target": "K:Independent verification and oracles",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "The engineer derives the expected boundary behavior before inspecting the candidate.",
+      "source_locator": "English 7 × 10 print source, p. 2, chapter 1. EPUB: EPUB/text/ch006.xhtml#chapter-1"
+    },
+    {
+      "source": "ESA:C01",
+      "target": "K:Delegated authority and action budgets",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "The work order identifies who may accept, stop or escalate the repair.",
+      "source_locator": "English 7 × 10 print source, p. 2, chapter 1. EPUB: EPUB/text/ch006.xhtml#chapter-1"
+    },
+    {
+      "source": "ESA:C01",
+      "target": "K:Expect, Delegate, Observe, Decide (EDOD)",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "The Treasury repair introduces the four decisions and transfers them to the reservation case.",
+      "source_locator": "English 7 × 10 print source, p. 2, chapter 1. EPUB: EPUB/text/ch006.xhtml#chapter-1"
+    },
+    {
+      "source": "ESA:C01",
+      "target": "T:Verification & review",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Tie a Treasury repair to the approved business rule, the candidate under review and the evidence for accepting, rejecting or escalating it.",
+      "source_locator": "English 7 × 10 print source, p. 2, chapter 1. EPUB: EPUB/text/ch006.xhtml#chapter-1"
+    },
+    {
+      "source": "ESA:C01",
+      "target": "T:Engineering structure",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Tie a Treasury repair to the approved business rule, the candidate under review and the evidence for accepting, rejecting or escalating it.",
+      "source_locator": "English 7 × 10 print source, p. 2, chapter 1. EPUB: EPUB/text/ch006.xhtml#chapter-1"
+    },
+    {
+      "source": "ESA:C02",
+      "target": "PUB:ESA",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 2 in the edition’s table of contents.",
+      "source_locator": "English 7 × 10 print source, p. 16, chapter 2. EPUB: EPUB/text/ch007.xhtml#chapter-2"
+    },
+    {
+      "source": "ESA:C02",
+      "target": "K:Output versus shipped value",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "The reservation request is reframed as a verifiable outcome.",
+      "source_locator": "English 7 × 10 print source, p. 16, chapter 2. EPUB: EPUB/text/ch007.xhtml#chapter-2"
+    },
+    {
+      "source": "ESA:C02",
+      "target": "K:Evaluation methodology and baselines",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "The chapter compares possible interventions and defines a measure before implementation.",
+      "source_locator": "English 7 × 10 print source, p. 16, chapter 2. EPUB: EPUB/text/ch007.xhtml#chapter-2"
+    },
+    {
+      "source": "ESA:C02",
+      "target": "K:Specifications and governance",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Unresolved claims shape the contract for the next step.",
+      "source_locator": "English 7 × 10 print source, p. 16, chapter 2. EPUB: EPUB/text/ch007.xhtml#chapter-2"
+    },
+    {
+      "source": "ESA:C02",
+      "target": "T:Productivity",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Investigate a request for a reservation service. Separate assumptions and observable problems, compare interventions, and choose an outcome whose success can be measured.",
+      "source_locator": "English 7 × 10 print source, p. 16, chapter 2. EPUB: EPUB/text/ch007.xhtml#chapter-2"
+    },
+    {
+      "source": "ESA:C02",
+      "target": "T:Engineering structure",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Investigate a request for a reservation service. Separate assumptions and observable problems, compare interventions, and choose an outcome whose success can be measured.",
+      "source_locator": "English 7 × 10 print source, p. 16, chapter 2. EPUB: EPUB/text/ch007.xhtml#chapter-2"
+    },
+    {
+      "source": "ESA:C03",
+      "target": "PUB:ESA",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 3 in the edition’s table of contents.",
+      "source_locator": "English 7 × 10 print source, p. 29, chapter 3. EPUB: EPUB/text/ch008.xhtml#chapter-3"
+    },
+    {
+      "source": "ESA:C03",
+      "target": "K:Specifications and governance",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Boundary examples, refusals and event sequences make competing interpretations visible.",
+      "source_locator": "English 7 × 10 print source, p. 29, chapter 3. EPUB: EPUB/text/ch008.xhtml#chapter-3"
+    },
+    {
+      "source": "ESA:C03",
+      "target": "K:Independent verification and oracles",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Acceptance examples let another engineer challenge the implementation.",
+      "source_locator": "English 7 × 10 print source, p. 29, chapter 3. EPUB: EPUB/text/ch008.xhtml#chapter-3"
+    },
+    {
+      "source": "ESA:C03",
+      "target": "T:Engineering structure",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Use boundary examples, refusals and event sequences to distinguish interpretations of a reservation contract. Turn unresolved questions into decisions for the owner.",
+      "source_locator": "English 7 × 10 print source, p. 29, chapter 3. EPUB: EPUB/text/ch008.xhtml#chapter-3"
+    },
+    {
+      "source": "ESA:C03",
+      "target": "T:Verification & review",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Use boundary examples, refusals and event sequences to distinguish interpretations of a reservation contract. Turn unresolved questions into decisions for the owner.",
+      "source_locator": "English 7 × 10 print source, p. 29, chapter 3. EPUB: EPUB/text/ch008.xhtml#chapter-3"
+    },
+    {
+      "source": "ESA:C04",
+      "target": "PUB:ESA",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 4 in the edition’s table of contents.",
+      "source_locator": "English 7 × 10 print source, p. 43, chapter 4. EPUB: EPUB/text/ch010.xhtml#chapter-4"
+    },
+    {
+      "source": "ESA:C04",
+      "target": "K:Agent context and persistent memory",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Claims enter memory only with a source and criteria for later revision.",
+      "source_locator": "English 7 × 10 print source, p. 43, chapter 4. EPUB: EPUB/text/ch010.xhtml#chapter-4"
+    },
+    {
+      "source": "ESA:C04",
+      "target": "K:Delegated authority and action budgets",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Loaded instructions, tool permissions and enforced boundaries determine what a worker can do.",
+      "source_locator": "English 7 × 10 print source, p. 43, chapter 4. EPUB: EPUB/text/ch010.xhtml#chapter-4"
+    },
+    {
+      "source": "ESA:C04",
+      "target": "K:System understanding and rationale",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "A checked handoff records what the next session can rely on.",
+      "source_locator": "English 7 × 10 print source, p. 43, chapter 4. EPUB: EPUB/text/ch010.xhtml#chapter-4"
+    },
+    {
+      "source": "ESA:C04",
+      "target": "T:System knowledge & memory",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Identify which instructions, permissions and tools a worker actually has. Promote verified claims into memory and revoke or revise them when their source changes.",
+      "source_locator": "English 7 × 10 print source, p. 43, chapter 4. EPUB: EPUB/text/ch010.xhtml#chapter-4"
+    },
+    {
+      "source": "ESA:C04",
+      "target": "T:What agents can do",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Identify which instructions, permissions and tools a worker actually has. Promote verified claims into memory and revoke or revise them when their source changes.",
+      "source_locator": "English 7 × 10 print source, p. 43, chapter 4. EPUB: EPUB/text/ch010.xhtml#chapter-4"
+    },
+    {
+      "source": "ESA:C05",
+      "target": "PUB:ESA",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 5 in the edition’s table of contents.",
+      "source_locator": "English 7 × 10 print source, p. 59, chapter 5. EPUB: EPUB/text/ch011.xhtml#chapter-5"
+    },
+    {
+      "source": "ESA:C05",
+      "target": "K:Architecture and modularity",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Two candidate designs are compared under the same behavioral invariants.",
+      "source_locator": "English 7 × 10 print source, p. 59, chapter 5. EPUB: EPUB/text/ch011.xhtml#chapter-5"
+    },
+    {
+      "source": "ESA:C05",
+      "target": "K:Evaluation methodology and baselines",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "A prototype tests the riskiest assumption before a design is retained.",
+      "source_locator": "English 7 × 10 print source, p. 59, chapter 5. EPUB: EPUB/text/ch011.xhtml#chapter-5"
+    },
+    {
+      "source": "ESA:C05",
+      "target": "K:System understanding and rationale",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "A decision record preserves the reasons and conditions for revisiting the design.",
+      "source_locator": "English 7 × 10 print source, p. 59, chapter 5. EPUB: EPUB/text/ch011.xhtml#chapter-5"
+    },
+    {
+      "source": "ESA:C05",
+      "target": "T:Engineering structure",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Compare two designs under the same approved behavior, prototype their riskiest assumption and record the conditions for revisiting the design decision.",
+      "source_locator": "English 7 × 10 print source, p. 59, chapter 5. EPUB: EPUB/text/ch011.xhtml#chapter-5"
+    },
+    {
+      "source": "ESA:C05",
+      "target": "T:System knowledge & memory",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Compare two designs under the same approved behavior, prototype their riskiest assumption and record the conditions for revisiting the design decision.",
+      "source_locator": "English 7 × 10 print source, p. 59, chapter 5. EPUB: EPUB/text/ch011.xhtml#chapter-5"
+    },
+    {
+      "source": "ESA:C06",
+      "target": "PUB:ESA",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 6 in the edition’s table of contents.",
+      "source_locator": "English 7 × 10 print source, p. 72, chapter 6. EPUB: EPUB/text/ch012.xhtml#chapter-6"
+    },
+    {
+      "source": "ESA:C06",
+      "target": "K:Human-agent collaboration",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Work is split into handoffs with named ownership across workers.",
+      "source_locator": "English 7 × 10 print source, p. 72, chapter 6. EPUB: EPUB/text/ch012.xhtml#chapter-6"
+    },
+    {
+      "source": "ESA:C06",
+      "target": "K:Delegated authority and action budgets",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "A budget and a stopping condition constrain the next attempt.",
+      "source_locator": "English 7 × 10 print source, p. 72, chapter 6. EPUB: EPUB/text/ch012.xhtml#chapter-6"
+    },
+    {
+      "source": "ESA:C06",
+      "target": "K:Agent failure and escalation",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Feedback distinguishes a useful refusal from a retry or escalation.",
+      "source_locator": "English 7 × 10 print source, p. 72, chapter 6. EPUB: EPUB/text/ch012.xhtml#chapter-6"
+    },
+    {
+      "source": "ESA:C06",
+      "target": "K:Expect, Delegate, Observe, Decide (EDOD)",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "The work order sets the expected result, bounds an attempt and records the observation and verdict before another attempt is authorized.",
+      "source_locator": "English 7 × 10 print source, p. 72, chapter 6. EPUB: EPUB/text/ch012.xhtml#chapter-6"
+    },
+    {
+      "source": "ESA:C06",
+      "target": "T:What agents can do",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Split work by dependencies and handoffs. Budget attempts, use observations to guide retries and test the integrated result across workers.",
+      "source_locator": "English 7 × 10 print source, p. 72, chapter 6. EPUB: EPUB/text/ch012.xhtml#chapter-6"
+    },
+    {
+      "source": "ESA:C06",
+      "target": "T:Engineering structure",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Split work by dependencies and handoffs. Budget attempts, use observations to guide retries and test the integrated result across workers.",
+      "source_locator": "English 7 × 10 print source, p. 72, chapter 6. EPUB: EPUB/text/ch012.xhtml#chapter-6"
+    },
+    {
+      "source": "ESA:C07",
+      "target": "PUB:ESA",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 7 in the edition’s table of contents.",
+      "source_locator": "English 7 × 10 print source, p. 88, chapter 7. EPUB: EPUB/text/ch014.xhtml#chapter-7"
+    },
+    {
+      "source": "ESA:C07",
+      "target": "K:System understanding and rationale",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Tracing a value reveals the boundary where its meaning changes.",
+      "source_locator": "English 7 × 10 print source, p. 88, chapter 7. EPUB: EPUB/text/ch014.xhtml#chapter-7"
+    },
+    {
+      "source": "ESA:C07",
+      "target": "K:Independent verification and oracles",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "The bounded candidate is retained for a separate engineering judgment.",
+      "source_locator": "English 7 × 10 print source, p. 88, chapter 7. EPUB: EPUB/text/ch014.xhtml#chapter-7"
+    },
+    {
+      "source": "ESA:C07",
+      "target": "K:Operational diagnosis and recovery",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "A diagnostic trace distinguishes a fixture failure from a product failure before acting.",
+      "source_locator": "English 7 × 10 print source, p. 88, chapter 7. EPUB: EPUB/text/ch014.xhtml#chapter-7"
+    },
+    {
+      "source": "ESA:C07",
+      "target": "K:Expect, Delegate, Observe, Decide (EDOD)",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "The engineer traces an observed failure, delegates a bounded repair and hands over an identified candidate for decision.",
+      "source_locator": "English 7 × 10 print source, p. 88, chapter 7. EPUB: EPUB/text/ch014.xhtml#chapter-7"
+    },
+    {
+      "source": "ESA:C07",
+      "target": "T:System knowledge & memory",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Trace a failing value through a bounded change, distinguish fixture and product failures and preserve the candidate for independent review.",
+      "source_locator": "English 7 × 10 print source, p. 88, chapter 7. EPUB: EPUB/text/ch014.xhtml#chapter-7"
+    },
+    {
+      "source": "ESA:C07",
+      "target": "T:Verification & review",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Trace a failing value through a bounded change, distinguish fixture and product failures and preserve the candidate for independent review.",
+      "source_locator": "English 7 × 10 print source, p. 88, chapter 7. EPUB: EPUB/text/ch014.xhtml#chapter-7"
+    },
+    {
+      "source": "ESA:C08",
+      "target": "PUB:ESA",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 8 in the edition’s table of contents.",
+      "source_locator": "English 7 × 10 print source, p. 103, chapter 8. EPUB: EPUB/text/ch015.xhtml#chapter-8"
+    },
+    {
+      "source": "ESA:C08",
+      "target": "K:Independent verification and oracles",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Independent expected values and controlled faults test whether a passing check can detect a bad change.",
+      "source_locator": "English 7 × 10 print source, p. 103, chapter 8. EPUB: EPUB/text/ch015.xhtml#chapter-8"
+    },
+    {
+      "source": "ESA:C08",
+      "target": "K:Concurrency and idempotency",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Section 8.8 verifies state transitions under concurrency at their actual boundary.",
+      "source_locator": "English 7 × 10 print source, p. 103, chapter 8. EPUB: EPUB/text/ch015.xhtml#chapter-8"
+    },
+    {
+      "source": "ESA:C08",
+      "target": "K:Evaluation methodology and baselines",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Surviving faults reveal what a set of tests can distinguish.",
+      "source_locator": "English 7 × 10 print source, p. 103, chapter 8. EPUB: EPUB/text/ch015.xhtml#chapter-8"
+    },
+    {
+      "source": "ESA:C08",
+      "target": "T:Verification & review",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Derive expected results independently. Challenge apparently passing checks with properties and controlled faults, and test the actual consumer as well as its provider.",
+      "source_locator": "English 7 × 10 print source, p. 103, chapter 8. EPUB: EPUB/text/ch015.xhtml#chapter-8"
+    },
+    {
+      "source": "ESA:C08",
+      "target": "T:Code quality & security",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Derive expected results independently. Challenge apparently passing checks with properties and controlled faults, and test the actual consumer as well as its provider.",
+      "source_locator": "English 7 × 10 print source, p. 103, chapter 8. EPUB: EPUB/text/ch015.xhtml#chapter-8"
+    },
+    {
+      "source": "ESA:C09",
+      "target": "PUB:ESA",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 9 in the edition’s table of contents.",
+      "source_locator": "English 7 × 10 print source, p. 120, chapter 9. EPUB: EPUB/text/ch016.xhtml#chapter-9"
+    },
+    {
+      "source": "ESA:C09",
+      "target": "K:Independent verification and oracles",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Review evidence is bound to the integrated and packaged artifact.",
+      "source_locator": "English 7 × 10 print source, p. 120, chapter 9. EPUB: EPUB/text/ch016.xhtml#chapter-9"
+    },
+    {
+      "source": "ESA:C09",
+      "target": "K:Delegated authority and action budgets",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Readiness, acceptance and authority to release are distinct decisions.",
+      "source_locator": "English 7 × 10 print source, p. 120, chapter 9. EPUB: EPUB/text/ch016.xhtml#chapter-9"
+    },
+    {
+      "source": "ESA:C09",
+      "target": "K:Operational diagnosis and recovery",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "The rollback contract identifies the object and conditions for restoring service.",
+      "source_locator": "English 7 × 10 print source, p. 120, chapter 9. EPUB: EPUB/text/ch016.xhtml#chapter-9"
+    },
+    {
+      "source": "ESA:C09",
+      "target": "K:Expect, Delegate, Observe, Decide (EDOD)",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "The work order follows the identified candidate through integration and packaging to the decision to accept, release or restore it.",
+      "source_locator": "English 7 × 10 print source, p. 120, chapter 9. EPUB: EPUB/text/ch016.xhtml#chapter-9"
+    },
+    {
+      "source": "ESA:C09",
+      "target": "T:Verification & review",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Bind review claims to the integrated candidate and extracted release artifact. Record who can accept, release or restore it, and recheck assumptions at the point of action.",
+      "source_locator": "English 7 × 10 print source, p. 120, chapter 9. EPUB: EPUB/text/ch016.xhtml#chapter-9"
+    },
+    {
+      "source": "ESA:C09",
+      "target": "T:Engineering structure",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Bind review claims to the integrated candidate and extracted release artifact. Record who can accept, release or restore it, and recheck assumptions at the point of action.",
+      "source_locator": "English 7 × 10 print source, p. 120, chapter 9. EPUB: EPUB/text/ch016.xhtml#chapter-9"
+    },
+    {
+      "source": "ESA:C10",
+      "target": "PUB:ESA",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 10 in the edition’s table of contents.",
+      "source_locator": "English 7 × 10 print source, p. 136, chapter 10. EPUB: EPUB/text/ch018.xhtml#chapter-10"
+    },
+    {
+      "source": "ESA:C10",
+      "target": "K:Compatibility, replay and decision history",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "A replay uses the recorded decision, while reassessment applies a new policy.",
+      "source_locator": "English 7 × 10 print source, p. 136, chapter 10. EPUB: EPUB/text/ch018.xhtml#chapter-10"
+    },
+    {
+      "source": "ESA:C10",
+      "target": "K:Concurrency and idempotency",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Request identity and a transaction boundary control duplicate effects.",
+      "source_locator": "English 7 × 10 print source, p. 136, chapter 10. EPUB: EPUB/text/ch018.xhtml#chapter-10"
+    },
+    {
+      "source": "ESA:C10",
+      "target": "K:Architecture and modularity",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Reader/writer compatibility affects the order in which storage formats can change.",
+      "source_locator": "English 7 × 10 print source, p. 136, chapter 10. EPUB: EPUB/text/ch018.xhtml#chapter-10"
+    },
+    {
+      "source": "ESA:C10",
+      "target": "T:Engineering structure",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Separate replay from reassessment as policies change. Preserve transaction identity, history and compatibility across schema migrations and external effects.",
+      "source_locator": "English 7 × 10 print source, p. 136, chapter 10. EPUB: EPUB/text/ch018.xhtml#chapter-10"
+    },
+    {
+      "source": "ESA:C10",
+      "target": "T:System knowledge & memory",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Separate replay from reassessment as policies change. Preserve transaction identity, history and compatibility across schema migrations and external effects.",
+      "source_locator": "English 7 × 10 print source, p. 136, chapter 10. EPUB: EPUB/text/ch018.xhtml#chapter-10"
+    },
+    {
+      "source": "ESA:C11",
+      "target": "PUB:ESA",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 11 in the edition’s table of contents.",
+      "source_locator": "English 7 × 10 print source, p. 150, chapter 11. EPUB: EPUB/text/ch019.xhtml#chapter-11"
+    },
+    {
+      "source": "ESA:C11",
+      "target": "K:Operational diagnosis and recovery",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Read-only observations distinguish the active configuration and ledger before recovery.",
+      "source_locator": "English 7 × 10 print source, p. 150, chapter 11. EPUB: EPUB/text/ch019.xhtml#chapter-11"
+    },
+    {
+      "source": "ESA:C11",
+      "target": "K:Compatibility, replay and decision history",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Restoring service preserves the separate histories of the states being examined.",
+      "source_locator": "English 7 × 10 print source, p. 150, chapter 11. EPUB: EPUB/text/ch019.xhtml#chapter-11"
+    },
+    {
+      "source": "ESA:C11",
+      "target": "K:System understanding and rationale",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Competing causal explanations predict different observations of the running system.",
+      "source_locator": "English 7 × 10 print source, p. 150, chapter 11. EPUB: EPUB/text/ch019.xhtml#chapter-11"
+    },
+    {
+      "source": "ESA:C11",
+      "target": "T:System knowledge & memory",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Distinguish candidate causes of an incident by observing the configuration, policy and ledger actually in use. Retain evidence while restoring service.",
+      "source_locator": "English 7 × 10 print source, p. 150, chapter 11. EPUB: EPUB/text/ch019.xhtml#chapter-11"
+    },
+    {
+      "source": "ESA:C11",
+      "target": "T:Engineering structure",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Distinguish candidate causes of an incident by observing the configuration, policy and ledger actually in use. Retain evidence while restoring service.",
+      "source_locator": "English 7 × 10 print source, p. 150, chapter 11. EPUB: EPUB/text/ch019.xhtml#chapter-11"
+    },
+    {
+      "source": "ESA:C12",
+      "target": "PUB:ESA",
+      "relation": "BOOK_CHAPTER_OF",
+      "rationale": "Numbered chapter 12 in the edition’s table of contents.",
+      "source_locator": "English 7 × 10 print source, p. 161, chapter 12. EPUB: EPUB/text/ch020.xhtml#chapter-12"
+    },
+    {
+      "source": "ESA:C12",
+      "target": "K:Economic costs and return",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Whole-cost accounting includes review, retries and the cost of an accepted result.",
+      "source_locator": "English 7 × 10 print source, p. 161, chapter 12. EPUB: EPUB/text/ch020.xhtml#chapter-12"
+    },
+    {
+      "source": "ESA:C12",
+      "target": "K:Skills formation and teaching",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "Retention and transfer are checked separately from task completion.",
+      "source_locator": "English 7 × 10 print source, p. 161, chapter 12. EPUB: EPUB/text/ch020.xhtml#chapter-12"
+    },
+    {
+      "source": "ESA:C12",
+      "target": "K:Evaluation methodology and baselines",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "A bounded adoption trial tests sensitivity to cost and quality assumptions.",
+      "source_locator": "English 7 × 10 print source, p. 161, chapter 12. EPUB: EPUB/text/ch020.xhtml#chapter-12"
+    },
+    {
+      "source": "ESA:C12",
+      "target": "K:Cognitive offloading and skill debt",
+      "relation": "BOOK_CHAPTER_TOPIC",
+      "rationale": "The book asks what judgment remains available to maintainers after delegation.",
+      "source_locator": "English 7 × 10 print source, p. 161, chapter 12. EPUB: EPUB/text/ch020.xhtml#chapter-12"
+    },
+    {
+      "source": "ESA:C12",
+      "target": "T:Economics",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Evaluate a bounded adoption trial with reviewer effort, quality, cost per accepted outcome and evidence of what maintainers can retain and transfer.",
+      "source_locator": "English 7 × 10 print source, p. 161, chapter 12. EPUB: EPUB/text/ch020.xhtml#chapter-12"
+    },
+    {
+      "source": "ESA:C12",
+      "target": "T:Skills & learning",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Evaluate a bounded adoption trial with reviewer effort, quality, cost per accepted outcome and evidence of what maintainers can retain and transfer.",
+      "source_locator": "English 7 × 10 print source, p. 161, chapter 12. EPUB: EPUB/text/ch020.xhtml#chapter-12"
+    },
+    {
+      "source": "ESA:C12",
+      "target": "T:Productivity",
+      "relation": "BOOK_CHAPTER_STREAM",
+      "rationale": "Evaluate a bounded adoption trial with reviewer effort, quality, cost per accepted outcome and evidence of what maintainers can retain and transfer.",
+      "source_locator": "English 7 × 10 print source, p. 161, chapter 12. EPUB: EPUB/text/ch020.xhtml#chapter-12"
+    },
+    {
+      "source": "PACKT:C01",
+      "target": "NDSE2:C03",
+      "relation": "BOOK_RELATED_READING",
+      "rationale": "The NDSE2 chapter sets out agent capability limits that the loop then has to detect.",
+      "source_locator": "Packt print interior, p. 3, §§1.2–1.4, 1.6–1.8, 1.12–1.13"
+    },
+    {
+      "source": "PACKT:C01",
+      "target": "F027",
+      "relation": "BOOK_CHAPTER_COMPANION_READING",
+      "rationale": "Compares the outcome sought by a human with the nested loops used to build software.",
+      "source_locator": "Packt print interior, p. 3, §§1.2–1.4, 1.6–1.8, 1.12–1.13"
+    },
+    {
+      "source": "PACKT:C01",
+      "target": "PAT:027",
+      "relation": "BOOK_CHAPTER_PRACTICE",
+      "rationale": "Separate proposal and acceptance when testing a completion contract.",
+      "source_locator": "Packt print interior, p. 3, §§1.2–1.4, 1.6–1.8, 1.12–1.13"
+    },
+    {
+      "source": "PACKT:C02",
+      "target": "NDSE2:C11",
+      "relation": "BOOK_RELATED_READING",
+      "rationale": "Compare runtime governance with the division of responsibility inside the engineering team.",
+      "source_locator": "Packt print interior, p. 37, §§2.4–2.10, 2.12–2.13"
+    },
+    {
+      "source": "PACKT:C02",
+      "target": "O052",
+      "relation": "BOOK_CHAPTER_COMPANION_READING",
+      "rationale": "Review and integration capacity constrain how many parallel tasks one person can supervise.",
+      "source_locator": "Packt print interior, p. 37, §§2.4–2.10, 2.12–2.13"
+    },
+    {
+      "source": "PACKT:C02",
+      "target": "PAT:032",
+      "relation": "BOOK_CHAPTER_PRACTICE",
+      "rationale": "Assign ownership of shared targets before coordinating multiple workers.",
+      "source_locator": "Packt print interior, p. 37, §§2.4–2.10, 2.12–2.13"
+    },
+    {
+      "source": "PACKT:C03",
+      "target": "NDSE2:C12",
+      "relation": "BOOK_RELATED_READING",
+      "rationale": "Both chapters examine adoption costs and the outcome the organization pays for.",
+      "source_locator": "Packt print interior, p. 67, §§3.2–3.5, 3.8–3.10, 3.13"
+    },
+    {
+      "source": "PACKT:C03",
+      "target": "P061",
+      "relation": "BOOK_CHAPTER_COMPANION_READING",
+      "rationale": "The measurement interviews connect adoption to delivery, quality and developer experience.",
+      "source_locator": "Packt print interior, p. 67, §§3.2–3.5, 3.8–3.10, 3.13"
+    },
+    {
+      "source": "PACKT:C03",
+      "target": "PAT:033",
+      "relation": "BOOK_CHAPTER_PRACTICE",
+      "rationale": "Price the next attempt together with the work needed to verify it.",
+      "source_locator": "Packt print interior, p. 67, §§3.2–3.5, 3.8–3.10, 3.13"
+    },
+    {
+      "source": "PACKT:C04",
+      "target": "NDSE2:C09",
+      "relation": "BOOK_RELATED_READING",
+      "rationale": "A new session relies on state retained outside the model’s context.",
+      "source_locator": "Packt print interior, p. 101, §§4.2–4.10, 4.15–4.17"
+    },
+    {
+      "source": "PACKT:C04",
+      "target": "O013",
+      "relation": "BOOK_CHAPTER_COMPANION_READING",
+      "rationale": "Compare the fresh-context pattern with guidance for agents working across sessions.",
+      "source_locator": "Packt print interior, p. 101, §§4.2–4.10, 4.15–4.17"
+    },
+    {
+      "source": "PACKT:C04",
+      "target": "PAT:023",
+      "relation": "BOOK_CHAPTER_PRACTICE",
+      "rationale": "Compare the external shell loop with the other Ralph variants.",
+      "source_locator": "Packt print interior, p. 101, §§4.2–4.10, 4.15–4.17"
+    },
+    {
+      "source": "PACKT:C05",
+      "target": "NDSE2:C06",
+      "relation": "BOOK_RELATED_READING",
+      "rationale": "A local runtime introduces security boundaries around tools and workspaces.",
+      "source_locator": "Packt print interior, p. 133, §§5.2–5.7, 5.11–5.18, 5.23"
+    },
+    {
+      "source": "PACKT:C05",
+      "target": "O054",
+      "relation": "BOOK_CHAPTER_COMPANION_READING",
+      "rationale": "The harness article covers durable state, checks, recovery and the execution environment.",
+      "source_locator": "Packt print interior, p. 133, §§5.2–5.7, 5.11–5.18, 5.23"
+    },
+    {
+      "source": "PACKT:C05",
+      "target": "PAT:034",
+      "relation": "BOOK_CHAPTER_PRACTICE",
+      "rationale": "Distinguish a successful check from permission to take an action.",
+      "source_locator": "Packt print interior, p. 133, §§5.2–5.7, 5.11–5.18, 5.23"
+    },
+    {
+      "source": "PACKT:C06",
+      "target": "NDSE2:C13",
+      "relation": "BOOK_RELATED_READING",
+      "rationale": "Both chapters ask which intervention fits the engineering problem at hand.",
+      "source_locator": "Packt print interior, p. 185, §§6.3–6.9, 6.11–6.15"
+    },
+    {
+      "source": "PACKT:C06",
+      "target": "W229",
+      "relation": "BOOK_CHAPTER_COMPANION_READING",
+      "rationale": "Repeated edits to already-clean code provide a bounded example for discussing an explicit stopping condition.",
+      "source_locator": "Packt print interior, p. 185, §§6.3–6.9, 6.11–6.15"
+    },
+    {
+      "source": "PACKT:C06",
+      "target": "PAT:084",
+      "relation": "BOOK_CHAPTER_PRACTICE",
+      "rationale": "Define the signal that sends an unresolved decision to a human.",
+      "source_locator": "Packt print interior, p. 185, §§6.3–6.9, 6.11–6.15"
+    },
+    {
+      "source": "ESA:C01",
+      "target": "NDSE2:C01",
+      "relation": "BOOK_RELATED_READING",
+      "rationale": "Compare how the two books define an accountable change and the decision to accept it.",
+      "source_locator": "English 7 × 10 print source, p. 2, chapter 1. EPUB: EPUB/text/ch006.xhtml#chapter-1"
+    },
+    {
+      "source": "ESA:C01",
+      "target": "F027",
+      "relation": "BOOK_CHAPTER_COMPANION_READING",
+      "rationale": "The outcome loop clarifies who owns the result of a delegated change.",
+      "source_locator": "English 7 × 10 print source, p. 2, chapter 1. EPUB: EPUB/text/ch006.xhtml#chapter-1"
+    },
+    {
+      "source": "ESA:C01",
+      "target": "PAT:027",
+      "relation": "BOOK_CHAPTER_PRACTICE",
+      "rationale": "A separate decision-maker checks whether the candidate meets the approved rule.",
+      "source_locator": "English 7 × 10 print source, p. 2, chapter 1. EPUB: EPUB/text/ch006.xhtml#chapter-1"
+    },
+    {
+      "source": "ESA:C02",
+      "target": "NDSE2:C04",
+      "relation": "BOOK_RELATED_READING",
+      "rationale": "A verifiable outcome becomes an intention that can be carried into a change contract.",
+      "source_locator": "English 7 × 10 print source, p. 16, chapter 2. EPUB: EPUB/text/ch007.xhtml#chapter-2"
+    },
+    {
+      "source": "ESA:C02",
+      "target": "O018",
+      "relation": "BOOK_CHAPTER_COMPANION_READING",
+      "rationale": "Compare the resulting work order with advice on writing a compact, testable agent specification.",
+      "source_locator": "English 7 × 10 print source, p. 16, chapter 2. EPUB: EPUB/text/ch007.xhtml#chapter-2"
+    },
+    {
+      "source": "ESA:C02",
+      "target": "PAT:067",
+      "relation": "BOOK_CHAPTER_PRACTICE",
+      "rationale": "Investigate an unresolved assumption before committing to a plan.",
+      "source_locator": "English 7 × 10 print source, p. 16, chapter 2. EPUB: EPUB/text/ch007.xhtml#chapter-2"
+    },
+    {
+      "source": "ESA:C03",
+      "target": "NDSE2:C04",
+      "relation": "BOOK_RELATED_READING",
+      "rationale": "Compare boundary examples with the NDSE2 treatment of intention contracts.",
+      "source_locator": "English 7 × 10 print source, p. 29, chapter 3. EPUB: EPUB/text/ch008.xhtml#chapter-3"
+    },
+    {
+      "source": "ESA:C03",
+      "target": "F023",
+      "relation": "BOOK_CHAPTER_COMPANION_READING",
+      "rationale": "The survey compares how specification workflows express intent before implementation.",
+      "source_locator": "English 7 × 10 print source, p. 29, chapter 3. EPUB: EPUB/text/ch008.xhtml#chapter-3"
+    },
+    {
+      "source": "ESA:C03",
+      "target": "PAT:043",
+      "relation": "BOOK_CHAPTER_PRACTICE",
+      "rationale": "An approved behavioral specification supplies the starting point for the implementation.",
+      "source_locator": "English 7 × 10 print source, p. 29, chapter 3. EPUB: EPUB/text/ch008.xhtml#chapter-3"
+    },
+    {
+      "source": "ESA:C04",
+      "target": "PACKT:C04",
+      "relation": "BOOK_RELATED_READING",
+      "rationale": "Fresh-context loops depend on the same distinction between durable claims and transient session state.",
+      "source_locator": "English 7 × 10 print source, p. 43, chapter 4. EPUB: EPUB/text/ch010.xhtml#chapter-4"
+    },
+    {
+      "source": "ESA:C04",
+      "target": "F025",
+      "relation": "BOOK_CHAPTER_COMPANION_READING",
+      "rationale": "Rules, subagents, hooks and external context illustrate different ways information reaches an agent.",
+      "source_locator": "English 7 × 10 print source, p. 43, chapter 4. EPUB: EPUB/text/ch010.xhtml#chapter-4"
+    },
+    {
+      "source": "ESA:C04",
+      "target": "PAT:029",
+      "relation": "BOOK_CHAPTER_PRACTICE",
+      "rationale": "Store a checked claim together with its provenance for a later session.",
+      "source_locator": "English 7 × 10 print source, p. 43, chapter 4. EPUB: EPUB/text/ch010.xhtml#chapter-4"
+    },
+    {
+      "source": "ESA:C05",
+      "target": "NDSE2:C05",
+      "relation": "BOOK_RELATED_READING",
+      "rationale": "Compare the prototype decision with the architectural constraints used to judge a retained change.",
+      "source_locator": "English 7 × 10 print source, p. 59, chapter 5. EPUB: EPUB/text/ch011.xhtml#chapter-5"
+    },
+    {
+      "source": "ESA:C05",
+      "target": "F024",
+      "relation": "BOOK_CHAPTER_COMPANION_READING",
+      "rationale": "A compiling candidate can still distort a type model or add unnecessary mechanisms.",
+      "source_locator": "English 7 × 10 print source, p. 59, chapter 5. EPUB: EPUB/text/ch011.xhtml#chapter-5"
+    },
+    {
+      "source": "ESA:C05",
+      "target": "PAT:063",
+      "relation": "BOOK_CHAPTER_PRACTICE",
+      "rationale": "Prototype alternatives under the same contract before deciding which one to retain.",
+      "source_locator": "English 7 × 10 print source, p. 59, chapter 5. EPUB: EPUB/text/ch011.xhtml#chapter-5"
+    },
+    {
+      "source": "ESA:C06",
+      "target": "NDSE2:C11",
+      "relation": "BOOK_RELATED_READING",
+      "rationale": "Team boundaries and handoffs determine who can accept integrated work.",
+      "source_locator": "English 7 × 10 print source, p. 72, chapter 6. EPUB: EPUB/text/ch012.xhtml#chapter-6"
+    },
+    {
+      "source": "ESA:C06",
+      "target": "P070",
+      "relation": "BOOK_CHAPTER_COMPANION_READING",
+      "rationale": "Parallel coding accounts contrast simultaneous execution with serial review and integration.",
+      "source_locator": "English 7 × 10 print source, p. 72, chapter 6. EPUB: EPUB/text/ch012.xhtml#chapter-6"
+    },
+    {
+      "source": "ESA:C06",
+      "target": "PAT:056",
+      "relation": "BOOK_CHAPTER_PRACTICE",
+      "rationale": "Make dependencies and integration checks explicit before work is divided.",
+      "source_locator": "English 7 × 10 print source, p. 72, chapter 6. EPUB: EPUB/text/ch012.xhtml#chapter-6"
+    },
+    {
+      "source": "ESA:C07",
+      "target": "NDSE2:C09",
+      "relation": "BOOK_RELATED_READING",
+      "rationale": "Understanding an existing system helps locate the first point where an observed value changes meaning.",
+      "source_locator": "English 7 × 10 print source, p. 88, chapter 7. EPUB: EPUB/text/ch014.xhtml#chapter-7"
+    },
+    {
+      "source": "ESA:C07",
+      "target": "O002",
+      "relation": "BOOK_CHAPTER_COMPANION_READING",
+      "rationale": "Brownfield guidance pairs recovery of tacit constraints with regression evidence.",
+      "source_locator": "English 7 × 10 print source, p. 88, chapter 7. EPUB: EPUB/text/ch014.xhtml#chapter-7"
+    },
+    {
+      "source": "ESA:C07",
+      "target": "PAT:046",
+      "relation": "BOOK_CHAPTER_PRACTICE",
+      "rationale": "Keep the repair small enough for its behavior to be traced and checked.",
+      "source_locator": "English 7 × 10 print source, p. 88, chapter 7. EPUB: EPUB/text/ch014.xhtml#chapter-7"
+    },
+    {
+      "source": "ESA:C08",
+      "target": "PACKT:C01",
+      "relation": "BOOK_RELATED_READING",
+      "rationale": "Compare the chapter’s four dimensions of independence with the loop’s separation of worker and evaluator.",
+      "source_locator": "English 7 × 10 print source, p. 103, chapter 8. EPUB: EPUB/text/ch015.xhtml#chapter-8"
+    },
+    {
+      "source": "ESA:C08",
+      "target": "F031",
+      "relation": "BOOK_CHAPTER_COMPANION_READING",
+      "rationale": "The exploratory TDD comparison shows why tests written inside the same loop deserve additional scrutiny.",
+      "source_locator": "English 7 × 10 print source, p. 103, chapter 8. EPUB: EPUB/text/ch015.xhtml#chapter-8"
+    },
+    {
+      "source": "ESA:C08",
+      "target": "PAT:014",
+      "relation": "BOOK_CHAPTER_PRACTICE",
+      "rationale": "Challenge an apparently passing check with a deterministic failure case.",
+      "source_locator": "English 7 × 10 print source, p. 103, chapter 8. EPUB: EPUB/text/ch015.xhtml#chapter-8"
+    },
+    {
+      "source": "ESA:C09",
+      "target": "PACKT:C02",
+      "relation": "BOOK_RELATED_READING",
+      "rationale": "Compare release authority for one candidate with runtime governance across teams.",
+      "source_locator": "English 7 × 10 print source, p. 120, chapter 9. EPUB: EPUB/text/ch016.xhtml#chapter-9"
+    },
+    {
+      "source": "ESA:C09",
+      "target": "O011",
+      "relation": "BOOK_CHAPTER_COMPANION_READING",
+      "rationale": "The review essay discusses the effort required to justify accepting an AI-generated change.",
+      "source_locator": "English 7 × 10 print source, p. 120, chapter 9. EPUB: EPUB/text/ch016.xhtml#chapter-9"
+    },
+    {
+      "source": "ESA:C09",
+      "target": "PAT:082",
+      "relation": "BOOK_CHAPTER_PRACTICE",
+      "rationale": "Keep verification evidence attached to the identity of the packaged candidate.",
+      "source_locator": "English 7 × 10 print source, p. 120, chapter 9. EPUB: EPUB/text/ch016.xhtml#chapter-9"
+    },
+    {
+      "source": "ESA:C10",
+      "target": "NDSE2:C05",
+      "relation": "BOOK_RELATED_READING",
+      "rationale": "Compatibility obligations constrain the design of the next change to persistent state.",
+      "source_locator": "English 7 × 10 print source, p. 136, chapter 10. EPUB: EPUB/text/ch018.xhtml#chapter-10"
+    },
+    {
+      "source": "ESA:C10",
+      "target": "F010",
+      "relation": "BOOK_CHAPTER_COMPANION_READING",
+      "rationale": "The migration case offers a comparison for checking behavior while replacing an existing representation.",
+      "source_locator": "English 7 × 10 print source, p. 136, chapter 10. EPUB: EPUB/text/ch018.xhtml#chapter-10"
+    },
+    {
+      "source": "ESA:C10",
+      "target": "PAT:015",
+      "relation": "BOOK_CHAPTER_PRACTICE",
+      "rationale": "Keep a regression check for the meaning of previously recorded decisions.",
+      "source_locator": "English 7 × 10 print source, p. 136, chapter 10. EPUB: EPUB/text/ch018.xhtml#chapter-10"
+    },
+    {
+      "source": "ESA:C11",
+      "target": "NDSE2:C09",
+      "relation": "BOOK_RELATED_READING",
+      "rationale": "Reconstructing a running system requires evidence of the configuration and state it actually selected.",
+      "source_locator": "English 7 × 10 print source, p. 150, chapter 11. EPUB: EPUB/text/ch019.xhtml#chapter-11"
+    },
+    {
+      "source": "ESA:C11",
+      "target": "P082",
+      "relation": "BOOK_CHAPTER_COMPANION_READING",
+      "rationale": "Diagnostics can expose which observation an engineer or agent needs to distinguish failure modes.",
+      "source_locator": "English 7 × 10 print source, p. 150, chapter 11. EPUB: EPUB/text/ch019.xhtml#chapter-11"
+    },
+    {
+      "source": "ESA:C11",
+      "target": "PAT:048",
+      "relation": "BOOK_CHAPTER_PRACTICE",
+      "rationale": "Require a causal explanation grounded in observations before retaining the repair.",
+      "source_locator": "English 7 × 10 print source, p. 150, chapter 11. EPUB: EPUB/text/ch019.xhtml#chapter-11"
+    },
+    {
+      "source": "ESA:C12",
+      "target": "PACKT:C03",
+      "relation": "BOOK_RELATED_READING",
+      "rationale": "Compare the adoption trial’s cost per accepted result with Packt’s economics of an engineering loop.",
+      "source_locator": "English 7 × 10 print source, p. 161, chapter 12. EPUB: EPUB/text/ch020.xhtml#chapter-12"
+    },
+    {
+      "source": "ESA:C12",
+      "target": "P061",
+      "relation": "BOOK_CHAPTER_COMPANION_READING",
+      "rationale": "Company measurement examples provide a comparison for the trial’s baseline and its delivery and quality measures.",
+      "source_locator": "English 7 × 10 print source, p. 161, chapter 12. EPUB: EPUB/text/ch020.xhtml#chapter-12"
+    },
+    {
+      "source": "ESA:C12",
+      "target": "PAT:059",
+      "relation": "BOOK_CHAPTER_PRACTICE",
+      "rationale": "Measure the accepted outcome and the effort required to obtain it.",
+      "source_locator": "English 7 × 10 print source, p. 161, chapter 12. EPUB: EPUB/text/ch020.xhtml#chapter-12"
+    },
+    {
+      "source": "ESA:C01",
+      "target": "ESA:M:G1",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission G1.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C03",
+      "target": "ESA:M:G1",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission G1.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C07",
+      "target": "ESA:M:G1",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission G1.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C08",
+      "target": "ESA:M:G1",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission G1.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C03",
+      "target": "ESA:M:G2",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission G2.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C07",
+      "target": "ESA:M:G2",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission G2.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C08",
+      "target": "ESA:M:G2",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission G2.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C10",
+      "target": "ESA:M:G2",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission G2.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C03",
+      "target": "ESA:M:G3",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission G3.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C06",
+      "target": "ESA:M:G3",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission G3.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C08",
+      "target": "ESA:M:G3",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission G3.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C09",
+      "target": "ESA:M:G3",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission G3.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C10",
+      "target": "ESA:M:G3",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission G3.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C09",
+      "target": "ESA:M:G4",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission G4.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C11",
+      "target": "ESA:M:G4",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission G4.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C12",
+      "target": "ESA:M:G4",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission G4.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C01",
+      "target": "ESA:M:B1",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission B1.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C04",
+      "target": "ESA:M:B1",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission B1.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C07",
+      "target": "ESA:M:B1",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission B1.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C08",
+      "target": "ESA:M:B1",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission B1.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C04",
+      "target": "ESA:M:B2",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission B2.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C05",
+      "target": "ESA:M:B2",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission B2.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C06",
+      "target": "ESA:M:B2",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission B2.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C08",
+      "target": "ESA:M:B2",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission B2.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C03",
+      "target": "ESA:M:B3",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission B3.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C08",
+      "target": "ESA:M:B3",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission B3.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C10",
+      "target": "ESA:M:B3",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission B3.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C09",
+      "target": "ESA:M:B4",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission B4.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C11",
+      "target": "ESA:M:B4",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission B4.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C12",
+      "target": "ESA:M:B4",
+      "relation": "BOOK_CHAPTER_PREPARES_MISSION",
+      "rationale": "The practice guide lists this chapter as preparation for mission B4.",
+      "source_locator": "ESA Table P.1, Practice guide"
+    },
+    {
+      "source": "ESA:C01",
+      "target": "PACKT:C01",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Sections 1.5.3 and 6.11 give the loop contract behind the four fields of the ESA work order.",
+      "source_locator": "ESA reference 8"
+    },
+    {
+      "source": "ESA:C01",
+      "target": "PACKT:C06",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Sections 1.5.3 and 6.11 give the loop contract behind the four fields of the ESA work order.",
+      "source_locator": "ESA reference 8"
+    },
+    {
+      "source": "ESA:C04",
+      "target": "PACKT:C03",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Section 3.3.1 explains the context accumulation and execution cost discussed in ESA.",
+      "source_locator": "ESA reference 19"
+    },
+    {
+      "source": "ESA:C04",
+      "target": "NDSE2:C09",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Sections 9.4–9.11 relate stored claims to their source, applicability and handoff to a successor.",
+      "source_locator": "ESA reference 30 (target: English NDSE2 v13.7.3; Atlas guide: v13.7.1)"
+    },
+    {
+      "source": "ESA:C06",
+      "target": "PACKT:C04",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Chapters 4–6 cover bounded execution, feedback and technique selection. ESA also uses §6.4.1 to interpret a measured feedback example.",
+      "source_locator": "ESA reference 38; Table 6.6"
+    },
+    {
+      "source": "ESA:C06",
+      "target": "PACKT:C05",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Chapters 4–6 cover bounded execution, feedback and technique selection. ESA also uses §6.4.1 to interpret a measured feedback example.",
+      "source_locator": "ESA reference 38; Table 6.6"
+    },
+    {
+      "source": "ESA:C06",
+      "target": "PACKT:C06",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Chapters 4–6 cover bounded execution, feedback and technique selection. ESA also uses §6.4.1 to interpret a measured feedback example.",
+      "source_locator": "ESA reference 38; Table 6.6"
+    },
+    {
+      "source": "ESA:C08",
+      "target": "PACKT:C05",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Sections 5.13, 6.2 and 6.4.2 connect protected verification and maker–checker separation to the interpretation of test evidence.",
+      "source_locator": "ESA reference 60; §§8.3, 8.7"
+    },
+    {
+      "source": "ESA:C08",
+      "target": "PACKT:C06",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Sections 5.13, 6.2 and 6.4.2 connect protected verification and maker–checker separation to the interpretation of test evidence.",
+      "source_locator": "ESA reference 60; §§8.3, 8.7"
+    },
+    {
+      "source": "ESA:C08",
+      "target": "NDSE2:C07",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Sections 7.7–7.9 connect oracle independence and correlated errors to a decision dossier.",
+      "source_locator": "ESA §8.1, reference 3 (target: English NDSE2 v13.7.3; Atlas guide: v13.7.1)"
+    },
+    {
+      "source": "ESA:C08",
+      "target": "B058",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Sections 10.4, 12.9 and 15.3.5 cover self-confirming tests, planned acceptance cases and an independent verifier.",
+      "source_locator": "ESA §§8.2–8.3, reference 2"
+    },
+    {
+      "source": "ESA:C08",
+      "target": "B060",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Sections 10.4, 12.9 and 15.3.5 cover self-confirming tests, planned acceptance cases and an independent verifier.",
+      "source_locator": "ESA §§8.2–8.3, reference 2"
+    },
+    {
+      "source": "ESA:C08",
+      "target": "B063",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Sections 10.4, 12.9 and 15.3.5 cover self-confirming tests, planned acceptance cases and an independent verifier.",
+      "source_locator": "ESA §§8.2–8.3, reference 2"
+    },
+    {
+      "source": "ESA:C09",
+      "target": "NDSE2:C08",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Sections 8.8–8.10 allocate review by risk and retain an accountable decision.",
+      "source_locator": "ESA §9.1, reference 3 (target: English NDSE2 v13.7.3; Atlas guide: v13.7.1)"
+    },
+    {
+      "source": "ESA:C09",
+      "target": "B060",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Sections 12.8–12.11, 15.3 and 16.2 address accountable gates, dependency checks, releases and review attention.",
+      "source_locator": "ESA §§9.1–9.2, 9.5–9.6, reference 2"
+    },
+    {
+      "source": "ESA:C09",
+      "target": "B063",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Sections 12.8–12.11, 15.3 and 16.2 address accountable gates, dependency checks, releases and review attention.",
+      "source_locator": "ESA §§9.1–9.2, 9.5–9.6, reference 2"
+    },
+    {
+      "source": "ESA:C09",
+      "target": "B064",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Sections 12.8–12.11, 15.3 and 16.2 address accountable gates, dependency checks, releases and review attention.",
+      "source_locator": "ESA §§9.1–9.2, 9.5–9.6, reference 2"
+    },
+    {
+      "source": "ESA:C09",
+      "target": "PUB:PACKT",
+      "relation": "BOOK_CITES_VOLUME",
+      "rationale": "The glossary supplies the term time-of-check/time-of-use for a changed release premise.",
+      "source_locator": "ESA §9.10; Packt glossary"
+    },
+    {
+      "source": "ESA:C10",
+      "target": "PUB:PACKT",
+      "relation": "BOOK_CITES_VOLUME",
+      "rationale": "The glossary supplies the term time-of-check/time-of-use for a precondition that changes before an external effect.",
+      "source_locator": "ESA §10.8; Packt glossary"
+    },
+    {
+      "source": "ESA:C12",
+      "target": "NDSE2:C10",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "The mentoring protocol in §§10.8–10.9 motivates separate tests of completion, retention and transfer.",
+      "source_locator": "ESA reference 86 (target: English NDSE2 v13.7.3; Atlas guide: v13.7.1)"
+    },
+    {
+      "source": "ESA:C12",
+      "target": "PACKT:C01",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Section 1.12.4 and the glossary describe comprehension debt; chapter 3 discusses cost, retries and shifting bottlenecks.",
+      "source_locator": "ESA reference 87"
+    },
+    {
+      "source": "ESA:C12",
+      "target": "PACKT:C03",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Section 1.12.4 and the glossary describe comprehension debt; chapter 3 discusses cost, retries and shifting bottlenecks.",
+      "source_locator": "ESA reference 87"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "PACKT:C01",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Relates completion contracts, cost per accepted outcome, maker–checker roles and deployment profiles to the ESA work order and evidence profiles.",
+      "source_locator": "Working glossary, “Terminology across the books”, p. 303"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "PACKT:C03",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Relates completion contracts, cost per accepted outcome, maker–checker roles and deployment profiles to the ESA work order and evidence profiles.",
+      "source_locator": "Working glossary, “Terminology across the books”, p. 303"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "PACKT:C06",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "Relates completion contracts, cost per accepted outcome, maker–checker roles and deployment profiles to the ESA work order and evidence profiles.",
+      "source_locator": "Working glossary, “Terminology across the books”, p. 303"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "PACKT:C04",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "References the versioned example of an external CLI loop and its controlled local runtime.",
+      "source_locator": "Working glossary, “Terminology across the books”, final paragraph; reference 92"
+    },
+    {
+      "source": "PUB:ESA",
+      "target": "PACKT:C05",
+      "relation": "BOOK_CITES_CHAPTER",
+      "rationale": "References the versioned example of an external CLI loop and its controlled local runtime.",
+      "source_locator": "Working glossary, “Terminology across the books”, final paragraph; reference 92"
+    }
+  ],
+  "practice_relationships": []
+}
